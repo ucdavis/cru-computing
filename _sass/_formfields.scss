@@ -1,0 +1,32 @@
+form {
+    .main {
+        background-color: $bg-color;
+        padding: 2%;
+        border-left: 3px solid $mint-green;
+        padding-left: 4%
+    }
+    input.search_input {
+        background-image:url(/media/search_form.svg);
+        background-repeat:no-repeat;
+        background-size: 20px 20px;
+        width:240px;
+        font-size:1.6rem;
+        color:$primary-font;
+        background-color:#fff;
+        border-radius:2px;
+        border:1px solid $borders;
+        height:40px;
+        padding-left:35px;
+        background-position:10px center;
+    }
+}
+
+label {
+    display: block;
+    font-family: $sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: $secondary-font;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}

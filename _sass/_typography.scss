@@ -1,0 +1,243 @@
+// baseline typography
+html {
+    font-size: 10px;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    line-height: 1.5;
+    @include breakpoint(tablet) {
+        font-size: 8px;
+    }
+    @include breakpoint(mobile) {
+        font-size: 7px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $a-link;
+    &:hover {
+        color: $a-hover;
+    }
+    &.archive {
+        text-align: right;
+        p {
+            color: $a-link;
+            margin-top: -60px;
+            font-size: 1.4rem;
+            &:hover {
+                color: $a-hover;
+            }
+        }
+    }
+}
+
+// ol {
+//  padding-left:0px;
+//  li {
+//      font-size:1.5rem;
+//      letter-spacing:.025rem;
+//      font-family:$serif;
+//      color:$primary-font;
+//      a {
+//          // font-size1.5rem;
+//      }
+//  }
+// }
+ul,
+ol {
+    padding-left: 0px;
+    li {
+        font-size: 1.6rem;
+        line-height: 1.8;
+        letter-spacing: .025rem;
+        font-family: $sans-serif;
+        color: $primary-font;
+        a {
+            // font-size1.5rem;
+        }
+    }
+    &.no-bullet li {
+        list-style-type: none;
+    }
+}
+article ul li ul {
+    margin-left:20px;
+    li {
+        list-style: disc;
+    }
+}
+ul.event-info {
+    li {
+        b {
+            color: $unitrans-red;
+        }
+    }
+}
+
+ul.footer-list {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 3px;
+    display: inline-block;
+    margin-top: 0px;
+    li {
+        display: inline-block;
+        border-right: 1px solid $borders;
+        padding-right: 10px;
+        margin-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        font-family: $sans-serif;
+        font-weight: 200;
+        color: $tertiary-font;
+        margin-top: 4px;
+        .foot_bottom & {
+            border-right: none;
+            padding-right: 5px;
+            margin-right: 5px;
+        }
+        &:last-child {
+            border-right: none;
+        }
+        a {
+            font-family: $sans-serif;
+            font-weight: 200;
+        }
+    }
+}
+
+p {
+    line-height: 1.625;
+    letter-spacing: .025rem;
+    font-size: 1.6rem;
+    font-family: $sans-serif;
+    color: $primary-font;
+    &.feed-description {
+        margin-top:0px;
+    }
+    &.tag-display {
+        margin-bottom:0px;
+        text-transform:uppercase;
+        font-size:1.4rem;
+        &.web {
+            color:$california-poppy;
+        }
+        &.app {
+            color:$recpool-blue;
+        }
+        &.helpdesk {
+            color:$sunny-grass;
+        }
+    }
+    &.lead {
+        border-bottom: 1px solid $borders;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        margin-top:10px;
+        font-size:1.8rem;
+        color:$secondary-font;
+        font-weight:300;
+    }
+    .banner & {
+        color: #fff;
+    }
+    &.image_caption {
+        font-size: 1.4rem;
+        line-height: 1.4;
+        color: $tertiary-font;
+        margin-bottom: 10px;
+        display: inline;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $primary-font;
+    font-family: $serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-family: $serif;
+    font-weight: 400;
+    color: $primary-font;
+}
+
+h1,
+.h1 {
+    font-size: 2.8rem;
+    margin-bottom: 5px;
+    font-weight: 400;
+    color: $primary-font;
+    .news_landing & {
+        font-size: 2.8rem;
+        color: $secondary-font;
+        font-family: $sans-serif;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    header & {
+        font-size:2.4rem;
+        font-weight:600;
+        color:$primary-color;
+        display:inline-block;
+    }
+}
+
+h2,
+.h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    &.feed-title {
+        margin-bottom:0px;
+        font-size:2rem;
+        a {
+            color:$primary-font;
+            &:hover {
+                color:$secondary-color;
+            }
+        }
+    }
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight:600;
+    .aside_col & {
+        font-size:1.4rem;
+        color:$tertiary-font;
+        font-weight:600;
+        letter-spacing: .60px;
+        text-transform:uppercase;
+
+    }
+    ul & {
+        font-size:1.8rem;
+        font-weight:400;
+    }
+}
+
+h4,
+.h4 {
+    font-size: 1.4rem
+}
+
+h5 {
+}
+
+blockquote {
+    background-color: $bg-color;
+    padding: 10px 12px;
+    border-left: 3px solid $tertiary-font;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: $secondary-font;
+    font-weight: 400;
+    font-family: $sans-serif;
+    margin-right: 0px;
+    margin-left: 60px;
+}

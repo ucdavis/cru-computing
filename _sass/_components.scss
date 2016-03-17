@@ -1,0 +1,151 @@
+hr {
+    border-color:$borders;
+}
+.section_divider {
+    margin-bottom: 10%;
+}
+.alert {
+    background-color:#D2F8AB;
+    border-radius:1px;
+    border:1px solid #78BE20;
+    padding:15px 15px;
+    p {
+        color:#60A011;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+}
+// ul {
+//     li {
+//         &.bullet-divider:after {
+//             content: "\2022";
+//             font-size: 20px;
+//             color:$tertiary-font;
+//         }
+//     }
+// }
+//images 
+img {
+    &.logo {
+        margin-right:16px;
+        margin-bottom:-12px;
+    }
+    &.caes_logo {
+        margin-bottom:-12px;
+    }
+}
+.image-wrapper {
+    width: auto;
+    margin-top: 7px;
+    img {
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    &.left {
+        float: left;
+        max-width: 300px;
+        padding-right:5%;
+    }
+    &.right {
+        float: right;
+        max-width: 300px;
+        padding-left:5%;
+    }
+    &.full-width {
+        max-width: 800px;
+    }
+}
+.img_article_thumb {
+    float: left;
+    max-width: 45%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    max-height:240px;
+}
+.btn {
+    padding: 8px 20px;
+    margin-top: 2.5%;
+    background-color: $secondary-color;
+    box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
+    border-radius: 2px;
+    font-family: $sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #fff;
+    cursor:pointer;
+    display: inline-block;
+    // text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+        opacity: .85;
+        color: #fff;
+    }
+    &.btn-red {
+        background-color: $unitrans-red;
+    }
+    &.btn-blue {
+        background-color: $blue;
+    }
+    &.btn-green {
+        background-color: $sunny-grass;
+    }
+    &.btn-newsletter {
+        background-color: $sunny-grass;
+    }
+}
+
+.float-right {
+    float: right;
+}
+
+.bg-sunny-grass {
+    background-color: $sunny-grass !important;
+}
+
+.bg-wine-grape {
+    background-color: $wine-grape !important;
+}
+
+.bg-recpool-blue {
+    background-color: $recpool-blue !important;
+}
+
+.bg-unitrans-red {
+    background-color: $unitrans-red !important;
+}
+
+.bg-golden-lupine {
+    background-color: $golden-lupine !important;
+}
+
+.bg-california-poppy {
+    background-color: $california-poppy !important;
+}
+.california-poppy {
+    color: $california-poppy !important;
+}
+.sunny-grass {
+    color: $sunny-grass !important;
+}
+.recpool-blue {
+    color: $recpool-blue !important;
+}
+
+// Video
+.video_wrapper {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 3%;
+    position: relative;
+    // overflow:hidden;
+    .video_words {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 60rem;
+        margin-top: -100px;
+    }
+}

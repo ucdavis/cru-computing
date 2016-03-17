@@ -1,0 +1,119 @@
+
+// fonts
+$sans-serif: "proxima-nova", arial, sans-serif; // light 300, reg 400, medium 500, semibold 600
+$serif: "proxima-nova",
+Georgia,
+serif; // light 300, book 400, regular 500
+// pretty colors 
+$primary-color: #002855;
+$secondary-color: #C99700;
+$primary-font: #444444; // p,li color in main content
+$secondary-font: #999999; // p,li color in portlet/sidebar
+$tertiary-font: #bbbbbb; // summary, discreet
+
+$bg-color: #F9F9F9; // background
+$borders: #C8C7CC; // border color
+
+$nav-active: #fff;
+
+$a-link: #016FC4;
+$a-hover: #DDB307;
+
+$blue: #016FC4;
+$gold: #DDB307;
+
+$mint-green: #028474;
+// UC Davis Colors
+// Supplemental bright color palette for UC Davis
+$unitrans-red: #ba0c2f;
+$western-redbud: #c6007e;
+$california-poppy: #ed8800;
+$golden-lupine: #ffcd00;
+$sunny-grass: #78be20;
+$sky-blue: #00b5e2;
+$recpool-blue: #008eaa;
+$wine-grape: #642667;
+// Supplemental neutral color palette for UC Davis
+$mu-brick: #c26e60;
+$harthall-stucco: #e6a65d;
+$sage-green: #9caf88;
+$evergreen: #00573f;
+$wintersky-gray: #5b7f95;
+$cenwalk-gray: #b1b3b3;
+$cork-oak: #aca39a;
+$shingle-brown: #4f2c1d;
+// mixins
+@mixin breakpoint($point) {
+    @if $point==hdres {
+        @media (max-width:1600px){
+            @content ;
+        }
+    }
+    @if $point==desktop {
+        @media (max-width: 1250px) {
+            @content ;
+        }
+    }
+    @else if $point==laptop {
+        @media (max-width: 1000px) {
+            @content ;
+        }
+    }
+    @else if $point==rufus {
+        @media (max-width: 850px) {
+            @content ;
+        }
+    }
+    @else if $point==tablet {
+        @media (max-width: 750px) {
+            @content ;
+        }
+    }
+    @else if $point==mobileonly {
+        @media (max-width: 640px) {
+            @content ;
+        }
+    }
+    @else if $point==smallmobile {
+        @media (max-width: 450px) {
+            @content ;
+        }
+    }
+}
+
+@mixin transitiontime {
+    transition-delay: 0s;
+    transition-duration: 0.75s;
+    transition-property: all;
+    transition-timing-function: ease;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 0.75s;
+    -webkit-transition-property: all;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-delay: 0s;
+    -moz-transition-duration: 0.75s;
+    -moz-transition-property: all;
+    -moz-transition-timing-function: ease;
+}
+
+
+@mixin transition($values: 0.3s ease-in) {
+    transition: $values;
+    -webkit-transition: $values;
+    -webkit-transform: translateZ(0); // Fix animation in Safari
+}
+
+@mixin container {
+    max-width: 1400px;
+    width: 80%;
+    margin: 0 auto;
+    min-width: 300px;
+    @include breakpoint(rufus) {
+      width:85%;
+    }
+    @include breakpoint(mobileonly) {
+        width: 90%;
+    }
+}
+
+
