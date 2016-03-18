@@ -1,5 +1,21 @@
 @charset "UTF-8";
 html {
+  position: relative;
+  height: 100%; }
+  html:before, html:after {
+    position: absolute;
+    content: '';
+    height: 5px;
+    top: 0;
+    left: 0;
+    right: 0; }
+  html:after {
+    top: auto;
+    bottom: 0; }
+  html:before {
+    background: linear-gradient(90deg, #DDB307 69%, #004B85 69%, #004B85 78%, #016FC4 78%); }
+
+html {
   font-size: 10px;
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
