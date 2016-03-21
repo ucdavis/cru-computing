@@ -704,6 +704,8 @@ img.caes_logo {
     padding-left: 5%; }
   .image-wrapper.full-width {
     max-width: 800px; }
+  .image-wrapper.centered {
+    text-align: center; }
 
 .img_article_thumb {
   float: left;
