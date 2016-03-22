@@ -993,6 +993,33 @@ ul.submenu {
   .aside_col ul li a:hover {
     color: #C99700; }
 
+.faculty {
+  margin: 0 auto;
+  width: 600px;
+  margin-top: 30px; }
+  .faculty .faculty-card {
+    padding-left: 20%; }
+    .faculty .faculty-card .faculty-image {
+      display: inline-block;
+      width: 10%;
+      vertical-align: top;
+      margin-right: 2%; }
+      .faculty .faculty-card .faculty-image img {
+        margin-top: 8px; }
+    .faculty .faculty-card .faculty-info {
+      display: inline-block;
+      width: 86%;
+      vertical-align: top; }
+      .faculty .faculty-card .faculty-info h3 {
+        margin-bottom: 0px; }
+      .faculty .faculty-card .faculty-info p {
+        margin-top: 0px;
+        margin-bottom: 1px; }
+      .faculty .faculty-card .faculty-info a {
+        margin-top: 3px;
+        font-size: 1.6rem;
+        font-family: "proxima-nova", arial, sans-serif; }
+
 .banner {
   max-width: 1400px;
   width: 80%;
