@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="379px" height="196px" viewBox="0 0 379 196" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="453px" height="232px" viewBox="0 0 453 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
     <title>team</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Team" transform="translate(-540.000000, -263.000000)">
-            <g id="team" transform="translate(540.000000, 263.000000)">
-                <g id="john" transform="translate(66.000000, 0.000000)">
+        <g id="Team" transform="translate(-566.000000, -263.000000)">
+            <g id="team" transform="translate(566.000000, 263.000000)">
+                <ellipse id="Oval-4" fill="#F0F0F0" cx="226.5" cy="186.5" rx="226.5" ry="44.8776224"></ellipse>
+                <g id="john" transform="translate(101.000000, 0.000000)">
                     <path d="M20,24 L24,24 L24,20 L20,20 L20,24 Z" id="Fill-1" fill="#E9C4AE"></path>
                     <path d="M24,100 L28,100 L28,96 L24,96 L24,100 Z" id="Fill-2" fill="#3C4E77"></path>
                     <path d="M28,100 L32,100 L32,96 L28,96 L28,100 Z" id="Fill-3" fill="#405084"></path>
@@ -304,7 +305,7 @@
                     <path d="M40,48 L44,48 L44,43.998 L40,43.998 L40,48 Z" id="Fill-294" fill="#132815"></path>
                     <path d="M40,40 L44,40 L44,36 L40,36 L40,40 Z" id="Fill-295" fill="#132815"></path>
                 </g>
-                <g id="adam" transform="translate(180.000000, 39.000000)">
+                <g id="adam" transform="translate(215.000000, 39.000000)">
                     <path d="M24,16 L28,16 L28,12 L24,12 L24,16 Z" id="Fill-1" fill="#DEE6CC"></path>
                     <path d="M16,120 L20,120 L20,116 L16,116 L16,120 Z" id="Fill-2" fill="#1E201D"></path>
                     <path d="M24,24 L28,24 L28,20 L24,20 L24,24 Z" id="Fill-3" fill="#EACAB9"></path>
@@ -650,7 +651,7 @@
                     <path d="M32,148 L36,148 L36,144 L32,144 L32,148 Z" id="Fill-343" fill="#4B5D89"></path>
                     <path d="M20,16 L24,16 L24,12 L20,12 L20,16 Z" id="Fill-344" fill="#2A2524"></path>
                 </g>
-                <g id="scott" transform="translate(115.000000, 23.000000)">
+                <g id="scott" transform="translate(150.000000, 23.000000)">
                     <path d="M20,22 L24,22 L24,18 L20,18 L20,22 Z" id="Fill-1" fill="#E4B4A7"></path>
                     <path d="M24,98 L28,98 L28,94 L24,94 L24,98 Z" id="Fill-2" fill="#826A40"></path>
                     <path d="M28,98 L32,98 L32,94 L28,94 L28,98 Z" id="Fill-3" fill="#826A40"></path>
@@ -934,7 +935,7 @@
                     <path d="M40,38 L44,38 L44,34 L40,34 L40,38 Z" id="Fill-281" fill="#3CB449"></path>
                     <path d="M36,46 L40,46 L40,42 L36,42 L36,46 Z" id="Fill-282" fill="#3CB449"></path>
                 </g>
-                <g id="tom" transform="translate(246.000000, 6.000000)">
+                <g id="tom" transform="translate(281.000000, 6.000000)">
                     <path d="M24,16 L28,16 L28,12 L24,12 L24,16 Z" id="Fill-1" fill="#DEE6CC"></path>
                     <path d="M16,132 L20,132 L20,128 L16,128 L16,132 Z" id="Fill-2" fill="#1E201D"></path>
                     <path d="M24,24 L28,24 L28,20 L24,20 L24,24 Z" id="Fill-3" fill="#E9C4AE"></path>
@@ -1333,7 +1334,7 @@
                     <path d="M32,160 L36,160 L36,156 L32,156 L32,160 Z" id="Fill-396" fill="#89A5C5"></path>
                     <path d="M20,16 L24,16 L24,12 L20,12 L20,16 Z" id="Fill-397" fill="#DEE6CC"></path>
                 </g>
-                <g id="shuka" transform="translate(276.000000, 39.000000)">
+                <g id="shuka" transform="translate(311.000000, 39.000000)">
                     <path d="M24,16 L28,16 L28,12 L24,12 L24,16 Z" id="Fill-1" fill="#DEE6CC"></path>
                     <path d="M16,120 L20,120 L20,116 L16,116 L16,120 Z" id="Fill-2" fill="#1E201D"></path>
                     <path d="M24,24 L28,24 L28,20 L24,20 L24,24 Z" id="Fill-3" fill="#EACAB9"></path>
@@ -1657,7 +1658,7 @@
                     <path d="M32,148 L36,148 L36,144 L32,144 L32,148 Z" id="Fill-321" fill="#4B5D89"></path>
                     <path d="M20,16 L24,16 L24,12 L20,12 L20,16 Z" id="Fill-322" fill="#2A2524"></path>
                 </g>
-                <g id="cal" transform="translate(323.000000, 48.000000)">
+                <g id="cal" transform="translate(358.000000, 48.000000)">
                     <path d="M24,24 L28,24 L28,20 L24,20 L24,24 Z" id="Fill-1" fill="#E9C4AE"></path>
                     <path d="M24,40 L28,40 L28,36 L24,36 L24,40 Z" id="Fill-2" fill="#151F45"></path>
                     <path d="M20,92 L24,92 L24,88 L20,88 L20,92 Z" id="Fill-3" fill="#1E201D"></path>
@@ -1933,7 +1934,7 @@
                     <path d="M36,120 L40,120 L40,116 L36,116 L36,120 Z" id="Fill-273" fill="#1E201D"></path>
                     <path d="M24,16 L28,16 L28,12 L24,12 L24,16 Z" id="Fill-274" fill="#392A2A"></path>
                 </g>
-                <g id="ken" transform="translate(44.000000, 39.000000)">
+                <g id="ken" transform="translate(79.000000, 39.000000)">
                     <path d="M16,16 L20,16 L20,12 L16,12 L16,16 Z" id="Fill-1" fill="#DEE6CC"></path>
                     <path d="M24,120 L28,120 L28,116 L24,116 L24,120 Z" id="Fill-2" fill="#89A5C5"></path>
                     <path d="M16,24 L20,24 L20,20 L16,20 L16,24 Z" id="Fill-3" fill="#EACAB9"></path>
@@ -2258,7 +2259,7 @@
                     <path d="M8,148 L12,148 L12,144 L8,144 L8,148 Z" id="Fill-322" fill="#89A5C5"></path>
                     <path d="M20,16 L24,16 L24,12 L20,12 L20,16 Z" id="Fill-323" fill="#2A2524"></path>
                 </g>
-                <g id="jason" transform="translate(0.000000, 18.000000)">
+                <g id="jason" transform="translate(35.000000, 18.000000)">
                     <path d="M20,20 L24,20 L24,16 L20,16 L20,20 Z" id="Fill-1" fill="#E9C4AE"></path>
                     <path d="M20,32 L24,32 L24,28 L20,28 L20,32 Z" id="Fill-2" fill="#1C1B1A"></path>
                     <path d="M28,92 L32,92 L32,88 L28,88 L28,92 Z" id="Fill-3" fill="#232C21"></path>
