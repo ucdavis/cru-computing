@@ -60,6 +60,28 @@ ol {
         list-style-type: none;
     }
 }
+ul.tabs {
+    border-bottom:1px solid $borders;
+    list-style: none;
+    margin-bottom:20px;
+    display:block;
+    li {
+        display:inline-block;
+        a {
+            color:$primary-font;
+            padding:10px 15px;
+            display:block;
+            margin-bottom:-1px;
+        }
+        &.active a {
+            color: $secondary-color;
+            cursor: default;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-bottom-color: transparent;
+        }
+    }
+}
 ul.portfolio_ul {
     li {
         list-style-type: none;

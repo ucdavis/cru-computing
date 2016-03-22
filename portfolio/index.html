@@ -12,14 +12,14 @@ title: CRU - Portfolio
             <p class="lead">
                 Whether its for small centers and departments or large campus wide applications, we have our hand in a lot of honey pots. Check out the list below for a comprehensive look at our sites.
             </p>
-            <ul class="portfolio_ul">
-                <li>
-                    <h3>ACE - Academic Course Evaluations</h3>
-                    <a target="_blank" href="http://ace.ucdavis.edu">http://ace.ucdavis.edu</a>
-                    <!-- <br>
-                    <a target="_blank" href="http://ace-comm.ucdavis.edu">http://ace-comm.ucdavis.edu</a> -->
-                    <p></p>
-                </li>
+            <ul class="tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Web Development</a></li>
+                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">App Development</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">
+                <ul class="portfolio_ul">                  
                 <li>
                     <h3>Afghan Ag</h3>
                     <p><a target="_blank" href="http://eafghanag.ucdavis.edu">http://eafghanag.ucdavis.edu</a></p>
@@ -164,6 +164,10 @@ title: CRU - Portfolio
                     <p><b>Client:</b> Robert Mondavi Institute for Wine and Food Sciences</p>
                     <p><b>Description:</b> The Robert Mondavi Institute allows the campus to move two departments -- Viticulture and Enology, and Food Science and Technology -- under one roof in a new, state-of-the-art facility.</p>
                 </li>
+                </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="profile">
+                    <ul class="portfolio_ul">
                 <li>
                     <h3>Give to UC Davis</h3>
                     <p><a target="_blank" href="http://give.ucdavis.edu/">http://give.ucdavis.edu/</a></p>
@@ -309,6 +313,18 @@ title: CRU - Portfolio
                     <p><b>Description:</b> Legacy program for managing yearly Agribusiness conference, including attendee tracking and materials distribution.</p>
                 </li>
             </ul>
+                </div>
+                
+            </div>
+            
         </article>
     </div>
 </div>
+   <script>
+          $('#myTabs a').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+          })
+          $('#myTabs a[href="#profile"]').tab('show') // Select tab by name
+          $('#myTabs a[href="#home"]').tab('show') // Select tab by name
+    </script>
