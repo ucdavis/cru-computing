@@ -10,6 +10,23 @@
         }
     }
 }
+.home_button-wrapper {
+    .home_button-card {
+        width:24%;
+        display:inline-block;
+        vertical-align: top;
+        text-align:center;
+        margin-top:35px;
+            a {
+                color:$primary-font;
+                font-size:1.8rem;
+                font-weight: 600;
+                &:hover {
+                    color:$primary-color;
+                }
+            }
+    }
+}
 .faculty {
     margin:0 auto;
     width:600px;
