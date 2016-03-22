@@ -1,53 +1,62 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Page Not Found</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        * {
-            line-height: 1.2;
-            margin: 0;
-        }
-        html {
-            color: #888;
-            display: table;
-            font-family: sans-serif;
-            height: 100%;
-            text-align: center;
-            width: 100%;
-        }
-        body {
-            display: table-cell;
-            vertical-align: middle;
-            margin: 2em auto;
+    * {
+        line-height: 1.2;
+        margin: 0;
+    }
+    
+    html {
+        color: #888;
+        display: table;
+        font-family: sans-serif;
+        height: 100%;
+        text-align: center;
+        width: 100%;
+    }
+    
+    body {
+        display: table-cell;
+        vertical-align: middle;
+        margin: 2em auto;
+    }
+    
+    h1 {
+        color: #555;
+        font-size: 2em;
+        font-weight: 400;
+    }
+    
+    p {
+        margin: 0 auto;
+        width: 280px;
+    }
+    
+    @media only screen and (max-width: 280px) {
+        body,
+        p {
+            width: 95%;
         }
         h1 {
-            color: #555;
-            font-size: 2em;
-            font-weight: 400;
+            font-size: 1.5em;
+            margin: 0 0 0.3em;
         }
-        p {
-            margin: 0 auto;
-            width: 280px;
-        }
-        @media only screen and (max-width: 280px) {
-            body, p {
-                width: 95%;
-            }
-            h1 {
-                font-size: 1.5em;
-                margin: 0 0 0.3em;
-            }
-        }
+    }
     </style>
 </head>
+
 <body>
     <h1>Aww man, we couldn't find the page!</h1>
     <br>
     <img src="/media/404.gif" alt="">
     <br>
     <br>
-    <h3>Sorry <a href="/">Click here</a> to go home</h3>
+    <p>Looks like you've taken a wrong turn, click <a href="/">here</a> to return to a safe haven</p>
 </body>
+
 </html>
