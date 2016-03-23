@@ -6,8 +6,8 @@
 </description>
     <link>http://computing.caes.ucdavis.edu/</link>
     <atom:link href="http://computing.caes.ucdavis.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Mar 2016 16:23:02 -0700</pubDate>
-    <lastBuildDate>Wed, 23 Mar 2016 16:23:02 -0700</lastBuildDate>
+    <pubDate>Wed, 23 Mar 2016 16:36:06 -0700</pubDate>
+    <lastBuildDate>Wed, 23 Mar 2016 16:36:06 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -294,6 +294,52 @@ The Systems Architect or other CRU staff will meet with unit heads to determine 
       </item>
     
       <item>
+        <title>Get an Account</title>
+        <description>&lt;p&gt;Here are the forms to fill out and sign to request computing access in the CA&amp;amp;ES Dean&#39;s Office. Supervisors, please send the Computing Account Request form to computer support at support&lt;a class=&quot;email-link&quot; href=&quot;mailto:support@caes.ucdavis.edu&quot; title=&quot;&quot;&gt;@caes.ucdavis.edu&lt;/a&gt;  and we will process your account request. Please print out the Dean&#39;s Office Computing Policy Agreement and the CA&amp;amp;ES Information Security Policy, have the new employee sign them and send them to us via campus mail, drop off at 38 Mrak, or scan and email them to support@caes.ucdavis.edu. Please be sure to include the user&#39;s valid Kerberos ID.&lt;/p&gt;
+
+&lt;h3&gt;Request Forms (supervisor)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Computing Account Request Form - Dean&#39;s Office [&lt;a href=&quot;/media/files/Computing-Account Request-Form-v1.6-DO.docx&quot; title=&quot;Computing Account Request Form - Dean&#39;s Office&quot;&gt;doc&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;To be signed by the new user:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Deans Office Computing Policy Agreement [&lt;a href=&quot;/media/files/Policy-Deans-Office Computing-Policy Agreement.doc&quot; title=&quot;PolicyDeansOfficeComputing&quot;&gt;doc&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;CA&amp;amp;ES Information Security Policy [&lt;a href=&quot;/media/files/Policy-Deans-Office Information-Security-Policy.docx&quot; title=&quot;Information Security Policy.doc&quot;&gt;doc&lt;/a&gt;] [&lt;a href=&quot;/media/files/Forms-CA-ES Information-Security-Policy.pdf&quot; target=&quot;_blank&quot; title=&quot;Information Security Policy.pdf&quot;&gt;pdf&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 07 May 2015 09:25:17 -0700</pubDate>
+        <link>http://computing.caes.ucdavis.edu/documentation/get-an-account</link>
+        <guid isPermaLink="true">http://computing.caes.ucdavis.edu/documentation/get-an-account</guid>
+        
+        <category>guide</category>
+        
+        
+        <category>helpdesk</category>
+        
+      </item>
+    
+      <item>
+        <title>Out of Office Reply with OWA</title>
+        <description>&lt;ul&gt;
+&lt;li&gt;Log on to Outlook Web Access at &lt;a class=&quot;external-link&quot; href=&quot;https://365.ucdavis.edu/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;https://365.ucdavis.edu/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;In the top right corner of the window, click on the settings gear. &lt;span&gt;In the menu click on &quot;Automatic replies.&quot;
+
+&lt;li&gt;Configure a temporary or indefinite period of out-of-office status, or turn off your out-of-office message.&lt;/li&gt;
+
+&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 07 Apr 2015 09:25:17 -0700</pubDate>
+        <link>http://computing.caes.ucdavis.edu/documentation/out-of-office</link>
+        <guid isPermaLink="true">http://computing.caes.ucdavis.edu/documentation/out-of-office</guid>
+        
+        <category>guide</category>
+        
+        
+        <category>helpdesk</category>
+        
+      </item>
+    
+      <item>
         <title>Mobile Device Use</title>
         <description>&lt;p&gt;Supporting a large number of mobile devices with varying types of software and user modifications can be a costly task in terms of IT staff time and resources. To ensure the integrity of the Dean’s Office data, network security, and office staff productivity, it is necessary to enact a set of mobile device use guidelines. The policy will apply to any mobile device supported by the Dean’s Office Computing Resource Unit (CRU) and/or any mobile device connected to the Dean’s Office subnet.&lt;/p&gt;
 &lt;ul&gt;
@@ -333,81 +379,6 @@ The Systems Architect or other CRU staff will meet with unit heads to determine 
         
         
         <category>policy</category>
-        
-      </item>
-    
-      <item>
-        <title>New Exchange Server Message Size Limits</title>
-        <description>&lt;div class=&quot;alert&quot;&gt;
-	&lt;p&gt;
-		Please note that messages over 20 megabytes cannot be handled by the helpdesk ticketing system, so please do not send messages larger than 20 megabytes to computer support, as they will be deleted without notice to the sender or receiver.
-	&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;The UC Davis tenant of Office365 has a per message limit of 150 MB. Messages over that size will be returned undelivered.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://ucdavisit.service-now.com/ess/knowledge_detail.do?sysparm_article=KB0000556&quot; target=&quot;_self&quot; title=&quot;&quot;&gt;https://ucdavisit.service-now.com/ess/knowledge_detail.do?sysparm_article=KB0000556&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 07 Mar 2015 08:25:17 -0800</pubDate>
-        <link>http://computing.caes.ucdavis.edu/policy/2015/03/07/new-exchange/</link>
-        <guid isPermaLink="true">http://computing.caes.ucdavis.edu/policy/2015/03/07/new-exchange/</guid>
-        
-        
-        <category>policy</category>
-        
-      </item>
-    
-      <item>
-        <title>DaFIS via DaFIS Connect</title>
-        <description>&lt;p&gt;&lt;i&gt;&lt;span class=&quot;discreet&quot;&gt;Before you begin: If you&#39;re unsure you&#39;ve been granted access to DaFIS, please contact the business office manager.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;1. Click the Windows Start Orb and in the search box type as much of &quot;&lt;i&gt;Remote Desktop Connection&lt;/i&gt;&quot; as needed to reveal the icon at the top of the menu.&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;Recommended:&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;&lt;i&gt;For Windows 7 – &lt;/i&gt;&lt;/b&gt;&lt;i&gt;Right click on &quot;Remote Desktop Connection&quot; and select &quot;Pin to Taskbar&quot;&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;&lt;i&gt;For Windows Vista – &lt;/i&gt;&lt;/b&gt;&lt;i&gt;Right click on &quot;Remote Desktop Connection” and select “Add to Quick Launch”&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&lt;i&gt;Optional: Right click on &quot;Remote Desktop Connection&quot; and select &quot;Pin to Start Menu&quot;&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;2. Click on &quot;&lt;i&gt;Remote Desktop Connection&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&quot; or one of the two icons created optionally above.&lt;/p&gt;
-&lt;p&gt;3. In the window labeled &quot;&lt;i&gt;Remote Desktop Connection&lt;/i&gt;&quot; Click on &quot;&lt;i&gt;Options&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&quot; to expand the view.&lt;/p&gt;
-&lt;p&gt;4. In the field &quot;&lt;i&gt;Computer&lt;/i&gt;&quot; enter &quot;&lt;i&gt;dafisconnect.ucdavis.edu&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&quot; without quotes.&lt;/p&gt;
-&lt;p&gt;&lt;i&gt;Optional: Make a desktop shortcut to DaFIS Connect by clicking on “Save As”, selecting the Desktop folder and naming the icon “DaFIS”. (In Windows Vista click “Browse Folders” to locate the Desktop folder.)&lt;/i&gt;&amp;lt;/p&amp;gt;&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-&lt;h3&gt;The resulting desktop icon:&lt;/h3&gt;
-&lt;p&gt;5.In the field &quot;&lt;i&gt;User name&lt;/i&gt;&quot; enter your uConnect/XEDA credentials in the following form:
-    &lt;br /&gt;&lt;span&gt;ad3\&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;kerberos-username&lt;/h3&gt;
-&lt;p&gt;
-    &lt;br /&gt;&lt;i&gt;&lt;span class=&quot;discreet&quot;&gt;Optional: Check the box marked &quot;Allow me to save credentials&quot;&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;6. Click &quot;&lt;i&gt;Connect&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;&quot;. When prompted enter your uConnect/XEDA/Kerberos passphrase.&lt;/p&gt;
-
-&lt;h3&gt;Troubleshooting logon issues:&lt;/h3&gt;
-&lt;ul&gt;
-    &lt;li&gt;In your &lt;b&gt;web browser&lt;/b&gt; goto: &lt;a class=&quot;external-link&quot; href=&quot;http://my.ucdavis.edu&quot;&gt;http://my.ucdavis.edu&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Hit the login button and enter your Kerberos username and password&lt;/li&gt;
-    &lt;li&gt;You can reset your Kerberos password at computingaccounts.ucdavis.edu o&lt;/li&gt;
-    &lt;li&gt;Call IET express to get your password reset if this fails&lt;/li&gt;
-    &lt;li&gt;530-754-HELP (4357&lt;/li&gt;
-    &lt;li&gt;If it works&lt;/li&gt;
-    &lt;li&gt;Use a &lt;b&gt;Remote Desktop Connection&lt;/b&gt; to&lt;/li&gt;
-    &lt;li&gt;dafisconnect.ucdavis.ed&lt;/li&gt;
-    &lt;li&gt;use &lt;b&gt;ad3\Kerberos_username&lt;/b&gt; for the user nam&lt;/li&gt;
-    &lt;li&gt;and the same passwor&lt;/li&gt;
-    &lt;li&gt;Call the Dafis help desk if that fails&lt;/li&gt;
-    &lt;li&gt;Phone: (530) 752-385&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 07 Mar 2015 08:25:17 -0800</pubDate>
-        <link>http://computing.caes.ucdavis.edu/documentation/dafis-connect</link>
-        <guid isPermaLink="true">http://computing.caes.ucdavis.edu/documentation/dafis-connect</guid>
-        
-        <category>guide</category>
-        
-        
-        <category>helpdesk</category>
         
       </item>
     
