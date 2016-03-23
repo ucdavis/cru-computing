@@ -63,7 +63,8 @@ ul.tabs {
       color: #444444;
       padding: 10px 15px;
       display: block;
-      margin-bottom: -1px; }
+      margin-bottom: -1px;
+      border: 1px solid transparent; }
     ul.tabs li.active a {
       color: #C99700;
       cursor: default;
@@ -1018,6 +1019,9 @@ ul.submenu {
   vertical-align: top;
   text-align: center;
   margin-top: 35px; }
+  @media (max-width: 750px) {
+    .home_button-wrapper .home_button-card {
+      width: 49%; } }
   .home_button-wrapper .home_button-card a {
     color: #444444;
     font-size: 1.8rem;

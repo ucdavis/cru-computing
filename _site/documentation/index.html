@@ -78,7 +78,7 @@
             </li>
             <li><a href="/portfolio">Portfolio</a></li>
             <li>
-                <a href="/status">Status</a>
+                <a target="_blank" href="http://status.caes.ucdavis.edu/">Status</a>
             </li>
         </ul>
     </nav>
@@ -88,63 +88,159 @@
     
         <div class="main">
     <div class="main_contents">
-    <aside>
-        <div class="aside_col">
-    <h3>Guides</h3>
-    <ul class="no-bullet">
-        <li><a href="/guides/help_desk">Help Desk</a></li>
-        <li><a href="/guides/web_dev">Web Development</a></li>
-        <li><a href="/guides/app_dev">App Development</a></li>
-    </ul>
-    <h3>Services</h3>
+        <aside>
+            <div class="aside_col">
+   
 </div>
 
-    </aside>
-    <article>
-        <h1>Guides</h1>
-        <p class="lead">Guides on guides on guides.</p>
-        <p>Struggling to maintain a proper temperature on your vintage flux capacitor or simply trying to login to plone? Hopefully, we have your questions answered in our guide section. Try narrowing down your question to one of our three section</p>
-        <p><a class="california-poppy" href="/guides/web_dev">Web Development</a> • <a class="recpool-blue" href="/guides/app_dev"> App Development</a> • <a class="sunny-grass" href="/guides/help_desk">Help Desk</a></p>
-            
-            <div class="feed-item">
-               <p class="tag-display helpdesk">Help Desk</p>
-                <h2 class="feed-title">
+        </aside>
+        <article>
+            <h1>Guides</h1>
+            <p class="lead">Guides on guides on guides.</p>
+            <p>Struggling to maintain a proper temperature on your vintage flux capacitor or simply trying to login to plone? Hopefully, we have your questions answered in our guide section. Try narrowing down your question to one of our three section</p>
+           <!--  <p><a class="california-poppy" href="/guides/web_dev">Web Development</a> • <a class="recpool-blue" href="/guides/app_dev"> App Development</a> • <a class="sunny-grass" href="/guides/help_desk">Help Desk</a></p> -->
+            <ul class="tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#help" aria-controls="help" role="tab" data-toggle="tab">Help Desk</a></li>
+                <li role="presentation"><a href="#policy" aria-controls="policy" role="tab" data-toggle="tab">Policies</a></li>
+                <li role="presentation"><a href="#web" aria-controls="web" role="tab" data-toggle="tab">Web Development</a></li>
+                <li role="presentation"><a href="#app" aria-controls="app" role="tab" data-toggle="tab">App Development</a></li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="help">
+                    
+                    <div class="feed-item">
+                        <h2 class="feed-title">
                       <a class="post-link" href="/guides/helpdesk/span-multiple-monitors">Span Multiple Monitors</a>
                     </h2>
-                <p class="feed-description">Instructions on how to use multiple displays in your Remote Desktop session in Windows.</p>
-            </div>
-            
-            <div class="feed-item">
-               <p class="tag-display web">Web Devopment</p>
-                <h2 class="feed-title">
+                        <p class="feed-description">Instructions on how to use multiple displays in your Remote Desktop session in Windows.</p>
+                    </div>
+                    
+                </div>
+                <div role="tabpanel" class="tab-pane" id="web">
+                    
+                    <div class="feed-item">
+                       
+                        <h2 class="feed-title">
                       <a class="post-link" href="/guides/web_dev/plone-login">Plone: How to Login</a>
                     </h2>
-                <p class="feed-description">How to login to your Plone site</p>
-            </div>
-            
-            <div class="feed-item">
-               <p class="tag-display web">Web Devopment</p>
-                <h2 class="feed-title">
+                        <p class="feed-description">How to login to your Plone site</p>
+                    </div>
+                    
+                    <div class="feed-item">
+                       
+                        <h2 class="feed-title">
                       <a class="post-link" href="/guides/web_dev/plone-editing-hand-out">Plone: Basic editing hand-out</a>
                     </h2>
-                <p class="feed-description">Download a short PDF guide outlining how to log in and edit content on the Plone CMS.</p>
+                        <p class="feed-description">Download a short PDF guide outlining how to log in and edit content on the Plone CMS.</p>
+                    </div>
+                    
+                </div>
+                <div role="tabpanel" class="tab-pane" id="app">
+                </div>
+                <div role="tabpanel" class="tab-pane" id="policy">
+                 
+            <div class="feed-item">
+                
+                <h2 class="feed-title">
+                      <a class="post-link" href="/policies/mac-hardware-standards">Mac Hardware Standards</a>
+                    </h2>
+                <p class="feed-description">CA&ES CRU Hardware Standards for Mac Desktops and Laptops</p>
             </div>
             
             <div class="feed-item">
-               <p class="tag-display app">Application Development</p>
+                
                 <h2 class="feed-title">
-                      <a class="post-link" href="/guides/app_dev/plone-editing-hand-out">Plone: Basic editing hand-out</a>
+                      <a class="post-link" href="/policies/pc-hardware-standards">PC Hardware Standards</a>
                     </h2>
-                <p class="feed-description">Download a short PDF guide outlining how to log in and edit content on the Plone CMS.</p>
+                <p class="feed-description">CA&ES CRU Hardware Standards for PC Desktops and Laptops</p>
             </div>
             
-        </div>
+            <div class="feed-item">
+                
+                <h2 class="feed-title">
+                      <a class="post-link" href="/policies/minimum-hardware-requirements">Minimum Hardware Requirements</a>
+                    </h2>
+                <p class="feed-description">All new computers supported by the CA&ES Dean’s Office Computer Resources Unit must either meet or exceed the following specifications:</p>
+            </div>
+            
+            <div class="feed-item">
+                
+                <h2 class="feed-title">
+                      <a class="post-link" href="/policies/ipad-advisory">Should I get an Apple iPad?</a>
+                    </h2>
+                <p class="feed-description">It really depends on your business and personal needs.</p>
+            </div>
+            
+            <div class="feed-item">
+                
+                <h2 class="feed-title">
+                      <a class="post-link" href="/policy/2015/07/07/computing-equipment-lifecycle/">Computing Equipment Lifecycle</a>
+                    </h2>
+                <p class="feed-description">Computing Resources Unit standards and practices for the life-cycles of computers, printers, and mobile devices.</p>
+            </div>
+            
+            <div class="feed-item">
+                
+                <h2 class="feed-title">
+                      <a class="post-link" href="/policy/2015/06/07/helpdesk-prioritization/">Helpdesk Prioritization List</a>
+                    </h2>
+                <p class="feed-description">A helpdesk prioritization list endorsed by senior leadership in the Dean's Office.</p>
+            </div>
+            
+            <div class="feed-item">
+                
+                <h2 class="feed-title">
+                      <a class="post-link" href="/policy/2015/05/07/info-security-policy/">Information Security Policy</a>
+                    </h2>
+                <p class="feed-description">This section describes CA&ES Dean's Office policy and procedures needed to comply with the UCD campus Cyber-Safety computing policy with regards to the storing and removal of Restricted Personal Information from computers and other electronic devices.</p>
+            </div>
+            
+            <div class="feed-item">
+                
+                <h2 class="feed-title">
+                      <a class="post-link" href="/policy/2015/04/07/mobile-device-use/">Mobile Device Use</a>
+                    </h2>
+                <p class="feed-description">This policy applies to any mobile device supported by the Dean’s Office Computing Resource Unit (CRU) and/or any mobile device connected to the Dean’s Office subnet.</p>
+            </div>
+            
+            <div class="feed-item">
+                
+                <h2 class="feed-title">
+                      <a class="post-link" href="/policy/2015/03/07/new-exchange/">New Exchange Server Message Size Limits</a>
+                    </h2>
+                <p class="feed-description">A note about an increase in the single message size limit on our email servers.</p>
+            </div>
+            
+            <div class="feed-item">
+                
+                <h2 class="feed-title">
+                      <a class="post-link" href="/policy/2015/02/07/approved-software/">Approved Software List</a>
+                    </h2>
+                <p class="feed-description">A list of applications that have been approved for use on Dean's Office computers. Installation of other software is at the discretion of the Director of Information Technology for the purpose of maintaining system stability, security, and legal compliance.</p>
+            </div>
+            
+            <div class="feed-item">
+                
+                <h2 class="feed-title">
+                      <a class="post-link" href="/policy/2015/01/07/Computing-Policy/">Computing Policy</a>
+                    </h2>
+                <p class="feed-description">Computing Policy that applies to any computer supported by the Dean's Office Computing Resource Unit, and/or any computer connected to the Dean's Office subnet.</p>
+            </div>
+            
+                </div>
+            </div>
+    </div>
     </article>
-        
-
-
 </div>
-
+<script>
+$('#myTabs a').click(function(e) {
+    e.preventDefault()
+    $(this).tab('show')
+})
+$('#myTabs a[href="#web"]').tab('show') // Select tab by name
+$('#myTabs a[href="#help"]').tab('show') // Select tab by name
+$('#myTabs a[href="#app"]').tab('show') // Select tab by name
+</script>
 
 
     <footer>

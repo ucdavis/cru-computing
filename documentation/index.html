@@ -3,29 +3,68 @@ layout: default
 title: CRU - Guides
 ---
 
-
 <div class="main">
     <div class="main_contents">
-    <aside>
-        {% include aside_nav.html %}
-    </aside>
-    <article>
-        <h1>Guides</h1>
-        <p class="lead">Guides on guides on guides.</p>
-        <p>Struggling to maintain a proper temperature on your vintage flux capacitor or simply trying to login to plone? Hopefully, we have your questions answered in our guide section. Try narrowing down your question to one of our three section</p>
-        <p><a class="california-poppy" href="/guides/web_dev">Web Development</a> • <a class="recpool-blue" href="/guides/app_dev"> App Development</a> • <a class="sunny-grass" href="/guides/help_desk">Help Desk</a></p>
-            {% for post in site.tags.guide %}
+        <aside>
+            {% include aside_nav.html %}
+        </aside>
+        <article>
+            <h1>Guides</h1>
+            <p class="lead">Guides on guides on guides.</p>
+            <p>Struggling to maintain a proper temperature on your vintage flux capacitor or simply trying to login to plone? Hopefully, we have your questions answered in our guide section. Try narrowing down your question to one of our three section</p>
+           <!--  <p><a class="california-poppy" href="/guides/web_dev">Web Development</a> • <a class="recpool-blue" href="/guides/app_dev"> App Development</a> • <a class="sunny-grass" href="/guides/help_desk">Help Desk</a></p> -->
+            <ul class="tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#help" aria-controls="help" role="tab" data-toggle="tab">Help Desk</a></li>
+                <li role="presentation"><a href="#policy" aria-controls="policy" role="tab" data-toggle="tab">Policies</a></li>
+                <li role="presentation"><a href="#web" aria-controls="web" role="tab" data-toggle="tab">Web Development</a></li>
+                <li role="presentation"><a href="#app" aria-controls="app" role="tab" data-toggle="tab">App Development</a></li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="help">
+                    {% for post in site.categories.helpdesk %}
+                    <div class="feed-item">
+                        <h2 class="feed-title">
+                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h2>
+                        <p class="feed-description">{{ post.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div role="tabpanel" class="tab-pane" id="web">
+                    {% for post in site.categories.web %}
+                    <div class="feed-item">
+                       
+                        <h2 class="feed-title">
+                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h2>
+                        <p class="feed-description">{{ post.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div role="tabpanel" class="tab-pane" id="app">
+                </div>
+                <div role="tabpanel" class="tab-pane" id="policy">
+                 {% for post in site.categories.policy %}
             <div class="feed-item">
-               <p class="tag-display {{ post.category }}">{{ post.display-tag }}</p>
+                {% if post.image %}
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="img_article_thumb" src="{{ post.image }}"></a>{% endif %}
                 <h2 class="feed-title">
                       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                     </h2>
                 <p class="feed-description">{{ post.description }}</p>
             </div>
             {% endfor %}
-        </div>
+                </div>
+            </div>
+    </div>
     </article>
-        
-
-
 </div>
+<script>
+$('#myTabs a').click(function(e) {
+    e.preventDefault()
+    $(this).tab('show')
+})
+$('#myTabs a[href="#web"]').tab('show') // Select tab by name
+$('#myTabs a[href="#help"]').tab('show') // Select tab by name
+$('#myTabs a[href="#app"]').tab('show') // Select tab by name
+</script>
