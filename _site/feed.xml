@@ -6,8 +6,8 @@
 </description>
     <link>http://computing.caes.ucdavis.edu/</link>
     <atom:link href="http://computing.caes.ucdavis.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Mar 2016 15:44:55 -0700</pubDate>
-    <lastBuildDate>Wed, 23 Mar 2016 15:44:55 -0700</lastBuildDate>
+    <pubDate>Wed, 23 Mar 2016 16:23:02 -0700</pubDate>
+    <lastBuildDate>Wed, 23 Mar 2016 16:23:02 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -356,82 +356,58 @@ The Systems Architect or other CRU staff will meet with unit heads to determine 
       </item>
     
       <item>
-        <title>Approved Software List</title>
-        <description>&lt;ul&gt;
-	&lt;li&gt;7-Zip&lt;/li&gt;
-&lt;li&gt;Adobe Create Suite Products
-	&lt;ul&gt;
-		&lt;li&gt;Adobe Acrobat&lt;/li&gt;
-		&lt;li&gt;Adobe After Effects&lt;/li&gt;
-		&lt;li&gt;Adobe Audition&lt;/li&gt;
-		&lt;li&gt;Adobe Bridge&lt;/li&gt;
-		&lt;li&gt;Adobe Contribute&lt;/li&gt;
-		&lt;li&gt;Adobe Dreamweaver&lt;/li&gt;
-		&lt;li&gt;Adobe Encore&lt;/li&gt;
-		&lt;li&gt;Adobe Fireworks&lt;/li&gt;
-		&lt;li&gt;Adobe Flash&lt;/li&gt;
-		&lt;li&gt;Adobe Illustrator&lt;/li&gt;
-		&lt;li&gt;Adobe InDesign&lt;/li&gt;
-		&lt;li&gt;Adobe Photoshop&lt;/li&gt;
-		&lt;li&gt;Adobe Premier Pro&lt;/li&gt;
-		&lt;li&gt;Adobe Shockwave Player&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Apple Safari&lt;/li&gt;
-&lt;li&gt;Audacity&lt;/li&gt;
-&lt;li&gt;Autodesk AutoCAD&lt;/li&gt;
-&lt;li&gt;Autodesk Design Review&lt;/li&gt;
-&lt;li&gt;Autodesk DWG TrueView&lt;/li&gt;
-&lt;li&gt;Beyond Compare&lt;/li&gt;
-&lt;li&gt;Box.net Client&lt;/li&gt;
-&lt;li&gt;Camtasia Studio&lt;/li&gt;
-&lt;li&gt;Citrix GoToMeeting&lt;/li&gt;
-&lt;li&gt;Citrix GoToTraining&lt;/li&gt;
-&lt;li&gt;Citrix GoToWebinar&lt;/li&gt;
-&lt;li&gt;Citrix Receiver&lt;/li&gt;
-&lt;li&gt;Dropbox Client&lt;/li&gt;
-&lt;li&gt;DYMO LabelWriter&lt;/li&gt;
-&lt;li&gt;EndNote&lt;/li&gt;
-&lt;li&gt;ESRI ArcGIS for Desktop&lt;/li&gt;
-&lt;li&gt;Evernote&lt;/li&gt;
-&lt;li&gt;FileMaker Pro&lt;/li&gt;
-&lt;li&gt;FileZilla Client&lt;/li&gt;
-&lt;li&gt;Fonts (Custom)&lt;/li&gt;
-&lt;li&gt;Fonts (UC Davis Fonts Pack)&lt;/li&gt;
-&lt;li&gt;Google Chrome&lt;/li&gt;
-&lt;li&gt;Google Earth&lt;/li&gt;
-&lt;li&gt;Google Picasa&lt;/li&gt;
-&lt;li&gt;IBM SPSS&lt;/li&gt;
-&lt;li&gt;K-Lite Codec Pack&lt;/li&gt;
-&lt;li&gt;Mendeley Desktop&lt;/li&gt;
-&lt;li&gt;Microsoft LifeCam&lt;/li&gt;
-&lt;li&gt;Microsoft SQL Server&lt;/li&gt;
-&lt;li&gt;Microsoft Visio&lt;/li&gt;
-&lt;li&gt;Microsoft Project&lt;/li&gt;
-&lt;li&gt;Microsoft Publisher&lt;/li&gt;
-&lt;li&gt;Microsoft Visual Studio&lt;/li&gt;
-&lt;li&gt;MoffSoft FreeCalc&lt;/li&gt;
-&lt;li&gt;Notepad++&lt;/li&gt;
-&lt;li&gt;PuTTy&lt;/li&gt;
-&lt;li&gt;QSR NVivo&lt;/li&gt;
-&lt;li&gt;R for Windows&lt;/li&gt;
-&lt;li&gt;Skype&lt;/li&gt;
-&lt;li&gt;TightVNC&lt;/li&gt;
-&lt;li&gt;TurningPoint&lt;/li&gt;
-&lt;li&gt;VLC Media Player&lt;/li&gt;
-&lt;li&gt;Webex Productivity Tools&lt;/li&gt;
-&lt;li&gt;Windows Live Movie Maker&lt;/li&gt;
-&lt;li&gt;Windows Live Photo Gallery&lt;/li&gt;
-&lt;li&gt;WinRAR&lt;/li&gt;
-&lt;li&gt;Zotero Standalone&lt;/li&gt;
+        <title>DaFIS via DaFIS Connect</title>
+        <description>&lt;p&gt;&lt;i&gt;&lt;span class=&quot;discreet&quot;&gt;Before you begin: If you&#39;re unsure you&#39;ve been granted access to DaFIS, please contact the business office manager.&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;1. Click the Windows Start Orb and in the search box type as much of &quot;&lt;i&gt;Remote Desktop Connection&lt;/i&gt;&quot; as needed to reveal the icon at the top of the menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Recommended:&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;i&gt;For Windows 7 – &lt;/i&gt;&lt;/b&gt;&lt;i&gt;Right click on &quot;Remote Desktop Connection&quot; and select &quot;Pin to Taskbar&quot;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;i&gt;For Windows Vista – &lt;/i&gt;&lt;/b&gt;&lt;i&gt;Right click on &quot;Remote Desktop Connection” and select “Add to Quick Launch”&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Optional: Right click on &quot;Remote Desktop Connection&quot; and select &quot;Pin to Start Menu&quot;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;2. Click on &quot;&lt;i&gt;Remote Desktop Connection&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&quot; or one of the two icons created optionally above.&lt;/p&gt;
+&lt;p&gt;3. In the window labeled &quot;&lt;i&gt;Remote Desktop Connection&lt;/i&gt;&quot; Click on &quot;&lt;i&gt;Options&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&quot; to expand the view.&lt;/p&gt;
+&lt;p&gt;4. In the field &quot;&lt;i&gt;Computer&lt;/i&gt;&quot; enter &quot;&lt;i&gt;dafisconnect.ucdavis.edu&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&quot; without quotes.&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Optional: Make a desktop shortcut to DaFIS Connect by clicking on “Save As”, selecting the Desktop folder and naming the icon “DaFIS”. (In Windows Vista click “Browse Folders” to locate the Desktop folder.)&lt;/i&gt;&amp;lt;/p&amp;gt;&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+&lt;h3&gt;The resulting desktop icon:&lt;/h3&gt;
+&lt;p&gt;5.In the field &quot;&lt;i&gt;User name&lt;/i&gt;&quot; enter your uConnect/XEDA credentials in the following form:
+    &lt;br /&gt;&lt;span&gt;ad3\&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;kerberos-username&lt;/h3&gt;
+&lt;p&gt;
+    &lt;br /&gt;&lt;i&gt;&lt;span class=&quot;discreet&quot;&gt;Optional: Check the box marked &quot;Allow me to save credentials&quot;&lt;/span&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;6. Click &quot;&lt;i&gt;Connect&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&quot;. When prompted enter your uConnect/XEDA/Kerberos passphrase.&lt;/p&gt;
+
+&lt;h3&gt;Troubleshooting logon issues:&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;In your &lt;b&gt;web browser&lt;/b&gt; goto: &lt;a class=&quot;external-link&quot; href=&quot;http://my.ucdavis.edu&quot;&gt;http://my.ucdavis.edu&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Hit the login button and enter your Kerberos username and password&lt;/li&gt;
+    &lt;li&gt;You can reset your Kerberos password at computingaccounts.ucdavis.edu o&lt;/li&gt;
+    &lt;li&gt;Call IET express to get your password reset if this fails&lt;/li&gt;
+    &lt;li&gt;530-754-HELP (4357&lt;/li&gt;
+    &lt;li&gt;If it works&lt;/li&gt;
+    &lt;li&gt;Use a &lt;b&gt;Remote Desktop Connection&lt;/b&gt; to&lt;/li&gt;
+    &lt;li&gt;dafisconnect.ucdavis.ed&lt;/li&gt;
+    &lt;li&gt;use &lt;b&gt;ad3\Kerberos_username&lt;/b&gt; for the user nam&lt;/li&gt;
+    &lt;li&gt;and the same passwor&lt;/li&gt;
+    &lt;li&gt;Call the Dafis help desk if that fails&lt;/li&gt;
+    &lt;li&gt;Phone: (530) 752-385&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 07 Feb 2015 08:25:17 -0800</pubDate>
-        <link>http://computing.caes.ucdavis.edu/policy/2015/02/07/approved-software/</link>
-        <guid isPermaLink="true">http://computing.caes.ucdavis.edu/policy/2015/02/07/approved-software/</guid>
+        <pubDate>Sat, 07 Mar 2015 08:25:17 -0800</pubDate>
+        <link>http://computing.caes.ucdavis.edu/documentation/dafis-connect</link>
+        <guid isPermaLink="true">http://computing.caes.ucdavis.edu/documentation/dafis-connect</guid>
+        
+        <category>guide</category>
         
         
-        <category>policy</category>
+        <category>helpdesk</category>
         
       </item>
     
