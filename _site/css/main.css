@@ -37,6 +37,11 @@ a {
       font-size: 1.4rem; }
       a.archive p:hover {
         color: #DDB307; }
+  a.collapse-more {
+    color: #999999;
+    font-family: "proxima-nova", arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600; }
 
 ul,
 ol {
