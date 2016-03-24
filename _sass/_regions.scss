@@ -18,6 +18,9 @@
     // border-bottom-right-radius:6px;
     background-color:#fff;
     margin-top:50px;
+    &:first-child {
+        margin-top:20px;
+    }
     &.in-dev {
         border-top:4px solid $sunny-grass;
     }

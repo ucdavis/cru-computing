@@ -67,7 +67,7 @@
                     <li><a href="/documentation/help_desk">Help Desk</a></li>
                     <li><a href="/documentation/policies">Policies</a></li>
                     <li><a href="/documentation/#web">Web Development</a></li>
-                    <li><a href="/documentation#">App Development</a></li>
+                    <li><a href="/documentation#web">App Development</a></li>
                 </ul>
             </li>
             <li>
@@ -117,23 +117,33 @@
                 <div class="queue-card in-dev">
                     <h3>Grow Food at UC Davis</h3>
                     <p>After we moved ASI off (.28) only one site remained, Saladbowl Garden. After contacting the owners about retiring the site, they denied and requested a new simple site that hosts a number of the edible gardens at UC Davis</p>
-                    <ul class="no-bullet">
-                        <li>Contact: <a href="mailto:ngdean@ucdavis.edu">Natalie Dean</a> • <a href="mailto:sparker@ucdavis.edu">Stacey Parker</a></li>
-                        <li>Average Monthly Views: 42</li>
-                        <br>
-                        <li>Development URL: <a target="_blank" href="#">TBD</a></li>
-                        <li>Github Repo: <a target="_blank" href="https://github.com/ucdavis/growfood">https://github.com/ucdavis/growfood</a></li>
-                        <br>
-                        <li>Design Start: 03/01/2016</li>
-                        <li>Development Start: 03/08/2016</li>
-                        <br>
-                        <li>Projected Launch: Spring 2016</li>
-                    </ul>
+                    <a class="collapse-more" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      <p>Show me more</p>
+                    </a>
+                    <div class="collapse in" id="collapseExample">
+                        <div class="well">
+                            <ul class="no-bullet">
+                                <li>Contact: <a href="mailto:ngdean@ucdavis.edu">Natalie Dean</a> • <a href="mailto:sparker@ucdavis.edu">Stacey Parker</a></li>
+                                <li>Average Monthly Views: 42</li>
+                                <br>
+                                <li>Development URL: <a target="_blank" href="#">TBD</a></li>
+                                <li>Github Repo: <a target="_blank" href="https://github.com/ucdavis/growfood">https://github.com/ucdavis/growfood</a></li>
+                                <br>
+                                <li>Design Start: 03/01/2016</li>
+                                <li>Development Start: 03/08/2016</li>
+                                <br>
+                                <li>Projected Launch: Spring 2016</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
        
     </div>
 </div>
+<script>
+    $('.collapse').collapse()
+</script>
 
 
 
@@ -205,5 +215,6 @@
     </script>
     <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="/js/tab-bootstrap.js"></script>
+    <script src="/js/tab-bootstrap.js"></script>
+    <script src="/js/collapse-bootstrap.js"></script>
 </html>
