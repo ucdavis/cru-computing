@@ -222,6 +222,11 @@ h4,
 .h4 {
   font-size: 1.4rem; }
 
+h5 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase; }
+
 blockquote {
   background-color: #F9F9F9;
   padding: 10px 12px;
@@ -685,6 +690,10 @@ input[type="button"].button-primary:focus {
   display: table;
   clear: both; }
 
+.no-bg {
+  background: none !Important;
+  border: none !Important; }
+
 hr {
   border-color: #C8C7CC; }
 
@@ -1012,6 +1021,18 @@ ul.submenu {
   color: #444444; }
   .aside_col ul li a:hover {
     color: #C99700; }
+
+.queue-wrapper .queue-card {
+  border: 1px solid #C8C7CC;
+  padding: 15px;
+  background-color: #fff;
+  margin-top: 50px; }
+  .queue-wrapper .queue-card.in-dev {
+    border-top: 4px solid #78be20; }
+  .queue-wrapper .queue-card h3 {
+    font-size: 1.8rem; }
+  .queue-wrapper .queue-card p {
+    max-width: 800px; }
 
 .home_button-wrapper .home_button-card {
   width: 24%;
