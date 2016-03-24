@@ -869,6 +869,11 @@ nav {
     nav {
       width: 90%; } }
 
+#nav_upperlevel > li:first-child {
+  margin-left: 10px; }
+#nav_upperlevel > li:first-child a {
+  padding-left: 0px; }
+
 #nav > ul {
   margin: 0px;
   margin-left: -12px; }
