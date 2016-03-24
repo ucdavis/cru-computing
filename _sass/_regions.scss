@@ -17,18 +17,26 @@
     // border-bottom-left-radius:6px;
     // border-bottom-right-radius:6px;
     background-color:#fff;
-    margin-top:50px;
+    margin-top:25px;
     &:first-child {
         margin-top:20px;
     }
     &.in-dev {
         border-top:4px solid $sunny-grass;
     }
+    &.on-deck {
+        border-top:4px solid $golden-lupine;
+    }
+    &.in-queue {
+        border-top:4px solid $unitrans-red;
+    }
         h3 {
             font-size:1.8rem;
+            margin-bottom:6px;
         }
         p {
-            max-width:800px;
+            max-width:850px;
+            margin-top:0px;
         }
         ul {
             li {
@@ -60,7 +68,7 @@
 
 .faculty {
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 660px;
     margin-top: 30px;
     .faculty-card {
         margin: 40px 0px;
@@ -110,12 +118,12 @@
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, #ebab39 0%, #c14b6a 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    margin-top: 15px;
+    margin-top: 25px;
     .banner_wrapper {
         background-image: url(/media/geometric.svg);
         background-position: right;
         background-repeat: no-repeat;
-        height: 330px;
+        height: 230px;
     }
     border-radius:2px;
 }

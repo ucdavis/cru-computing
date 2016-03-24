@@ -798,6 +798,12 @@ img.caes_logo {
 .california-poppy {
   color: #ed8800 !important; }
 
+.unitrans-red {
+  color: #ba0c2f !important; }
+
+.golden-lupine {
+  color: #ffcd00 !important; }
+
 .sunny-grass {
   color: #78be20 !important; }
 
@@ -1031,15 +1037,21 @@ ul.submenu {
   border: 1px solid #C8C7CC;
   padding: 15px;
   background-color: #fff;
-  margin-top: 50px; }
+  margin-top: 25px; }
   .queue-wrapper .queue-card:first-child {
     margin-top: 20px; }
   .queue-wrapper .queue-card.in-dev {
     border-top: 4px solid #78be20; }
+  .queue-wrapper .queue-card.on-deck {
+    border-top: 4px solid #ffcd00; }
+  .queue-wrapper .queue-card.in-queue {
+    border-top: 4px solid #ba0c2f; }
   .queue-wrapper .queue-card h3 {
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    margin-bottom: 6px; }
   .queue-wrapper .queue-card p {
-    max-width: 800px; }
+    max-width: 850px;
+    margin-top: 0px; }
 
 .home_button-wrapper .home_button-card {
   width: 24%;
@@ -1059,7 +1071,7 @@ ul.submenu {
 
 .faculty {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 660px;
   margin-top: 30px; }
   .faculty .faculty-card {
     margin: 40px 0px;
@@ -1104,7 +1116,7 @@ ul.submenu {
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(135deg, #ebab39 0%, #c14b6a 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  margin-top: 15px;
+  margin-top: 25px;
   border-radius: 2px; }
   @media (max-width: 850px) {
     .banner {
@@ -1116,7 +1128,7 @@ ul.submenu {
     background-image: url(/media/geometric.svg);
     background-position: right;
     background-repeat: no-repeat;
-    height: 330px; }
+    height: 230px; }
 
 .news_landing {
   background-color: #F9F9F9;
