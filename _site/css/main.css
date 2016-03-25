@@ -159,6 +159,8 @@ p {
     color: #bbbbbb;
     margin-bottom: 10px;
     display: inline; }
+  aside p {
+    font-size: 1.4rem; }
 
 h1,
 h2,
@@ -292,7 +294,7 @@ header {
       width: 90%; } }
 
 aside {
-  width: 22%;
+  width: 25%;
   display: inline-block;
   vertical-align: top;
   padding-right: 2%; }
@@ -304,6 +306,7 @@ article {
   display: inline-block;
   vertical-align: top;
   padding-left: 50px;
+  margin-left: 2%;
   border-left: 1px solid #C8C7CC; }
 
 .feed-item {
@@ -696,8 +699,9 @@ input[type="button"].button-primary:focus {
   clear: both; }
 
 .no-bg {
-  background: none !Important;
-  border: none !Important; }
+  background: none !important;
+  border: none !important;
+  padding: 0px !important; }
 
 hr {
   border-color: #C8C7CC; }
@@ -870,7 +874,7 @@ nav {
       width: 90%; } }
 
 #nav_upperlevel > li:first-child {
-  margin-left: 10px; }
+  margin-left: 13px; }
 #nav_upperlevel > li:first-child a {
   padding-left: 0px; }
 
