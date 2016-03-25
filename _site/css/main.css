@@ -298,6 +298,9 @@ aside {
   display: inline-block;
   vertical-align: top;
   padding-right: 2%; }
+  @media (max-width: 640px) {
+    aside {
+      width: 100%; } }
   aside .aside_col > h3 {
     margin-top: 0px; }
 
@@ -308,6 +311,13 @@ article {
   padding-left: 50px;
   margin-left: 2%;
   border-left: 1px solid #C8C7CC; }
+  @media (max-width: 640px) {
+    article {
+      width: 100%;
+      border-left: none;
+      margin-left: 0px;
+      padding-left: 0px;
+      margin-top: 20px; } }
 
 .feed-item {
   margin: 30px 0px; }
@@ -873,11 +883,6 @@ nav {
     nav {
       width: 90%; } }
 
-#nav_upperlevel > li:first-child {
-  margin-left: 13px; }
-#nav_upperlevel > li:first-child a {
-  padding-left: 0px; }
-
 #nav > ul {
   margin: 0px;
   margin-left: -12px; }
@@ -962,11 +967,20 @@ ul.submenu {
     text-align: center; }
 
   #nav > ul > li {
-    margin-right: 5%; }
+    margin-right: 5px; }
 
   .search_form {
     top: 168px; } }
 @media only screen and (max-width: 640px) {
+  nav {
+    padding-top: 8px; }
+    nav ul {
+      padding-left: 30px; }
+      nav ul li {
+        border-bottom: 1px solid #C8C7CC; }
+        nav ul li:last-child {
+          border-bottom: 1px solid rgba(255, 255, 255, 0.001); }
+
   nav ul.submenu {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 1%;
@@ -1116,7 +1130,7 @@ ul.submenu {
   width: 80%;
   margin: 0 auto;
   min-width: 300px;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ebab39+0,c14b6a+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla. /gradient-editor/#ebab39+0,c14b6a+100 */
   background: #ebab39;
   /* Old browsers */
   background: -moz-linear-gradient(-45deg, #ebab39 0%, #c14b6a 100%);

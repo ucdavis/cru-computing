@@ -35,6 +35,9 @@ aside {
     display: inline-block;
     vertical-align: top;
     padding-right: 2%;
+    @include breakpoint(mobileonly) {
+      width:100%;
+    }
     .aside_col {
         > h3 {
             margin-top:0px;
@@ -49,6 +52,13 @@ article {
     padding-left:50px;
     margin-left:2%;
     border-left:1px solid $borders;
+    @include breakpoint(mobileonly) {
+      width:100%;
+      border-left:none;
+      margin-left:0px;
+      padding-left:0px;
+      margin-top:20px;
+    }
 }
 .feed-item {
     margin:30px 0px;
