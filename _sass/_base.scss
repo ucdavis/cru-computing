@@ -65,8 +65,13 @@ article {
 }
 
 footer {
-    margin-top: 4%;
-    margin-bottom: 4%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top:60px;
+    padding-bottom:60px;
+    height: 180px;
+    display:block;
     .footer_contents {
         @include container;
         .foot_top {
