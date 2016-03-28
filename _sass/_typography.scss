@@ -172,6 +172,9 @@ p {
     &.feed-description {
         margin-top:0px;
     }
+    &.updated {
+        color:$sunny-grass;
+    }
     &.tag-display {
         margin-bottom:0px;
         text-transform:uppercase;

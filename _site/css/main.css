@@ -133,6 +133,8 @@ p {
   color: #444444; }
   p.feed-description {
     margin-top: 0px; }
+  p.updated {
+    color: #78be20; }
   p.tag-display {
     margin-bottom: 0px;
     text-transform: uppercase;
