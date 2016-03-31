@@ -7,15 +7,15 @@
         <path id="path-1" d="M23,46 C35.7025492,46 46,35.7025492 46,23 C46,10.2974508 35.7025492,0 23,0 C10.2974508,0 0,10.2974508 0,23 C0,35.7025492 10.2974508,46 23,46 Z"></path>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Team" transform="translate(-1103.000000, -427.000000)">
-            <g id="Adam-Getcheel" transform="translate(649.000000, 427.000000)">
+        <g id="Team" transform="translate(-1034.000000, -585.000000)">
+            <g id="Adam-Getcheel" transform="translate(580.000000, 585.000000)">
                 <g id="ken_pic" transform="translate(454.000000, 0.000000)">
                     <mask id="mask-2" fill="white">
                         <use xlink:href="#path-1"></use>
                     </mask>
                     <use id="Mask" fill="#F0F0F0" xlink:href="#path-1"></use>
                     <g id="ken" mask="url(#mask-2)">
-                        <g transform="translate(1.000000, 4.000000)">
+                        <g transform="translate(0.000000, 5.000000)">
                             <path d="M16,16 L20,16 L20,12 L16,12 L16,16 Z" id="Fill-1" fill="#DEE6CC"></path>
                             <path d="M16,24 L20,24 L20,20 L16,20 L16,24 Z" id="Fill-3" fill="#EACAB9"></path>
                             <path d="M16,36 L20,36 L20,32 L16,32 L16,36 Z" id="Fill-4" fill="#443B39"></path>
@@ -53,11 +53,11 @@
                             <path d="M20,32 L24,32 L24,28 L20,28 L20,32 Z" id="Fill-159" fill="#E0C0B2"></path>
                             <path d="M20,28 L24,28 L24,24 L20,24 L20,28 Z" id="Fill-161" fill="#E0C0B2"></path>
                             <path d="M24,28 L28,28 L28,24 L24,24 L24,28 Z" id="Fill-162" fill="#E0C0B2"></path>
-                            <path d="M24,24 L28,24 L28,20 L24,20 L24,24 Z" id="Fill-163" fill="#EACAB9"></path>
+                            <path d="M24,24 L28,24 L28,20 L24,20 L24,24 Z" id="Fill-163" fill="#777B84"></path>
                             <path d="M24,20 L28,20 L28,16 L24,16 L24,20 Z" id="Fill-164" fill="#EACAB9"></path>
                             <path d="M28,16 L32,16 L32,12 L28,12 L28,16 Z" id="Fill-165" fill="#DEE6CC"></path>
                             <path d="M24,12 L28,12 L28,8 L24,8 L24,12 Z" id="Fill-166" fill="#EACAB9"></path>
-                            <path d="M28,24 L32,24 L32,20 L28,20 L28,24 Z" id="Fill-167" fill="#EACAB9"></path>
+                            <path d="M28,24 L32,24 L32,20 L28,20 L28,24 Z" id="Fill-167" fill="#777B84"></path>
                             <path d="M28,16 L32,16 L32,12 L28,12 L28,16 Z" id="Fill-168" fill="#2A2524"></path>
                             <path d="M16,16 L20,16 L20,12 L16,12 L16,16 Z" id="Fill-169" fill="#EACAB9"></path>
                             <path d="M28,12 L32,12 L32,8 L28,8 L28,12 Z" id="Fill-170" fill="#EACAB9"></path>
@@ -84,7 +84,7 @@
                             <path d="M20,16 L24,16 L24,12 L20,12 L20,16 Z" id="Fill-191" fill="#414655"></path>
                             <path d="M24,16 L28,16 L28,12 L24,12 L24,16 Z" id="Fill-192" fill="#EACAB9"></path>
                             <path d="M20,20 L24,20 L24,16 L20,16 L20,20 Z" id="Fill-193" fill="#EACAB9"></path>
-                            <path d="M20,24 L24,24 L24,20 L20,20 L20,24 Z" id="Fill-194" fill="#EACAB9"></path>
+                            <path d="M20,24 L24,24 L24,20 L20,20 L20,24 Z" id="Fill-194" fill="#777B84"></path>
                             <path d="M16,32 L20,32 L20,28 L16,28 L16,32 Z" id="Fill-195" fill="#443B39"></path>
                             <path d="M16,36 L20,36 L20,32 L16,32 L16,36 Z" id="Fill-196" fill="#443B39"></path>
                             <path d="M12,32 L16,32 L16,28 L12,28 L12,32 Z" id="Fill-197" fill="#AA2728"></path>
