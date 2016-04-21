@@ -8,7 +8,7 @@ category: "policy"
 ---
 <ul>
 	<li>7-Zip</li>
-<li>Adobe Create Suite Products
+<li>Adobe Create Suite Products*
 	<ul>
 		<li>Adobe Acrobat</li>
 		<li>Adobe After Effects</li>
@@ -47,10 +47,12 @@ category: "policy"
 <li>FileZilla Client</li>
 <li>Fonts (Custom)</li>
 <li>Fonts (UC Davis Fonts Pack)</li>
+<li>GIMP</li>
 <li>Google Chrome</li>
 <li>Google Earth</li>
 <li>Google Picasa</li>
 <li>IBM SPSS</li>
+<li>InkScape</li>
 <li>K-Lite Codec Pack</li>
 <li>Mendeley Desktop</li>
 <li>Microsoft LifeCam</li>
@@ -61,6 +63,8 @@ category: "policy"
 <li>Microsoft Visual Studio</li>
 <li>MoffSoft FreeCalc</li>
 <li>Notepad++</li>
+<li>Paint.net</li>
+<li>Pixlr.com</li>
 <li>PuTTy</li>
 <li>QSR NVivo</li>
 <li>R for Windows</li>
@@ -74,3 +78,5 @@ category: "policy"
 <li>WinRAR</li>
 <li>Zotero Standalone</li>
 </ul>
+<p>*There is a temporary UC Davis purchasing hold on Adobe Creative Suite
+Products.</p>
