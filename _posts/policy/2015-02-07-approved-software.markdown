@@ -78,5 +78,6 @@ category: "policy"
 <li>WinRAR</li>
 <li>Zotero Standalone</li>
 </ul>
+<br>
 <p>*There is a temporary UC Davis purchasing hold on Adobe Creative Suite
 Products.</p>
