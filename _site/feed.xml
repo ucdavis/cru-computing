@@ -6,9 +6,24 @@
 </description>
     <link>http://computing.caes.ucdavis.edu/</link>
     <atom:link href="http://computing.caes.ucdavis.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Mar 2016 13:46:45 -0700</pubDate>
-    <lastBuildDate>Thu, 31 Mar 2016 13:46:45 -0700</lastBuildDate>
+    <pubDate>Fri, 29 Apr 2016 13:42:08 -0700</pubDate>
+    <lastBuildDate>Fri, 29 Apr 2016 13:42:08 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Plone: Linking an email address to a content item</title>
+        <description>
+</description>
+        <pubDate>Fri, 29 Apr 2016 09:25:17 -0700</pubDate>
+        <link>http://computing.caes.ucdavis.edu/guides/web_dev/plone-login</link>
+        <guid isPermaLink="true">http://computing.caes.ucdavis.edu/guides/web_dev/plone-login</guid>
+        
+        <category>guide</category>
+        
+        
+        <category>web</category>
+        
+      </item>
     
       <item>
         <title>Mac Hardware Standards</title>
@@ -336,49 +351,6 @@ The Systems Architect or other CRU staff will meet with unit heads to determine 
         
         
         <category>helpdesk</category>
-        
-      </item>
-    
-      <item>
-        <title>Mobile Device Use</title>
-        <description>&lt;p&gt;Supporting a large number of mobile devices with varying types of software and user modifications can be a costly task in terms of IT staff time and resources. To ensure the integrity of the Dean’s Office data, network security, and office staff productivity, it is necessary to enact a set of mobile device use guidelines. The policy will apply to any mobile device supported by the Dean’s Office Computing Resource Unit (CRU) and/or any mobile device connected to the Dean’s Office subnet.&lt;/p&gt;
-&lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;Use of Dean’s Office mobile devices constitutes consent to public disclosure of phone and billing records.&lt;/strong&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Only approved software may be installed and run on Dean’s Office mobile devices.&lt;/strong&gt; A list of approved applications is &lt;a class=&quot;internal-link&quot; href=&quot;resolveuid/8aeb316f-b45c-40ea-b309-186de446e253&quot; title=&quot;Supported Software&quot;&gt;available&lt;/a&gt;. Approval for applications not on the accepted list must be obtained from the Director of Information Technology prior to installation. Any application not on the approved list and not authorized by exception to policy is subject to immediate removal. Applications not on the supported list that are approved for installation will not receive CRU support.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;All mobile devices supported must meet established configuration standards.&lt;/strong&gt;Configurations will be changed periodically and updated by CRU. Installation of software and software updates will be performed periodically to maintain system standards and integrity and to keep the total cost of ownership at a minimum. Any exceptions or modifications to the standards must be approved by the Director of Information Technology.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Data stored on mobile devices and the use of mobile devices will be safeguarded.&lt;/strong&gt; Mobile devices connecting to Dean&#39;s Office resources will be required to have a password to unlock the phone after a period of inactivity not to exceed 30 minutes. Devices will conform to the ability to be remotely wiped should the device be lost or stolen.&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;Mobile devices inherently store data which may be of a personal or confidential nature. This data is at risk of compromise in the event that a device is lost or stolen.&lt;/strong&gt; If your mobile device is lost or stolen, notify CRU immediately by sending a ticket to Computing Support Requests (&lt;span class=&quot;link-mailto&quot;&gt;&lt;a href=&quot;mailto:csrequests@caes.ucdavis.edu&quot; style=&quot;padding-left: 16px; &quot;&gt;csrequests@caes.ucdavis.edu&lt;/a&gt;).We will do the following:
-
-&lt;ul&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;strong&gt;Your user account password will be changed. &lt;/strong&gt;(Mobile devices store your password for automatic synchronization.)&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;strong&gt;CRU will examine all e-mail in your Inbox and any synchronized files to determine if any confidential information was present. &lt;/strong&gt;(Only mail in your Inbox or files in your Mobile My Documents folder are synchronized with your mobile device.)&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;strong&gt;CRU will attempt a remote device wipe.&lt;/strong&gt; (This procedure is not guaranteed to work).&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/ul&gt;
-&lt;p&gt;The Director of Information Technology must approve changes or exceptions to the policy and has authority over decisions affecting mobile devices supported by Dean’s Office staff and/or attached to the Dean’s Office network.
-    &lt;br /&gt;This policy provides conformance to the UC Davis Cyber-Safety Program and the UCOP Business and Finance Bulletin G-46. You will be required to sign Appendix A of UCOP B&amp;amp;FB G-46, and it is your responsibility to be aware of your rights and obligations under the University of California, Davis, Electronic Communication Policy (P&amp;amp;P 310-16).
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;a class=&quot;external-link&quot; href=&quot;http://policy.ucop.edu/doc/3420357/BFB-G-46&quot; target=&quot;_self&quot; title=&quot;&quot;&gt;UCOP Business and Finance Bulletin: G-46, Guidelines for the Purchase and Use of Cellular Phones and Other Portable Electronic Resources&lt;/a&gt;
-    &lt;br /&gt; (http://policy.ucop.edu/doc/3420357/BFB-G-46)
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;a class=&quot;external-link&quot; href=&quot;http://manuals.ucdavis.edu/ppm/310/310-24.pdf&quot; target=&quot;_self&quot; title=&quot;external-link&quot;&gt;UC Davis Electronic Communications Policy&lt;/a&gt;
-    &lt;br /&gt;(http://manuals.ucdavis.edu/ppm/310/310-24.pdf)
-    &lt;br /&gt;
-    &lt;br /&gt;Direct questions regarding this policy to:
-    &lt;br /&gt;&lt;strong&gt;Adam Getchell &lt;br /&gt;Director of Information Technology &lt;br /&gt;(530) 752-8008 &lt;br /&gt;&lt;span&gt;&lt;a class=&quot;mail-link&quot; href=&quot;mailto:acgetchell@ucdavis.edu&quot;&gt;acgetchell@ucdavis.edu&lt;/a&gt;
-&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 07 Apr 2015 09:25:17 -0700</pubDate>
-        <link>http://computing.caes.ucdavis.edu/policy/2015/04/07/mobile-device-use/</link>
-        <guid isPermaLink="true">http://computing.caes.ucdavis.edu/policy/2015/04/07/mobile-device-use/</guid>
-        
-        
-        <category>policy</category>
         
       </item>
     
