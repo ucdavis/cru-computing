@@ -12,3 +12,8 @@ paginate: 3
 
 # Build settings
 markdown: kramdown
+
+#gems
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
