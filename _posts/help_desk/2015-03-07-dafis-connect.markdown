@@ -32,8 +32,8 @@ display-tag: Help Desk
 <p>
     <br /><i><span class="discreet">Optional: Check the box marked "Allow me to save credentials"</span></i></p>
 <p> </p>
-<p>6. Click "<i>Connect</i></p>
-<p>". When prompted enter your uConnect/XEDA/Kerberos passphrase.</p>
+<p>6. Click "<i>Connect</i"></p>
+<p>When prompted enter your uConnect/XEDA/Kerberos passphrase.</p>
 
 <h3>Troubleshooting logon issues:</h3>
 <ul>
