@@ -48,6 +48,6 @@ display-tag: Help Desk
     <li>use <b>ad3\Kerberos_username</b> for the user nam</li>
     <li>and the same passwor</li>
     <li>Call the Dafis help desk if that fails</li>
-    <li>Phone: (530) 752-385</li>
+    <li>Phone: (530) 752-3885</li>
 </ul>
 </div>
