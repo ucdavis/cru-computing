@@ -45,7 +45,7 @@ display-tag: Help Desk
     <li>If it works</li>
     <li>Use a <b>Remote Desktop Connection</b> to</li>
     <li>dafisconnect.ucdavis.ed</li>
-    <li>use <b>ad3\Kerberos_username</b> for the user nam</li>
+    <li>use <b>ad3\Kerberos_username</b> for the user name</li>
     <li>and the same password</li>
     <li>Call the DaFIS help desk if that fails</li>
     <li>Phone: (530) 752-3885</li>
