@@ -47,7 +47,7 @@ display-tag: Help Desk
     <li>dafisconnect.ucdavis.ed</li>
     <li>use <b>ad3\Kerberos_username</b> for the user nam</li>
     <li>and the same passwor</li>
-    <li>Call the Dafis help desk if that fails</li>
+    <li>Call the DaFIS help desk if that fails</li>
     <li>Phone: (530) 752-3885</li>
 </ul>
 </div>
