@@ -39,7 +39,7 @@ display-tag: Help Desk
 <ul>
     <li>In your <b>web browser</b> goto: <a class="external-link" href="http://my.ucdavis.edu">http://my.ucdavis.edu</a></li>
     <li>Hit the login button and enter your Kerberos username and password</li>
-    <li>You can reset your Kerberos password at computingaccounts.ucdavis.edu o</li>
+    <li>You can reset your Kerberos password at computingaccounts.ucdavis.edu</li>
     <li>Call IET express to get your password reset if this fails</li>
     <li>530-754-HELP (4357)</li>
     <li>If it works</li>
