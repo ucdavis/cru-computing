@@ -41,7 +41,7 @@ display-tag: Help Desk
     <li>Hit the login button and enter your Kerberos username and password</li>
     <li>You can reset your Kerberos password at computingaccounts.ucdavis.edu o</li>
     <li>Call IET express to get your password reset if this fails</li>
-    <li>530-754-HELP (4357</li>
+    <li>530-754-HELP (4357)</li>
     <li>If it works</li>
     <li>Use a <b>Remote Desktop Connection</b> to</li>
     <li>dafisconnect.ucdavis.ed</li>
