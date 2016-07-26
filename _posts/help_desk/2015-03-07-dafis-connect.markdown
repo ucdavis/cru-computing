@@ -42,7 +42,7 @@ display-tag: Help Desk
     <li>Call IET express (530-754-HELP (4357)) to get your password reset if this fails</li>    
     <li>If it works</li>
     <li>Use a <b>Remote Desktop Connection</b> to dafisconnect.ucdavis.edu</li>
-    <li>use <b>ad3\Kerberos_username</b> for the user name and the same password</li>
+    <li>Use <b>ad3\Kerberos_username</b> for the user name and the same password</li>
     <li>Call the DaFIS help desk if that fails</li>
     <li>Phone: (530) 752-3885</li>
 </ul>
