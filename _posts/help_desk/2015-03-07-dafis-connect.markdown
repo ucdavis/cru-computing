@@ -16,8 +16,7 @@ display-tag: Help Desk
 <p><b><i>For Windows 7 – </i></b><i>Right click on "Remote Desktop Connection" and select "Pin to Taskbar".</i></p>
 <p><b><i>For Windows Vista – </i></b><i>Right click on "Remote Desktop Connection” and select “Add to Quick Launch”.</i></p>
 <p><i>Optional: Right click on "Remote Desktop Connection" and select "Pin to Start Menu".</i></p>
-<p>2. Click on "<i>Remote Desktop Connection</i></p>
-<p>" or one of the two icons created optionally above.</p>
+<p>2. Click on "<i>Remote Desktop Connection</i>" or one of the two icons created optionally above.</p>
 <p>3. In the window labeled "<i>Remote Desktop Connection</i>" Click on "<i>Options</i></p>
 <p>" to expand the view.</p>
 <p>4. In the field "<i>Computer</i>" enter "<i>dafisconnect.ucdavis.edu" without quotes.</i></p>
