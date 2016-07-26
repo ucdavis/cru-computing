@@ -14,7 +14,6 @@ display-tag: Help Desk
 
 <p><i>Recommended:</i></p>
 <p><b><i>For Windows 7 – </i></b><i>Right click on "Remote Desktop Connection" and select "Pin to Taskbar".</i></p>
-<p><b><i>For Windows Vista – </i></b><i>Right click on "Remote Desktop Connection” and select “Add to Quick Launch”.</i></p>
 <p><i>Optional: Right click on "Remote Desktop Connection" and select "Pin to Start Menu".</i></p>
 <p>2. Click on "<i>Remote Desktop Connection</i>" or one of the two icons created optionally above.</p>
 <p>3. In the window labeled "<i>Remote Desktop Connection</i>" Click on "<i>Options</i>" to expand the view.</p>
