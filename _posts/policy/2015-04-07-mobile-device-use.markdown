@@ -16,10 +16,10 @@ category: "policy"
 </ul>
 <ul>
     <ul>
-        <li><strong>Your user account password will be changed. </strong>(Mobile devices store your password for automatic synchronization.)</li>
+        <li><strong>Your user account password will be changed. </strong>(Mobile devices store your password for automatic synchronization).</li>
     </ul>
     <ul>
-        <li><strong>CRU will examine all e-mail in your Inbox and any synchronized files to determine if any confidential information was present. </strong>(Only mail in your Inbox or files in your Mobile My Documents folder are synchronized with your mobile device.)</li>
+        <li><strong>CRU will examine all e-mail in your Inbox and any synchronized files to determine if any confidential information was present. </strong>(Only mail in your Inbox or files in your Mobile My Documents folder are synchronized with your mobile device).</li>
     </ul>
     <ul>
         <li><strong>CRU will attempt a remote device wipe.</strong> (This procedure is not guaranteed to work).</li>
