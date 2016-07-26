@@ -26,8 +26,7 @@ display-tag: Help Desk
 <p> </p>
 <h3>The resulting desktop icon:</h3>
 <p>5. In the field "<i>User name</i>" enter your uConnect/XEDA credentials in the following form:
-    <br /><span>ad3\</span></p>
-<h3>kerberos-username</h3>
+    <br /><span>ad3\kerberos-username</span></p>
 <p>
     <br /><i><span class="discreet">Optional: Check the box marked "Allow me to save credentials"</span></i></p>
 <p> </p>
