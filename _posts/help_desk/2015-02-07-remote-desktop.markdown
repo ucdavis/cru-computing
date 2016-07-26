@@ -11,7 +11,7 @@ display-tag: Help Desk
 ---
 <p><span class="discreet">(NOTE: This guide assumes you have Windows XP or Windows Vista. For MacOS, you can use Remote Desktop Connection Client for Mac. For other clients, please email Computer Support.)</span></p>
 <ul>
-    <li>On your home computer, click Start, point to All Programs, and then point toAccessories.</li>
+    <li>On your home computer, click Start, point to All Programs, and then point to Accessories.</li>
     <li>In the <b>Accessories</b> menu, point to <b>Communications</b>, and then click <b>Remote Desktop Connection</b>.</li>
     <li>In the <b>Computer</b> box, type the address of the terminal server: 169.237.124.112 (or ts2.caes.ucdavis.edu)</li>
 </ul>
