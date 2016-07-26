@@ -44,4 +44,3 @@ display-tag: Help Desk
     <li>Call the DaFIS help desk if that fails</li>
     <li>Phone: (530) 752-3885</li>
 </ul>
-</div>
