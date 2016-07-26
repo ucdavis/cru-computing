@@ -31,7 +31,7 @@ display-tag: Help Desk
     <br /><i><span class="discreet">Optional: Check the box marked "Allow me to save credentials"</span></i></p>
 <br/>
 <p>6. Click "<i>Connect"</i> and when prompted enter your uConnect/XEDA/Kerberos passphrase.</p>
->br/>
+<br/>
 <h3>Troubleshooting logon issues:</h3>
 <ul>
     <li>In your <b>web browser</b> goto: <a class="external-link" href="http://my.ucdavis.edu">http://my.ucdavis.edu</a></li>
