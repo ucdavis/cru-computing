@@ -14,20 +14,18 @@ display-tag: Help Desk
 
 <p><i>Recommended:</i></p>
 <p><b><i>For Windows 7 – </i></b><i>Right click on "Remote Desktop Connection" and select "Pin to Taskbar".</i></p>
-<p><i>Optional: Right click on "Remote Desktop Connection" and select "Pin to Start Menu".</i></p>
+<p><i>   Optional: Right click on "Remote Desktop Connection" and select "Pin to Start Menu".</i></p>
 <p>2. Click on "<i>Remote Desktop Connection</i>" or one of the two icons created optionally above.</p>
 <p>3. In the window labeled "<i>Remote Desktop Connection</i>" Click on "<i>Options</i>" to expand the view.</p>
 <p>4. In the field "<i>Computer</i>" enter "<i>dafisconnect.ucdavis.edu" without quotes.</i></p>
-<br/>
-<p><i>Optional: Make a desktop shortcut to DaFIS Connect by clicking on “Save As”, selecting the Desktop folder and naming the icon “DaFIS”. (In Windows Vista click “Browse Folders” to locate the Desktop folder.)</i></p>
+<p><i>   Optional: Make a desktop shortcut to DaFIS Connect by clicking on “Save As”, selecting the Desktop folder and naming the icon “DaFIS”. (In Windows Vista click “Browse Folders” to locate the Desktop folder.)</i></p>
 <br/>
 
 <p> </p>
 <h3>The resulting desktop icon:</h3>
 <p>5. In the field "<i>User Name</i>" enter your uConnect/XEDA credentials in the following form:
     <br /><span>ad3\kerberos-username</span></p>
-<p>
-    <br /><i><span class="discreet">Optional: Check the box marked "Allow me to save credentials"</span></i></p>
+<p>/><i><span class="discreet">   Optional: Check the box marked "Allow me to save credentials"</span></i></p>
 <br/>
 <p>6. Click "<i>Connect"</i> and when prompted enter your uConnect/XEDA/Kerberos passphrase.</p>
 <br/>
