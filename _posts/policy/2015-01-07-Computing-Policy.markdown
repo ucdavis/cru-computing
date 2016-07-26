@@ -24,7 +24,7 @@ category: "policy"
 
 
 <ul>
-<li><strong>Backups of Dean’s Office network drives (V: W: and X: ) are performed nightly.</strong>Daily backups are retained for a two-week period, weekly backup tapes are retained for a 3-month period; monthly backups are archived indefinitely. <strong>Desktop systems are not backed up in any way.</strong> Email is backed up for the purpose of system reliability. <strong>Individual e-mail messages are not archived.</strong> It is your responsibility to use discretion when deleting email messages.</li>
+<li><strong>Backups of Dean’s Office network drives (V: W: and X: ) are performed nightly. </strong>Daily backups are retained for a two-week period, weekly backup tapes are retained for a 3-month period; monthly backups are archived indefinitely. <strong>Desktop systems are not backed up in any way.</strong> Email is backed up for the purpose of system reliability. <strong>Individual e-mail messages are not archived.</strong> It is your responsibility to use discretion when deleting email messages.</li>
 </ul>
 
 <ul>
