@@ -29,8 +29,7 @@ display-tag: Help Desk
     <br /><span>ad3\kerberos-username</span></p>
 <p>
     <br /><i><span class="discreet">Optional: Check the box marked "Allow me to save credentials"</span></i></p>
-    <br/>
-<p> </p>
+<br/>
 <p>6. Click "<i>Connect"</i> and when prompted enter your uConnect/XEDA/Kerberos passphrase.</p>
 
 <h3>Troubleshooting logon issues:</h3>
