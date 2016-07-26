@@ -11,7 +11,7 @@ category: "policy"
 
 
 <ul>
-<li><strong>Only approved software may be installed and run on Dean’s Office computers.</strong>A list of approved applications is <a class="internal-link" href="resolveuid/8aeb316f-b45c-40ea-b309-186de446e253">available</a>. Approval for applications not on the accepted list must be obtained from the Director of Information Technology prior to installation. Any application not on the approved list and not authorized by exception to policy is subject to immediate removal. Applications not on the supported list that are approved for installation will not receive CRU support.</li>
+<li><strong>Only approved software may be installed and run on Dean’s Office computers.</strong> A list of approved applications is <a class="internal-link" href="resolveuid/8aeb316f-b45c-40ea-b309-186de446e253">available</a>. Approval for applications not on the accepted list must be obtained from the Director of Information Technology prior to installation. Any application not on the approved list and not authorized by exception to policy is subject to immediate removal. Applications not on the supported list that are approved for installation will not receive CRU support.</li>
 </ul>
 
 <ul>
