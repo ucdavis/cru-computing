@@ -19,7 +19,7 @@ display-tag: Help Desk
 <p>2. Click on "<i>Remote Desktop Connection</i>" or one of the two icons created optionally above.</p>
 <p>3. In the window labeled "<i>Remote Desktop Connection</i>" Click on "<i>Options</i>" to expand the view.</p>
 <p>4. In the field "<i>Computer</i>" enter "<i>dafisconnect.ucdavis.edu" without quotes.</i></p>
-<p>
+<p> </p>
 <i>Optional: Make a desktop shortcut to DaFIS Connect by clicking on “Save As”, selecting the Desktop folder and naming the icon “DaFIS”. (In Windows Vista click “Browse Folders” to locate the Desktop folder.)</i></p>
 
 <p> </p>
