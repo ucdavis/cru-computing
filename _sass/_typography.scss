@@ -115,7 +115,7 @@ article ul li ul {
 // ul.faculty-list {
 //     li {
 //         p {
-            
+
 //         }
 //         a{
 
@@ -280,6 +280,10 @@ h3 {
     ul & {
         font-size:1.8rem;
         font-weight:400;
+    }
+    
+    & + p {
+      margin-top: 0px;
     }
 }
 
