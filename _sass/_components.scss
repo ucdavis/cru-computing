@@ -1,3 +1,8 @@
+.no-bg {
+    background:none !important;
+    border:none !important;
+    padding:0px !important;
+}
 hr {
     border-color:$borders;
 }
@@ -54,6 +59,9 @@ img {
     }
     &.full-width {
         max-width: 800px;
+    }
+    &.centered {
+        text-align: center;
     }
 }
 .img_article_thumb {
@@ -125,6 +133,12 @@ img {
 }
 .california-poppy {
     color: $california-poppy !important;
+}
+.unitrans-red {
+    color: $unitrans-red !important;
+}
+.golden-lupine {
+    color: $golden-lupine !important;
 }
 .sunny-grass {
     color: $sunny-grass !important;

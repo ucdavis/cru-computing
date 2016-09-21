@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>tom_pic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M23,46 C35.7025492,46 46,35.7025492 46,23 C46,10.2974508 35.7025492,0 23,0 C10.2974508,0 0,10.2974508 0,23 C0,35.7025492 10.2974508,46 23,46 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Team" transform="translate(-649.000000, -635.000000)">
+            <g id="Adam-Getcheel" transform="translate(649.000000, 548.000000)">
+                <g id="tom_pic" transform="translate(0.000000, 87.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#F0F0F0" xlink:href="#path-1"></use>
+                    <g id="tom" mask="url(#mask-2)">
+                        <g transform="translate(2.000000, 7.000000)">
+                            <path d="M24,16 L28,16 L28,12 L24,12 L24,16 Z" id="Fill-1" fill="#DEE6CC"></path>
+                            <path d="M24,24 L28,24 L28,20 L24,20 L24,24 Z" id="Fill-3" fill="#E9C4AE"></path>
+                            <path d="M24,40 L28,40 L28,36 L24,36 L24,40 Z" id="Fill-4" fill="#443B39"></path>
+                            <path d="M12,40 L16,40 L16,36 L12,36 L12,40 Z" id="Fill-111" fill="#D7C9BE"></path>
+                            <path d="M8,40 L12,40 L12,36 L8,36 L8,40 Z" id="Fill-122" fill="#443B39"></path>
+                            <path d="M8,36 L12,36 L12,32 L8,32 L8,36 Z" id="Fill-123" fill="#443B39"></path>
+                            <path d="M4,40 L8,40 L8,36 L4,36 L4,40 Z" id="Fill-124" fill="#443B39"></path>
+                            <path d="M28,32 L32,32 L32,28 L28,28 L28,32 Z" id="Fill-125" fill="#443B39"></path>
+                            <path d="M12,32 L16,32 L16,28 L12,28 L12,32 Z" id="Fill-126" fill="#443B39"></path>
+                            <path d="M36,36 L40,36 L40,32 L36,32 L36,36 Z" id="Fill-127" fill="#443B39"></path>
+                            <path d="M40,40 L44,40 L44,36 L40,36 L40,40 Z" id="Fill-128" fill="#443B39"></path>
+                            <path d="M32,32 L36,32 L36,28 L32,28 L32,32 Z" id="Fill-161" fill="#443B39"></path>
+                            <path d="M36,40 L40,40 L40,36 L36,36 L36,40 Z" id="Fill-162" fill="#443B39"></path>
+                            <path d="M16,40 L20,40 L20,36 L16,36 L16,40 Z" id="Fill-203" fill="#2A2524"></path>
+                            <path d="M12,36 L16,36 L16,32 L12,32 L12,36 Z" id="Fill-204" fill="#2A2524"></path>
+                            <path d="M32,36 L36,36 L36,32 L32,32 L32,36 Z" id="Fill-205" fill="#2A2524"></path>
+                            <path d="M20,40 L24,40 L24,36 L20,36 L20,40 Z" id="Fill-209" fill="#BEB4AB"></path>
+                            <path d="M16,36 L20,36 L20,32 L16,32 L16,36 Z" id="Fill-210" fill="#2A2524"></path>
+                            <path d="M20,36 L24,36 L24,32 L20,32 L20,36 Z" id="Fill-211" fill="#DCB09A"></path>
+                            <path d="M20,32 L24,32 L24,28 L20,28 L20,32 Z" id="Fill-212" fill="#DCB09A"></path>
+                            <path d="M20,28 L24,28 L24,24 L20,24 L20,28 Z" id="Fill-221" fill="#DCB09A"></path>
+                            <path d="M16,28 L20,28 L20,24 L16,24 L16,28 Z" id="Fill-222" fill="#DCB09A"></path>
+                            <path d="M16,32 L20,32 L20,28 L16,28 L16,32 Z" id="Fill-223" fill="#DCB09A"></path>
+                            <path d="M16,24 L20,24 L20,20 L16,20 L16,24 Z" id="Fill-224" fill="#E9C4AE"></path>
+                            <path d="M16,20 L20,20 L20,16 L16,16 L16,20 Z" id="Fill-225" fill="#E9C4AE"></path>
+                            <path d="M12,16 L16,16 L16,12 L12,12 L12,16 Z" id="Fill-226" fill="#DEE6CC"></path>
+                            <path d="M16,12 L20,12 L20,8 L16,8 L16,12 Z" id="Fill-227" fill="#E9C4AE"></path>
+                            <path d="M12,24 L16,24 L16,20 L12,20 L12,24 Z" id="Fill-228" fill="#E9C4AE"></path>
+                            <path d="M8,16 L12,16 L12,12 L8,12 L8,16 Z" id="Fill-229" fill="#DEE6CC"></path>
+                            <path d="M12,16 L16,16 L16,12 L12,12 L12,16 Z" id="Fill-230" fill="#A9C5C5"></path>
+                            <path d="M24,16 L28,16 L28,12 L24,12 L24,16 Z" id="Fill-231" fill="#A9C5C5"></path>
+                            <path d="M24,16 L28,16 L28,12 L24,12 L24,16 Z" id="Fill-232" fill="#A9C5C5"></path>
+                            <path d="M12,12 L16,12 L16,8 L12,8 L12,12 Z" id="Fill-233" fill="#E9C4AE"></path>
+                            <path d="M12,20 L16,20 L16,16 L12,16 L12,20 Z" id="Fill-234" fill="#E9C4AE"></path>
+                            <path d="M24,20 L28,20 L28,16 L24,16 L24,20 Z" id="Fill-235" fill="#E9C4AE"></path>
+                            <path d="M24,24 L28,24 L28,20 L24,20 L24,24 Z" id="Fill-236" fill="#E9C4AE"></path>
+                            <path d="M24,28 L28,28 L28,24 L24,24 L24,28 Z" id="Fill-237" fill="#E9C4AE"></path>
+                            <path d="M24,12 L28,12 L28,8 L24,8 L24,12 Z" id="Fill-238" fill="#E9C4AE"></path>
+                            <path d="M28,12 L32,12 L32,8 L28,8 L28,12 Z" id="Fill-239" fill="#6B4119"></path>
+                            <path d="M28,16 L32,16 L32,12 L28,12 L28,16 Z" id="Fill-240" fill="#6B4119"></path>
+                            <path d="M28,20 L32,20 L32,16 L28,16 L28,20 Z" id="Fill-241" fill="#DCB09A"></path>
+                            <path d="M24,8 L28,8 L28,4 L24,4 L24,8 Z" id="Fill-242" fill="#8A5A28"></path>
+                            <path d="M20,8 L24,8 L24,4 L20,4 L20,8 Z" id="Fill-243" fill="#8A5A28"></path>
+                            <path d="M16,8 L20,8 L20,4 L16,4 L16,8 Z" id="Fill-244" fill="#8A5A28"></path>
+                            <path d="M12,8 L16,8 L16,4 L12,4 L12,8 Z" id="Fill-245" fill="#8A5A28"></path>
+                            <path d="M8,8 L12,8 L12,4 L8,4 L8,8 Z" id="Fill-246" fill="#8A5A28"></path>
+                            <path d="M8,12 L12,12 L12,8 L8,8 L8,12 Z" id="Fill-247" fill="#8A5A28"></path>
+                            <path d="M16,12 L20,12 L20,8 L16,8 L16,12 Z" id="Fill-248" fill="#8A5A28"></path>
+                            <path d="M28,8 L32,8 L32,4 L28,4 L28,8 Z" id="Fill-249" fill="#6B4119"></path>
+                            <path d="M28,12 L32,12 L32,8 L28,8 L28,12 Z" id="Fill-250" fill="#6B4119"></path>
+                            <path d="M28,16 L32,16 L32,12 L28,12 L28,16 Z" id="Fill-251" fill="#6B4119"></path>
+                            <path d="M16,4 L20,4 L20,0 L16,0 L16,4 Z" id="Fill-252" fill="#6B4119"></path>
+                            <path d="M12,4 L16,4 L16,0 L12,0 L12,4 Z" id="Fill-253" fill="#6B4119"></path>
+                            <path d="M20,4 L24,4 L24,0 L20,0 L20,4 Z" id="Fill-254" fill="#6B4119"></path>
+                            <path d="M24,4 L28.002,4 L28.002,0 L24,0 L24,4 Z" id="Fill-255" fill="#6B4119"></path>
+                            <path d="M20,12 L24,12 L24,8 L20,8 L20,12 Z" id="Fill-256" fill="#E9C4AE"></path>
+                            <path d="M20,16 L24,16 L24,12 L20,12 L20,16 Z" id="Fill-257" fill="#414655"></path>
+                            <path d="M16,16 L20,16 L20,12 L16,12 L16,16 Z" id="Fill-258" fill="#414655"></path>
+                            <path d="M20,20 L24,20 L24,16 L20,16 L20,20 Z" id="Fill-259" fill="#E9C4AE"></path>
+                            <path d="M20,24 L24,24 L24,20 L20,20 L20,24 Z" id="Fill-260" fill="#E9C4AE"></path>
+                            <path d="M24,32 L28,32 L28,28 L24,28 L24,32 Z" id="Fill-261" fill="#DCB09A"></path>
+                            <path d="M24,36 L28,36 L28,32 L24,32 L24,36 Z" id="Fill-262" fill="#443B39"></path>
+                            <path d="M24,40 L28,40 L28,36 L24,36 L24,40 Z" id="Fill-263" fill="#443B39"></path>
+                            <path d="M28,36 L32,36 L32,32 L28,32 L28,36 Z" id="Fill-264" fill="#2A2524"></path>
+                            <path d="M24,36 L28,36 L28,32 L24,32 L24,36 Z" id="Fill-265" fill="#2A2524"></path>
+                            <path d="M24,40 L28,40 L28,36 L24,36 L24,40 Z" id="Fill-266" fill="#2A2524"></path>
+                            <path d="M28,40 L32,40 L32,36 L28,36 L28,40 Z" id="Fill-269" fill="#D7C9BE"></path>
+                            <path d="M32,40 L36,40 L36,36 L32,36 L32,40 Z" id="Fill-270" fill="#443B39"></path>
+                            <path d="M20,16 L24,16 L24,12 L20,12 L20,16 Z" id="Fill-397" fill="#DEE6CC"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

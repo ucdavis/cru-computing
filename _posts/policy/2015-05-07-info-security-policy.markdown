@@ -18,10 +18,10 @@ category: "policy"
 <p>D. Devices which may store Restricted Personal Information. Restricted electronic information may be stored on server computers in the CA&amp;ES Dean's Office as necessary. Restricted Personal Information may also be stored on laptop computers or other mobile devices as necessary, but the data must be encrypted.</p>
 <h2>IV. REFERENCES AND RELATED POLICY</h2>
 <p>UC Davis Policy and Procedure Manual Section 320-20 Privacy of and Access to Information
-    <br /><a href="http://manuals.ucdavis.edu/ppm/320/320-20.htm" target="_blank">http://manuals.ucdavis.edu/ppm/320/320-20.htm</a></p>
+    <br /><a href="http://manuals.ucdavis.edu/ppm/320/320-20.pdf" target="_blank">http://manuals.ucdavis.edu/ppm/320/320-20.pdf</a></p>
 <p>UC Davis Policy and Procedure Manual Section 320-22 Collection and Confidentiality of Social Security Numbers
-    <br /><a class="external-link" href="http://manuals.ucdavis.edu/PPM/320/320-20.pdf" target="_blank">http://manuals.ucdavis.edu/ppm/320/320-22.htm</a></p>
+    <br /><a class="external-link" href="http://manuals.ucdavis.edu/PPM/320/320-20.pdf" target="_blank">http://manuals.ucdavis.edu/ppm/320/320-22.pdf</a></p>
 <p>Cyber-Safety Web Site
-    <br /><a href="http://security.ucdavis.edu/cybersafety.cfm" target="_blank">http://security.ucdavis.edu/cybersafety.cfm</a></p>
+    <br /><a href="https://security.ucdavis.edu/personalinfo.html" target="_blank">https://security.ucdavis.edu/personalinfo.html</a></p>
 <p>Cyber-Safety Policy for Personal Information
-    <br /><a href="http://security.ucdavis.edu/personalinfo.cfm" target="_blank">http://security.ucdavis.edu/personalinfo.cfm</a></p>
+    <br /><a href="http://security.ucdavis.edu/personalinfo.html" target="_blank">http://security.ucdavis.edu/personalinfo.html</a></p>

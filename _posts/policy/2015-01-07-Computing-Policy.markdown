@@ -11,20 +11,20 @@ category: "policy"
 
 
 <ul>
-<li><strong>Only approved software may be installed and run on Dean’s Office computers.</strong>A list of approved applications is <a class="internal-link" href="resolveuid/8aeb316f-b45c-40ea-b309-186de446e253">available</a>. Approval for applications not on the accepted list must be obtained from the Director of Information Technology prior to installation. Any application not on the approved list and not authorized by exception to policy is subject to immediate removal. Applications not on the supported list that are approved for installation will not receive CRU support.</li>
+<li><strong>Only approved software may be installed and run on Dean’s Office computers.</strong> A list of approved applications is <a class="internal-link" href="/approved_software">available</a>. Approval for applications not on the accepted list must be obtained from the Director of Information Technology prior to installation. Any application not on the approved list and not authorized by exception to policy is subject to immediate removal. Applications not on the supported list that are approved for installation will not receive CRU support.</li>
 </ul>
 
 <ul>
-<li><strong>All computers supported, and/or connected to the Dean’s Office subnet must meet established configuration standards.</strong> <a class="internal-link" href="resolveuid/b4bc49fa-dd85-4954-ae4f-5cb0f1b2e292">Configurations</a> will be changed periodically and updated by CRU. Any exceptions or modifications to the standards, necessitated by installation of optional hardware, must be approved by the Director of Information Technology.</li>
+<li><strong>All computers supported, and/or connected to the Dean’s Office subnet must meet established configuration standards.</strong> Configurations will be changed periodically and updated by CRU. Any exceptions or modifications to the standards, necessitated by installation of optional hardware, must be approved by the Director of Information Technology.</li>
 </ul>
 
 <ul>
-<li><strong>All business-related data must be maintained on a network drive. Any data saved locally is at risk of deletion during periodic updates or system failures.</strong>Installation of software and software updates will be performed periodically to maintain system standards and integrity and to keep the total cost of ownership at a minimum. These updates will be distributed using images and/or installation packages, which will replace all existing configuration settings and may overwrite or erase locally stored data on the user’s computer. <strong>It is the user’s responsibility to maintain business-related data on a network drive.</strong> Network drives will be backed up and secured to protect data integrity. Computer support staff will not maintain data saved to a local hard drive. <strong>Saving data to local drives is at your own risk!</strong></li>
+<li><strong>All business-related data must be maintained on a network drive. Any data saved locally is at risk of deletion during periodic updates or system failures.</strong> Installation of software and software updates will be performed periodically to maintain system standards and integrity and to keep the total cost of ownership at a minimum. These updates will be distributed using images and/or installation packages, which will replace all existing configuration settings and may overwrite or erase locally stored data on the user’s computer. <strong>It is the user’s responsibility to maintain business-related data on a network drive.</strong> Network drives will be backed up and secured to protect data integrity. Computer support staff will not maintain data saved to a local hard drive. <strong>Saving data to local drives is at your own risk!</strong></li>
 </ul>
 
 
 <ul>
-<li><strong>Backups of Dean’s Office network drives (V: W: and X: ) are performed nightly.</strong>Daily backups are retained for a two-week period, weekly backup tapes are retained for a 3-month period; monthly backups are archived indefinitely. <strong>Desktop systems are not backed up in any way.</strong> Email is backed up for the purpose of system reliability. <strong>Individual e-mail messages are not archived.</strong> It is your responsibility to use discretion when deleting email messages.</li>
+<li><strong>Backups of Dean’s Office network drives (V: W: and X: ) are performed nightly. </strong>Daily backups are retained for a two-week period, weekly backup tapes are retained for a 3-month period; monthly backups are archived indefinitely. <strong>Desktop systems are not backed up in any way.</strong> Email is backed up for the purpose of system reliability. <strong>Individual e-mail messages are not archived.</strong> It is your responsibility to use discretion when deleting email messages.</li>
 </ul>
 
 <ul>
@@ -40,9 +40,8 @@ category: "policy"
 </ul>
 <p>The Director of Information Technology must approve changes or exceptions to the policy and has authority over decisions affecting computers supported by Dean's Office staff and/or computers attached to the Dean's Office network.</p>
 <p>This policy provides conformance to the UC Davis Cyber-Safety Program, UC Davis Electronic Communications--Allowable Use, and the UC Davis Electronic Communications--Privacy and Access . It is your responsibility to be aware of your rights and obligations under the University of California, Davis, Electronic Communication--Allowable Use (P&amp;P 310-23) and Electronic Communication--Privacy and Access (P&amp;P 310-24) policies.</p>
-<p><a href="http://manuals.ucdavis.edu/ppm/310/310-22.htm">UC Davis Cyber-Safety Program</a></p>
-<p><a href="http://manuals.ucdavis.edu/ppm/310/310-23.htm">UC Davis Electronic Communications--Allowable Use</a></p>
-<p><a href="http://manuals.ucdavis.edu/ppm/310/310-24.htm">UC Davis Electronic Communications--Privacy and Access</a></p>
+<p><a href="http://manuals.ucdavis.edu/ppm/310/310-22.pdf">UC Davis Cyber-Safety Program</a></p>
+<p><a href="http://manuals.ucdavis.edu/ppm/310/310-23.pdf">UC Davis Electronic Communications--Allowable Use</a></p>
+<p><a href="http://manuals.ucdavis.edu/ppm/310/310-24.pdf">UC Davis Electronic Communications--Privacy and Access</a></p>
 <p>Direct questions regarding this policy to:</p>
 <p><strong>Adam Getchell <br />Director of Information Technology <br />(530) 752-8008 <br /><span><a class="mail-link" href="mailto:acgetchell@ucdavis.edu">acgetchell@ucdavis.edu</a></strong></p>
-

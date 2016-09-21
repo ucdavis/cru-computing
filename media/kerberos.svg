@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="39px" height="37px" viewBox="0 0 39 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>kerberos</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-1210.000000, -785.000000)" fill="#C6007E">
+            <g id="kerberos" transform="translate(1231.000000, 801.000000) rotate(-135.000000) translate(-1231.000000, -801.000000) translate(1217.000000, 780.000000)">
+                <g id="Layer_1">
+                    <g id="Group">
+                        <path d="M10.5,42 C10.15,42 9.8,41.825 9.625,41.825 C9.1,41.475 8.75,40.775 8.75,40.25 L8.75,20.825 C3.85,19.95 0,15.75 0,10.5 C0,4.55 4.725,0 10.5,0 L17.5,0 C23.275,0 28,4.725 28,10.5 C28,15.75 24.15,20.125 19.25,21 L19.25,36.75 C19.25,37.45 18.9,37.975 18.2,38.325 L11.2,41.825 C11.025,42 10.85,42 10.5,42 L10.5,42 Z M10.5,3.5 C6.65,3.5 3.5,6.65 3.5,10.5 C3.5,14.525 6.65,17.5 10.5,17.5 C11.55,17.5 12.25,18.2 12.25,19.25 L12.25,37.45 L15.75,35.7 L15.75,19.25 C15.75,18.2 16.45,17.5 17.5,17.5 C21.35,17.5 24.5,14.35 24.5,10.5 C24.5,6.475 21.35,3.5 17.5,3.5 L10.5,3.5 L10.5,3.5 Z" id="Shape"></path>
+                        <path d="M15.75,10.5 L12.25,10.5 C11.2,10.5 10.5,9.8 10.5,8.75 C10.5,7.7 11.2,7 12.25,7 L15.75,7 C16.8,7 17.5,7.7 17.5,8.75 C17.5,9.8 16.8,10.5 15.75,10.5 L15.75,10.5 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

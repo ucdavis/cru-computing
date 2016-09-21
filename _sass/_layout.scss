@@ -1,12 +1,20 @@
+* {
+  margin:0;
+}
+html {
+  position:relative;
+  min-height: 100%;
+  height:inherit;
+}
 body {
-	padding:0px;
-	margin:0px;
-	background-color:$bg-color;
+  padding:0px;
+  margin:0px;
+  background-color:$bg-color;
+  margin-bottom:180px;
 }
 img {
   max-width: 100%;
 }
-
 /* Skeleton Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 

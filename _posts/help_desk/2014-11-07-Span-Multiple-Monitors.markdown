@@ -6,7 +6,7 @@ author: "Shuka Smith"
 date:   2014-11-07 16:25:17
 category: "helpdesk"
 tags: "guide"
-permalink: /guides/helpdesk/span-multiple-monitors
+permalink: /documentation/span-multiple-monitors
 display-tag: Help Desk
 ---
 <ul>

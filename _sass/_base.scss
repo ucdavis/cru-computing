@@ -31,10 +31,13 @@ header {
 }
 
 aside {
-    width: 22%;
+    width: 25%;
     display: inline-block;
     vertical-align: top;
     padding-right: 2%;
+    @include breakpoint(mobileonly) {
+      width:100%;
+    }
     .aside_col {
         > h3 {
             margin-top:0px;
@@ -47,15 +50,28 @@ article {
     display: inline-block;
     vertical-align: top;
     padding-left:50px;
+    margin-left:2%;
     border-left:1px solid $borders;
+    @include breakpoint(mobileonly) {
+      width:100%;
+      border-left:none;
+      margin-left:0px;
+      padding-left:0px;
+      margin-top:20px;
+    }
 }
 .feed-item {
     margin:30px 0px;
 }
 
 footer {
-    margin-top: 4%;
-    margin-bottom: 4%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top:60px;
+    padding-bottom:60px;
+    height: 180px;
+    display:block;
     .footer_contents {
         @include container;
         .foot_top {

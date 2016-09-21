@@ -8,6 +8,16 @@
 nav {
     @include container;
 }
+// #nav_upperlevel > {
+//     li {
+//         &:first-child  {
+//             margin-left:13px;
+//         }
+//         &:first-child a {
+//             padding-left:0px;
+//         }
+//     }
+// }
 
 #nav {
     // width: 65%;
@@ -18,6 +28,7 @@ nav {
     > ul {
         margin: 0px;
         margin-left: -12px;
+
     }
 }
 
@@ -55,7 +66,7 @@ nav {
                 line-height: 2.5em;
                 text-align: left;
                 text-transform: uppercase;
-                font-size: 1.6rem;
+                font-size: 1.4rem;
                 padding: 4px 20px;
                 // border: 1px solid transparent;
                 &.active {
@@ -93,6 +104,7 @@ ul.submenu {
     }
     li {
         border-bottom: 1px solid $borders;
+
         &:last-child {
             border-bottom: none;
         }
@@ -147,7 +159,7 @@ ul.submenu {
         text-align: center;
     }
     #nav > ul > li {
-        margin-right: 5%;
+        margin-right: 5px;
     }
     .search_form {
         top: 168px;
@@ -158,6 +170,19 @@ ul.submenu {
 /* 640 */
 
 {
+
+    nav {
+        padding-top:8px;
+        ul {
+            padding-left:30px;
+            li {
+                border-bottom:1px solid $borders;
+                &:last-child {
+                    border-bottom:1px solid rgba(255,255,255,.001);
+                }
+            }
+        }
+    }
     nav ul.submenu {
         background-color: rgba(255, 255, 255, .8);
         padding: 1%;

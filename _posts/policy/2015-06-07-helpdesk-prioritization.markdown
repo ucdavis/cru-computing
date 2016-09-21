@@ -5,6 +5,7 @@ description: "A helpdesk prioritization list endorsed by senior leadership in th
 author: "Thomas Pomroy"
 date:   2015-06-07 16:25:17
 category: "policy"
+permalink: "/approved_software"
 ---
 <ul>
     <li>Email service/routing outages</li>
