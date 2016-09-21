@@ -10,6 +10,16 @@
         }
     }
 }
+.small-bound {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  max-width:620px;
+  p {
+    font-size:1.8rem;
+    margin:15px 0px;
+  }
+}
 .queue-wrapper {
     .queue-card {
     border:1px solid $borders;
