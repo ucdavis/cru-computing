@@ -16,6 +16,8 @@ title: CRU - Guides
             <ul class="tabs" role="tablist">
                 <li role="presentation" class="active"><a href="#help" aria-controls="help" role="tab" data-toggle="tab">Help Desk</a></li>
                 <li role="presentation"><a href="#policy" aria-controls="policy" role="tab" data-toggle="tab">Policies</a></li>
+                <li role="presentation"><a href="#evals" aria-controls="policy" role="tab" data-toggle="tab">Evals</a></li>
+                <li role="presentation"><a href="#purchasing" aria-controls="policy" role="tab" data-toggle="tab">Purchasing</a></li>
                 <!-- <li role="presentation"><a href="#web" aria-controls="web" role="tab" data-toggle="tab">Web Development</a></li>
                 <li role="presentation"><a href="#app" aria-controls="app" role="tab" data-toggle="tab">App Development</a></li> -->
             </ul>
@@ -33,7 +35,30 @@ title: CRU - Guides
                 <div role="tabpanel" class="tab-pane" id="web">
                     {% for post in site.categories.web %}
                     <div class="feed-item">
-                       
+
+                        <h2 class="feed-title">
+                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h2>
+                        <p class="feed-description">{{ post.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div role="tabpanel" class="tab-pane" id="evals">
+                    {% assign orderedPosts = site.categories.evals | sort: "title" %}
+                    {% for post in orderedPosts %}
+                    <div class="feed-item">
+
+                        <h2 class="feed-title">
+                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h2>
+                        <p class="feed-description">{{ post.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div role="tabpanel" class="tab-pane" id="purchasing">
+                    {% for post in site.categories.purchasing %}
+                    <div class="feed-item">
+
                         <h2 class="feed-title">
                       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                     </h2>
@@ -66,5 +91,5 @@ $('#myTabs a').click(function(e) {
 })
 $('#myTabs a[href="#web"]').tab('show') // Select tab by name
 $('#myTabs a[href="#help"]').tab('show') // Select tab by name
-$('#myTabs a[href="#app"]').tab('show') // Select tab by name
+$('#myTabs a[href="#evals"]').tab('show') // Select tab by name
 </script>
