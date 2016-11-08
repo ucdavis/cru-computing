@@ -85,11 +85,17 @@ title: CRU - Guides
     </article>
 </div>
 <script>
-$('#myTabs a').click(function(e) {
-    e.preventDefault()
-    $(this).tab('show')
-})
-$('#myTabs a[href="#web"]').tab('show') // Select tab by name
-$('#myTabs a[href="#help"]').tab('show') // Select tab by name
-$('#myTabs a[href="#evals"]').tab('show') // Select tab by name
+  $(function(){
+    // go to proper tab on page load
+    var hash = document.location.hash;
+    if (hash) {
+        $('.tabs a[href="'+hash+'"]').tab('show');
+    }
+
+    // Change hash for page-reload
+    $('.tabs a').on('shown.bs.tab', function (e) {
+        window.location.hash = e.target.hash;
+        window.scrollTo(0, 0);
+    });
+  })
 </script>
