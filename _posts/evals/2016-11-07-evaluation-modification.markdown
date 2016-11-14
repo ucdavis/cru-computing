@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: documentation
 title:  "Can an evaluation's responses be modified after it is submitted?"
 author: "Scott Kirkland"
 date:   2016-01-07 16:25:17
