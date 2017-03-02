@@ -9,7 +9,7 @@ dev-url:
 repo-url:
 start:
 finish:
-tags: "queue"
+tags: queue
 ---
 
 Nothing needs to be here

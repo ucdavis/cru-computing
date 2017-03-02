@@ -10,7 +10,8 @@ dev-url: "dev.afghanag.ucdavis.edu"
 repo-url: "https://github.com/ucdavis/ip-afghanag"
 start: "Jan 2017"
 finish: "Spring 2017"
-tags: "development"
+tags: development
+
 ---
 
 Nothing needs to be here

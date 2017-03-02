@@ -103,14 +103,11 @@ title: CRU - Activity
                 <p>Contact: <a href="mailto:msromero@ucdavis.edu">Mindy S Romero</a></p>
             </div> -->
         </div>
-        {% for post in site.categories.web_proj %}
+        <div class="queue-wrapper">
+        {% for post in site.tags.development %}
         <div class="queue-card in-dev">
         <h3>{{ post.title }}</h3>
                 <p>{{post.reason}}</p>
-                <a class="collapse-more" role="button" data-toggle="collapse" href="#collapse-afghanag" aria-expanded="false" aria-controls="collapse-afghanag">
-                      Project Details <i class="fa fa-gear"></i>
-                    </a>
-                <div class="collapse in" id="collapse-afghanag">
                     <div class="well">
                         <ul class="no-bullet">
                             <li>Description: {{post.description}}
@@ -134,10 +131,74 @@ title: CRU - Activity
                             {% endif %}
                         </ul>
                     </div>
-                </div>
 
             </div>
             {% endfor %}
+          </div>
+          <div class="queue-wrapper">
+          {% for post in site.tags.deck %}
+          <div class="queue-card on-deck">
+          <h3>{{ post.title }}</h3>
+                  <p>{{post.reason}}</p><br>
+                      <div class="well">
+                          <ul class="no-bullet">
+                              <li>Description: {{post.description}}
+                              </li>
+                              <br>
+                              <li>Contact: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                              <br>
+                              {% if post.dev-url %}
+                              <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
+                              {% endif %}
+                              {% if post.repo-url %}
+                              <li>Github Repo: <a target="_blank" href="{{post.repo-url}}">{{post.repo-url}}</a></li>
+                              <br>
+                              {% endif %}
+                              {% if post.start %}
+                              <li>Development Start: {{post.start}}</li>
+                              <br>
+                              {% endif %}
+                              {% if post.finish %}
+                              <li>Projected Launch: {{post.finish}}</li>
+                              {% endif %}
+                          </ul>
+                      </div>
+
+              </div>
+              {% endfor %}
+            </div>
+            <div class="queue-wrapper">
+            {% for post in site.tags.queue %}
+            <div class="queue-card in-queue">
+            <h3>{{ post.title }}</h3>
+                    <p>{{post.reason}}</p><br>
+                        <div class="well">
+                            <ul class="no-bullet">
+                                <li>Description: {{post.description}}
+                                </li>
+                                <br>
+                                <li>Contact: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                                <br>
+                                {% if post.dev-url %}
+                                <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
+                                {% endif %}
+                                {% if post.repo-url %}
+                                <li>Github Repo: <a target="_blank" href="{{post.repo-url}}">{{post.repo-url}}</a></li>
+                                <br>
+                                {% endif %}
+                                {% if post.start %}
+                                <li>Development Start: {{post.start}}</li>
+                                <br>
+                                {% endif %}
+                                {% if post.finish %}
+                                <li>Projected Launch: {{post.finish}}</li>
+                                {% endif %}
+                            </ul>
+                        </div>
+
+                </div>
+                {% endfor %}
+              </div>
 
     </div>
 
