@@ -3,8 +3,8 @@ layout: article
 title:  "California Center for Urban Horticulture"
 description: "Our mission is to present workshops and programs, in addition to working on initiatives hat promote scientific research and the exchange of science-based principles and practices that protect resources and enhances ecosystems in the urban environment in California."
 reason: "Migration off Plone(.22)"
-client:
-current-url:
+client: "Dave Fujino"
+current-url: "http://ccuh.ucdavis.edu/"
 dev-url:
 repo-url:
 start:
