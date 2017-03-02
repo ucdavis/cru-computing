@@ -107,13 +107,15 @@ title: CRU - Activity
         {% for post in site.tags.development %}
         <div class="queue-card in-dev">
         <h3>{{ post.title }}</h3>
-                <p>{{post.reason}}</p>
                     <div class="well">
                         <ul class="no-bullet">
-                            <li>Description: {{post.description}}
+                            <li><b>Justification:</b></li>
+                            <li>{{post.reason}}</li>
+                            <li><b>Description:</b>
                             </li>
+                            <li>{{post.description}}</li>
                             <br>
-                            <li>Contact: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                            <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
                             <br>
                             {% if post.dev-url %}
                             <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
@@ -139,13 +141,15 @@ title: CRU - Activity
           {% for post in site.tags.deck %}
           <div class="queue-card on-deck">
           <h3>{{ post.title }}</h3>
-                  <p>{{post.reason}}</p><br>
                       <div class="well">
                           <ul class="no-bullet">
-                              <li>Description: {{post.description}}
-                              </li>
-                              <br>
-                              <li>Contact: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                            <li><b>Justification:</b></li>
+                            <li>{{post.reason}}</li>
+                            <li><b>Description:</b>
+                            </li>
+                            <li>{{post.description}}</li>
+                            <br>
+                              <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
                               <br>
                               {% if post.dev-url %}
                               <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
@@ -171,13 +175,15 @@ title: CRU - Activity
             {% for post in site.tags.queue %}
             <div class="queue-card in-queue">
             <h3>{{ post.title }}</h3>
-                    <p>{{post.reason}}</p><br>
                         <div class="well">
                             <ul class="no-bullet">
-                                <li>Description: {{post.description}}
-                                </li>
-                                <br>
-                                <li>Contact: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                              <li><b>Justification:</b></li>
+                              <li>{{post.reason}}</li>
+                              <li><b>Description:</b>
+                              </li>
+                              <li>{{post.description}}</li>
+                              <br>
+                                <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
                                 <br>
                                 {% if post.dev-url %}
                                 <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
