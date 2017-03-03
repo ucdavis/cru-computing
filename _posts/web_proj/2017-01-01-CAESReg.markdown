@@ -1,0 +1,17 @@
+---
+layout: article
+title:  "CAES Registration"
+description: "CAES Registration"
+reason: "Redesign and migration to the cloud for Registration.ucdavis.edu"
+client: "Carolyn Cloud"
+client-email: "crcloud@ucdavis.edu"
+current-url:
+dev-url: "dev.afghanag.ucdavis.edu"
+repo-url: "https://github.com/ucdavis/ip-afghanag"
+start: "Nov 2016"
+finish: "Spring 2017"
+tags: development
+
+---
+
+Nothing needs to be here

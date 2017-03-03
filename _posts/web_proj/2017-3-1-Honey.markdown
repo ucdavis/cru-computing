@@ -1,0 +1,16 @@
+---
+layout: article
+title:  "Honey and Pollination Center"
+description: "The Honey and Pollination Center increases consumer, industry and stakeholder understanding of the importance of bees, pollination, honey and other products of the hive to people and the environment through research, education, and outreach."
+client: "Evan White"
+reason: "Migration off Plone"
+client-email: ""
+current-url: "http://honey.ucdavis.edu/"
+dev-url:
+repo-url:
+start:
+finish:
+tags: queue
+---
+
+Nothing needs to be here
