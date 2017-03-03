@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Center of Health for Advancing Microbiome and Mucosal Protection"
-description: "The Center of Health for Advancing Microbiome and Mucosal Protection (CHAMMP) was developed from the Research Investments in the Sciences and Engineering (RISE) program entitled, "Protecting the Fragile Intestine: Integrating Microbiota and Mucosal Health" examines the important role of the intestine in promoting overall health.”"
+title:  "Center of Health for Advancing Microbiome and Mucosal Protection"
+description: "The Center of Health for Advancing Microbiome and Mucosal Protection (CHAMMP) was developed from a Research Investments in the Sciences and Engineering (RISE) program."
 reason: "Migration off Plone"
 client: "Stephanie Maroney"
 client-email: ""
