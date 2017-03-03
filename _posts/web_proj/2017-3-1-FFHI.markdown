@@ -5,7 +5,7 @@ description: "The Foods For Health Institute was established to link diverse sci
 The FFHI acts as an engine for research, innovation, and economic development supported by competitive research programs, industry collaborations, and philanthropic funding. Together, the FFHI and its partners will lead the improvement of individual health through diet."
 client: "Stephanie Maroney"
 reason: "Migration off Plone"
-client-email: ""
+client-email: "srmaroney@ucdavis.edu"
 current-url: "http://ffhi.ucdavis.edu/"
 dev-url:
 repo-url:
