@@ -11,101 +11,108 @@ title: CRU - Activity
         </p>
         <h5 class="sunny-grass">In Development</h5>
         <div class="queue-wrapper">
-          <div class="queue-card in-dev">
-          <h3>Afghan Ag</h3>
-                  <p>Moving off of plone on (.123) to a static site</p>
-                  <a class="collapse-more" role="button" data-toggle="collapse" href="#collapse-afghanag" aria-expanded="false" aria-controls="collapse-afghanag">
-                        Project Details <i class="fa fa-gear"></i>
-                      </a>
-                  <div class="collapse in" id="collapse-afghanag">
+        {% for post in site.tags.development %}
+        <div class="queue-card in-dev">
+        <h3>{{ post.title }}</h3>
+                    <div class="well">
+                        <ul class="no-bullet">
+                            <h4><b>Justification:</b></h4>
+                            <p>{{post.reason}}</p>
+                            <h4><b>Description:</b></h4>
+                            <p>{{post.description}}</p>
+                            <br>
+                            <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                            {% if post.current-url %}
+                            <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
+                            {% endif %}
+                            {% if post.dev-url %}
+                            <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
+                            {% endif %}
+                            {% if post.repo-url %}
+                            <li>Github Repo: <a target="_blank" href="{{post.repo-url}}">{{post.repo-url}}</a></li>
+                            {% endif %}
+                            {% if post.start %}
+                            <li>Development Start: {{post.start}}</li>
+                            {% endif %}
+                            {% if post.finish %}
+                            <li>Projected Launch: {{post.finish}}</li>
+                            {% endif %}
+                        </ul>
+                    </div>
+
+            </div>
+            {% endfor %}
+          </div>
+          <h5 class="golden-lupine">On Deck</h5>
+          <div class="queue-wrapper">
+          {% for post in site.tags.deck %}
+          <div class="queue-card on-deck">
+          <h3>{{ post.title }}</h3>
                       <div class="well">
                           <ul class="no-bullet">
-                              <li>Contact: <a href="mailto:seasercion@ucdavis.edu">Steven Aserscion</a></li>
-                              <li>Average Monthly Views: ~5000</li>
-                              <br>
-                              <li>Development URL: <a target="_blank" href="https://dev.afghanag.ucdavis.edu">dev.afghanag.ucdavis.edu</a></li>
-                              <li>Github Repo: <a target="_blank" href="https://github.com/ucdavis/ip-afghanag">https://github.com/ucdavis/ip-afghanag</a></li>
-                              <br>
-                              <li>Development Start: Jan 2017</li>
-                              <br>
-                              <li>Projected Launch: Spring 2017</li>
+                            <h4><b>Justification:</b></h4>
+                            <p>{{post.reason}}</p>
+                            <h4><b>Description:</b></h4>
+                            <p>{{post.description}}</p>
+                            <br>
+                              <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                              {% if post.current-url %}
+                              <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
+                              {% endif %}
+                              {% if post.dev-url %}
+                              <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
+                              {% endif %}
+                              {% if post.repo-url %}
+                              <li>Github Repo: <a target="_blank" href="{{post.repo-url}}">{{post.repo-url}}</a></li>
+                              {% endif %}
+                              {% if post.start %}
+                              <li>Development Start: {{post.start}}</li>
+                              {% endif %}
+                              {% if post.finish %}
+                              <li>Projected Launch: {{post.finish}}</li>
+                              {% endif %}
                           </ul>
                       </div>
-                  </div>
 
               </div>
-              <div class="queue-card in-dev">
-              <h3>CAES Registration</h3>
-                      <p>Redesign and migration to the cloud for Registration.ucdavis.edu</p>
-                      <a class="collapse-more" role="button" data-toggle="collapse" href="#collapse-afghanag" aria-expanded="false" aria-controls="collapse-regis">
-                            Project Details <i class="fa fa-gear"></i>
-                          </a>
-                      <div class="collapse in" id="collapse-regis">
-                          <div class="well">
-                              <ul class="no-bullet">
-                                  <li>Contact: <a href="mailto:crcloud@ucdavis.edu">Carolyn Cloud</a></li>
-                                  <br>
-                                  <!-- <li>Development URL: <a target="_blank" href="https://dev.afghanag.ucdavis.edu">dev.afghanag.ucdavis.edu</a></li>
-                                  <li>Github Repo: <a target="_blank" href="https://github.com/ucdavis/ip-afghanag">https://github.com/ucdavis/ip-afghanag</a></li> -->
-                                  <br>
-                                  <li>Design Start: Nov 2016</li>
-                                  <br>
-                                  <li>Projected Launch: Spring 2017</li>
-                              </ul>
-                          </div>
-                      </div>
-
-                  </div>
-
-        </div>
-        <br>
-        <br>
-        <h5 class="golden-lupine">On Deck</h5>
-        <div class="queue-wrapper">
-          <div class="queue-card on-deck">
-              <h3>Analytical Lab</h3>
-              <p><a href="http://anlab.ucdavis.edu/">http://anlab.ucdavis.edu/</a></p>
-              <p>Redesign and content restructure</p>
-              <p>Contact: <a href="mailto:srkirkland@ucdavis.edu">Scott Kirkland</a></p>
-          </div>
-        </div>
-        <!-- <div class="queue-wrapper">
-          <div class="queue-card on-deck">
-              <h3>Center for Regional Change</h3>
-              <p><a href="http://explore.regionalchange.ucdavis.edu/">http://explore.regionalchange.ucdavis.edu/</a></p>
-              <p>CRC is interested in revamping their website which would entail either sitefarm or static technology.</p>
-              <p>Contact: <a href="mailto:braustin@ucdavis.edu">Bernadette Austin-Bower</a></p>
-          </div>
-        </div> -->
-
-        <br>
-        <br>
-        <h5 class="unitrans-red">In Queue</h5>
-        <div class="queue-wrapper">
-            <div class="queue-card in-queue">
-                <h3>California Center for Urban Horticulture</h3>
-                <p><a href="http://ccuh.ucdavis.edu/">http://ccuh.ucdavis.edu/</a></p>
-                <p>CCUH has opted to wait until sitefarm is a more flexible platform</p>
-                <p>Contact: <a href="mailto:dwfujino@ucdavis.edu">Dave Fujino</a></p>
+              {% endfor %}
             </div>
+            <h5 class="unitrans-red">Queue</h5>
+            <div class="queue-wrapper">
+            {% for post in site.tags.queue %}
             <div class="queue-card in-queue">
-                <h3>Beekeepers Program</h3>
-                <p>Beekeeping program and application to help develop knowledge on professional beekeeping.</p>
-                <p>Contact: <a href="mailto:aharris@ucdavis.edu">Amina Harris</a></p>
-            </div>
-            <div class="queue-card in-queue">
-                <h3>Olive Center Redesign</h3>
-                <p>Modernize and update the Olive Center design.</p>
-                <p>Contact: <a href="mailto:jdflynn@ucdavis.edu">Dan Flynn</a></p>
-            </div>
-            <!-- <div class="queue-card in-queue">
-                <h3>CCEP at the Center for Regional Change</h3>
-                <p>CCEP has requested that their page be turned into it's own website with a functioning database.</p>
-                <p>Contact: <a href="mailto:msromero@ucdavis.edu">Mindy S Romero</a></p>
-            </div> -->
-        </div>
+            <h3>{{ post.title }}</h3>
+                        <div class="well">
+                            <ul class="no-bullet">
+                              <h4><b>Justification:</b></h4>
+                              <p>{{post.reason}}</p>
+                              <h4><b>Description:</b></h4>
+                              <p>{{post.description}}</p>
+                              <br>
+                                <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                                {% if post.current-url %}
+                                <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
+                                {% endif %}
+                                {% if post.dev-url %}
+                                <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
+                                {% endif %}
+                                {% if post.repo-url %}
+                                <li>Github Repo: <a target="_blank" href="{{post.repo-url}}">{{post.repo-url}}</a></li>
+                                {% endif %}
+                                {% if post.start %}
+                                <li>Development Start: {{post.start}}</li>
+                                {% endif %}
+                                {% if post.finish %}
+                                <li>Projected Launch: {{post.finish}}</li>
+                                {% endif %}
+                            </ul>
+                        </div>
+
+                </div>
+                {% endfor %}
+              </div>
+
     </div>
-
 
     </div>
 </div>

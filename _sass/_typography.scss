@@ -281,7 +281,7 @@ h3 {
         font-size:1.8rem;
         font-weight:400;
     }
-    
+
     & + p {
       margin-top: 0px;
     }
@@ -310,4 +310,9 @@ blockquote {
     font-family: $sans-serif;
     margin-right: 0px;
     margin-left: 60px;
+}
+
+.queue-wrapper h4{
+    text-transform: uppercase;
+    margin-bottom:0px;
 }

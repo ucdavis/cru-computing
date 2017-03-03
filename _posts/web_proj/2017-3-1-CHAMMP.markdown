@@ -1,0 +1,16 @@
+---
+layout: article
+title:  "Center of Health for Advancing Microbiome and Mucosal Protection"
+description: "The Center of Health for Advancing Microbiome and Mucosal Protection (CHAMMP) was developed from a Research Investments in the Sciences and Engineering (RISE) program."
+reason: "Migration off Plone"
+client: "Stephanie Maroney"
+client-email: "srmaroney@ucdavis.edu"
+current-url: "http://rmi.ucdavis.edu/about"
+dev-url:
+repo-url:
+start:
+finish:
+tags: queue
+---
+
+Nothing needs to be here
