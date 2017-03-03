@@ -116,6 +116,9 @@ title: CRU - Activity
                             <br>
                             <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
                             <br>
+                            {% if post.current-url %}
+                            <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
+                            {% endif %}
                             {% if post.dev-url %}
                             <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
                             {% endif %}
@@ -150,6 +153,9 @@ title: CRU - Activity
                             <br>
                               <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
                               <br>
+                              {% if post.current-url %}
+                              <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
+                              {% endif %}
                               {% if post.dev-url %}
                               <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
                               {% endif %}
@@ -184,6 +190,9 @@ title: CRU - Activity
                               <br>
                                 <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
                                 <br>
+                                {% if post.current-url %}
+                                <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
+                                {% endif %}
                                 {% if post.dev-url %}
                                 <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
                                 {% endif %}
