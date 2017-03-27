@@ -2,143 +2,106 @@
 layout: default
 title: CRU - Activity
 ---
-
 <div class="main">
     <div class="main_contents no-bg">
         <h1>Activity</h1>
         <p class="lead">
             We create, manage, and maintain a wide assortment of projects. Use this page to stay up to date on what we are currently doing.
         </p>
-        <h5 class="sunny-grass">In Development</h5>
+        <h2 class="sunny-grass">In Development</h2>
         <div class="queue-wrapper">
-        {% for post in site.tags.development %}
-        <div class="queue-card in-dev">
-        <h3>{{ post.title }}</h3>
-                    <div class="well">
-                        <ul class="no-bullet">
-                            <h4><b>Justification:</b></h4>
-                            <p>{{post.reason}}</p>
-                            <h4><b>Description:</b></h4>
-                            <p>{{post.description}}</p>
-                            <br>
-                            <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
-                            {% if post.current-url %}
-                            <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
-                            {% endif %}
-                            {% if post.dev-url %}
-                            <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
-                            {% endif %}
-                            {% if post.repo-url %}
-                            <li>Github Repo: <a target="_blank" href="{{post.repo-url}}">{{post.repo-url}}</a></li>
-                            {% endif %}
-                            {% if post.start %}
-                            <li>Development Start: {{post.start}}</li>
-                            {% endif %}
-                            {% if post.finish %}
-                            <li>Projected Launch: {{post.finish}}</li>
-                            {% endif %}
-                        </ul>
-                    </div>
+            {% for post in site.tags.development %}
+            <div class="queue-card in-dev">
+                <h3>{{ post.title }}</h3>
+                <div class="well">
+                    <ul class="no-bullet">
+                        <h4><b>Justification:</b></h4>
+                        <p>{{post.reason}}</p>
+                        <h4><b>Description:</b></h4>
+                        <p>{{post.description}}</p>
+                        <br>
+                        <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                        {% if post.current-url %}
+                        <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
+                        {% endif %} {% if post.dev-url %}
+                        <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
+                        {% endif %} {% if post.repo-url %}
+                        <li>Github Repo: <a target="_blank" href="{{post.repo-url}}">{{post.repo-url}}</a></li>
+                        {% endif %} {% if post.start %}
+                        <li>Development Start: {{post.start}}</li>
+                        {% endif %} {% if post.finish %}
+                        <li>Projected Launch: {{post.finish}}</li>
+                        {% endif %}
+                    </ul>
+                </div>
 
             </div>
             {% endfor %}
-          </div>
-          <h5 class="golden-lupine">On Deck</h5>
-          <div class="queue-wrapper">
-          {% for post in site.tags.deck %}
-          <div class="queue-card on-deck">
-          <h3>{{ post.title }}</h3>
-                      <div class="well">
-                          <ul class="no-bullet">
-                            <h4><b>Justification:</b></h4>
-                            <p>{{post.reason}}</p>
-                            <h4><b>Description:</b></h4>
-                            <p>{{post.description}}</p>
-                            <br>
-                              <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
-                              {% if post.current-url %}
-                              <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
-                              {% endif %}
-                              {% if post.dev-url %}
-                              <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
-                              {% endif %}
-                              {% if post.repo-url %}
-                              <li>Github Repo: <a target="_blank" href="{{post.repo-url}}">{{post.repo-url}}</a></li>
-                              {% endif %}
-                              {% if post.start %}
-                              <li>Development Start: {{post.start}}</li>
-                              {% endif %}
-                              {% if post.finish %}
-                              <li>Projected Launch: {{post.finish}}</li>
-                              {% endif %}
-                          </ul>
-                      </div>
+        </div>
+        <br>
+        <h2 class="golden-lupine">On Deck</h2>
+        <div class="queue-wrapper">
+            {% for post in site.tags.deck %}
+            <div class="queue-card on-deck">
+                <h3>{{ post.title }}</h3>
+                <div class="well">
+                    <ul class="no-bullet">
+                        <h4><b>Justification:</b></h4>
+                        <p>{{post.reason}}</p>
+                        <h4><b>Description:</b></h4>
+                        <p>{{post.description}}</p>
+                        <br>
+                        <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                        {% if post.current-url %}
+                        <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
+                        {% endif %} {% if post.dev-url %}
+                        <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
+                        {% endif %} {% if post.repo-url %}
+                        <li>Github Repo: <a target="_blank" href="{{post.repo-url}}">{{post.repo-url}}</a></li>
+                        {% endif %} {% if post.start %}
+                        <li>Development Start: {{post.start}}</li>
+                        {% endif %} {% if post.finish %}
+                        <li>Projected Launch: {{post.finish}}</li>
+                        {% endif %}
+                    </ul>
+                </div>
 
-              </div>
-              {% endfor %}
             </div>
-            <h5 class="unitrans-red">Queue</h5>
-            <div class="queue-wrapper">
+            {% endfor %}
+        </div>
+        <br>
+        <h2 class="unitrans-red">In Queue</h2>
+        <div class="queue-wrapper">
             {% for post in site.tags.queue %}
             <div class="queue-card in-queue">
-            <h3>{{ post.title }}</h3>
-                        <div class="well">
-                            <ul class="no-bullet">
-                              <h4><b>Justification:</b></h4>
-                              <p>{{post.reason}}</p>
-                              <h4><b>Description:</b></h4>
-                              <p>{{post.description}}</p>
-                              <br>
-                                <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
-                                {% if post.current-url %}
-                                <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
-                                {% endif %}
-                                {% if post.dev-url %}
-                                <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
-                                {% endif %}
-                                {% if post.repo-url %}
-                                <li>Github Repo: <a target="_blank" href="{{post.repo-url}}">{{post.repo-url}}</a></li>
-                                {% endif %}
-                                {% if post.start %}
-                                <li>Development Start: {{post.start}}</li>
-                                {% endif %}
-                                {% if post.finish %}
-                                <li>Projected Launch: {{post.finish}}</li>
-                                {% endif %}
-                            </ul>
-                        </div>
-
+                <h3>{{ post.title }}</h3>
+                <div class="well">
+                    <ul class="no-bullet">
+                        <h4><b>Justification:</b></h4>
+                        <p>{{post.reason}}</p>
+                        <h4><b>Description:</b></h4>
+                        <p>{{post.description}}</p>
+                        <br>
+                        <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                        {% if post.current-url %}
+                        <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
+                        {% endif %} {% if post.dev-url %}
+                        <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
+                        {% endif %} {% if post.repo-url %}
+                        <li>Github Repo: <a target="_blank" href="{{post.repo-url}}">{{post.repo-url}}</a></li>
+                        {% endif %} {% if post.start %}
+                        <li>Development Start: {{post.start}}</li>
+                        {% endif %} {% if post.finish %}
+                        <li>Projected Launch: {{post.finish}}</li>
+                        {% endif %}
+                    </ul>
                 </div>
-                {% endfor %}
-              </div>
+
+            </div>
+            {% endfor %}
+        </div>
 
     </div>
 
-    </div>
 </div>
-<script>
-    $('.collapse').collapse()
-</script>
-<!--  <div class="queue-card done">
-                <h3>Computing Resources unit at CAES</h3>
-                <p>The current computing site is on (.55) and is in need of an overhaul. Furthermore the site does not have the proper infrastructure to host our growing demand. With the desire to expand and take on more clients, a new site is needed to show of what we've done as well as what we are currently working on.</p>
-                <a class="collapse-more" role="button" data-toggle="collapse" href="#collapse-cru" aria-expanded="false" aria-controls="collapse-cru">
-                      Project Details <i class="fa fa-gear"></i>
-                    </a>
-                <div class="collapse in" id="collapse-cru">
-                    <div class="well">
-                        <ul class="no-bullet">
-                            <li>Contact: <a href="mailto:cydoval@ucdavis.edu">Cal Doval</a></li>
-                            <li>Average Monthly Views: ~1500</li>
-                            <br>
-                            <li>Development URL: <a target="_blank" href="http://dev.cru.ucdavis.edu/">http://dev.cru.ucdavis.edu/</a></li>
-                            <li>Github Repo: <a target="_blank" href="https://github.com/ucdavis/cru-computing">https://github.com/ucdavis/cru-computing</a></li>
-                            <br>
-                            <li>Design Start: 03/15/2016</li>
-                            <li>Development Start: 03/17/2016</li>
-                            <br>
-                            <li>Projected Launch: Spring 2016</li>
-                        </ul>
-                    </div>
-                </div>
-            </div> -->
+</div>
