@@ -15,7 +15,7 @@ display-tag: Application Development
 
 ## List Page
 
-[![Ace Review Part 1](https://img.youtube.com/vi/qaRBiq8Uc5k/0.jpg)](https://www.youtube.com/watch?v=qaRBiq8Uc5k){:target="_blank"}
+<iframe width="480" height="360" src="http://www.youtube.com/embed/qaRBiq8Uc5k" frameborder="0"> </iframe>
 
 - Defaults to current term.
 - You may select another terms where there are archived evaluations by clicking "Change Term".
@@ -25,7 +25,7 @@ display-tag: Application Development
 
 ## Responses
 
-[![Ace Review Part 2](https://img.youtube.com/vi/OlcvVWmI5pY/0.jpg)](https://www.youtube.com/watch?v=OlcvVWmI5pY){:target="_blank"}
+<iframe width="480" height="360" src="http://www.youtube.com/embed/OlcvVWmI5pY" frameborder="0"> </iframe>
 
 - This is the staff view. You see responses for all Instructors and Teaching Assistants.
 - Each question shows:
