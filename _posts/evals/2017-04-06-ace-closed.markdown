@@ -15,7 +15,7 @@ display-tag: Application Development
 
 **Ace Closed List Video**
 
-[![](https://img.youtube.com/vi/31LtmRI5kJs/0.jpg)](https://www.youtube.com/watch?v=31LtmRI5kJs){:target="_blank"}
+<iframe width="480" height="360" src="http://www.youtube.com/embed/31LtmRI5kJs" frameborder="0"> </iframe>
 
 - Lists closed but not released evaluation.
 - Shows the number of responses so far once about 5 students have answered.
@@ -25,8 +25,6 @@ display-tag: Application Development
 ## Details
 
 **Ace Closed Details Video**
-
-[![](https://img.youtube.com/vi/IoJyN96pUUQ/0.jpg)](https://www.youtube.com/watch?v=IoJyN96pUUQ){:target="_blank"}
 
 <iframe width="480" height="360" src="http://www.youtube.com/embed/IoJyN96pUUQ" frameborder="0"> </iframe>
 

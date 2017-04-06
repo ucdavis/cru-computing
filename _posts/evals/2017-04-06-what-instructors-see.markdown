@@ -11,9 +11,7 @@ display-tag: Application Development
 
 ## Overview
 
-**Ace Instructor View Video:**
-
-[![Ace Instructor View Part 1](https://img.youtube.com/vi/Osw0ukoHv0Q/0.jpg)](https://www.youtube.com/watch?v=Osw0ukoHv0Q){:target="_blank"}
+<iframe width="480" height="360" src="http://www.youtube.com/embed/Osw0ukoHv0Q" frameborder="0"> </iframe>
 
 - Instructors should be directed to this link. Note, it has Home at the end:
 [https://eval.ucdavis.edu/Home](https://eval.ucdavis.edu/Home) 
@@ -24,9 +22,7 @@ display-tag: Application Development
 
 ## Reports
 
-**Ace Instructor View Video:**
-
-[![Ace Instructor View Part 2](https://img.youtube.com/vi/IYZme3FGAU8/0.jpg)](https://www.youtube.com/watch?v=IYZme3FGAU8){:target="_blank"}
+<iframe width="480" height="360" src="http://www.youtube.com/embed/IYZme3FGAU8" frameborder="0"> </iframe>
 
 - Note, all the reports only show evaluation level questions and Instructor level questions for themselves.
 - May print to PDF a single student's evaluation.
