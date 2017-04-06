@@ -5,7 +5,7 @@ author: "Scott Kirkland"
 date:   2017-04-04 16:25:17
 category: "evals"
 tags: "faq"
-permalink: https://ucdavis.uservoice.com/knowledgebase/articles/250068-ace-best-practices
+permalink: /faq/evals/best-practices
 display-tag: Application Development
 ---
 
