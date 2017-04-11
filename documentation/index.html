@@ -56,7 +56,8 @@ title: CRU - Guides
                     {% endfor %}
                 </div>
                 <div role="tabpanel" class="tab-pane" id="purchasing">
-                    {% for post in site.categories.purchasing %}
+                    {% assign orderedPosts = site.categories.prepurchasing | sort: "title" %}
+                    {% for post in orderedPosts %}
                     <div class="feed-item">
 
                         <h2 class="feed-title">
