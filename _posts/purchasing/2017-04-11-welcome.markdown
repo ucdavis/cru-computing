@@ -27,7 +27,7 @@ You can also choose whether you want to receive these emails daily, weekly, or f
 
 Make sure your notifications are not ending up in your Junk/Spam folder! Be sure to add this address to your Safe Senders list: opp-noreply@ucdavis.edu
 
-##The Landing Page
+## The Landing Page
 
 Here is the landing screen you will see when you log into the system
 
@@ -52,23 +52,11 @@ Click the Tour menu or click "Take the Tour" to go through a guided tutorial tha
 By default, your new workgroup may not have any vendors or shipping addresses, but the system remembers the information you enter. Searching for new vendors and adding new shipping addresses will store this information in your workgroup, and on the next order you place you can quickly use the drop down menus to select previously used choices.
 
 ## Routing
+
 Your order will route to the PI or account **Approver** and to the **Account Manager**. They will then be sent to your **Purchaser**,  who will complete and place the order.
 
 When an order is denied or cancelled, you cannot resubmit. To make corrections, open the order and click **Duplicate** in the upper right corner. You can adjust the new order and submit.
 
 Enter as much information as you can to help all the people who will be reviewing and approving your order.
 
-More detailed information about routing may be found here: [https://ucdavis.uservoice.com/knowledgebase/articles/126550-approval-routing](https://ucdavis.uservoice.com/knowledgebase/articles/126550-approval-routing)
-
-## How to get help
-
-At the top of the screen, click the **HELP** menu choice
-
-![](https://i.embed.ly/1/image?url=http%3A%2F%2Fucdavis.github.io%2FPurchasing%2Fimages%2Ffaq%2FHelp.JPG&key=afea23f29e5a4f63bd166897e3dc72df)
-
-From the **Get Help** button, you can browse a number of useful articles in the Knowledge Base, or you can submit a help ticket by clicking the **Contact Support**.
-
-![](https://i.embed.ly/1/image?url=http%3A%2F%2Fucdavis.github.io%2FPurchasing%2Fimages%2Ffaq%2FContactSupport.JPG&key=afea23f29e5a4f63bd166897e3dc72df)
-
- 
-
+More detailed information about routing may be found here: [http://computing.caes.ucdavis.edu/faq/prepurchasing/approval-routing](http://computing.caes.ucdavis.edu/faq/prepurchasing/approval-routing)
