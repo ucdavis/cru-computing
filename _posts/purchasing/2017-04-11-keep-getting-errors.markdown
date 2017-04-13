@@ -11,7 +11,7 @@ display-tag: Application Development
 
 If you are cutting and pasting information that contains special characters like < and > or &#42; it will prevent the order from being submitted to avoid possible malicious code from being sent. Note, these characters may not be visible. If you are having this type of problem, we recommend pasting the text into a text editor like notepad first to see if there are any unusual characters. The < and > characters are allowed, there are just some combinations of them that are not.
 
-**If you paste a email into the justification, comments, or other fields, remove the < and > characters before saving. For example, change Some, One <someone@ucdavis.edu> to Some, One someone@ucdavis.edu.**
+**If you paste a email into the justification, comments, or other fields, remove the < and > characters before saving. For example, change Some, One <<someone@ucdavis.edu>> to Some, One someone@ucdavis.edu.**
 
 If you keep getting errors when you create a new order, it is possible that a required field is missing and you are not being notified of that because you are using an older browser, or you may have disabled something like JavaScript.
 
