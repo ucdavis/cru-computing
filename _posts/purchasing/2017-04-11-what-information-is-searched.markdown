@@ -17,13 +17,13 @@ display-tag: Application Development
 
 ## The following fields are searched:
 - Order
-- Request Number
-- Justification
-- Shipping Address
-- Deliver To
-   - Email
+   - Request Number
+   - Justification
+   - Shipping Address
+      - Deliver To
+      - Email
    - Reference Number
-- PO Number
+   - PO Number
 - Line Item:
    - Description
    - URL 
