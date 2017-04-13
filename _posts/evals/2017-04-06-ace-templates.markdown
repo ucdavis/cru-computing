@@ -58,12 +58,19 @@ display-tag: Application Development
 - You may view the global questions defined by the Academic Senate so that you do not duplicate these.
 - How to edit a question that has already been added.
    Well, you can't. But what you can do is:
+   
    1) Copy the text of the question. Move your mouse to the left of the question until the cursor turns into a pointer. Then click and drag over the text and copy it as you normally would.
+   
    2) Paste the text in a new question.
+   
    3) Make your edits.
+   
    4) Add the question.
+   
    5) Drag the question to where the original question is.
+   
    6) Delete the original question.
+   
 - You may change the order of questions by dragging and dropping them. The cursor will turn to a pointer with four arrows.
 - You may move a question to or from a learning activity by dragging and dropping it.
 
