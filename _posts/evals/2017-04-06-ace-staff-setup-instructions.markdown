@@ -9,6 +9,11 @@ permalink: /faq/evals/ace-staff-setup-instructions
 display-tag: Application Development
 ---
 
+### New Features
+
+- [Ace New Features June 2014](http://computing.caes.ucdavis.edu/faq/evals/ace-new-features-june-2014)
+- [Ace New Features January 2015](http://computing.caes.ucdavis.edu/faq/evals/ace-new-features-january-2015)
+
 ### Department Settings:
 
 [![](https://i.embed.ly/1/image?url=http%3A%2F%2Fucdavis.github.io%2FACE%2Fimages%2Ffaq%2FAceDeptButton2.png&key=afea23f29e5a4f63bd166897e3dc72df)](http://computing.caes.ucdavis.edu/faq/evals/ace-department-settings)
