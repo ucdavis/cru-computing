@@ -9,7 +9,12 @@ permalink: /faq/prepurchasing/need-to-change-your-name
 display-tag: Application Development
 ---
 
-Name changed? 
-Put on the witness protection program?
+Name Changed?
+Need to enter the *witness* protection program?
+----------
+
 
 We can change it for you, it is a manual process, so just submit a help ticket from within Prepurchasing with your new or correct name and we will update it for you.
+
+You can also create a help ticket from here:
+[PrePurchasing Help Ticket](https://secure.caes.ucdavis.edu/help/Ticket/Submit?appName=opp?appName=opp)
