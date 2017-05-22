@@ -22,7 +22,7 @@ title: CRU - Activity
                         <br>
                         <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
                         {% if post.current-url %}
-                        <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
+                        <li>Current URL: <a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a></li>
                         {% endif %} {% if post.dev-url %}
                         <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
                         {% endif %} {% if post.repo-url %}
@@ -53,7 +53,7 @@ title: CRU - Activity
                         <br>
                         <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
                         {% if post.current-url %}
-                        <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
+                        <li>Current URL: <a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a></li>
                         {% endif %} {% if post.dev-url %}
                         <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
                         {% endif %} {% if post.repo-url %}
@@ -84,8 +84,9 @@ title: CRU - Activity
                         <br>
                         <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
                         {% if post.current-url %}
-                        <li>Current URL: <a target="_blank" href="{{post.dev-url}}">{{post.current-url}}</a></li>
-                        {% endif %} {% if post.dev-url %}
+                        <li>Current URL: <a target="_blank" href="{{ post.current-url }}">{{post.current-url}}</a></li>
+                        {% endif %}
+                        {% if post.dev-url %}
                         <li>Development URL: <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a></li>
                         {% endif %} {% if post.repo-url %}
                         <li>Github Repo: <a target="_blank" href="{{post.repo-url}}">{{post.repo-url}}</a></li>
