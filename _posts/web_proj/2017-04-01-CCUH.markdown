@@ -10,7 +10,7 @@ dev-url:
 repo-url:
 start:
 finish:
-tags: queue
+tags: deck
 ---
 
 Nothing needs to be here
