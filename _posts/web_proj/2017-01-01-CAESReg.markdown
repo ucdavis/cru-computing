@@ -9,7 +9,7 @@ current-url: "https://registration.ucdavis.edu/"
 dev-url: "http://onlineregistration.azurewebsites.net/"
 start: "Dec 2016"
 finish: "Fall 2017"
-tags: development
+tags: recent
 
 ---
 

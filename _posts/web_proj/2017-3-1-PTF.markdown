@@ -3,14 +3,14 @@ layout: article
 title:  "Plant Transformation Facility"
 description: "The Ralph M. Parsons Foundation Plant Transformation Facility was established at the University of California at Davis to provide cost effective plant transformation and plant cell biology services for the plant research community."
 client: "David Tricoli"
-reason: "Migration off Plone"
+reason: "Migration off Plone to sitefarm"
 client-email: "dmtricoli@ucdavis.edu"
 current-url: "http://ptf.ucdavis.edu/"
-dev-url:
+dev-url: "http://ptf.ucdsitefarm.acsitefactory.com/"
 repo-url:
-start:
+start: "Sept 2017"
 finish:
-tags: queue
+tags: development
 ---
 
 Nothing needs to be here
