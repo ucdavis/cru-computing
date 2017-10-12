@@ -8,9 +8,9 @@ client-email: "jdflynn@ucdavis.edu"
 current-url: "http://olivecenter.ucdavis.edu/"
 dev-url:
 repo-url:
-start:
+start: "Oct 2017"
 finish:
-tags: deck
+tags: development
 ---
 
 Nothing needs to be here
