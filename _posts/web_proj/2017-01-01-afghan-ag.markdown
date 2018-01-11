@@ -2,15 +2,14 @@
 layout: article
 title:  "Afghan Agriculture"
 description: "e-Afghan Ag is supported by USAID. UC Davis is the lead institution. Over 70 institutions have contributed content. e-Afghan Ag is considered the most comprehensive collection of practical information available to help the farmers of Afghanistan. The project started with USAID funding managed through USDA. "
-reason: "Migration off Plone(.123)"
-client: "Steven Aserscion"
-client-email: "seasercion@ucdavis.edu"
-current-url:
-dev-url: "dev.afghanag.ucdavis.edu"
-repo-url: "https://github.com/ucdavis/ip-afghanag"
-start: "Jan 2017"
-finish: "Spring 2017"
-tags: deck
+client: "Kate Wilkins"
+client-email: "kmwilkins@ucdavis.edu"
+current-url: "http://afghanag.ucdavis.edu/"
+backend: "https://github.com/ucdavis/ip-afghanag"
+Launched: Jan 2018
+Technology: Jekyll Static Site Generator
+tags:
+  - Static Site - Jekyll
 
 ---
 

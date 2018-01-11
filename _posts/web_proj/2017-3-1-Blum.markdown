@@ -3,14 +3,13 @@ layout: article
 title:  "Blum Center for Developing Economies"
 description: "The Blum Center for Developing Economies addresses the needs of poor communities in developing countries. We prepare students with the theoretical understanding, applied skills, and experiential learning. Our courses and grants programs enable students to become agents of change in the war against world poverty."
 client: "Liliane Larson"
-reason: "Migration off Plone"
 client-email: "lklarson@ucdavis.edu"
-current-url: "blumcenter.ucdavis.edu"
-dev-url:
-repo-url:
-start:
-finish:
-tags: queue
+current-url: "http://blum.ucdavis.edu/"
+backend: "http://blum.ucdsitefarm.acsitefactory.com/"
+Launched: Jan 2018
+Technology: Site Farm
+tags:
+  - Sitefarm - Drupal
 ---
 
 Nothing needs to be here
