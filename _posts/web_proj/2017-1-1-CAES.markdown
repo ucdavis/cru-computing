@@ -1,0 +1,15 @@
+---
+layout: article
+title:  "College of Agricultural and Environmental Sciences"
+description: "The College of Agricultural and Environmental Sciences at UC Davis is a global leader recognized throughout the world for its scientific expertise."
+client: "Caren Weintraub"
+client-email: "cweintraub@ucdavis.edu"
+current-url: "http://caes.ucdavis.edu/"
+
+Launched: Expected 2018
+Technology: Plone
+tags:
+  - Plone
+---
+
+Nothing needs to be here
