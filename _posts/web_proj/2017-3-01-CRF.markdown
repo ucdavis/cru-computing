@@ -2,15 +2,14 @@
 layout: article
 title:  "UC Davis Contained Research Facility"
 description: "The Contained Research Facility (CRF) provides a secure environment for research on invasive plant pests; those known to occur in California and those that have yet to arrive. These plant pests, including arthropods, plant pathogens, nematodes, and weeds, pose huge potential losses for California agriculture, threaten trade of agricultural products, threaten natural ecosystems, and can damage urban landscapes."
-reason: "Migration off Plone to sitefarm"
 client: "Karla J. Araujo"
 client-email: "kjaraujo@ucdavis.edu"
 current-url: "http://crf.ucdavis.edu/"
-dev-url:
-repo-url:
-start:
-finish:
-tags: deck
+backend: "http://crf.ucdsitefarm.acsitefactory.com/"
+Launched: Dec 2017
+Technology: Sitefarm
+tags:
+  - Sitefarm - Drupal
 ---
 
 Nothing needs to be here

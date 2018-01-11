@@ -5,12 +5,12 @@ description: "The Center of Health for Advancing Microbiome and Mucosal Protecti
 reason: "Migration off Plone"
 client: "Stephanie Maroney"
 client-email: "srmaroney@ucdavis.edu"
-current-url: "http://rmi.ucdavis.edu/about"
-dev-url:
-repo-url:
-start:
-finish:
-tags: queue
+current-url: "http://chammp.ucdavis.edu/"
+backend: "http://chammp.ucdsitefarm.acsitefactory.com/"
+Launched: Dec 2017
+Technology: Sitefarm
+tags:
+  - Sitefarm - Drupal
 ---
 
 Nothing needs to be here

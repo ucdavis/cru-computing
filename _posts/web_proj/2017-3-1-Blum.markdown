@@ -7,7 +7,7 @@ client-email: "lklarson@ucdavis.edu"
 current-url: "http://blum.ucdavis.edu/"
 backend: "http://blum.ucdsitefarm.acsitefactory.com/"
 Launched: Jan 2018
-Technology: Site Farm
+Technology: Sitefarm
 tags:
   - Sitefarm - Drupal
 ---
