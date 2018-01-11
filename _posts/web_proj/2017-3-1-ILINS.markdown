@@ -6,7 +6,7 @@ client: "Brietta Oaks"
 client-email: "boaks@uri.edu"
 current-url: "http://ilins.ucdavis.edu"
 backend: "http://ilins.ucdsitefarm.acsitefactory.com/"
-Launched: Dec 2017
+Launched: Nov 2017
 Technology: Sitefarm
 tags:
   - Sitefarm - Drupal
