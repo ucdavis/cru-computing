@@ -1,0 +1,205 @@
+---
+layout: default
+title: CRU - Portfolio
+---
+
+<div class="main">
+    <div class="main_contents">
+        <aside>
+        {% include aside_nav.html %}
+        </aside>
+        <article>
+            <h1>Our Work</h1>
+            <p class="lead">
+                From small centers and departments to large campus wide applications, we work with a wide range of clients. Check out the list below for a comprehensive view of our work.
+            </p>
+            <ul class="tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Web Development</a></li>
+                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">App Development</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">
+                {% for post in site.tags.deck %}
+                <div class="portfolio_item">
+                  <h3>{{ post.title }}</h3>
+                  <div class="well">
+                      <ul class="no-bullet">
+                          <h4><b>Description:</b></h4>
+                          <p>{{post.description}}</p>
+                          <br>
+                          <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                          {% if post.current-url %}
+                          <li>Current URL: <a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a></li>
+                          {% endif %} {% if post.dev-url %}
+                          <li>Development URL: <a target="_blank" href="{{post.backendl}}">{{post.backend}}</a></li>
+                          {% endif %} {% if post.launched %}
+                          <li>Updated: {{post.launched}}</li>
+                          {% endif %} 
+                      </ul>
+                  </div>
+                </div>
+
+                </div>
+                <div role="tabpanel" class="tab-pane" id="profile">
+                    <ul class="portfolio_ul">
+                <li>
+                    <h3>Give to UC Davis</h3>
+                    <p><a target="_blank" href="http://give.ucdavis.edu/">http://give.ucdavis.edu/</a></p>
+                    <p><b>Audience:</b> Campus donors &amp; University Relations</p>
+                    <p><b>Description:</b> Flagship giving site for UC Davis to collect credit card donations for a wide variety of campus areas and funds. Give to UC Davis increased online donations by over 20% in its first year of opperation.</p>
+                </li>
+                <li>
+                    <h3>Gift Tracking</h3>
+                    <p><a target="_blank" href="https://gifts.ucdavis.edu/">http://gifts.ucdavis.edu/</a></p>
+                    <p><b>Audience:</b> UCD Development Officers</p>
+                    <p><b>Description:</b> Process and track campus donations in a centralized system, including complex payment processing, document management, and workflow history.</p>
+                </li>
+                <li>
+                    <h3>ACE (Course Evaluations)</h3>
+                    <p><a target="_blank" href="https://eval.ucdavis.edu/">http://eval.ucdavis.edu/</a></p>
+                    <p><b>Audience:</b> Students, Staff, and Faculty</p>
+                    <p><b>Description:</b> Online course evaluations for UC Davis, enabling staff and faculty to quickly define and distribute evaluations and receive secure feedback rapidly through drastically less effort than using paper evaluations. Used quarterly by almost every student on campus.</p>
+                </li>
+                <li>
+                    <h3>PrePurchasing</h3>
+                    <p><a target="_blank" href="https://prepurchasing.ucdavis.edu/">http://prepurchasing.ucdavis.edu/</a></p>
+                    <p><b>Audience:</b> Staff and Faculty</p>
+                    <p><b>Description:</b> PrePurchasing allows camps staff and faculty to submit, process, track and repot on any type of order request, including KFS, MyTravel, DPO/DRO/PR, and other campus services. Vert popular program that has processed hundreds of millions of dollars in orders to date.</p>
+                </li>
+                <li>
+                    <h3>Commencement</h3>
+                    <p><a target="_blank" href="https://graduation.ucdavis.edu">https://graduation.ucdavis.edu</a></p>
+                    <p><b>Audience:</b> Students and Staff</p>
+                    <p><b>Description:</b> Campus commencement registration system that tracks and distributes tickets to students.</p>
+                </li>
+                <li>
+                    <h3>Registration</h3>
+                    <p><a target="_blank" href="https://registration.ucdavis.edu/">https://registration.ucdavis.edu/</a></p>
+                    <p><b>Audience:</b> Staff and Public</p>
+                    <p><b>Description:</b> Allows campus staff to create and promote conferences and other events and handles payments (Credit Card/Checks) for those events.</p>
+                </li>
+                <li>
+                    <h3>Benefits Allocation</h3>
+                    <p><a target="_blank" href="https://secure.caes.ucdavis.edu/BenefitsAllocationUpload">https://secure.caes.ucdavis.edu/BenefitsAllocationUpload</a></p>
+                    <p><b>Audience:</b> Campus staff accountants</p>
+                    <p><b>Description:</b> A Project for Automating General Ledger Current Budget Adjustments necessitated by campus' de-centralization of benefits allocation credits and expenses.</p>
+                </li>
+                <li>
+                    <h3>AD419</h3>
+                    <p><a target="_blank" href="https://secure.caes.ucdavis.edu/ad419">https://secure.caes.ucdavis.edu/ad419</a></p>
+                    <p><b>Audience:</b> CAES staff</p>
+                    <p><b>Description:</b> Complex reporting and expense association system for almost $200 million in agricultural research grants and funds.</p>
+                </li>
+                <li>
+                    <h3>Student Information Management</h3>
+                    <p>
+                        <a target="_blank" href=""></a>
+                    </p>
+                    <p><b>Audience:</b> CAES staff</p>
+                    <p><b>Description:</b> Student Information Management System: Used by CA&amp;ES academic counselors. Features include transcript pdf storage, student form tracking, and ability to run student reports against Banner.</p>
+                </li>
+                <li>
+                    <h3>Eligibility List</h3>
+                    <p>
+                        <a target="_blank" href=""></a>
+                    </p>
+                    <p><b>Audience:</b> CAES staff</p>
+                    <p><b>Description:</b> Track eligibility actions for CAES faculty.</p>
+                </li>
+                <li>
+                    <h3>Gramps</h3>
+                    <p>
+                        <a target="_blank" href=""></a>
+                    </p>
+                    <p><b>Audience:</b> CAES staff</p>
+                    <p><b>Description:</b> Grant Request and Managed Proposal System . Mostly used for Rustici RFP.</p>
+                </li>
+                <li>
+                    <h3>Employee Salary Review &amp; Analysis (ESRA)</h3>
+                    <p>
+                        <a target="_blank" href=""></a>
+                    </p>
+                    <p><b>Audience:</b> CAES staff (&amp; some campus staff)</p>
+                    <p><b>Description:</b> System to analyze salaries among titles/personnel and formulate/propose salary adjustments due to equity considerations or reclassification. It pulls together information from a variety of sources and provides personnel analysts with a single-source portal to be able to view employee salary and title.</p>
+                </li>
+                <li>
+                    <h3>DataMarts (FIS/PPS)</h3>
+                    <p>
+                        <a target="_blank" href=""></a>
+                    </p>
+                    <p><b>Audience:</b> CAES staff (financial analysts)</p>
+                    <p><b>Description:</b> Used primarily by college financial anaylists to run specialized financial reports not otherwise available in DaFIS DS or Kuali.</p>
+                </li>
+                <li>
+                    <h3>Data Dictionary</h3>
+                    <p>
+                        <a target="_blank" href=""></a>
+                    </p>
+                    <p><b>Audience:</b> Campus Staff Developers</p>
+                    <p><b>Description:</b> Allows users to access a single website to view data dictionary information for various databases used on campus such as FIS(DaFIS), PPS, etc.</p>
+                </li>
+                <li>
+                    <h3>CAES Genomics Facility</h3>
+                    <p>
+                        <a target="_blank" href=""></a>
+                    </p>
+                    <p><b>Audience:</b> CAES Genomics</p>
+                    <p><b>Description:</b> Application used by CA&amp;ES Genomics Facility to allow users to enter, track and retrieve orders.</p>
+                </li>
+                <li>
+                    <h3>EatFit</h3>
+                    <p>
+                        <a target="_blank" href=""></a>
+                    </p>
+                    <p><b>Audience:</b> Healthy Kids Center Staff</p>
+                    <p><b>Description:</b> Survey application used by educators across California for analyzing children's eating habits.</p>
+                </li>
+                <li>
+                    <h3>Plant Transformation Facility</h3>
+                    <p>
+                        <a target="_blank" href=""></a>
+                    </p>
+                    <p><b>Audience:</b> Plant Transformation Staff</p>
+                    <p><b>Description:</b> Plant Transformation Facility: Online ordering system for the Plant Transformation Facility. Features online ordering from clients, inventory management, and online billing integration.</p>
+                </li>
+                <li>
+                    <h3>Badges</h3>
+                    <p>
+                        <a target="_blank" href=""></a>
+                    </p>
+                    <p><b>Audience:</b> ASI (Agricultural Sustainability Institute)</p>
+                    <p><b>Description:</b> ASI grant project -- open source badging system for higher education. Inside Higher Ed article about it: http://www.insidehighered.com/news/2014/01/03/uc-daviss-groundbreaking-digital-badge-system-new-sustainable-agriculture-program.</p>
+                </li>
+                <li>
+                    <h3>Legal Gift Agreements</h3>
+                    <p>
+                        <a target="_blank" href=""></a>
+                    </p>
+                    <p><b>Audience:</b> DEVAR Staff</p>
+                    <p><b>Description:</b> Create, distribute and calculate changes to complex legal documents covering the receipt of large donations to UC Davis.</p>
+                </li>
+                <li>
+                    <h3>Agribusiness</h3>
+                    <p>
+                        <a target="_blank" href=""></a>
+                    </p>
+                    <p><b>Audience:</b> Public and CAES Staff</p>
+                    <p><b>Description:</b> Legacy program for managing yearly Agribusiness conference, including attendee tracking and materials distribution.</p>
+                </li>
+            </ul>
+                </div>
+
+            </div>
+
+        </article>
+    </div>
+</div>
+   <script>
+          $('#myTabs a').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+          })
+          $('#myTabs a[href="#profile"]').tab('show') // Select tab by name
+          $('#myTabs a[href="#home"]').tab('show') // Select tab by name
+    </script>
