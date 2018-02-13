@@ -44,14 +44,16 @@ aside {
         }
     }
 }
-
+aside + article {
+    border-left: 1px solid $borders;
+    width: 70%;
+}
 article {
     width: 70%;
     display: inline-block;
     vertical-align: top;
     padding-left:50px;
     margin-left:2%;
-    border-left:1px solid $borders;
     @include breakpoint(mobileonly) {
       width:100%;
       border-left:none;
@@ -60,6 +62,11 @@ article {
       margin-top:20px;
     }
 }
+
+.bordered {
+    @include add-bottom-border;
+}
+
 .feed-item {
     margin:30px 0px;
 }

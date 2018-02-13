@@ -190,9 +190,9 @@ p {
         }
     }
     &.lead {
-        border-bottom: 1px solid $borders;
-        margin-bottom: 30px;
-        padding-bottom: 20px;
+        :last-of-type {
+            @include add-bottom-border;
+        }
         margin-top:10px;
         font-size:1.8rem;
         color:$secondary-font;
