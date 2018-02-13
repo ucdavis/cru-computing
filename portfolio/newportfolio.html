@@ -5,9 +5,6 @@ title: CRU - Portfolio
 
 <div class="main">
     <div class="main_contents">
-        <aside>
-        {% include aside_nav.html %}
-        </aside>
         <article>
             <h1>Our Work</h1>
             <p class="lead">
@@ -37,10 +34,9 @@ title: CRU - Portfolio
                           <li>Updated: {{post.launched}}</li>
                           {% endif %}
                       </ul>
-                  </div>
-                  {% endfor %}
+                    </div>
                 </div>
-
+                {% endfor %}
                 </div>
                 <div role="tabpanel" class="tab-pane" id="profile">
                     <ul class="portfolio_ul">
