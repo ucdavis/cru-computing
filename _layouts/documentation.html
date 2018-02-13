@@ -6,7 +6,7 @@ layout: default
     <div class="main_contents">
         <aside>
           <h3>Knowledge Base</h3>
-          {% assign orderedPosts = site.categories[{{page.category}}] | sort: "title" %}
+          {% assign orderedPosts = site.categories[page.category] | sort: "title" %}
           {% for post in orderedPosts %}
           <ul>
             <li>
