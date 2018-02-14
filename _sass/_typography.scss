@@ -96,15 +96,15 @@ ul.portfolio_ul {
         &:first-child {
             margin-top:0px;
         }
-        h3 {
-            margin-bottom:0px;
-            font-weight:600;
-        }
         p {
             margin-top:0px;
             margin-bottom:5px;
         }
     }
+}
+ul.portfolio_ul li h3, div.portfolio_item h3 {
+    margin-bottom:0px;
+    font-weight:600;
 }
 article ul li ul {
     margin-left:20px;

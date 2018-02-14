@@ -27,6 +27,20 @@ header {
         padding: 30px 30px;
         margin-top: 2%;
         margin-bottom:2%;
+        div.portfolio_item {
+            div.well {
+                > ul {
+                    li {
+                        &:first-of-type {
+                            > a {
+                                margin-bottom: 0.5em;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
