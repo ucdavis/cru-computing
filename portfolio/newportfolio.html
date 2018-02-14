@@ -17,28 +17,52 @@ title: CRU - Portfolio
             <!-- Tab panes -->
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="home">
-                {% for post in site.categories.web_proj %}
-                <div class="portfolio_item">
-                  <h3>{{ post.title }}</h3>
-                  <div class="well">
-                      <ul class="no-bullet">
-                          <h4><b>Description:</b></h4>
-                          <p>{{post.description}}</p>
-                          <br>
-                          <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
-                          {% if post.current-url %}
-                          <li>Current URL: <a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a></li>
-                          {% endif %} {% if post.dev-url %}
-                          <li>Development URL: <a target="_blank" href="{{post.backendl}}">{{post.backend}}</a></li>
-                          {% endif %} {% if post.launched %}
-                          <li>Updated: {{post.launched}}</li>
-                          {% endif %}
-                      </ul>
+                    {% for post in site.categories.web_proj %}
+                    <div class="portfolio_item">
+                    <h3>{{ post.title }}</h3>
+                    <div class="well">
+                        <ul class="no-bullet">
+                            <h4><b>Description:</b></h4>
+                            <p>{{post.description}}</p>
+                            <br>
+                            <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                            {% if post.current-url %}
+                            <li>Current URL: <a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a></li>
+                            {% endif %} {% if post.dev-url %}
+                            <li>Development URL: <a target="_blank" href="{{post.backendl}}">{{post.backend}}</a></li>
+                            {% endif %} {% if post.launched %}
+                            <li>Updated: {{post.launched}}</li>
+                            {% endif %}
+                        </ul>
+                        </div>
                     </div>
-                </div>
-                {% endfor %}
+                    {% endfor %}
                 </div>
                 <div role="tabpanel" class="tab-pane" id="profile">
+                    {% for post in site.categories.app_dev %}
+                    <div class="portfolio_item">
+                        <h3>{{ post.title }}</h3>
+                        <div class="well">
+                            <ul class="no-bullet">
+                                {% if post.current-url %}
+                                <li><a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a></li>
+                                {% endif %} {% if post.dev-url %}
+                                <li>Development URL: <a target="_blank" href="{{post.backendl}}">{{post.backend}}</a></li>
+                                {% endif %} {% if post.audience %}
+                                <li><b>Audience:</b> {{post.audience}}</li>
+                                {% endif %}  
+                                <p>
+                                    <b>Description:</b>
+                                    {{post.description}}
+                                </p>
+                                <br>
+                                {% if post.launched %}
+                                <li>Updated: {{post.launched}}</li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endfor %}
                     <ul class="portfolio_ul">
                 <li>
                     <h3>Give to UC Davis</h3>
