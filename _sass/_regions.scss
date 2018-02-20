@@ -79,8 +79,11 @@
 
 .faculty {
     margin: 0 auto;
-    max-width: 660px;
+    max-width: 760px;
     margin-top: 30px;
+    img#team-image {
+        width: 80%;
+    }
     .faculty-card {
         margin: 40px 0px;
         display: inline-block;
@@ -90,12 +93,13 @@
         }
         .faculty-image {
             display: inline-block;
-            width: 27%;
+            width: 35%;
             vertical-align: top;
             margin-right: 2%;
             text-align: right;
             img {
                 margin-top: 8px;
+                width: 50%;
             }
         }
         .faculty-info {
