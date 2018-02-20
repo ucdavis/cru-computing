@@ -25,7 +25,7 @@ title: CRU - Portfolio
                             <h4><b>Description:</b></h4>
                             <p>{{post.description}}</p>
                             <br>
-                            <li>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></li>
+                            <li><span>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></span></li>
                             {% if post.current-url %}
                             <li>Current URL: <a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a></li>
                             {% endif %} {% if post.dev-url %}
