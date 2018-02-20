@@ -6,14 +6,42 @@ header {
     background-color: #fff;
     .header_contents {
         @include container;
+        display: flex;
+        align-items: center;
+        margin-top: 1.5em;
         .logo_wrapper {
             width: 75%;
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            h1 {
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+            img {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
         }
         .search_wrapper {
             width: 24%;
             text-align:right;
             display: inline-block;
+            @media only screen and ( max-width: 640px) {
+                .caes_logo {
+                    display: none;
+                }
+                .nav_toggle {
+                    &.active {
+                        display: block;
+                    }
+                }
+            }
+            .nav_toggle {
+                float: right;
+                display: none;
+            }
         }
     }
 }

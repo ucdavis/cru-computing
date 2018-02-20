@@ -62,6 +62,9 @@ nav {
             &:last-child {
                 margin-right: -5px;
             }
+            &:first-child {
+                margin-left: -10px;
+            }
             > a {
                 line-height: 2.5em;
                 text-align: left;
@@ -203,8 +206,8 @@ ul.submenu {
         height: 33px;
         line-height: 40px;
         font-size: 20px;
-        background-color: $blue;
-        color: #fff;
+        background-color: #fff;
+        color: $gold;
         margin-left: 5%;
         margin-top: 3px;
         margin-bottom: 6px;
