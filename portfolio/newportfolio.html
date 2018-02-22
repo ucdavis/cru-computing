@@ -1,39 +1,62 @@
----
-layout: default
+--- 
+layout: default 
 title: CRU - Portfolio
 ---
 
 <div class="main">
     <div class="main_contents">
         <article class="full-width">
+            <div class="cntr">
+                <div class="cntr-innr">
+                    <label class="search" for="inpt_search">
+                        <input id="inpt_search" type="text" />
+                    </label>
+                    <p>Hover to see the magic.</p>
+                </div>
+            </div>
             <h1>Our Work</h1>
             <p class="lead">
-                From small centers and departments to large campus wide applications, we work with a wide range of clients. Check out the list below for a comprehensive view of our work.
+                From small centers and departments to large campus wide applications, we work with a wide range of clients. Check out the
+                list below for a comprehensive view of our work.
             </p>
             <ul class="tabs" role="tablist">
-                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Web Development</a></li>
-                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">App Development</a></li>
+                <li role="presentation" class="active">
+                    <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Web Development</a>
+                </li>
+                <li role="presentation">
+                    <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">App Development</a>
+                </li>
             </ul>
             <!-- Tab panes -->
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="home">
                     {% for post in site.categories.web_proj %}
                     <div class="portfolio_item">
-                    <h3>{{ post.title }}</h3>
-                    <div class="well">
-                        <ul class="no-bullet">
-                            <h4><b>Description:</b></h4>
-                            <p>{{post.description}}</p>
-                            <br>
-                            <li><span>Client: <a href="mailto:{{post.client-email}}">{{post.client}}</a></span></li>
-                            {% if post.current-url %}
-                            <li>Current URL: <a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a></li>
-                            {% endif %} {% if post.dev-url %}
-                            <li>Development URL: <a target="_blank" href="{{post.backendl}}">{{post.backend}}</a></li>
-                            {% endif %} {% if post.launched %}
-                            <li>Updated: {{post.launched}}</li>
-                            {% endif %}
-                        </ul>
+                        <h3>{{ post.title }}</h3>
+                        <div class="well">
+                            <ul class="no-bullet">
+                                <h4>
+                                    <b>Description:</b>
+                                </h4>
+                                <p>{{post.description}}</p>
+                                <br>
+                                <li>
+                                    <span>Client:
+                                        <a href="mailto:{{post.client-email}}">{{post.client}}</a>
+                                    </span>
+                                </li>
+                                {% if post.current-url %}
+                                <li>Current URL:
+                                    <a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a>
+                                </li>
+                                {% endif %} {% if post.dev-url %}
+                                <li>Development URL:
+                                    <a target="_blank" href="{{post.backendl}}">{{post.backend}}</a>
+                                </li>
+                                {% endif %} {% if post.launched %}
+                                <li>Updated: {{post.launched}}</li>
+                                {% endif %}
+                            </ul>
                         </div>
                     </div>
                     {% endfor %}
@@ -45,18 +68,22 @@ title: CRU - Portfolio
                         <div class="well">
                             <ul class="no-bullet">
                                 {% if post.current-url %}
-                                <li><a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a></li>
+                                <li>
+                                    <a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a>
+                                </li>
                                 {% endif %} {% if post.dev-url %}
-                                <li>Development URL: <a target="_blank" href="{{post.backend}}">{{post.backend}}</a></li>
+                                <li>Development URL:
+                                    <a target="_blank" href="{{post.backend}}">{{post.backend}}</a>
+                                </li>
                                 {% endif %} {% if post.audience %}
-                                <li><b>Audience:</b> {{post.audience}}</li>
+                                <li>
+                                    <b>Audience:</b> {{post.audience}}</li>
                                 {% endif %}
                                 <p>
                                     <b>Description:</b>
                                     {{post.description}}
                                 </p>
-                                <br>
-                                {% if post.launched %}
+                                <br> {% if post.launched %}
                                 <li>Updated: {{post.launched}}</li>
                                 {% endif %}
                             </ul>
@@ -70,11 +97,37 @@ title: CRU - Portfolio
         </article>
     </div>
 </div>
-   <script>
-          $('#myTabs a').click(function (e) {
-            e.preventDefault()
-            $(this).tab('show')
-          })
-          $('#myTabs a[href="#profile"]').tab('show') // Select tab by name
-          $('#myTabs a[href="#home"]').tab('show') // Select tab by name
-    </script>
+<script src="/js/lunr.js"></script>
+<script>
+    var data = {% include_relative search.json %}
+    var index = lunr(function () {
+        this.ref('title')
+        this.field('description')
+        this.field('current-url')
+        this.field('audience')
+        data.forEach(function (doc) {
+            this.add(doc)
+        }, this)
+    })
+</script>
+<script>
+    $('#myTabs a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
+    $('#myTabs a[href="#profile"]').tab('show') // Select tab by name
+    $('#myTabs a[href="#home"]').tab('show') // Select tab by name
+    $("#inpt_search").on('focus', function () {
+        $(this).parent('label').addClass('active');
+    });
+    
+    $("#inpt_search").on('blur', function () {
+        if($(this).val().length == 0)
+            $(this).parent('label').removeClass('active');
+    });
+    $("#inpt_search").on('keyup', function(){
+        console.log($(this).val())
+        results = index.search($(this).val())
+        console.log(results)
+    })
+</script>
