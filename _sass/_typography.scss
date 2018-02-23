@@ -162,7 +162,9 @@ ul.footer-list {
         }
     }
 }
-
+.updated {
+    color:$sunny-grass;
+}
 p {
     line-height: 1.625;
     letter-spacing: .025rem;
@@ -171,9 +173,6 @@ p {
     color: $primary-font;
     &.feed-description {
         margin-top:0px;
-    }
-    &.updated {
-        color:$sunny-grass;
     }
     &.tag-display {
         margin-bottom:0px;

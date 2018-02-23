@@ -35,14 +35,11 @@ title: CRU - Portfolio
                         <h3>{{ post.title }}</h3>
                         <div class="well">
                             <ul class="no-bullet">
-                                <h4>
-                                    <b>Description:</b>
-                                </h4>
-                                <p>{{post.description}}</p>
+                                <p><b>Description: </b>{{post.description}}</p>
                                 <br>
                                 <li>
                                     <span>Client:
-                                        <a href="mailto:{{post.client-email}}">{{post.client}}</a>
+                                        <a href="mailto:{{post.client-email}}">{{post.client-email}}</a>
                                     </span>
                                 </li>
                                 {% if post.current-url %}
@@ -51,10 +48,10 @@ title: CRU - Portfolio
                                 </li>
                                 {% endif %} {% if post.dev-url %}
                                 <li>Development URL:
-                                    <a target="_blank" href="{{post.backendl}}">{{post.backend}}</a>
+                                    <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a>
                                 </li>
-                                {% endif %} {% if post.launched %}
-                                <li>Updated: {{post.launched}}</li>
+                                {% endif %} {% if post.Launched %}
+                                <li class="updated">Updated: {{post.Launched}}</li>
                                 {% endif %}
                             </ul>
                         </div>
@@ -73,7 +70,7 @@ title: CRU - Portfolio
                                 </li>
                                 {% endif %} {% if post.dev-url %}
                                 <li>Development URL:
-                                    <a target="_blank" href="{{post.backend}}">{{post.backend}}</a>
+                                    <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a>
                                 </li>
                                 {% endif %} {% if post.audience %}
                                 <li>
@@ -83,9 +80,6 @@ title: CRU - Portfolio
                                     <b>Description:</b>
                                     {{post.description}}
                                 </p>
-                                <br> {% if post.launched %}
-                                <li>Updated: {{post.launched}}</li>
-                                {% endif %}
                             </ul>
                         </div>
                     </div>
@@ -100,17 +94,42 @@ title: CRU - Portfolio
 <script src="/js/lunr.js"></script>
 <script>
     var data = {% include_relative search.json %}
-    var index = lunr(function () {
+    var webData = {};
+    var appData = {};
+    Object.keys(data).forEach(value => {
+        if(data[value].category == 'web_proj')
+            webData[value] = data[value];
+        else appData[value] = data[value];
+    });
+    var appIndex = lunr(function () {
         this.ref('title')
         this.field('description')
-        this.field('current-url')
         this.field('audience')
-        data.forEach(function (doc) {
+        this.field('title')
+        Object.values(appData).forEach(function (doc) {
+            this.add(doc)
+        }, this)
+    })
+    var webIndex = lunr(function() {
+        this.ref('title')
+        this.field('description')
+        this.field('client')
+        this.field('title')
+        Object.values(webData).forEach(function (doc) {
             this.add(doc)
         }, this)
     })
 </script>
+<script src="/js/doT.js"></script>
 <script>
+    {% assign app_proj = site.data.template.app_proj %}
+    {% assign web_proj = site.data.template.web_proj %}
+    var template = "{{app_proj}}";
+    var webTemplate = "{{web_proj}}";
+    var renderFn = doT.template(template);
+    var webFn = doT.template(webTemplate)
+    console.log(renderFn.toString())
+    console.log(webFn.toString())
     $('#myTabs a').click(function (e) {
         e.preventDefault()
         $(this).tab('show')
@@ -126,8 +145,35 @@ title: CRU - Portfolio
             $(this).parent('label').removeClass('active');
     });
     $("#inpt_search").on('keyup', function(){
-        console.log($(this).val())
-        results = index.search($(this).val())
-        console.log(results)
-    })
+        window.initialApps = window.initialApps || $("#profile").children();
+        window.initialWeb = window.initialWeb || $("#home").children();
+        let results = webIndex.search($(this).val())
+        let apps = $("#profile");
+        let web = $("#home");
+        if(results.length > 0) {
+            console.log(results);
+            web.empty();
+            results.forEach(value => {
+                let element = document.createElement("template");
+                element.innerHTML = webFn(webData[value.ref]);
+                web.append(element.content.firstChild);
+            });
+        }
+        results = appIndex.search($(this).val());
+        if(results.length > 0) {
+            console.log(results);
+            apps.empty();
+            results.forEach(value => {
+                let element = document.createElement("template");
+                element.innerHTML = renderFn(appData[value.ref]);
+                apps.append(element.content.firstChild);
+            });
+        }
+        if($(this).val().length == 0) {
+            apps.empty();
+            web.empty();
+            apps.append(window.initialApps);
+            web.append(window.initialWeb);
+        }
+    });
 </script>
