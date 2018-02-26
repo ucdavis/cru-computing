@@ -147,7 +147,8 @@ title: CRU - Portfolio
     $("#inpt_search").on('keyup', function(){
         window.initialApps = window.initialApps || $("#profile").children();
         window.initialWeb = window.initialWeb || $("#home").children();
-        let results = webIndex.search($(this).val())
+        let query = $(this).val() + "*";
+        let results = webIndex.search(query)
         let apps = $("#profile");
         let web = $("#home");
         if(results.length > 0) {
@@ -159,7 +160,7 @@ title: CRU - Portfolio
                 web.append(element.content.firstChild);
             });
         }
-        results = appIndex.search($(this).val());
+        results = appIndex.search(query);
         if(results.length > 0) {
             console.log(results);
             apps.empty();
