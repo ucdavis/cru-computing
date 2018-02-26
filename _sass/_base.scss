@@ -104,7 +104,8 @@ article {
       margin-top:20px;
     }
     &.full-width {
-      width:90%;
+      width:100%;
+      max-width: 1040px;
       border-left:none;
       margin-left:0px;
       padding-left:0px;
