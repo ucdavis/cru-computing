@@ -189,7 +189,7 @@ p {
         }
     }
     &.lead {
-        :last-of-type {
+        &:last-of-type {
             @include add-bottom-border;
         }
         margin-top:10px;
