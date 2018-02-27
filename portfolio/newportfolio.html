@@ -7,11 +7,12 @@ title: CRU - Portfolio
     <div class="main_contents flex horizontal-center">
         <article class="full-width">
             
-            <h1>Our Work <label class="search" for="inpt_search"><input id="inpt_search" type="text" /></label></h1>
+            <h1>Our Work</h1>
             <p class="lead">
                 From small centers and departments to large campus wide applications, we work with a wide range of clients. Check out the
                 list below for a comprehensive view of our work.
             </p>
+            <label class="search" for="inpt_search"><input id="inpt_search" type="text" placeholder="Search..." aria-placeholder="search"/></label>
             <ul class="tabs" role="tablist">
                 <li role="presentation" class="active">
                     <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Web Development</a>
@@ -29,7 +30,6 @@ title: CRU - Portfolio
                         <div class="well">
                             <ul class="no-bullet">
                                 <p><b>Description: </b>{{post.description}}</p>
-                                <br>
                                 <li>
                                     <span>Client:
                                         <a href="mailto:{{post.client-email}}">{{post.client-email}}</a>
@@ -84,6 +84,24 @@ title: CRU - Portfolio
         </article>
     </div>
 </div>
+<script>
+    function tabTextResize() {
+        let appDev = $("ul.tabs a[href='#profile']");
+        let webDev = $("ul.tabs a[href='#home']");
+        if($("ul.tabs").width() < 400){
+            appDev.text("Apps");
+            webDev.text("Websites");
+        }
+        else{
+            appDev.text("App Development");
+            webDev.text("Web Development");
+        }
+    }
+    $(function() {
+        tabTextResize();
+        $(window).resize(tabTextResize);
+    });
+</script>
 <script src="/js/lunr.js"></script>
 <script>
     var data = {% include_relative search.json %}

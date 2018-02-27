@@ -56,8 +56,14 @@ header {
         margin-top: 2%;
         margin-bottom:2%;
         div.portfolio_item {
+            margin-bottom: 3em;
             div.well {
                 > ul {
+                   > p {
+                        &:first-of-type {
+                            margin-bottom: 0.5em;
+                        }
+                    }
                     li {
                         &:first-of-type {
                             > a {
@@ -105,7 +111,7 @@ article {
     }
     &.full-width {
       width:100%;
-      max-width: 1040px;
+      max-width: 960px;
       border-left:none;
       margin-left:0px;
       padding-left:0px;

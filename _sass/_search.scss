@@ -2,52 +2,49 @@
 $bg-color: #000;
 $txt-color: $gold;
 $icn-color: $gold;
-
+$search-border: 1px solid rgba(12, 12, 12, 0.4);
+$search-border-focus: 1px solid rgba(12, 12, 12, 0.75);
 /*** STYLES ***/
 .search {
-	display: inline-block;
-	position: relative;
-	height: 35px;
-	width: 35px;
-	box-sizing: border-box;
-	margin: -14px 8px 7px 4px;
-	padding: 7px 9px 0px 9px;
-	border: 3px solid $icn-color;
-	border-radius: 25px;
-	transition: all 200ms ease;
-	cursor: text;
-	
-	&:after {
-		content: "";
-		position: absolute;
-		width: 3px;
-		height: 20px;
-		right: -5px;
-		top: 21px;
-		background: $icn-color;
-		border-radius: 3px;
-		transform: rotate(-45deg);
-		transition: all 200ms ease;
+	cursor: default;
+	margin: 0.1em 0.1em 2em;
+	width: 100%;
+	display: flex;
+	#inpt_search {
+		border-top-right-radius: 0.15em;
+		border-bottom-right-radius: 0.15em;
+		box-shadow: 0 1px 4px 0 rgba(12, 12, 13,0.1), 0 0 0 1px rgba(0, 0, 0, 0.15);
+		color: inherit;
+		padding: 0;
+		width: 100%;
+		font-size: 1.65rem;
+		padding-left: 0.5em;
+		max-width: 20em;
 	}
-	
-	&.active,
+	&:before {
+		content: url("/media/search_form.svg");
+		border-top-left-radius: 0.15em;
+		border-bottom-left-radius: 0.15em;
+		box-shadow: 0 1px 4px 0 rgba(12, 12, 13,0.1), 0 0 0 1px rgba(0, 0, 0, 0.15);
+		padding: 0.85em 0.65em 0.3em 0.85em;
+	}
+	&:before, #inpt_search{
+		border: $search-border;
+	}
+	&.active {
+		#inpt_search{
+			border-color: $gold;
+			color: $gold;
+		}
+		&:before{
+			border-color: $gold;
+			content: url("/media/search_form_gold.svg");
+		}
+	}
 	&:hover {
-		width: 200px;
-		margin-right: 0px;
-		
-		&:after {
-			height: 0px;	
+		#inpt_search, &:before {
+			border-color: $gold;
 		}
 	}
 	
-	input {
-		width: 100%;
-		border: none;
-		box-sizing: border-box;
-		font-family: Helvetica;
-		font-size: 15px;
-		color: inherit;
-		background: transparent;
-		outline-width: 0px;
-	}
 }
