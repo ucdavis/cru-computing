@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="5.7882428mm"
+   height="5.7884474mm"
+   viewBox="0 0 5.7882428 5.7884474"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="search_form_gold.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="31.678384"
+     inkscape:cx="1.6050356"
+     inkscape:cy="7.8407072"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="2004"
+     inkscape:window-x="4784"
+     inkscape:window-y="-16"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-113.10086,-162.87644)">
+    <g
+       sketch:type="MSPage"
+       id="Page-1"
+       style="fill:#c99700;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1"
+       transform="matrix(0.26458333,0,0,0.26458333,113.10083,162.84408)">
+      <g
+         transform="translate(-5,-6)"
+         sketch:type="MSArtboardGroup"
+         id="search_form"
+         style="fill:#c99700;fill-opacity:1">
+        <g
+           id="Fill-1"
+           transform="translate(5,6)"
+           sketch:type="MSLayerGroup"
+           style="fill:#c99700;fill-opacity:1">
+          <path
+             id="path3705"
+             sketch:type="MSShapeGroup"
+             d="m 21.616742,18.5822 -4.12275,-4.124667 c -0.364167,-0.364166 -1.021584,-0.329666 -1.679,0.01342 L 14.013325,12.67312 c 2.344083,-3.0647503 2.1275,-7.459667 -0.676583,-10.2637503 -3.051334,-3.0494167 -7.9982503,-3.0494167 -11.0495837,0 -3.04941663,3.05325 -3.04941663,7.9982503 0,11.0495833 2.8021667,2.802167 7.2009167,3.022583 10.2618337,0.676583 l 1.79975,1.79975 c -0.343084,0.659334 -0.377584,1.31675 -0.01533,1.677084 l 4.124667,4.126583 c 0.519417,0.521333 1.652167,0.237667 2.522333,-0.63825 0.874,-0.86825 1.15575,-1.999083 0.636334,-2.5185 M 3.4486583,12.29745 c -2.40925,-2.40925 -2.40925,-6.3173333 0,-8.7265833 2.4111667,-2.40925 6.3115834,-2.4073334 8.7246667,0 2.40925,2.40925 2.40925,6.3135 0,8.7265833 -2.4130833,2.40925 -6.3154167,2.40925 -8.7246667,0"
+             inkscape:connector-curvature="0"
+             style="fill:#c99700;fill-opacity:1" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

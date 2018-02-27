@@ -6,14 +6,42 @@ header {
     background-color: #fff;
     .header_contents {
         @include container;
+        display: flex;
+        align-items: center;
+        margin-top: 1.5em;
         .logo_wrapper {
             width: 75%;
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            h1 {
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+            img {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
         }
         .search_wrapper {
             width: 24%;
             text-align:right;
             display: inline-block;
+            @media only screen and ( max-width: 640px) {
+                .caes_logo {
+                    display: none;
+                }
+                .nav_toggle {
+                    &.active {
+                        display: block;
+                    }
+                }
+            }
+            .nav_toggle {
+                float: right;
+                display: none;
+            }
         }
     }
 }
@@ -27,6 +55,26 @@ header {
         padding: 30px 30px;
         margin-top: 2%;
         margin-bottom:2%;
+        div.portfolio_item {
+            margin-bottom: 3em;
+            div.well {
+                > ul {
+                   > p {
+                        &:first-of-type {
+                            margin-bottom: 0.5em;
+                        }
+                    }
+                    li {
+                        &:first-of-type {
+                            > a {
+                                margin-bottom: 0.5em;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -44,14 +92,16 @@ aside {
         }
     }
 }
-
+aside + article {
+    border-left: 1px solid $borders;
+    width: 70%;
+}
 article {
     width: 70%;
     display: inline-block;
     vertical-align: top;
     padding-left:50px;
     margin-left:2%;
-    border-left:1px solid $borders;
     @include breakpoint(mobileonly) {
       width:100%;
       border-left:none;
@@ -59,7 +109,20 @@ article {
       padding-left:0px;
       margin-top:20px;
     }
+    &.full-width {
+      width:100%;
+      max-width: 960px;
+      border-left:none;
+      margin-left:0px;
+      padding-left:0px;
+      margin-top:20px;
+    }
 }
+
+.bordered {
+    @include add-bottom-border;
+}
+
 .feed-item {
     margin:30px 0px;
 }

@@ -1,0 +1,37 @@
+{
+    {%- for post in site.categories.app_dev -%}
+    "{{post.title}}": {
+        "title": "{{post.title}}",
+        "category": "app_proj",
+        "description": "{{post.description | strip_html | strip_newlines }}",
+        {%- if post.audience -%}
+        "client-email": "{{post.audience}}",
+        {%- endif -%}
+        "current-url": "{{post.current-url}}"
+        {%- if post.dev-url -%}
+        ,"dev-url": "{{post.dev-url}}"
+        {%- endif -%}
+        {%- if post.Launched -%}
+        ,"Launched": "{{post.Launched}}"
+        {%- endif -%}
+    },
+    {%- endfor -%}
+    {%- for post in site.categories.web_proj -%}
+    "{{post.title}}": {
+        "title": "{{post.title}}",
+        "description": "{{post.description | strip_html | strip_newlines }}",
+        "category": "web_proj",
+        "client": "{{post.client}}",
+        {%- if post.client-email -%}
+        "client-email": "{{post.client-email}}",
+        {%- endif -%}
+        "current-url": "{{post.current-url}}"
+        {%- if post.dev-url -%}
+        ,"dev-url": "{{post.dev-url}}"
+        {%- endif -%}
+        {%- if post.Launched -%}
+        ,"Launched": "{{post.Launched}}"
+        {%- endif -%}
+    } {%- unless forloop.last -%},{% endunless -%}
+    {%- endfor -%}
+}

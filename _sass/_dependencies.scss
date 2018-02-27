@@ -81,6 +81,12 @@ $shingle-brown: #4f2c1d;
     }
 }
 
+@mixin add-bottom-border {
+    border-bottom: 1px solid $borders;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
 @mixin transitiontime {
     transition-delay: 0s;
     transition-duration: 0.75s;
