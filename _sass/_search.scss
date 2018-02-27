@@ -31,7 +31,7 @@ $search-border-focus: 1px solid rgba(12, 12, 12, 0.75);
 	&:before, #inpt_search{
 		border: $search-border;
 	}
-	&:focus {
+	&.active {
 		#inpt_search{
 			border-color: $gold;
 			color: $gold;
