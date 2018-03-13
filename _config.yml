@@ -14,7 +14,7 @@ paginate: 3
 markdown: kramdown
 
 #gems
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-autoprefixer
