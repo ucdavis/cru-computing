@@ -9,7 +9,8 @@ $search-border-focus: 1px solid rgba(12, 12, 12, 0.75);
 	cursor: default;
 	margin: 0.1em 0.1em 2em;
 	width: 100%;
-	display: flex;
+	max-width: 27em;
+	display: inline-flex;
 	#inpt_search {
 		border-top-right-radius: 0.15em;
 		border-bottom-right-radius: 0.15em;
@@ -19,7 +20,7 @@ $search-border-focus: 1px solid rgba(12, 12, 12, 0.75);
 		width: 100%;
 		font-size: 1.65rem;
 		padding-left: 0.5em;
-		max-width: 20em;
+		flex-shrink: 1;
 	}
 	&:before {
 		content: url("/media/search_form.svg");
