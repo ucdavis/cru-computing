@@ -11,8 +11,9 @@ display-tag: Help Desk
 ---
 
 <ul>
-<li>Log on to Outlook Web Access at <a class="external-link" href="https://365.ucdavis.edu/" target="_blank" title="">https://365.ucdavis.edu/</a></li>
-<li>In the top right corner of the window, click on the settings gear. <span>In the menu click on "Automatic replies."
+<li>Log on to Outlook Web Access at <a class="external-link" href="https://365.ucdavis.edu/" target="_blank">https://365.ucdavis.edu/</a>
+</li>
+<li>In the top right corner of the window, click on the settings gear. In the menu click on "Automatic replies."
 </li>
 <li>Configure a temporary or indefinite period of out-of-office status, or turn off your out-of-office message.</li>
 </ul>
