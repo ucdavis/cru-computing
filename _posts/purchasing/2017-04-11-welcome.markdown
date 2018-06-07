@@ -9,11 +9,11 @@ permalink: /faq/prepurchasing/welcome-to-prepurchasing
 display-tag: Application Development
 ---
 
-[http://prepurchasing.ucdavis.edu](http://prepurchasing.ucdavis.edu)
+[https://prepurchasing.ucdavis.edu](https://prepurchasing.ucdavis.edu)
 
 # Here are some tips to get you started
 
-If you are not sure what you have access to, click this link to see which PrePurchasing workgroups you are a member of, and who the workgroup administrators are: [http://prepurchasing.ucdavis.edu/user/contact](http://prepurchasing.ucdavis.edu/user/contact)
+If you are not sure what you have access to, click this link to see which PrePurchasing workgroups you are a member of, and who the workgroup administrators are: [https://prepurchasing.ucdavis.edu/user/contact](https://prepurchasing.ucdavis.edu/user/contact)
 
 ## Email Notifications
 
@@ -59,4 +59,4 @@ When an order is denied or cancelled, you cannot resubmit. To make corrections, 
 
 Enter as much information as you can to help all the people who will be reviewing and approving your order.
 
-More detailed information about routing may be found here: [http://computing.caes.ucdavis.edu/faq/prepurchasing/approval-routing](http://computing.caes.ucdavis.edu/faq/prepurchasing/approval-routing)
+More detailed information about routing may be found here: [https://computing.caes.ucdavis.edu/faq/prepurchasing/approval-routing](https://computing.caes.ucdavis.edu/faq/prepurchasing/approval-routing)

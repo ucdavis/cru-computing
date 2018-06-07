@@ -9,7 +9,7 @@ permalink: /faq/evals/ace-templates
 display-tag: Application Development
 ---
 
-![](https://i.embed.ly/1/image?url=http%3A%2F%2Fucdavis.github.io%2FACE%2Fimages%2Ffaq%2FAceTemplateButton.png&key=afea23f29e5a4f63bd166897e3dc72df)
+![](https://i.embed.ly/1/image?url=https%3A%2F%2Fucdavis.github.io%2FACE%2Fimages%2Ffaq%2FAceTemplateButton.png&key=afea23f29e5a4f63bd166897e3dc72df)
 
 ## General Information
 
@@ -20,7 +20,7 @@ display-tag: Application Development
 
 ## Create Template
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/caYcjIxL9ms" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/caYcjIxL9ms" frameborder="0"> </iframe>
 
 - All templates need a name. It does not have to be unique.
 - The answer type may be numeric, text, or both numeric and text.
@@ -34,7 +34,7 @@ display-tag: Application Development
 
 ## List Page 
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/ajv5FN22ryM" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/ajv5FN22ryM" frameborder="0"> </iframe>
 
 - From this list page you can see all your templates.
 - To remove a template, click the trash can. If you remove a template, it will not affect and evaluations that were created with it.
@@ -43,7 +43,7 @@ display-tag: Application Development
 
 ## Preview
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/5Y0Az9Z9g8w" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/5Y0Az9Z9g8w" frameborder="0"> </iframe>
 
 - Previewing template is not the same as previewing the evaluation that was created. It is similar, but it uses fake instructors and lets you change the learning activity so you can see what it would look like if it was applied to that learning activity.
 - The questions are automatically numbered.
@@ -52,7 +52,7 @@ display-tag: Application Development
 
 ## Edit Template
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/Al894ODLxes" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/Al894ODLxes" frameborder="0"> </iframe>
 
 - Changes to a template will not affect existing evaluations.
 - You may view the global questions defined by the Academic Senate so that you do not duplicate these.
