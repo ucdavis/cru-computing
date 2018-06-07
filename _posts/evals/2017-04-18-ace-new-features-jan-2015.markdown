@@ -16,7 +16,7 @@ Note, historical data and reports will remain the same and list the learning act
 ## Template Changes:
 You need to move any of your questions which are learning activity specific to the "All" section.
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/Ko_DDdHW1D8" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/Ko_DDdHW1D8" frameborder="0"> </iframe>
 
 - Any Templates with Learning Activities other than All need to be edited so that all questions are in the "All" section.
 - You may drag and drop questions in the template editor.
@@ -27,7 +27,7 @@ You need to move any of your questions which are learning activity specific to t
 
 You will not be able to use any template that has learning activities other than "All".
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/uqTUgcyKofI" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/uqTUgcyKofI" frameborder="0"> </iframe>
 
 - If you try to use a template that has learning activities other that "All", you will get a message and not be allowed to create the evaluation.
 - On the Open/Pending list of evaluations, where it would normally have LEC, LAB, etc. not it just has --- for each section. 
@@ -37,7 +37,7 @@ You will not be able to use any template that has learning activities other than
 
 The changes for adding Instructors or Teaching Assistants have only minor changes.
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/EwN3nVQVXLg" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/EwN3nVQVXLg" frameborder="0"> </iframe>
 
 - When adding an Instructor or Teaching Assistant you no longer select which Class Time they should be added to because now it is for the section.
 - The list of instructors for the evaluation has had the columns for Class Time and Learning Activity Removed.
