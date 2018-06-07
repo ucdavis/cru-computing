@@ -11,7 +11,7 @@ display-tag: Application Development
 
 ![](https://i.embed.ly/1/image?url=http%3A%2F%2Fucdavis.github.io%2FACE%2Fimages%2Ffaq%2FAceManageUsersButton.png&key=afea23f29e5a4f63bd166897e3dc72df)
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/RliEp4pBPYg" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/RliEp4pBPYg" frameborder="0"> </iframe>
 
 ## General Information
 
