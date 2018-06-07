@@ -13,7 +13,7 @@ display-tag: Application Development
 
 ## List Page
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/nhUM8fjE_9g" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/nhUM8fjE_9g" frameborder="0"> </iframe>
 
 - The Pending/Open status shows which evaluations may be modified
 - You may sort by the column headers
@@ -25,7 +25,7 @@ display-tag: Application Development
 
 ## Preview
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/afNuH0EI0D4" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/afNuH0EI0D4" frameborder="0"> </iframe>
 
 - The preview for the evaluations is very important because it shows you what the evaluation will actually look like. 
 - It will show you any Teaching Assistant questions if you have defined those questions and if you have added Teaching Assistants. 
@@ -35,7 +35,7 @@ display-tag: Application Development
 
 ## Edit Evaluation
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/I7nbnBnWY8Y" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/I7nbnBnWY8Y" frameborder="0"> </iframe>
 
 - You may edit an evaluation's questions if all of the associated evaluations are pending. If one or more of them are open, you will get an error message if you try.
 - You may add and remove questions.
@@ -45,7 +45,7 @@ display-tag: Application Development
 
 ## Remove Evaluation
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/gmPbNJdF89k" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/gmPbNJdF89k" frameborder="0"> </iframe>
 
 - You may remove evaluations if it is pending.
 - You may filter the evaluations with the search if you need to remove evaluations matching certain criteria. Such as all Discussion evaluations.
@@ -54,7 +54,7 @@ display-tag: Application Development
 
 #### Details List Page
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/IGHsHyBHXWo" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/IGHsHyBHXWo" frameborder="0"> </iframe>
 
 - Manual Release (Doesn't do anything from the open/pending section)
 - Lists CRN's
@@ -64,7 +64,7 @@ display-tag: Application Development
 
 #### Section Details Page
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/j3eKkz1bFzo" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/j3eKkz1bFzo" frameborder="0"> </iframe>
 
 - You may preview the evaluation.
 - You may modify the open and close. Note, if the evaluation is open, you may only modify the close date time.
@@ -76,7 +76,7 @@ display-tag: Application Development
 
 #### Add Instructor or Teaching Assistant
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/ue0Co5DabM8" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/ue0Co5DabM8" frameborder="0"> </iframe>
 
 - You must always have at least 1 Instructor for each learning activity.
 - You may add Instructors and Teaching Assistants.
@@ -86,7 +86,7 @@ display-tag: Application Development
 
 #### Update Student Roster
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/JIx9znJC0rc" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/JIx9znJC0rc" frameborder="0"> </iframe>
 
 - You may want to update the student roster if you created the evaluation withing 21 days of the term as the roster in banner may have changed.
 - You may not update the student roster if there are any open evaluations for that section.
