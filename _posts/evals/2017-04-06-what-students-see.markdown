@@ -11,7 +11,7 @@ display-tag: Application Development
 
 # Student View of Evaluations:
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/WGpFle2Bh_c" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/WGpFle2Bh_c" frameborder="0"> </iframe>
 
 - Note students are informed that it is anonymous and optional.
 - They are informed of the learning activity and course for the evaluation.

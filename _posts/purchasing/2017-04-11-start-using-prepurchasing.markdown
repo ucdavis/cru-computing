@@ -13,7 +13,7 @@ If your department is not using PrePurchasing, but you would like too, then some
 
 To get Departmental Administrator Access you will need to request access on this page:
 
-[http://prepurchasing.ucdavis.edu/DepartmentalAdminRequest/Create](http://prepurchasing.ucdavis.edu/DepartmentalAdminRequest/Create)
+[https://prepurchasing.ucdavis.edu/DepartmentalAdminRequest/Create](https://prepurchasing.ucdavis.edu/DepartmentalAdminRequest/Create)
 
 On this page there is also a link to register for our required class, held about once a month.
 

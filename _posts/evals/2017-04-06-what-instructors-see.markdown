@@ -11,7 +11,7 @@ display-tag: Application Development
 
 ## Overview
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/Osw0ukoHv0Q" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/Osw0ukoHv0Q" frameborder="0"> </iframe>
 
 - Instructors should be directed to this link. Note, it has Home at the end:
 [https://eval.ucdavis.edu/Home](https://eval.ucdavis.edu/Home) 
@@ -22,16 +22,16 @@ display-tag: Application Development
 
 ## Reports
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/IYZme3FGAU8" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/IYZme3FGAU8" frameborder="0"> </iframe>
 
 - Note, all the reports only show evaluation level questions and Instructor level questions for themselves.
 - May print to PDF a single student's evaluation.
 - May download an excel file of all the responses.
-[http://ucdavis.github.io/ACE/examples/AceExampleOfResponsesForInstructor.xls](http://ucdavis.github.io/ACE/examples/AceExampleOfResponsesForInstructor.xls) 
+[https://ucdavis.github.io/ACE/examples/AceExampleOfResponsesForInstructor.xls](https://ucdavis.github.io/ACE/examples/AceExampleOfResponsesForInstructor.xls) 
 - May print to PDF all the evaluation's responses.
-[http://ucdavis.github.io/ACE/examples/AceExampleOfAllResponsesForInstructor.pdf](http://ucdavis.github.io/ACE/examples/AceExampleOfAllResponsesForInstructor.pdf) 
+[https://ucdavis.github.io/ACE/examples/AceExampleOfAllResponsesForInstructor.pdf](https://ucdavis.github.io/ACE/examples/AceExampleOfAllResponsesForInstructor.pdf) 
 - May print to PDF the Summary of responses. This has the scores and comments
-[http://ucdavis.github.io/ACE/examples/AceExampleOfSummaryForInstructor.pdf](http://ucdavis.github.io/ACE/examples/AceExampleOfSummaryForInstructor.pdf) 
+[https://ucdavis.github.io/ACE/examples/AceExampleOfSummaryForInstructor.pdf](https://ucdavis.github.io/ACE/examples/AceExampleOfSummaryForInstructor.pdf) 
 - May print to PDF the scores of responses
-[http://ucdavis.github.io/ACE/examples/AceExampleOfScoreForInstructor.pdf](http://ucdavis.github.io/ACE/examples/AceExampleOfScoreForInstructor.pdf) 
+[https://ucdavis.github.io/ACE/examples/AceExampleOfScoreForInstructor.pdf](https://ucdavis.github.io/ACE/examples/AceExampleOfScoreForInstructor.pdf) 
 - On the Summary and Scores reports, the N represents the total number of responses for that question ignoring skipped responses or N/A responses.

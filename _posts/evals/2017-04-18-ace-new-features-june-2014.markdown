@@ -18,7 +18,7 @@ Behind the scenes we also made some speed improvements for generating these repo
 
 Instructors can summarize their own evaluations. This will only show the information relevant to that instructor and the summarize can generate the scores or the summary report (scores + comments).
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/clPDcCxdAlE" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/clPDcCxdAlE" frameborder="0"> </iframe>
 
 - Select one or more evaluations with the checkbox on the right side of the list.
 - The checkbox in the header can be used to select/deselect visible evaluations.
@@ -28,7 +28,7 @@ Instructors can summarize their own evaluations. This will only show the informa
 ## Staff Summarize
 The staff summarize is similar to the instructor summarize except they can do a comparison summarize which is basically what the previous summarize did.
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/hTHBCli43SM" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/hTHBCli43SM" frameborder="0"> </iframe>
 
 - Select one or more evaluations with the checkbox on the right side of the list.
 - The checkbox in the header can be used to select/deselect visible evaluations.

@@ -11,4 +11,4 @@ display-tag: Application Development
 
 Here is a quick video on how to set up your questions for the Ace site.
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/yNjgsPTL2Yo" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/yNjgsPTL2Yo" frameborder="0"> </iframe>

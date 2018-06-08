@@ -13,7 +13,7 @@ display-tag: Application Development
 
 ## Roster Warning
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/MvDtIZ1MRJk" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/MvDtIZ1MRJk" frameborder="0"> </iframe>
 
 - If you see a warning about the student rosters, this is because the term has been open less than 21 days. 
 - Student rosters may change during this time. 
@@ -27,7 +27,7 @@ display-tag: Application Development
 
 ## Courses
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/pM2g6a9fDdw" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/pM2g6a9fDdw" frameborder="0"> </iframe>
 
 - The courses are loaded for the selected term.
 - If there are no courses, that could be because the term has not opened yet.
@@ -41,7 +41,7 @@ display-tag: Application Development
 
 ## Options
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/LQkEmyXr5LQ" frameborder="0"> </iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/LQkEmyXr5LQ" frameborder="0"> </iframe>
 
 - You must select a template for your evaluations.
 - Once you select a template, you may preview it. Note, this preview does not use the instructors and learning activities for the courses you have selected because that information has not been created yet. It shows the same preview you see from the template list page. Once your evaluations are created, you may preview the actual evaluation.

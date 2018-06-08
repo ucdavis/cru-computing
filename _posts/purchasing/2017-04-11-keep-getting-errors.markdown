@@ -17,7 +17,7 @@ If you keep getting errors when you create a new order, it is possible that a re
 
 To check if your browser is supported, go here:
 
-[http://ucdavis.github.io/Purchasing/system.html](http://ucdavis.github.io/Purchasing/system.html)
+[https://ucdavis.github.io/Purchasing/system.html](https://ucdavis.github.io/Purchasing/system.html)
 
 If you have an unsupported browser, you may be able to use the Google chrome plugin.
 
