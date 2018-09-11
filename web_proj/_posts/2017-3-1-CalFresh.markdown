@@ -6,7 +6,7 @@ client: "Jennifer Quigley"
 client-email: "jaquigley@ucdavis.edu"
 current-url: "http://uccalfresh.org"
 backend: "http://uccalfresh.ucdsitefarm.acsitefactory.com/"
-Launched: Expected Mid 2018
+Launched: Expected late 2018
 Technology: Site Farm
 tags:
   - Sitefarm - Drupal

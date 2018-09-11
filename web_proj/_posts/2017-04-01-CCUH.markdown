@@ -6,7 +6,7 @@ client: "Dave Fujino"
 client-email: "dwfujino@ucdavis.edu"
 current-url: "http://ccuh.ucdavis.edu/"
 dev-url: "http://ccuh.ucdsitefarm.acsitefactory.com/"
-Launched: Expected 2018
+Launched: February 2018
 Technology: Sitefarm
 tags:
   - Sitefarm - Drupal

@@ -5,8 +5,8 @@ description: "The Honey and Pollination Center increases consumer, industry and 
 client: "Evan White"
 client-email: "emwhite@ucdavis.edu"
 current-url: "http://honey.ucdavis.edu/"
-backend: "http://honey.ucdsitefarm.acsitefactory.com/"
-Launched: Expected early 2018
+
+Launched: March 2018
 Technology: Sitefarm
 tags:
   - Sitefarm - Drupal

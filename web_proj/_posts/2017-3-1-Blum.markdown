@@ -8,6 +8,7 @@ current-url: "http://blum.ucdavis.edu/"
 backend: "http://blum.ucdsitefarm.acsitefactory.com/"
 Launched: Jan 2018
 Technology: Sitefarm
+published: false
 tags:
   - Sitefarm - Drupal
 ---

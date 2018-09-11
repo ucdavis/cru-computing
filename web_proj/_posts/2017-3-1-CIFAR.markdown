@@ -5,7 +5,7 @@ description: "California Institute of Food and Agricultural Research, CIFAR *(â€
 client: "Sharon Shoemaker"
 client-email: "spshoemaker@ucdavis.edu"
 current-url: "http://cifar.ucdavis.edu/"
-backend: "http://cifar.ucdsitefarm.acsitefactory.com/"
+
 Launched: Jan 2018
 Technology: Sitefarm
 tags:

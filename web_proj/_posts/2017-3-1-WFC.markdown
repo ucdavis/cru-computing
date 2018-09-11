@@ -5,7 +5,7 @@ description: "The World Food Center (WFC) mobilizes the research, educational an
 client: "Kent Bradford"
 client-email: "kjbradford@ucdavis.edu"
 current-url: "http://worldfoodcenter.ucdavis.edu/"
-backend: "http://worldfoodcenter.ucdsitefarm.acsitefactory.com/"
+
 Launched: Dec 2017
 Technology: Sitefarm
 tags:

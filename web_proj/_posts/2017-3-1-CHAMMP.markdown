@@ -6,7 +6,6 @@ reason: "Migration off Plone"
 client: "Stephanie Maroney"
 client-email: "srmaroney@ucdavis.edu"
 current-url: "http://chammp.ucdavis.edu/"
-backend: "http://chammp.ucdsitefarm.acsitefactory.com/"
 Launched: Dec 2017
 Technology: Sitefarm
 tags:
