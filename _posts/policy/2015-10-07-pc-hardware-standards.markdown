@@ -24,7 +24,7 @@ permalink: /policies/pc-hardware-standards
 	<li><b>Memory:</b> 8GB 2400MHz DDR4 Memory</li>
 	<li><b>Storage:</b> 512GB M.2 SSD</li>
 </ul>
-<!-- <p><a target="_blank" href="/media/policies/E6430s-Spec-Sheet.pdf">PDF Factsheet</a></p>-->
+<p><a target="_blank" href="/media/policies/7490_Spec_Sheet.pdf">PDF Factsheet</a></p>
 <p><a target="_blank" href="/media/policies/Latitude 7490 Ultrabook.pdf">PDF Quote</a></p>
 <br />
 <h3>Standard Monitor</h3>
