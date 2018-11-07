@@ -8,23 +8,13 @@ category: "policy"
 permalink: /policies/minimum-hardware-requirements
 ---
 <ul class="no-bullet">
-	<li>
-		<b>Operating System:</b> Microsoft Windows 7 Enterprise Edition (64-bit)
-	</li>
-	<li>
-		<b>Processor:</b>
-		Intel Core i5 (Sandy Bridge or newer)
-	</li>
-<li><b>Memory:</b>
-8GB DDR3</li>
-<li><b>Hard Drive:</b>
-250GB 7200rpm SATA 2.0 3Gb/s<</li>
-<li><b>Hard Drive:</b>
-250GB 7200rpm SATA 2.0 3Gb/s</td></li>
-<li><b>Network:</b>
-Gigabit Ethernet Card</li>
-<li><b>Security:</b>Trusted Platform Module 2.0 (laptops only)</li>
-<li><b>Warranty:</b>3 Year Warranty (parts and labor)</li>
+<li><b>Operating System:</b>  Microsoft Windows 7 Enterprise Edition (64-bit)</li>
+<li><b>Processor:</b> Intel Core i5 (Sandy Bridge or newer)</li>
+<li><b>Memory:</b> 8GB DDR3</li>
+<li><b>Hard Drive:</b> 256GB SSD</li>
+<li><b>Network:</b> Gigabit Ethernet Card</li>
+<li><b>Security:</b> Trusted Platform Module 2.0 (laptops only)</li>
+<li><b>Warranty:</b> 4 Year Warranty for new laptops and 5 year warranty for new desktops</li>
 
 </ul>
 
