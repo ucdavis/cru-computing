@@ -30,12 +30,16 @@ permalink: /policies/pc-hardware-standards
 <h3>Standard Monitor</h3>
 <p><b>Dell U2417H</b></p>
 <ul>
-	<li><b>Size:</b> 24-inch</li>
+	<li><b>Screen Size:</b> 24-inch</li>
 </ul>
 <p><a target="_blank" href="/media/policies/Dell-U2417H-Spec-Sheet.pdf">PDF Factsheet</a></p>
 <p><a target="_blank" href="/media/policies/24-inch UltraSharp U2417H.pdf">PDF Quote</a></p>
 <br />
 <h3>Standard Dock</h3>
-<p><b>Dell U2417H</b></p>
+<p><b>Dell D6000</b></p>
+<ul>
+	<li><b>Connection Type:</b> USB-C</li>
+	<li><b>External Monitor Support:</b> Upto 3</li>
+</ul>
 <p><a target="_blank" href="/media/policies/Dell D6000 Spec Sheet.pdf">PDF Factsheet</a></p>
 <p><a target="_blank" href="/media/policies/Dell Universal Dock D6000.pdf">PDF Quote</a></p>
