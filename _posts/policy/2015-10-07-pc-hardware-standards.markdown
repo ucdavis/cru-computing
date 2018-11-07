@@ -23,6 +23,7 @@ permalink: /policies/pc-hardware-standards
 	<li><b>Processor:</b> Intel Core i7-8650U Processor</li>
 	<li><b>Memory:</b> 8GB 2400MHz DDR4 Memory</li>
 	<li><b>Storage:</b> 512GB M.2 SSD</li>
+	<li><b>Screen Size:</b> 14-inch</li>
 </ul>
 <p><a target="_blank" href="/media/policies/7490_Spec_Sheet.pdf">PDF Factsheet</a></p>
 <p><a target="_blank" href="/media/policies/Latitude 7490 Ultrabook.pdf">PDF Quote</a></p>
@@ -39,7 +40,7 @@ permalink: /policies/pc-hardware-standards
 <p><b>Dell D6000</b></p>
 <ul>
 	<li><b>Connection Type:</b> USB-C</li>
-	<li><b>External Monitor Support:</b> Upto 3</li>
+	<li><b>External Monitor Support:</b> Up to 3</li>
 </ul>
 <p><a target="_blank" href="/media/policies/Dell D6000 Spec Sheet.pdf">PDF Factsheet</a></p>
 <p><a target="_blank" href="/media/policies/Dell Universal Dock D6000.pdf">PDF Quote</a></p>
