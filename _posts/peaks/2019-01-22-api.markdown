@@ -11,7 +11,7 @@ display-tag: Application Development
 
 ## API Instructions:
 
-* You need to have access to the departments API key, a Departmental Admin can provide this information. It is located in the Department Settings and can be updated from there as well.
+* You need to have access to the departments API key, a Departmental Admin can provide this information. It is located in the Team Admin Settings and can be updated from there as well.
 * Data returned is per team in PEAKS
 * The examples below use a key that is has been replace so they will not return data.
 * The page that lists the API key has the URL you would use. Select Team -> Administer Team -> API Code
