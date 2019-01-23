@@ -5,7 +5,7 @@ author: "Jason Sylvestre"
 date:   2019-01-22 16:25:17
 category: "peaks"
 tags: "faq"
-permalink: /faq/paeks/api
+permalink: /faq/peaks/api
 display-tag: Application Development
 ---
 
