@@ -1,0 +1,28 @@
+---
+layout: documentation
+title:  "PEAKS Spaces"
+author: "Jason Sylvestre"
+date:   2019-01-23 11:00:17
+category: "peaks"
+tags: "faq"
+permalink: /faq/peaks/people
+display-tag: Application Development
+---
+
+# People:
+
+## Adding people:
+* If you just have a couple people you want to add, go to the People asset and click "+ Add Person"
+* Enter the person's email or kerberous id and click search.
+* If the person is found you can now customize the person. The person's details can be different for different teams.
+* If you have many people to add for a department, the easiest way is to do a bulk load
+  * To do a bulk load, you will need to know the PPS department code
+  * Click the Admin link
+  * Click Add PPS Department on the right
+  * Add the PPS Department code and Click add to team
+  * Click Bulk Load People on the right and continue
+
+
+## People details:
+* From the details of a person you can see everything that is assigned to them in the team.
+* You can add new assets directly to the person from here
