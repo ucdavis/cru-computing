@@ -1,1 +1,13 @@
-test
+---
+layout: article
+title:  "Duo enrollment"
+description: "Use this form to submit a ticket to the help desk."
+author: "Shuka Smith"
+date:   2015-01-07 16:25:17
+category: "helpdesk"
+tags: "guide"
+permalink: /documentation/duo
+display-tag: Help Desk
+---
+
+<p>Please note it may take a few seconds for the form below to load</p>
