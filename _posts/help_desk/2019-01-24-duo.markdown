@@ -1,4 +1,4 @@
-0---
+---
 layout: article
 title:  "Enroll in Duo MFA 2"
 description: "Use this guide to self-enroll in the Duo MFA (Multi-Factor Authentication) service used on campus."
