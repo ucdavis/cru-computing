@@ -37,6 +37,6 @@ display-tag: Help Desk
   <li>On the computer, click <b>Continue</b></li>
   <li>On the computer, click <b>Dismiss</b> to close the Enrollment Successful screen</li>
   <li>Visually verify that the phone number displayed matches your mobile device phone number</li>
-  <li>(optional) select an option for what to automatically do when prompted for Duo (automatic push is recommended)</li>
-  <li>(optional) To enroll other devices (tablet, landline, etc.), click the "+ Add another device" link and follow the on-screen prompts</li>
+  <li>(optional) Select an option for what to automatically do when prompted for Duo (automatic push is recommended)</li>
+  <li>(optional) To enroll other devices (tablet, landline, etc.), on the computer, click the "+ Add another device" link and follow the on-screen prompts</li>
 </ol>
