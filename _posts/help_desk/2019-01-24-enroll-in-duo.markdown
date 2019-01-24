@@ -15,7 +15,7 @@ display-tag: Help Desk
 <p>If you are unable to use your smartphone for any reason, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> to find out what additional options are available.</p>
 <br />
 <p>To enroll in Duo, please complete the steps below:</p>
-<ol style="PADDING-LEFT: 20px">
+<ol style="PADDING-LEFT: 30px">
   <li>Open a browser and go to <a class="external-link" href="https://computingaccounts.ucdavis.edu" target="_blank">https://computingaccounts.ucdavis.edu</a></li>
   <li>Click on the <b>Manage Account Services</b> link</li>
   <li>Fill out the requested information (First Name, Middle Name, Last Name, Employee or Student ID, and Date of Birth) and click <b>Submit Information</b></li>
