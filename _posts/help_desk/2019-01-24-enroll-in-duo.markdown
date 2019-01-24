@@ -23,6 +23,23 @@ display-tag: Help Desk
   <li>Select the option for "IDUO" and click <b>Continue</b>
     <ol type="A" style="PADDING-LEFT: 20px">
       <li>Click the option for "Mobile Phone" and click <b>Continue</b></li>
+      <li>Enter the 10 digit phone number in the box provided</li>
+      <li>Check the box for verifying the entered number is correct and click <b>Continue</b></li>
+      <li>Select the option for "Mobile Device" and click <b>Continue</b></li>
+      <li>Select the type of mobile device and click <b>Continue</b></li>
+      <li>On the mobile device, download the "Duo Mobile" app from the app store</li>
+      <li>Once the app is installed, on the computer, click <b>I have Duo Mobile installed</b></li>
+      <li>On the mobile device, launch the "Duo Mobile" app</li>
+      <li>On the mobile device, click on the "+" button at the top
+        <ul>
+          <li>NOTE: If you are prompted to grant the "Duo Mobile" app access to your camera, select the option to approve the request.</li>
+        </ul>
+      </li>
+      <li>Using camera on the mobile device, scan the barcode/QRcode displayed on the computer</li>
+      <li>On the computer, click on the <b>Continue</b> button</li>
+      <li>On the computer, click on the <b>Dismiss</b> button to close the Enrollment Successful screen</li>
+      <li>Visually verify that the phone number displayed matches your mobile device phone number and, if desired, select an option for what to automatically do when prompted for Duo (automatic push is recommended)</li>
+
     </ol>
   </li>
 </ol>
