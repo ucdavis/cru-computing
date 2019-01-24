@@ -18,5 +18,9 @@ display-tag: Help Desk
   <li>Click on the <b>Manage Account Services</b> link</li>
   <li>Fill out the requested information (First Name, Middle Name, Last Name, Employee or Student ID, and Date of Birth) and click <b>Submit Information</b></li>
   <li>Enter your LoginID (UC Davis username) and click <b>Continue</b></li>
-  <li>Select the option for "IDUO" and click <b>Continue</b></li>
+  <li>Select the option for "IDUO" and click <b>Continue</b>
+    <ul>
+      <li>Click the option for "Mobile Phone" and click <b>Continue</b></li>
+    </ul>
+  </li>
 </ul>
