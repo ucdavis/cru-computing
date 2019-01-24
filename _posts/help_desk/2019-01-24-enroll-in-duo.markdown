@@ -31,7 +31,7 @@ display-tag: Help Desk
       <li>Once the app is installed, on the computer, click <b>I have Duo Mobile installed</b></li>
       <li>On the mobile device, launch the "Duo Mobile" app</li>
       <li>On the mobile device, click on the "+" button at the top
-        <ul>
+        <ul style="PADDING-LEFT: 20px">
           <li>NOTE: If you are prompted to grant the "Duo Mobile" app access to your camera, select the option to approve the request.</li>
         </ul>
       </li>
