@@ -1,12 +1,12 @@
 0---
 layout: article
-title:  "Enroll in Duo MFA"
+title:  "Enroll in Duo MFA 2"
 description: "Use this guide to self-enroll in the Duo MFA (Multi-Factor Authentication) service used on campus."
 author: "Steven Barkey"
 date:   2019-01-24 13:25:17
 category: "helpdesk"
 tags: "guide"
-permalink: /documentation/enroll-in-duo
+permalink: /documentation/enroll-in-duo-old
 display-tag: Help Desk
 ---
 
