@@ -23,4 +23,5 @@ display-tag: Help Desk
 </ul>
 </p>
 <br />
-<p><b>IMPORTANT:</b> if you currently access your Office 365 mailbox using the built-in Mail app on an iPhone or iPad, you must <a class="external-link" href="http://kb.ucdavis.edu/?id=3326" target="_blank">remove and readd your email account</a> after Duo is enabled on the mailbox, which generally takes about 15-60 minutes to process.  If you need assistance with this, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a>.</p>
+<p style="color:red"><b>IMPORTANT</b></p>
+<p>If you currently access your Office 365 mailbox using the built-in Mail app on an iPhone or iPad, you must <a class="external-link" href="http://kb.ucdavis.edu/?id=3326" target="_blank">remove and readd your email account</a> after Duo is enabled on the mailbox, which generally takes about 15-60 minutes to process.  If you need assistance with this, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a>.</p>
