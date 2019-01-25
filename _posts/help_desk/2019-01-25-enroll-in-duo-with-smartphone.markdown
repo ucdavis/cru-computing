@@ -26,6 +26,7 @@ display-tag: Help Desk
       <li>If prompted to start enrolling in Duo, click <b>Start setup</b></li>
       <li>If prompted to choose and authentication method, use one of your existing Duo options to authenticate</li>
     </ul>
+  </li>
   <li>If you have existing devices setup on your Duo account, click <b>+ Add another device</b></li>
   <li>Click the option for "Mobile Phone" and click <b>Continue</b></li>
   <li>Enter the 10-digit phone number in the box provided</li>
