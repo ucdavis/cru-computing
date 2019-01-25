@@ -32,6 +32,13 @@ display-tag: Help Desk
   <li>Enter the 10-digit phone number in the box provided</li>
   <li>If an extension is necessary, enter it into the box provided</li>
   <li>Check the box to verify the entered number is correct and click <b>Continue</b></li>
+  <li>If prompted to verify ownership of your phone number:
+    <ol type="A" style="PADDING-LEFT: 20px">
+      <li>Click <b>Call me</b></li>
+      <li>Enter the code you received via call in the box provided and click <b>Verify</b></li>
+      <li>Click <b>Continue</b></li>
+    </ol>
+  </li>
   <li>Visually verify that the phone number displayed matches your mobile device phone number</li>
   <li>(optional) Select an option for what to automatically do when prompted for Duo</li>
   <li>(optional) To enroll other devices (tablet, landline, etc.), on the computer, click the "+ Add another device" link and follow the on-screen prompts</li>
