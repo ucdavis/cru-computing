@@ -61,3 +61,6 @@ display-tag: Help Desk
   <li>(optional) Select an option for what to automatically do when prompted for Duo (automatic push is recommended)</li>
   <li>(optional) To enroll other devices, follow the instructions for the varoius devices using the links above</li>
 </ol>
+<br />
+<p style="color:red"><b>IMPORTANT</b></p>
+<p>If you currently access your Office 365 mailbox using the built-in Mail app on an iPhone or iPad, you must <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/readd-mailbox-to-ios-after-duo" target="_blank">remove and readd your email account</a> after Duo is enabled on the mailbox, which generally takes about 15-60 minutes to process.  If you need assistance with this, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a>.</p>
