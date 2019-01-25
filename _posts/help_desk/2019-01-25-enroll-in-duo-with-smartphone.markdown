@@ -32,7 +32,7 @@ display-tag: Help Desk
   <li>Enter the 10-digit phone number in the box provided</li>
   <li>Check the box to verify the entered number is correct and click <b>Continue</b></li>
   <li>If prompted to verify ownership of your phone number:
-    <ol type="1" style="PADDING-LEFT: 20px">
+    <ol type="A" style="PADDING-LEFT: 20px">
       <li>Click <b>Call me</b> or <b>Text me</b> based on your preference</li>
       <li>Enter the code you received via call or text in the box provided and click <b>Verify</b></li>
       <li>Click <b>Continue</b></li>
