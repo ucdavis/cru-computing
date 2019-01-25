@@ -37,7 +37,7 @@ display-tag: Help Desk
       <li>NOTE: If you are prompted to grant the "Duo Mobile" app access to your camera, select the option to approve the request.</li>
     </ul>
   </li>
-  <li>Using camera on the tablet, scan the barcode/QR Code displayed on the computer</li>
+  <li>Using the camera on the tablet, scan the barcode/QR Code displayed on the computer</li>
   <li>On the computer, click <b>Continue</b></li>
   <li>On the computer, click <b>Dismiss</b> to close the Enrollment Successful screen</li>
   <li>(optional) Select an option for what to automatically do when prompted for Duo (automatic push is recommended)</li>
