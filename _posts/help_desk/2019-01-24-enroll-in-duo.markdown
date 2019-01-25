@@ -14,9 +14,6 @@ display-tag: Help Desk
 <br />
 <p>While we do recommend using a smartphone as that third thing as almost all iPhone/Android/Windows Mobile phones will work, If you are unable to use a smartphone for any reason, please consider one of the other methods below or <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
-<p>To self-enroll, please use the following walkthrough:</p>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfsufX_OlFFeBRppnUGPC5YhbkYyWIxSCIJT0TSoIX_bwQL6A/viewform?embedded=true" width="640" height="772" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-<br />
 <p>Instructions for how to enroll specific devices in Duo:
 <ul style="PADDING-LEFT: 30px">
   <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/enroll-in-duo-with-smartphone" target="_parent">Enroll in Duo with a smartphone</a> <b>(Recommended)</b></li>
