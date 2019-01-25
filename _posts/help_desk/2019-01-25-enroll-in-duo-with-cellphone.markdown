@@ -14,6 +14,14 @@ display-tag: Help Desk
 <br />
 <p>If you are unable to use a cell phone (non-smartphone) for any reason, please consider one of the other methods below or <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
+<p>Enroll other devices in Duo:
+<ul>
+  <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/enroll-in-duo-with-smartphone" target="_parent">Enroll in Duo with a smartphone</a></li>
+  <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/enroll-in-duo-with-landline" target="_parent">Enroll in Duo with a landline</a></li>
+  <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/enroll-in-duo-with-tablet" target="_parent">Enroll in Duo with a tablet</a></li>
+</ul>
+</p>
+<br />
 <p>To enroll in Duo with a cell phone (non-smartphone), please complete the steps below:</p>
 <ol style="PADDING-LEFT: 30px">
   <li>Open a browser and go to <a class="external-link" href="https://computingaccounts.ucdavis.edu" target="_blank">https://computingaccounts.ucdavis.edu</a></li>
