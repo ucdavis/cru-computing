@@ -41,5 +41,5 @@ display-tag: Help Desk
   <li>Select the option for "Other (and cell phone)" and click <b>Continue</b></li>
   <li>Visually verify that the phone number displayed matches your mobile device phone number</li>
   <li>(optional) Select an option for what to automatically do when prompted for Duo</li>
-  <li>(optional) To enroll other devices, follow the instructions for the varoius devices below</li>
+  <li>(optional) To enroll other devices, follow the instructions for the varoius devices using the links above</li>
 </ol>
