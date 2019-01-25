@@ -37,7 +37,7 @@ display-tag: Help Desk
   <li>When prompted to Configure Manually or Sign In, select <b>Sign In</b></li>
   <li>Enter your full @ucdavis.edu email address and password, then click <b>Sign in</b></li>
   <li>If you Office 365 mailbox is protected with Duo, complete the Duo authentication request
-    <ul>
+    <ul style="PADDING-LEFT: 20px">
       <li>NOTE: if you do not get prompted for Duo, it may not be enabled on your account yet and you will have to complete these steps again after it is successfully enabled.  The enable process can take 15-60 minutes to complete.</li>
     </ul>
   </li>
