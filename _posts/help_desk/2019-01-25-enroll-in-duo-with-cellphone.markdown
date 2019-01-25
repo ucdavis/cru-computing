@@ -24,7 +24,7 @@ display-tag: Help Desk
   <li>Follow the instructions for the appropriate prompt below:
     <ul style="PADDING-LEFT: 20px">
       <li>If prompted to start enrolling in Duo, click <b>Start setup</b></li>
-      <li>If prompted to choose an authentication method, use one of your existing Duo options to authenticate</li>
+      <li>If prompted to choose an authentication method, use one of your existing Duo devices to authenticate</li>
     </ul>
   </li>
   <li>If you have existing devices setup on your Duo account, click <b>+ Add another device</b></li>
