@@ -40,4 +40,5 @@ display-tag: Help Desk
   <li>Select which of the items you would like resynced to your device and select <b>Done</b></li>
   <li>Select the desired settings for "Mail Days to Sync"</li>
 </ol>
+<br />
 <p>Please note, depending on your mailbox size and the setting you selected for "Mail Days to Sync", it can take a while for all the messages and other synced items to reappear on your device.</p>
