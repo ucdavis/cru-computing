@@ -21,17 +21,25 @@ display-tag: Help Desk
   <li>Fill out the requested information and click <b>Submit Information</b></li>
   <li>Enter your UC Davis LoginID (username) and click <b>Continue</b></li>
   <li>Select the option for "IDUO" and click <b>Continue</b></li>
-  <li>If prompted, click <b>Start setup</b></li>
+  <li>  If prompted, click <b>Start setup</b></li>
+  <li>  If prompted to to choose an authentication method, use one of your existing Duo options</li>
   <li>Click the option for "Mobile Phone" and click <b>Continue</b></li>
   <li>Enter the 10-digit phone number in the box provided</li>
   <li>Check the box to verify the entered number is correct and click <b>Continue</b></li>
+  <li>If prompted to verify ownership of your phone number:
+    <ol type="1">
+      <li>Click <b>Call me</b> or <b>Text me</b> based on your preference</li>
+      <li>Enter the code you received via call or text in the box provided and click <b>Verify</b></li>
+      <li>Click <b>Continue</b></li>
+    </ol>
+  </li>
   <li>Select the option for "Mobile Device" and click <b>Continue</b></li>
   <li>Select the type of smartphone and click <b>Continue</b></li>
   <li>On the smartphone, install the "Duo Mobile" app from the app store</li>
   <li>On the computer, click <b>I have Duo Mobile installed</b></li>
   <li>On the smartphone, launch the "Duo Mobile" app and click the "+" button at the top
     <ul style="PADDING-LEFT: 20px">
-      <li>NOTE: If you are prompted to grant the "Duo Mobile" app access to your camera, select the option to approve the request.</li>
+      <li>NOTE: If prompted to grant the "Duo Mobile" app access to your camera, select the option to approve the request.</li>
     </ul>
   </li>
   <li>Using camera on the smartphone, scan the barcode/QR Code displayed on the computer</li>
