@@ -22,7 +22,7 @@ display-tag: Help Desk
   <li>Enter your UC Davis LoginID (username) and click <b>Continue</b></li>
   <li>Select the option for "IDUO" and click <b>Continue</b></li>
   <li>Follow the instructions for the appropriate prompt below:
-    <ul>
+    <ul style="PADDING-LEFT: 20px">
       <li>If prompted to start enrolling in Duo, click <b>Start setup</b></li>
       <li>If prompted to choose an authentication method, use one of your existing Duo options to authenticate</li>
     </ul>
