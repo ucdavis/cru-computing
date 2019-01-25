@@ -21,6 +21,7 @@ display-tag: Help Desk
   <li>Fill out the requested information and click <b>Submit Information</b></li>
   <li>Enter your UC Davis LoginID (username) and click <b>Continue</b></li>
   <li>Select the option for "IDUO" and click <b>Continue</b></li>
+  <li>If prompted, click <b>Start setup</b></li>
   <li>Click the option for "Mobile Phone" and click <b>Continue</b></li>
   <li>Enter the 10-digit phone number in the box provided</li>
   <li>Check the box to verify the entered number is correct and click <b>Continue</b></li>
