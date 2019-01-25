@@ -24,7 +24,7 @@ display-tag: Help Desk
   <li>Follow the instructions for the appropriate prompt below:
     <ul style="PADDING-LEFT: 20px">
       <li>If prompted to start enrolling in Duo, click <b>Start setup</b></li>
-      <li>If prompted to choose an authentication method, use one of your existing Duo options to authenticate</li>
+      <li>If prompted to choose an authentication method, use one of your existing Duo devices to authenticate</li>
     </ul>
   </li>
   <li>If you have existing devices setup on your Duo account, click <b>+ Add another device</b></li>
@@ -51,5 +51,5 @@ display-tag: Help Desk
   <li>On the computer, click <b>Dismiss</b> to close the Enrollment Successful screen</li>
   <li>Visually verify that the phone number displayed matches your mobile device phone number</li>
   <li>(optional) Select an option for what to automatically do when prompted for Duo (automatic push is recommended)</li>
-  <li>(optional) To enroll other devices (tablet, landline, etc.), on the computer, click the "+ Add another device" link and follow the on-screen prompts</li>
+  <li>(optional) To enroll other devices, follow the instructions for the varoius devices using the links above</li>
 </ol>
