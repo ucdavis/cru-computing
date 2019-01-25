@@ -22,7 +22,7 @@ display-tag: Help Desk
   <li>Enter your UC Davis LoginID (username) and click <b>Continue</b></li>
   <li>Select the option for "IDUO" and click <b>Continue</b></li>
   <li>Follow the instructions for the appropriate prompt below:
-    <ul>
+    <ul style="PADDING-LEFT: 20px">
       <li>If prompted to start enrolling in Duo, click <b>Start setup</b></li>
       <li>If prompted to choose an authentication method, use one of your existing Duo options to authenticate</li>
     </ul>
@@ -32,7 +32,7 @@ display-tag: Help Desk
   <li>Enter the 10-digit phone number in the box provided</li>
   <li>Check the box to verify the entered number is correct and click <b>Continue</b></li>
   <li>If prompted to verify ownership of your phone number:
-    <ol type="1">
+    <ol type="1" style="PADDING-LEFT: 20px">
       <li>Click <b>Call me</b> or <b>Text me</b> based on your preference</li>
       <li>Enter the code you received via call or text in the box provided and click <b>Verify</b></li>
       <li>Click <b>Continue</b></li>
