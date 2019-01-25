@@ -19,6 +19,7 @@ display-tag: Help Desk
   <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/enroll-in-duo-with-smartphone" target="_parent">Enroll in Duo with a smartphone</a></li>
   <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/enroll-in-duo-with-cellphone" target="_parent">Enroll in Duo with a cell phone (non-smartphone)</a></li>
   <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/enroll-in-duo-with-landline" target="_parent">Enroll in Duo with a landline</a></li>
+  <li>Enroll in Duo with a hard token (<a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a>)</li>
 </ul>
 </p>
 <br />
