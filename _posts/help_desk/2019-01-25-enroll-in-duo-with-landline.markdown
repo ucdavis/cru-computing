@@ -28,21 +28,10 @@ display-tag: Help Desk
     </ul>
   </li>
   <li>If you have existing devices setup on your Duo account, click <b>+ Add another device</b></li>
-  <li>Click the option for "Mobile Phone" and click <b>Continue</b></li>
+  <li>Click the option for "Landline" and click <b>Continue</b></li>
   <li>Enter the 10-digit phone number in the box provided</li>
+  <li>If an extension is necessary, enter it into the box provided</li>
   <li>Check the box to verify the entered number is correct and click <b>Continue</b></li>
-  <li>Select the option for "Mobile Device" and click <b>Continue</b></li>
-  <li>Select the type of smartphone and click <b>Continue</b></li>
-  <li>On the smartphone, install the "Duo Mobile" app from the app store</li>
-  <li>On the computer, click <b>I have Duo Mobile installed</b></li>
-  <li>On the smartphone, launch the "Duo Mobile" app and click the "+" button at the top
-    <ul style="PADDING-LEFT: 20px">
-      <li>NOTE: If you are prompted to grant the "Duo Mobile" app access to your camera, select the option to approve the request.</li>
-    </ul>
-  </li>
-  <li>Using camera on the smartphone, scan the barcode/QR Code displayed on the computer</li>
-  <li>On the computer, click <b>Continue</b></li>
-  <li>On the computer, click <b>Dismiss</b> to close the Enrollment Successful screen</li>
   <li>Visually verify that the phone number displayed matches your mobile device phone number</li>
   <li>(optional) Select an option for what to automatically do when prompted for Duo (automatic push is recommended)</li>
   <li>(optional) To enroll other devices (tablet, landline, etc.), on the computer, click the "+ Add another device" link and follow the on-screen prompts</li>
