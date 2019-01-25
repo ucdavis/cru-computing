@@ -21,7 +21,13 @@ display-tag: Help Desk
   <li>Fill out the requested information and click <b>Submit Information</b></li>
   <li>Enter your UC Davis LoginID (username) and click <b>Continue</b></li>
   <li>Select the option for "IDUO" and click <b>Continue</b></li>
-  <li>If prompted, click <b>Start setup</b></li>
+  <li>Follow the instructions for the appropriate prompt below:
+    <ul>
+      <li>If prompted to start enrolling in Duo, click <b>Start setup</b></li>
+      <li>If prompted to choose and authentication method, use one of your existing Duo options to authenticate</li>
+    </ul>
+  </li>
+  <li>If you have existing devices setup on your Duo account, click <b>+ Add another device</b></li>
   <li>Click the option for "Tablet" and click <b>Continue</b></li>
   <li>Select the type of tablet and click <b>Continue</b></li>
   <li>On the tablet, install the "Duo Mobile" app from the app store</li>
