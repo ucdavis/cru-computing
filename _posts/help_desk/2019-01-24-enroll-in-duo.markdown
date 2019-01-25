@@ -16,7 +16,7 @@ display-tag: Help Desk
 <br />
 <p>Instructions for how to enroll devices in Duo:
 <ul style="PADDING-LEFT: 30px">
-  <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/enroll-in-duo-with-smartphone" target="_parent">Enroll in Duo with a smartphone</a> (Recommended)</li>
+  <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/enroll-in-duo-with-smartphone" target="_parent">Enroll in Duo with a smartphone</a> <b>(Recommended)</b></li>
   <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/enroll-in-duo-with-cellphone" target="_parent">Enroll in Duo with a cell phone (non-smartphone)</a></li>
   <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/enroll-in-duo-with-landline" target="_parent">Enroll in Duo with a landline</a></li>
   <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/enroll-in-duo-with-tablet" target="_parent">Enroll in Duo with a tablet</a></li>
