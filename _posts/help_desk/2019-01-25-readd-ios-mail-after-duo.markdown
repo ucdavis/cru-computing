@@ -32,11 +32,15 @@ display-tag: Help Desk
   <li>Select <b>Passwords & Accounts</b></li>
   <li>Select <b>Add Account</b></li>
   <li>Select <b>Exchange</b></li>
-  <li>Enter your @ucdavis.edu email address in the Email field</li>
-  <li>Enter a description for the account (eg. UC Davis Email)</li>
+  <li>Enter your full @ucdavis.edu email address in the "Email" field</li>
+  <li>Enter a description for the account in the "Description" filed (eg. UC Davis Email)</li>
   <li>When prompted to Configure Manually or Sign In, select <b>Sign In</b></li>
-  <li>Enter your full @ucdavis.edu email address password, then click <b>Sign in</b></li>
-  <li>If you Office 365 mailbox is protected with Duo, complete the Duo authentication request</li>
+  <li>Enter your full @ucdavis.edu email address and password, then click <b>Sign in</b></li>
+  <li>If you Office 365 mailbox is protected with Duo, complete the Duo authentication request
+    <ul>
+      <li>NOTE: if you do not get prompted for Duo, it may not be enabled on your account yet and you will have to complete these steps again after it is successfully enabled.  The enable process can take 15-60 minutes to complete.</li>
+    </ul>
+  </li>
   <li>Select which of the items you would like resynced to your device and select <b>Done</b></li>
   <li>Select the desired settings for "Mail Days to Sync"</li>
 </ol>
