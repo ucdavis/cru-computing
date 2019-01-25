@@ -40,6 +40,6 @@ display-tag: Help Desk
   </li>
   <li>Select the option for "Other (and cell phone)" and click <b>Continue</b></li>
   <li>Visually verify that the phone number displayed matches your mobile device phone number</li>
-  <li>(optional) Select an option for what to automatically do when prompted for Duo (automatic push is recommended)</li>
-  <li>(optional) To enroll other devices (tablet, landline, etc.), on the computer, click the "+ Add another device" link and follow the on-screen prompts</li>
+  <li>(optional) Select an option for what to automatically do when prompted for Duo</li>
+  <li>(optional) To enroll other devices, follow the instructions for the varoius devices below</li>
 </ol>
