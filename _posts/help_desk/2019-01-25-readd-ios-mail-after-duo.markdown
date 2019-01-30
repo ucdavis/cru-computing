@@ -13,12 +13,13 @@ display-tag: Help Desk
 <p>If you access your Office 365 Mailbox using an iPhone or iPad and you enable Duo on your UC Davis computing account, you will need to remove and readd the mailbox to your device after Duo is enabled on the mailbox, which generally takes about 15-60 minutes to process.</p>
 <br />
 <p>The instructions below will walk you through the process, but if you encounter any issues, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> for further assistance.</p>
+<br />
 <p>Confirm that Duo has been enabled for your Office 365 mailbox:</p>
 <ol style="PADDING-LEFT: 30px">
   <li>Open a browser and go to <a class="external-link" href="https://user.uinform.ucdavis.edu" target="_blank">https://user.uinform.ucdavis.edu/</a></li>
   <li>Login with your full @ucdavis.edu email address and passphrase</li>
   <li>If prompted to authenticate with Duo, use one of your Duo devices to authenticate</li>
-  <li>Click on the <b>DUO MFA</b> tab</b></li>
+  <li>Click on the <b>DUO MFA</b> tab</li>
   <li>Confirm that "Current DUO MFA Status" shows "Enabled"
     <ul style="PADDING-LEFT: 20px">
       <li>NOTE: If "Current DUO MFA Status" shows "Disabled", wait until it shows "Enabled" before proceeding with the steps below.  The enable process can take 15-60 minutes to complete.</li>
