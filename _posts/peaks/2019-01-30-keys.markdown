@@ -1,0 +1,13 @@
+---
+layout: documentation
+title:  "PEAKS Keys"
+author: "Jason Sylvestre"
+date:   2019-01-30 8:00:00
+category: "peaks"
+tags: "faq"
+permalink: /faq/peaks/keys
+display-tag: Application Development
+---
+
+# Keys:
+Keys consit of two parts. The Key and the Key Serial. The Key can be considered the pattern for the key. It opens specific doors/spaces. The Key Serial is the physical key with a unique serial number that has the same "pattern" as the key.
