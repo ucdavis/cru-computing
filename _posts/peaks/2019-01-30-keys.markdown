@@ -37,3 +37,23 @@ Keys consit of two parts. The Key and the Key Serial. The Key can be considered 
 
 
 # Key Serials
+You get to the Key Serials from the Details link on the list of Keys
+
+* The Actions allows you to Assign or Revoke Access
+* You can't delete a Key Serial but you can edit it from the details (Mark it as Destroyed).
+
+## Details
+* The detials shows that last 5 or so actions taken in the history.
+* You can update the assignment here or edit the Key Serial. This means changing the expiration date.
+* Edit Serial
+  * Click on "Edit Serial"
+  * You can change the serial number
+  * You can change the status (Active, Lost, Dog Ate, etc.)
+
+# Spaces
+* You can associate the Key with any/only spaces available to your team.
+* Click "+ Associate" in the Spaces section
+* Start typing the name or room number or other associated information of the space
+* Click on the found space
+* You can disassociate existing spaces under the actions column
+* Details brings you to the spaces details page where you have space specific actions you can take.
