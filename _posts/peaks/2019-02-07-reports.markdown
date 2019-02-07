@@ -1,0 +1,24 @@
+---
+layout: documentation
+title:  "PEAKS Reports"
+author: "Jason Sylvestre"
+date:   2019-02-07 10:25:17
+category: "peaks"
+tags: "faq"
+permalink: /faq/peaks/reports
+display-tag: Application Development
+---
+
+# Reports:
+There are currenly three main reports
+* Expiring Items
+* Supervisor's Direct Reports
+* Items Pending Acceptance
+
+## Expiring Items
+The expiring items report is a useful place to go to see a summary of the items that are expiring before a particular date. It defaults to 2 days from now and all items you have access to.
+Depanding on your access, you can filter this to just show Access, Key, Equipment, or workstations.
+Once you change any of the filters, click refresh report.
+The information can be sorted by clicking on the column headings (shift click allows sorting on multiple columns).
+You may search for any information in the displayed table.
+The Details link for a row will bring you to that items page where you can further act on it. FOr example, extend the expiration date or revoke access.
