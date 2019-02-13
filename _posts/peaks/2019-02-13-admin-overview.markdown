@@ -32,5 +32,5 @@ From here specify the Chart (Almost always 3) and the org code. Then click Add o
 This will populate the spaces tab of your team assets. You may specify multiple orgs.
 
 ## Step 2
-Document still being created
+
 
