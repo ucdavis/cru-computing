@@ -58,3 +58,13 @@ From here you can Create, Edit, and Delete tags for your teams.
 
 ![Team Tags manage](https://computing.caes.ucdavis.edu/media/peaks/admin-manage-tags.png "Team Tags Manage")
 
+## Step 4
+Delegate :)
+Now is the time to add other admins.
+Departmental Admins have all the accesses of the other types in addition to being able to access the team admin pages.
+The other admin roles are fairly self evident with perhaps except for the Space Master. The Space Master has access to the spaces assets which allows them to manage workstations. They can't add new spaces as spaces available are determined by the FIS Orgs for the team which you would have configured above.
+
+Admins may have multiple roles within a team.
+
+
+
