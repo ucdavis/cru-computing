@@ -47,7 +47,7 @@ More information on the people asset can be found here :
 [Peaks People](https://computing.caes.ucdavis.edu/faq/peaks/people)
 
 ## Step 3
-Adding Tags. This can be done later, but for tags to be available for other non departmantal admins (Key Master for example) they will have to be added first.
+Adding Tags. This can be done later, but for tags to be available for other non departmental admins (Key Master for example) they will have to be added first.
 Tags are useful for filtering items on the individual asset pages. For example, you could create a "Student" tag and add that to all the person assets that are students.
 
 To get to the form to manage your team's tags, you must click menu and then team tags:
@@ -62,7 +62,7 @@ From here you can Create, Edit, and Delete tags for your teams.
 Delegate :)
 Now is the time to add other admins.
 Departmental Admins have all the accesses of the other types in addition to being able to access the team admin pages.
-The other admin roles are fairly self evident with perhaps the exceptionof the Space Master. The Space Master has access to the spaces assets which allows them to manage workstations. They can't add new spaces as spaces available are determined by the FIS Orgs for the team which you would have configured above.
+The other admin roles are fairly self evident with perhaps the exception of the Space Master. The Space Master has access to the spaces assets which allows them to manage workstations. They can't add new spaces as spaces available are determined by the FIS Orgs for the team which you would have configured above.
 
 Admins may have multiple roles within a team.
 All Admins can see the Person tab, but only Departmental Admins may edit them.

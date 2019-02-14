@@ -43,7 +43,7 @@ You get to the Key Serials from the Details link on the list of Keys
 * You can't delete a Key Serial but you can edit it from the details (Mark it as Destroyed).
 
 ## Details
-* The detials shows that last 5 or so actions taken in the history.
+* The details shows that last 5 or so actions taken in the history.
 * You can update the assignment here or edit the Key Serial. This means changing the expiration date.
 * Edit Serial
   * Click on "Edit Serial"

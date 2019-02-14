@@ -21,7 +21,7 @@ The intended purpose of the Access item is for things like Program access or oth
 # Actions
 * You can assign a person to an Access item. Multiple people can be assigned to an Access.
 * Only one person at a time can be assigned to an Access item.
-* If you delete an Access it will unassign all people currently assigned first.
+* If you delete an Access it will un-assign all people currently assigned first.
 
 # Details
 * From here you can view the details or click on "Edit Access" to change Access or revoke access. NOTE! This is the only place to revoke individual access assignments.
