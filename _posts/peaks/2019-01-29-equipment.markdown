@@ -16,16 +16,16 @@ display-tag: Application Development
 * You can search equipment for tags. Only tags in the team can be searched.
 * You can search Attributes.
   * Attributes are key - value pairs that may be added to each equipment item
-  * Attributes are free form text, after you type something, click on the "Search for: ..." below the field to add it as a seach item.
+  * Attributes are free form text, after you type something, click on the "Search for: ..." below the field to add it as a search item.
   * When searching you can search for both the key and/or value
   * For example, you could have multiple Keys of "PrePurchasing" and Values of the link in PrePurchasing. You could search for either. Or a Key of Serial Number and the value of the serial number.
 * To clear a search item either backspace over it or click on the small "x" next to the search term
 * Any column with an input field over it can be search for what is in that column.
 
 ## Actions
-* Under the Actions column if you click on ... you can Assign/Add a person if it is currently un assigned
+* Under the Actions column if you click on ... you can Assign/Add a person if it is currently un-assigned
 * Or you can delete the equipment.
-* If you delete equipment that is assigned to a person, it will unassign that person first.
+* If you delete equipment that is assigned to a person, it will un-assign that person first.
 
 ## Details
 * From here, you can view the equipment's details

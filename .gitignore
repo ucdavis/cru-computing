@@ -3,3 +3,5 @@ _site/
 .jekyll-metadata
 *.gvdesign
 Gemfile.lock
+/.vs/slnx.sqlite
+/.vs/cru-computing/v15/.suo
