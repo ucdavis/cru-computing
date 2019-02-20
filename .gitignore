@@ -5,3 +5,5 @@ _site/
 Gemfile.lock
 /.vs/slnx.sqlite
 /.vs/cru-computing/v15/.suo
+/_posts/.vs/slnx.sqlite
+/_posts/.vs/_posts/v15/.suo
