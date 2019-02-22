@@ -10,7 +10,9 @@ permalink: /documentation/enroll-in-duo-with-smartphone
 display-tag: Help Desk
 ---
 
-<p>UC Davis is enforcing a new security measure to protect campus computing accounts, known as Duo MFA (Multi-Factor Authentication).  Essentially, when your campus computing account is protected with Duo, it means that in addition to your UC Davis username and password, you’ll need a third thing which only you can access, when you authenticate using your campus computing account.  We recommend using a smartphone as that third thing as almost all iPhone/Android/Windows Mobile phones will work.</p>
+<p>UC Davis is enforcing a new security measure to protect campus computing accounts, known as Duo MFA (Multi-Factor Authentication).  Essentially, when your campus computing account is protected with Duo, it means that in addition to your UC Davis username and password, you’ll need a third thing which only you can access, when you authenticate using your campus computing account.  We recommend using the "Duo Mobile" app on a smartphone as that third thing as almost all iPhone/Android/Windows Mobile phones will work.</p>
+<br />
+If you have privacy conernes about installing the Duo Mobile app on your smartphone, please visit <a class="external-link" href="http://kb.ucdavis.edu/?id=3352" target="_parent">http://kb.ucdavis.edu/?id=3352</a> for more information.
 <br />
 <p>If you are unable to use a smartphone for any reason, please consider one of the other methods below or <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
