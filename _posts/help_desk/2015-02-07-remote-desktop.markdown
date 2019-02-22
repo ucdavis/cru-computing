@@ -10,9 +10,9 @@ permalink: /documentation/remote-desktop
 display-tag: Help Desk
 ---
 
-<h3>To connect to the Remote Desktop server:</h3>
 <p><span class="discreet">NOTE: This guide assumes you have Windows 7 or Windows 10. For MacOS, you can use Remote Desktop Connection Client for Mac. For other clients, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a>.</span></p>
 <br />
+<h3>To connect to the Remote Desktop server:</h3>
 <ul style="PADDING-LEFT: 30px">
     <li>Windows 10:
         <ul>
@@ -35,7 +35,7 @@ display-tag: Help Desk
        </ul>
     </li>
 </ul>
-
+<br />
 
 <h3>To end your Remote Desktop session:</h3>
 <p>Click <b>Start</b>, and then click <b>Log Off</b> at the bottom of the <b>Start menu</b>.</p>
