@@ -13,7 +13,7 @@ display-tag: Help Desk
 <h3>To connect to the Remote Desktop server:</h3>
 <p><span class="discreet">NOTE: This guide assumes you have Windows 7 or Windows 10. For MacOS, you can use Remote Desktop Connection Client for Mac. For other clients, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a>.</span></p>
 <br />
-<ul>
+<ul style="PADDING-LEFT: 30px">
     <li>Windows 10:
         <ul>
             <li>On your computer, click <b>Start</b>, point to <b>Windows Accessories</b>, and click <b>Remote Desktop Connection</b>.</li>
@@ -23,8 +23,8 @@ display-tag: Help Desk
        </ul>
     </li>
 </ul>
-
-<ul>
+<br />
+<ul style="PADDING-LEFT: 30px">
     <li>Windows 7:
         <ul>
             <li>On your computer, click <b>Start</b>, point to <b>All Programs</b>, and then point to <b>Accessories</b>.</li>
