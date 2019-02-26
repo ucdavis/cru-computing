@@ -14,8 +14,8 @@ display-tag: Help Desk
 <p>Sign into the Adobe Acrobat Pro application:</p>
 <ol style="PADDING-LEFT: 30px">
   <li>Launch the Adobe Acrobat Pro application</li>
-  <li>Select the button for <b>Sign In Now</b>
-  <li>Select the link for <b>Sign in with an Enterprise ID</b>
+  <li>Select the button for <b>Sign In Now</b></li>
+  <li>Select the link for <b>Sign in with an Enterprise ID</b></li>
   <li>In the "Email Address" field, enter your full @ucdavis.edu email address and press <b>Tab</b> or click into the "Password" field
     <ul style="PADDING-LEFT: 20px">
       <li><font style="color:red"><b>IMPORTANT:</b></font> Do not actually enter your UC Davis computing account password in box provided.</li>
