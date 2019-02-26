@@ -2,7 +2,7 @@
 layout: documentation
 title:  "PEAKS New Features and Changes"
 author: "Jason Sylvestre"
-date:   2019-02-21 10:00:17
+date:   2019-02-26 15:00:17
 category: "peaks"
 tags: "faq"
 permalink: /faq/peaks/change-log
@@ -10,6 +10,11 @@ display-tag: Application Development
 ---
 
 # New Features and Changes
+
+## Feb 26, 2019
+* Minor changes to the confirm asset assignment page (For the end user, not admins.)
+* Changed around the Admin menu a little for Importing CSV files as we added the ability to import equipment.
+* Added Ability to import equipment via a CSV file. It works in a similar way to importing keys.
 
 ## Feb 21, 2019
 * Added a import results table that can be downloaded
