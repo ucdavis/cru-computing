@@ -41,5 +41,5 @@ display-tag: Help Desk
   <li>Select <b>Sign In</b> in the upper-right corner</li>
   <li>Select the option for <b>UC DAVIS KERBEROS</b></li>
   <li>Enter your full @ucdavis.edu email address and password, then click <b>Sign in</b></li>
-  <li>Wait 15 minutes before attempting to sign in to the ArcGIS Pro application
+  <li>Wait 15 minutes before attempting to sign in to the ArcGIS Pro application</li>
 </ol>
