@@ -11,6 +11,9 @@ display-tag: Application Development
 
 # New Features and Changes
 
+## March 5, 2019
+* Trouble finding the org that is related to your space? No problem, we've added a building search to the page where you add orgs to your team. Just enter the building name, or part of the name and search. This will list all the building and departments in them with the org code that Facilities uses for that space. For here you can just click Add to add that org to your team.
+* It is possible the org code that Facilities has for the space is no longer valid in KFS. Previously we would not have allowed this to be added as it is no longer valid, but now we check to see what is in the spaces as well and will allow an invalid org to be added. 
 ## March 1, 2019
 * Added a notes field to all asset types.
 * For equipment, added a dropdown "type" field. If Card is selected, Make and Model will be hidden. The following choices:
