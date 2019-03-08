@@ -14,6 +14,7 @@ display-tag: Application Development
 ## March 7, 2019
 * For Equipment CSV import, added Type and Notes columns. These are required columns, but the fields are optional.
 * Also, a nicer error check if columns are missing from either the Key Import or Equipment Import.
+* Expiring Items and Unaccepted Items report now correctly link to the correct items for Keys.
 
 ## March 5, 2019
 * Trouble finding the org that is related to your space? No problem, we've added a building search to the page where you add orgs to your team. Just enter the building name, or part of the name and search. This will list all the building and departments in them with the org code that Facilities uses for that space. For here you can just click Add to add that org to your team.
