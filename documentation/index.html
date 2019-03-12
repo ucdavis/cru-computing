@@ -18,6 +18,7 @@ title: CRU - Guides
                 <li role="presentation"><a href="#policy" aria-controls="policy" role="tab" data-toggle="tab">Policies</a></li>
                 <li role="presentation"><a href="#evals" aria-controls="policy" role="tab" data-toggle="tab">Evals</a></li>
                 <li role="presentation"><a href="#purchasing" aria-controls="policy" role="tab" data-toggle="tab">Purchasing</a></li>
+                <li role="presentation"><a href="#peaks" aria-controls="policy" role="tab" data-toggle="tab">PEAKS</a></li>
                 <!-- <li role="presentation"><a href="#web" aria-controls="web" role="tab" data-toggle="tab">Web Development</a></li>
                 <li role="presentation"><a href="#app" aria-controls="app" role="tab" data-toggle="tab">App Development</a></li> -->
             </ul>
@@ -57,6 +58,18 @@ title: CRU - Guides
                 </div>
                 <div role="tabpanel" class="tab-pane" id="purchasing">
                     {% assign orderedPosts = site.categories.prepurchasing | sort: "title" %}
+                    {% for post in orderedPosts %}
+                    <div class="feed-item">
+
+                        <h2 class="feed-title">
+                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h2>
+                        <p class="feed-description">{{ post.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div role="tabpanel" class="tab-pane" id="peaks">
+                    {% assign orderedPosts = site.categories.peaks | sort: "title" %}
                     {% for post in orderedPosts %}
                     <div class="feed-item">
 

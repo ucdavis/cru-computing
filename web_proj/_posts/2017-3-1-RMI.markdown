@@ -7,7 +7,7 @@ client: "Evan White"
 client-email: "emwhite@ucdavis.edu"
 current-url: "http://rmi.ucdavis.edu"
 backend: "http://rmi.ucdsitefarm.acsitefactory.com/"
-Launched: Expected 2018
+Launched: November 2018
 Technology: Sitefarm
 tags:
   - Sitefarm - Drupal

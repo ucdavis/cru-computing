@@ -6,10 +6,10 @@ client: "Caren Weintraub"
 client-email: "cweintraub@ucdavis.edu"
 current-url: "http://caes.ucdavis.edu/"
 
-Launched: Expected 2018
-Technology: Plone
+Launched: September 2018
+Technology: Sitefarm
 tags:
-  - Plone
+  - Sitefarm - Drupal
 ---
 
 Nothing needs to be here
