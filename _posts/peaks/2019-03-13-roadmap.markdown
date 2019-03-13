@@ -2,7 +2,7 @@
 layout: documentation
 title:  "PEAKS Roadmap"
 author: "Jason Sylvestre"
-date:   2019-03-13 9:00:17
+date:   2019-03-13 10:40:17
 category: "peaks"
 tags: "faq"
 permalink: /faq/peaks/roadmap
@@ -15,5 +15,14 @@ display-tag: Application Development
 
 Note, these planned features and changes are not listed in order of importance or planned implementation date. In addition they often are dependant on external factors.
 
-* Integrate with Bigfix
+## Near Term
+* Create more reports
+  * Reports for Equipment
+  * Reports for People
+  * Reports for Workstations (Spaces)
+
+## Version 2
 * Have a Team of Teams group that will allow view/report access into the child teams.
+
+## Future/Backlog
+* Integrate with BigFix 
