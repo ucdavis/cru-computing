@@ -1,0 +1,26 @@
+---
+layout: documentation
+title:  "PEAKS Roadmap"
+author: "Jason Sylvestre"
+date:   2019-03-13 10:40:17
+category: "peaks"
+tags: "faq"
+permalink: /faq/peaks/roadmap
+display-tag: Application Development
+---
+
+# Planned Features and Changes
+
+![All The Things](https://computing.caes.ucdavis.edu/media/peaks/all-the-things.jpg "All The Things")
+
+## Near Term
+* Create more reports
+  * Reports for Equipment
+  * Reports for People
+  * Reports for Workstations (Spaces)
+
+## Version 2
+* Have a Team of Teams group that will allow view/report access into the child teams.
+
+## Future/Backlog
+* Integrate with BigFix 
