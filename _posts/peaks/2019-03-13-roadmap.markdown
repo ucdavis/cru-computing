@@ -11,4 +11,9 @@ display-tag: Application Development
 
 # Planned Features and Changes
 
+![All The Things](https://computing.caes.ucdavis.edu/media/peaks/all-the-things.jpg "All The Things")
 
+Note, these planned features and changes are not listed in order of importance or planned implementation date. In addition they often are dependant on external factors.
+
+* Integrate with Bigfix
+* Have a Team of Teams group that will allow view/report access into the child teams.

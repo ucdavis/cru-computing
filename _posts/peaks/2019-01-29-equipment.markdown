@@ -2,7 +2,7 @@
 layout: documentation
 title:  "PEAKS Equipment"
 author: "Jason Sylvestre"
-date:   2019-01-29 8:00:00
+date:   2019-03-13 9:07:00
 category: "peaks"
 tags: "faq"
 permalink: /faq/peaks/equipment
@@ -19,6 +19,7 @@ display-tag: Application Development
   * Attributes are free form text, after you type something, click on the "Search for: ..." below the field to add it as a search item.
   * When searching you can search for both the key and/or value
   * For example, you could have multiple Keys of "PrePurchasing" and Values of the link in PrePurchasing. You could search for either. Or a Key of Serial Number and the value of the serial number.
+  * If you are searching for both the key and attribute, make sure you click the "search for:..." for each of these values otherwise it will only match the phrase instead of each word.
 * To clear a search item either backspace over it or click on the small "x" next to the search term
 * Any column with an input field over it can be search for what is in that column.
 
