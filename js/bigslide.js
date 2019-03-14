@@ -1,5 +1,5 @@
 /*! bigSlide - v0.11.0 - 2016-04-13
- * http://ascott1.github.io/bigSlide.js/
+ * https://ascott1.github.io/bigSlide.js/
  * Copyright (c) 2016 Adam D. Scott; Licensed MIT */
 ! function(a) { "use strict"; "function" == typeof define && define.amd ? define(["jquery"], a) : "object" == typeof exports ? module.exports = a(require("jquery")) : a(jQuery) }(function(a) { "use strict";
 

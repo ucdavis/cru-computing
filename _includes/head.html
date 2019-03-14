@@ -14,7 +14,7 @@
   <title>{{ site.title }} - {{ page.title }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  
+
   <!-- le Apple -->
   <link rel="apple-touch-icon" href="/media/thumbnail.jpg">
   <link rel="apple-touch-icon" sizes="76x76" href="/media/76-icon.jpg">
@@ -31,12 +31,10 @@
 
 
   <!-- le CSS -->
-  <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-  <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  
+
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
 </head>
