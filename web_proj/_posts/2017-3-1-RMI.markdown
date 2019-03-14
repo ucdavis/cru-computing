@@ -9,6 +9,8 @@ current-url: "http://rmi.ucdavis.edu"
 backend: "http://rmi.ucdsitefarm.acsitefactory.com/"
 Launched: November 2018
 Technology: Sitefarm
+developers:
+  - Cal Doval
 tags:
   - Sitefarm - Drupal
 ---

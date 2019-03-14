@@ -7,6 +7,8 @@ client-email: "kmwilkins@ucdavis.edu"
 current-url: "http://ip.ucdavis.edu/"
 backend: "https://github.com/ucdavis/ip"
 Launched: Oct 2016
+developers:
+  - Cal Doval
 Technology: Jekyll Static Site Generator
 tags:
   - Static Site - Jekyll

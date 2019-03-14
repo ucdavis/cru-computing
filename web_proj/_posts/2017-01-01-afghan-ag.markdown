@@ -8,6 +8,8 @@ current-url: "http://afghanag.ucdavis.edu/"
 backend: "https://github.com/ucdavis/ip-afghanag"
 Launched: Jan 2018
 Technology: Jekyll Static Site Generator
+developers:
+  - Cal Doval
 tags:
   - Static Site - Jekyll
 

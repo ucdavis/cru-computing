@@ -5,6 +5,9 @@ description: "PrePurchasing allows camps staff and faculty to submit, process, t
 current-url: "https://prepurchasing.ucdavis.edu/"
 audience: "Staff and Faculty"
 Launched: Jan 2018
+developers:
+  - Scott Kirkland
+  - Ken Taylor
 tags:
   - Static Site - Jekyll
 

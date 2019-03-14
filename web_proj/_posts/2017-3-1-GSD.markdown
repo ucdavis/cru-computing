@@ -5,7 +5,8 @@ description: "Gamma Sigma Delta began as a professional agricultural fraternity 
 client: "Caren Weintraub"
 client-email: "cweintraub@ucdavis.edu"
 current-url: "http://gsd.ucdavis.edu/"
-
+developers:
+  - Cal Doval
 Launched: Dec 2017
 Technology: Sitefarm
 tags:

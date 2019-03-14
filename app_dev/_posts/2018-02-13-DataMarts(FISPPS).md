@@ -5,6 +5,8 @@ description: "Used primarily by college financial anaylists to run specialized f
 current-url: 
 audience: "CAES staff (financial analysts)"
 Launched: Jan 2018
+developers:
+  - Ken Taylor
 tags: 
   - Static Site - Jekyll
 

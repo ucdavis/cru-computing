@@ -8,6 +8,8 @@ current-url: "http://ptf.ucdavis.edu/"
 backend: "https://github.com/ucdavis/ptf-static"
 Launched: Oct 2017
 Technology: Jekyll Static Site Generator
+developers:
+  - Cal Doval
 tags:
   - Static Site - Jekyll
 

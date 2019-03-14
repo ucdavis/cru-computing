@@ -7,6 +7,8 @@ client-email: "ssmith@ucdavis.edu"
 current-url: "http://computing.caes.ucdavis.edu/"
 backend: "https://github.com/ucdavis/cru-computing"
 Launched: Mar 2016
+developers:
+  - Cal Doval
 Technology: Jekyll Static Site Generator
 tags:
   - Static Site - Jekyll

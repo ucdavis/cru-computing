@@ -6,7 +6,8 @@ The FFHI acts as an engine for research, innovation, and economic development su
 client: "Jennifer Smilowitz"
 client-email: "jensm@ucdavis.edu"
 current-url: "http://ffhi.ucdavis.edu/"
-
+developers:
+  - Cal Doval
 Launched: November 2018
 Technology: Sitefarm
 tags:

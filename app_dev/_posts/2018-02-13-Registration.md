@@ -5,6 +5,9 @@ description: "Allows campus staff to create and promote conferences and other ev
 current-url: https://registration.ucdavis.edu/
 audience: "Staff and Public"
 Launched: Jan 2018
+developers:
+  - Jason Sylvestre
+  - Scott Kirkland
 tags: 
   - Static Site - Jekyll
 

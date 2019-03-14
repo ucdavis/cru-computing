@@ -45,6 +45,14 @@ title: CRU - Portfolio
                                 </li>
                                 {% endif %} {% if post.Launched %}
                                 <li class="updated">Updated: {{post.Launched}}</li>
+                                {% endif %} {% if post.developers %}
+                                <li>
+                                    {% for developer in post.developers %}
+                                        {% assign dev = site.team | where: "name", developer | first %}
+                                        {% include team_tooltip.html text=dev.name image=dev.image %}
+                                    {% endfor %}
+                                </li>
+
                                 {% endif %}
                             </ul>
                         </div>
@@ -53,6 +61,7 @@ title: CRU - Portfolio
                 </div>
                 <div role="tabpanel" class="tab-pane" id="profile">
                     {% for post in site.categories.app_dev %}
+                    {% unless post.tags contains 'Archived' %}
                     <div class="portfolio_item">
                         <h3>{{ post.title }}</h3>
                         <div class="well">
@@ -73,9 +82,20 @@ title: CRU - Portfolio
                                     <b>Description:</b>
                                     {{post.description}}
                                 </p>
+                            {% if post.developers %}
+                            <li>
+                                {% for developer in post.developers %}
+                                    {% assign dev = site.team | where: "name", developer | first %}
+                                    {% include team_tooltip.html text=dev.name image=dev.image %}
+                                {% endfor %}
+                            </li>
+                                
+                            {% endif %}
                             </ul>
+                            
                         </div>
                     </div>
+                    {% endunless %}
                     {% endfor %}
                 </div>
 

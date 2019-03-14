@@ -7,6 +7,8 @@ client-email: "boaks@uri.edu"
 current-url: "http://ilins.ucdavis.edu"
 published: false
 Launched: Nov 2017
+developers:
+  - Cal Doval
 Technology: Sitefarm
 tags:
   - Sitefarm - Drupal

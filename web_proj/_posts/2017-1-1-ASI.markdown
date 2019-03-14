@@ -5,7 +5,8 @@ description: "The Agricultural Sustainability Institute at UC Davis is a group o
 client: "Aubrey White"
 client-email: "calgutierrez@ucdavis.edu"
 current-url: "http://asi.ucdavis.edu/"
-
+developers:
+  - Cal Doval
 Launched: Jan 2019
 Technology: Sitefarm
 tags:

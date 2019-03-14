@@ -5,6 +5,9 @@ description: "Plant Transformation Facility: Online ordering system for the Plan
 current-url: 
 audience: "Plant Transformation Staff"
 Launched: Jan 2018
+developers:
+  - Scott Kirkland
+  - Ken Taylor
 tags: 
   - Static Site - Jekyll
 

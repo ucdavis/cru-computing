@@ -5,7 +5,8 @@ description: "The College of Agricultural and Environmental Sciences at UC Davis
 client: "Caren Weintraub"
 client-email: "cweintraub@ucdavis.edu"
 current-url: "http://caes.ucdavis.edu/"
-
+developers:
+  - Cal Doval
 Launched: September 2018
 Technology: Sitefarm
 tags:

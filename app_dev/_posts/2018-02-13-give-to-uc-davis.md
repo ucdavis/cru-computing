@@ -5,6 +5,11 @@ description: "Flagship giving site for UC Davis to collect credit card donations
 current-url: "http://give.ucdavis.edu/"
 audience: "Campus Donors, Univeristy Relations"
 Launched: Jan 2018
+developers:
+  - Scott Kirkland
+  - John Knoll
+  - Ken Taylor
+  - Jason Sylvestre
 tags:
   - Static Site - Jekyll
 

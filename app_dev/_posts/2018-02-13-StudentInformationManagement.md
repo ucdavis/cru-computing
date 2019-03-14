@@ -7,5 +7,6 @@ audience: "CAES staff"
 Launched: Jan 2018
 tags: 
   - Static Site - Jekyll
+  - Archived
 
 ---

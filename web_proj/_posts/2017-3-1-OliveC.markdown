@@ -7,6 +7,8 @@ client-email: "jdflynn@ucdavis.edu"
 current-url: "http://olivecenter.ucdavis.edu/"
 backend: "https://github.com/ucdavis/olive"
 Launched: Jan 2018
+developers:
+  - Cal Doval
 Technology: Jekyll Static Site Generator
 tags:
   - Static Site - Jekyll

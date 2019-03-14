@@ -5,6 +5,8 @@ description: "Allows users to access a single website to view data dictionary in
 current-url: 
 audience: "Campus Staff Developers"
 Launched: Jan 2018
+developers:
+  - Ken Taylor
 tags: 
   - Static Site - Jekyll
 

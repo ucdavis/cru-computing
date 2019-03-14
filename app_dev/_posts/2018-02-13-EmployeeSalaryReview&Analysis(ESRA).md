@@ -5,6 +5,9 @@ description: "System to analyze salaries among titles/personnel and formulate/pr
 current-url: 
 audience: "CAES staff (& some campus staff)"
 Launched: Jan 2018
+developers:
+  - Ken Taylor
+  - Scott Kirkland
 tags: 
   - Static Site - Jekyll
 

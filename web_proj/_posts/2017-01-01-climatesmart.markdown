@@ -7,6 +7,8 @@ client-email: "sperla@ucdavis.edu"
 current-url: "http://climatesmart.ucdavis.edu/"
 backend: "https://github.com/ucdavis/climatesmart"
 Launched: Aug 2017
+developers:
+  - Cal Doval
 Technology: Jekyll Static Site Generator
 tags:
   - Static Site - Jekyll

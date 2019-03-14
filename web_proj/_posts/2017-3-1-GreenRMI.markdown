@@ -8,6 +8,8 @@ current-url: "http://greenrmi.ucdavis.edu/"
 backend: "https://github.com/ucdavis/greenrmi"
 Launched: Aug 2015
 Technology: Middleman Static Site Generator
+developers:
+  - Cal Doval
 tags:
   - Static Site - Middleman
 

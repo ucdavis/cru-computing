@@ -7,6 +7,8 @@ client-email: "kmwilkins@ucdavis.edu"
 current-url: "http://echina-apple.com/"
 backend: "https://github.com/ucdavis/ip-echina"
 Launched: Nov 2015
+developers:
+  - Cal Doval
 Technology: Jekyll Static Site Generator
 tags:
   - Static Site - Jekyll

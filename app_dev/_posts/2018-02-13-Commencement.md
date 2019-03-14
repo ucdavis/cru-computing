@@ -5,6 +5,9 @@ description: "Campus commencement registration system that tracks and distribute
 current-url: https://graduation.ucdavis.edu
 audience: "Students and Staff"
 Launched: Jan 2018
+developers:
+  - Scott Kirkland
+  - Jason Sylvestre
 tags: 
   - Static Site - Jekyll
 

@@ -7,6 +7,8 @@ client-email: "sparker@ucdavis.edu"
 current-url: "http://ediblecampus.ucdavis.edu/"
 backend: "https://github.com/ucdavis/ediblecampus"
 Launched: Sept 2016
+developers:
+  - Cal Doval
 Technology: Jekyll Static Site Generator
 tags:
   - Static Site - Jekyll

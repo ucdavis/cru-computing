@@ -5,6 +5,8 @@ description: "A Project for Automating General Ledger Current Budget Adjustments
 current-url: https://secure.caes.ucdavis.edu/BenefitsAllocationUpload
 audience: "Campus staff accountants"
 Launched: Jan 2018
+developers:
+  - Ken Taylor
 tags: 
   - Static Site - Jekyll
 

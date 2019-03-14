@@ -7,6 +7,8 @@ client-email: "jaquigley@ucdavis.edu"
 current-url: "https://uccalfresh.ucdavis.edu"
 backend: "http://uccalfresh.ucdsitefarm.acsitefactory.com/"
 Launched: October 2018
+developers:
+  - Cal Doval
 Technology: Site Farm
 tags:
   - Sitefarm - Drupal
