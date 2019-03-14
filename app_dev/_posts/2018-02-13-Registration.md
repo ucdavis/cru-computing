@@ -8,7 +8,8 @@ Launched: Jan 2018
 developers:
   - Jason Sylvestre
   - Scott Kirkland
-tags: 
+  - Cal
+tags:
   - Static Site - Jekyll
 
 ---

@@ -10,6 +10,7 @@ developers:
   - John Knoll
   - Ken Taylor
   - Jason Sylvestre
+  - Cal Doval
 tags:
   - Static Site - Jekyll
 
