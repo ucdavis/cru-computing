@@ -5,7 +5,7 @@ author: "Jason Sylvestre"
 date:   2019-03-14 14:00:00
 category: "peaks"
 tags: "faq"
-permalink: /faq/peaks/change-log
+permalink: /faq/peaks/user-not-found
 display-tag: Application Development
 ---
 
