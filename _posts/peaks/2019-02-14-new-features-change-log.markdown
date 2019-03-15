@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title:  "PEAKS New Features and Changes"
+title:  "New Features and Changes"
 author: "Jason Sylvestre"
 date:   2019-03-14 14:00:00
 category: "peaks"

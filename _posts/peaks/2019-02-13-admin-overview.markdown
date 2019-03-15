@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title:  "PEAKS Admin Overview"
+title:  "Admin Overview"
 author: "Jason Sylvestre"
 date:   2019-02-13 11:30:17
 category: "peaks"

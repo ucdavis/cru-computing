@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title:  "PEAKS User Not Found"
+title:  "User Not Found"
 author: "Jason Sylvestre"
 date:   2019-03-14 14:00:00
 category: "peaks"

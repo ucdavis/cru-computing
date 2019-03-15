@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title:  "PEAKS Roadmap"
+title:  "Road map"
 author: "Jason Sylvestre"
 date:   2019-03-13 11:10:00
 category: "peaks"
