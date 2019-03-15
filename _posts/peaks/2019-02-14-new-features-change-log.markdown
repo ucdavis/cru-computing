@@ -10,6 +10,9 @@ display-tag: Application Development
 ---
 
 # New Features and Changes
+## March 15, 2019
+* Some behind the scenes fixes.
+* Try to display the IAM users' name as well as the IAM id if they can't be saved when doing a bulk load.
 ## March 14, 2019
 Happy Pi Day.
 * Added Laptop and Cellphone to the choices for Equipment Types.
