@@ -1,5 +1,8 @@
 ---
 name: Cal Doval
-position: App
+email: cydoval@ucdavis.edu
+role: Web Design and Development
 image: /media/team/cal_pic
+tag:
+  - webdev
 ---

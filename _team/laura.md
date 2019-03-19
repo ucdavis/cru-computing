@@ -1,5 +1,8 @@
 ---
 name: Laura Holstege
-position: App
+email: laholstege@ucdavis.edu
+role: Applications Developer
 image: /media/team/laura_pic
+tags:
+  - appdev
 ---

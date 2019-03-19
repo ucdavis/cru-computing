@@ -2,18 +2,26 @@
 layout: default
 ---
 
-<div class="container">
+<div class="container {{page.brand}}-total">
   <ol class="breadcrumb">
       <li><a href="{{ site.baseurl }}/">Home</a></li>
     {% if page.breadcrumb %}{{ page.breadcrumb }}{% endif %}
       <li class="active"><a href="{{ page.url }}">{{ page.title }}</a></li>
   </ol>
+    <div class="row justify-content-between">
+      <div class="col-sm-8">
+        <p class="tag-display {{ page.category }}">{{ page.display-tag }}</p>
+        {% if page.geotag %}
+        <img src="/media/{{ page.geotag }}.svg" alt="{{ page.brand }} icon">
+        {% endif %}
+        <h1>{{ page.title }}</h1>
+        <p class="lead">{{ page.description }}</p>
+        <hr>
+       	<p>{{ content }}</p>
 
-      <p class="tag-display {{ page.category }}">{{ page.display-tag }}</p>
-      <h1>{{ page.title }}</h1>
-      <p class="lead">{{ page.description }}</p>
-      <hr class="{{page.brand}}-hr">
-     	<p>{{ content }}</p>
+      </div>
+      <div class="col-sm-3">Aside</div>
+    </div>
 
 
 </div>

@@ -24,7 +24,7 @@ title: CRU - Portfolio
             <!-- Tab panes -->
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="home">
-                    {% for post in site.categories.web_proj %}
+                    {% for post in site.categories.webdev %}
                     <div class="portfolio_item">
                         <h3>{{ post.title }}</h3>
                         <div class="well">
@@ -60,7 +60,7 @@ title: CRU - Portfolio
                     {% endfor %}
                 </div>
                 <div role="tabpanel" class="tab-pane" id="profile">
-                    {% for post in site.categories.app_dev %}
+                    {% for post in site.categories.appdev %}
                     {% unless post.tags contains 'Archived' %}
                     <div class="portfolio_item">
                         <h3>{{ post.title }}</h3>
@@ -89,10 +89,10 @@ title: CRU - Portfolio
                                     {% include team_tooltip.html text=dev.name image=dev.image %}
                                 {% endfor %}
                             </li>
-                                
+
                             {% endif %}
                             </ul>
-                            
+
                         </div>
                     </div>
                     {% endunless %}

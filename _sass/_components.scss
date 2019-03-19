@@ -1,4 +1,34 @@
-
+.card {
+  background-color: #ffffff;
+  box-shadow: $box-shadow;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom:16px;
+  border:none;
+}
+.card-content {
+  padding:$card-padding;
+  padding-bottom:2.6rem;
+  padding-top:2.6rem;
+}
+.services-total {
+  hr {
+    border:1px solid $services;
+    margin-bottom:1.6rem;
+  }
+  ol.breadcrumb {
+    > .active a {
+      color: transparentize($services, .53);
+    }
+  }
+  a {
+    color:$services;
+    &:hover {
+      text-decoration: underline;
+      color:lighten($services,15);
+    }
+  }
+}
 .alert-red {
   background-color:transparentize($unitrans-red,0.35);
   &:hover {
@@ -146,4 +176,9 @@ ol.breadcrumb {
     color: $tertiary-font;
     content: "/";
   }
+}
+.pixel-profile {
+  border:1px solid #fff;
+  box-shadow:$box-shadow;
+  border-radius:50%;
 }

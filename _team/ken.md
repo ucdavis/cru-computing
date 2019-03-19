@@ -1,5 +1,8 @@
 ---
 name: Ken Taylor
-position: App
+email: kentaylor@ucdavis.edu
+role: Applications Developer
 image: /media/team/ken_pic
+tags:
+  - appdev
 ---
