@@ -1,0 +1,47 @@
+nav {
+  ul.nav {
+    li.nav-item {
+      a.nav-link {
+        color:$primary-font;
+        font-family: $sans-bold;
+        font-size:2rem;
+        &:hover {
+          background-color:$bg-color;
+
+        }
+      }
+    }
+  }
+}
+.team-active:hover {
+  border-bottom: 4px solid $team;
+}
+.services-active:hover {
+  border-bottom: 4px solid $services;
+}
+.documentation-active:hover {
+  border-bottom: 4px solid $documentation;
+}
+.portfolio-active:hover {
+  border-bottom: 4px solid $portfolio;
+}
+.services-active {
+   &.active {
+    border-bottom:4px solid $services;
+  }
+}
+.documentation-active {
+   &.active {
+    border-bottom:4px solid $documentation;
+  }
+}
+.team-active {
+   &.active {
+    border-bottom:4px solid $team;
+  }
+}
+.portfolio-active {
+   &.active {
+    border-bottom:4px solid $portfolio;
+  }
+}
