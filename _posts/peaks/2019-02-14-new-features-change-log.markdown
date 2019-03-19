@@ -2,7 +2,7 @@
 layout: documentation
 title:  "New Features and Changes"
 author: "Jason Sylvestre"
-date:   2019-03-14 14:00:00
+date:   2019-03-19 11:15:00
 category: "peaks"
 tags: "faq"
 permalink: /faq/peaks/change-log
