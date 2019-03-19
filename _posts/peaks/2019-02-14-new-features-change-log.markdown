@@ -10,6 +10,12 @@ display-tag: Application Development
 ---
 
 # New Features and Changes
+## March 19,2019
+* Ability to be notified by email when people are added, removed, or reactivated for a team.
+* Currently, the email portion of this is still pending, but if you add an notification email the information will be gathered and emailed once that service is completed.
+* The notification email may be specified in the Team Admin section:
+
+![Notification Email](https://computing.caes.ucdavis.edu/media/peaks/admin-notify-email.png "Notification Email")
 ## March 15, 2019
 * Some behind the scenes fixes.
 * Try to display the IAM users' name as well as the IAM id if they can't be saved when doing a bulk load.
