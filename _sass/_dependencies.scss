@@ -22,27 +22,22 @@ $sans-italic:   "proxima-nova-i",sans-serif;
 $sans-bold:     "proxima-nova-b",sans-serif;
 $sans-reg:      "proxima-nova-r",sans-serif;
 
-// pretty colors
-$primary-color: #002855;
-$secondary-color: #C99700;
-$primary-font: #444444; // p,li color in main content
-$secondary-font: #999999; // p,li color in portlet/sidebar
-$tertiary-font: #bbbbbb; // summary, discreet
+$primary-color:     #1D3B5C;
+$secondary-color:   #004987;
+$tertiary-color:    #F4BD00;
 
-$bg-color: #F9F9F9; // background
-$borders: #C8C7CC; // border color
+$a-link:            transparentize($primary-color, .2);
 
-$nav-active: #fff;
+$primary-font: rgba(31,31,31,.99); //
+$secondary-font: rgba(31,31,31,.80); //
+$tertiary-font: rgba(31,31,31,.40); //
 
-$a-link: #016FC4;
-$a-hover: #DDB307;
+$box-shadow: 0 0 0 1px rgba(49,49,93,.03), 0 2px 5px 0 rgba(49,49,93,.1), 0 1px 2px 0 rgba(0,0,0,.08);
 
-$blue: #016FC4;
-$gold: #DDB307;
+$bg-color: #F8F9FB; // background
+$borders: #E8E9ED; // border color
 
-$mint-green: #028474;
-// UC Davis Colors
-// Supplemental bright color palette for UC Davis
+
 $unitrans-red: #ba0c2f;
 $western-redbud: #c6007e;
 $california-poppy: #ed8800;
@@ -60,82 +55,93 @@ $wintersky-gray: #5b7f95;
 $cenwalk-gray: #b1b3b3;
 $cork-oak: #aca39a;
 $shingle-brown: #4f2c1d;
-// mixins
+
+// Layouts
+
+$card-padding: 0.75rem 1.75rem;
+$card-thick-padding: 3rem;
+
 @mixin breakpoint($point) {
-    @if $point==hdres {
-        @media (max-width:1600px){
+    @if $point==sm {
+        @media (min-width: 576px) {
             @content ;
         }
     }
-    @if $point==desktop {
-        @media (max-width: 1250px) {
+    @if $point==xsm {
+        @media (max-width: 575px) {
             @content ;
         }
     }
-    @else if $point==laptop {
-        @media (max-width: 1000px) {
+    @if $point==md {
+        @media (min-width: 768px) {
             @content ;
         }
     }
-    @else if $point==rufus {
-        @media (max-width: 850px) {
+    @if $point==lg {
+        @media (min-width: 992px) {
             @content ;
         }
     }
-    @else if $point==tablet {
-        @media (max-width: 750px) {
-            @content ;
-        }
-    }
-    @else if $point==mobileonly {
-        @media (max-width: 640px) {
-            @content ;
-        }
-    }
-    @else if $point==smallmobile {
-        @media (max-width: 450px) {
+    @if $point==xl {
+        @media (min-width: 1200px) {
             @content ;
         }
     }
 }
 
-@mixin add-bottom-border {
-    border-bottom: 1px solid $borders;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
+@mixin fader {
+  -o-transition:.25s;
+  -ms-transition:.25s;
+  -moz-transition:.25s;
+  -webkit-transition:.25s;
+  /* ...and now for the proper property */
+  transition:.25s;
+}
+@mixin main-btn {
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset, 0 1px 3px rgba(0,0,0,.08);
+  background: $primary-color;
+  border-radius: 2px;
+  font-size: 1.6rem;
+  letter-spacing: 0.025em;
+  color: #fff !important;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  border: none;
+  font-family: $sans-bold;
+  &:active,
+  &:focus {
+    background-color: darken($primary-color, 5);
+  }
+  &:hover {
+    color: #fff !important;
+    transform: translateY(-1px);
+    box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset, 0 3px 6px rgba(0,0,0,.08);
+    background-color: lighten($primary-color, 5);
+  }
 }
 
-@mixin transitiontime {
-    transition-delay: 0s;
-    transition-duration: 0.75s;
-    transition-property: all;
-    transition-timing-function: ease;
-    -webkit-transition-delay: 0s;
-    -webkit-transition-duration: 0.75s;
-    -webkit-transition-property: all;
-    -webkit-transition-timing-function: ease;
-    -moz-transition-delay: 0s;
-    -moz-transition-duration: 0.75s;
-    -moz-transition-property: all;
-    -moz-transition-timing-function: ease;
-}
-
-
-@mixin transition($values: 0.3s ease-in) {
-    transition: $values;
-    -webkit-transition: $values;
-    -webkit-transform: translateZ(0); // Fix animation in Safari
-}
-
-@mixin container {
-    max-width: 1400px;
-    width: 80%;
-    margin: 0 auto;
-    min-width: 300px;
-    @include breakpoint(rufus) {
-      width:85%;
-    }
-    @include breakpoint(mobileonly) {
-        width: 90%;
-    }
+@mixin inverse-btn {
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  background: #fff;
+  font-size: 1.6rem;
+  letter-spacing: 0.025em;
+  color: $primary-color;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  border: none;
+  font-family: $sans-bold;
+  box-shadow: $box-shadow;
+  &:hover {
+    transform: translateY(-1px);
+    text-decoration: none;
+  }
 }

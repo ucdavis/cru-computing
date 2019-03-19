@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="container">
+  <ol class="breadcrumb">
+      <li><a href="{{ site.baseurl }}/">Home</a></li>
+    {% if page.breadcrumb %}{{ page.breadcrumb }}{% endif %}
+      <li class="active"><a href="{{ page.url }}">{{ page.title }}</a></li>
+  </ol>
+
+      <p class="tag-display {{ page.category }}">{{ page.display-tag }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="lead">{{ page.description }}</p>
+      <hr class="{{page.brand}}-hr">
+     	<p>{{ content }}</p>
+
+
+</div>
