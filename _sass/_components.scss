@@ -29,7 +29,7 @@ hr {
 //         }
 //     }
 // }
-//images 
+//images
 img {
     &.logo {
         margin-right:16px;
@@ -78,7 +78,7 @@ img {
     background-color: $secondary-color;
     box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
     border-radius: 2px;
-    font-family: $sans-serif;
+    font-family: $sans-reg;
     font-size: 1.4rem;
     font-weight: 400;
     color: #fff;
@@ -193,4 +193,36 @@ img {
             transition: transform ease-out 0.15s, opacity ease-out 0.15s;
         }
     }
+}
+form {
+    .main {
+        background-color: $bg-color;
+        padding: 2%;
+        border-left: 3px solid $mint-green;
+        padding-left: 4%
+    }
+    input.search_input {
+        background-image:url(/media/search_form.svg);
+        background-repeat:no-repeat;
+        background-size: 20px 20px;
+        width:240px;
+        font-size:1.6rem;
+        color:$primary-font;
+        background-color:#fff;
+        border-radius:2px;
+        border:1px solid $borders;
+        height:40px;
+        padding-left:35px;
+        background-position:10px center;
+    }
+}
+
+label {
+    display: block;
+    font-family: $sans-reg;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: $secondary-font;
+    text-transform: uppercase;
+    margin-bottom: 5px;
 }
