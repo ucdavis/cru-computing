@@ -1,8 +1,8 @@
 ---
 layout: documentation
-title:  "PEAKS New Features and Changes"
+title:  "New Features and Changes"
 author: "Jason Sylvestre"
-date:   2019-03-01 9:00:17
+date:   2019-03-14 14:00:00
 category: "peaks"
 tags: "faq"
 permalink: /faq/peaks/change-log
@@ -10,6 +10,12 @@ display-tag: Application Development
 ---
 
 # New Features and Changes
+## March 15, 2019
+* Some behind the scenes fixes.
+* Try to display the IAM users' name as well as the IAM id if they can't be saved when doing a bulk load.
+## March 14, 2019
+Happy Pi Day.
+* Added Laptop and Cellphone to the choices for Equipment Types.
 
 ## March 7, 2019
 * For Equipment CSV import, added Type and Notes columns. These are required columns, but the fields are optional.

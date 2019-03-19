@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title:  "PEAKS Equipment"
+title:  "Equipment"
 author: "Jason Sylvestre"
 date:   2019-03-13 9:07:00
 category: "peaks"

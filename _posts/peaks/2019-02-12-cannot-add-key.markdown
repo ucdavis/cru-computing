@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title:  "PEAKS Can't add key from Person details"
+title:  "Can't add key from Person details"
 author: "Jason Sylvestre"
 date:   2019-02-12 09:00:17
 category: "peaks"
