@@ -9,18 +9,27 @@ layout: default
       <li class="active"><a href="{{ page.url }}">{{ page.title }}</a></li>
   </ol>
     <div class="row justify-content-between">
-      <div class="col-sm-12">
+      <div class="col-sm-6">
         <p class="tag-display {{ page.category }}">{{ page.display-tag }}</p>
         {% if page.geotag %}
         <img src="/media/{{ page.geotag }}.svg" alt="{{ page.brand }} icon">
         {% endif %}
         <h1>{{ page.title }}</h1>
         <p class="lead">{{ page.description }}</p>
-        <hr>
-       	<p>{{ content }}</p>
+  </div>
+  <div class="col-sm-6">
+    <div class="text-center">
+      <img id="team-image" src="/media/team/team.png" alt="">
+    </div>
+  </div>
 
-      </div>
+
     </div>
 
+<div class="row">
+  <div class="col-sm-12">
+    <p>{{ content }}</p>
 
+  </div>
+</div>
 </div>

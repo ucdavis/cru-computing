@@ -29,6 +29,60 @@
     }
   }
 }
+.documentation-total {
+  hr {
+    border:1px solid $documentation;
+    margin-bottom:1.6rem;
+  }
+  ol.breadcrumb {
+    > .active a {
+      color: transparentize($documentation, .53);
+    }
+  }
+  a {
+    color:$documentation;
+    &:hover {
+      text-decoration: underline;
+      color:lighten($documentation,15);
+    }
+  }
+}
+.team-total {
+  hr {
+    border:1px solid $team;
+    margin-bottom:1.6rem;
+  }
+  ol.breadcrumb {
+    > .active a {
+      color: transparentize($team, .53);
+    }
+  }
+  a {
+    color:$team;
+    &:hover {
+      text-decoration: underline;
+      color:lighten($team,15);
+    }
+  }
+}
+.portfolio-total {
+  hr {
+    border:1px solid $portfolio;
+    margin-bottom:1.6rem;
+  }
+  ol.breadcrumb {
+    > .active a {
+      color: transparentize($portfolio, .53);
+    }
+  }
+  a {
+    color:$portfolio;
+    &:hover {
+      text-decoration: underline;
+      color:lighten($portfolio,15);
+    }
+  }
+}
 .alert-red {
   background-color:transparentize($unitrans-red,0.35);
   &:hover {

@@ -1,16 +1,15 @@
 ---
-layout: default
-title: CRU - Policies
+layout: twocol
+title: Policies
+breadcrumb: <li><a href="/documentation">Policies</a></li>
+description:  CA&ES Dean's Office and UC Davis computing policies as well as standards and practices materials.
+brand: documentation
+permalink: /documentation/policies
+
 ---
 
-<div class="main">
-    <div class="main_contents">
-        <aside></aside>
-        <article>
-            <h1>Policies</h1>
-            <p class="lead">
-                CA&ES Dean's Office and UC Davis computing policies as well as standards and practices materials. 
-            </p>
+
+    
             {% for post in site.categories.policy %}
             <div class="feed-item">
                 {% if post.image %}
@@ -21,6 +20,3 @@ title: CRU - Policies
                 <p class="feed-description">{{ post.description }}</p>
             </div>
             {% endfor %}
-        </article>
-    </div>
-</div>
