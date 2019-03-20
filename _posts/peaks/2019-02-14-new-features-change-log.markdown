@@ -2,7 +2,7 @@
 layout: documentation
 title:  "New Features and Changes"
 author: "Jason Sylvestre"
-date:   2019-03-19 11:15:00
+date:   2019-03-20 15:15:00
 category: "peaks"
 tags: "faq"
 permalink: /faq/peaks/change-log
@@ -10,6 +10,9 @@ display-tag: Application Development
 ---
 
 # New Features and Changes
+## March 20, 2019
+* Email for the feature below when people are added, removed, or reactivated.
+* A new report for those actions.
 ## March 19,2019
 * Ability to be notified by email when people are added, removed, or reactivated for a team.
 * Currently, the email portion of this is still pending, but if you add an notification email the information will be gathered and emailed once that service is completed.
