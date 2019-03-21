@@ -15,6 +15,11 @@ html {
 body {
   background-color:#fff;
 }
+.landing-bg {
+  background: url("/media/geo.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
 header {
   margin-top:16px;
   margin-bottom:48px;
