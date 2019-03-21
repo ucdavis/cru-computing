@@ -11,7 +11,7 @@ Technology: Jekyll Static Site Generator
 developers:
   - Cal Doval
 tags:
-  - Static Site - Jekyll
+  - Static Site
 
 ---
 
