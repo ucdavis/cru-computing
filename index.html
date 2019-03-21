@@ -43,7 +43,7 @@ title: CAES Computing Resources Unit
     </p>
   </div>
 </div>
-<div class="row mt-5 mb-5 align-items-end">
+<div class="row mt-5 mb-8 align-items-end">
   <div class="col-md-7">
     <h2>
       Recent Projects
@@ -102,14 +102,59 @@ title: CAES Computing Resources Unit
   </div>
 </div>
 
-    <h3>Get in Contact</h3>
-    <div class="row">
-        <div class="col-6">
+<div class="row mb-8">
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-content">
+        <h3>Help Desk and infrastructure</h3>
+        <p>Providing support to over 350 users across the college! and counting!</p>
+        <p><a href="/documentation">Learn more about our standards and FAQs</a></p>
+        {% for post in site.tags.helpdesk %}
 
+        <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-content">
+        <h3>App Development</h3>
+        <p>Need to track T.A. hours? How about mapping power plant efficiency based on ARC GIS data? There's an app for that (made by us!)</p>
+        <p><a href="/portfolio">Explore the our web applications</a></p>
+        {% for post in site.tags.webdev %}
+
+        <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-content">
+        <h3>Web Development</h3>
+        <p>From magnificent 50th anniversary award sites to UC Davis standard informational pages we've got it all!</p>
+        <p><a href="/portfolio">See our work here</a></p>
+        {% for post in site.tags.design %}
+
+        <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="row">
+
+        <div class="col-md-6">
+<h3>Get in Contact</h3>
                 <iframe frameborder="0" height="300" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps/ms?msa=0&amp;msid=202755517476915240000.0004df609efcb0f5c8750&amp;ie=UTF8&amp;t=m&amp;ll=38.536996,-121.749179&amp;spn=0.001678,0.00457&amp;z=17&amp;output=embed" width="100%"></iframe>
 
         </div>
-        <div class="col-6">
+        <div class="col-md-6">
           <h3 style="margin-bottom:0px;">Help Desk</h3>
           <p><b>Location:</b> 150 Mrak Hall on the 1st Floor <br>
             <b>Phone:</b> (530) 754-7122 <br>

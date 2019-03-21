@@ -235,4 +235,17 @@ ol.breadcrumb {
   border:2px solid #fff;
   box-shadow:$box-shadow;
   border-radius:50%;
+  margin-left:-10px;
+  &first-child {
+    margin-left:0px;
+  }
+}
+.mb-10 {
+  margin-bottom:10rem !important;
+}
+.mb-8 {
+  margin-bottom:8rem !important;
+}
+.mb-6 {
+  margin-bottom:6rem !important;
 }
