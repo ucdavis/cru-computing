@@ -1,28 +1,29 @@
-<footer>
-    <div class="footer_contents">
-        <div class="foot_top">
-            <ul class="footer-list no-bullet">
-                <li><a href="/">{{site.title}}</a></li>
-            </ul>
-        </div>
-        <div class="foot_bottom">
-            <ul class="footer-list no-bullet">
-                <li>&copy; Copyright 2000-
-                    <script language="JavaScript" type="text/javascript">
-                    now = new Date
-                    theYear = now.getYear()
-                    if (theYear < 1900)
-                        theYear = theYear + 1900
-                    document.write(theYear)
-                    </script>
-                    The Regents of the University of California, Davis campus. All rights reserved.
-                </li>
-                <!-- <li><a href="http://kb.sparknearby.com/legal">Contact</a></li>
-                <li><a href="/posts/all">Recent</a></li> -->
-            </ul>
-            <ul class="footer-list no-bullet float-right">
-                <li><a href="https://github.com/ucdavis"><i class="fa fa-github"></i></a></li>
-            </ul>
-        </div>
+<footer class="container">
+<div class="row justify-content-between">
+  <div class="col">
+    <p class="discreet">&copy; Copyright 2000-
+        <script language="JavaScript" type="text/javascript">
+        now = new Date
+        theYear = now.getYear()
+        if (theYear < 1900)
+            theYear = theYear + 1900
+        document.write(theYear)
+        </script>
+        The Regents of the University of California, Davis campus. All rights reserved.
+    </p>
+  </div>
+
+  <div class="col text-right">
+    <p>
+      <a href="https://github.com/ucdavis"><i class="fa fa-github"></i></a>
+    </p>
+  </div>
+
+</div>
+
+
+
+
+
     </div>
 </footer>

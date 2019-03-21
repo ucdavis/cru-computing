@@ -44,6 +44,9 @@ p {
         color:$secondary-font;
         font-weight:300;
     }
+    &.discreet {
+      color:$tertiary-font;
+    }
 }
 
 h1,
