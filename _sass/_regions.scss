@@ -1,3 +1,19 @@
 img#team-image {
   width:475px;
 }
+.team-wrapper {
+  margin-top:8%;
+  .col-sm-4 {
+    .card {
+      height:238px;
+      p {
+
+      }
+      &:hover {
+        .pixel-profile {
+          border:2px solid $team;
+        }
+      }
+    }
+  }
+}

@@ -4,5 +4,5 @@ email: jsylvestre@ucdavis.edu
 role: Applications Developer
 image: /media/team/jason_pic
 tags:
-  - appdev
+  - webdev
 ---
