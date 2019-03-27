@@ -2,7 +2,7 @@
 layout: documentation
 title:  "New Features and Changes"
 author: "Jason Sylvestre"
-date:   2019-03-20 15:15:00
+date:   2019-03-27 08:15:00
 category: "peaks"
 tags: "faq"
 permalink: /faq/peaks/change-log
@@ -10,6 +10,8 @@ display-tag: Application Development
 ---
 
 # New Features and Changes
+## March 26, 2019
+* For Text Only emails (Non HTML) added more email details for Expiring and notification emails to more closely match what is in the HTML part of the emails. Most users will never see this part of the email, but it will be useful for those using old email readers.
 ## March 20, 2019
 * Email for the feature below when people are added, removed, or reactivated.
 * A new report for those actions.
