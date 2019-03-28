@@ -64,8 +64,17 @@ h1,
 .h1 {
     font-size: 3.2rem;
     &.brand {
-      line-height: 1;
-      color:$secondary-font;
+      line-height: 1.2;
+      img {
+        margin-right:12px;
+      }
+      a {
+        color:$secondary-font;
+        &:hover {
+          color:$primary-font;
+          text-decoration: none;
+        }
+      }
     }
 }
 

@@ -4,7 +4,7 @@
     <title>geo</title>
     <desc>Created with Sketch.</desc>
     <g id="2019-Redesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Home-Copy-2" transform="translate(-804.000000, 0.000000)">
+        <g id="Home" transform="translate(-804.000000, 0.000000)">
             <g id="geo" transform="translate(788.000000, -38.000000)">
                 <g id="yellow" transform="translate(274.000000, 168.000000) rotate(-180.000000) translate(-274.000000, -168.000000) translate(0.000000, 6.000000)">
                     <polyline id="Fill-6" fill="#FFCD00" points="170.413 54.062 95.779 101 281.779 89 170.413 54.062"></polyline>
@@ -14,11 +14,11 @@
                     <path d="M511.995,103.113 L511.995,103.113" id="Fill-18" fill="#DA2B45"></path>
                     <path d="M511.995,103.113 L511.995,103.113" id="Fill-20" fill="#DA2B45"></path>
                     <polygon id="Fill-22" fill="#DAAA00" points="366.396484 213.236328 117.779 235 304.149 284.513"></polygon>
-                    <polyline id="Fill-30" fill="#2088E9" points="170.413 54.062 281.779 89 255.082 0.812 170.413 54.062"></polyline>
+                    <polygon id="Fill-30" fill="#2088E9" points="281.779 89 255.3573 0.961 170.413 54.062"></polygon>
                     <polygon id="Fill-31" fill="#CDA606" points="281.050781 310.648438 452.779 324 547.912 324 366.314209 213.187256"></polygon>
                     <polygon id="Fill-54" fill="#FFCD00" points="128.779 324 270.667969 324 304.149 284.513 117.779 235"></polygon>
                 </g>
-                <g id="Group-2" transform="translate(60.569228, 157.762880) rotate(1.000000) translate(-60.569228, -157.762880) translate(16.569228, 124.762880)">
+                <g id="yellowout" transform="translate(60.569228, 157.762880) rotate(1.000000) translate(-60.569228, -157.762880) translate(16.569228, 124.762880)">
                     <polygon id="Fill-110" fill="#FFCD00" points="87.7110448 0 87.7110448 65.90232 40.0597015 0"></polygon>
                     <polyline id="Fill-111" fill="#DAAA00" points="40.1608358 3.55271368e-15 -1.42108547e-13 30.3171 67.0750448 37.22268 40.1608358 3.55271368e-15"></polyline>
                 </g>
@@ -36,27 +36,33 @@
                     <polygon id="Fill-105" fill="#0FAEBF" points="38.3235367 143.60966 160.481 157.036 134.892103 59.0105498 36.082 135.812"></polygon>
                 </g>
                 <g id="reds" transform="translate(460.500000, 406.500000) rotate(-180.000000) translate(-460.500000, -406.500000) translate(292.000000, 228.000000)">
-                    <polygon id="Fill-21" fill="#12508A" points="48 240 336.56938 255.958477 178.086828 356.146477"></polygon>
+                    <polygon id="Fill-21" fill="#12508A" points="48 240 329.944702 248.054321 336.3573 255.961 178.086828 356.146477"></polygon>
                     <path d="M208.974121,0.891263672 L129.760168,107.017477 L208.974121,0.891263672 Z" id="Fill-21-Copy" fill="#1C6EBA"></path>
-                    <polygon id="Fill-56" fill="#1567B3" points="190.612305 248.026855 314.600504 160 336.3573 255.961"></polygon>
-                    <polygon id="Fill-56-Copy" fill="#2088E9" points="192 247.84906 314.533112 160.002808 211.261261 149"></polygon>
-                    <polygon id="Fill-56-Copy-3" fill="#2088E9" points="93.490828 346.84906 192.582625 247.49707 48 240"></polygon>
+                    <polygon id="Fill-56" fill="#1567B3" points="192.11084 247.95166 309.014587 162.705109 314.75 160.114258 336.3573 255.961"></polygon>
+                    <polygon id="Fill-56-Copy" fill="#2088E9" points="192.11084 247.95166 314.75 160.114258 309.418671 159.212128 211.261261 149"></polygon>
+                    <polygon id="Fill-56-Copy-3" fill="#2088E9" points="93.490828 346.84906 192.11084 247.95166 48 240"></polygon>
                     <polygon id="Fill-56-Copy-4" fill="#3392E9" points="129.234131 310.959595 177.235845 355.87793 93.4854126 346.845276"></polygon>
                     <polygon id="Fill-56-Copy-5" fill="#3392E9" points="0.3203125 225.44043 211.25412 149.015228 47.509172 239.853523"></polygon>
-                    <polygon id="Fill-56-Copy-2" fill="#1567B3" points="47.509172 239.853523 75.0771484 189.764003 211.263077 149.007278 192.035156 247.95166"></polygon>
+                    <polygon id="Fill-56-Copy-2" fill="#1567B3" points="47.509172 239.853523 75.0771484 189.764003 211.263077 149.007278 192.11084 247.95166"></polygon>
                     <polygon id="Fill-57-Copy" fill="#1567B3" points="206 65 102.310547 137.915 314.75 160.114258"></polygon>
                     <polygon id="Fill-57" fill="#2088E9" points="106.35498 53 0.964126587 126.798355 211.709961 149.616117"></polygon>
                     <polygon id="Fill-59" fill="#12508A" points="1 126.776 1 225.472412 211.272369 149.005875"></polygon>
                 </g>
-                <g id="Group" transform="translate(284.722742, 483.296457) rotate(-151.000000) translate(-284.722742, -483.296457) translate(206.222742, 443.796457)">
-                    <polygon id="Fill-71" fill="#12508A" transform="translate(30.050841, 21.139977) rotate(173.000000) translate(-30.050841, -21.139977) " points="2.52752542 38.1086251 49.1323954 28.5476933 57.5741575 4.17132796"></polygon>
-                    <polygon id="Fill-80" fill="#2088E9" points="138.778381 46 133 76.0963135 156.851135 78.885376"></polygon>
+                <g id="blueoutwo" transform="translate(318.172820, 522.990188) rotate(-151.000000) translate(-318.172820, -522.990188) translate(288.172820, 501.990188)" fill="#12508A">
+                    <polygon id="Fill-71" transform="translate(30.050841, 21.139977) rotate(173.000000) translate(-30.050841, -21.139977) " points="2.52752542 38.1086251 49.1323954 28.5476933 57.5741575 4.17132796"></polygon>
                 </g>
-                <g id="Group-Copy" transform="translate(413.745556, 646.279321) rotate(-151.000000) translate(-413.745556, -646.279321) translate(403.745556, 629.779321)" fill="#BA0C2F">
+                <g id="redout" transform="translate(413.745556, 646.279321) rotate(-151.000000) translate(-413.745556, -646.279321) translate(403.745556, 629.779321)" fill="#BA0C2F">
                     <polygon id="Fill-80" points="1.77838135 -4.93745756e-12 0.119824808 26.0141676 19.8511353 32.885376"></polygon>
                 </g>
-                <polygon id="Fill-81" fill="#00A8BE" points="186.253116 317 175 358 216 340.926113"></polygon>
-                <polyline id="Fill-83" fill="#00789B" transform="translate(210.270960, 256.336223) rotate(142.000000) translate(-210.270960, -256.336223) " points="226.35196 243.514723 192.02596 269.157723 228.51596 261.598723 226.35196 243.514723"></polyline>
+                <g id="blueoutone" transform="translate(240.207231, 451.189304)" fill="#2088E9">
+                    <polygon id="Fill-80" points="5.77838135 3.55271368e-15 4.08562073e-14 30.0963135 23.8511353 32.885376"></polygon>
+                </g>
+                <g id="tealouttwo" transform="translate(175.000000, 317.000000)" fill="#00A8BE">
+                    <polygon id="Fill-81" points="11.2531156 0 0 41 41 23.9261126"></polygon>
+                </g>
+                <g id="tealoutone" transform="translate(187.025960, 234.514723)" fill="#00789B">
+                    <polyline id="Fill-83" transform="translate(23.245000, 21.821500) rotate(142.000000) translate(-23.245000, -21.821500) " points="39.326 9 5 34.643 41.49 27.084 39.326 9"></polyline>
+                </g>
                 <g id="teal-copy-2" transform="translate(579.862922, 511.398698) rotate(6.000000) translate(-579.862922, -511.398698) translate(524.862922, 452.898698)" fill="#BA0C2F">
                     <polygon id="Fill-100" points="0.239010406 84.9703916 97.3151083 0.584903763 109.696475 116.20681"></polygon>
                 </g>

@@ -11,16 +11,31 @@ permalink: /services/index
       <p>
           We achieve this by working in collaboration with our customers, the campus technical community, and service providers as partners or leaders towards the common goal of user-friendly, reliable, secure, and efficient computing for the students, staff, and faculty of the University of California and its stakeholders.
       </p>
+<p><a href="" class="btn btn-primary btn-services"><i class="fas fa-briefcase"></i> Work with us</a></p>
+      <h2>
+        Rates
+      </h2>
+      <div class="callout">
+        <p><b>$118/hr</b> - Project Planning and Management</p>
+        <p><b>$80/hr</b>  - Application Development</p>
+        <p><b>$67/hr</b>  - Web Design and Development</p>
+        <p><b>$70/hr</b>  - Network Systems</p>
+        <p><b>$63/hr</b>  - Help Desk</p>
+      </div>
+
 
       <div class="card">
         <div class="card-content">
           <h3>Help Desk/Infrastructure</h3>
           <p>The Help Desk and Infrastructure group provides computer support to the Dean’s Office, Centers and Institutes, numbering over 300 workstations, 150 laptops, and 100 mobile devices. In addition to client computer support, the group maintains the infrastructure for the various services offered: email/calendaring, printing, websites, business applications, databases, etc., as well as providing computer security consulting and remediation for the college under the Cyber-Safety Program.</p>
-          {% for post in site.tags.helpdesk %}
+          <div class="profile-wrap">
+            {% for post in site.tags.helpdesk %}
 
-          <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+            <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
 
-          {% endfor %}
+            {% endfor %}
+          </div>
+
         </div>
       </div>
       <div class="card">
@@ -33,17 +48,19 @@ permalink: /services/index
           <li><a target="_blank" href="{{post.current-url}}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
+  <div class="profile-wrap">
+    {% for post in site.tags.webdev %}
 
-        {% for post in site.tags.webdev %}
+    <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
 
-        <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+    {% endfor %}
+  </div>
 
-        {% endfor %}
       </div>
     </div>
     <div class="card">
       <div class="card-content">
-      <h3>Web Development</h3>
+      <h3>Web Design and Development</h3>
       <p>The web development group has nearly 40 websites in active use and/or development. These can be divided into the following types: Center sites, program and group sites, research focused sites, institute sites, and conference/event sites. Sites include the college homepage, Agricultural Sustainability Institute, Afghan Agricultural Project, Foods for Health Initiative, as examples.</p>
       <p>If you are interested in working with us please fill out an <a href="/media/files/caes_cru_webproject.docx">application</a> and send it to <a href="mailto:cydoval@ucdavis.edu">cydoval@ucdavis.edu</a></p>
       <h3>
@@ -54,11 +71,12 @@ permalink: /services/index
         <li><a target="_blank" href="{{post.current-url}}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
+      <div class="profile-wrap">
       {% for post in site.tags.design %}
 
       <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
 
       {% endfor %}
-
+</div>
     </div>
   </div>

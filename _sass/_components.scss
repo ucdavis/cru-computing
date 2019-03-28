@@ -28,6 +28,12 @@
       color:lighten($services,15);
     }
   }
+  .callout {
+    background-color:transparentize($services, .92);
+    border-left: 5px solid $services;
+    padding:20px 20px 10px 20px;
+    margin-bottom:16px;
+  }
 }
 .documentation-total {
   hr {
@@ -115,6 +121,10 @@
   &.btn-success {
     @include main-btn;
     background-color:$sunny-grass !important;
+  }
+  &.btn-services {
+    @include main-btn;
+    background-color:$services !important;
   }
   &.btn-link {
     color: $primary-color;
@@ -231,14 +241,17 @@ ol.breadcrumb {
     content: "/";
   }
 }
+.profile-wrap img:nth-child(1) {
+  margin-left:0px !important; 
+}
 .pixel-profile {
   border:2px solid #fff;
   box-shadow:$box-shadow;
   border-radius:50%;
   margin-left:-10px;
-  &first-child {
-    margin-left:0px;
-  }
+}
+.pixel-profile::nth-child(1) {
+  margin-left:0px !important;
 }
 .mb-10 {
   margin-bottom:10rem !important;
