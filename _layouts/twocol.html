@@ -17,6 +17,10 @@ layout: default
        	<p>{{ content }}</p>
 
       </div>
-      <div class="col-sm-3">Aside</div>
+      <div class="col-sm-3">
+        {% if page.services %}
+        {% include services-aside.html %}
+        {% endif %}
+      </div>
     </div>
 </div>
