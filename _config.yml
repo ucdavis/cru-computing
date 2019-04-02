@@ -21,6 +21,7 @@ plugins:
 
 collections:
   - team
+  - portfolio
 
 breadcrumbs:
 root:

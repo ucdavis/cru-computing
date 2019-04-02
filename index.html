@@ -111,16 +111,15 @@ title: CAES Computing Resources Unit
   <div class="col-md-4">
     <div class="card">
       <div class="card-content">
-        <h3>App Development</h3>
-        <p>Need to track T.A. hours? How about mapping power plant efficiency based on ARC GIS data? There's an app for that (made by us!)</p>
-        <p><a href="/portfolio">Explore the our web applications</a></p>
+        <h3>Help Desk and infrastructure</h3>
+        <p>Providing support to over 350 users across the college! and counting!</p>
+        <p><a href="/documentation">Learn more about our standards and FAQs</a></p>
           <div class="profile-wrap">
-        {% for post in site.tags.webdev %}
-
-        <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
-
-        {% endfor %}
-      </div>
+            {% assign team = site.team | where: "categories","helpdesk"  %}
+            {% for post in team %}
+            <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+            {% endfor %}
+</div>
       </div>
     </div>
 
@@ -128,30 +127,30 @@ title: CAES Computing Resources Unit
   <div class="col-md-4">
     <div class="card">
       <div class="card-content">
-        <h3>Help Desk and infrastructure</h3>
-        <p>Providing support to over 350 users across the college! and counting!</p>
-        <p><a href="/documentation">Learn more about our standards and FAQs</a></p>
+        <h3>App Development</h3>
+        <p>Need to track T.A. hours? How about mapping power plant efficiency based on ARC GIS data? There's an app for that (made by us!)</p>
+        <p><a href="/portfolio">Explore the our web applications</a></p>
           <div class="profile-wrap">
-        {% for post in site.tags.helpdesk %}
-
-        <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
-
-        {% endfor %}
-</div>
+            {% assign team = site.team | where: "categories","webdev"  %}
+            {% for post in team %}
+            <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+            {% endfor %}
+      </div>
       </div>
     </div>
+
   </div>
   <div class="col-md-4">
+
     <div class="card">
       <div class="card-content">
         <h3>Web Development</h3>
         <p>From magnificent 50th anniversary award sites to UC Davis standard informational pages we've got it all!</p>
         <p><a href="/portfolio">See our work here</a></p>
         <div class="profile-wrap">
-          {% for post in site.tags.design %}
-
+          {% assign team = site.team | where: "categories","design"  %}
+          {% for post in team %}
           <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
-
           {% endfor %}
         </div>
       </div>
