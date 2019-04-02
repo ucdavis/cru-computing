@@ -1,12 +1,11 @@
 ---
 layout: twocol
 title:  "New Features and Changes"
+description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
 date:   2019-04-01 11:03:00
-category: "peaks"
-tags: "faq"
+categories: PEAKS
 permalink: /faq/peaks/change-log
-display-tag: Application Development
 ---
 
 # New Features and Changes

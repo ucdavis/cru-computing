@@ -17,8 +17,8 @@
     margin-bottom:1.6rem;
   }
   ol.breadcrumb {
-    > .active a {
-      color: transparentize($services, .53);
+    > .active {
+      color: transparentize($services, .23);
     }
   }
   a {
@@ -41,8 +41,8 @@
     margin-bottom:1.6rem;
   }
   ol.breadcrumb {
-    > .active a {
-      color: transparentize($documentation, .53);
+    > .active {
+      color: transparentize($documentation, .23);
     }
   }
   a {
@@ -59,8 +59,8 @@
     margin-bottom:1.6rem;
   }
   ol.breadcrumb {
-    > .active a {
-      color: transparentize($team, .53);
+    > .active {
+      color: transparentize($team, .23);
     }
   }
   a {
@@ -77,8 +77,8 @@
     margin-bottom:1.6rem;
   }
   ol.breadcrumb {
-    > .active a {
-      color: transparentize($portfolio, .53);
+    > .active {
+      color: transparentize($portfolio, .23);
     }
   }
   a {
@@ -242,7 +242,7 @@ ol.breadcrumb {
   }
 }
 .profile-wrap img:nth-child(1) {
-  margin-left:0px !important; 
+  margin-left:0px !important;
 }
 .pixel-profile {
   border:2px solid #fff;

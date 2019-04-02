@@ -1,12 +1,11 @@
 ---
 layout: twocol
 title:  "Spaces"
+description: "Information regarding the SPACES section of PEAKS."
 author: "Jason Sylvestre"
 date:   2019-01-22 14:00:17
-category: "peaks"
-tags: "faq"
+categories: PEAKS
 permalink: /faq/peaks/spaces
-display-tag: Application Development
 ---
 
 # Spaces:

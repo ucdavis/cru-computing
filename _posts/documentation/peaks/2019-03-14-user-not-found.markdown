@@ -1,15 +1,13 @@
 ---
 layout: twocol
 title:  "User Not Found"
+description: "What to do if you cannot find a user."
 author: "Jason Sylvestre"
 date:   2019-03-14 14:00:00
-category: "peaks"
-tags: "faq"
+categories: PEAKS
 permalink: /faq/peaks/user-not-found
-display-tag: Application Development
 ---
 
-# What to do when you can't find a user
 We lookup users with Campus's IAM service. Peaks requires users that have a valid value for the email and login id have in IAM
 ## General tips
 * Try using their kerb Login Id instead of their email. Sometimes the email of record is different.

@@ -1,12 +1,11 @@
 ---
 layout: twocol
 title:  "Reports"
+description: "Learn about the reporting features within PEAKS."
 author: "Jason Sylvestre"
 date:   2019-02-07 10:25:17
-category: "peaks"
-tags: "faq"
+categories: PEAKS
 permalink: /faq/peaks/reports
-display-tag: Application Development
 ---
 
 # Reports:

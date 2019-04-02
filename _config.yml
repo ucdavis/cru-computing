@@ -1,5 +1,5 @@
 # Site settings
-title: Computing Resources Unit
+title: CRU
 email: cydoval@ucdavis.edu
 description: > # this means to ignore newlines until "baseurl:"
   The Computing Resources Unit at the College of Agricultural and Environmental Sciences at UC Davis is one helluva mouthful.
@@ -21,3 +21,8 @@ plugins:
 
 collections:
   - team
+
+breadcrumbs:
+root:
+  hide: false  # show breadcrumbs on root/home page
+  image: false # Show image or title text

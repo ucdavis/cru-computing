@@ -1,15 +1,12 @@
 ---
 layout: twocol
 title:  "Equipment"
+description: "Information regarding the EQUIPMENT section of PEAKS."
 author: "Jason Sylvestre"
 date:   2019-03-13 9:07:00
-category: "peaks"
-tags: "faq"
+categories: PEAKS
 permalink: /faq/peaks/equipment
-display-tag: Application Development
 ---
-
-# Equipment:
 
 ## Searching
 * Searching is additive (and logic).

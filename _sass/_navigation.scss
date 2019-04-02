@@ -5,6 +5,7 @@ nav {
         color:$primary-font;
         font-family: $sans-bold;
         font-size:2rem;
+        border-bottom:4px solid #fff;
         &:hover {
           background-color:$bg-color;
         }
@@ -13,35 +14,35 @@ nav {
   }
 }
 .team-active:hover {
-  border-bottom: 4px solid $team;
+  border-bottom: 4px solid $team !important;
 }
 .services-active:hover {
-  border-bottom: 4px solid $services;
+  border-bottom: 4px solid $services !important;
 }
 .documentation-active:hover {
-  border-bottom: 4px solid $documentation;
+  border-bottom: 4px solid $documentation !important;
 }
 .portfolio-active:hover {
-  border-bottom: 4px solid $portfolio;
+  border-bottom: 4px solid $portfolio !important;
 }
 .services-active {
    &.active {
-    border-bottom:4px solid $services;
+    border-bottom:4px solid $services !important;
   }
 }
 .documentation-active {
    &.active {
-    border-bottom:4px solid $documentation;
+    border-bottom:4px solid $documentation !important;
   }
 }
 .team-active {
    &.active {
-    border-bottom:4px solid $team;
+    border-bottom:4px solid $team !important;
   }
 }
 .portfolio-active {
    &.active {
-    border-bottom:4px solid $portfolio;
+    border-bottom:4px solid $portfolio !important;
   }
 }
 nav.homepage-nav {

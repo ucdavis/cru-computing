@@ -3,20 +3,25 @@ layout: default
 ---
 
 <div class="container {{page.brand}}-total">
-  <ol class="breadcrumb">
+  {% include nav-breadcrumbs.html %}
+  <!-- <ol class="breadcrumb">
       <li><a href="{{ site.baseurl }}/">Home</a></li>
     {% if page.breadcrumb %}{{ page.breadcrumb }}{% endif %}
       <li class="active"><a href="{{ page.url }}">{{ page.title }}</a></li>
-  </ol>
+  </ol> -->
     <div class="row justify-content-between">
       <div class="col-sm-8">
-        <p class="tag-display {{ page.category }}">{{ page.display-tag }}</p>
+        <p class="tag-display {{ page.categories }}">{{ page.categories }}</p>
         {% if page.geotag %}
         <img src="/media/{{ page.geotag }}.svg" alt="{{ page.brand }} icon">
         {% endif %}
         <h1>{{ page.title }}</h1>
         <p class="lead">{{ page.description }}</p>
         <hr>
+        <!-- if page categories a documentation thins -->
+        {% if site.categories[PEAKS] %}
+        {{ page.date | date_to_long_string }}
+        {% endif %}
        	<p>{{ content }}</p>
 
       </div>

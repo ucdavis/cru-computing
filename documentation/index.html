@@ -8,103 +8,21 @@ geotag: id-documentation
 permalink: /documentation
 
 ---
+hello
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
 
-
-            <ul class="tabs" role="tablist">
-                <li role="presentation" class="active"><a href="#help" aria-controls="help" role="tab" data-toggle="tab">Help Desk</a></li>
-                <li role="presentation"><a href="#policy" aria-controls="policy" role="tab" data-toggle="tab">Policies</a></li>
-                <li role="presentation"><a href="#evals" aria-controls="policy" role="tab" data-toggle="tab">Evals</a></li>
-                <li role="presentation"><a href="#purchasing" aria-controls="policy" role="tab" data-toggle="tab">Purchasing</a></li>
-                <li role="presentation"><a href="#peaks" aria-controls="policy" role="tab" data-toggle="tab">PEAKS</a></li>
-                <!-- <li role="presentation"><a href="#web" aria-controls="web" role="tab" data-toggle="tab">Web Development</a></li>
-                <li role="presentation"><a href="#app" aria-controls="app" role="tab" data-toggle="tab">App Development</a></li> -->
-            </ul>
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="help">
-                    {% for post in site.categories.helpdesk %}
-                    <div class="feed-item">
-                        <h2 class="feed-title">
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                        <p class="feed-description">{{ post.description }}</p>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="web">
-                    {% for post in site.categories.web %}
-                    <div class="feed-item">
-
-                        <h2 class="feed-title">
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                        <p class="feed-description">{{ post.description }}</p>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="evals">
-                    {% assign orderedPosts = site.categories.evals | sort: "title" %}
-                    {% for post in orderedPosts %}
-                    <div class="feed-item">
-
-                        <h2 class="feed-title">
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                        <p class="feed-description">{{ post.description }}</p>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="purchasing">
-                    {% assign orderedPosts = site.categories.prepurchasing | sort: "title" %}
-                    {% for post in orderedPosts %}
-                    <div class="feed-item">
-
-                        <h2 class="feed-title">
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                        <p class="feed-description">{{ post.description }}</p>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="peaks">
-                    {% assign orderedPosts = site.categories.peaks | sort: "title" %}
-                    {% for post in orderedPosts %}
-                    <div class="feed-item">
-
-                        <h2 class="feed-title">
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                        <p class="feed-description">{{ post.description }}</p>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="app">
-                </div>
-                <div role="tabpanel" class="tab-pane" id="policy">
-                 {% for post in site.categories.policy %}
-            <div class="feed-item">
-                {% if post.image %}
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="img_article_thumb" src="{{ post.image }}"></a>{% endif %}
-                <h2 class="feed-title">
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                <p class="feed-description">{{ post.description }}</p>
-            </div>
-            {% endfor %}
-                </div>
-            </div>
-
-<script>
-  $(function(){
-    // go to proper tab on page load
-    var hash = document.location.hash;
-    if (hash) {
-        $('.tabs a[href="'+hash+'"]').tab('show');
-    }
-
-    // Change hash for page-reload
-    $('.tabs a').on('shown.bs.tab', function (e) {
-        window.location.hash = e.target.hash;
-        window.scrollTo(0, 0);
-    });
-  })
-</script>
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>

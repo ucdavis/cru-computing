@@ -1,12 +1,11 @@
 ---
 layout: twocol
 title:  "Access Item"
+description: "Information regarding the ACCESS section of PEAKS."
 author: "Jason Sylvestre"
 date:   2019-01-29 09:25:17
-category: "peaks"
-tags: "faq"
+categories: PEAKS
 permalink: /faq/peaks/access-item
-display-tag: Application Development
 ---
 
 ## Access:

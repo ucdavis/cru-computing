@@ -1,12 +1,11 @@
 ---
 layout: twocol
 title:  "Road map"
+description: "What is coming next to PEAKS"
 author: "Jason Sylvestre"
 date:   2019-03-13 11:10:00
-category: "peaks"
-tags: "faq"
+categories: PEAKS
 permalink: /faq/peaks/roadmap
-display-tag: Application Development
 ---
 
 # Planned Features and Changes
