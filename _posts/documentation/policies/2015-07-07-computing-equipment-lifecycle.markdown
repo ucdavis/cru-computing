@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "Computing Equipment Lifecycle"
 description: "Computing Resources Unit standards and practices for the life-cycles of computers, printers, and mobile devices."
 author: "Thomas Pomroy"
@@ -28,7 +28,7 @@ The Systems Architect or other CRU staff will meet with unit heads to determine 
     <li>Providing a computer isn’t simply a one-time cost at a cash register. A significant portion of the cost of providing a computer is the ongoing support of that computer. When you purchase a new computer and don’t remove the old one, you’ve effectively doubled the support costs on that seat in the organization, without any prior planning or notice. If you had a staff member who was moving to a nicer office in a building where you paid for square footage, would you assume you could keep the old office for another new hire for free?</li>
     <li>To be effective at work staff and students must work on reliable computers with standardized software. Varying versions of the operating system and core business applications lead to problems in collaborative work environments. CRU maintains compatible application stacks whenever possible but these issues still arise.</li>
     <li>Part of funding a staff or student position is providing them with workspace and materials. Desks, chairs, staplers, etc. have a long usable life and can be replaced without much hassle but are still requirements. In the 21st century a reliable computer is also a requirement for productive work.
- 
+
     </li>
 </ul>
 <h3>What do you do with our old computers? If we can’t keep them here, can I take them home or give them away to a charity?</h3>

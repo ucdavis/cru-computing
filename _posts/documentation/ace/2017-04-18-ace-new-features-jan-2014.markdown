@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Ace New Features - January 2014"
 author: "Scott Kirkland"
 date:   2017-04-06
@@ -14,7 +14,7 @@ display-tag: Application Development
 ![](https://i.embed.ly/1/image?url=http%3A%2F%2Fucdavis.github.io%2FACE%2Fimages%2Ffaq%2FAceTemplateButton.png&key=afea23f29e5a4f63bd166897e3dc72df)
 
 - You may now copy an existing template from within the Edit Template.
-- Template Questions are now editable. 
+- Template Questions are now editable.
 
 ## Pending/Open
 
@@ -29,4 +29,3 @@ display-tag: Application Development
 ## New Features
 
 <iframe width="480" height="360" src="https://www.youtube.com/embed/rP6o2OtlsZw" frameborder="0"> </iframe>
-

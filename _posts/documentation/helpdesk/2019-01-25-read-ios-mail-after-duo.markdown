@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "Read your email to iPhone/iPad after enabling Duo"
 description: "Use this guide to read your Office 365 Mailbox to your iPhone or iPad after enabling Duo MFA."
 author: "Steven Barkey"

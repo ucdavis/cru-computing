@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Ace My subject code is in the wrong department"
 author: "Scott Kirkland"
 date:   2017-04-06

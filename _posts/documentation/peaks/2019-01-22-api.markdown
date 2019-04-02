@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "PEAKS Api"
 author: "Jason Sylvestre"
 date:   2019-01-30 16:25:17
@@ -25,5 +25,3 @@ https://peaks.ucdavis.edu/caesdo/Feed/TeamFeed/e170f4e6-9770-426f-8e96-f90abfd40
 peaks.ucdavis.edu/{team-slug}/Feed/TeamFeed/{api-code}?includeSpace=yes
 
 https://peaks.ucdavis.edu/caesdo/Feed/TeamFeed/e170f4e6-9770-426f-8e96-f90abfd40f38?includeSpace=yes
-
-

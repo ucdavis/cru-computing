@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "Approved Software List"
 description: "A list of applications that have been approved for use on Dean's Office computers. Installation of other software is at the discretion of the Director of Information Technology for the purpose of maintaining system stability, security, and legal compliance."
 author: "Thomas Pomroy"

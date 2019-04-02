@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "Minimum Hardware Requirements"
 description: "All new computers supported by the CA&ES Dean’s Office Computer Resources Unit must either meet or exceed the following specifications:"
 author: "Thomas Pomroy"
@@ -17,4 +17,3 @@ permalink: /policies/minimum-hardware-requirements
 <li><b>Warranty:</b> 4 Year Warranty for new laptops and 5 year warranty for new desktops</li>
 
 </ul>
-

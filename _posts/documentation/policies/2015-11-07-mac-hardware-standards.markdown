@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "Mac Hardware Standards"
 description: "CA&ES CRU Hardware Standards for Mac Desktops and Laptops"
 author: "Thomas Pomroy"

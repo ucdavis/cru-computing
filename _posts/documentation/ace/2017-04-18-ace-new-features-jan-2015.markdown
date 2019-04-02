@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Ace New Features - January 2015"
 author: "Scott Kirkland"
 date:   2017-04-06
@@ -30,7 +30,7 @@ You will not be able to use any template that has learning activities other than
 <iframe width="480" height="360" src="https://www.youtube.com/embed/uqTUgcyKofI" frameborder="0"> </iframe>
 
 - If you try to use a template that has learning activities other that "All", you will get a message and not be allowed to create the evaluation.
-- On the Open/Pending list of evaluations, where it would normally have LEC, LAB, etc. not it just has --- for each section. 
+- On the Open/Pending list of evaluations, where it would normally have LEC, LAB, etc. not it just has --- for each section.
 - An evaluation for each learning is not created, just one for each section.
 
 ## Add Instructor Changes:

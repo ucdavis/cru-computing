@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "How to sign into Adobe Acrobat Pro"
 description: "Use this guide to sign into the Adobe Acrobat Pro application on a workstaiton."
 author: "Steven Barkey"

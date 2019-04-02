@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Need to change your name?"
 author: "Jason Sylvestre"
 date:   2017-04-17

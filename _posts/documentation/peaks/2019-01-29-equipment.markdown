@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Equipment"
 author: "Jason Sylvestre"
 date:   2019-03-13 9:07:00
@@ -45,7 +45,6 @@ display-tag: Application Development
 * You can only add tags for those available to the team.
 * You can add multiple tags.
 * To remove selected tabs from the equipment, click ob the small "x" next to the tag.
-* You can only assign the equipment to a space that exists for the team. 
+* You can only assign the equipment to a space that exists for the team.
 * Type in the space area to search, then click on the found space to assign it to the equipment.
 * If "Go!" is enabled, click this to save your changes.
-  

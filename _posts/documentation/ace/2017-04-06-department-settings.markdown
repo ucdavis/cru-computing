@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Ace Department Settings"
 author: "Scott Kirkland"
 date:   2017-04-06

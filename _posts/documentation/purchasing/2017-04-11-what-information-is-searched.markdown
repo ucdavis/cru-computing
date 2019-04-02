@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "What information is searched"
 author: "Scott Kirkland"
 date:   2017-04-11
@@ -26,7 +26,7 @@ display-tag: Application Development
    - PO Number
 - Line Item:
    - Description
-   - URL 
+   - URL
    - Notes
    - Catalog Number
    - Commodity Id

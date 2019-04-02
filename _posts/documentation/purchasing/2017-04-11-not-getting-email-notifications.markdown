@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "I'm not getting email notifications"
 author: "Scott Kirkland"
 date:   2017-04-11
@@ -20,4 +20,3 @@ Check to see your correct email is being used. This can be found under your prof
 Check to see if the notification type is set to daily or weekly.
 
 if you are using many email filters to automatically sort your email, do a complete search of all your mail folders for opp emails. You may have created a filter that incorrect sorted prepurchasing emails to another folder.
-

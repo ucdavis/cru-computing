@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Quick video to set up your questions"
 author: "Scott Kirkland"
 date:   2017-04-06

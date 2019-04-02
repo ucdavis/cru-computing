@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Road map"
 author: "Jason Sylvestre"
 date:   2019-03-13 11:10:00
@@ -22,7 +22,7 @@ display-tag: Application Development
 * Have a Team of Teams group that will allow view/report access into the child teams.
 
 ## Future/Backlog
-* Integrate with BigFix 
+* Integrate with BigFix
 
 
 ![All The Things](https://computing.caes.ucdavis.edu/media/peaks/all-the-things.jpg "All The Things")

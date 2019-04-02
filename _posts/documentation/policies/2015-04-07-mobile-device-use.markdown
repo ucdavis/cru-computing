@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "Mobile Device Use"
 description: "This policy applies to any mobile device supported by the Dean’s Office Computing Resource Unit (CRU) and/or any mobile device connected to the Dean’s Office subnet."
 author: "Thomas Pomroy"

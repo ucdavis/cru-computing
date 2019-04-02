@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Ace Example of Email Sent To Student"
 author: "Scott Kirkland"
 date:   2017-04-06

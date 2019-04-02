@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "PC Hardware Standards"
 description: "CA&ES CRU Hardware Standards for PC Desktops and Laptops"
 author: "Thomas Pomroy"

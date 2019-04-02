@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "Temporary Affiliate Form"
 description: "Are you sponsoring a temporary visiting scholar, researcher, or faculty member? Visit this guide to learn how to get them a temporary computing account with campus for their visit which will allow them access to campus wi-fi and more!"
 author: "Shuka Smith"

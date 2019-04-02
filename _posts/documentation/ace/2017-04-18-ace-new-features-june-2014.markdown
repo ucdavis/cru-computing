@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Ace New Features - June 2014"
 author: "Scott Kirkland"
 date:   2017-04-18

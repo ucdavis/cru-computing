@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Keys"
 author: "Jason Sylvestre"
 date:   2019-01-30 8:00:00

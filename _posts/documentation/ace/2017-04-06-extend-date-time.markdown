@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Extend the date and time when an evaluation closes"
 author: "Scott Kirkland"
 date:   2017-04-06

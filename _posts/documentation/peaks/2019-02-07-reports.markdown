@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Reports"
 author: "Jason Sylvestre"
 date:   2019-02-07 10:25:17

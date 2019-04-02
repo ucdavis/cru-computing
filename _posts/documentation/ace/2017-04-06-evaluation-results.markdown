@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "When will the evaluation results be released? I submitted my grades but my evaluations are still unavailable."
 author: "Scott Kirkland"
 date:   2017-04-06

@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Ace Setup (Evals)"
 author: "Scott Kirkland"
 date:   2017-04-06
@@ -15,8 +15,8 @@ display-tag: Application Development
 
 <iframe width="480" height="360" src="https://www.youtube.com/embed/MvDtIZ1MRJk" frameborder="0"> </iframe>
 
-- If you see a warning about the student rosters, this is because the term has been open less than 21 days. 
-- Student rosters may change during this time. 
+- If you see a warning about the student rosters, this is because the term has been open less than 21 days.
+- Student rosters may change during this time.
 - If you create an evaluation, the rosters will be created for those courses at the time the evaluation is created. So even if you create another evaluation in the term at a later time, it will continue to use those rosters.
 - You must check the box " I am aware the rosters may not be up to date and wish to continue anyway." to create an evaluation within the first 21 days of the term.
 
@@ -47,4 +47,3 @@ display-tag: Application Development
 - Once you select a template, you may preview it. Note, this preview does not use the instructors and learning activities for the courses you have selected because that information has not been created yet. It shows the same preview you see from the template list page. Once your evaluations are created, you may preview the actual evaluation.
 - We recommend using the default open and close dates **except** if the open date has already passed. If you create an evaluation where the open date has already passed you will not be able to edit the created evaluations. This includes adding Teaching Assistants or removing learning activities that you do not wish to evaluate.
 - You may use custom dates. Pick the date and time as they are presented. If you click through them all, don't worry if you get a warning message about an unrecognized date format.
-

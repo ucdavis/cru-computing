@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "How to get to our office"
 description: "We are located in 38 Mrak Hall, but it really is not the easiest place to find. Below is a guide to help you find us, it starts at the North entrance to Mrak Hall."
 author: "Shuka Smith"

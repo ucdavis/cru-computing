@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "Should I get an Apple iPad?"
 description: "It really depends on your business and personal needs."
 author: "Thomas Pomroy"

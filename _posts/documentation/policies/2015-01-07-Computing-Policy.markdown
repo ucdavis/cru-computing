@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "Computing Policy"
 description: "Computing Policy that applies to any computer supported by the Dean's Office Computing Resource Unit, and/or any computer connected to the Dean's Office subnet."
 author: "Thomas Pomroy"

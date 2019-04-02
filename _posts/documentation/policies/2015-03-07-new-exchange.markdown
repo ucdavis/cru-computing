@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "New Exchange Server Message Size Limits"
 description: "A note about an increase in the single message size limit on our email servers."
 author: "Thomas Pomroy"

@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Admin Overview"
 author: "Jason Sylvestre"
 date:   2019-02-13 11:30:17
@@ -91,6 +91,3 @@ Start assigning and creating assets. FAQs for each of these can be found here:
 [Keys](https://computing.caes.ucdavis.edu/faq/peaks/keys)
 
 [Spaces](https://computing.caes.ucdavis.edu/faq/peaks/spaces)
-
-
-

@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Ace Manage Users"
 author: "Scott Kirkland"
 date:   2017-04-06
@@ -41,7 +41,7 @@ display-tag: Application Development
 ## Change User
 
 - Click on the Edit icon.
-- You may change the user Name, email, and Kerb Id. 
+- You may change the user Name, email, and Kerb Id.
 - Be careful as you may make the system inaccessible for them if you change their Kerb Id to something invalid.
 
 ## Delete User

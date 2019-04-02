@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "What does approved (Admin Override) mean?"
 author: "Scott Kirkland"
 date:   2017-04-11

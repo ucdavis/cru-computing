@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "PDF's being uploaded are not saved as PDF or are corrupted."
 author: "Scott Kirkland"
 date:   2017-04-11

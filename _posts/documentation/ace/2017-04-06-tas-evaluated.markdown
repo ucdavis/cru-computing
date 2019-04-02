@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "How can I get Teaching Assistants (TAs) to be evaluated?"
 author: "Scott Kirkland"
 date:   2017-04-06
@@ -12,7 +12,7 @@ display-tag: Application Development
 Teaching Assistants are not listed in Banner, so they will not be automatically added to the courses you have selected for your evaluation.
 Instructor are automatically added from Banner to the selected courses.
 
-TAs (or other Instructors) may be added by 
+TAs (or other Instructors) may be added by
 
 1. Selecting the "Pending / Open" button
 2. Find the course in the list (You may search to filter the results displayed)

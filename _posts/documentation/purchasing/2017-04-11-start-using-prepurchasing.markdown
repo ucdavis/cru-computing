@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Want to start using PrePurchasing?"
 author: "Scott Kirkland"
 date:   2017-04-11
@@ -20,4 +20,3 @@ On this page there is also a link to register for our required class, held about
 Once you have taken the class, we will send you an email for the next steps, which are basically creating a workgroup and related orders on our test system.
 
 If your department already has a Departmental Administrator, you will need to contact them and they can grant you access.
-

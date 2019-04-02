@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "What are all the roles?"
 author: "Scott Kirkland"
 date:   2017-04-11
@@ -11,7 +11,7 @@ display-tag: Application Development
 
 **Requester:**
 User with a need to order something.
-    
+
 **Approver:** Reviews orders for validity. Ex. Supervisors, PIs, etc.
 
 **Conditional Approver:** Reviews orders under special conditions. Approval is in conjunction with standard approver, not instead of. Specified by organization or workgroup.

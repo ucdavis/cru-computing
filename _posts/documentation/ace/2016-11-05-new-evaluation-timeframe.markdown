@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "How long after the term ends can I create a new evaution for students to complete?"
 author: "Scott Kirkland"
 date:   2016-01-07 16:25:17

@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Quick video to add a Teaching Assistant (TA)"
 author: "Scott Kirkland"
 date:   2017-04-06

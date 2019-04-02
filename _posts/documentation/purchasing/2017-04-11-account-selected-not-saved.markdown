@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "The account I selected on my order was not saved"
 author: "Scott Kirkland"
 date:   2017-04-11

@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "How do I add a visiting Instructor?"
 author: "Scott Kirkland"
 date:   2017-04-04 16:25:17

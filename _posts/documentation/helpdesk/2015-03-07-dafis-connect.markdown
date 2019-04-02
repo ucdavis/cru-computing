@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "DaFIS via DaFIS Connect"
 description: "How to connect to UC Davis’ Remote Desktop solution for DaFIS."
 author: "Shuka Smith"

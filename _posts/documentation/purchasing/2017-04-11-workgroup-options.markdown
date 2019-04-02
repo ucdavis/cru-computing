@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "What do all these workgroup options mean?"
 author: "Scott Kirkland"
 date:   2017-04-11
@@ -40,4 +40,3 @@ An Email to receive a notice of a package receipt, in addition to standard user 
 The primary organization is the DaFis org that is tied to each order request.
 
 Sub-Organizations are not necessarily "sub-organizations" in DaFis or in your org tree, in PrePurchasing they are only used to determine permissions and account synchronization.
-

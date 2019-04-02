@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Ace Staff Setup Instructions"
 author: "Scott Kirkland"
 date:   2017-04-06

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "How to sign into ArcGIS Pro"
 description: "Use this guide to sign into the ArcGIS Pro application on a workstaiton."
 author: "Steven Barkey"

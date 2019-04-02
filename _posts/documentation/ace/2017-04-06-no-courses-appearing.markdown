@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "No courses are appearing when I try to set up an evalutation"
 author: "Scott Kirkland"
 date:   2017-04-06

@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Ace Request Departmental Admin Access"
 author: "Scott Kirkland"
 date:   2017-04-06
@@ -14,7 +14,7 @@ display-tag: Application Development
 ## General Information
 
 - If the video is difficult to see, try setting it to full screen and setting the quality to 720.
-- The URL to request access: https://eval.ucdavis.edu/Help/RequestAdminAccess 
+- The URL to request access: https://eval.ucdavis.edu/Help/RequestAdminAccess
 - You must request access to each department you want to set up evaluations for.
 - You should be the department chair.
 - Once you have Admin access, you can grant access to the staff in your department.

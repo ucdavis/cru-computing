@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Ace How can I get the learning activity to only ask TA questions?"
 author: "Scott Kirkland"
 date:   2017-04-06

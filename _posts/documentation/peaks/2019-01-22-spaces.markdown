@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Spaces"
 author: "Jason Sylvestre"
 date:   2019-01-22 14:00:17

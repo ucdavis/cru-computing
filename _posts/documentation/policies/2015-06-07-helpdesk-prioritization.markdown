@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "Helpdesk Prioritization List"
 description: "A helpdesk prioritization list endorsed by senior leadership in the Dean's Office."
 author: "Thomas Pomroy"

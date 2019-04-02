@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "Create Help Desk Ticket"
 description: "Use this form to submit a ticket to the help desk."
 author: "Shuka Smith"

@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "Ace Pending/Open"
 author: "Scott Kirkland"
 date:   2017-04-06
@@ -27,8 +27,8 @@ display-tag: Application Development
 
 <iframe width="480" height="360" src="https://www.youtube.com/embed/afNuH0EI0D4" frameborder="0"> </iframe>
 
-- The preview for the evaluations is very important because it shows you what the evaluation will actually look like. 
-- It will show you any Teaching Assistant questions if you have defined those questions and if you have added Teaching Assistants. 
+- The preview for the evaluations is very important because it shows you what the evaluation will actually look like.
+- It will show you any Teaching Assistant questions if you have defined those questions and if you have added Teaching Assistants.
 - It will show you the questions that are specific to the Instructor and which instructor(s) will be asked questions.
 - You may answer questions and press Submit Evaluation. In the preview, submit and cancel do not do anything.
 - If there are any departmental limitations on the number of characters entered for comments or text only questions, you can see them if you answer those questions.

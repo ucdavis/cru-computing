@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "Enroll in Duo with a smartphone"
 description: "Use this guide to self-enroll in the Duo MFA (Multi-Factor Authentication) service used on campus with a smartphone."
 author: "Steven Barkey"

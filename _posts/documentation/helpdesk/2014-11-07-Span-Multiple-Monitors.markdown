@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: twocol
 title:  "Span Multiple Monitors"
 description: "Instructions on how to use multiple displays in your Remote Desktop session in Windows."
 author: "Shuka Smith"
@@ -17,5 +17,3 @@ display-tag: Help Desk
 <li>5. Check the box in Display Configuration that reads "Use all my monitors for the remote session".</li>
 <li>6. Click connect and enter your credentials.</li>
 </ul>
-
-

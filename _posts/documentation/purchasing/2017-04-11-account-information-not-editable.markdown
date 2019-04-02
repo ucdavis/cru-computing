@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "The account information or line items are not editable (grayed out)."
 author: "Scott Kirkland"
 date:   2017-04-11

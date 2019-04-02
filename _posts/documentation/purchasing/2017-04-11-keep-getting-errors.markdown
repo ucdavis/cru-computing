@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "I keep getting errors when I..."
 author: "Scott Kirkland"
 date:   2017-04-11
@@ -22,4 +22,3 @@ To check if your browser is supported, go here:
 If you have an unsupported browser, you may be able to use the Google chrome plugin.
 
 If you are using a supported browser, and are still getting errors, please let us know by creating a help ticket.
-

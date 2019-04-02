@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: twocol
 title:  "People"
 author: "Jason Sylvestre"
 date:   2019-01-23 11:00:17
