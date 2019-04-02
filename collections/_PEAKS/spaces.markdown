@@ -1,11 +1,8 @@
 ---
-layout: twocol
 title:  "Spaces"
 description: "Information regarding the SPACES section of PEAKS."
 author: "Jason Sylvestre"
 date:   2019-01-22 14:00:17
-categories: PEAKS
-permalink: /faq/peaks/spaces
 ---
 
 ## Setting up Spaces for your team

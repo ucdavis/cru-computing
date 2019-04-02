@@ -1,11 +1,9 @@
 ---
-layout: twocol
 title:  "Mac Hardware Standards"
 description: "CA&ES CRU Hardware Standards for Mac Desktops and Laptops"
-author: "Thomas Pomroy"
+author: "Shuka Smith"
 date:   2015-11-07 16:25:17
-category: "policy"
-permalink: /policies/mac-hardware-standards
+
 ---
 <h3>Mac Desktop</h3>
 <p><b>Apple iMac</b></p>

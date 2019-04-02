@@ -1,11 +1,8 @@
 ---
-layout: twocol
 title:  "Reports"
 description: "Learn about the reporting features within PEAKS."
 author: "Jason Sylvestre"
 date:   2019-02-07 10:25:17
-categories: PEAKS
-permalink: /faq/peaks/reports
 ---
 
 # Reports:

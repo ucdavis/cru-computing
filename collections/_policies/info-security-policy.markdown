@@ -1,10 +1,7 @@
 ---
-layout: twocol
 title:  "Information Security Policy"
 description: "This section describes CA&ES Dean's Office policy and procedures needed to comply with the UCD campus Cyber-Safety computing policy with regards to the storing and removal of Restricted Personal Information from computers and other electronic devices."
-author: "Thomas Pomroy"
-date:   2015-05-07 16:25:17
-category: "policy"
+author: "Shuka Smith"
 ---
 <h2>I. PURPOSE</h2>
 <p>This section describes CA&amp;ES Dean's Office policy and procedures needed to comply with the UCD campus Cyber-Safety computing policy with regards to the storing and removal of Restricted Personal Information from computers and other electronic devices.</p>

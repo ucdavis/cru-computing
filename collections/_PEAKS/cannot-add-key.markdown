@@ -1,11 +1,9 @@
 ---
-layout: twocol
 title:  "Can't add key from Person details"
 description: "If you are unable to add keys from the person details read this article."
 author: "Jason Sylvestre"
 date:   2019-02-12 09:00:17
-categories: PEAKS
-permalink: /faq/peaks/can-not-add-key1
+permalink: /documentation/peaks/can-not-add-key1
 ---
 
 # Trouble adding key to person:

@@ -1,11 +1,8 @@
 ---
-layout: twocol
 title:  "Equipment"
 description: "Information regarding the EQUIPMENT section of PEAKS."
 author: "Jason Sylvestre"
 date:   2019-03-13 9:07:00
-categories: PEAKS
-permalink: /faq/peaks/equipment
 ---
 
 ## Searching

@@ -20,8 +20,67 @@ plugins:
   - jekyll-autoprefixer
 
 collections:
-  - team
-  - portfolio
+  PEAKS:
+    output: true
+    permalink: /documentation/:collection/:title
+  purchasing:
+    output: true
+    permalink: /documentation/:collection/:title
+  policies:
+    output: true
+    permalink: /documentation/:collection/:title
+  helpdesk:
+    output: true
+    permalink: /documentation/:collection/:title
+  ACE:
+    output: true
+    permalink: /documentation/:collection/:title
+  portfolio:
+  team:
+collections_dir: collections
+
+defaults:
+  - scope:
+      type: "PEAKS"
+    values:
+      categories: "PEAKS"
+      brand: "documentation"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+  - scope:
+      type: "helpdesk"
+    values:
+      categories: "Help Desk"
+      brand: "documentation"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+  - scope:
+      type: "policies"
+    values:
+      categories: "Policies"
+      brand: "documentation"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+  - scope:
+      type: "purchasing"
+    values:
+      categories: "Purchasing"
+      brand: "documentation"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+  - scope:
+      type: "ace"
+    values:
+      categories: "ACE"
+      brand: "documentation"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+
 
 breadcrumbs:
 root:

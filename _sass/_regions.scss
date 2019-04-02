@@ -41,3 +41,15 @@ img#team-image {
 .floatinggeos {
   position: absolute;
 }
+.documentation-item {
+  margin-top:8px;
+  margin-bottom:24px;
+  h2 {
+    margin-top:4px;
+  }
+}
+a.documentation-snippet {
+  &:hover {
+    text-decoration: none !important;
+  }
+}

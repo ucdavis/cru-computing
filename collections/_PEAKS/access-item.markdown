@@ -1,11 +1,8 @@
 ---
-layout: twocol
 title:  "Access Item"
 description: "Information regarding the ACCESS section of PEAKS."
 author: "Jason Sylvestre"
 date:   2019-01-29 09:25:17
-categories: PEAKS
-permalink: /faq/peaks/access-item
 ---
 
 ## Access:

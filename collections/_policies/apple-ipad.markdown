@@ -1,11 +1,8 @@
 ---
-layout: twocol
 title:  "Should I get an Apple iPad?"
 description: "It really depends on your business and personal needs."
-author: "Thomas Pomroy"
+author: "Shuka Smith"
 date:   2015-08-07 16:25:17
-category: "policy"
-permalink: /policies/ipad-advisory
 ---
 <h3>Here's what you'll be able to do:</h3>
 <ul><li>Read email</li>

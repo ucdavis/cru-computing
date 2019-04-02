@@ -1,11 +1,8 @@
 ---
-layout: twocol
 title:  "PC Hardware Standards"
 description: "CA&ES CRU Hardware Standards for PC Desktops and Laptops"
-author: "Thomas Pomroy"
+author: "Shuka Smith"
 date:   2015-10-07 16:25:17
-category: "policy"
-permalink: /policies/pc-hardware-standards
 ---
 <h3>PC Desktop</h3>
 <p><b>Dell Optiplex 3060 Micro Form Factor</b></p>

@@ -89,6 +89,41 @@
     }
   }
 }
+.peaks-tag {
+  @include tag;
+  background-color:$wine-grape;
+  &:hover {
+    background-color:transparentize($wine-grape, .15);
+  }
+}
+.policies-tag {
+  @include tag;
+  background-color:$california-poppy;
+  &:hover {
+    background-color:transparentize($california-poppy, .35);
+  }
+}
+.helpdesk-tag {
+  @include tag;
+  background-color:$unitrans-red;
+  &:hover {
+    background-color:transparentize($unitrans-red, .35);
+  }
+}
+.purchasing-tag {
+  @include tag;
+  background-color:$sky-blue;
+  &:hover {
+    background-color:transparentize($sky-blue, .35);
+  }
+}
+.ace-tag {
+  @include tag;
+  background-color:$sunny-grass;
+  &:hover {
+    background-color:transparentize($sunny-grass, .35);
+  }
+}
 .alert-red {
   background-color:transparentize($unitrans-red,0.35);
   &:hover {

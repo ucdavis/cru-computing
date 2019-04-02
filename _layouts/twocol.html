@@ -5,7 +5,7 @@ layout: default
 <div class="container {{page.brand}}-total">
   {% include nav-breadcrumbs.html %}
     <div class="row justify-content-between">
-      <div class="col-sm-8">
+      <div class="col-sm-7">
         <p class="tag-display {{ page.categories }}">{{ page.categories }}</p>
         {% if page.geotag %}
         <img src="/media/{{ page.geotag }}.svg" alt="{{ page.brand }} icon">
@@ -13,13 +13,17 @@ layout: default
         <h1>{{ page.title }}</h1>
         <p class="lead">{{ page.description }}</p>
         <hr>
-
+        {% if page.bio %}
+        {% endif %}
        	<p>{{ content }}</p>
 
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         {% if page.services %}
         {% include services-aside.html %}
+        {% endif %}
+        {% if page.documentation %}
+        {% include documentation-aside.html %}
         {% endif %}
       </div>
     </div>

@@ -1,11 +1,8 @@
 ---
-layout: twocol
 title:  "PEAKS Api"
 description: "Information on PEAKS application programming interface."
 author: "Jason Sylvestre"
 date:   2019-01-30 16:25:17
-categories: PEAKS
-permalink: /faq/peaks/api
 ---
 
 ## API Instructions:

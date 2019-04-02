@@ -148,3 +148,14 @@ $card-thick-padding: 3rem;
     text-decoration: none;
   }
 }
+@mixin tag {
+  display:inline-block;
+  font-family: $sans-bold;
+  font-size:1.4rem;
+  color:#fff !important;
+  border-radius: 4px;
+  padding:6px 12px;
+  &:hover {
+    text-decoration: none !important;
+  }
+}

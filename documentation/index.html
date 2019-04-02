@@ -6,10 +6,25 @@ description:  Struggling to maintain a proper temperature on your vintage flux c
 brand: documentation
 geotag: id-documentation
 permalink: /documentation
+documentation: aside
 
 ---
-hello
-<div id="archives">
+
+<h1>Search bar here</h1>
+
+{% assign PEAKS = site.PEAKS %}
+{% for post in site.PEAKS %}
+<div class="documentation-item">
+
+<a href="/documentation/PEAKS" class="peaks-tag">PEAKS</a>
+<a class="documentation-snippet" class="no-color" href="{{ site.baseurl }}{{ post.url }}">
+  <h2>{{post.title}}</h2>
+  <p style="margin-top:0px;">{{ post.description }}</p>
+</a>
+</div>
+
+{% endfor %}
+<!-- <div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
@@ -25,4 +40,4 @@ hello
     {% endfor %}
   </div>
 {% endfor %}
-</div>
+</div> -->

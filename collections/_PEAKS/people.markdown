@@ -1,11 +1,8 @@
 ---
-layout: twocol
 title:  "People"
 description: "Information regarding the PEOPLE section of PEAKS."
 author: "Jason Sylvestre"
 date:   2019-01-23 11:00:17
-categories: PEAKS
-permalink: /faq/peaks/people
 ---
 
 # People:

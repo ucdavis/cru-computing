@@ -1,10 +1,8 @@
 ---
-layout: twocol
 title:  "Computing Policy"
 description: "Computing Policy that applies to any computer supported by the Dean's Office Computing Resource Unit, and/or any computer connected to the Dean's Office subnet."
-author: "Thomas Pomroy"
+author: "Shuka Smith"
 date:   2015-01-07 16:25:17
-category: "policy"
 ---
 
 <p>Supporting a large number of computers with varying types of software and user modifications can be a costly task in terms of IT staff time and resources. To ensure the integrity of the Dean’s Office data, network security, and office staff productivity, it is necessary to enact a set of computer-use guidelines. The policy will apply to any computer supported by the Dean's Office Computing Resource Unit (CRU), and/or any computer connected to the Dean's Office subnet.</p>

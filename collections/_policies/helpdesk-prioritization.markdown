@@ -1,11 +1,8 @@
 ---
-layout: twocol
 title:  "Helpdesk Prioritization List"
 description: "A helpdesk prioritization list endorsed by senior leadership in the Dean's Office."
-author: "Thomas Pomroy"
+author: "Shuka Smith"
 date:   2015-06-07 16:25:17
-category: "policy"
-permalink: "/approved_software"
 ---
 <ul>
     <li>Email service/routing outages</li>

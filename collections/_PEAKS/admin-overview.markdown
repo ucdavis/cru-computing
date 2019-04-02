@@ -1,11 +1,8 @@
 ---
-layout: twocol
 title:  "Admin Overview"
 description: "Information regarding the Admin section of PEAKS."
 author: "Jason Sylvestre"
 date:   2019-02-13 11:30:17
-categories: PEAKS
-permalink: /faq/peaks/admin-overview
 ---
 
 # New team setup steps

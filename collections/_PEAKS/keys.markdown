@@ -1,11 +1,8 @@
 ---
-layout: twocol
 title:  "Keys"
 description: "Information regarding the KEYS section of PEAKS."
 author: "Jason Sylvestre"
 date:   2019-01-30 8:00:00
-categories: PEAKS
-permalink: /faq/peaks/keys
 ---
 
 # Keys:

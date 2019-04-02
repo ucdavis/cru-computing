@@ -1,10 +1,8 @@
 ---
-layout: twocol
 title:  "Computing Equipment Lifecycle"
 description: "Computing Resources Unit standards and practices for the life-cycles of computers, printers, and mobile devices."
-author: "Thomas Pomroy"
+author: "Shuka Smith"
 date:   2015-07-07 16:25:17
-category: "policy"
 ---
 
 <p>

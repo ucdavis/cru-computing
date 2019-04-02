@@ -2,9 +2,8 @@
 layout: twocol
 title:  "Mobile Device Use"
 description: "This policy applies to any mobile device supported by the Dean’s Office Computing Resource Unit (CRU) and/or any mobile device connected to the Dean’s Office subnet."
-author: "Thomas Pomroy"
+author: "Shuka Smith"
 date:   2015-04-07 16:25:17
-category: "policy"
 ---
 <p>Supporting a large number of mobile devices with varying types of software and user modifications can be a costly task in terms of IT staff time and resources. To ensure the integrity of the Dean’s Office data, network security, and office staff productivity, it is necessary to enact a set of mobile device use guidelines. The policy will apply to any mobile device supported by the Dean’s Office Computing Resource Unit (CRU) and/or any mobile device connected to the Dean’s Office subnet.</p>
 <ul>

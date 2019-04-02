@@ -1,11 +1,8 @@
 ---
-layout: twocol
 title:  "User Not Found"
 description: "What to do if you cannot find a user."
 author: "Jason Sylvestre"
 date:   2019-03-14 14:00:00
-categories: PEAKS
-permalink: /faq/peaks/user-not-found
 ---
 
 We lookup users with Campus's IAM service. Peaks requires users that have a valid value for the email and login id have in IAM

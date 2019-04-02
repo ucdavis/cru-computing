@@ -1,11 +1,9 @@
 ---
-layout: twocol
 title:  "Road map"
 description: "What is coming next to PEAKS"
 author: "Jason Sylvestre"
 date:   2019-03-13 11:10:00
-categories: PEAKS
-permalink: /faq/peaks/roadmap
+permalink: /documentation/peaks/roadmap
 ---
 
 # Planned Features and Changes
