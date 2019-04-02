@@ -2,7 +2,7 @@
 layout: documentation
 title:  "New Features and Changes"
 author: "Jason Sylvestre"
-date:   2019-03-14 14:00:00
+date:   2019-04-01 11:03:00
 category: "peaks"
 tags: "faq"
 permalink: /faq/peaks/change-log
@@ -10,6 +10,25 @@ display-tag: Application Development
 ---
 
 # New Features and Changes
+## April 1, 2019
+* Fixed issue with KeySerial (Physical Keys) history not being recorded.
+* Changed Key Serials under keys so that they can be sorted and searched.
+* Both the key code and serial are now displayed in the first column for improved searching if you have this whole value instead of just the serial portion.
+* The list of key serials within a person has remained unchanged.
+* As with other sorting of tables, you can click or shift click on the column headings to sort.
+
+![Key Serial Sorting](https://computing.caes.ucdavis.edu/media/peaks/admin-keyserial-sorting.png "Key Serial Sorting")
+## March 26, 2019
+* For Text Only emails (Non HTML) added more email details for Expiring and notification emails to more closely match what is in the HTML part of the emails. Most users will never see this part of the email, but it will be useful for those using old email readers.
+## March 20, 2019
+* Email for the feature below when people are added, removed, or reactivated.
+* A new report for those actions.
+## March 19,2019
+* Ability to be notified by email when people are added, removed, or reactivated for a team.
+* Currently, the email portion of this is still pending, but if you add an notification email the information will be gathered and emailed once that service is completed.
+* The notification email may be specified in the Team Admin section:
+
+![Notification Email](https://computing.caes.ucdavis.edu/media/peaks/admin-notify-email.png "Notification Email")
 ## March 15, 2019
 * Some behind the scenes fixes.
 * Try to display the IAM users' name as well as the IAM id if they can't be saved when doing a bulk load.
