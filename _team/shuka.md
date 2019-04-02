@@ -5,7 +5,5 @@ phone: (530) 754-9597
 role: Systems Architect
 image: /media/team/shuka_pic
 categories:
-  - team
-tags:
   - helpdesk
 ---

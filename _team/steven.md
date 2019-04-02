@@ -5,7 +5,5 @@ phone: (530) 754-9597
 role: Systems Administrator
 image: /media/team/steven_pic
 categories:
-  - team
-tags:
   - helpdesk
 ---

@@ -8,8 +8,6 @@ categories: PEAKS
 permalink: /faq/peaks/spaces
 ---
 
-# Spaces:
-
 ## Setting up Spaces for your team
 
 * Spaces are determined by a team's FIS Org(s)

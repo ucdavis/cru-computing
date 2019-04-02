@@ -3,11 +3,7 @@ layout: default
 ---
 
 <div class="container {{page.brand}}-total">
-  <ol class="breadcrumb">
-      <li><a href="{{ site.baseurl }}/">Home</a></li>
-    {% if page.breadcrumb %}{{ page.breadcrumb }}{% endif %}
-      <li class="active"><a href="{{ page.url }}">{{ page.title }}</a></li>
-  </ol>
+{% include nav-breadcrumbs.html %}
     <div class="row justify-content-between">
       <div class="col-sm-6">
         <p class="tag-display {{ page.category }}">{{ page.display-tag }}</p>

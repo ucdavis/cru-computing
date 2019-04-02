@@ -4,7 +4,5 @@ email: srkirkland@ucdavis.edu
 role: Applications Developer
 image: /media/team/scott_pic
 categories:
-  - team
-tags:
   - webdev
 ---

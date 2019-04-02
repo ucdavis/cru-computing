@@ -5,7 +5,5 @@ phone: (530) 752-8008
 role: Director of Information Technology
 image: /media/team/adam_pic
 categories:
-  - team
-tags:
   - director
 ---
