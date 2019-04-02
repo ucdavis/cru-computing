@@ -1,5 +1,4 @@
 ---
-layout: article
 title: "Payments"
 description: "Credit card and invoice processing."
 current-url: https://payments.ucdavis.edu

@@ -1,5 +1,4 @@
 ---
-layout: article
 title:  "College of Agricultural and Environmental Sciences Computer Labs"
 description: "To provide a modern teaching environment for industry standard software in agricultural and environmental sciences."
 client: "Adam Getchell"

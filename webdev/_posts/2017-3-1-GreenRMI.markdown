@@ -1,5 +1,4 @@
 ---
-layout: article
 title:  "Green RMI"
 description: "The 34,000-square-foot facility, funded entirely by private donations, includes the Teaching and Research Winery and the August A. Busch III Brewing and Food Science Laboratory."
 client: "Evan White"
