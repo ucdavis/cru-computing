@@ -1,12 +1,8 @@
 ---
-layout: twocol
 title:  "How do Auto Approvals work?"
+description: "Explanation of auto approvals in PrePurchasing"
 author: "Scott Kirkland"
 date:   2017-04-11
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/how-do-auto-approvals-work
-display-tag: Application Development
 ---
 
 There are two types of auto approvals and they are both only for the Approver level.

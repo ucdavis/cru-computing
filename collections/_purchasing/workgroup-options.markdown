@@ -1,12 +1,8 @@
 ---
-layout: twocol
-title:  "What do all these workgroup options mean?"
+title:  "Workgroup information"
+description: "What do all these workgroup options mean?"
 author: "Scott Kirkland"
 date:   2017-04-11
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/workgroup-options
-display-tag: Application Development
 ---
 
 ### Administrative

@@ -1,12 +1,8 @@
 ---
-layout: twocol
 title:  "Welcome to the PrePurchasing System!"
+description: "Introduction to the new PrePurchasing system"
 author: "Scott Kirkland"
 date:   2017-04-11
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/welcome-to-prepurchasing
-display-tag: Application Development
 ---
 
 [https://prepurchasing.ucdavis.edu](https://prepurchasing.ucdavis.edu)

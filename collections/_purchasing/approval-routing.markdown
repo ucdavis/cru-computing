@@ -1,12 +1,9 @@
 ---
 layout: twocol
 title:  "Approval Routing"
+description: "Information regarding approval routing in PrePurchasing."
 author: "Scott Kirkland"
 date:   2017-04-13
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/approval-routing
-display-tag: Application Development
 ---
 
 ## There are 3 main approval stages:

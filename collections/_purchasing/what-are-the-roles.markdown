@@ -1,12 +1,8 @@
 ---
-layout: twocol
 title:  "What are all the roles?"
+description: "PrePurchasing role information and guide"
 author: "Scott Kirkland"
 date:   2017-04-11
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/what-are-the-roles
-display-tag: Application Development
 ---
 
 **Requester:**

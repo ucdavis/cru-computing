@@ -1,12 +1,8 @@
 ---
-layout: twocol
-title:  "Want to start using PrePurchasing?"
+title:  "Getting started with PrePurchasing"
+description: "Information on your setting up PrePurchasing."
 author: "Scott Kirkland"
 date:   2017-04-11
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/start-using-prepurchasing
-display-tag: Application Development
 ---
 
 If your department is not using PrePurchasing, but you would like too, then someone will need to become a Departmental Administrator.

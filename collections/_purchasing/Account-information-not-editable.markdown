@@ -1,12 +1,8 @@
 ---
-layout: twocol
-title:  "The account information or line items are not editable (grayed out)."
+title:  "Greyed out information"
+description: "What to do if the account information or line items are not editable (grayed out)."
 author: "Scott Kirkland"
 date:   2017-04-11
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/account-information-not-editable
-display-tag: Application Development
 ---
 
 Account information as well as line items require an extra level of awareness to edit. Changing of this information could potentially result in the order being rerouted and the current user losing access to the request.

@@ -1,12 +1,8 @@
 ---
-layout: twocol
 title:  "Admin Order History vs Order History"
+description: "Differences between admin history and normal history"
 author: "Scott Kirkland"
 date:   2017-04-11
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/admin-order-vs-order-history
-display-tag: Application Development
 ---
 
 So what orders do I see in the Admin Order History Page, and how does this compare to the Order History Page?

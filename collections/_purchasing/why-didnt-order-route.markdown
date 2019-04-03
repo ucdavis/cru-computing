@@ -1,12 +1,8 @@
 ---
-layout: twocol
 title:  "Why didn't the order route to me?"
+description: "Information on order routing in PrePurchasing"
 author: "Scott Kirkland"
 date:   2017-04-11
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/why-didnt-order-route
-display-tag: Application Development
 ---
 
 There are a few reasons an order may not have routed to you.

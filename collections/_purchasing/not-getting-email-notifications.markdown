@@ -1,12 +1,8 @@
 ---
-layout: twocol
-title:  "I'm not getting email notifications"
+title:  "Unable to receive email notifications"
+description: "What to do if you are not getting email notifications"
 author: "Scott Kirkland"
 date:   2017-04-11
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/not-getting-email-notifications
-display-tag: Application Development
 ---
 
 The first thing to check is your junk mail or spam folder. If your notifications are being caught there, you will need to add opp-noreply@ucdavis.edu to the Safe Senders.

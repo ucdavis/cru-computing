@@ -1,12 +1,8 @@
 ---
-layout: twocol
-title:  "I keep getting errors when I..."
+title:  "Frequent errors"
+descriptions: "Explanation for various errors"
 author: "Scott Kirkland"
 date:   2017-04-11
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/i-keep-getting-errors
-display-tag: Application Development
 ---
 
 If you are cutting and pasting information that contains special characters like < and > or &#42; it will prevent the order from being submitted to avoid possible malicious code from being sent. Note, these characters may not be visible. If you are having this type of problem, we recommend pasting the text into a text editor like notepad first to see if there are any unusual characters. The < and > characters are allowed, there are just some combinations of them that are not.

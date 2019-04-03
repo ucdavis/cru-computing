@@ -1,12 +1,8 @@
 ---
-layout: twocol
 title:  "What information is searched"
+description: "Information searching in PrePurchasing"
 author: "Scott Kirkland"
 date:   2017-04-11
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/what-information-is-searched
-display-tag: Application Development
 ---
 
 ## Only orders you have access to are searched.

@@ -1,12 +1,9 @@
 ---
 layout: twocol
-title:  "Need to change your name?"
+title:  "Name change"
+description: "How to change your name in PrePurchasing."
 author: "Jason Sylvestre"
 date:   2017-04-17
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/need-to-change-your-name
-display-tag: Application Development
 ---
 
 Name Changed?

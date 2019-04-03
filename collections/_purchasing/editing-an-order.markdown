@@ -1,12 +1,8 @@
 ---
-layout: twocol
-title:  "I created an order, now I need to edit it."
+title:  "Editing created orders"
+description: "Information on how to edit your order after it's been created"
 author: "Scott Kirkland"
 date:   2017-04-11
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/editing-an-existing-order
-display-tag: Application Development
 ---
 
 Well, the short answer is you can't unless you are the Approver/Account Manager/Purchaser and it is at that level.

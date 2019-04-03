@@ -1,12 +1,8 @@
 ---
-layout: twocol
-title:  "Approver was bypassed and it is in the Account Manager stage"
+title:  "Approver bypass"
+description: "What to do if approver was bypassed and it is in the Account Manager stage"
 author: "Scott Kirkland"
 date:   2017-04-11
-category: "prepurchasing"
-tags: "faq"
-permalink: /faq/prepurchasing/approver-bypassed
-display-tag: Application Development
 ---
 
 This could have happened for several reasons:
