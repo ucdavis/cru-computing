@@ -1,13 +1,8 @@
 ---
-layout: twocol
 title:  "How to get to our office"
 description: "We are located in 38 Mrak Hall, but it really is not the easiest place to find. Below is a guide to help you find us, it starts at the North entrance to Mrak Hall."
 author: "Shuka Smith"
 date:   2018-07-23 16:25:17
-category: "helpdesk"
-tags: "guide"
-permalink: /documentation/get-to-our-office
-display-tag: Help Desk
 ---
 <ol>
 <li>Entering Mrak Hall from the North side, walk through both sets of glass doors.</li>

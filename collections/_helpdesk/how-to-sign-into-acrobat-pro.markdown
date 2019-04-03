@@ -1,13 +1,8 @@
 ---
-layout: twocol
 title:  "How to sign into Adobe Acrobat Pro"
 description: "Use this guide to sign into the Adobe Acrobat Pro application on a workstaiton."
 author: "Steven Barkey"
 date:   2018-11-29 10:56:00
-category: "helpdesk"
-tags: "guide"
-permalink: /documentation/how-to-sign-into-acrobat-pro
-display-tag: Help Desk
 ---
 <p>The instructions below will walk you through the process or signing into Adobe Acrobat Pro, but if you encounter any issues, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> for further assistance.</p>
 <br />

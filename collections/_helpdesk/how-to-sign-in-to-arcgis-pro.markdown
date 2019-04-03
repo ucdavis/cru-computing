@@ -1,13 +1,8 @@
 ---
-layout: twocol
 title:  "How to sign into ArcGIS Pro"
 description: "Use this guide to sign into the ArcGIS Pro application on a workstaiton."
 author: "Steven Barkey"
 date:   2019-02-13 10:56:00
-category: "helpdesk"
-tags: "guide"
-permalink: /documentation/how-to-sign-in-to-arcgis-pro
-display-tag: Help Desk
 ---
 
 <p>As of December 2018, through joint funding by College of Agriculture & Environmental Sciences and the Office of the Provost, UC Davis provides access to ArcGIS Pro, as part of the ESRI Institutional License, to all active students, faculty, staff, and sponsored affiliates for university-related research and teaching purposes.  However, before you can use the ArcGIS Pro application for the first time, you must create your ArcGIS Online account.</p>

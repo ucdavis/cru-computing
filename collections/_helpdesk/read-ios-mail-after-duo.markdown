@@ -1,13 +1,8 @@
 ---
-layout: twocol
 title:  "Read your email to iPhone/iPad after enabling Duo"
 description: "Use this guide to read your Office 365 Mailbox to your iPhone or iPad after enabling Duo MFA."
 author: "Steven Barkey"
 date:   2019-01-25 08:01:17
-category: "helpdesk"
-tags: "guide"
-permalink: /documentation/readd-mailbox-to-ios-after-duo
-display-tag: Help Desk
 ---
 
 <p>If you access your Office 365 Mailbox using an iPhone or iPad and you enable Duo on your UC Davis computing account, you will need to remove and readd the mailbox to your device after Duo is enabled on the mailbox, which generally takes about 15-60 minutes to process.</p>

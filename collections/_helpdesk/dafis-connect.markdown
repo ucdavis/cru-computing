@@ -1,13 +1,9 @@
 ---
-layout: twocol
 title:  "DaFIS via DaFIS Connect"
 description: "How to connect to UC Davis’ Remote Desktop solution for DaFIS."
 author: "Shuka Smith"
 date:   2015-03-07 16:25:17
-category: "helpdesk"
-tags: "guide"
-permalink: /documentation/dafis-connect
-display-tag: Help Desk
+permalink: /documentation/helpdesk/dafis-connect
 ---
 <p><i><span class="discreet">Before you begin: If you're unsure you've been granted access to DaFIS, please contact the business office manager.</span></i></p>
 <p>1. Click the Windows Start Orb and in the search box type as much of "<i>Remote Desktop Connection</i>" as needed to reveal the icon at the top of the menu.</p>

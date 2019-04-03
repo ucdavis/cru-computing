@@ -1,13 +1,8 @@
 ---
-layout: twocol
 title:  "Span Multiple Monitors"
 description: "Instructions on how to use multiple displays in your Remote Desktop session in Windows."
 author: "Shuka Smith"
 date:   2014-11-07 16:25:17
-category: "helpdesk"
-tags: "guide"
-permalink: /documentation/span-multiple-monitors
-display-tag: Help Desk
 ---
 <ul>
 	<li>1. Right click on your Remote Desktop icon on the desktop or taskbar and select "properties".</li>

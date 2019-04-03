@@ -1,13 +1,7 @@
 ---
-layout: twocol
-title:  "Get an Account"
 description: "This guide will explain how to get computing access with CAES Dean's Office."
 author: "Shuka Smith"
 date:   2015-05-07 16:25:17
-category: "helpdesk"
-tags: "guide"
-permalink: /documentation/get-an-account
-display-tag: Help Desk
 ---
 
 <p>Here are the forms to fill out and sign to request computing access in the CA&amp;ES Dean's Office. Supervisors, please send the Computing Account Request form to computer support at <a class="email-link" href="mailto:support@caes.ucdavis.edu" title="">support@caes.ucdavis.edu</a>  and we will process your account request. Please print out the Dean's Office Computing Policy Agreement and the CA&amp;ES Information Security Policy, have the new employee sign them and send them to us via campus mail, drop off at 38 Mrak, or scan and email them to support@caes.ucdavis.edu. Please be sure to include the user's valid Kerberos ID.</p>

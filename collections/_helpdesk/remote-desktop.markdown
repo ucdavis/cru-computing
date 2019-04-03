@@ -1,13 +1,9 @@
 ---
-layout: twocol
 title:  "Connect from Home using Remote Desktop"
 description: "This guide will explain the step by step process of connecting from home with remote desktop."
 author: "Shuka Smith"
 date:   2015-03-07 16:25:17
-category: "helpdesk"
-tags: "guide"
-permalink: /documentation/remote-desktop
-display-tag: Help Desk
+permalink: /documentation/helpdesk/remote-desktop
 ---
 
 <p><span class="discreet">NOTE: This guide assumes you have Windows 7 or Windows 10. For MacOS, you can use Remote Desktop Connection Client for Mac. For other clients, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a>.</span></p>

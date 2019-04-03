@@ -1,13 +1,8 @@
 ---
-layout: twocol
 title:  "Temporary Affiliate Form"
 description: "Are you sponsoring a temporary visiting scholar, researcher, or faculty member? Visit this guide to learn how to get them a temporary computing account with campus for their visit which will allow them access to campus wi-fi and more!"
 author: "Shuka Smith"
 date:   2014-12-07 16:25:17
-category: "helpdesk"
-tags: "guide"
-permalink: /documentation/temporary-affiliate-form
-display-tag: Help Desk
 ---
 <p>To obtain an account (kerberos login, etc) for a temporary affiliate, have the sponsor of the affiliate log into the web page below with their kerberos login id and password and complete the online <span>form.</span></p>
 <p>How to create a Temporary Affiliate account:</p>
