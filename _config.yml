@@ -51,7 +51,7 @@ defaults:
   - scope:
       type: "helpdesk"
     values:
-      categories: "Help Desk"
+      categories: "Helpdesk"
       brand: "helpdesk"
       documentation: "aside"
       layout: "twocol"

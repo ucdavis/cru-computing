@@ -1,6 +1,12 @@
 img#team-image {
   width:475px;
 }
+.content-wrap {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 .team-wrapper {
   margin-top:8%;
   .col-sm-4 {
