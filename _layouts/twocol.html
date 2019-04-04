@@ -6,7 +6,9 @@ layout: default
   {% include nav-breadcrumbs.html %}
     <div class="row justify-content-between">
       <div class="col-sm-7">
-        <p class="tag-display {{ page.categories }}">{{ page.categories }}</p>
+        <p>
+          <a class="{{ page.categories }}-tag" href="/documentation/{{page.categories}}">{{ page.categories }}</a>
+        </p>
         {% if page.geotag %}
         <img src="/media/{{ page.geotag }}.svg" alt="{{ page.brand }} icon">
         {% endif %}
@@ -18,7 +20,7 @@ layout: default
        	<p>{{ content }}</p>
 
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 sidebar">
         {% if page.services %}
         {% include services-aside.html %}
         {% endif %}

@@ -5,10 +5,6 @@ img#team-image {
   margin-top:8%;
   .col-sm-4 {
     .card {
-      height:238px;
-      p {
-
-      }
       &:hover {
         .pixel-profile {
           border:2px solid $team;
@@ -52,4 +48,15 @@ a.documentation-snippet {
   &:hover {
     text-decoration: none !important;
   }
+}
+.category-list {
+  li {
+    margin:12px 0px;
+  }
+}
+.sidebar {
+  padding-top:6.5%;
+}
+.card-height-fixed {
+  height:238px;
 }

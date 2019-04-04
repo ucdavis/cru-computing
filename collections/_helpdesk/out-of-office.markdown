@@ -1,5 +1,5 @@
 ---
-title:  "Out of Office Reply with OWA"
+title:  "Out of Office Reply"
 description: "This guide will help outline the process required to set an Out of Office Reply with the Office 365 Web App."
 author: "Shuka Smith"
 date:   2015-04-07 16:25:17

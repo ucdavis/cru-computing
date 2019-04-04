@@ -1,4 +1,5 @@
 ---
+title: "Get an Account"
 description: "This guide will explain how to get computing access with CAES Dean's Office."
 author: "Shuka Smith"
 date:   2015-05-07 16:25:17

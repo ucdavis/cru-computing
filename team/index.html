@@ -14,9 +14,10 @@ permalink: /team
 
 ---
 <div class="row team-wrapper">
-{% for post in site.categories.team reversed %}
+  {% assign team = site.team %}
+  {% for post in site.team %}
 <div class="col-sm-4">
-<div class="card">
+<div class="card card-height-fixed">
   <div class="card-content text-center">
     <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
     <h2>{{ post.name }}</h2>

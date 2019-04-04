@@ -10,8 +10,56 @@ documentation: aside
 
 ---
 
-<h1>Search bar here</h1>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card card-height-fixed">
+      <div class="card-content">
+        <h2>PEAKS</h2>
+        <p>Information for the advancement inventory tracking system of PEAKS!</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-height-fixed">
+      <div class="card-content">
+        <h2>Policies</h2>
+        <p>CRU hardware and software policies.</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-height-fixed">
+      <div class="card-content">
+        <h2>PrePurchasing</h2>
+        <p>Support articles regarding the PrePurchasing system.</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-height-fixed">
+      <div class="card-content">
+        <h2>ACE</h2>
+        <p>Learn how to navigate and troubleshoot academic course evaluations.</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-height-fixed">
+      <div class="card-content">
+        <h2>Help Desk</h2>
+        <p>Articles relating to standard office support</p>
+        
+      </div>
+    </div>
+  </div>
 
+</div>
+
+<!--
 {% assign PEAKS = site.PEAKS %}
 {% for post in site.PEAKS %}
 <div class="documentation-item">
@@ -23,21 +71,4 @@ documentation: aside
 </a>
 </div>
 
-{% endfor %}
-<!-- <div id="archives">
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-
-    <h3 class="category-head">{{ category_name }}</h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
-    {% endfor %}
-  </div>
-{% endfor %}
-</div> -->
+{% endfor %} -->
