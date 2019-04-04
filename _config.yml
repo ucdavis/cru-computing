@@ -44,7 +44,7 @@ defaults:
       type: "PEAKS"
     values:
       categories: "PEAKS"
-      brand: "documentation"
+      brand: "peaks"
       documentation: "aside"
       layout: "twocol"
       bio: "true"
@@ -52,7 +52,7 @@ defaults:
       type: "helpdesk"
     values:
       categories: "Help Desk"
-      brand: "documentation"
+      brand: "helpdesk"
       documentation: "aside"
       layout: "twocol"
       bio: "true"
@@ -60,7 +60,7 @@ defaults:
       type: "policies"
     values:
       categories: "Policies"
-      brand: "documentation"
+      brand: "policies"
       documentation: "aside"
       layout: "twocol"
       bio: "true"
@@ -68,7 +68,7 @@ defaults:
       type: "purchasing"
     values:
       categories: "Purchasing"
-      brand: "documentation"
+      brand: "purchasing"
       documentation: "aside"
       layout: "twocol"
       bio: "true"
@@ -76,7 +76,7 @@ defaults:
       type: "ace"
     values:
       categories: "ACE"
-      brand: "documentation"
+      brand: "ace"
       documentation: "aside"
       layout: "twocol"
       bio: "true"

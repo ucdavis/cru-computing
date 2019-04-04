@@ -34,7 +34,26 @@ ol {
         list-style-type: none;
     }
 }
-
+li.helpdesk-dot:after {
+    @include dot-color;
+    color:$helpdesk;
+}
+li.policies-dot:after {
+    @include dot-color;
+    color:$policies;
+}
+li.ace-dot:after {
+    @include dot-color;
+    color:$ace;
+}
+li.purchasing-dot:after {
+    @include dot-color;
+    color:$purchasing;
+}
+li.peaks-dot:after {
+    @include dot-color;
+    color:$peaks;
+}
 p {
     line-height: 1.625;
     letter-spacing: .025rem;

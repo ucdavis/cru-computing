@@ -60,6 +60,12 @@ $cenwalk-gray: #b1b3b3;
 $cork-oak: #aca39a;
 $shingle-brown: #4f2c1d;
 
+$peaks:  $wine-grape;
+$helpdesk: $unitrans-red;
+$ace:  $sunny-grass;
+$purchasing: $sky-blue;
+$policies: $california-poppy;
+
 // Layouts
 
 $card-padding: 0.75rem 1.75rem;
@@ -158,4 +164,10 @@ $card-thick-padding: 3rem;
   &:hover {
     text-decoration: none !important;
   }
+}
+@mixin dot-color {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
 }

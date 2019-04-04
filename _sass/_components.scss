@@ -89,39 +89,129 @@
     }
   }
 }
+.peaks-total {
+  hr {
+    border:1px solid $peaks;
+    margin-bottom:1.6rem;
+  }
+  ol.breadcrumb {
+    > .active {
+      color: transparentize($peaks, .23);
+    }
+  }
+  a {
+    color:$peaks;
+    &:hover {
+      text-decoration: underline;
+      color:lighten($peaks,15);
+    }
+  }
+}
+.policies-total {
+  hr {
+    border:1px solid $policies;
+    margin-bottom:1.6rem;
+  }
+  ol.breadcrumb {
+    > .active {
+      color: transparentize($policies, .23);
+    }
+  }
+  a {
+    color:$policies;
+    &:hover {
+      text-decoration: underline;
+      color:lighten($policies,15);
+    }
+  }
+}
+.helpdesk-total {
+  hr {
+    border:1px solid $helpdesk;
+    margin-bottom:1.6rem;
+  }
+  ol.breadcrumb {
+    > .active {
+      color: transparentize($helpdesk, .23);
+    }
+  }
+  a {
+    color:$helpdesk;
+    &:hover {
+      text-decoration: underline;
+      color:lighten($helpdesk,15);
+    }
+  }
+}
+.ace-total {
+  hr {
+    border:1px solid $ace;
+    margin-bottom:1.6rem;
+  }
+  ol.breadcrumb {
+    > .active {
+      color: transparentize($ace, .23);
+    }
+  }
+  a {
+    color:$ace;
+    &:hover {
+      text-decoration: underline;
+      color:lighten($ace,15);
+    }
+  }
+}
+.purchasing-total {
+  hr {
+    border:1px solid $purchasing;
+    margin-bottom:1.6rem;
+  }
+  ol.breadcrumb {
+    > .active {
+      color: transparentize($purchasing, .23);
+    }
+  }
+  a {
+    color:$purchasing;
+    &:hover {
+      text-decoration: underline;
+      color:lighten($purchasing,15);
+    }
+  }
+}
 .PEAKS-tag {
   @include tag;
-  background-color:$wine-grape;
+  background-color:$peaks;
   &:hover {
-    background-color:transparentize($wine-grape, .15);
+    background-color:transparentize($peaks, .15);
   }
 }
 .Policies-tag {
   @include tag;
-  background-color:$california-poppy;
+  background-color:$policies;
   &:hover {
-    background-color:transparentize($california-poppy, .35);
+    background-color:transparentize($policies, .35);
   }
 }
 .Helpdesk-tag {
   @include tag;
-  background-color:$unitrans-red;
+  background-color:$helpdesk;
   &:hover {
-    background-color:transparentize($unitrans-red, .35);
+    background-color:transparentize($helpdesk, .35);
   }
 }
 .Purchasing-tag {
   @include tag;
-  background-color:$sky-blue;
+  background-color:$purchasing;
   &:hover {
-    background-color:transparentize($sky-blue, .35);
+    background-color:transparentize($purchasing, .35);
   }
 }
 .ACE-tag {
   @include tag;
-  background-color:$sunny-grass;
+  background-color:$ace;
   &:hover {
-    background-color:transparentize($sunny-grass, .35);
+    background-color:transparentize($ace, .35);
   }
 }
 .alert-red {
