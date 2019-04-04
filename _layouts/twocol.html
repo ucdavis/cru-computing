@@ -15,7 +15,15 @@ layout: default
         <h1>{{ page.title }}</h1>
         <p class="lead">{{ page.description }}</p>
         <hr>
-        {% if page.bio %}
+        {% if page.author %}
+        <div class="row">
+          <div class="col">
+            <!-- {% for developer in portfolio.developers %}
+                {% assign dev = site.team | where: "name", developer | first %}
+                {% include team_tooltip.html text=dev.name image=dev.image %}
+            {% endfor %} -->
+          </div>
+        </div>
         {% endif %}
         <div class="content-wrap">
           	{{ content }}

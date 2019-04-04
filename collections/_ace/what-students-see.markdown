@@ -1,5 +1,4 @@
 ---
-layout: twocol
 title:  "Student View"
 description: "What students see in ACE"
 author: "Scott Kirkland"
