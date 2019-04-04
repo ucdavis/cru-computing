@@ -7,7 +7,7 @@ permalink: /documentation/policies
 documentation: aside
 ---
 
-{% assign sorted = (site.policies | sort: 'title') | reverse %}
+{% assign sorted = site.policies | sort: 'title' %}
 {% for post in sorted %}
 <div class="documentation-item">
 <a class="documentation-snippet" class="no-color" href="{{ site.baseurl }}{{ post.url }}">
