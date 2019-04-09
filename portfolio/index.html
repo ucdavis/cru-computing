@@ -1,7 +1,6 @@
 ---
 layout: fullcol
 title: Portfolio
-breadcrumb: <li><a href="/portfolio">Portfolio</a></li>
 description:  From small centers and departments to large campus wide applications, we work with a wide range of clients. Check out the list below for a comprehensive view of our work.
 brand: portfolio
 geotag: id-portfolio
@@ -11,93 +10,23 @@ permalink: /portfolio
 {% for portfolio in site.portfolio %}
 <div class="portfolio_item">
     <h3>{{ portfolio.title }}</h3>
-    <div class="well">
-        <ul class="no-bullet">
-            <p><b>Description: </b>{{portfolio.description}}</p>
-            <li>
-                <span>Client:
-                    <a href="mailto:{{post.client-email}}">{{portfolio.client-email}}</a>
-                </span>
-            </li>
-            {% if portfolio.current-url %}
-            <li>Current URL:
-                <a target="_blank" href="{{portfolio.current-url}}">{{portfolio.current-url}}</a>
-            </li>
-            {% endif %} {% if post.dev-url %}
-            <li>Development URL:
-                <a target="_blank" href="{{portfolio.dev-url}}">{{post.dev-url}}</a>
-            </li>
-            {% endif %} {% if portfolio.Launched %}
-            <li class="updated">Updated: {{portfolio.Launched}}</li>
-            {% endif %} {% if portfolio.developers %}
-            <li>
-                {% for developer in portfolio.developers %}
-                    {% assign dev = site.team | where: "name", developer | first %}
-                    {% include team_tooltip.html text=dev.name image=dev.image %}
-                {% endfor %}
-            </li>
+    {% if portfolio.current-url %}
+    <a target="_blank" href="{{portfolio.current-url}}"> <i class="fa"></i>need Icon here</a>
+    {% endif %}
+    <p>{{ portfolio.Launched }} • {{ portfolio.audience }}</p>
+    <p>{{ portfolio.description }}</p>
+    {% if portfolio.developers %}
 
-            {% endif %}
-        </ul>
-    </div>
+        {% for developer in portfolio.developers %}
+            {% assign dev = site.team | where: "name", developer | first %}
+            {% include team_tooltip.html text=dev.name image=dev.image %}
+        {% endfor %}
+
+    {% endif %}
 </div>
 {% endfor %}
 
-            <!-- <label class="search" for="inpt_search"><input id="inpt_search" type="text" placeholder="Search..." aria-placeholder="search"/></label> -->
-            <!-- <ul class="tabs" role="tablist">
-                <li role="presentation" class="active">
-                    <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Web Development</a>
-                </li>
-                <li role="presentation">
-                    <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">App Development</a>
-                </li>
-            </ul> -->
-            <!-- Tab panes -->
-            <!-- <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="home">
 
-                </div>
-                <div role="tabpanel" class="tab-pane" id="profile">
-                    {% for post in site.categories.appdev %}
-                    {% unless post.tags contains 'Archived' %}
-                    <div class="portfolio_item">
-                        <h3>{{ post.title }}</h3>
-                        <div class="well">
-                            <ul class="no-bullet">
-                                {% if post.current-url %}
-                                <li>
-                                    <a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a>
-                                </li>
-                                {% endif %} {% if post.dev-url %}
-                                <li>Development URL:
-                                    <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a>
-                                </li>
-                                {% endif %} {% if post.audience %}
-                                <li>
-                                    <b>Audience:</b> {{post.audience}}</li>
-                                {% endif %}
-                                <p>
-                                    <b>Description:</b>
-                                    {{post.description}}
-                                </p>
-                            {% if post.developers %}
-                            <li>
-                                {% for developer in post.developers %}
-                                    {% assign dev = site.team | where: "name", developer | first %}
-                                    {% include team_tooltip.html text=dev.name image=dev.image %}
-                                {% endfor %}
-                            </li>
-
-                            {% endif %}
-                            </ul>
-
-                        </div>
-                    </div>
-                    {% endunless %}
-                    {% endfor %}
-                </div>
-
-            </div> -->
 
 <script>
     function tabTextResize() {

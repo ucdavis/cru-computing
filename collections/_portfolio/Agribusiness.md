@@ -1,8 +1,8 @@
 ---
 title: "Agribusiness"
+audience: "CAES"
 description: "Legacy program for managing yearly Agribusiness conference, including attendee tracking and materials distribution."
 current-url:
-audience: "Public and CAES Staff"
 developers:
   - Scott Kirkland
   - Jason Sylvestre

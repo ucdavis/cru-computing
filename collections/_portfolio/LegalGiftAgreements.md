@@ -1,11 +1,10 @@
 ---
 title: "Legal Gift Agreements"
+audience: "Campus Wide"
 description: "Create, distribute and calculate changes to complex legal documents covering the receipt of large donations to UC Davis."
 current-url:
-audience: "DEVAR Staff"
 Launched: Jan 2018
-tags:
-  - Static Site - Jekyll
-  - Archived
-
+developers:
+  - John Knoll
+  - Ken Taylor
 ---
