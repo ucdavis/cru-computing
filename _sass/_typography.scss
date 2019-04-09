@@ -1,11 +1,11 @@
 // baseline typography
 html {
-    font-size: 8px;
+    font-size: 10px;
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
     line-height: 1.5;
     @include breakpoint(sm) {
-      font-size:10px;
+      font-size:8px;
     }
 }
 body {
@@ -33,6 +33,11 @@ ol {
     &.no-bullet li {
         list-style-type: none;
     }
+    &.no-padding {
+      padding-left:0px;
+      margin-left:0px;
+    }
+
 }
 li.helpdesk-dot:after {
     @include dot-color;
@@ -86,19 +91,6 @@ h6 {
 h1,
 .h1 {
     font-size: 3.2rem;
-    &.brand {
-      line-height: 1.2;
-      img {
-        margin-right:12px;
-      }
-      a {
-        color:$secondary-font;
-        &:hover {
-          color:$primary-font;
-          text-decoration: none;
-        }
-      }
-    }
 }
 
 h2,

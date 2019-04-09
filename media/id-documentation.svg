@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="33px" height="26px" viewBox="0 0 33 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="28px" height="22px" viewBox="0 0 28 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
     <title>red identifier</title>
     <desc>Created with Sketch.</desc>
     <g id="2019-Redesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Documentation-landing" transform="translate(-80.000000, -293.000000)">
-            <g id="red-identifier" transform="translate(96.500000, 306.000000) rotate(-360.000000) translate(-96.500000, -306.000000) translate(80.000000, 293.000000)">
-                <polygon id="Triangle-Copy-4" fill="#CB3F5B" points="10.6633301 0.577148438 30.7119141 24.2866211 0 25.9033203"></polygon>
-                <polygon id="Triangle-Copy-5" fill="#BA0C2F" points="32.2119141 6.78662109 32.2119141 25.7866211 0.211914062 25.7866211"></polygon>
+        <g id="Documentation-landing" transform="translate(-82.000000, -295.000000)">
+            <g id="red-identifier" transform="translate(96.000000, 306.000000) rotate(-360.000000) translate(-96.000000, -306.000000) translate(82.000000, 295.000000)">
+                <polygon id="Triangle-Copy-4" fill="#CB3F5B" points="9.04767401 0.48835637 26.0585938 20.5502178 0 21.9181941"></polygon>
+                <polygon id="Triangle-Copy-5" fill="#BA0C2F" points="27.331321 5.74252554 27.331321 21.8194486 0.179805871 21.8194486"></polygon>
             </g>
         </g>
     </g>

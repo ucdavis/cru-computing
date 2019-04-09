@@ -73,7 +73,7 @@ $card-thick-padding: 3rem;
 
 @mixin breakpoint($point) {
     @if $point==sm {
-        @media (min-width: 576px) {
+        @media (max-width: 576px) {
             @content ;
         }
     }
@@ -83,17 +83,17 @@ $card-thick-padding: 3rem;
         }
     }
     @if $point==md {
-        @media (min-width: 768px) {
+        @media (max-width: 768px) {
             @content ;
         }
     }
     @if $point==lg {
-        @media (min-width: 992px) {
+        @media (max-width: 992px) {
             @content ;
         }
     }
     @if $point==xl {
-        @media (min-width: 1200px) {
+        @media (max-width: 1200px) {
             @content ;
         }
     }

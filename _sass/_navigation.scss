@@ -12,6 +12,13 @@ nav {
       }
     }
   }
+  ul.upnav {
+    justify-content: flex-end;
+    @include breakpoint(md) {
+      margin-top:32px;
+      justify-content: start;
+    }
+  }
 }
 .team-active:hover {
   border-bottom: 4px solid $team !important;
@@ -51,8 +58,19 @@ nav.homepage-nav {
   ul.nav {
     li.nav-item {
       margin-right:3rem;
+      @include breakpoint(lg) {
+        margin-right:2rem;
+      }
+      @include breakpoint(md) {
+        margin-right:1.6rem;
+      }
+      @include breakpoint(sm) {
+        margin-right:0px;
+      }
       img {
         padding-left:1rem;
+        max-width:100%;
+        height:auto;
       }
       a.nav-link {
         color:$primary-font;
@@ -60,6 +78,9 @@ nav.homepage-nav {
         font-size:2.8rem;
         padding-top:0px;
         margin-top:-5px;
+        @include breakpoint(lg) {
+          font-size:2rem;
+        }
         &:hover {
           background-color:#fff;
         }

@@ -62,7 +62,21 @@ a.documentation-snippet {
 }
 .sidebar {
   padding-top:6.5%;
+  @include breakpoint(md) {
+    ul {
+      padding-left:0px;
+      margin-left:0px;
+    }
+    ul.category-list {
+      li {
+        display:inline-block;
+      }
+    }
+  }
 }
 .card-height-fixed {
   height:238px;
+  @include breakpoint(md) {
+    height:auto;
+  }
 }

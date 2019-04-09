@@ -22,29 +22,59 @@ body {
   background-repeat: no-repeat;
   background-position: top right;
   background-size:40%;
+  @include breakpoint(xl) {
+    background-size: 35%;
+  }
+  @include breakpoint(lg) {
+    background-size:30%;
+  }
+  @include breakpoint(md) {
+    background-size:25%;
+  }
 }
 header {
   margin-top:16px;
   margin-bottom:48px;
+  @include breakpoint(md) {
+    margin-bottom:16px;
+  }
+}
+.brand {
+  display:flex;
+  align-items: center;
+  // @include breakpoint(md) {
+  //   justify-content: start;
+  // }
+  h1 {
+    line-height: 1.2;
+  }
+  img {
+    margin-right:12px;
+    max-width: 100%;
+    height:auto;
+  }
+  a {
+    color:$secondary-font;
+    &:hover {
+      color:$primary-font;
+      text-decoration: none;
+    }
+  }
 }
 .container {
   padding: 0;
-  width: 98%;
+  width: 80%;
   max-width:1440px;
   @include breakpoint (sm) {
-    width: 96%;
+    width: 95%;
     max-width:1440px;
   }
   @include breakpoint (md) {
-    width: 92%;
-    max-width:1440px;
-  }
-  @include breakpoint(lg) {
     width: 90%;
     max-width:1440px;
   }
-  @include breakpoint(xl) {
-    width: 80%;
+  @include breakpoint(lg) {
+    width: 85%;
     max-width:1440px;
   }
 }
