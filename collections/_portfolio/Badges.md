@@ -6,5 +6,5 @@ current-url: "http://www.insidehighered.com/news/2014/01/03/uc-daviss-groundbrea
 Launched: Jan 2018
 developers:
   - Scott Kirkland
-
+image: "badges"
 ---

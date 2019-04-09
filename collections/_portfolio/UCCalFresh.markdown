@@ -8,7 +8,5 @@ current-url: "https://uccalfresh.ucdavis.edu"
 Launched: Oct 2018
 developers:
   - Cal Doval
+image: "uccalfresh"
 ---
-
-
-Nothing needs to be here

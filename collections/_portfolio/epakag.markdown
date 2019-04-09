@@ -8,4 +8,5 @@ current-url: "https://epakag.ucdavis.edu/"
 Launched: Oct 2016
 developers:
   - Cal Doval
+image: "epakag"
 ---

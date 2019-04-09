@@ -8,4 +8,5 @@ current-url: "https://caba.ucdavis.edu/"
 Launched: June 2016
 developers:
   - Cal Doval
+image: "caba"
 ---

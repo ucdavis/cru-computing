@@ -8,4 +8,5 @@ current-url: "https://olivecenter.ucdavis.edu/"
 Launched: Jan 2018
 developers:
   - Cal Doval
+image: "olivecenter"
 ---

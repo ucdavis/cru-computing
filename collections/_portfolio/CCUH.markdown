@@ -8,6 +8,5 @@ current-url: "https://ccuh.ucdavis.edu/"
 Launched: February 2018
 developers:
   - Cal Doval
+image: "ccuh"
 ---
-
-Nothing needs to be here

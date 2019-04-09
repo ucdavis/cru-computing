@@ -5,6 +5,7 @@ description: "Online course evaluations for UC Davis, enabling staff and faculty
 current-url: "https://eval.ucdavis.edu/"
 audience: "Students, Staff, and Faculty"
 Launched: Jan 2018
+image: "ace"
 developers:
   - Jason Sylvestre
   - Scott Kirkland

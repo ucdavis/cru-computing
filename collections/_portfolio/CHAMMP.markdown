@@ -9,4 +9,5 @@ current-url: "https://chammp.ucdavis.edu/"
 Launched: Dec 2017
 developers:
   - Cal Doval
+image: "chammp"
 ---

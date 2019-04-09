@@ -7,7 +7,6 @@ developers:
   - Scott Kirkland
   - Jason Sylvestre
 Launched: Jan 2018
-tags:
-  - Static Site - Jekyll
+image: "agribusiness"
 
 ---

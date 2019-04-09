@@ -8,5 +8,5 @@ current-url: "https://echina-apple.com/"
 Launched: Nov 2015
 developers:
   - Cal Doval
-
+image: "echina"
 ---

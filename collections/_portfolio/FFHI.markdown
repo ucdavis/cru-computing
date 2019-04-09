@@ -8,4 +8,5 @@ current-url: "https://ffhi.ucdavis.edu/"
 developers:
   - Cal Doval
 Launched: Nov 2018
+image: "ffhi"
 ---

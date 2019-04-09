@@ -9,4 +9,5 @@ developers:
   - Scott Kirkland
   - Jason Sylvestre
   - Cal Doval
+image: "commencement"
 ---

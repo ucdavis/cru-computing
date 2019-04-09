@@ -8,4 +8,5 @@ current-url: "https://asi.ucdavis.edu/"
 developers:
   - Cal Doval
 Launched: Jan 2019
+image: "asi"
 ---

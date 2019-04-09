@@ -8,4 +8,5 @@ developers:
   - Jason Sylvestre
   - Scott Kirkland
   - Cal Doval
+image: "registration"
 ---

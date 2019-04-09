@@ -8,4 +8,5 @@ current-url: "https://gsd.ucdavis.edu/"
 developers:
   - Cal Doval
 Launched: Dec 2017
+image: "gsd"
 ---

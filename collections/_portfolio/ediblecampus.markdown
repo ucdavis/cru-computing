@@ -8,5 +8,5 @@ current-url: "https://ediblecampus.ucdavis.edu/"
 Launched: Sept 2016
 developers:
   - Cal Doval
-
+image: "ediblecampus"
 ---

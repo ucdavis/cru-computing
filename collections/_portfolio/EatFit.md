@@ -7,4 +7,5 @@ Launched: Jan 2018
 developers:
   - Ken Taylor
   - Cal Doval
+image: "eatfit"
 ---

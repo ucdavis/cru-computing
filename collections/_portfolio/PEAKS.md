@@ -9,4 +9,5 @@ developers:
     - Jason Sylvestre
     - Laura Holstege
     - Cal Doval
+image: "peaks"
 ---

@@ -6,11 +6,9 @@ client: "Kate Wilkins"
 client-email: "kmwilkins@ucdavis.edu"
 current-url: "https://afghanag.ucdavis.edu/"
 Launched: Jan 2018
-Technology: Jekyll Static Site Generator
 developers:
   - Cal Doval
-tags:
-  - Static Site
+image: afghanag
 
 ---
 

@@ -8,6 +8,5 @@ current-url: "https://crf.ucdavis.edu/"
 developers:
   - Cal Doval
 Launched: Dec 2017
+image: "crf"
 ---
-
-Nothing needs to be here

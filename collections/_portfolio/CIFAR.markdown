@@ -8,6 +8,5 @@ current-url: "https://cifar.ucdavis.edu/"
 developers:
   - Cal Doval
 Launched: Jan 2018
+image: "cifar"
 ---
-
-Nothing needs to be here

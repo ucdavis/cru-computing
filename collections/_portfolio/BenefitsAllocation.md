@@ -8,5 +8,5 @@ developers:
   - Ken Taylor
 tags:
   - Static Site - Jekyll
-
+image: "benefits"
 ---

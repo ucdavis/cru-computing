@@ -23,13 +23,16 @@ layout: default
                 {% include team_tooltip.html text=dev.name image=dev.image %}
             {% endfor %} -->
           </div>
+          <div class="col">
+            <p>
+              {{ page.date | date_to_long_string }}
+            </p>
+          </div>
         </div>
         {% endif %}
         <div class="content-wrap">
           	{{ content }}
         </div>
-
-
       </div>
       <div class="col-sm-4 sidebar">
         {% if page.services %}

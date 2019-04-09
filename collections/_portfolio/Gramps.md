@@ -7,4 +7,5 @@ Launched: Jan 2018
 developers:
   - Jason Sylvestre
   - Scott Kirkland
+image: "gramps"
 ---

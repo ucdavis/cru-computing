@@ -7,4 +7,5 @@ audience: "Campus Staff Developers"
 Launched: Jan 2018
 developers:
   - Ken Taylor
+image: "datadictionary"
 ---

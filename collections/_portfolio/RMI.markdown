@@ -8,6 +8,5 @@ current-url: "https://rmi.ucdavis.edu"
 Launched: Nov 2018
 developers:
   - Cal Doval
+image: "rmi"
 ---
-
-Nothing needs to be here

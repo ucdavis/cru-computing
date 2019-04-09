@@ -10,4 +10,5 @@ developers:
   - Ken Taylor
   - Jason Sylvestre
   - Cal Doval
+image: "give"
 ---

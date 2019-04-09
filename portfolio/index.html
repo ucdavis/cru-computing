@@ -9,20 +9,33 @@ permalink: /portfolio
 ---
 {% for portfolio in site.portfolio %}
 <div class="portfolio_item">
-    <h3>{{ portfolio.title }}</h3>
-    {% if portfolio.current-url %}
-    <a target="_blank" href="{{portfolio.current-url}}"> <i class="fa"></i>need Icon here</a>
-    {% endif %}
-    <p>{{ portfolio.Launched }} • {{ portfolio.audience }}</p>
-    <p>{{ portfolio.description }}</p>
-    {% if portfolio.developers %}
-
+  <div class="row justify-content-between">
+    <div class="col-md-6">
+      <h1>
+        <a class="no-color" target="_blank" href="{{portfolio.current-url}}">
+          {{ portfolio.title }}
+        </a>
+      </h1>
+          <h3>{{ portfolio.Launched }} • {{ portfolio.audience }}</h3>
+          <p>{{ portfolio.description }}</p>
+          {% if portfolio.developers %}
+      <div class="profile-wrap">
         {% for developer in portfolio.developers %}
             {% assign dev = site.team | where: "name", developer | first %}
             {% include team_tooltip.html text=dev.name image=dev.image %}
         {% endfor %}
+      </div>
 
-    {% endif %}
+
+          {% endif %}
+    </div>
+    <div class="col-md-6">
+      <img class="img-fluid" src="/media/portfolio/{{ portfolio.image }}.jpg" alt="">
+    </div>
+  </div>
+
+
+
 </div>
 {% endfor %}
 

@@ -8,4 +8,5 @@ current-url: "https://climatesmart.ucdavis.edu/"
 Launched: Aug 2017
 developers:
   - Cal Doval
+image: "climatesmart"
 ---

@@ -8,4 +8,5 @@ current-url: "https://honey.ucdavis.edu/"
 Launched: March 2018
 developers:
   - Cal Doval
+image: "honeycenter"
 ---
