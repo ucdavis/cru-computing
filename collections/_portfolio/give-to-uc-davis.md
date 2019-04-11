@@ -11,4 +11,7 @@ developers:
   - Jason Sylvestre
   - Cal Doval
 image: "give"
+categories:
+  - featured
+bgcolor: C88901
 ---

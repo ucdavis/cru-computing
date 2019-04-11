@@ -35,10 +35,14 @@ img#team-image {
   }
 }
 .featured-item {
-  height:193px;
-  background-color:#d8d8d8;
-  border-radius: 4px;
-  margin:16px 0px;
+    text-align: center;
+    h1 {
+      color:rgba(255,255,255,.95);
+      font-family: $sans-reg !important;
+    }
+    p.lead {
+      color:rgba(255,255,255,.95);
+    }
 }
 .floatinggeos {
   position: absolute;

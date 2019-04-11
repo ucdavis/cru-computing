@@ -10,4 +10,7 @@ developers:
     - Laura Holstege
     - Cal Doval
 image: "peaks"
+categories:
+  - featured
+bgcolor: BA0C2F
 ---
