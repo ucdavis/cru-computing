@@ -42,7 +42,7 @@ collections_dir: collections
 
 defaults:
   - scope:
-      type: "PEAKS"
+      type: "peaks"
     values:
       categories: "PEAKS"
       brand: "peaks"

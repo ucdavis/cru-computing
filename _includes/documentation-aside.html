@@ -4,7 +4,7 @@
   <li><a class="Policies-tag" href="/documentation/policies">Policies</a></li>
   <li><a class="ACE-tag" href="/documentation/ACE">ACE</a></li>
   <li><a class="Purchasing-tag" href="/documentation/purchasing">Purchasing</a></li>
-  <li><a class="PEAKS-tag" href="/documentation/PEAKS">PEAKS</a></li>
+  <li><a class="PEAKS-tag" href="/documentation/peaks">PEAKS</a></li>
 </ul>
 <ul class="no-bullet">
   <h3>Popular Articles</h3>
@@ -24,8 +24,8 @@
     </a>
   </li>
   {% endfor %}
-  {% assign ACE = site.ACE %}
-  {% for post in site.ACE limit:1 %}
+  {% assign aceeval = site.aceeval %}
+  {% for post in site.aceeval limit:1 %}
   <li class="ace-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
@@ -40,8 +40,8 @@
     </a>
   </li>
   {% endfor %}
-  {% assign PEAKS = site.PEAKS %}
-  {% for post in site.PEAKS limit:1 %}
+  {% assign peaks = site.peaks %}
+  {% for post in site.peaks limit:1 %}
   <li class="peaks-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
