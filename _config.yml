@@ -20,7 +20,7 @@ plugins:
   - jekyll-autoprefixer
 
 collections:
-  ACE:
+  aceeval:
     output: true
     permalink: /documentation/:collection/:title
   PEAKS:
@@ -74,7 +74,7 @@ defaults:
       layout: "twocol"
       bio: "true"
   - scope:
-      type: "ACE"
+      type: "aceeval"
     values:
       categories: "ACE"
       brand: "ace"
