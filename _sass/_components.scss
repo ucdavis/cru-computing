@@ -10,8 +10,6 @@
   padding:$card-padding;
   padding-bottom:2.6rem;
   padding-top:2.6rem;
-  display:flex;
-  flex-direction: column;
   height:100%;
   p:first-of-type {
     flex-grow:1;
@@ -396,4 +394,8 @@ ol.breadcrumb {
 }
 img.img-fluid {
   width:100%;
+}
+.flex-direction-column {
+  display:flex;
+  flex-direction: column;
 }
