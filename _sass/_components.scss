@@ -10,6 +10,12 @@
   padding:$card-padding;
   padding-bottom:2.6rem;
   padding-top:2.6rem;
+  display:flex;
+  flex-direction: column;
+  height:100%;
+  p:first-of-type {
+    flex-grow:1;
+  }
 }
 .services-total {
   hr {
@@ -375,6 +381,7 @@ ol.breadcrumb {
   border-radius:50%;
   margin-left:-10px;
 }
+
 .pixel-profile::nth-child(1) {
   margin-left:0px !important;
 }

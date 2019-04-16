@@ -13,6 +13,9 @@ body {
 }
 a {
     text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
     &.no-color {
       color:$primary-font !important;
     }

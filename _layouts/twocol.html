@@ -16,20 +16,16 @@ layout: default
         <p class="lead">{{ page.description }}</p>
         <hr>
         {% if page.author %}
-        <div class="row">
-          <div class="col">
-            <!-- {% for developer in portfolio.developers %}
-                {% assign dev = site.team | where: "name", developer | first %}
-                {% include team_tooltip.html text=dev.name image=dev.image %}
-            {% endfor %} -->
-          </div>
-          <div class="col">
-            <p>
-              {{ page.date | date_to_long_string }}
-            </p>
-          </div>
+        <div class="author">
+              {% assign dev = site.team | where: "name", page.author | first %}
+              {% include team_tooltip.html text=dev.name image=dev.image %}
+            <div class="author-details">
+              <p><b>{{ page.author }}</b></p>
+              <p>{{ page.date | date_to_long_string }}</p>
+            </div>
         </div>
         {% endif %}
+
         <div class="content-wrap">
           	{{ content }}
         </div>

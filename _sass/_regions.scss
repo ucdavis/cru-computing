@@ -24,14 +24,33 @@ img#team-image {
   padding-left:0px;
   margin-left:0px;
   li {
+    margin:12px 0px;
     i {
       margin-right:8px;
     }
     a {
-      font-size:1.8rem;
+      font-size:2rem;
       font-family: $sans-bold;
       color:$primary-font;
     }
+  }
+}
+.author img.pixel-profile {
+
+}
+.author {
+  display: flex;
+  margin-top: 20px;
+    margin-bottom: 12px;
+  p:first-of-type {
+    margin-bottom:0px;
+    font-size:1.8rem;
+  }
+  img {
+    margin-left: 0px;
+    height:54px;
+    width:54px;
+    margin-right:1.4rem;
   }
 }
 .featured-item {

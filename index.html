@@ -57,6 +57,7 @@ title: CAES Computing Resources Unit
     </h2>
     {% assign portfolio = site.portfolio | where: "categories","featured"  %}
     {% for post in portfolio %}
+    <a href="{{ post.current-url }}" target="_blank">
     <div class="card featured-item">
       <div class="row" style="background-color:#{{ post.bgcolor }}">
         <div class="col-sm-6" style="padding-right:0px">
@@ -67,9 +68,8 @@ title: CAES Computing Resources Unit
           <p class="lead">{{ post.Launched }} • {{ post.audience }}</p>
         </div>
       </div>
-
-
     </div>
+    </a>
     {% endfor %}
 
   </div>
