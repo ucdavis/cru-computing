@@ -24,8 +24,8 @@
     </a>
   </li>
   {% endfor %}
-  {% assign aceeval = site.aceeval %}
-  {% for post in site.aceeval limit:1 %}
+  {% assign aceeval = site.ace %}
+  {% for post in site.ace limit:1 %}
   <li class="ace-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
