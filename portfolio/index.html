@@ -1,109 +1,46 @@
 ---
-layout: default
-title: CRU - Portfolio
+layout: fullcol
+title: Portfolio
+description:  From small centers and departments to large campus wide applications, we work with a wide range of clients. Check out the list below for a comprehensive view of our work.
+brand: portfolio
+geotag: id-portfolio
+permalink: /portfolio
+
 ---
+{% for portfolio in site.portfolio %}
+<div class="portfolio_item">
+  <div class="row justify-content-between">
+    <div class="col-md-6">
+      <h1>
+        <a class="no-color" target="_blank" href="{{portfolio.current-url}}">
+          {{ portfolio.title }}
+        </a>
+      </h1>
+          <p class="lead">{{ portfolio.Launched }} • {{ portfolio.audience }}</p>
+          <p>{{ portfolio.description }}</p>
+          {% if portfolio.developers %}
+      <div class="profile-wrap">
+        {% for developer in portfolio.developers %}
+            {% assign dev = site.team | where: "name", developer | first %}
+            {% include team_tooltip.html text=dev.name image=dev.image %}
+        {% endfor %}
+      </div>
 
-<div class="main">
-    <div class="main_contents flex horizontal-center">
-        <article class="full-width">
 
-            <h1>Our Work</h1>
-            <p class="lead">
-                From small centers and departments to large campus wide applications, we work with a wide range of clients. Check out the
-                list below for a comprehensive view of our work.
-            </p>
-            <!-- <label class="search" for="inpt_search"><input id="inpt_search" type="text" placeholder="Search..." aria-placeholder="search"/></label> -->
-            <ul class="tabs" role="tablist">
-                <li role="presentation" class="active">
-                    <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Web Development</a>
-                </li>
-                <li role="presentation">
-                    <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">App Development</a>
-                </li>
-            </ul>
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="home">
-                    {% for post in site.categories.web_proj %}
-                    <div class="portfolio_item">
-                        <h3>{{ post.title }}</h3>
-                        <div class="well">
-                            <ul class="no-bullet">
-                                <p><b>Description: </b>{{post.description}}</p>
-                                <li>
-                                    <span>Client:
-                                        <a href="mailto:{{post.client-email}}">{{post.client-email}}</a>
-                                    </span>
-                                </li>
-                                {% if post.current-url %}
-                                <li>Current URL:
-                                    <a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a>
-                                </li>
-                                {% endif %} {% if post.dev-url %}
-                                <li>Development URL:
-                                    <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a>
-                                </li>
-                                {% endif %} {% if post.Launched %}
-                                <li class="updated">Updated: {{post.Launched}}</li>
-                                {% endif %} {% if post.developers %}
-                                <li>
-                                    {% for developer in post.developers %}
-                                        {% assign dev = site.team | where: "name", developer | first %}
-                                        {% include team_tooltip.html text=dev.name image=dev.image %}
-                                    {% endfor %}
-                                </li>
-
-                                {% endif %}
-                            </ul>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="profile">
-                    {% for post in site.categories.app_dev %}
-                    {% unless post.tags contains 'Archived' %}
-                    <div class="portfolio_item">
-                        <h3>{{ post.title }}</h3>
-                        <div class="well">
-                            <ul class="no-bullet">
-                                {% if post.current-url %}
-                                <li>
-                                    <a target="_blank" href="{{post.current-url}}">{{post.current-url}}</a>
-                                </li>
-                                {% endif %} {% if post.dev-url %}
-                                <li>Development URL:
-                                    <a target="_blank" href="{{post.dev-url}}">{{post.dev-url}}</a>
-                                </li>
-                                {% endif %} {% if post.audience %}
-                                <li>
-                                    <b>Audience:</b> {{post.audience}}</li>
-                                {% endif %}
-                                <p>
-                                    <b>Description:</b>
-                                    {{post.description}}
-                                </p>
-                            {% if post.developers %}
-                            <li>
-                                {% for developer in post.developers %}
-                                    {% assign dev = site.team | where: "name", developer | first %}
-                                    {% include team_tooltip.html text=dev.name image=dev.image %}
-                                {% endfor %}
-                            </li>
-                                
-                            {% endif %}
-                            </ul>
-                            
-                        </div>
-                    </div>
-                    {% endunless %}
-                    {% endfor %}
-                </div>
-
-            </div>
-
-        </article>
+          {% endif %}
     </div>
+    <div class="col-md-6 text-right">
+      <img class="img-fluid" src="/media/portfolio/{{ portfolio.image }}.png" alt="">
+    </div>
+  </div>
+
+
+
 </div>
+{% endfor %}
+
+
+
 <script>
     function tabTextResize() {
         let appDev = $("ul.tabs a[href='#profile']");

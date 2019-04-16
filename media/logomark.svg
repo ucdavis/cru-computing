@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>logomark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="72" height="72" rx="14"></rect>
+        <polygon id="path-3" points="49.9253669 74.4966443 0.000200243605 74.4966443 0.000200243605 0.223238255 49.9253669 0.223238255"></polygon>
+        <polygon id="path-5" points="0.289201827 74.4966443 33.3218876 74.4966443 33.3218876 0.223187919 0.289201827 0.223187919 0.289201827 74.4966443"></polygon>
+        <polygon id="path-7" points="46.9941327 74.4966443 0.487693301 74.4966443 0.487693301 0.223087248 46.9941327 0.223087248 46.9941327 74.4966443"></polygon>
+    </defs>
+    <g id="2019-Redesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Documentation-landing" transform="translate(-83.000000, -71.000000)">
+            <g id="logomark" transform="translate(83.000000, 71.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle"></g>
+                <g id="caes_white" mask="url(#mask-2)">
+                    <g transform="translate(-2.000000, -2.000000)" id="symbol">
+                        <g>
+                            <g id="Group-3" transform="translate(0.000000, 0.280369)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M49.8443379,28.0834732 C50.308903,19.7660235 48.7585169,11.8119966 45.6392222,4.6784396 C44.9709091,3.14723154 44.2044767,1.67189597 43.3954926,0.223238255 L0.000200243605,0.223238255 L0.000200243605,74.496896 L12.5019091,74.496896 C33.0048519,68.8658557 48.5813013,50.5950503 49.8443379,28.0834732" id="Fill-1" fill="#BB8D0A" mask="url(#mask-4)"></path>
+                            </g>
+                            <g id="Group-6" transform="translate(40.549330, 0.280369)">
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <g id="Clip-5"></g>
+                                <path d="M7.88243934,0.223187919 C12.3849168,6.48543624 15.682929,13.7674832 17.3209217,21.8302349 C21.3913736,41.8839262 14.2777195,61.6134564 0.289201827,74.4968456 L33.3218876,74.4968456 L33.3218876,0.223187919 L7.88243934,0.223187919 Z" id="Fill-4" fill="#004B84" mask="url(#mask-6)"></path>
+                            </g>
+                            <g id="Group-9" transform="translate(12.014616, 0.280369)">
+                                <mask id="mask-8" fill="white">
+                                    <use xlink:href="#path-7"></use>
+                                </mask>
+                                <g id="Clip-8"></g>
+                                <path d="M45.8553851,21.8301342 C44.2173924,13.7673826 40.9193803,6.48583893 36.4169028,0.223087248 L31.3807761,0.223087248 C32.1902609,1.67174497 32.9561927,3.14708054 33.6245057,4.67879195 C36.7438005,11.812349 38.2941866,19.7658725 37.8296214,28.0833221 C36.5665849,50.5948993 20.9901354,68.8657047 0.487693301,74.496745 L28.8236653,74.496745 C42.8126836,61.6133557 49.9263376,41.8838255 45.8553851,21.8301342" id="Fill-7" fill="#FEFEFE" mask="url(#mask-8)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

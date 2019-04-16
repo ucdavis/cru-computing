@@ -1,274 +1,112 @@
-.aside_col {
-    ul {
-        li {
-            a {
-                color: $primary-font;
-                &:hover {
-                    color: $secondary-color;
-                }
-            }
-        }
-    }
+img#team-image {
+  width:475px;
 }
-.small-bound {
-  margin: 0 auto;
-  padding: 10px;
-  max-width:780px;
-  p {
-    font-size:1.8rem;
-    margin:15px 0px;
+.content-wrap {
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
-.queue-wrapper {
-    .queue-card {
-    border:1px solid $borders;
-    padding:15px;
-    // border-bottom-left-radius:6px;
-    // border-bottom-right-radius:6px;
-    background-color:#fff;
-    margin-top:16px;
-    margin-bottom:16px;
-    &:first-child {
-        margin-top:20px;
-    }
-    &.in-dev {
-        border-top:4px solid $sunny-grass;
-    }
-    &.on-deck {
-        border-top:4px solid $golden-lupine;
-    }
-    &.in-queue {
-        border-top:4px solid $unitrans-red;
-    }
-        h3 {
-            font-size:1.8rem;
-            margin-bottom:6px;
+.team-wrapper {
+  margin-top:8%;
+  .col-sm-4 {
+    .card {
+      &:hover {
+        .pixel-profile {
+          border:2px solid $team;
         }
-        p {
-            max-width:850px;
-            margin-top:0px;
-        }
-        ul {
-            li {
+      }
+    }
+  }
+}
+.homepage-hotbuttons {
+  list-style: none;
+  padding-left:0px;
+  margin-left:0px;
+  li {
+    margin:12px 0px;
+    i {
+      margin-right:8px;
+    }
+    a {
+      font-size:2rem;
+      font-family: $sans-bold;
+      color:$primary-font;
+    }
+  }
+}
+.author img.pixel-profile {
 
-            }
-        }
+}
+.author {
+  display: flex;
+  margin-top: 20px;
+    margin-bottom: 12px;
+  p:first-of-type {
+    margin-bottom:0px;
+    font-size:1.8rem;
+  }
+  img {
+    margin-left: 0px;
+    height:54px;
+    width:54px;
+    margin-right:1.4rem;
+  }
+}
+.featured-item {
+    text-align: center;
+    h1 {
+      color:rgba(255,255,255,.95);
+      font-family: $sans-reg !important;
+    }
+    p.lead {
+      color:rgba(255,255,255,.95);
     }
 }
-.home_button-wrapper {
-    .home_button-card {
-        width: 24%;
-        display: inline-block;
-        vertical-align: top;
-        text-align: center;
-        margin-top: 35px;
-        @include breakpoint(tablet) {
-            width: 49%;
-        }
-        a {
-            color: $primary-font;
-            font-size: 1.8rem;
-            font-weight: 600;
-            &:hover {
-                color: $primary-color;
-            }
-        }
-    }
+.floatinggeos {
+  position: absolute;
 }
-
-.faculty {
-    margin: 0 auto;
-    max-width: 760px;
-    margin-top: 30px;
-    img#team-image {
-        width: 400px;
-    }
-    .faculty-card {
-        margin: 40px 0px;
-        display: inline-block;
-        width: 49%;
-        @include breakpoint(mobileonly) {
-            width: 100%;
-        }
-        .faculty-image {
-            display: inline-block;
-            width: 35%;
-            vertical-align: top;
-            margin-right: 2%;
-            text-align: right;
-            img {
-                margin-top: 8px;
-                width: 50%;
-            }
-        }
-        .faculty-info {
-            display: inline-block;
-            width: 56%;
-            vertical-align: top;
-            h3 {
-                margin-bottom: 0px;
-            }
-            p {
-                margin-top: 0px;
-                margin-bottom: 1px;
-            }
-            a {
-                margin-top: 3px;
-                font-size: 1.6rem;
-                font-family: $sans-serif;
-            }
-        }
-    }
+.documentation-item {
+  margin-top:8px;
+  margin-bottom:24px;
+  h2 {
+    margin-top:4px;
+  }
 }
-
-.banner {
-    @include container;
-    /* Permalink - use to edit and share this gradient: http://colorzilla. /gradient-editor/#ebab39+0,c14b6a+100 */
-    background: #ebab39;
-    /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #ebab39 0%, #c14b6a 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #ebab39 0%, #c14b6a 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #ebab39 0%, #c14b6a 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    margin-top: 25px;
-    .banner_wrapper {
-        background-image: url(/media/geometric.svg);
-        background-position: right;
-        background-repeat: no-repeat;
-        height: 230px;
-    }
-    border-radius:2px;
+a.documentation-snippet {
+  &:hover {
+    text-decoration: none !important;
+  }
 }
-
-.news_landing {
-    background-color: $bg-color;
-    border-bottom: 1px solid $borders;
-    padding-bottom: 2%;
-    margin-bottom: 2%;
-    padding-top: 2%;
-    margin-top: -29px;
-    .news_landing_contents {
-        @include container;
-        .news_landing_current {
-            display: inline-block;
-            vertical-align: top;
-            width: 75%;
-            @include breakpoint(mobileonly) {
-                width: 66%
-            }
-            @include breakpoint(smallmobile) {
-                width: 100%;
-            }
-        }
-        .news_landing_more {
-            width: 22%;
-            margin-left: 2%;
-            border-left: 1px solid $borders;
-            padding-left: 2%;
-            display: inline-block;
-            vertical-align: top;
-            @include breakpoint(mobileonly) {
-                width: 30%
-            }
-            @include breakpoint(smallmobile) {
-                width: 100%;
-                border-left: none;
-            }
-        }
-        .news_landing_piece {
-            display: inline-block;
-            width: 29%;
-            margin-right: 5%;
-            vertical-align: top;
-            @include breakpoint(mobileonly) {
-                width: 100%;
-                img.img_article_thumb {
-                    width: 90%;
-                }
-            }
-            @include breakpoint(smallmobile) {
-                margin-bottom: 20px;
-                img.img_article_thumb {
-                    width: 90%;
-                    margin-bottom: 0px;
-                }
-            }
-            img.img_article_thumb {
-                float: none;
-                width: 100%;
-                margin: 0px;
-                padding: 0px;
-                margin-bottom: 3%;
-                max-width: 100%;
-            }
-            &:last-child {
-                margin-right: 0px;
-            }
-        }
-    }
+.category-list {
+  li {
+    margin:12px 0px;
+  }
 }
-
-ul.feed-list {
-    li {
-        margin-top: 4%;
-        margin-bottom: 4%;
-        border-bottom: 1px solid $borders;
-        padding-bottom: 2%;
-        list-style-type: none;
-        &:last-child {
-            border-bottom: none;
-        }
+.sidebar {
+  padding-top:6.5%;
+  @include breakpoint(md) {
+    ul {
+      padding-left:0px;
+      margin-left:0px;
     }
+    ul.category-list {
+      li {
+        display:inline-block;
+      }
+    }
+  }
 }
-
-ul.events-list-main {
-    li {}
+.card-height-fixed {
+  height:238px;
+  @include breakpoint(md) {
+    height:auto;
+  }
 }
-
-.event-date {
-    display: inline-block;
-    vertical-align: top;
-    width: 13%;
-    margin-right: 10px;
-    font-weight: 600;
-    .event-date-wrapper {
-        width: 90px;
-        &:hover span.event-month {
-            background: lighten($unitrans-red, 5)
-        }
-    }
-    span.event-month {
-        display: block;
-        padding: 4px 1px;
-        background: $unitrans-red;
-        color: #fff;
-        text-align: center;
-        // border-top-right-radius: 2px;
-        // border-top-left-radius: 2px;
-    }
-    span.event-day {
-        display: block;
-        padding: 6px 2px;
-        border-left: 1px solid $borders;
-        border-bottom: 1px solid $borders;
-        border-right: 1px solid $borders;
-        color: $primary-font;
-        text-align: center;
-    }
-}
-
-.event-main {
-    display: inline-block;
-    vertical-align: top;
-    width: 80%;
-    margin-left: 3%;
-    margin-top: -15px;
-}
-
-ul.news-list-main {
-    li {
-        min-height: 242px;
-    }
+.portfolio_item {
+  margin-top:5%;
+  margin-bottom:8%;
+  h1 {
+    font-family: $sans-reg !important;
+  }
 }

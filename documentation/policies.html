@@ -1,26 +1,19 @@
 ---
-layout: default
-title: CRU - Policies
+layout: twocol
+title: Policies
+description:  CRU hardware and software policies
+brand: policies
+permalink: /documentation/policies
+documentation: aside
 ---
 
-<div class="main">
-    <div class="main_contents">
-        <aside></aside>
-        <article>
-            <h1>Policies</h1>
-            <p class="lead">
-                CA&ES Dean's Office and UC Davis computing policies as well as standards and practices materials. 
-            </p>
-            {% for post in site.categories.policy %}
-            <div class="feed-item">
-                {% if post.image %}
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="img_article_thumb" src="{{ post.image }}"></a>{% endif %}
-                <h2 class="feed-title">
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                <p class="feed-description">{{ post.description }}</p>
-            </div>
-            {% endfor %}
-        </article>
-    </div>
+{% assign sorted = site.policies | sort: 'title' %}
+{% for post in sorted %}
+<div class="documentation-item">
+<a class="documentation-snippet" class="no-color" href="{{ site.baseurl }}{{ post.url }}">
+  <h2>{{post.title}}</h2>
+  <p style="margin-top:0px;">{{ post.description }}</p>
+</a>
 </div>
+
+{% endfor %}

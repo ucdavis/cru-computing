@@ -1,0 +1,19 @@
+---
+layout: twocol
+title: PEAKS Documentation
+description:  Documentation regarding the web app PEAKS
+brand: peaks
+permalink: /documentation/PEAKS
+documentation: aside
+---
+
+{% assign PEAKS = site.PEAKS %}
+{% for post in site.PEAKS %}
+<div class="documentation-item">
+<a class="documentation-snippet" class="no-color" href="{{ site.baseurl }}{{ post.url }}">
+  <h2>{{post.title}}</h2>
+  <p style="margin-top:0px;">{{ post.description }}</p>
+</a>
+</div>
+
+{% endfor %}

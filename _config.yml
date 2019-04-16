@@ -1,5 +1,5 @@
 # Site settings
-title: Computing Resources Unit
+title: CRU
 email: cydoval@ucdavis.edu
 description: > # this means to ignore newlines until "baseurl:"
   The Computing Resources Unit at the College of Agricultural and Environmental Sciences at UC Davis is one helluva mouthful.
@@ -20,4 +20,70 @@ plugins:
   - jekyll-autoprefixer
 
 collections:
-  - team
+  ACE:
+    output: true
+    permalink: /documentation/:collection/:title
+  PEAKS:
+    output: true
+    permalink: /documentation/:collection/:title
+  purchasing:
+    output: true
+    permalink: /documentation/:collection/:title
+  policies:
+    output: true
+    permalink: /documentation/:collection/:title
+  helpdesk:
+    output: true
+    permalink: /documentation/:collection/:title
+
+  portfolio:
+  team:
+collections_dir: collections
+
+defaults:
+  - scope:
+      type: "PEAKS"
+    values:
+      categories: "PEAKS"
+      brand: "peaks"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+  - scope:
+      type: "helpdesk"
+    values:
+      categories: "Helpdesk"
+      brand: "helpdesk"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+  - scope:
+      type: "policies"
+    values:
+      categories: "Policies"
+      brand: "policies"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+  - scope:
+      type: "purchasing"
+    values:
+      categories: "Purchasing"
+      brand: "purchasing"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+  - scope:
+      type: "ACE"
+    values:
+      categories: "ACE"
+      brand: "ace"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+
+
+breadcrumbs:
+root:
+  hide: false  # show breadcrumbs on root/home page
+  image: false # Show image or title text

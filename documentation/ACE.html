@@ -1,0 +1,19 @@
+---
+layout: twocol
+title: Academic Course Evaluations
+description:  Support articles regarding the ACE system.
+brand: ace
+permalink: /documentation/ace
+documentation: aside
+---
+
+{% assign ACE = site.ACE %}
+{% for post in site.ACE %}
+<div class="documentation-item">
+<a class="documentation-snippet" class="no-color" href="{{ site.baseurl }}{{ post.url }}">
+  <h2>{{post.title}}</h2>
+  <p style="margin-top:0px;">{{ post.description }}</p>
+</a>
+</div>
+
+{% endfor %}

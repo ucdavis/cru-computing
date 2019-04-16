@@ -1,0 +1,51 @@
+<ul class="category-list no-bullet mb-5">
+  <h3>Categories</h3>
+  <li><a class="Helpdesk-tag" href="/documentation/helpdesk">Help Desk</a></li>
+  <li><a class="Policies-tag" href="/documentation/policies">Policies</a></li>
+  <li><a class="ACE-tag" href="/documentation/ace">ACE</a></li>
+  <li><a class="Purchasing-tag" href="/documentation/purchasing">Purchasing</a></li>
+  <li><a class="PEAKS-tag" href="/documentation/PEAKS">PEAKS</a></li>
+</ul>
+<ul class="no-bullet">
+  <h3>Popular Articles</h3>
+  {% assign helpdesk = site.helpdesk %}
+  {% for post in site.helpdesk limit:1 %}
+  <li class="helpdesk-dot">
+    <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
+      <b>{{post.title}}</b> - {{post.date | date_to_string}}
+    </a>
+  </li>
+  {% endfor %}
+  {% assign policies = site.policies %}
+  {% for post in site.policies limit:1 %}
+  <li class="policies-dot">
+    <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
+      <b>{{post.title}}</b> - {{post.date | date_to_string}}
+    </a>
+  </li>
+  {% endfor %}
+  {% assign ACE = site.ACE %}
+  {% for post in site.ACE limit:1 %}
+  <li class="ace-dot">
+    <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
+      <b>{{post.title}}</b> - {{post.date | date_to_string}}
+    </a>
+  </li>
+  {% endfor %}
+  {% assign purchasing = site.purchasing %}
+  {% for post in site.purchasing limit:1 %}
+  <li class="purchasing-dot">
+    <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
+      <b>{{post.title}}</b> - {{post.date | date_to_string}}
+    </a>
+  </li>
+  {% endfor %}
+  {% assign PEAKS = site.PEAKS %}
+  {% for post in site.PEAKS limit:1 %}
+  <li class="peaks-dot">
+    <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
+      <b>{{post.title}}</b> - {{post.date | date_to_string}}
+    </a>
+  </li>
+  {% endfor %}
+</ul>

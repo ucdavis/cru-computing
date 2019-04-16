@@ -1,115 +1,60 @@
 ---
-layout: default
-title: CRU - Guides
+layout: twocol
+title: Documentation
+breadcrumb: <li><a href="/documentation">Documentation</a></li>
+description:  Struggling to maintain a proper temperature on your vintage flux capacitor or simply trying to login to sitefarm? Hopefully, we have your questions answered in our guide section.
+brand: documentation
+geotag: id-documentation
+permalink: /documentation
+documentation: aside
+
 ---
 
-<div class="main">
-    <div class="main_contents">
-        <aside>
-            {% include aside_nav.html %}
-        </aside>
-        <article>
-            <h1>Guides</h1>
-            <p class="lead">Guides on guides on guides.</p>
-            <p class="bordered">Struggling to maintain a proper temperature on your vintage flux capacitor or simply trying to login to plone? Hopefully, we have your questions answered in our guide section. Try narrowing down your question to one of our four sections</p>
-           <!--  <p><a class="california-poppy" href="/guides/web_dev">Web Development</a> • <a class="recpool-blue" href="/guides/app_dev"> App Development</a> • <a class="sunny-grass" href="/guides/help_desk">Help Desk</a></p> -->
-            <ul class="tabs" role="tablist">
-                <li role="presentation" class="active"><a href="#help" aria-controls="help" role="tab" data-toggle="tab">Help Desk</a></li>
-                <li role="presentation"><a href="#policy" aria-controls="policy" role="tab" data-toggle="tab">Policies</a></li>
-                <li role="presentation"><a href="#evals" aria-controls="policy" role="tab" data-toggle="tab">Evals</a></li>
-                <li role="presentation"><a href="#purchasing" aria-controls="policy" role="tab" data-toggle="tab">Purchasing</a></li>
-                <li role="presentation"><a href="#peaks" aria-controls="policy" role="tab" data-toggle="tab">PEAKS</a></li>
-                <!-- <li role="presentation"><a href="#web" aria-controls="web" role="tab" data-toggle="tab">Web Development</a></li>
-                <li role="presentation"><a href="#app" aria-controls="app" role="tab" data-toggle="tab">App Development</a></li> -->
-            </ul>
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="help">
-                    {% for post in site.categories.helpdesk %}
-                    <div class="feed-item">
-                        <h2 class="feed-title">
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                        <p class="feed-description">{{ post.description }}</p>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="web">
-                    {% for post in site.categories.web %}
-                    <div class="feed-item">
-
-                        <h2 class="feed-title">
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                        <p class="feed-description">{{ post.description }}</p>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="evals">
-                    {% assign orderedPosts = site.categories.evals | sort: "title" %}
-                    {% for post in orderedPosts %}
-                    <div class="feed-item">
-
-                        <h2 class="feed-title">
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                        <p class="feed-description">{{ post.description }}</p>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="purchasing">
-                    {% assign orderedPosts = site.categories.prepurchasing | sort: "title" %}
-                    {% for post in orderedPosts %}
-                    <div class="feed-item">
-
-                        <h2 class="feed-title">
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                        <p class="feed-description">{{ post.description }}</p>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="peaks">
-                    {% assign orderedPosts = site.categories.peaks | sort: "title" %}
-                    {% for post in orderedPosts %}
-                    <div class="feed-item">
-
-                        <h2 class="feed-title">
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                        <p class="feed-description">{{ post.description }}</p>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="app">
-                </div>
-                <div role="tabpanel" class="tab-pane" id="policy">
-                 {% for post in site.categories.policy %}
-            <div class="feed-item">
-                {% if post.image %}
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="img_article_thumb" src="{{ post.image }}"></a>{% endif %}
-                <h2 class="feed-title">
-                      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h2>
-                <p class="feed-description">{{ post.description }}</p>
-            </div>
-            {% endfor %}
-                </div>
-            </div>
+<div class="row">
+  <div class="col-md-4">
+    <div class="card card-height-fixed">
+      <div class="card-content">
+        <h2>PEAKS</h2>
+        <p>Information for the advancement inventory tracking system of PEAKS!</p>
+        <p><a class="PEAKS-tag" href="/documentation/PEAKS">PEAKS</a></p>
+      </div>
     </div>
-    </article>
-</div>
-<script>
-  $(function(){
-    // go to proper tab on page load
-    var hash = document.location.hash;
-    if (hash) {
-        $('.tabs a[href="'+hash+'"]').tab('show');
-    }
+  </div>
+  <div class="col-md-4">
+    <div class="card card-height-fixed">
+      <div class="card-content">
+        <h2>Policies</h2>
+        <p>CRU hardware and software policies.</p>
+        <p><a class="Policies-tag" href="/documentation/policies">View</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-height-fixed">
+      <div class="card-content">
+        <h2>PrePurchasing</h2>
+        <p>Support articles regarding the PrePurchasing system.</p>
+        <p><a class="Purchasing-tag" href="/documentation/purchasing">Purchasing</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-height-fixed">
+      <div class="card-content">
+        <h2>ACE</h2>
+        <p>Learn how to navigate and troubleshoot academic course evaluations.</p>
+        <p><a class="ACE-tag" href="/documentation/ace">View</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-height-fixed">
+      <div class="card-content">
+        <h2>Help Desk</h2>
+        <p>Articles relating to standard office support</p>
+        <p><a class="Helpdesk-tag" href="/documentation/helpdesk">View</a></p>
+      </div>
+    </div>
+  </div>
 
-    // Change hash for page-reload
-    $('.tabs a').on('shown.bs.tab', function (e) {
-        window.location.hash = e.target.hash;
-        window.scrollTo(0, 0);
-    });
-  })
-</script>
+</div>

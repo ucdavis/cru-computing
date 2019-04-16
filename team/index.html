@@ -1,150 +1,33 @@
 ---
-layout: default
-title: CRU - Team
+layout: teamlayout
+title: Team
+breadcrumb: <li><a href="/team">Team</a></li>
+description: Two Client Supporters under the sky, <br>
+              Two System Administrators in their cubicles of stone, <br>
+              Six website developers doomed to code, <br>
+              One Director to rule them all, One Director to find them, <br>
+              One Director to bring them all and in the basement bind them <br>
+              In the Land of Mrak where the Agriculture shines.
+brand: team
+geotag: id-team
+permalink: /team
+
 ---
-<div class="main">
-    <div class="main_contents">
-        <div class="faculty">
-            <div class="image-wrapper centered">
-                <img id="team-image" src="/media/team/team.png" alt="">
-            </div>
-            <div class="faculty-card">
-                <div class="faculty-image">
-                    <img src="/media/team/adam_pic.svg" alt="">
-                </div>
-                <div class="faculty-info">
-                    <h3>Adam Getchell</h3>
-                    <p>Director of Information Technology
-                        <br> (530) 752-8008
-                    </p>
-                    <a href="mailto:acgetchell@ucdavis.edu">acgetchell@ucdavis.edu</a>
-                </div>
-            </div>
-            <!--             <div class="faculty-card">
-                <div class="faculty-image">
-                    <img src="/media/team/tom_pic.svg" alt="">
-                </div>
-                <div class="faculty-info">
-                    <h3>Thomas Pomroy</h3>
-                    <p>Systems Architect
-                    <br>
-					(530) 408-6624
-                    </p>
-                    <a href="mailto:tepomroy@ucdavis.edu">tepomroy@ucdavis.edu</a>
-                </div>
-            </div> -->
-            <div class="faculty-card">
-                <div class="faculty-image">
-                    <img src="/media/team/shuka_pic.png" alt="">
-                </div>
-                <div class="faculty-info">
-                    <h3>Shuka Smith</h3>
-                    <p>Systems Architect
-                        <br> (530) 754-9597
-                    </p>
-                    <a href="mailto:ssmith@ucdavis.edu">ssmith@ucdavis.edu</a>
-                </div>
-            </div>
-            <div class="faculty-card">
-                <div class="faculty-image">
-                    <img src="/media/team/scott_pic.png" alt="">
-                </div>
-                <div class="faculty-info">
-                    <h3>Scott Kirkland</h3>
-                    <p>Applications Developer
-                    </p>
-                    <a href="mailto:srkirkland@ucdavis.edu">srkirkland@ucdavis.edu</a>
-                </div>
-            </div>
-            <div class="faculty-card">
-                <div class="faculty-image">
-                    <img src="/media/team/john_pic.png" alt="">
-                </div>
-                <div class="faculty-info">
-                    <h3>John Knoll</h3>
-                    <p>Applications Developer
-                    </p>
-                    <a href="mailto:jpknoll@ucdavis.edu">jpknoll@ucdavis.edu</a>
-                </div>
-            </div>
-            <div class="faculty-card">
-                <div class="faculty-image">
-                    <img src="/media/team/jason_pic.png" alt="">
-                </div>
-                <div class="faculty-info">
-                    <h3>Jason Sylvestre</h3>
-                    <p>Applications Developer
-                    </p>
-                    <a href="mailto:jsylvestre@ucdavis.edu">jsylvestre@ucdavis.edu</a>
-                </div>
-            </div>
-            <div class="faculty-card">
-                <div class="faculty-image">
-                    <img src="/media/team/ken_pic.png" alt="">
-                </div>
-                <div class="faculty-info">
-                    <h3>Ken Taylor</h3>
-                    <p>Applications Developer
-                        <br> (530) 752-1288
-                    </p>
-                    <a href="mailto:kentaylor@ucdavis.edu">kentaylor@ucdavis.edu</a>
-                </div>
-            </div>
-            <div class="faculty-card">
-                <div class="faculty-image">
-                    <img src="/media/team/laura_pic.png" alt="">
-                </div>
-                <div class="faculty-info">
-                    <h3>Laura Holstege</h3>
-                    <p>Applications Developer
-                    </p>
-                    <a href="mailto:laholstege@ucdavis.edu">laholstege@ucdavis.edu</a>
-                </div>
-            </div>
-            <div class="faculty-card">
-                <div class="faculty-image">
-                    <img src="/media/team/cal_pic.png" alt="">
-                </div>
-                <div class="faculty-info">
-                    <h3>Cal Doval</h3>
-                    <p>Web Developer
-                    </p>
-                    <a href="mailto:cydoval@ucdavis.edu">cydoval@ucdavis.edu</a>
-                </div>
-            </div>
-            <div class="faculty-card">
-                <div class="faculty-image">
-                    <img src="/media/team/steven_pic.png" alt="">
-                </div>
-                <div class="faculty-info">
-                    <h3>Steven Barkey</h3>
-                    <p>Systems Administrator
-                    </p>
-                    <a href="mailto:sjbarkey@ucdavis.edu">sjbarkey@ucdavis.edu</a>
-                </div>
-            </div>
-            <div class="faculty-card">
-                <div class="faculty-image">
-                    <img src="/media/team/dj_pic.png" alt="">
-                </div>
-                <div class="faculty-info">
-                    <h3>Darrell Joe</h3>
-                    <p>Client Support
-                    </p>
-                    <a href="mailto:dwjoe@ucdavis.edu">dwjoe@ucdavis.edu</a>
-                </div>
-            </div>
-            <div class="faculty-card">
-                <div class="faculty-image">
-                    <img src="/media/team/jackie_pic.png" alt="">
-                </div>
-                <div class="faculty-info">
-                    <h3>Jackie Emerson</h3>
-                    <p>Client Support
-                    </p>
-                    <a href="mailto:jaemerson@ucdavis.edu">jaemerson@ucdavis.edu</a>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="row team-wrapper">
+  {% assign team = site.team %}
+  {% for post in site.team %}
+<div class="col-sm-4">
+<div class="card card-height-fixed">
+  <div class="card-content text-center">
+    <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+    <h2>{{ post.name }}</h2>
+    <p>{{ post.role }}</p>
+    {% if post.phone %}
+    <p>{{ post.phone }}</p>
+      {% endif %}
+      <p><a href="mailto:{{ post.email }}">{{ post.email }}</a></p>
+  </div>
+</div>
+</div>
+{% endfor %}
 </div>

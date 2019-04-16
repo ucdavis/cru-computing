@@ -1,7 +1,7 @@
 /*** COLORS ***/
 $bg-color: #000;
-$txt-color: $gold;
-$icn-color: $gold;
+$txt-color: $golden-lupine;
+$icn-color: $golden-lupine;
 $search-border: 1px solid rgba(12, 12, 12, 0.4);
 $search-border-focus: 1px solid rgba(12, 12, 12, 0.75);
 /*** STYLES ***/
@@ -34,18 +34,18 @@ $search-border-focus: 1px solid rgba(12, 12, 12, 0.75);
 	}
 	&.active {
 		#inpt_search{
-			border-color: $gold;
-			color: $gold;
+			border-color: $golden-lupine;
+			color: $golden-lupine;
 		}
 		&:before{
-			border-color: $gold;
-			content: url("/media/search_form_gold.svg");
+			border-color: $golden-lupine;
+			content: url("/media/search_form_golden-lupine.svg");
 		}
 	}
 	&:hover {
 		#inpt_search, &:before {
-			border-color: $gold;
+			border-color: $golden-lupine;
 		}
 	}
-	
+
 }

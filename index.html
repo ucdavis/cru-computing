@@ -1,87 +1,204 @@
 ---
-layout: default
-title: CRU - Home
+layout: landing
+title: CAES Computing Resources Unit
 ---
-<!-- <div class="banner">
-	<div class="banner_wrapper">
-	</div>
-</div> -->
-<div class="main">
-    <div class="main_contents">
-        <div class="home_button-wrapper">
-            <div class="home_button-card">
-                <a href="/documentation/help-desk-ticket"><img src="/media/help_desk.svg" alt="key">
-                    <p>Help Desk Ticket</p>
-                </a>
-            </div>
-            <div class="home_button-card">
-                <a href="/documentation/remote-desktop"><img src="/media/remote.svg" alt="key">
-                    <p>Remote Desktop
-                        <br/>Instructions</p>
-                </a>
-            </div>
-            <div class="home_button-card">
-                <a href="/documentation/get-an-account"><img src="/media/account.svg" alt="key">
-                    <p>Get an Account</p>
-                </a>
-            </div>
-            <div class="home_button-card">
-                <a href="/documentation/out-of-office"><img src="/media/outofoffice.svg" alt="key">
-                    <p>Out of Office
-                        <br/>Reply</p>
-                </a>
-            </div>
-            <div class="home_button-card">
-                <a target="_blank" href="https://365.ucdavis.edu/"><img src="/media/web_app.svg" alt="key">
-                    <p>Outlook Web App</p>
-                </a>
-            </div>
-            <div class="home_button-card">
-                <a href="/documentation/dafis-connect"><img src="/media/dafis.svg" alt="key">
-                    <p>DaFis Connect</p>
-                </a>
-            </div>
-            <div class="home_button-card">
-                <a href="/documentation/temporary-affiliate-form"><img src="/media/form.svg" alt="key">
-                    <p>Temporary Affiliate Form</p>
-                </a>
-            </div>
-            <div class="home_button-card">
-                <a target="_blank" href="https://computingaccounts.ucdavis.edu/cgi-bin/services/index.cgi"><img src="/media/kerberos.svg" alt="key">
-                    <p>Change your Kerberos
-                        <br>Password</p>
-                </a>
-            </div>
-        </div>
+<div class="container">
+  <div class="row justify-content-between">
+    <div class="col">
+      <div class="brand">
+        <a href="/"><img src="/media/logomark.svg" alt="CAES Icon"></a>
+        <h1 >
+          <a href="/">
+            Computing <br>
+            Resources Unit
+          </div>
+          </a>
+        </h1>
     </div>
+  </div>
 </div>
-<div class="main">
-    <div class="main_contents no-bg">
-        <div class="row">
-            <div class="twelve columns">
-                <h3>Get in Contact</h3>
-                <div class="row">
-                    <div class="six columns">
 
-                            <iframe frameborder="0" height="300" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps/ms?msa=0&amp;msid=202755517476915240000.0004df609efcb0f5c8750&amp;ie=UTF8&amp;t=m&amp;ll=38.536996,-121.749179&amp;spn=0.001678,0.00457&amp;z=17&amp;output=embed" width="100%"></iframe>
+{% include geoshapes.html %}
 
-                    </div>
-                    <div class="six columns">
-                      <h3 style="margin-bottom:0px;">Help Desk</h3>
-                      <p><b>Location:</b> 150 Mrak Hall on the 1st Floor <br>
-                        <b>Phone:</b> (530) 754-7122 <br>
-                        <b>Email:</b>  <a class="email-link" href="mailto:support@caes.ucdavis.edu" target="_self" title="">support@caes.ucdavis.edu</a>
-                      </p>
-                      <h3 style="margin-bottom:0px;">Web, Application Support and Network Administration</h3>
-                      <p><b>Location:</b> 38 Mrak Hall in the basement<br>
-                        <b>Email:</b> <br> For Applications:<a class="email-link" href="mailto:apprequests@caes.ucdavis.edu" target="_self" title=""> apprequests@caes.ucdavis.edu</a><br> For Websites:
-                        <a class="email-link" href="mailto:webrequests@caes.ucdavis.edu" target="_self" title=""> webrequests@caes.ucdavis.edu</a>
-                      </p>
+<div class="container">
 
-                    </div>
-                </div>
-            </div>
+
+<nav class="homepage-nav">
+  <ul class="nav" id="nav_upperlevel">
+    <li class="nav-item">
+      <img src="/media/id-team.svg" alt="">
+      <a class="nav-link" href="/team">Team</a>
+    </li>
+    <li class="nav-item">
+      <img src="/media/id-portfolio.svg" alt="">
+      <a class="nav-link" href="/portfolio">Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <img src="/media/id-services.svg" alt="">
+      <a class="nav-link" href="/services">Services</a>
+    </li>
+    <li class="nav-item">
+      <img src="/media/id-documentation.svg" alt="">
+      <a class="nav-link" href="/documentation">Documentation</a>
+    </li>
+  </ul>
+</nav>
+<div class="row">
+  <div class="col-md-7">
+    <p class="lead">
+      The goal of the Computing Resources Unit is to provide the best possible customer service, application development, and technology infrastructure to support the business needs of the Dean’s Office and the College of Agricultural & Environmental Sciences and its departments.
+    </p>
+  </div>
+</div>
+<div class="row mt-5 mb-8 align-items-end">
+  <div class="col-md-7">
+    <h2>
+      Featured Projects
+    </h2>
+    {% assign portfolio = site.portfolio | where: "categories","featured"  %}
+    {% for post in portfolio %}
+    <a href="{{ post.current-url }}" target="_blank">
+    <div class="card featured-item">
+      <div class="row" style="background-color:#{{ post.bgcolor }}">
+        <div class="col-sm-6" style="padding-right:0px">
+          <img class="img-fluid" src="/media/portfolio/{{ post.image }}.png" alt="project_thumbnail">
         </div>
+        <div class="col-sm-6 align-self-center" style="padding-left:0px">
+          <h1>{{ post.title }}</h1>
+          <p class="lead">{{ post.Launched }} • {{ post.audience }}</p>
+        </div>
+      </div>
     </div>
+    </a>
+    {% endfor %}
+
+  </div>
+  <div class="col-md-4">
+    <ul class="homepage-hotbuttons">
+      <li>
+            <a href="/documentation/helpdesk/help-desk-ticket">
+                <i class="fa fa-flag"></i>Help Desk Ticket
+            </a>
+        </li>
+      <li>
+            <a href="/documentation/helpdesk/remote-desktop">
+                <i class="fa fa-home"></i>Remote Desktop Instructions
+            </a>
+        </li>
+      <li>
+            <a href="/documentation/helpdesk/get-an-account">
+                <i class="fa fa-suitcase"></i>Get an Account
+            </a>
+        </li>
+      <li>
+            <a href="/documentation/helpdesk/out-of-office">
+                <i class="fa fa-paper-plane"></i>Out of Office Reply
+            </a>
+        </li>
+      <li>
+            <a target="_blank" href="https://365.ucdavis.edu/">
+                <i class="fa fa-envelope"></i>Outlook Web App
+            </a>
+        </li>
+      <li>
+            <a href="/documentation/helpdesk/dafis-connect">
+                <i class="fas fa-code-branch"></i>DaFis Connect
+            </a>
+        </li>
+      <li>
+            <a href="/documentation/helpdesk/temporary-affiliate-form">
+                <i class="fa fa-edit"></i>Temporary Affiliate Form
+            </a>
+        </li>
+      <li>
+            <a target="_blank" href="https://computingaccounts.ucdavis.edu/cgi-bin/services/index.cgi">
+              <i class="fas fa-key"></i>Change your Kerberos Password
+            </a>
+        </li>
+    </ul>
+
+  </div>
 </div>
+
+<div class="row mb-8">
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-content">
+        <h3>Help Desk and infrastructure</h3>
+        <p>Providing support to over 350 users across the college! and counting!</p>
+        <p><a href="/documentation">Learn more about our standards and FAQs</a></p>
+          <div class="profile-wrap">
+            {% assign team = site.team | where: "categories","helpdesk"  %}
+            {% for post in team %}
+            <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+            {% endfor %}
 </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-content">
+        <h3>App Development</h3>
+        <p>Need to track T.A. hours? How about mapping power plant efficiency based on ARC GIS data? There's an app for that (made by us!)</p>
+        <p><a href="/portfolio">Explore the our web applications</a></p>
+          <div class="profile-wrap">
+            {% assign team = site.team | where: "categories","webdev"  %}
+            {% for post in team %}
+            <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+            {% endfor %}
+      </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-md-4">
+
+    <div class="card">
+      <div class="card-content">
+        <h3>Web Development</h3>
+        <p>From magnificent 50th anniversary award sites to UC Davis standard informational pages we've got it all!</p>
+        <p><a href="/portfolio">See our work here</a></p>
+        <div class="profile-wrap">
+          {% assign team = site.team | where: "categories","design"  %}
+          {% for post in team %}
+          <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="row">
+
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-content">
+              <h3>Get in Contact</h3>
+              <iframe frameborder="0" height="300" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps/ms?msa=0&amp;msid=202755517476915240000.0004df609efcb0f5c8750&amp;ie=UTF8&amp;t=m&amp;ll=38.536996,-121.749179&amp;spn=0.001678,0.00457&amp;z=17&amp;output=embed" width="100%"></iframe>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-content">
+              <h3>Help Desk</h3>
+              <p><b>Location:</b> 150 Mrak Hall on the 1st Floor <br>
+                <b>Phone:</b> (530) 754-7122 <br>
+                <b>Email:</b>  <a class="email-link" href="mailto:support@caes.ucdavis.edu" target="_self" title="">support@caes.ucdavis.edu</a>
+              </p>
+              <h3 style="margin-bottom:0px;">Web, Application Support and Network Administration</h3>
+              <p><b>Location:</b> 38 Mrak Hall in the basement<br>
+                <b>Email:</b> <br> For Applications:<a class="email-link" href="mailto:apprequests@caes.ucdavis.edu" target="_self" title=""> apprequests@caes.ucdavis.edu</a><br> For Websites:
+                <a class="email-link" href="mailto:webrequests@caes.ucdavis.edu" target="_self" title=""> webrequests@caes.ucdavis.edu</a>
+              </p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </div>

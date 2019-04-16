@@ -1,48 +1,38 @@
-<header>
-    <div class="header_contents">
-        <div class="logo_wrapper">
-            <img class="logo" src="/media/cru_logo.svg" alt="">
-            <a href="/"><h1>Computing Resources Unit</h1></a>
-        </div>
-        <div class="search_wrapper">
-            <a class="caes_logo" href="https://www.caes.ucdavis.edu"><img class="caes_logo" src="/media/caes_logo.svg" alt=""></a>
-            <a class="nav_toggle nav_open active" href="#nav" title="Show navigation"><i class="fa fa-bars"></i></a>
-            <a class="nav_toggle nav_close" href="#" title="Hide navigation"><i class="fa fa-times"></i></a>
-        </div>
+<header class="container">
+  <div class="row justify-content-between">
+    <div class="col-md-5">
+      <div class="brand">
+        <a href="/"><img src="/media/logomark.svg" alt="CAES Icon"></a>
+        <h1 >
+          <a href="/">
+            Computing <br>
+            Resources Unit
+          </div>
+          </a>
+        </h1>
     </div>
-</header>
-<div class="nav_wrapper">
-    <nav id="nav" role="navigation">
-        <ul id="nav_upperlevel">
-            <li>
-                <a href="/documentation" aria-haspopup="true">Documentation</a>
-                <!-- <ul class="submenu">
-                    <li><a href="/documentation/help_desk">Help Desk</a></li>
-                    <li><a href="/documentation/policies">Policies</a></li>
-                    <li><a href="/documentation/#web">Web Development</a></li>
-                    <li><a href="/documentation#web">App Development</a></li>
-                </ul> -->
-            </li>
-            <li>
-                <a href="/team">Team</a>
-            </li>
-
-            <li>
-                <a href="/services">Services</a>
-            </li>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <!-- <li>
-                <a href="/activity">Activity</a>
-            </li> -->
-            <li>
-                <a target="_blank" href="https://status.caes.ucdavis.edu/">Status</a>
-            </li>
-            <li>
-                <a href="/goldenticket">Jobs</a>
-            </li>
+    <div class="col-md-7">
+      <nav>
+        <ul class="nav upnav" id="nav_upperlevel">
+          <li class="nav-item">
+            <a class="team-active nav-link" href="/team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="portfolio-active nav-link" href="/portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="services-active nav-link" href="/services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="documentation-active nav-link" href="/documentation">Documentation</a>
+          </li>
         </ul>
-    </nav>
-</div>
+      </nav>
+    </div>
+  </div>
+
+</header>
+
 <script>
     $(".nav_toggle").click(function() {
         $(".nav_toggle").toggle("active");
