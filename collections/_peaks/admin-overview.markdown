@@ -78,12 +78,12 @@ To remove an admin, or remove a admin role:
 ## Step 5
 Start assigning and creating assets. FAQs for each of these can be found here:
 
-[People](https://computing.caes.ucdavis.edu/faq/peaks/people)
+[People](/documentation/peaks/people)
 
-[Access Item](https://computing.caes.ucdavis.edu/faq/peaks/access-item)
+[Access Item](/documentation/peaks/access-item)
 
-[Equipment](https://computing.caes.ucdavis.edu/faq/peaks/equipment)
+[Equipment](/documentation/peaks/equipment)
 
-[Keys](https://computing.caes.ucdavis.edu/faq/peaks/keys)
+[Keys](/documentation/peaks/keys)
 
-[Spaces](https://computing.caes.ucdavis.edu/faq/peaks/spaces)
+[Spaces](/documentation/peaks/spaces)
