@@ -12,7 +12,7 @@ date:   2019-04-01 11:03:00
 * On the person details page, moved the supervisor name under the contact details
 * Fixed some reports that had bold column text
 * Emails for workstations assignment now includes a link if they need to accept the assignment
-* Bulk edit people in the team. This is currently limited to Departmental Admins. //TODO: Show link to faq instructions for this page
+* Bulk edit people in the team. This is currently limited to Departmental Admins. [Bulk Edit](/documentation/peaks/bulk-edit-people)
 * On the workstation history and emails, show the room information.
 * Fix duplication email notification.
 * Added Key Reports and API feeds
