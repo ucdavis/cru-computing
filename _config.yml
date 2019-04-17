@@ -23,9 +23,6 @@ collections:
   ace:
     output: true
     permalink: /documentation/:collection/:title
-  peaks:
-    output: true
-    permalink: /documentation/:collection/:title
   purchasing:
     output: true
     permalink: /documentation/:collection/:title
@@ -35,7 +32,12 @@ collections:
   helpdesk:
     output: true
     permalink: /documentation/:collection/:title
-
+  peaks:
+    output: true
+    permalink: /documentation/:collection/:title
+  peakstest:
+    output: true
+    permalink: /documentation/:collection/:title
   portfolio:
   team:
 collections_dir: collections
@@ -78,6 +80,14 @@ defaults:
     values:
       categories: "ACE"
       brand: "ace"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+  - scope:
+      type: "peakstest"
+    values:
+      categories: "PEAKS"
+      brand: "peaks"
       documentation: "aside"
       layout: "twocol"
       bio: "true"
