@@ -32,7 +32,7 @@ collections:
   helpdesk:
     output: true
     permalink: /documentation/:collection/:title
-  peakstest:
+  peaks:
     output: true
     permalink: /documentation/:collection/:title
   portfolio:
@@ -73,7 +73,7 @@ defaults:
       layout: "twocol"
       bio: "true"
   - scope:
-      type: "peakstest"
+      type: "peaks"
     values:
       categories: "PEAKS"
       brand: "peaks"
