@@ -6,6 +6,27 @@ date:   2019-04-01 11:03:00
 ---
 
 # New Features and Changes
+## April 17, 2019 Inclusive changes
+* Better campus User lookup. Will find people that have not set a display name.
+* Added a sortable, search-able Supervisors column to the person asset page.
+* On the person details page, moved the supervisor name under the contact details
+* Fixed some reports that had bold column text
+* Emails for workstations assignment now includes a link if they need to accept the assignment
+* Bulk edit people in the team. This is currently limited to Departmental Admins. [Bulk Edit](/documentation/peaks/bulk-edit-people)
+* On the workstation history and emails, show the room information.
+* Fix duplication email notification.
+* Added Key Reports and API feeds
+* Default Person Category to Not Set
+* Added a Person Manager role. This role allows admins who are not already a departmental admin to edit people in the team.
+* Added Fields to the API People Feed
+* Access Report and API Feed
+* Equipment Report and API Feed
+* Improved the PPS load of people to more accurately reflect the person's home department
+* Workstations report
+* Equipment Type search-able
+* Updated informational text on the bulk load of people
+ 
+
 ## April 1, 2019
 * Fixed issue with KeySerial (Physical Keys) history not being recorded.
 * Changed Key Serials under keys so that they can be sorted and searched.
