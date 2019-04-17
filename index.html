@@ -58,7 +58,7 @@ title: CAES Computing Resources Unit
     {% assign portfolio = site.portfolio | where: "categories","featured"  %}
     {% for post in portfolio %}
     <a href="{{ post.current-url }}" target="_blank">
-    <div class="card featured-item">
+    <div class="card mb-5 featured-item">
       <div class="row" style="background-color:#{{ post.bgcolor }}">
         <div class="col-sm-6" style="padding-right:0px">
           <img class="img-fluid" src="/media/portfolio/{{ post.image }}.png" alt="project_thumbnail">
