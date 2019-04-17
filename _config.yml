@@ -43,7 +43,7 @@ defaults:
   - scope:
       type: "helpdesk"
     values:
-      categories: "Helpdesk"
+      categories: "helpdesk"
       brand: "helpdesk"
       documentation: "aside"
       layout: "twocol"
@@ -51,7 +51,7 @@ defaults:
   - scope:
       type: "policies"
     values:
-      categories: "Policies"
+      categories: "policies"
       brand: "policies"
       documentation: "aside"
       layout: "twocol"
@@ -59,7 +59,7 @@ defaults:
   - scope:
       type: "purchasing"
     values:
-      categories: "Purchasing"
+      categories: "purchasing"
       brand: "purchasing"
       documentation: "aside"
       layout: "twocol"
@@ -67,7 +67,7 @@ defaults:
   - scope:
       type: "ace"
     values:
-      categories: "ACE"
+      categories: "ace"
       brand: "ace"
       documentation: "aside"
       layout: "twocol"
@@ -75,7 +75,7 @@ defaults:
   - scope:
       type: "peaks"
     values:
-      categories: "PEAKS"
+      categories: "peaks"
       brand: "peaks"
       documentation: "aside"
       layout: "twocol"

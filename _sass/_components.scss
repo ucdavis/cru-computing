@@ -183,35 +183,35 @@
     }
   }
 }
-.PEAKS-tag {
+.peaks-tag {
   @include tag;
   background-color:$peaks;
   &:hover {
     background-color:transparentize($peaks, .15);
   }
 }
-.Policies-tag {
+.policies-tag {
   @include tag;
   background-color:$policies;
   &:hover {
     background-color:transparentize($policies, .35);
   }
 }
-.Helpdesk-tag {
+.helpdesk-tag {
   @include tag;
   background-color:$helpdesk;
   &:hover {
     background-color:transparentize($helpdesk, .35);
   }
 }
-.Purchasing-tag {
+.purchasing-tag {
   @include tag;
   background-color:$purchasing;
   &:hover {
     background-color:transparentize($purchasing, .35);
   }
 }
-.ACE-tag {
+.ace-tag {
   @include tag;
   background-color:$ace;
   &:hover {
