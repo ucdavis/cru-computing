@@ -6,6 +6,9 @@ date:   2019-04-01 11:03:00
 ---
 
 # New Features and Changes
+## April 19, 2019
+* Replaced the Admin side menu with a dropdown menu
+
 ## April 17, 2019 Inclusive changes
 * Better campus User lookup. Will find people that have not set a display name.
 * Added a sortable, search-able Supervisors column to the person asset page.
