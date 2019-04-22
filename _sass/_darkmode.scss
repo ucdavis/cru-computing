@@ -1,0 +1,101 @@
+body.darkmode {
+  background-color: $darkmode;
+  .brand {
+    a {
+      color:$dm-secondary-font;
+      &:hover {
+        color:$dm-primary-font;
+        text-decoration: none;
+      }
+    }
+  }
+  nav.homepage-nav {
+    ul.nav {
+      li.nav-item {
+        a.nav-link {
+          color:$dm-primary-font;
+          &:hover {
+            background-color:$darkmode;
+          }
+        }
+      }
+    }
+  }
+  nav {
+    ul.nav {
+      li.nav-item {
+        a.nav-link {
+          color:$dm-primary-font;
+          border-bottom:4px solid $darkmode;
+          &:hover {
+            background-color:$darkmode-alt;
+          }
+        }
+      }
+    }
+  }
+  ol.breadcrumb {
+    background-color: $darkmode;
+    a {
+      color: $dm-secondary-font;
+    }
+  }
+  a {
+      &.no-color {
+        color:$dm-primary-font !important;
+      }
+  }
+
+  ul,
+  ol {
+      li {
+          color: $dm-primary-font;
+
+      }
+
+  }
+  li.helpdesk-dot:after {
+      @include dot-color;
+      color:$helpdesk;
+  }
+  li.policies-dot:after {
+      @include dot-color;
+      color:$policies;
+  }
+  li.ace-dot:after {
+      @include dot-color;
+      color:$ace;
+  }
+  li.purchasing-dot:after {
+      @include dot-color;
+      color:$purchasing;
+  }
+  li.peaks-dot:after {
+      @include dot-color;
+      color:$peaks;
+  }
+  p {
+      color: $dm-primary-font;
+      &.lead {
+          color:$dm-secondary-font;
+      }
+      &.discreet {
+        color:$dm-tertiary-font;
+      }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      color: $dm-primary-font;
+  }
+
+  .card {
+    background-color: $darkmode-alt;
+    box-shadow: $box-shadow;
+  }
+
+}
