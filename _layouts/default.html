@@ -2,7 +2,7 @@
 <html>
 
   {% include head.html %}
-  <body class="darkmode">
+  <body>
 
     {% include header.html %}
 
@@ -35,6 +35,29 @@
   <script>
     new UISearch( document.getElementById( 'sb-search' ) );
   </script>-->
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script>
+    // add toggler
+    $("#dm-toggle").click(function() {
+        $("body").toggleClass("darkmode");
+
+        var isDarkMode = Cookies.get('darkmode');
+        if (isDarkMode === '1') {
+            Cookies.set('darkmode', '0', { expires: 1 });
+        } else {
+            Cookies.set('darkmode', '1', { expires: 1 });
+        }
+    });
+
+    $(function() {
+        // on load, set class
+        var isDarkMode = Cookies.get('darkmode');
+        if (isDarkMode === '1') {
+            $("body").addClass("darkmode");
+        }
+    });
+</script>
     <script>
        $(".breadcrumb li").last().addClass('active');
     </script>
@@ -48,4 +71,5 @@
   ga('send', 'pageview');
 
 </script>
+
 </html>
