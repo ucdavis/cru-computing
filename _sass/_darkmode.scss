@@ -1,3 +1,4 @@
+
 body.darkmode {
   background-color: $darkmode;
   .brand {
@@ -104,5 +105,8 @@ body.darkmode {
         color:$dm-primary-font;
       }
 
+  }
+  footer i {
+    color:$dm-primary-font;
   }
 }

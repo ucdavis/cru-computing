@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-  <body>
+  <body {% if page.home %} class="landing-bg" {% endif %} >
+    <script>
+        function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for(var i = 0; i <ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+        }
 
+        if (getCookie('darkmode') === '1') {
+            var body = document.getElementsByTagName('body')[0];
+            body.className += ' darkmode';
+        }
+    </script>
+    {% if page.home == nil %}
     {% include header.html %}
-
+    {% endif %}
 
         {{ content }}
 
 
     {% include footer.html %}
 
-  </body>
-  <!-- Modal -->
-  <script>
-    $('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').focus()
-  })
-  </script>
 
-  <!-- active nav -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  <script src="/js/cssbrowserselector.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script type="text/javascript">
     $(function() {
        if (location.pathname.split("/")[1]) {
@@ -28,36 +46,22 @@
        }
     });
   </script>
-  <!-- Searchpopup -->
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script>
+        // add toggler
+        $("#dm-toggle").click(function() {
+            $("body").toggleClass("darkmode");
+
+            var isDarkMode = Cookies.get('darkmode');
+            if (isDarkMode === '1') {
+                Cookies.set('darkmode', '0', { expires: 1 });
+            } else {
+                Cookies.set('darkmode', '1', { expires: 1 });
+            }
+        });
+    </script>
   <script src="/js/classie.js"></script>
-  <script src="/js/tooltip.js"></script>
-  <!--<script src="/js/uisearch.js"></script>
-  <script>
-    new UISearch( document.getElementById( 'sb-search' ) );
-  </script>-->
-  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-<script>
-    // add toggler
-    $("#dm-toggle").click(function() {
-        $("body").toggleClass("darkmode");
-
-        var isDarkMode = Cookies.get('darkmode');
-        if (isDarkMode === '1') {
-            Cookies.set('darkmode', '0', { expires: 1 });
-        } else {
-            Cookies.set('darkmode', '1', { expires: 1 });
-        }
-    });
-
-    $(function() {
-        // on load, set class
-        var isDarkMode = Cookies.get('darkmode');
-        if (isDarkMode === '1') {
-            $("body").addClass("darkmode");
-        }
-    });
-</script>
     <script>
        $(".breadcrumb li").last().addClass('active');
     </script>
@@ -71,5 +75,5 @@
   ga('send', 'pageview');
 
 </script>
-
+</body>
 </html>

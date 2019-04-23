@@ -42,25 +42,30 @@ ol {
     }
 
 }
-li.helpdesk-dot:after {
-    @include dot-color;
-    color:$helpdesk;
+li.commencement-dot a {
+  @include dot-color;
+  border-color:$commencement;
 }
-li.policies-dot:after {
+li.helpdesk-dot a {
     @include dot-color;
-    color:$policies;
+    border-color:$helpdesk;
+
 }
-li.ace-dot:after {
+li.policies-dot a {
     @include dot-color;
-    color:$ace;
+    border-color:$policies;
 }
-li.purchasing-dot:after {
+li.ace-dot a {
     @include dot-color;
-    color:$purchasing;
+    border-color:$ace;
 }
-li.peaks-dot:after {
+li.purchasing-dot a {
     @include dot-color;
-    color:$peaks;
+    border-color:$purchasing;
+}
+li.peaks-dot a {
+    @include dot-color;
+    border-color:$peaks;
 }
 p {
     line-height: 1.625;

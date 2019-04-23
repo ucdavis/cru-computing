@@ -8,7 +8,6 @@
 
 html {
   position: relative;
-  min-height: 100%;
   height: inherit;
 }
 
@@ -16,6 +15,7 @@ body {
   background-color:#fff;
   margin: 0 0 150px;
   padding-top:20px;
+  @include fader;
 }
 .landing-bg {
   background: url("/media/geo.svg");
@@ -85,4 +85,7 @@ footer {
   left:0;
   right:0;
   margin-bottom:32px;
+  i {
+    color: $secondary-font;
+  }
 }
