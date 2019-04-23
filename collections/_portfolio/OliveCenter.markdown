@@ -5,8 +5,8 @@ description: "The UC Davis Olive Center is a self-funded university/industry coa
 client: "Dan Flynn"
 client-email: "jdflynn@ucdavis.edu"
 current-url: "https://olivecenter.ucdavis.edu/"
-Launched: Jan 2018
 developers:
   - Cal Doval
 image: "olivecenter"
+date: 2017-10-23
 ---

@@ -7,6 +7,6 @@ client-email: "cweintraub@ucdavis.edu"
 current-url: "https://caes.ucdavis.edu/"
 developers:
   - Cal Doval
-Launched: September 2018
 image: "caes"
+date: 2018-09-23
 ---

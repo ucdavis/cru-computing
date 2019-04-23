@@ -5,8 +5,8 @@ description: "e-Afghan Ag is supported by USAID. UC Davis is the lead institutio
 client: "Kate Wilkins"
 client-email: "kmwilkins@ucdavis.edu"
 current-url: "https://echina-apple.com/"
-Launched: Nov 2015
 developers:
   - Cal Doval
 image: "echina"
+date: 2015-11-23
 ---

@@ -9,4 +9,5 @@ Launched: Aug 2017
 developers:
   - Cal Doval
 image: "climatesmart"
+date: 2017-08-23
 ---

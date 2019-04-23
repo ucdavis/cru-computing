@@ -5,8 +5,8 @@ description: "The Honey and Pollination Center increases consumer, industry and 
 client: "Evan White"
 client-email: "emwhite@ucdavis.edu"
 current-url: "https://honey.ucdavis.edu/"
-Launched: March 2018
 developers:
   - Cal Doval
 image: "honeycenter"
+date: 2018-03-23
 ---

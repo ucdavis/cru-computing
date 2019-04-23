@@ -6,7 +6,6 @@ current-url:
 developers:
   - Scott Kirkland
   - Jason Sylvestre
-Launched: Jan 2018
 image: "agribusiness"
-
+date: 2018-01-23
 ---

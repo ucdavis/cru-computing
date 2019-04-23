@@ -7,6 +7,6 @@ client-email: "jensm@ucdavis.edu"
 current-url: "https://ffhi.ucdavis.edu/"
 developers:
   - Cal Doval
-Launched: Nov 2018
 image: "ffhi"
+date: 2018-11-23
 ---

@@ -7,6 +7,6 @@ client-email: "kjaraujo@ucdavis.edu"
 current-url: "https://crf.ucdavis.edu/"
 developers:
   - Cal Doval
-Launched: Dec 2017
 image: "crf"
+date: 2017-10-23
 ---

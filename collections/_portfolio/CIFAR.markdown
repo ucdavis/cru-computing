@@ -7,6 +7,6 @@ client-email: "spshoemaker@ucdavis.edu"
 current-url: "https://cifar.ucdavis.edu/"
 developers:
   - Cal Doval
-Launched: Jan 2018
 image: "cifar"
+date: 2017-11-23
 ---

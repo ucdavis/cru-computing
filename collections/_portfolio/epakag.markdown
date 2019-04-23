@@ -5,8 +5,8 @@ description: "e-Afghan Ag is supported by USAID. UC Davis is the lead institutio
 client: "Kate Wilkins"
 client-email: "kmwilkins@ucdavis.edu"
 current-url: "https://epakag.ucdavis.edu/"
-Launched: Oct 2016
 developers:
   - Cal Doval
 image: "epakag"
+date: 2016-10-23
 ---

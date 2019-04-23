@@ -5,8 +5,8 @@ description: "The 34,000-square-foot facility, funded entirely by private donati
 client: "Evan White"
 client-email: "emwhite@ucdavis.edu"
 current-url: "https://greenrmi.ucdavis.edu/"
-Launched: Aug 2015
 developers:
   - Cal Doval
 image: "greenrmi"
+date: 2015-08-23
 ---

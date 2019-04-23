@@ -7,6 +7,6 @@ client-email: "cweintraub@ucdavis.edu"
 current-url: "https://gsd.ucdavis.edu/"
 developers:
   - Cal Doval
-Launched: Dec 2017
 image: "gsd"
+date: 2017-12-23
 ---

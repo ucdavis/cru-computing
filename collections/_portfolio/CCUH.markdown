@@ -5,8 +5,8 @@ description: "Our mission is to present workshops and programs, in addition to w
 client: "Dave Fujino"
 client-email: "dwfujino@ucdavis.edu"
 current-url: "https://ccuh.ucdavis.edu/"
-Launched: February 2018
 developers:
   - Cal Doval
 image: "ccuh"
+date: 2018-02-23
 ---

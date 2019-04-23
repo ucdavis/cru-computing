@@ -55,8 +55,8 @@ home: true
     <h2>
       Featured Projects
     </h2>
-    {% assign portfolio = site.portfolio | where: "categories","featured"  %}
-    {% for post in portfolio %}
+    {% assign portfolio = site.portfolio | sort:"date" %}
+    {% for post in portfolio limit: 2 %}
     <a href="{{ post.current-url }}" target="_blank">
     <div class="card mb-5 featured-item">
       <div class="row" style="background-color:#{{ post.bgcolor }}">
@@ -65,7 +65,7 @@ home: true
         </div>
         <div class="col-sm-6 align-self-center" style="padding-left:0px">
           <h1>{{ post.title }}</h1>
-          <p class="lead">{{ post.Launched }} • {{ post.audience }}</p>
+          <p class="lead">{{ post.date | date: "%B %Y"  }} • {{ post.audience }}</p>
         </div>
       </div>
     </div>

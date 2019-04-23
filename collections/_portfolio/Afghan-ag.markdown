@@ -5,11 +5,10 @@ description: "e-Afghan Ag is supported by USAID. UC Davis is the lead institutio
 client: "Kate Wilkins"
 client-email: "kmwilkins@ucdavis.edu"
 current-url: "https://afghanag.ucdavis.edu/"
-Launched: Jan 2018
 developers:
   - Cal Doval
 image: afghanag
-
+date: 2018-01-23
 ---
 
 Nothing needs to be here

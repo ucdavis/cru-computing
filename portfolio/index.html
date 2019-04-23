@@ -7,7 +7,7 @@ geotag: id-portfolio
 permalink: /portfolio
 
 ---
-{% for portfolio in site.portfolio %}
+{% for portfolio in site.portfolio reversed %}
 <a class="no-color no-underline" target="_blank" href="{{portfolio.current-url}}">
 <div class="portfolio_item">
   <div class="row justify-content-between">
@@ -17,7 +17,7 @@ permalink: /portfolio
           {{ portfolio.title }}
 
       </h1>
-          <p class="lead">{{ portfolio.Launched }} • {{ portfolio.audience }}</p>
+          <p class="lead">{{ portfolio.date | date: "%B %Y"  }} • {{ portfolio.audience }}</p>
           <p>{{ portfolio.description }}</p>
           {% if portfolio.developers %}
       <div class="profile-wrap">

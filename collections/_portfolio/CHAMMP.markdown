@@ -6,8 +6,8 @@ reason: "Migration off Plone"
 client: "Stephanie Maroney"
 client-email: "srmaroney@ucdavis.edu"
 current-url: "https://chammp.ucdavis.edu/"
-Launched: Dec 2017
 developers:
   - Cal Doval
 image: "chammp"
+date: 2017-12-23
 ---
