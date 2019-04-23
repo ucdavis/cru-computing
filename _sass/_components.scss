@@ -183,11 +183,36 @@
     }
   }
 }
+.commencement-total {
+  hr {
+    border:1px solid $commencement;
+    margin-bottom:1.6rem;
+  }
+  ol.breadcrumb {
+    > .active {
+      color: transparentize($commencement, .23);
+    }
+  }
+  a {
+    color:$commencement;
+    &:hover {
+      text-decoration: underline;
+      color:lighten($commencement,15);
+    }
+  }
+}
 .peaks-tag {
   @include tag;
   background-color:$peaks;
   &:hover {
     background-color:transparentize($peaks, .15);
+  }
+}
+.commencement-tag {
+  @include tag;
+  background-color:$commencement;
+  &:hover {
+    background-color:transparentize($commencement, .15);
   }
 }
 .policies-tag {

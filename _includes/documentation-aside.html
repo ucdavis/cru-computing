@@ -5,6 +5,7 @@
   <li><a class="ace-tag" href="/documentation/ace">ACE</a></li>
   <li><a class="purchasing-tag" href="/documentation/purchasing">Purchasing</a></li>
   <li><a class="peaks-tag" href="/documentation/peaks">PEAKS</a></li>
+  <li><a class="commencement-tag" href="/documentation/commencement">Commencement</a></li>
 </ul>
 <ul class="no-bullet">
   <h3>Popular Articles</h3>
@@ -43,6 +44,14 @@
   {% assign peaks = site.peaks %}
   {% for post in site.peaks limit:1 %}
   <li class="peaks-dot">
+    <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
+      <b>{{post.title}}</b> - {{post.date | date_to_string}}
+    </a>
+  </li>
+  {% endfor %}
+  {% assign commencement = site.commencement %}
+  {% for post in site.commencement limit:1 %}
+  <li class="commencement-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
     </a>

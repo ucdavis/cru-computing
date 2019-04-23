@@ -35,6 +35,9 @@ collections:
   peaks:
     output: true
     permalink: /documentation/:collection/:title
+  commencement:
+    output: true
+    permalink: /documentation/:collection/:title
   portfolio:
   team:
 collections_dir: collections
@@ -77,6 +80,14 @@ defaults:
     values:
       categories: "peaks"
       brand: "peaks"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+  - scope:
+      type: "commencement"
+    values:
+      categories: "commencement"
+      brand: "commencement"
       documentation: "aside"
       layout: "twocol"
       bio: "true"
