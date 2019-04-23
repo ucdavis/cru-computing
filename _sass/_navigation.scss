@@ -77,13 +77,28 @@ nav.homepage-nav {
         font-family: $sans-bold;
         font-size:2.8rem;
         padding-top:0px;
+        padding-bottom:0px;
         margin-top:-5px;
         @include breakpoint(lg) {
           font-size:2rem;
         }
         &:hover {
           background-color:#fff;
+          border-bottom:4px solid $primary-font;
         }
+      }
+      @include fader;
+      &:nth-child(1) a:hover {
+        border-bottom-color:$team;
+      }
+      &:nth-child(2) a:hover {
+        border-bottom-color:$portfolio;
+      }
+      &:nth-child(3) a:hover {
+        border-bottom-color:$services;
+      }
+      &:nth-child(4) a:hover {
+        border-bottom-color:$documentation;
       }
     }
   }
