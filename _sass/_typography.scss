@@ -19,6 +19,9 @@ a {
     &.no-color {
       color:$primary-font !important;
     }
+    &.no-underline {
+      text-decoration: none !important;
+    }
 }
 
 ul,

@@ -8,13 +8,14 @@ permalink: /portfolio
 
 ---
 {% for portfolio in site.portfolio %}
+<a class="no-color no-underline" target="_blank" href="{{portfolio.current-url}}">
 <div class="portfolio_item">
   <div class="row justify-content-between">
     <div class="col-md-6">
       <h1>
-        <a class="no-color" target="_blank" href="{{portfolio.current-url}}">
+
           {{ portfolio.title }}
-        </a>
+
       </h1>
           <p class="lead">{{ portfolio.Launched }} • {{ portfolio.audience }}</p>
           <p>{{ portfolio.description }}</p>
@@ -33,10 +34,8 @@ permalink: /portfolio
       <img class="img-fluid" src="/media/portfolio/{{ portfolio.image }}.png" alt="">
     </div>
   </div>
-
-
-
 </div>
+  </a>
 {% endfor %}
 
 

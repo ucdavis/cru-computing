@@ -108,5 +108,12 @@ a.documentation-snippet {
   margin-bottom:8%;
   h1 {
     font-family: $sans-reg !important;
+    &:hover {
+      text-decoration: none !important;
+    }
   }
+  &:hover {
+    
+  }
+
 }
