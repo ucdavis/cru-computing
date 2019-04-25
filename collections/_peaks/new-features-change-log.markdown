@@ -2,10 +2,18 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-04-01 11:03:00
+date:   2019-04-25
 ---
 
 # New Features and Changes
+## April 25, 2019
+* Granted Person Manager ability to bulk edit people.
+* Changed around the admin menu a little to make it more clear what the actions are.
+* Show a limited admin menu if someone only has the Person manager role.
+* If you have access to multiple teams, you can now access them through the team dropdown.
+* Added a Refresh permissions to the teams dropdown.
+* Behind the scenes changes to improve performance.
+
 ## April 19, 2019
 * Replaced the Admin side menu with a dropdown menu
 
