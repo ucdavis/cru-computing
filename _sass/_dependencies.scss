@@ -181,3 +181,14 @@ $card-thick-padding: 3rem;
   padding-left:5px;
   border-left:4px solid $primary-color;
 }
+.rotate{
+
+    transition: all .5s linear;
+}
+
+.rotate.down{
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

@@ -431,4 +431,7 @@ img.img-fluid {
 .no-btn {
   background-color: rgba(255,255,255,.00005);
   border:none;
+  &:focus {
+    outline: none;
+  }
 }
