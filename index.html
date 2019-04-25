@@ -50,10 +50,10 @@ home: true
     </p>
   </div>
 </div>
-<div class="row mt-5 mb-8 align-items-center">
-  <div class="col-md-7">
+<div class="row mt-5 mb-8 justify-content-between">
+  <div class="col-lg-6">
     <h2>
-      Featured Projects
+      Latest Projects
     </h2>
     {% assign sorted = site.portfolio | sort: 'date' | reverse %}
     {% for post in sorted limit: 2 %}
@@ -73,7 +73,8 @@ home: true
     {% endfor %}
 
   </div>
-  <div class="col-md-4">
+  <div class="col-lg-6 faq-wrap">
+    <h2>FAQs</h2>
     <ul class="homepage-hotbuttons">
       <li>
             <a href="/documentation/helpdesk/help-desk-ticket">

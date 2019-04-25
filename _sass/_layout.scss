@@ -26,7 +26,7 @@ body {
     background-size: 35%;
   }
   @include breakpoint(lg) {
-    background-size:30%;
+    background-size:40%;
   }
   @include breakpoint(md) {
     background-size:25%;
