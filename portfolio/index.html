@@ -8,13 +8,15 @@ permalink: /portfolio
 
 ---
 {% for portfolio in site.portfolio reversed %}
-<a class="no-color no-underline" target="_blank" href="{{portfolio.current-url}}">
+
 <div class="portfolio_item">
   <div class="row justify-content-between">
-    <div class="col-md-6">
+    <div class="col-12 col-sm-8 col-md-5">
       <h1>
 
           {{ portfolio.title }}
+          <a class="portfolio_outbound" href="{{portfolio.current-url}}">
+            <i class="fas fa-external-link-alt fa-sm"></i></a>
 
       </h1>
           <p class="lead">{{ portfolio.date | date: "%B %Y"  }} • {{ portfolio.audience }}</p>
@@ -30,12 +32,12 @@ permalink: /portfolio
 
           {% endif %}
     </div>
-    <div class="col-md-6 text-right">
+    <div class="col-md-5 text-right">
       <img class="img-fluid" src="/media/portfolio/{{ portfolio.image }}.png" alt="">
     </div>
   </div>
 </div>
-  </a>
+
 {% endfor %}
 
 
