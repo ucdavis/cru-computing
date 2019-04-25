@@ -121,4 +121,9 @@ a.documentation-snippet {
 .faq-wrap {
   padding-left:3rem;
 }
-a.portfolio_outbound {}
+.portfolio_outbound {
+  padding-left:8px;
+  a {
+    font-size: 2.6rem;
+  }
+}

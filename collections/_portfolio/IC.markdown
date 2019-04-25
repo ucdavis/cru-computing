@@ -8,6 +8,6 @@ current-url: "https://ic.ucdavis.edu/"
 Launched: July 2016
 developers:
   - Cal Doval
-image: "ic"
+image: "IC"
 date: 2016-07-23
 ---

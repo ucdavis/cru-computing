@@ -358,6 +358,10 @@ label {
   justify-content: space-between;
   align-items:baseline;
 }
+.flex-standard {
+  display: flex;
+  align-items: baseline;
+}
 ol.breadcrumb {
   display: inline-block;
   list-style: none;

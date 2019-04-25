@@ -12,13 +12,20 @@ permalink: /portfolio
 <div class="portfolio_item">
   <div class="row justify-content-between">
     <div class="col-12 col-sm-8 col-md-5">
-      <h1>
 
-          {{ portfolio.title }}
-          <a class="portfolio_outbound" href="{{portfolio.current-url}}">
-            <i class="fas fa-external-link-alt fa-sm"></i></a>
+        <h1>
 
-      </h1>
+            {{ portfolio.title }}
+            {% if portfolio.current-url %}
+            <span class="portfolio_outbound">
+            <a href="{{ portfolio.current-url }}">
+              <i class="fas fa-external-link-alt fa-sm"></i>
+            </a>
+          </span>
+            {% endif %}
+        </h1>
+
+
           <p class="lead">{{ portfolio.date | date: "%B %Y"  }} • {{ portfolio.audience }}</p>
           <p>{{ portfolio.description }}</p>
           {% if portfolio.developers %}
