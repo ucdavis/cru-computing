@@ -8,6 +8,6 @@ developers:
   - John Knoll
   - Ken Taylor
   - Jason Sylvestre
-Launched: Jan 2018
+date: 2016-05-05
 image: "great"
 ---

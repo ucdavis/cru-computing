@@ -55,8 +55,8 @@ home: true
     <h2>
       Featured Projects
     </h2>
-    {% assign portfolio = site.portfolio | sort:"date" %}
-    {% for post in portfolio limit: 2 %}
+    {% assign sorted = site.portfolio | sort: 'date' | reverse %}
+    {% for post in sorted limit: 2 %}
     <a href="{{ post.current-url }}" target="_blank">
     <div class="card mb-5 featured-item">
       <div class="row" style="background-color:#{{ post.bgcolor }}">

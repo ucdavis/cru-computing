@@ -5,7 +5,7 @@ description: "The University of California CalFresh Nutrition Education Program 
 client: "Jennifer Quigley"
 client-email: "jaquigley@ucdavis.edu"
 current-url: "https://uccalfresh.ucdavis.edu"
-Launched: Oct 2018
+date: 2018-11-12
 developers:
   - Cal Doval
 image: "uccalfresh"

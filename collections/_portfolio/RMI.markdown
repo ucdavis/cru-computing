@@ -5,7 +5,7 @@ description: "The Robert Mondavi Institute allowed UC Davis to move two departme
 client: "Evan White"
 client-email: "emwhite@ucdavis.edu"
 current-url: "https://rmi.ucdavis.edu"
-Launched: Nov 2018
+date: 2018-09-18
 developers:
   - Cal Doval
 image: "rmi"
