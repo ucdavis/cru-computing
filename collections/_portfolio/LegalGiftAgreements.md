@@ -3,7 +3,7 @@ title: "Legal Gift Agreements"
 audience: "Campus Wide"
 description: "Create, distribute and calculate changes to complex legal documents covering the receipt of large donations to UC Davis."
 current-url:
-Launched: Jan 2018
+date: 2014-09-21
 developers:
   - John Knoll
   - Ken Taylor

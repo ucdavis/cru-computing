@@ -2,7 +2,7 @@
 title: "Eligibility List"
 audience: "CAES"
 description: "Track eligibility actions for CAES faculty."
-Launched: Jan 2018
+date: 2010-10-21
 developers:
   - Scott Kirkland
 image: "eligibility"

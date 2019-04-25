@@ -5,7 +5,6 @@ description: "The UC Davis College of Agricultural and Environmental Sciences In
 client: "Kate Wilkins"
 client-email: "kmwilkins@ucdavis.edu"
 current-url: "https://ip.ucdavis.edu/"
-Launched: Oct 2016
 developers:
   - Cal Doval
 image: "ip"
