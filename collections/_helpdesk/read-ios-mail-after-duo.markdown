@@ -1,6 +1,6 @@
 ---
-title:  "Read your email to iPhone/iPad after enabling Duo"
-description: "Use this guide to read your Office 365 Mailbox to your iPhone or iPad after enabling Duo MFA."
+title:  "Readd your email to iPhone/iPad after enabling Duo"
+description: "Use this guide to readd your Office 365 Mailbox to your iPhone or iPad after enabling Duo MFA."
 author: "Steven Barkey"
 date:   2019-01-25 08:01:17
 ---
