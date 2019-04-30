@@ -1,16 +1,16 @@
 
 
-<div class="modal" id="{{ portfolio.title }}" tabindex="-1" role="dialog">
+<div class="modal" id="{{ portfolio.image }}" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title"> {{ portfolio.title }}</h5>
+        <h2>{{ portfolio.title }}</h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <div id="carousel-{{ portfolio.title }}" class="carousel slide" data-ride="carousel">
+        <div id="carousel-{{ portfolio.image }}" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             {% for static_file in site.static_files %}
                 {% assign kaelan = "/media/screenshots/" | append: portfolio.image | append: "1.png" %}
@@ -44,7 +44,7 @@
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carousel-{{ portfolio.title }}" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#carousel-{{ portfolio.image }}" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
