@@ -125,5 +125,23 @@ a.documentation-snippet {
   padding-left:8px;
   a {
     font-size: 2.6rem;
+    &:hover {
+      text-decoration: none;
+    }
   }
+}
+.portfolio-total .modal-dialog {
+  width:90%;
+  margin:0 auto;
+  max-width:1200px !important;
+}
+@media (min-width: 768px){
+  .portfolio-total .modal-dialog {
+      width:55%;
+  }
+}
+@media (min-width: 576px) {
+  .portfolio-total .modal-dialog {
+      width:85%;
+}
 }
