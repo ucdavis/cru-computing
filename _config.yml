@@ -40,6 +40,7 @@ collections:
     permalink: /documentation/:collection/:title
   portfolio:
   team:
+  screenshots:
 collections_dir: collections
 
 defaults:

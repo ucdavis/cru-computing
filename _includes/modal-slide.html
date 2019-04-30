@@ -1,0 +1,55 @@
+
+
+<div class="modal" id="{{ portfolio.title }}" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"> {{ portfolio.title }}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="carousel-{{ portfolio.title }}" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            {% for static_file in site.static_files %}
+                {% assign kaelan = "/media/screenshots/" | append: portfolio.image | append: "1.png" %}
+                {% if static_file.path == kaelan %}
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="{{ kaelan }}" alt="First slide">
+                </div>
+                {% endif %}
+                {% assign kaelan = "/media/screenshots/" | append: portfolio.image | append: "2.png" %}
+                {% if static_file.path == kaelan %}
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="{{ kaelan }}" alt="second slide">
+                </div>
+                {% endif %}
+                {% assign kaelan = "/media/screenshots/" | append: portfolio.image | append: "3.png" %}
+                {% if static_file.path == kaelan %}
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="{{ kaelan }}" alt="third slide">
+                </div>
+                {% endif %}
+            {% endfor %}
+
+            <!-- <div class="carousel-item">
+              <img class="d-block w-100" src="/media/screenshots/{{ portfolio.image }}2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="/media/screenshots/{{ portfolio.image }}3.png" alt="Third slide">
+            </div> -->
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-{{ portfolio.title }}" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

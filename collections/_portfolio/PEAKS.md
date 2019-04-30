@@ -13,4 +13,5 @@ date: 2019-02-21
 categories:
   - featured
 bgcolor: BA0C2F
+slideshow: yes
 ---

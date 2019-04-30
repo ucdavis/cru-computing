@@ -21,6 +21,11 @@ permalink: /portfolio
             <a href="{{ portfolio.current-url }}">
               <i class="fas fa-external-link-square-alt fa-sm"></i>
             </a>
+            {% if portfolio.slideshow %}
+            <button type="button" class="no-btn" data-toggle="modal" data-target="#{{ portfolio.title }}">
+              <i class="fas fa-external-link-square-alt fa-sm"></i>
+            </button>
+            {% endif %}
           </span>
             {% endif %}
         </h1>
@@ -44,11 +49,17 @@ permalink: /portfolio
     </div>
   </div>
 </div>
-
+{% if portfolio.slideshow %}
+{% include modal-slide.html %}
+{% endif %}
 {% endfor %}
 
 
 
+<script>
+  $('.carousel').carousel()
+</script>
+<!--
 <script>
     function tabTextResize() {
         let appDev = $("ul.tabs a[href='#profile']");
@@ -153,4 +164,4 @@ permalink: /portfolio
             web.append(window.initialWeb);
         }
     });
-</script>
+</script> -->
