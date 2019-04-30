@@ -21,12 +21,12 @@ permalink: /portfolio
             <a href="{{ portfolio.current-url }}">
               <i class="fas fa-external-link-square-alt fa-sm"></i>
             </a>
-            {% if portfolio.slideshow %}
-            <button type="button" class="no-btn" data-toggle="modal" data-target="#{{ portfolio.title }}">
-              <i class="fas fa-external-link-square-alt fa-sm"></i>
-            </button>
-            {% endif %}
           </span>
+            {% endif %}
+            {% if portfolio.slideshow %}
+            <button type="button" class="portfolio-slideshow no-btn" data-toggle="modal" data-target="#{{ portfolio.title }}">
+              <i class="fas fa-images fa-sm"></i>
+            </button>
             {% endif %}
         </h1>
 

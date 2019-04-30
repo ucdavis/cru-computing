@@ -8,4 +8,5 @@ developers:
   - Cal Doval
 date: 2019-02-04
 image: "lamb"
+slideshow: yes
 ---

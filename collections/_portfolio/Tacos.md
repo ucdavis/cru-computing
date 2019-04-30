@@ -9,5 +9,5 @@ developers:
 image: "tacos"
 date: 2019-04-14
 bgcolor: 1D4169
-slideshow: yes
+
 ---
