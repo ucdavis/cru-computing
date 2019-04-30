@@ -145,3 +145,13 @@ a.documentation-snippet {
       width:85%;
 }
 }
+.carousel-control-prev-icon {
+  background-image:url("/media/screenshots/left-arrow.svg");
+}
+.carousel-control-next-icon {
+  background-image:url("/media/screenshots/right-arrow.svg");
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width:40px;
+  height:40px;
+}
