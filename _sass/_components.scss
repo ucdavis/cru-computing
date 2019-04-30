@@ -295,31 +295,12 @@
 .tooltip {
     position: relative;
     display: inline-block;
-    .tooltip-text {
-        position: absolute;
-        bottom: 100%;
+    .tooltip-inner {
         font-size: 16px;
-        text-align: center;
-        padding: 0.3em;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-        border-radius: 0.15em;
-        margin-bottom: 0.5em;
-        visibility: hidden;
-        white-space: nowrap;
-        left: 50%;
-        color: white;
         background-color: $primary-color;
-        transform: scale(0.85);
-        opacity: 0.7;
     }
-    &:hover {
-        .tooltip-text {
-            visibility: visible;
-            transform: scale(1.0);
-            opacity: 1;
-            transition: transform ease-out 0.15s, opacity ease-out 0.15s;
-        }
+    .arrow::before{
+      border-top-color: $primary-color;
     }
 }
 form {
