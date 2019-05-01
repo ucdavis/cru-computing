@@ -2,7 +2,7 @@
 title: "PEAKS"
 audience: "Campus wide"
 description: "The goal of PEAKS is to provide a centralized system where teams can plan and track their most critical resources, enabling them to answer difficult questions like exactly which keys and computers are assigned to a specific person, when they acknowledged receipt of those items, what rooms they can access with those keys, and much, much more."
-current-url: "https://peaks.ucdavis.edu"
+current-url: "https://getpeaks.ucdavis.edu"
 developers:
     - Scott Kirkland
     - Jason Sylvestre

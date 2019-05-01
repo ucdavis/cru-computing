@@ -1,102 +1,102 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
     <title>ken_pic</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path id="path-1" d="M23,46 C35.7025492,46 46,35.7025492 46,23 C46,10.2974508 35.7025492,0 23,0 C10.2974508,0 0,10.2974508 0,23 C0,35.7025492 10.2974508,46 23,46 Z"></path>
+        <path d="M23,46 C35.7025492,46 46,35.7025492 46,23 C46,10.2974508 35.7025492,0 23,0 C10.2974508,0 0,10.2974508 0,23 C0,35.7025492 10.2974508,46 23,46 Z" id="path-1"></path>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Team" transform="translate(-1034.000000, -585.000000)">
-            <g id="Adam-Getcheel" transform="translate(580.000000, 585.000000)">
-                <g id="ken_pic" transform="translate(454.000000, 0.000000)">
+    <g id="2019-Redesign" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="services" transform="translate(-270.000000, -1288.000000)">
+            <g id="Group" transform="translate(81.000000, 968.000000)">
+                <g id="ken_pic" transform="translate(189.000000, 320.000000)">
                     <mask id="mask-2" fill="white">
                         <use xlink:href="#path-1"></use>
                     </mask>
                     <use id="Mask" fill="#F0F0F0" xlink:href="#path-1"></use>
                     <g id="ken" mask="url(#mask-2)">
                         <g transform="translate(0.000000, 5.000000)">
-                            <path d="M16,16 L20,16 L20,12 L16,12 L16,16 Z" id="Fill-1" fill="#DEE6CC"></path>
-                            <path d="M16,24 L20,24 L20,20 L16,20 L16,24 Z" id="Fill-3" fill="#EACAB9"></path>
-                            <path d="M16,36 L20,36 L20,32 L16,32 L16,36 Z" id="Fill-4" fill="#443B39"></path>
-                            <path d="M4,44 L8,44 L8,40 L4,40 L4,44 Z" id="Fill-49" fill="#1C1A1A"></path>
-                            <path d="M4,40 L8,40 L8,36 L4,36 L4,40 Z" id="Fill-50" fill="#AA2728"></path>
-                            <path d="M28,44 L32,44 L32,40 L28,40 L28,44 Z" id="Fill-80" fill="#8E1C1C"></path>
-                            <path d="M24,44 L28,44 L28,40 L24,40 L24,44 Z" id="Fill-81" fill="#AA2728"></path>
-                            <path d="M20,44 L24,44 L24,40 L20,40 L20,44 Z" id="Fill-82" fill="#D6B89F"></path>
-                            <path d="M16,44 L20,44 L20,40 L16,40 L16,44 Z" id="Fill-83" fill="#AA2728"></path>
-                            <path d="M8,44 L12,44 L12,40 L8,40 L8,44 Z" id="Fill-84" fill="#1C1A1A"></path>
-                            <path d="M12,44 L16,44 L16,40 L12,40 L12,44 Z" id="Fill-85" fill="#8E1C1C"></path>
-                            <path d="M8,44 L12,44 L12,40 L8,40 L8,44 Z" id="Fill-86" fill="#AA2728"></path>
-                            <path d="M4,44 L8,44 L8,40 L4,40 L4,44 Z" id="Fill-87" fill="#8E1C1C"></path>
-                            <path d="M0,44 L4,44 L4,40 L0,40 L0,44 Z" id="Fill-88" fill="#AA2728"></path>
-                            <path d="M0,40 L4,40 L4,36 L0,36 L0,40 Z" id="Fill-89" fill="#8E1C1C"></path>
-                            <path d="M28,40 L32,40 L32,36 L28,36 L28,40 Z" id="Fill-92" fill="#AA2728"></path>
-                            <path d="M24,40 L28,40 L28,36 L24,36 L24,40 Z" id="Fill-93" fill="#8E1C1C"></path>
-                            <path d="M28,36 L32,36 L32,32 L28,32 L28,36 Z" id="Fill-94" fill="#8E1C1C"></path>
-                            <path d="M32,44 L36,44 L36,40 L32,40 L32,44 Z" id="Fill-109" fill="#AA2728"></path>
-                            <path d="M32,40 L36,40 L36,36 L32,36 L32,40 Z" id="Fill-110" fill="#8E1C1C"></path>
-                            <path d="M32,36 L36,36 L36,32 L32,32 L32,36 Z" id="Fill-111" fill="#AA2728"></path>
-                            <path d="M36,36 L40,36 L40,32 L36,32 L36,36 Z" id="Fill-112" fill="#8E1C1C"></path>
-                            <path d="M4,36 L8,36 L8,32 L4,32 L4,36 Z" id="Fill-113" fill="#8E1C1C"></path>
-                            <path d="M36,44 L40,44 L40,40 L36,40 L36,44 Z" id="Fill-132" fill="#8E1C1C"></path>
-                            <path d="M36,40 L40,40 L40,36 L36,36 L36,40 Z" id="Fill-133" fill="#AA2728"></path>
-                            <path d="M40,44 L44,44 L44,40 L40,40 L40,44 Z" id="Fill-142" fill="#AA2728"></path>
-                            <path d="M40,40 L44,40 L44,36 L40,36 L40,40 Z" id="Fill-143" fill="#8E1C1C"></path>
-                            <path d="M24,36 L28,36 L28,32 L24,32 L24,36 Z" id="Fill-152" fill="#AA2728"></path>
-                            <path d="M28,32 L32,32 L32,28 L28,28 L28,32 Z" id="Fill-153" fill="#AA2728"></path>
-                            <path d="M20,40 L24,40 L24,36 L20,36 L20,40 Z" id="Fill-154" fill="#A8AFA8"></path>
-                            <path d="M16,40 L20,40 L20,36 L16,36 L16,40 Z" id="Fill-155" fill="#8E1C1C"></path>
-                            <path d="M20,44 L24,44 L24,40 L20,40 L20,44 Z" id="Fill-156" fill="#8E1C1C"></path>
-                            <path d="M20,36 L24,36 L24,32 L20,32 L20,36 Z" id="Fill-157" fill="#E0C0B2"></path>
-                            <path d="M24,32 L28,32 L28,28 L24,28 L24,32 Z" id="Fill-158" fill="#E0C0B2"></path>
-                            <path d="M20,32 L24,32 L24,28 L20,28 L20,32 Z" id="Fill-159" fill="#E0C0B2"></path>
-                            <path d="M20,28 L24,28 L24,24 L20,24 L20,28 Z" id="Fill-161" fill="#E0C0B2"></path>
-                            <path d="M24,28 L28,28 L28,24 L24,24 L24,28 Z" id="Fill-162" fill="#E0C0B2"></path>
-                            <path d="M24,24 L28,24 L28,20 L24,20 L24,24 Z" id="Fill-163" fill="#777B84"></path>
-                            <path d="M24,20 L28,20 L28,16 L24,16 L24,20 Z" id="Fill-164" fill="#EACAB9"></path>
-                            <path d="M28,16 L32,16 L32,12 L28,12 L28,16 Z" id="Fill-165" fill="#DEE6CC"></path>
-                            <path d="M24,12 L28,12 L28,8 L24,8 L24,12 Z" id="Fill-166" fill="#EACAB9"></path>
-                            <path d="M28,24 L32,24 L32,20 L28,20 L28,24 Z" id="Fill-167" fill="#777B84"></path>
-                            <path d="M28,16 L32,16 L32,12 L28,12 L28,16 Z" id="Fill-168" fill="#2A2524"></path>
-                            <path d="M16,16 L20,16 L20,12 L16,12 L16,16 Z" id="Fill-169" fill="#EACAB9"></path>
-                            <path d="M28,12 L32,12 L32,8 L28,8 L28,12 Z" id="Fill-170" fill="#EACAB9"></path>
-                            <path d="M28,20 L32,20 L32,16 L28,16 L28,20 Z" id="Fill-171" fill="#EACAB9"></path>
-                            <path d="M16,20 L20,20 L20,16 L16,16 L16,20 Z" id="Fill-172" fill="#EACAB9"></path>
-                            <path d="M16,24 L20,24 L20,20 L16,20 L16,24 Z" id="Fill-173" fill="#EACAB9"></path>
-                            <path d="M16,28 L20,28 L20,24 L16,24 L16,28 Z" id="Fill-174" fill="#EACAB9"></path>
-                            <path d="M16,12 L20,12 L20,8 L16,8 L16,12 Z" id="Fill-175" fill="#EACAB9"></path>
-                            <path d="M12,12 L16,12 L16,8 L12,8 L12,12 Z" id="Fill-176" fill="#777B84"></path>
-                            <path d="M12,16 L16,16 L16,12 L12,12 L12,16 Z" id="Fill-177" fill="#777B84"></path>
-                            <path d="M12,20 L16,20 L16,16 L12,16 L12,20 Z" id="Fill-178" fill="#E0C0B2"></path>
-                            <path d="M16,8 L20,8 L20,4 L16,4 L16,8 Z" id="Fill-179" fill="#777B84"></path>
-                            <path d="M20,8 L24,8 L24,4 L20,4 L20,8 Z" id="Fill-180" fill="#9B9FA8"></path>
-                            <path d="M24,8 L28,8 L28,4 L24,4 L24,8 Z" id="Fill-181" fill="#777B84"></path>
-                            <path d="M28,8 L32,8 L32,4 L28,4 L28,8 Z" id="Fill-182" fill="#777B84"></path>
-                            <path d="M12,8 L16,8 L16,4 L12,4 L12,8 Z" id="Fill-183" fill="#9B9FA8"></path>
-                            <path d="M12,12 L16,12 L16,8 L12,8 L12,12 Z" id="Fill-184" fill="#777B84"></path>
-                            <path d="M12,16 L16,16 L16,12 L12,12 L12,16 Z" id="Fill-185" fill="#9B9FA8"></path>
-                            <path d="M24,4 L28.002,4 L28.002,0 L24,0 L24,4 Z" id="Fill-186" fill="#9B9FA8"></path>
-                            <path d="M28,4 L32,4 L32,0 L28,0 L28,4 Z" id="Fill-187" fill="#777B84"></path>
-                            <path d="M20,4 L24,4 L24,0 L20,0 L20,4 Z" id="Fill-188" fill="#777B84"></path>
-                            <path d="M16,4 L20,4 L20,0 L16,0 L16,4 Z" id="Fill-189" fill="#777B84"></path>
-                            <path d="M20,12 L24,12 L24,8 L20,8 L20,12 Z" id="Fill-190" fill="#EACAB9"></path>
-                            <path d="M20,16 L24,16 L24,12 L20,12 L20,16 Z" id="Fill-191" fill="#414655"></path>
-                            <path d="M24,16 L28,16 L28,12 L24,12 L24,16 Z" id="Fill-192" fill="#EACAB9"></path>
-                            <path d="M20,20 L24,20 L24,16 L20,16 L20,20 Z" id="Fill-193" fill="#EACAB9"></path>
-                            <path d="M20,24 L24,24 L24,20 L20,20 L20,24 Z" id="Fill-194" fill="#777B84"></path>
-                            <path d="M16,32 L20,32 L20,28 L16,28 L16,32 Z" id="Fill-195" fill="#443B39"></path>
-                            <path d="M16,36 L20,36 L20,32 L16,32 L16,36 Z" id="Fill-196" fill="#443B39"></path>
-                            <path d="M12,32 L16,32 L16,28 L12,28 L12,32 Z" id="Fill-197" fill="#AA2728"></path>
-                            <path d="M16,32 L20,32 L20,28 L16,28 L16,32 Z" id="Fill-198" fill="#EACAB9"></path>
-                            <path d="M16,36 L20,36 L20,32 L16,32 L16,36 Z" id="Fill-199" fill="#AA2728"></path>
-                            <path d="M12,40 L16,40 L16,36 L12,36 L12,40 Z" id="Fill-200" fill="#AA2728"></path>
-                            <path d="M8,40 L12,40 L12,36 L8,36 L8,40 Z" id="Fill-201" fill="#8E1C1C"></path>
-                            <path d="M12,36 L16,36 L16,32 L12,32 L12,36 Z" id="Fill-202" fill="#8E1C1C"></path>
-                            <path d="M8,32 L12,32 L12,28 L8,28 L8,32 Z" id="Fill-203" fill="#8E1C1C"></path>
-                            <path d="M32,32 L36,32 L36,28 L32,28 L32,32 Z" id="Fill-204" fill="#8E1C1C"></path>
-                            <path d="M8,36 L12,36 L12,32 L8,32 L8,36 Z" id="Fill-205" fill="#AA2728"></path>
-                            <path d="M20,16 L24,16 L24,12 L20,12 L20,16 Z" id="Fill-323" fill="#2A2524"></path>
+                            <polygon id="Fill-1" fill="#DEE5CC" points="16 16 20 16 20 12 16 12"></polygon>
+                            <polygon id="Fill-3" fill="#E9CAB9" points="16 24 20 24 20 20 16 20"></polygon>
+                            <polygon id="Fill-4" fill="#453B39" points="16 36 20 36 20 32 16 32"></polygon>
+                            <polygon id="Fill-49" fill="#1D1B1B" points="4 44 8 44 8 40 4 40"></polygon>
+                            <polygon id="Fill-50" fill="#AA2828" points="4 40 8 40 8 36 4 36"></polygon>
+                            <polygon id="Fill-80" fill="#8E1C1C" points="28 44 32 44 32 40 28 40"></polygon>
+                            <polygon id="Fill-81" fill="#AA2828" points="24 44 28 44 28 40 24 40"></polygon>
+                            <polygon id="Fill-82" fill="#D6B89F" points="20 44 24 44 24 40 20 40"></polygon>
+                            <polygon id="Fill-83" fill="#AA2828" points="16 44 20 44 20 40 16 40"></polygon>
+                            <polygon id="Fill-84" fill="#1D1B1B" points="8 44 12 44 12 40 8 40"></polygon>
+                            <polygon id="Fill-85" fill="#8E1C1C" points="12 44 16 44 16 40 12 40"></polygon>
+                            <polygon id="Fill-86" fill="#AA2828" points="8 44 12 44 12 40 8 40"></polygon>
+                            <polygon id="Fill-87" fill="#8E1C1C" points="4 44 8 44 8 40 4 40"></polygon>
+                            <polygon id="Fill-88" fill="#AA2828" points="0 44 4 44 4 40 0 40"></polygon>
+                            <polygon id="Fill-89" fill="#8E1C1C" points="0 40 4 40 4 36 0 36"></polygon>
+                            <polygon id="Fill-92" fill="#AA2828" points="28 40 32 40 32 36 28 36"></polygon>
+                            <polygon id="Fill-93" fill="#8E1C1C" points="24 40 28 40 28 36 24 36"></polygon>
+                            <polygon id="Fill-94" fill="#8E1C1C" points="28 36 32 36 32 32 28 32"></polygon>
+                            <polygon id="Fill-109" fill="#AA2828" points="32 44 36 44 36 40 32 40"></polygon>
+                            <polygon id="Fill-110" fill="#8E1C1C" points="32 40 36 40 36 36 32 36"></polygon>
+                            <polygon id="Fill-111" fill="#AA2828" points="32 36 36 36 36 32 32 32"></polygon>
+                            <polygon id="Fill-112" fill="#8E1C1C" points="36 36 40 36 40 32 36 32"></polygon>
+                            <polygon id="Fill-113" fill="#8E1C1C" points="4 36 8 36 8 32 4 32"></polygon>
+                            <polygon id="Fill-132" fill="#8E1C1C" points="36 44 40 44 40 40 36 40"></polygon>
+                            <polygon id="Fill-133" fill="#AA2828" points="36 40 40 40 40 36 36 36"></polygon>
+                            <polygon id="Fill-142" fill="#AA2828" points="40 44 44 44 44 40 40 40"></polygon>
+                            <polygon id="Fill-143" fill="#8E1C1C" points="40 40 44 40 44 36 40 36"></polygon>
+                            <polygon id="Fill-152" fill="#AA2828" points="24 36 28 36 28 32 24 32"></polygon>
+                            <polygon id="Fill-153" fill="#AA2828" points="28 32 32 32 32 28 28 28"></polygon>
+                            <polygon id="Fill-154" fill="#A8AFA8" points="20 40 24 40 24 36 20 36"></polygon>
+                            <polygon id="Fill-155" fill="#8E1C1C" points="16 40 20 40 20 36 16 36"></polygon>
+                            <polygon id="Fill-156" fill="#8E1C1C" points="20 44 24 44 24 40 20 40"></polygon>
+                            <polygon id="Fill-157" fill="#E0C0B2" points="20 36 24 36 24 32 20 32"></polygon>
+                            <polygon id="Fill-158" fill="#E0C0B2" points="24 32 28 32 28 28 24 28"></polygon>
+                            <polygon id="Fill-159" fill="#E0C0B2" points="20 32 24 32 24 28 20 28"></polygon>
+                            <polygon id="Fill-161" fill="#E0C0B2" points="20 28 24 28 24 24 20 24"></polygon>
+                            <polygon id="Fill-162" fill="#E0C0B2" points="24 28 28 28 28 24 24 24"></polygon>
+                            <polygon id="Fill-163" fill="#777B84" points="24 24 28 24 28 20 24 20"></polygon>
+                            <polygon id="Fill-164" fill="#E9CAB9" points="24 20 28 20 28 16 24 16"></polygon>
+                            <polygon id="Fill-165" fill="#DEE5CC" points="28 16 32 16 32 12 28 12"></polygon>
+                            <polygon id="Fill-166" fill="#E9CAB9" points="24 12 28 12 28 8 24 8"></polygon>
+                            <polygon id="Fill-167" fill="#777B84" points="28 24 32 24 32 20 28 20"></polygon>
+                            <polygon id="Fill-168" fill="#2A2524" points="28 16 32 16 32 12 28 12"></polygon>
+                            <polygon id="Fill-169" fill="#E9CAB9" points="16 16 20 16 20 12 16 12"></polygon>
+                            <polygon id="Fill-170" fill="#E9CAB9" points="28 12 32 12 32 8 28 8"></polygon>
+                            <polygon id="Fill-171" fill="#E9CAB9" points="28 20 32 20 32 16 28 16"></polygon>
+                            <polygon id="Fill-172" fill="#E9CAB9" points="16 20 20 20 20 16 16 16"></polygon>
+                            <polygon id="Fill-173" fill="#E9CAB9" points="16 24 20 24 20 20 16 20"></polygon>
+                            <polygon id="Fill-174" fill="#E9CAB9" points="16 28 20 28 20 24 16 24"></polygon>
+                            <polygon id="Fill-175" fill="#E9CAB9" points="16 12 20 12 20 8 16 8"></polygon>
+                            <polygon id="Fill-176" fill="#777B84" points="12 12 16 12 16 8 12 8"></polygon>
+                            <polygon id="Fill-177" fill="#777B84" points="12 16 16 16 16 12 12 12"></polygon>
+                            <polygon id="Fill-178" fill="#E0C0B2" points="12 20 16 20 16 16 12 16"></polygon>
+                            <polygon id="Fill-179" fill="#777B84" points="16 8 20 8 20 4 16 4"></polygon>
+                            <polygon id="Fill-180" fill="#9B9FA8" points="20 8 24 8 24 4 20 4"></polygon>
+                            <polygon id="Fill-181" fill="#777B84" points="24 8 28 8 28 4 24 4"></polygon>
+                            <polygon id="Fill-182" fill="#777B84" points="28 8 32 8 32 4 28 4"></polygon>
+                            <polygon id="Fill-183" fill="#9B9FA8" points="12 8 16 8 16 4 12 4"></polygon>
+                            <polygon id="Fill-184" fill="#777B84" points="12 12 16 12 16 8 12 8"></polygon>
+                            <polygon id="Fill-185" fill="#9B9FA8" points="12 16 16 16 16 12 12 12"></polygon>
+                            <polygon id="Fill-186" fill="#9B9FA8" points="24 4 28.002 4 28.002 0 24 0"></polygon>
+                            <polygon id="Fill-187" fill="#777B84" points="28 4 32 4 32 0 28 0"></polygon>
+                            <polygon id="Fill-188" fill="#777B84" points="20 4 24 4 24 0 20 0"></polygon>
+                            <polygon id="Fill-189" fill="#777B84" points="16 4 20 4 20 0 16 0"></polygon>
+                            <polygon id="Fill-190" fill="#E9CAB9" points="20 12 24 12 24 8 20 8"></polygon>
+                            <polygon id="Fill-191" fill="#424655" points="20 16 24 16 24 12 20 12"></polygon>
+                            <polygon id="Fill-192" fill="#E9CAB9" points="24 16 28 16 28 12 24 12"></polygon>
+                            <polygon id="Fill-193" fill="#E9CAB9" points="20 20 24 20 24 16 20 16"></polygon>
+                            <polygon id="Fill-194" fill="#777B84" points="20 24 24 24 24 20 20 20"></polygon>
+                            <polygon id="Fill-195" fill="#453B39" points="16 32 20 32 20 28 16 28"></polygon>
+                            <polygon id="Fill-196" fill="#453B39" points="16 36 20 36 20 32 16 32"></polygon>
+                            <polygon id="Fill-197" fill="#AA2828" points="12 32 16 32 16 28 12 28"></polygon>
+                            <polygon id="Fill-198" fill="#E9CAB9" points="16 32 20 32 20 28 16 28"></polygon>
+                            <polygon id="Fill-199" fill="#AA2828" points="16 36 20 36 20 32 16 32"></polygon>
+                            <polygon id="Fill-200" fill="#AA2828" points="12 40 16 40 16 36 12 36"></polygon>
+                            <polygon id="Fill-201" fill="#8E1C1C" points="8 40 12 40 12 36 8 36"></polygon>
+                            <polygon id="Fill-202" fill="#8E1C1C" points="12 36 16 36 16 32 12 32"></polygon>
+                            <polygon id="Fill-203" fill="#8E1C1C" points="8 32 12 32 12 28 8 28"></polygon>
+                            <polygon id="Fill-204" fill="#8E1C1C" points="32 32 36 32 36 28 32 28"></polygon>
+                            <polygon id="Fill-205" fill="#AA2828" points="8 36 12 36 12 32 8 32"></polygon>
+                            <polygon id="Fill-323" fill="#2A2524" points="20 16 24 16 24 12 20 12"></polygon>
                         </g>
                     </g>
                 </g>
