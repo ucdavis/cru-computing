@@ -2,13 +2,13 @@
 title:  "Admin Overview"
 description: "Information regarding the Admin section of PEAKS."
 author: "Jason Sylvestre"
-date:   2019-02-13 11:30:17
+date:   2019-05-01
 ---
 
 # New team setup steps
 
 ## Configuration
-First, you want to click on Admin or Administer Team:
+First, you want to click on Admin -> Admin Home or Administer Team:
 
 
 ![Admin Links](https://computing.caes.ucdavis.edu/media/peaks/admin-start.png "Admin Links")
