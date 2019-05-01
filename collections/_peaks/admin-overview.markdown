@@ -55,6 +55,7 @@ To get to the form to manage your team's tags, you must click menu and then team
 ![Team Tags Link](https://computing.caes.ucdavis.edu/media/peaks/admin-tags-link.png "Team Tags Link")
 
 From here you can Create, Edit, and Delete tags for your teams.
+NOTE!!! If you delete or edit a tag, it doesn't change the tag that may be associated with an asset. But it will effect being able to search for it.
 
 ![Team Tags manage](https://computing.caes.ucdavis.edu/media/peaks/admin-manage-tags.png "Team Tags Manage")
 
