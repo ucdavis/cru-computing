@@ -2,13 +2,13 @@
 title:  "Admin Overview"
 description: "Information regarding the Admin section of PEAKS."
 author: "Jason Sylvestre"
-date:   2019-02-13 11:30:17
+date:   2019-05-01
 ---
 
 # New team setup steps
 
 ## Configuration
-First, you want to click on Admin or Administer Team:
+First, you want to click on Admin -> Admin Home or Administer Team:
 
 
 ![Admin Links](https://computing.caes.ucdavis.edu/media/peaks/admin-start.png "Admin Links")
@@ -27,6 +27,10 @@ From here specify the Chart (Almost always 3) and the org code. Then click Add o
 
 This will populate the spaces tab of your team assets. You may specify multiple orgs.
 
+You may also search for your orgs by the building name. If you use this method and need to add multiple orgs from this list you will have to search each time.
+
+![FIS Org](https://computing.caes.ucdavis.edu/media/peaks/admin-search-for-orgs.png "Fis Org")
+
 ## Step 2
 Next, we would recommend bulk loading people in your department. This can be done later if you wish, or people may be added individually.
 
@@ -40,7 +44,7 @@ Then open the Bulk load people form:
 
 
 More information on the people asset can be found here :
-[Peaks People](https://computing.caes.ucdavis.edu/faq/peaks/people)
+[People](https://computing.caes.ucdavis.edu/documentation/peaks/people)
 
 ## Step 3
 Adding Tags. This can be done later, but for tags to be available for other non departmental admins (Key Master for example) they will have to be added first.
@@ -51,6 +55,7 @@ To get to the form to manage your team's tags, you must click menu and then team
 ![Team Tags Link](https://computing.caes.ucdavis.edu/media/peaks/admin-tags-link.png "Team Tags Link")
 
 From here you can Create, Edit, and Delete tags for your teams.
+NOTE!!! If you delete or edit a tag, it doesn't change the tag that may be associated with an asset. But it will effect being able to search for it.
 
 ![Team Tags manage](https://computing.caes.ucdavis.edu/media/peaks/admin-manage-tags.png "Team Tags Manage")
 
@@ -61,7 +66,7 @@ Departmental Admins have all the accesses of the other types in addition to bein
 The other admin roles are fairly self evident with perhaps the exception of the Space Master. The Space Master has access to the spaces assets which allows them to manage workstations. They can't add new spaces as spaces available are determined by the FIS Orgs for the team which you would have configured above.
 
 Admins may have multiple roles within a team.
-All Admins can see the Person tab, but only Departmental Admins may edit them.
+All Admins can see the Person tab, but only Departmental Admins and Person Managers may edit them.
 
 To add an admin, go here:
 

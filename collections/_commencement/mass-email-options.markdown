@@ -5,6 +5,8 @@ author: "Jason Sylvestre"
 date:   2019-04-23
 ---
 
+# This is FAQ is under construction and will change
+
 # Mass Email Options
 Mass emails get sent out twice a day. Once if the morning and once in the evening (5 or 6 pm). It is very much recommended creating any mass emails before 3pm that way if there are problems, the developers can prevent the emails from being sent. The email subject line should be included in any help requests of this nature.
 
