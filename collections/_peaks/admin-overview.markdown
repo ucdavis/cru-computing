@@ -44,7 +44,7 @@ Then open the Bulk load people form:
 
 
 More information on the people asset can be found here :
-[Peaks People](https://computing.caes.ucdavis.edu/documentation/peaks/people)
+[People](https://computing.caes.ucdavis.edu/documentation/peaks/people)
 
 ## Step 3
 Adding Tags. This can be done later, but for tags to be available for other non departmental admins (Key Master for example) they will have to be added first.
