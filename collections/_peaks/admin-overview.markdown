@@ -27,6 +27,10 @@ From here specify the Chart (Almost always 3) and the org code. Then click Add o
 
 This will populate the spaces tab of your team assets. You may specify multiple orgs.
 
+You may also search for your orgs by the building name. If you use this method and need to add multiple orgs from this list you will have to search each time.
+
+![FIS Org](https://computing.caes.ucdavis.edu/media/peaks/admin-search-for-orgs.png "Fis Org")
+
 ## Step 2
 Next, we would recommend bulk loading people in your department. This can be done later if you wish, or people may be added individually.
 
@@ -40,7 +44,7 @@ Then open the Bulk load people form:
 
 
 More information on the people asset can be found here :
-[Peaks People](https://computing.caes.ucdavis.edu/faq/peaks/people)
+[Peaks People](https://computing.caes.ucdavis.edu/documentation/peaks/people)
 
 ## Step 3
 Adding Tags. This can be done later, but for tags to be available for other non departmental admins (Key Master for example) they will have to be added first.
