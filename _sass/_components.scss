@@ -110,6 +110,12 @@
       color:lighten($peaks,15);
     }
   }
+  button i {
+    color:$peaks;
+    &:hover {
+      color:lighten($peaks,15);
+    }
+  }
 }
 .policies-total {
   hr {
@@ -334,15 +340,7 @@ label {
     text-transform: uppercase;
     margin-bottom: 5px;
 }
-.flex-between {
-  display:flex;
-  justify-content: space-between;
-  align-items:baseline;
-}
-.flex-standard {
-  display: flex;
-  align-items: baseline;
-}
+
 ol.breadcrumb {
   display: inline-block;
   list-style: none;
@@ -418,4 +416,20 @@ img.img-fluid {
 }
 .portfolio-slideshow {
   color:$portfolio;
+}
+.flexin {
+  display: flex;
+  align-items: center;
+}
+.flex-between {
+  display:flex;
+  justify-content: space-between;
+  align-items:baseline;
+}
+.flex-standard {
+  display: flex;
+  align-items: baseline;
+}
+.flex-straight {
+  display: flex;
 }

@@ -16,16 +16,26 @@ layout: default
         <p class="lead">{{ page.description }}</p>
         <hr>
         {% if page.author %}
-        <div class="author">
-              {% assign dev = site.team | where: "name", page.author | first %}
-              {% include team_tooltip.html text=dev.name image=dev.image %}
+        <div class="author flex-straight justify-content-between align-items-center">
+          <div class="flex-straight">
+            {% assign dev = site.team | where: "name", page.author | first %}
+            {% include team_tooltip.html text=dev.name image=dev.image %}
             <div class="author-details">
               <p><b>{{ page.author }}</b></p>
               <p>{{ page.date | date_to_long_string }}</p>
             </div>
+          </div>
+            <div class="author-actions">
+              <a class="no-underline" href="mailto:?subject={{ page.title }}&body=Check out this Article on {{ page.title }} {{ site.url }}{{ page.url }}" title="Share {{ page.title }}" rel="nofollow">
+                <i class="fa fa-envelope"></i>
+                </a>
+                <button class="no-btn" id="btn" data-clipboard-text="{{ site.url }}{{ page.url }}">
+                  <i class="fa fa-link"></i>
+                </button>
+
+            </div>
         </div>
         {% endif %}
-
         <div class="content-wrap">
           	{{ content }}
         </div>
@@ -40,3 +50,13 @@ layout: default
       </div>
     </div>
 </div>
+<script>
+  var btn = document.getElementById('btn');
+  var clipboard = new ClipboardJS(btn);
+  clipboard.on('success', function(e) {
+      console.log(e);
+  });
+  clipboard.on('error', function(e) {
+      console.log(e);
+  });
+</script>

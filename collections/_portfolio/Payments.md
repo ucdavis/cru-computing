@@ -9,4 +9,5 @@ developers:
   - Cal Doval
 image: "payments"
 date: 2019-01-23
+slideshow: yes
 ---

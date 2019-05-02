@@ -19,13 +19,13 @@ permalink: /portfolio
           <div>
             {% if portfolio.current-url %}
 
-            <a href="{{ portfolio.current-url }}">
+            <a class="no-underline" href="{{ portfolio.current-url }}">
               <i class="fas fa-external-link-square-alt"></i>
             </a>
 
             {% endif %}
             {% if portfolio.slideshow %}
-            <a href="#{{ portfolio.image }}" data-toggle="modal">
+            <a class="no-underline" href="#{{ portfolio.image }}" data-toggle="modal">
               <i class="fas fa-images"></i>
             </a>
             {% endif %}
