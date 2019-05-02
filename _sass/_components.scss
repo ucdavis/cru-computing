@@ -56,6 +56,12 @@
       color:lighten($documentation,15);
     }
   }
+  button i {
+    color:$documentation;
+    &:hover {
+      color:lighten($documentation,15);
+    }
+  }
 }
 .team-total {
   hr {
@@ -74,6 +80,12 @@
       color:lighten($team,15);
     }
   }
+  button i {
+    color:$team;
+    &:hover {
+      color:lighten($team,15);
+    }
+  }
 }
 .portfolio-total {
   hr {
@@ -89,6 +101,12 @@
     color:$portfolio;
     &:hover {
       text-decoration: underline;
+      color:lighten($portfolio,15);
+    }
+  }
+  button i {
+    color:$portfolio;
+    &:hover {
       color:lighten($portfolio,15);
     }
   }
@@ -134,6 +152,12 @@
       color:lighten($policies,15);
     }
   }
+  button i {
+    color:$policies;
+    &:hover {
+      color:lighten($policies,15);
+    }
+  }
 }
 .helpdesk-total {
   hr {
@@ -149,6 +173,12 @@
     color:$helpdesk;
     &:hover {
       text-decoration: underline;
+      color:lighten($helpdesk,15);
+    }
+  }
+  button i {
+    color:$helpdesk;
+    &:hover {
       color:lighten($helpdesk,15);
     }
   }
@@ -170,6 +200,12 @@
       color:lighten($ace,15);
     }
   }
+  button i {
+    color:$ace;
+    &:hover {
+      color:lighten($ace,15);
+    }
+  }
 }
 .purchasing-total {
   hr {
@@ -188,6 +224,12 @@
       color:lighten($purchasing,15);
     }
   }
+  button i {
+    color:$purchasing;
+    &:hover {
+      color:lighten($purchasing,15);
+    }
+  }
 }
 .commencement-total {
   hr {
@@ -203,6 +245,12 @@
     color:$commencement;
     &:hover {
       text-decoration: underline;
+      color:lighten($commencement,15);
+    }
+  }
+  button i {
+    color:$commencement;
+    &:hover {
       color:lighten($commencement,15);
     }
   }
