@@ -2,10 +2,13 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-04-25
+date:   2019-05-02
 ---
 
 # New Features and Changes
+## May 2, 2019
+* Hide Admin Asset tabs if the user doesn't have access. Admins always have access to at least the Person tab, so that will always show. A Key Master would see tabs for Person and Keys.
+
 ## April 25, 2019
 * Granted Person Manager ability to bulk edit people.
 * Changed around the admin menu a little to make it more clear what the actions are.
