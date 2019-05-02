@@ -12,6 +12,7 @@ Mass emails get sent out twice a day. Once if the morning and once in the evenin
 <a data-toggle="lightbox" href="/media/commencement/mass-email.png">
 ![Mass Email Page](https://computing.caes.ucdavis.edu/media/commencement/mass-email.png "Mass Email Page")
 </a>
+
 ## Template
 The template is optional. If you choose a template, it will provide you with replaceable parameters on the right that you can click on to place it in your email.
 Note, these parameters are tied to the template.
