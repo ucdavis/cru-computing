@@ -12,24 +12,25 @@ permalink: /portfolio
 <div class="portfolio_item">
   <div class="row justify-content-between">
     <div class="col-12 col-sm-8 col-md-5">
-
+  <div class="flexin portfolio-title">
         <h1>
-
             {{ portfolio.title }}
+            </h1>
+          <div>
             {% if portfolio.current-url %}
-            <span class="portfolio_outbound">
+
             <a href="{{ portfolio.current-url }}">
-              <i class="fas fa-external-link-square-alt fa-sm"></i>
+              <i class="fas fa-external-link-square-alt"></i>
             </a>
-          </span>
+
             {% endif %}
             {% if portfolio.slideshow %}
-            <button type="button" class="portfolio-slideshow no-btn" data-toggle="modal" data-target="#{{ portfolio.image }}">
-              <i class="fas fa-images fa-sm"></i>
-            </button>
+            <a href="#{{ portfolio.image }}" data-toggle="modal">
+              <i class="fas fa-images"></i>
+            </a>
             {% endif %}
-        </h1>
-
+          </div>
+      </div>
 
           <p class="lead">{{ portfolio.date | date: "%B %Y"  }} • {{ portfolio.audience }}</p>
           <p>{{ portfolio.description }}</p>

@@ -155,3 +155,15 @@ a.documentation-snippet {
   width:40px;
   height:40px;
 }
+.flexin {
+  display: flex;
+  align-items: center;
+}
+.portfolio-title {
+  i {
+    font-size:2.5rem;
+  }
+  a {
+    margin-left:.8rem;
+  }
+}

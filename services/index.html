@@ -20,9 +20,7 @@ services: aside
           <div class="profile-wrap">
             {% assign team = site.team | where: "categories","helpdesk"  %}
             {% for post in team %}
-
-                {% include team_tooltip.html text=dev.name image=dev.image %}
-          
+            <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
             {% endfor %}
           </div>
 
