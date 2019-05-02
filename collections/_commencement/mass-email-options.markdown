@@ -2,10 +2,8 @@
 title:  "Mass Email Options"
 description: "What the options do for Mass Email"
 author: "Jason Sylvestre"
-date:   2019-04-23
+date:   2019-05-02
 ---
-
-# This is FAQ is under construction and will change
 
 # Mass Email Options
 Mass emails get sent out twice a day. Once if the morning and once in the evening (5 or 6 pm). It is very much recommended creating any mass emails before 3pm that way if there are problems, the developers can prevent the emails from being sent. The email subject line should be included in any help requests of this nature.
@@ -13,14 +11,14 @@ Mass emails get sent out twice a day. Once if the morning and once in the evenin
 
 ![Mass Email Page](https://computing.caes.ucdavis.edu/media/commencement/mass-email.png "Mass Email Page")
 ## Template
-You must choose the ceremony that the Mass Email will be for. It will try to use existing templates you have for the ceremony and default to a generic one if it can't be found.
-It will also look at the students for that ceremony.
-The template is optional.
-### Ticket Petition Decision
-### Notify Open Ticket Petition
-### Remaining Tickets
-### Electronic Ticket Distribution
-When choosing this, you must also choose the Registered student population.
+The template is optional. If you choose a template, it will provide you with replaceable parameters on the right that you can click on to place it in your email.
+Note, these parameters are tied to the template.
+If you use a template, make sure it applies to the student population you are picking.
+* Ticket Petition Decision
+* Notify Open Ticket Petition
+* Remaining Tickets
+* Electronic Ticket Distribution
+
 
 
 ## Student Population
@@ -37,5 +35,7 @@ All students who are participating in the ceremony who have not canceled.
 ### All Eligible
 It first looks at the ceremony's majors. Then it grabs all the students with those majors for the ceremony's term code. This may include students who do not have enough units for a particular ceremony. Please see the info under "Student Population".
 ### Extra Ticket Denied
+The students used for this are those that have an extra ticket petition for the ceremony where the extra ticket has not been approved. *NOTE!!* Currently this includes those that a decision is declined and pending. 
+The {status} replaceable parameter will either state pending, approved, or denied.
 
 
