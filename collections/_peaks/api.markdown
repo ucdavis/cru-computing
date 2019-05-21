@@ -2,7 +2,7 @@
 title:  "PEAKS Api"
 description: "Information on PEAKS application programming interface."
 author: "Jason Sylvestre"
-date:   2019-01-30 16:25:17
+date:   2019-05-21
 ---
 
 ## API Instructions:
@@ -12,12 +12,32 @@ date:   2019-01-30 16:25:17
 * The examples below use a key that is no longer active.
 * The page that lists the API key has the URL you would use. Select Team -> Administer Team -> API Code
 
-## People Feed
+## People Feed:
 peaks.ucdavis.edu/{team-slug}/Feed/TeamFeed/{api-code}
 
-https://peaks.ucdavis.edu/caesdo/Feed/TeamFeed/e170f4e6-9770-426f-8e96-f90abfd40f38
+https://peaks.ucdavis.edu/caes-test/Feed/TeamFeed/69e3eef0-b89a-4627-aa6a-15f803912654
 
-## People with Workstations
+## People with Workstations: 
 peaks.ucdavis.edu/{team-slug}/Feed/TeamFeed/{api-code}?includeSpace=yes
 
-https://peaks.ucdavis.edu/caesdo/Feed/TeamFeed/e170f4e6-9770-426f-8e96-f90abfd40f38?includeSpace=yes
+https://peaks.ucdavis.edu/caes-test/Feed/TeamFeed/69e3eef0-b89a-4627-aa6a-15f803912654?includeSpace=yes
+
+## Workstations: 
+peaks.ucdavis.edu/{team-slug}/Feed/WorkstationFeed/{api-code}
+
+https://peaks.ucdavis.edu/caes-test/Feed/WorkstationFeed/69e3eef0-b89a-4627-aa6a-15f803912654
+
+## Equipment: 
+peaks.ucdavis.edu/{team-slug}/Feed/EquipmentFeed/{api-code}
+
+https://peaks.ucdavis.edu/caes-test/Feed/EquipmentFeed/69e3eef0-b89a-4627-aa6a-15f803912654
+
+## Access: 
+peaks.ucdavis.edu/{team-slug}/Feed/AccessFeed/{api-code}
+
+https://peaks.ucdavis.edu/caes-test/Feed/AccessFeed/69e3eef0-b89a-4627-aa6a-15f803912654
+
+## Keys: 
+peaks.ucdavis.edu/{team-slug}/Feed/KeyFeed/{api-code}
+
+https://peaks.ucdavis.edu/caes-test/Feed/KeyFeed/69e3eef0-b89a-4627-aa6a-15f803912654
