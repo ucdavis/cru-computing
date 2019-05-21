@@ -48,7 +48,7 @@ date:   2019-05-21
 * The list of key serials within a person has remained unchanged.
 * As with other sorting of tables, you can click or shift click on the column headings to sort.
 
-<a data-toggle="lightbox" href="/media/commencement/admin-keyserial-sorting.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-keyserial-sorting.png">
 ![Key Serial Sorting](https://computing.caes.ucdavis.edu/media/peaks/admin-keyserial-sorting.png "Key Serial Sorting")
 </a>
 
@@ -62,7 +62,7 @@ date:   2019-05-21
 * Currently, the email portion of this is still pending, but if you add an notification email the information will be gathered and emailed once that service is completed.
 * The notification email may be specified in the Team Admin section:
 
-<a data-toggle="lightbox" href="/media/commencement/admin-notify-email.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-notify-email.png">
 ![Notification Email](https://computing.caes.ucdavis.edu/media/peaks/admin-notify-email.png "Notification Email")
 </a>
 
@@ -100,7 +100,7 @@ Happy Pi Day.
 ## Feb 21, 2019
 * Added a import results table that can be downloaded
 
-<a data-toggle="lightbox" href="/media/commencement/admin-key-import-results.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-key-import-results.png">
 ![Key Import Results](https://computing.caes.ucdavis.edu/media/peaks/admin-key-import-results.png "Key Import Results")
 </a>
 

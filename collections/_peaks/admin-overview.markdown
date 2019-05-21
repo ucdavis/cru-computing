@@ -11,7 +11,7 @@ date:   2019-05-21
 First, you want to click on Admin -> Admin Home or Administer Team:
 
 
-<a data-toggle="lightbox" href="/media/commencement/admin-start.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-start.png">
 ![Admin Links](https://computing.caes.ucdavis.edu/media/peaks/admin-start.png "Admin Links")
 </a>
 
@@ -19,7 +19,7 @@ First, you want to click on Admin -> Admin Home or Administer Team:
 Add FIS Orgs. This adds spaces to your team. Click Add new org code:
 
 
-<a data-toggle="lightbox" href="/media/commencement/admin-orgs-link.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-orgs-link.png">
 ![FIS Org](https://computing.caes.ucdavis.edu/media/peaks/admin-orgs-link.png "Fis Org")
 </a>
 
@@ -27,7 +27,7 @@ Add FIS Orgs. This adds spaces to your team. Click Add new org code:
 From here specify the Chart (Almost always 3) and the org code. Then click Add org to team:
 
 
-<a data-toggle="lightbox" href="/media/commencement/admin-orgs-add.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-orgs-add.png">
 ![FIS Org](https://computing.caes.ucdavis.edu/media/peaks/admin-orgs-add.png "Fis Org")
 </a>
 
@@ -35,7 +35,7 @@ This will populate the spaces tab of your team assets. You may specify multiple 
 
 You may also search for your orgs by the building name. If you use this method and need to add multiple orgs from this list you will have to search each time.
 
-<a data-toggle="lightbox" href="/media/commencement/admin-search-for-orgs.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-search-for-orgs.png">
 ![FIS Org](https://computing.caes.ucdavis.edu/media/peaks/admin-search-for-orgs.png "Fis Org")
 </a>
 
@@ -44,13 +44,13 @@ Next, we would recommend bulk loading people in your department. This can be don
 
 To bulk load people, you need to first add one or more PPS Departments:
 
-<a data-toggle="lightbox" href="/media/commencement/admin-add-pps-dept.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-add-pps-dept.png">
 ![PPS Dept](https://computing.caes.ucdavis.edu/media/peaks/admin-add-pps-dept.png "PPS Dept")
 </a>
 
 Then open the Bulk load people form:
 
-<a data-toggle="lightbox" href="/media/commencement/admin-bulk-load.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-bulk-load.png">
 ![Bulk Load People](https://computing.caes.ucdavis.edu/media/peaks/admin-bulk-load.png "Bulk Load People")
 </a>
 
@@ -64,14 +64,14 @@ Tags are useful for filtering items on the individual asset pages. For example, 
 
 To get to the form to manage your team's tags, you must click menu and then team tags:
 
-<a data-toggle="lightbox" href="/media/commencement/admin-tags-link.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-tags-link.png">
 ![Team Tags Link](https://computing.caes.ucdavis.edu/media/peaks/admin-tags-link.png "Team Tags Link")
 </a>
 
 From here you can Create, Edit, and Delete tags for your teams.
 NOTE!!! If you delete or edit a tag, it doesn't change the tag that may be associated with an asset. But it will effect being able to search for it.
 
-<a data-toggle="lightbox" href="/media/commencement/admin-manage-tags.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-manage-tags.png">
 ![Team Tags manage](https://computing.caes.ucdavis.edu/media/peaks/admin-manage-tags.png "Team Tags Manage")
 </a>
 
@@ -86,19 +86,19 @@ All Admins can see the Person tab, but only Departmental Admins and Person Manag
 
 To add an admin, go here:
 
-<a data-toggle="lightbox" href="/media/commencement/admin-roles-links.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-roles-links.png">
 ![Manage Admins Link](https://computing.caes.ucdavis.edu/media/peaks/admin-roles-links.png "Manage Admins Link")
 </a>
 
 To Add an admin, or add another admin role to an existing admin:
 
-<a data-toggle="lightbox" href="/media/commencement/admin-roles-add.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-roles-add.png">
 ![Add Admins](https://computing.caes.ucdavis.edu/media/peaks/admin-roles-add.png "Add Admins")
 </a>
 
 To remove an admin, or remove a admin role:
 
-<a data-toggle="lightbox" href="/media/commencement/admin-roles-remove.png">
+<a data-toggle="lightbox" href="/media/peaks/admin-roles-remove.png">
 ![Remove Admins](https://computing.caes.ucdavis.edu/media/peaks/admin-roles-remove.png "Remove Admins")
 </a>
 
