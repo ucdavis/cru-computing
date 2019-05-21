@@ -8,7 +8,7 @@ documentation: aside
 ---
 
 {% assign helpdesk = site.helpdesk %}
-{% for post in site.helpdesk %}
+{% for post in site.helpdesk reversed %}
 <div class="documentation-item">
 <a class="documentation-snippet" class="no-color" href="{{ site.baseurl }}{{ post.url }}">
   <h2>{{post.title}}</h2>
