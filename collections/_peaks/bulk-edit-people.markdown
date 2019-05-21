@@ -2,13 +2,15 @@
 title:  "Bulk Edit People"
 description: "Learn how Departmental Admins can bulk edit people in their team"
 author: "Jason Sylvestre"
-date:   2019-04-17 13:50:00
+date:   2019-05-21
 ---
 
 # Bulk Edit People
 The bulk edit can be access from the admin menu:
 
+<a data-toggle="lightbox" href="/media/peaks/admin-bulk-edit-menu.png">
 ![Bulk Edit Menu](https://computing.caes.ucdavis.edu/media/peaks/admin-bulk-edit-menu.png "Bulk Edit Menu")
+</a>
 
 ## Selecting people to edit
 * If you scroll down, you can see a list of all active people in your team.
@@ -16,14 +18,18 @@ The bulk edit can be access from the admin menu:
 * Click on the headings to sort. Type in the Search box to filter rows.
 * To select/unselect people to edit, click on the rows, ctrl+click or shift+click to select/unselect multiple rows.
 
+<a data-toggle="lightbox" href="/media/peaks/admin-buld-edit-select-people.png">
 ![Select People](https://computing.caes.ucdavis.edu/media/peaks/admin-buld-edit-select-people.png "Select People")
+</a>
 
 ## Deleting selected people
 * If you choose to delete people from your team, that is the only option you can choose.
 * Deleted people can be re-added (reactivated). But not from here. They would have to be added from the asset people page or the Bulk Load.
 * Deleted people can be viewed with the "Actions Against the People" report
 
+<a data-toggle="lightbox" href="/media/peaks/admin-bulk-edit-delete.png">
 ![Deleted Selected People](https://computing.caes.ucdavis.edu/media/peaks/admin-bulk-edit-delete.png "Delete Selected People")
+</a>
 
 ## Editable fields
 * Only fields that have the Update Checkbox checked will be changed
@@ -32,4 +38,6 @@ The bulk edit can be access from the admin menu:
 * Date fields can be cleared out with the "x" depending on the browser used.
 * After the selected people have been updated, you will return to this page with your options still selected.
 
+<a data-toggle="lightbox" href="/media/peaks/admin-bulk-edit-fields.png">
  ![Editable Fields](https://computing.caes.ucdavis.edu/media/peaks/admin-bulk-edit-fields.png "Editable Fields")
+</a>

@@ -2,7 +2,7 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-05-02
+date:   2019-05-21
 ---
 
 # New Features and Changes
@@ -48,7 +48,10 @@ date:   2019-05-02
 * The list of key serials within a person has remained unchanged.
 * As with other sorting of tables, you can click or shift click on the column headings to sort.
 
+<a data-toggle="lightbox" href="/media/commencement/admin-keyserial-sorting.png">
 ![Key Serial Sorting](https://computing.caes.ucdavis.edu/media/peaks/admin-keyserial-sorting.png "Key Serial Sorting")
+</a>
+
 ## March 26, 2019
 * For Text Only emails (Non HTML) added more email details for Expiring and notification emails to more closely match what is in the HTML part of the emails. Most users will never see this part of the email, but it will be useful for those using old email readers.
 ## March 20, 2019
@@ -59,7 +62,10 @@ date:   2019-05-02
 * Currently, the email portion of this is still pending, but if you add an notification email the information will be gathered and emailed once that service is completed.
 * The notification email may be specified in the Team Admin section:
 
+<a data-toggle="lightbox" href="/media/commencement/admin-notify-email.png">
 ![Notification Email](https://computing.caes.ucdavis.edu/media/peaks/admin-notify-email.png "Notification Email")
+</a>
+
 ## March 15, 2019
 * Some behind the scenes fixes.
 * Try to display the IAM users' name as well as the IAM id if they can't be saved when doing a bulk load.
@@ -94,7 +100,9 @@ Happy Pi Day.
 ## Feb 21, 2019
 * Added a import results table that can be downloaded
 
+<a data-toggle="lightbox" href="/media/commencement/admin-key-import-results.png">
 ![Key Import Results](https://computing.caes.ucdavis.edu/media/peaks/admin-key-import-results.png "Key Import Results")
+</a>
 
 ## Feb 20. 2019
 * Added an Equipment Attributes report. This can be used to list all the Key Value pairs for all the equipment in your team. It lists the key and all related values separated by a comma.
