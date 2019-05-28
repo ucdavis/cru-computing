@@ -62,7 +62,7 @@
   <script>
       $("#dm-toggle").click(function() {
           $("body").toggleClass("darkmode");
-
+          $("body").addClass('fader');
           var isDarkMode = Cookies.get('darkmode');
           if (isDarkMode === '1') {
               Cookies.set('darkmode', '0', { expires: 1 });

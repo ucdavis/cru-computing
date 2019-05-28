@@ -32,7 +32,16 @@ layout: default
                 <button class="no-btn" id="btn" data-clipboard-text="{{ site.url }}{{ page.url }}">
                   <i class="fa fa-link"></i>
                 </button>
-
+                <script>
+                  var btn = document.getElementById('btn');
+                  var clipboard = new ClipboardJS(btn);
+                  clipboard.on('success', function(e) {
+                      console.log(e);
+                  });
+                  clipboard.on('error', function(e) {
+                      console.log(e);
+                  });
+                </script>
             </div>
         </div>
         {% endif %}
@@ -50,13 +59,3 @@ layout: default
       </div>
     </div>
 </div>
-<script>
-  var btn = document.getElementById('btn');
-  var clipboard = new ClipboardJS(btn);
-  clipboard.on('success', function(e) {
-      console.log(e);
-  });
-  clipboard.on('error', function(e) {
-      console.log(e);
-  });
-</script>

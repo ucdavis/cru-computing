@@ -15,7 +15,9 @@ body {
   background-color:#fff;
   margin: 0 0 150px;
   padding-top:20px;
-  @include fader;
+  &.fader {
+    @include fader;
+  }
 }
 .landing-bg {
   background: url("/media/geo.svg");
@@ -42,6 +44,7 @@ header {
 .brand {
   display:flex;
   align-items: center;
+  min-height: 72px;
   // @include breakpoint(md) {
   //   justify-content: start;
   // }
@@ -49,11 +52,12 @@ header {
     line-height: 1.2;
   }
   img {
-    margin-right:12px;
     max-width: 100%;
     height:auto;
   }
   a {
+    margin-right: 12px;
+    flex-basis: 72px;
     color:$secondary-font;
     &:hover {
       color:$primary-font;
