@@ -14,17 +14,18 @@
     <div class="col-md-7">
       <nav>
         <ul class="nav upnav" id="nav_upperlevel">
+          {%- assign link = include.url | split: "/" -%}
           <li class="nav-item">
-            <a class="team-active nav-link" href="/team">Team</a>
+            <a class="team-active nav-link {% if link contains "team" %} active {% endif %}" href="/team">Team</a>
           </li>
           <li class="nav-item">
-            <a class="portfolio-active nav-link" href="/portfolio">Portfolio</a>
+            <a class="portfolio-active nav-link {% if link contains "portfolio" %} active {% endif %}" href="/portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="services-active nav-link" href="/services">Services</a>
+            <a class="services-active nav-link {% if link contains "services" %} active {% endif %}" href="/services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="documentation-active nav-link" href="/documentation">Documentation</a>
+            <a class="documentation-active nav-link {% if link contains "documentation" %} active {% endif %}" href="/documentation">Documentation</a>
           </li>
         </ul>
       </nav>
