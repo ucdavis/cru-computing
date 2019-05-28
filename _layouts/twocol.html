@@ -14,6 +14,37 @@ layout: default
         {% endif %}
         <h1>{{ page.title }}</h1>
         <p class="lead">{{ page.description }}</p>
+        {% if page.search %}
+        <input id="search-bar" type="text"/>
+        <script src="/js/searchBackend.js"></script>
+        <script>
+          initSearch('../search.json', [{%- for category in page.search -%}'{{category}}'{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}])
+          .then((index) => {
+            $("#search-bar").on('input', function() {
+              if($(this).val() == "") {
+                $("[data-title]").each(function(){
+                  $(this).show();
+                });
+              }
+              else {
+                let results = index.search($(this).val(), {
+                  fields: {
+                    title: {boost: 2, expand: true}
+                  }
+                });
+                console.log(results);
+                $("[data-title]").each(function(){
+                  $(this).hide();
+                });
+                for(let r of results) {
+                  $(`[data-title="${r.ref}"`).show();
+                }
+              }
+            })
+          });
+        </script>
+        <script defer src="/js/elasticlunr.min.js"></script>
+        {% endif %}
         <hr>
         {% if page.author %}
         <div class="author flex-straight justify-content-between align-items-center">
@@ -32,7 +63,16 @@ layout: default
                 <button class="no-btn" id="btn" data-clipboard-text="{{ site.url }}{{ page.url }}">
                   <i class="fa fa-link"></i>
                 </button>
-
+                <script>
+                    var btn = document.getElementById('btn');
+                    var clipboard = new ClipboardJS(btn);
+                    clipboard.on('success', function(e) {
+                        console.log(e);
+                    });
+                    clipboard.on('error', function(e) {
+                        console.log(e);
+                    });
+                </script>
             </div>
         </div>
         {% endif %}
@@ -50,13 +90,3 @@ layout: default
       </div>
     </div>
 </div>
-<script>
-  var btn = document.getElementById('btn');
-  var clipboard = new ClipboardJS(btn);
-  clipboard.on('success', function(e) {
-      console.log(e);
-  });
-  clipboard.on('error', function(e) {
-      console.log(e);
-  });
-</script>

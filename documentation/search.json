@@ -1,0 +1,13 @@
+---
+---
+{% assign posts = site.ace | concat: site.commencement | concat: site.purchasing | concat: site.policies | concat: site.peaks | concat: site.helpdesk %}
+{
+  {%- for post in posts -%}
+  "{{post.title}}": {
+      "title": "{{post.title}}",
+      "category": "{{post.categories}}",
+      "description": "{{post.description | strip_html | strip_newlines }}",
+      "author": "{{post.author}}"
+  }{%- unless forloop.last -%},{%- endunless -%}
+  {%- endfor -%}
+}

@@ -9,7 +9,7 @@ permalink: /portfolio
 ---
 {% for portfolio in site.portfolio reversed %}
 
-<div class="portfolio_item">
+<div class="portfolio_item" data-title="{{portfolio.title}}">
   <div class="row justify-content-between">
     <div class="col-12 col-sm-8 col-md-5">
   <div class="flexin portfolio-title">
@@ -55,12 +55,6 @@ permalink: /portfolio
 {% endif %}
 {% endfor %}
 
-
-
-<script>
-  $('.carousel').carousel()
-</script>
-<!--
 <script>
     function tabTextResize() {
         let appDev = $("ul.tabs a[href='#profile']");
@@ -74,7 +68,7 @@ permalink: /portfolio
             webDev.text("Web Development");
         }
     }
-    $(function() {
+    window.addEventListener('DOMContentLoaded', () => {
         tabTextResize();
         $(window).resize(tabTextResize);
     });
@@ -108,61 +102,48 @@ permalink: /portfolio
         }, this)
     })
 </script>
-<script src="/js/doT.js"></script>
 <script>
-    {% assign app_proj = site.data.template.app_proj %}
-    {% assign web_proj = site.data.template.web_proj %}
-    var template = "{{app_proj}}";
-    var webTemplate = "{{web_proj}}";
-    var renderFn = doT.template(template);
-    var webFn = doT.template(webTemplate)
-    console.log(renderFn.toString())
-    console.log(webFn.toString())
-    $('#myTabs a').click(function (e) {
-        e.preventDefault()
-        $(this).tab('show')
-    })
-    $('#myTabs a[href="#profile"]').tab('show') // Select tab by name
-    $('#myTabs a[href="#home"]').tab('show') // Select tab by name
-    $("#inpt_search").on('focus', function () {
-        $(this).parent('label').addClass('active');
-    });
+    window.addEventListener('DOMContentLoaded', () => {
+        $("#inpt_search").on('focus', function () {
+            $(this).parent('label').addClass('active');
+        });
 
-    $("#inpt_search").on('blur', function () {
-        if($(this).val().length == 0)
-            $(this).parent('label').removeClass('active');
+        $("#inpt_search").on('blur', function () {
+            if($(this).val().length == 0)
+                $(this).parent('label').removeClass('active');
+        });
+        $("#inpt_search").on('keyup', function(){
+            window.initialApps = window.initialApps || $("#profile").children();
+            window.initialWeb = window.initialWeb || $("#home").children();
+            let query = $(this).val() + "*";
+            let results = webIndex.search(query)
+            let apps = $("#profile");
+            let web = $("#home");
+            if(results.length > 0) {
+                console.log(results);
+                web.empty();
+                results.forEach(value => {
+                    let element = document.createElement("template");
+                    element.innerHTML = webFn(webData[value.ref]);
+                    web.append(element.content.firstChild);
+                });
+            }
+            results = appIndex.search(query);
+            if(results.length > 0) {
+                console.log(results);
+                apps.empty();
+                results.forEach(value => {
+                    let element = document.createElement("template");
+                    element.innerHTML = renderFn(appData[value.ref]);
+                    apps.append(element.content.firstChild);
+                });
+            }
+            if($(this).val().length == 0) {
+                apps.empty();
+                web.empty();
+                apps.append(window.initialApps);
+                web.append(window.initialWeb);
+            }
+        }); 
     });
-    $("#inpt_search").on('keyup', function(){
-        window.initialApps = window.initialApps || $("#profile").children();
-        window.initialWeb = window.initialWeb || $("#home").children();
-        let query = $(this).val() + "*";
-        let results = webIndex.search(query)
-        let apps = $("#profile");
-        let web = $("#home");
-        if(results.length > 0) {
-            console.log(results);
-            web.empty();
-            results.forEach(value => {
-                let element = document.createElement("template");
-                element.innerHTML = webFn(webData[value.ref]);
-                web.append(element.content.firstChild);
-            });
-        }
-        results = appIndex.search(query);
-        if(results.length > 0) {
-            console.log(results);
-            apps.empty();
-            results.forEach(value => {
-                let element = document.createElement("template");
-                element.innerHTML = renderFn(appData[value.ref]);
-                apps.append(element.content.firstChild);
-            });
-        }
-        if($(this).val().length == 0) {
-            apps.empty();
-            web.empty();
-            apps.append(window.initialApps);
-            web.append(window.initialWeb);
-        }
-    });
-</script> -->
+</script>
