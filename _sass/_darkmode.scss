@@ -27,7 +27,7 @@ body.darkmode {
       li.nav-item {
         a.nav-link {
           color:$dm-primary-font;
-          border-bottom:4px solid $darkmode;
+          // border-bottom:4px solid $darkmode;
           &:hover {
             background-color:$darkmode-alt;
           }
