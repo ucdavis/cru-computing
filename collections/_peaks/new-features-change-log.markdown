@@ -2,10 +2,14 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-05-21
+date:   2019-05-30
 ---
 
 # New Features and Changes
+## May 29, 2019
+* Added a "Software" to the equipment types. Like "Card", this will hide the make and model.
+* Fixed some confirmation dialogs what said "should" instead of "sure".
+
 ## May 2, 2019
 * Hide Admin Asset tabs if the user doesn't have access. Admins always have access to at least the Person tab, so that will always show. A Key Master would see tabs for Person and Keys.
 
