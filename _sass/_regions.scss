@@ -100,6 +100,9 @@ a.documentation-snippet {
   .profile-wrap {
     margin-top:10px;
   }
+  .portfolio-controls {
+    flex-shrink: 0;
+  }
 }
 .faq-wrap {
   padding-left:3rem;
