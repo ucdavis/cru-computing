@@ -481,3 +481,12 @@ img.img-fluid {
 .flex-straight {
   display: flex;
 }
+
+.table-filter {
+  margin: 1rem 0px;
+  .table-filter-item {
+    background-color: grey;
+    margin: 0px 2px;
+    padding: 0 1.5rem;
+  }
+}

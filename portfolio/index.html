@@ -7,8 +7,23 @@ geotag: id-portfolio
 permalink: /portfolio
 
 ---
-<div>
-    <input id="search-bar" type="text"/>
+<div class="d-flex table-filter">
+    <div class="d-inline-flex table-filter-item justify-content-center flex-column">
+        <input id="search-bar" type="text"/>
+    </div>
+    <div class="d-inline-flex table-filter-item justify-content-center flex-column">
+        <span>Last Updated</span>
+    </div>
+    <div class="d-inline-flex table-filter-item justify-content-center flex-column">
+        <span>Type</span>
+    </div>
+    <div class="d-inline-flex table-filter-item justify-content-end" style="flex-grow: 1">
+        <div style="margin-left: auto">
+            {%- for dev in site.team -%}
+                {%- include team_tooltip.html text=dev.name image=dev.image -%}
+            {%- endfor -%}
+        </div>
+    </div>
 </div>
 {% for portfolio in site.portfolio reversed %}
 
@@ -95,7 +110,7 @@ permalink: /portfolio
     }
     initSearch('./search.json', [], builder)
     .then(({searchData, index}) => {
-        
+
 
         $("#search-bar").on('input', function() {
             if($(this).val() == "") {
