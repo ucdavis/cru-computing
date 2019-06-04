@@ -18,8 +18,14 @@ layout: default
         <input id="search-bar" type="text"/>
         <script src="/js/searchBackend.js"></script>
         <script>
-          initSearch('../search.json', [{%- for category in page.search -%}'{{category}}'{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}])
-          .then((index) => {
+          let builder = function() {
+            this.setRef('title')
+            this.addField('description')
+            this.addField('author')
+            this.addField('title')
+          }
+          initSearch('{{page.url}}/../search.json', [{%- for category in page.search -%}'{{category}}'{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}], builder)
+          .then(({index}) => {
             $("#search-bar").on('input', function() {
               if($(this).val() == "") {
                 $("[data-title]").each(function(){
@@ -29,7 +35,8 @@ layout: default
               else {
                 let results = index.search($(this).val(), {
                   fields: {
-                    title: {boost: 2, expand: true}
+                    title: {boost: 5, expand: true},
+                    description: {boost: 1}
                   }
                 });
                 console.log(results);
