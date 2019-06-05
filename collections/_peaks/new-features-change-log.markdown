@@ -2,10 +2,12 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-05-30
+date:   2019-06-04
 ---
 
 # New Features and Changes
+## June 4, 2019
+* Added "Desktop" and "Server" to the equipment types. Eventually we my remove the "computer" choice depending on usage.
 ## May 29, 2019
 * Added a "Software" to the equipment types. Like "Card", this will hide the make and model.
 * Fixed some confirmation dialogs what said "should" instead of "sure".
