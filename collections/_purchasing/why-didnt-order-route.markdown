@@ -7,7 +7,7 @@ date:   2017-04-11
 
 There are a few reasons an order may not have routed to you.
 
-1. An external account (an account not in the workgroup) may have been used. When this is the case, the order may have bypassed the approver level and been set to the account manager level, or if the order was split between several accounts it may be waiting in the account manager level for the account manager as assigned in DaFIS to approve the order. This link has more info on that: [https://computing.caes.ucdavis.edu/faq/prepurchasing/approver-bypassed](https://computing.caes.ucdavis.edu/faq/prepurchasing/approver-bypassed)
+1. An external account (an account not in the workgroup) may have been used. When this is the case, the order may have bypassed the approver level and been set to the account manager level, or if the order was split between several accounts it may be waiting in the account manager level for the account manager as assigned in DaFIS to approve the order. This link has more info on that: [https://computing.caes.ucdavis.edu/documentation/purchasing/Approver-bypassed](https://computing.caes.ucdavis.edu/faq/prepurchasing/approver-bypassed)
 
 2. The order may not be at your level yet. If an order is not at your level yet, you would need reviewer access to be able to view it. If you have that, you can look at the approvals section to see what approvals need to be completed before it arrives at you level.
 
