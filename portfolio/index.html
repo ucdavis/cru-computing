@@ -8,16 +8,21 @@ permalink: /portfolio
 
 ---
 <div class="d-flex table-filter">
-    <div class="d-inline-flex table-filter-item justify-content-center flex-column">
-        <input id="search-bar" type="text"/>
+    <div class="d-inline-flex table-filter-item justify-content-center flex-column" style="flex-basis: 20rem">
+        <input id="search-bar" class="form-control" placeholder="&#xF002; Search Portfolio..." type="text"/>
     </div>
-    <div class="d-inline-flex table-filter-item justify-content-center flex-column">
-        <span>Last Updated</span>
+    <div id="sort-updated" class="d-inline-flex table-filter-item align-items-center">
+        <span class="mx-1">Last Updated</span>
+        <i class="fa fa-arrow-up mx-1" aria-hidden="true"></i>
+        <i class="fa fa-arrow-down mx-1 active" aria-hidden="true"></i>
     </div>
-    <div class="d-inline-flex table-filter-item justify-content-center flex-column">
-        <span>Type</span>
+    <div class="d-inline-flex table-filter-item justify-content-center flex-column dropdown p-0">
+        <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Audience</span>
+        </div>
+        <div class="dropdown-menu"></div>
     </div>
-    <div class="d-inline-flex table-filter-item justify-content-end" style="flex-grow: 1">
+    <div class="d-inline-flex table-filter-item justify-content-end no-hover" style="flex-grow: 1">
         <div style="margin-left: auto">
             {%- for dev in site.team -%}
                 {%- include team_tooltip.html text=dev.name image=dev.image -%}
@@ -74,21 +79,19 @@ permalink: /portfolio
 {% endfor %}
 
 <script>
-    function tabTextResize() {
-        let appDev = $("ul.tabs a[href='#profile']");
-        let webDev = $("ul.tabs a[href='#home']");
-        if($("ul.tabs").width() < 400){
-            appDev.text("Apps");
-            webDev.text("Websites");
-        }
-        else{
-            appDev.text("App Development");
-            webDev.text("Web Development");
-        }
-    }
     window.addEventListener('DOMContentLoaded', () => {
-        tabTextResize();
-        $(window).resize(tabTextResize);
+        $("#sort-updated").click((ev) => {
+            let items = $(".portfolio_item");
+            let tableFilter = $('.table-filter').first();
+            if(items) {
+                items.each((i,el) => {
+                    $(el).remove();
+                    $(el).insertAfter(tableFilter);
+                });
+                $(".fa.fa-arrow-up").first().toggleClass('active');
+                $(".fa.fa-arrow-down").first().toggleClass('active');
+            }
+        });
     });
 </script>
 <script src="/js/searchBackend.js"></script>
@@ -105,18 +108,71 @@ permalink: /portfolio
             $(this).hide();
         });
         for(let r of titles) {
-            $(`[data-title="${r.ref}"`).show();
+            $(`[data-title="${r}"`).show();
         }
     }
     initSearch('./search.json', [], builder)
     .then(({searchData, index}) => {
 
+        let addFilter = new (function() {
+            this.dataset = searchData;
+            this.filterSets = [];
+            
+            this.applyFilters = function() {
+                
+                //calculate set intersection between this.dataset and this.filterSets...
+                let result = new Set(Object.keys(this.dataset));
+                for(let filter of this.filterSets) {
+                    let f_set = new Set(filter);
+                    result = new Set([...result].filter(x => f_set.has(x)));
+                }
+                return [...result];
+
+            };
+
+            return () => {
+                this.filterSets.push(Object.keys(this.dataset));
+                let i = this.filterSets.length - 1;
+
+                return (array) => {
+                    this.filterSets[i] = array;
+                    showResults(this.applyFilters());
+                }
+            };
+        })();
+
+        let menu = $(".table-filter .dropdown-menu").first();
+        let categories = [...new Set(Object.values(searchData).map((el) => el.audience).filter((el) => typeof el !== 'undefined'))];
+
+        let audienceFilter = addFilter();
+        let searchFilter = addFilter();
+
+        let audienceCallback = (audience) => {
+            let keys = Object.keys(searchData).filter((key) => searchData[key].audience == audience)
+            audienceFilter(keys);
+        };
+
+        for(let category of categories.sort()) {
+            let el = document.createElement("button");
+            el.setAttribute('type', 'button');
+            el.classList.add('dropdown-item');
+            el.innerText = category;
+            el.onclick = audienceCallback.bind(audienceCallback, category)
+
+            menu.append(el);
+        }
+
+        let el = document.createElement("button");
+        el.setAttribute('type', 'button');
+        el.classList.add('dropdown-item');
+        el.innerText = 'All';
+        el.onclick = audienceFilter.bind(audienceFilter, Object.keys(searchData))
+
+        menu.prepend(el);
 
         $("#search-bar").on('input', function() {
             if($(this).val() == "") {
-                $("[data-title]").each(function(){
-                    $(this).show();
-                });
+                searchFilter(Object.keys(searchData));
             }
             else {
                 let results = index.search($(this).val(), {
@@ -126,8 +182,7 @@ permalink: /portfolio
                     developers: {boost: 3, expand: true}
                     }
                 });
-                console.log(results);
-                showResults(results);
+                searchFilter(results.map(el => el.ref));
             }
         })
     });

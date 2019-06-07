@@ -80,6 +80,7 @@ $commencement: $western-redbud;
 
 $card-padding: 0.75rem 1.75rem;
 $card-thick-padding: 3rem;
+$portfolio-hr-mbottom: 1.6rem;
 
 @mixin breakpoint($point) {
     @if $point==sm {

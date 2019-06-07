@@ -15,6 +15,9 @@
         {%- if post.Launched -%}
         ,"Launched": "{{post.Launched}}"
         {%- endif -%}
+        {%- if post.audience -%}
+        ,"audience": "{{post.audience}}"
+        {%- endif -%}
         {%- if post.developers -%}
         ,"developers": [
         {%- for developer in post.developers -%}

@@ -15,7 +15,7 @@ layout: default
         <h1>{{ page.title }}</h1>
         <p class="lead">{{ page.description }}</p>
         {% if page.search %}
-        <input id="search-bar" type="text"/>
+        <input id="search-bar" class="form-control" placeholder="Search" type="text"/>
         <script src="/js/searchBackend.js"></script>
         <script>
           let builder = function() {
