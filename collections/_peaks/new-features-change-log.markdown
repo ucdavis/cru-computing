@@ -6,6 +6,8 @@ date:   2019-06-04
 ---
 
 # New Features and Changes
+## June 5, 2019
+* Moved the "+ Add People", "+ Add Equipment" Etc. buttons from the bottom left of the asset lists to the upper right so you don't have to scroll to the bottom to add assets.
 ## June 4, 2019
 * Added "Desktop" and "Server" to the equipment types. Eventually we my remove the "computer" choice depending on usage.
 ## May 29, 2019
