@@ -1,5 +1,6 @@
 
 body.darkmode {
+  color:$dm-primary-font;
   background-color: $darkmode;
   .brand {
     a {
@@ -89,7 +90,8 @@ body.darkmode {
   h3,
   h4,
   h5,
-  h6 {
+  h6,
+  span {
       color: $dm-primary-font;
   }
 

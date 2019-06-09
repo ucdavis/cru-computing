@@ -489,6 +489,17 @@ img.img-fluid {
     background-color: #fbfbfb;
     margin: 0px 2px;
 
+    .darkmode & {
+      background-color: #232629;
+      .dropdown-menu {
+        background-color: $darkmode;
+        border-color: #3b4a4f;
+        .dropdown-item {
+          color: $dm-primary-font;
+        }
+      }
+    }
+
     .dropdown-toggle {
       width: 100%;
       height: 100%;
@@ -519,6 +530,10 @@ img.img-fluid {
       cursor: pointer;
       &:hover {
         background-color: lightblue;
+
+        .darkmode & {
+          background-color: #3b4a4f;
+        }
       }
     }
   }
