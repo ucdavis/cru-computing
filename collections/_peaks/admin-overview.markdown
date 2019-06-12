@@ -42,6 +42,9 @@ You may also search for your orgs by the building name. If you use this method a
 </a>
 
 ## Step 2
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wlOssLN3pvY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Next, we would recommend bulk loading people in your department. This can be done later if you wish, or people may be added individually.
 
 To bulk load people, you need to first add one or more PPS Departments:
