@@ -2,10 +2,12 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-06-11
+date:   2019-06-12
 ---
 
 # New Features and Changes
+## June 12, 2019
+* Updated the emails. Links are underlined, text updated.
 ## June 11, 2019
 * Remember the number of rows selected on the Assets tables (People, Equipment, etc.). This uses local storage, so if you move to a new computer it will default back to showing 20 rows unless you change it again.
 ## June 5, 2019
