@@ -2,7 +2,7 @@
 title:  "Admin Overview"
 description: "Information regarding the Admin section of PEAKS."
 author: "Jason Sylvestre"
-date:   2019-05-21
+date:   2019-06-12
 ---
 
 # New team setup steps
@@ -16,6 +16,8 @@ First, you want to click on Admin -> Admin Home or Administer Team:
 </a>
 
 ## Step 1
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8PzGMPX_nNg" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Add FIS Orgs. This adds spaces to your team. Click Add new org code:
 
 
