@@ -2,7 +2,7 @@
 title:  "Admin Overview"
 description: "Information regarding the Admin section of PEAKS."
 author: "Jason Sylvestre"
-date:   2019-06-12
+date:   2019-06-13
 ---
 
 # New team setup steps
@@ -64,6 +64,9 @@ More information on the people asset can be found here :
 [People](https://computing.caes.ucdavis.edu/documentation/peaks/people)
 
 ## Step 3
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_gtojF1wgfI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Adding Tags. This can be done later, but for tags to be available for other non departmental admins (Key Master for example) they will have to be added first.
 Tags are useful for filtering items on the individual asset pages. For example, you could create a "Student" tag and add that to all the person assets that are students.
 
