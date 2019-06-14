@@ -2,7 +2,7 @@
 title:  "Admin Overview"
 description: "Information regarding the Admin section of PEAKS."
 author: "Jason Sylvestre"
-date:   2019-06-13
+date:   2019-06-14
 ---
 
 # New team setup steps
@@ -84,6 +84,9 @@ NOTE!!! If you delete or edit a tag, it doesn't change the tag that may be assoc
 </a>
 
 ## Step 4
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ief9Mp_tyws" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Delegate :)
 Now is the time to add other admins.
 Departmental Admins have all the accesses of the other types in addition to being able to access the team admin pages.
