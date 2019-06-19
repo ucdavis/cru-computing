@@ -16,6 +16,7 @@ date:   2019-03-13 9:07:00
   * If you are searching for both the key and attribute, make sure you click the "search for:..." for each of these values otherwise it will only match the phrase instead of each word.
 * To clear a search item either backspace over it or click on the small "x" next to the search term
 * Any column with an input field over it can be search for what is in that column.
+* Videos showing searching can also be found [HERE](/documentation/peaks/searching)
 
 ## Actions
 * Under the Actions column if you click on ... you can Assign/Add a person if it is currently un-assigned

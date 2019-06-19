@@ -21,3 +21,6 @@ date:   2019-01-22 14:00:17
 * You can sort by clicking in the column headings. If you shift click, you can sort by multiple columns.
 * Filtering: You can filter several ways, they are all cumulative. You can chose tags. You can type text under the Room and Room Name headings. And you can choose from the drop down under workstations: Any: any space with a workstation. Unassigned: Any space with a workstation that is unassigned. Assigned: Any space with at least 1 workstation assigned to it. And show all clears the workstation filter.
 * The details link for a space list keys, equipment, and workstations.
+
+## Searching
+* Videos showing searching can also be found [HERE](/documentation/peaks/searching)

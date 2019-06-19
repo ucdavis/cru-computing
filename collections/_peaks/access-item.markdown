@@ -13,6 +13,7 @@ The intended purpose of the Access item is for things like Program access or oth
 * You can search access for tags. Only tags in the team can be searched.
 * To clear a search item either backspace over it or click on the small “x” next to the search term.
 * Any column with an input field over it can be search for what is in that column.
+* Videos showing searching can also be found [HERE](/documentation/peaks/searching)
 
 # Actions
 * You can assign a person to an Access item. Multiple people can be assigned to an Access.
