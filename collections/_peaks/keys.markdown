@@ -13,6 +13,7 @@ Keys consit of two parts. The Key and the Key Serial. The Key can be considered 
 * You can search keys for tags. Only tags in the team can be searched.
 * To clear a search item either backspace over it or click on the small “x” next to the search term.
 * Any column with an input field over it can be search for what is in that column.
+* Videos showing searching can also be found [HERE](/documentation/peaks/searching)
 
 ## Columns
 * The Serials column shows how many of those are assigned to someone (in Use) and the total number of serials.
