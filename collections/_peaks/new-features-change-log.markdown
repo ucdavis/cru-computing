@@ -2,10 +2,12 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-06-12
+date:   2019-06-24
 ---
 
 # New Features and Changes
+## June 24, 2019
+* Added a column to the Bulk Edit People page to show when the person was added (if value can be found). This could be useful to bulk delete people that were added in error. 
 ## June 12, 2019
 * Updated the emails. Links are underlined, text updated.
 ## June 11, 2019
