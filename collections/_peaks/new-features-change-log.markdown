@@ -8,14 +8,19 @@ date:   2019-06-24
 # New Features and Changes
 ## June 24, 2019
 * Added a column to the Bulk Edit People page to show when the person was added (if value can be found). This could be useful to bulk delete people that were added in error. 
+ 
 ## June 12, 2019
 * Updated the emails. Links are underlined, text updated.
+
 ## June 11, 2019
 * Remember the number of rows selected on the Assets tables (People, Equipment, etc.). This uses local storage, so if you move to a new computer it will default back to showing 20 rows unless you change it again.
+ 
 ## June 5, 2019
 * Moved the "+ Add People", "+ Add Equipment" Etc. buttons from the bottom left of the asset lists to the upper right so you don't have to scroll to the bottom to add assets.
+
 ## June 4, 2019
 * Added "Desktop" and "Server" to the equipment types. Eventually we my remove the "computer" choice depending on usage.
+
 ## May 29, 2019
 * Added a "Software" to the equipment types. Like "Card", this will hide the make and model.
 * Fixed some confirmation dialogs what said "should" instead of "sure".
