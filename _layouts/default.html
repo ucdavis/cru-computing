@@ -25,11 +25,14 @@
             body.className += ' darkmode';
         }
     </script>
+    <div class="page-wrap">
     {% if page.home == nil %}
     {% include header.html url=page.url %}
     {% endif %}
 
-        {{ content }}
+      {{ content }}
+    </div>
+
 
 
     {% include footer.html %}

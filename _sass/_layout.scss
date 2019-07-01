@@ -9,14 +9,28 @@
 html {
   position: relative;
   height: inherit;
+    height:100%;
 }
 
 body {
   background-color:#fff;
-  margin: 0 0 150px;
+  min-height: 100%;
+  display: grid;
   padding-top:20px;
+  grid-template-rows: 1fr auto;
   &.fader {
     @include fader;
+  }
+}
+.page-wrap {
+flex: 1 0 auto;
+}
+footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding-top:24px !important;
+  i {
+    color: $secondary-font;
   }
 }
 .content-wrap {
@@ -83,16 +97,5 @@ header {
   @include breakpoint(lg) {
     width: 85%;
     max-width:1440px;
-  }
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  left:0;
-  right:0;
-  margin-bottom:32px;
-  i {
-    color: $secondary-font;
   }
 }
