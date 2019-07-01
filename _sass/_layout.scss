@@ -19,6 +19,9 @@ body {
     @include fader;
   }
 }
+.content-wrap {
+  margin-top:2.6rem;
+}
 .landing-bg {
   background: url("/media/geo.svg");
   background-repeat: no-repeat;
