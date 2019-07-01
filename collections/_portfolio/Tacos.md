@@ -6,6 +6,8 @@ current-url: "https://tacos.ucdavis.edu"
 developers:
     - Scott Kirkland
     - John Knoll
+    - Ken Taylor
+    - Laura Holstege
 image: "tacos"
 date: 2019-04-14
 bgcolor: 1D4169
