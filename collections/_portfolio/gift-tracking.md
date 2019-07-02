@@ -6,7 +6,6 @@ current-url: "https://gifts.ucdavis.edu/"
 developers:
   - Scott Kirkland
   - John Knoll
-  - Ken Taylor
   - Jason Sylvestre
 date: 2016-05-05
 image: "great"

@@ -5,7 +5,6 @@ description: "Create, distribute and calculate changes to complex legal document
 current-url:
 date: 2014-09-21
 developers:
-  - John Knoll
   - Ken Taylor
 image: "legalgift"
 ---

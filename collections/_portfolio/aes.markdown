@@ -6,7 +6,6 @@ current-url: "https://aes.ucdavis.edu/"
 developers:
   - Cal Doval
   - Scott Kirkland
-  - John Knoll
 image: aes
 date: 2018-01-23
 ---
