@@ -6,4 +6,5 @@ role: Systems Architect
 image: /media/team/shuka_pic
 categories:
   - helpdesk
+  - current
 ---

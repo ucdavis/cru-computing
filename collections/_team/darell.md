@@ -5,4 +5,5 @@ role: Client Support
 image: /media/team/dj_pic
 categories:
   - helpdesk
+  - current
 ---

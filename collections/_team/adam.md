@@ -6,4 +6,5 @@ role: Director of Information Technology
 image: /media/team/adam_pic
 categories:
   - director
+  - current
 ---

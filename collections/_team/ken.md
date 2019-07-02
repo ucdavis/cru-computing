@@ -5,4 +5,5 @@ role: Applications Developer
 image: /media/team/ken_pic
 categories:
   - webdev
+  - current
 ---

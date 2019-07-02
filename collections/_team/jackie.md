@@ -5,4 +5,5 @@ role: Client Support
 image: /media/team/jackie_pic
 categories:
   - helpdesk
+  - current
 ---

@@ -6,4 +6,5 @@ role: Systems Administrator
 image: /media/team/steven_pic
 categories:
   - helpdesk
+  - current
 ---

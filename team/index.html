@@ -13,9 +13,12 @@ geotag: id-team
 permalink: /team
 
 ---
+<div class="profile-wrap">
+
+</div>
 <div class="row team-wrapper">
-  {% assign team = site.team %}
-  {% for post in site.team %}
+  {% assign team = site.team | where: "categories","current"  %}
+  {% for post in team %}
 <div class="col-sm-4">
 <div class="card card-height-fixed">
   <div class="card-content text-center">
@@ -26,6 +29,22 @@ permalink: /team
     <p>{{ post.phone }}</p>
       {% endif %}
       <p><a href="mailto:{{ post.email }}">{{ post.email }}</a></p>
+  </div>
+</div>
+</div>
+{% endfor %}
+</div>
+<h1>Alumnus</h1>
+<div class="row team-wrapper">
+
+  {% assign team = site.team | where: "categories","alumni"  %}
+  {% for post in team %}
+<div class="col-sm-4">
+<div class="card card-height-fixed">
+  <div class="card-content text-center">
+    <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+    <h2>{{ post.name }}</h2>
+    <p>Currently at {{ post.role }}</p>
   </div>
 </div>
 </div>
