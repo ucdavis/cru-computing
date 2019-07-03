@@ -13,9 +13,7 @@ geotag: id-team
 permalink: /team
 
 ---
-<div class="profile-wrap">
 
-</div>
 <div class="row team-wrapper">
   {% assign team = site.team | where: "categories","current"  %}
   {% for post in team %}
@@ -34,19 +32,29 @@ permalink: /team
 </div>
 {% endfor %}
 </div>
-<h1>Alumnus</h1>
-<div class="row team-wrapper">
 
-  {% assign team = site.team | where: "categories","alumni"  %}
-  {% for post in team %}
-<div class="col-sm-4">
-<div class="card card-height-fixed">
-  <div class="card-content text-center">
-    <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
-    <h2>{{ post.name }}</h2>
-    <p>Currently at {{ post.role }}</p>
+  <div class="row justify-content-around align-items-center">
+    <div class="col-sm-4 text-right">
+      <h1>Alumni</h1>
+    </div>
+    <div class="col-sm-4">
+      <div class="text-left">
+        <img class="img-fluid" src="/media/team/alumni.png" alt="">
+      </div>
+    </div>
   </div>
-</div>
-</div>
-{% endfor %}
+  <div class="row team-wrapper">
+
+      {% assign team = site.team | where: "categories","alumni"  %}
+      {% for post in team %}
+    <div class="col-sm-4">
+    <div class="card card-height-fixed">
+      <div class="card-content text-center">
+        <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+        <h2>{{ post.name }}</h2>
+        <p>Currently at {{ post.role }}</p>
+      </div>
+    </div>
+    </div>
+    {% endfor %}
 </div>
