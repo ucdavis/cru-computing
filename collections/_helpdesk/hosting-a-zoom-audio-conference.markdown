@@ -12,7 +12,7 @@ date:   2019-07-16 09:59:00
     <ul style="PADDING-LEFT: 20px">
       <li>US: (669) 900-6833</li>
       <li>US: (646) 876-9923</li>
-      <li>Additional Countries/Regions: https://zoom.us/zoomconference</li>
+      <li>Additional Countries/Regions: <a class="external-link" href="https://ucdavis.zoom.us/zoomconference" target="_blank">https://ucdavis.zoom.us/zoomconference</a></li>
     </ul>
   </li>
   <li>Enter your <b>Personal Meeting ID</b> followed by <b>#</b>
@@ -34,7 +34,7 @@ date:   2019-07-16 09:59:00
     <ul style="PADDING-LEFT: 20px">
       <li>US: (669) 900-6833</li>
       <li>US: (646) 876-9923</li>
-      <li>Additional Countries/Regions: https://zoom.us/zoomconference</li>
+      <li>Additional Countries/Regions: <a class="external-link" href="https://ucdavis.zoom.us/zoomconference" target="_blank">https://ucdavis.zoom.us/zoomconference</a></li>
     </ul>
   </li>
   <li>Enter the provided <b>Personal Meeting ID</b> followed by <b>#</b></li>
@@ -43,7 +43,7 @@ date:   2019-07-16 09:59:00
 <br />
 <p>Obtain your Zoom Instant Meeting details:</p>
 <ol style="PADDING-LEFT: 30px">
-  <li>Open a browser and go to <a class="external-link" href="http://ucdavis.zoom.us" target="_blank">http://ucdavis.zoom.us</a></li>
+  <li>Open a browser and go to <a class="external-link" href="https://ucdavis.zoom.us" target="_blank">https://ucdavis.zoom.us</a></li>
   <li>Select <b>Sign In</b> in the upper-right corner</li>
   <li>Enter your Zoom credentials
     <ul style="PADDING-LEFT: 20px">
@@ -76,7 +76,7 @@ date:   2019-07-16 09:59:00
         <ul style="PADDING-LEFT: 40px">
           <li>US: (669) 900-6833</li>
           <li>US: (646) 876-9923</li>
-          <li>Additional Countries/Regions: https://zoom.us/zoomconference</li>
+          <li>Additional Countries/Regions: <a class="external-link" href="https://ucdavis.zoom.us/zoomconference" target="_blank">https://ucdavis.zoom.us/zoomconference</a></li>
         </ul>  
       </li>
       <li>Personal Meeting ID</li>
