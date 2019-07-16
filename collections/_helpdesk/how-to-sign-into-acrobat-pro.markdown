@@ -4,7 +4,7 @@ description: "Use this guide to sign into the Adobe Acrobat Pro application on a
 author: "Steven Barkey"
 date:   2018-11-29 10:56:00
 ---
-<p>The instructions below will walk you through the process or signing into Adobe Acrobat Pro, but if you encounter any issues, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> for further assistance.</p>
+<p>The instructions below will walk you through the process of signing into Adobe Acrobat Pro, but if you encounter any issues, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
 <p>Sign into the Adobe Acrobat Pro application:</p>
 <ol style="PADDING-LEFT: 30px">
