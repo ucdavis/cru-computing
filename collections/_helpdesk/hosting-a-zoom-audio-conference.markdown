@@ -78,7 +78,7 @@ date:   2019-07-16 09:59:00
       </li>
       <li>Personal Meeting ID</li>
       <li>Meeting URL/link (so they can join the audio-only meeting on a computer if necessary)</li>
-      <li><b>Do not> share your Host Key with your participants.  This is only used by the host to start the meeting.</li>
+      <li><b>Do not</b> share your Host Key with your participants.  This is only used by the host to start the meeting.</li>
     </ul>
   </li>
 </ol>
