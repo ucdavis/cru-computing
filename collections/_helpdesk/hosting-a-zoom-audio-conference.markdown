@@ -16,12 +16,12 @@ date:   2019-07-16 09:59:00
   </li>
   <li>Enter your <b>Personal Meeting ID</b> followed by <b>#</b>
     <ul style="PADDING-LEFT: 20px">
-      <li>If you do not know your <b>Personal Meeting ID</b>, follow the steps below to <b>Obtain your Zoom Instant Meeting details</b>.</li>
+      <li>If you do not know your Personal Meeting ID, follow the steps below to <b>Obtain your Zoom Instant Meeting details</b>.</li>
     </ul>
   </li>
   <li>Enter your <b>Host Key</b> followed by <b>#</b>
     <ul style="PADDING-LEFT: 20px">
-      <li>If you do not know your <b>Host Key</b>, follow the steps below to <b>Obtain your Zoom Instant Meeting details</b>.</li>
+      <li>If you do not know your Host Key, follow the steps below to <b>Obtain your Zoom Instant Meeting details</b>.</li>
     </ul>
   </li>
   <li>You do not need to enter a Participant ID, just press <b>#</b></li>
@@ -65,7 +65,7 @@ date:   2019-07-16 09:59:00
   </li>
   <li>Copy or write down your <b>Host Key</b>
     <ul style="PADDING-LEFT: 20px">
-      <li>If you would like to change this to something more memorable, click <b>Edit</b> on the right.</li>
+      <li>If you would like to change this to something more memorable, click <b>Edit</b> on the right</li>
     </ul>
   </li>
   <li>Share the following items with your participants:
@@ -78,6 +78,7 @@ date:   2019-07-16 09:59:00
       </li>
       <li>Personal Meeting ID</li>
       <li>Meeting URL/link (so they can join the audio-only meeting on a computer if necessary)</li>
+      <li><b>Do not> share your Host Key with your participants.  This is only used by the host to start the meeting.</li>
     </ul>
   </li>
 </ol>
