@@ -62,7 +62,7 @@ date:   2019-07-16 09:59:00
   </li>
   <li>Click <b>Show</b> to the right of your <b>Host Key</b>
     <ul style="PADDING-LEFT: 20px">
-      <li>If you do not have a <b>Host Key</b>, you likely need a Zoom Pro license.  Please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> for further assistance.</li>
+      <li>If you do not have a Host Key, you likely need a Zoom Pro license.  Please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> for further assistance.</li>
     </ul>
   </li>
   <li>Copy or write down your <b>Host Key</b>
