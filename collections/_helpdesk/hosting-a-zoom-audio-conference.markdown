@@ -8,7 +8,7 @@ date:   2019-07-16 09:59:00
 <br />
 <p>Joining a Zoom Audio meeting as the host:</p>
 <ol style="PADDING-LEFT: 30px">
-  <li>Dial one of the Zoom Global Dial-in Numbers:
+  <li>Call one of the Zoom Global Dial-in Numbers:
     <ul style="PADDING-LEFT: 20px">
       <li>(669) 900-6833</li>
       <li>(646) 876-9923</li>
@@ -29,13 +29,13 @@ date:   2019-07-16 09:59:00
 <br />
 <p>Joining a Zoom Audio meeting as a participant:</p>
 <ol style="PADDING-LEFT: 30px">
-  <li>Dial one of the Zoom Global Dial-in Numbers:
+  <li>Call one of the Zoom Global Dial-in Numbers:
     <ul style="PADDING-LEFT: 20px">
       <li>(669) 900-6833</li>
       <li>(646) 876-9923</li>
     </ul>
   </li>
-  <li>Enter the provided <b>Personal Meeting ID<b> followed by <b>#</b></li>
+  <li>Enter the provided <b>Personal Meeting ID</b> followed by <b>#</b></li>
   <li>You do not need to enter a Host Key, just press <b>#</b></li>
 </ol>
 <br />
@@ -51,9 +51,9 @@ date:   2019-07-16 09:59:00
   <li>Select <b>Profile</b> from the left menu column</li>
   <li>Click <b>Edit</b> to the right of your <b>Personal Meeting ID</b></li>
   <li>Confirm <b>Use Personal Meeting ID for instant meetings</b> is checked</li>
-  <li>If desired, change your <b>Personal Meeting ID<b> to something more memorable</li>
+  <li>If desired, change your <b>Personal Meeting ID</b> to something more memorable</li>
   <li>Click <b>Save Changes</b></li>
-  <li>Copy or write down your <b>Personal Meeting ID</b> and the <b>https://ucdavis.zoom/us/j/<personal meeting id></b> link
+  <li>Copy or write down your <b>Personal Meeting ID</b> and the meeting URL/link
     <ul style="PADDING-LEFT: 20px">
       <li>If you are unable to change your Personal Meeting ID, you likely need a Zoom Pro license.  Please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> for further assistance.</li>
     </ul>
@@ -77,6 +77,7 @@ date:   2019-07-16 09:59:00
         </ul>  
       </li>
       <li>Personal Meeting ID</li>
+      <li>Meeting URL/link (so they can join the audio-only meeting on a computer if necessary)</li>
     </ul>
   </li>
 </ol>
