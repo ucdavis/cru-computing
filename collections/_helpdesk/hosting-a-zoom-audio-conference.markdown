@@ -8,7 +8,7 @@ date:   2019-07-16 09:59:00
 <br />
 <p>Joining a Zoom Audio meeting as the host:</p>
 <ol style="PADDING-LEFT: 30px">
-  <li>Call one of the Zoom Global Dial-in Numbers:
+  <li>Call one of the Zoom International Dial-in Numbers:
     <ul style="PADDING-LEFT: 20px">
       <li>US: (669) 900-6833</li>
       <li>US: (646) 876-9923</li>
@@ -30,7 +30,7 @@ date:   2019-07-16 09:59:00
 <br />
 <p>Joining a Zoom Audio meeting as a participant:</p>
 <ol style="PADDING-LEFT: 30px">
-  <li>Call one of the Zoom Global Dial-in Numbers:
+  <li>Call one of the Zoom International Dial-in Numbers:
     <ul style="PADDING-LEFT: 20px">
       <li>US: (669) 900-6833</li>
       <li>US: (646) 876-9923</li>
@@ -72,7 +72,7 @@ date:   2019-07-16 09:59:00
   </li>
   <li>Share the following items with your participants:
     <ul style="PADDING-LEFT: 20px">
-      <li>Zoom Global Dial-in Numbers:
+      <li>Zoom International Dial-in Numbers:
         <ul style="PADDING-LEFT: 40px">
           <li>US: (669) 900-6833</li>
           <li>US: (646) 876-9923</li>
