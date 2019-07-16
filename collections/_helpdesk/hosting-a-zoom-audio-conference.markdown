@@ -10,8 +10,9 @@ date:   2019-07-16 09:59:00
 <ol style="PADDING-LEFT: 30px">
   <li>Call one of the Zoom Global Dial-in Numbers:
     <ul style="PADDING-LEFT: 20px">
-      <li>(669) 900-6833</li>
-      <li>(646) 876-9923</li>
+      <li>US: (669) 900-6833</li>
+      <li>US: (646) 876-9923</li>
+      <li>Additional Countries/Regions: https://zoom.us/zoomconference</li>
     </ul>
   </li>
   <li>Enter your <b>Personal Meeting ID</b> followed by <b>#</b>
@@ -31,8 +32,9 @@ date:   2019-07-16 09:59:00
 <ol style="PADDING-LEFT: 30px">
   <li>Call one of the Zoom Global Dial-in Numbers:
     <ul style="PADDING-LEFT: 20px">
-      <li>(669) 900-6833</li>
-      <li>(646) 876-9923</li>
+      <li>US: (669) 900-6833</li>
+      <li>US: (646) 876-9923</li>
+      <li>Additional Countries/Regions: https://zoom.us/zoomconference</li>
     </ul>
   </li>
   <li>Enter the provided <b>Personal Meeting ID</b> followed by <b>#</b></li>
@@ -72,8 +74,9 @@ date:   2019-07-16 09:59:00
     <ul style="PADDING-LEFT: 20px">
       <li>Zoom Global Dial-in Numbers:
         <ul style="PADDING-LEFT: 40px">
-          <li>(669) 900-6833</li>
-          <li>(646) 876-9923</li>
+          <li>US: (669) 900-6833</li>
+          <li>US: (646) 876-9923</li>
+          <li>Additional Countries/Regions: https://zoom.us/zoomconference</li>
         </ul>  
       </li>
       <li>Personal Meeting ID</li>
