@@ -6,6 +6,9 @@ date:   2019-06-24
 ---
 
 # New Features and Changes
+## July 29, 2019 -- Later in the day...
+* Added filters to the Equipment list for Protection and Availability Levels.
+
 ## July 29, 2019
 * Added 2 new dropdown fields to Equipment. Protection Level and Availability Level.
 * These are visible when the equipment type is one of the following: 'Computer', 'Desktop', 'Laptop', 'Server', 'Cellphone', 'Device'
