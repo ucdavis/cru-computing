@@ -6,6 +6,23 @@ date:   2019-06-24
 ---
 
 # New Features and Changes
+## July 29, 2019
+* Added 2 new dropdown fields to Equipment. Protection Level and Availability Level.
+* These are visible when the equipment type is one of the following: 'Computer', 'Desktop', 'Laptop', 'Server', 'Cellphone', 'Device'
+* Existing data that matches these types have been set to the minimal values (P1 and A1). You should review these and edit them as necessary.
+* These two new fields are also on the CSV equipment import and are required for the types listed above.
+* Protection Level:
+  * P1
+  * P2
+  * P3
+  * P4
+* Availability Level
+  * A1
+  * A2
+  * A3
+  * A4
+* Descriptions of these can be found here: https://security.ucop.edu/policies/institutional-information-and-it-resource-classification.html
+
 ## June 24, 2019
 * Added a column to the Bulk Edit People page to show when the person was added (if value can be found). This could be useful to bulk delete people that were added in error. 
  
