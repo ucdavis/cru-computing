@@ -6,7 +6,7 @@ date:   2015-03-07 16:25:17
 permalink: /documentation/helpdesk/remote-desktop
 ---
 
-<p><span class="discreet">NOTE: This guide assumes you have Windows 7 or Windows 10. For MacOS, you can use Remote Desktop Connection Client for Mac. For other clients, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/help-desk-ticket" target="_parent">create a Helpdesk ticket</a>.</span></p>
+<p><span class="discreet">NOTE: This guide assumes you have Windows 7 or Windows 10. For MacOS, you can use Remote Desktop Connection Client for Mac. For other clients, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a>.</span></p>
 <br />
 <h3>To connect to the Remote Desktop server:</h3>
 <ul style="PADDING-LEFT: 30px">
