@@ -9,14 +9,14 @@ date:   2019-01-25 08:01:17
 <br />
 <p>If you have privacy conernes about installing the Duo Mobile app on your smartphone, please visit <a class="external-link" href="http://kb.ucdavis.edu/?id=3352" target="_parent">http://kb.ucdavis.edu/?id=3352</a> for more information.</p>
 <br />
-<p>If you are unable to use a smartphone for any reason, please consider one of the other methods below or <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> for further assistance.</p>
+<p>If you are unable to use a smartphone for any reason, please consider one of the other methods below or <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
 <p>Enroll other devices in Duo:
 <ul style="PADDING-LEFT: 30px">
   <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/enroll-in-duo-with-cellphone" target="_parent">Enroll in Duo with a cell phone (non-smartphone)</a></li>
   <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/enroll-in-duo-with-landline" target="_parent">Enroll in Duo with a landline</a></li>
   <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/enroll-in-duo-with-tablet" target="_parent">Enroll in Duo with a tablet</a></li>
-  <li>Enroll in Duo with a hard token (<a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/help-desk-ticket" target="_parent">create a Helpdesk ticket</a>)</li>
+  <li>Enroll in Duo with a hard token (<a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a>)</li>
 </ul>
 </p>
 <br />
