@@ -7,7 +7,7 @@ date:   2019-01-25 08:01:17
 
 <p>If you access your Office 365 Mailbox using an iPhone or iPad and you enable Duo on your UC Davis computing account, you will need to remove and readd the mailbox to your device after Duo is enabled on the mailbox, which generally takes about 15-60 minutes to process.</p>
 <br />
-<p>The instructions below will walk you through the process, but if you encounter any issues, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> for further assistance.</p>
+<p>The instructions below will walk you through the process, but if you encounter any issues, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
 <p>Confirm that Duo has been enabled for your Office 365 mailbox:</p>
 <ol style="PADDING-LEFT: 30px">
