@@ -7,13 +7,13 @@ date:   2019-02-13 10:56:00
 
 <p>As of December 2018, through joint funding by College of Agriculture & Environmental Sciences and the Office of the Provost, UC Davis provides access to ArcGIS Pro, as part of the ESRI Institutional License, to all active students, faculty, staff, and sponsored affiliates for university-related research and teaching purposes.  However, before you can use the ArcGIS Pro application for the first time, you must create your ArcGIS Online account.</p>
 <br />
-<p>The instructions below will walk you through the process, but if you encounter any issues, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/help-desk-ticket" target="_parent">create a Helpdesk ticket</a> for further assistance.</p>
+<p>The instructions below will walk you through the process, but if you encounter any issues, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
 <p>Sign into the ArcGIS Pro application:</p>
 <ol style="PADDING-LEFT: 30px">
   <li>Launch the ArcGIS Pro application
     <ul style="PADDING-LEFT: 20px">
-      <li>If the workstation is managed by the CAES Dean's Office Computing Resources Unit and you need ArcGIS Pro installed, please <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/help-desk-ticket" target="_parent">create a Helpdesk ticket</a>.</li>
+      <li>If the workstation is managed by the CAES Dean's Office Computing Resources Unit and you need ArcGIS Pro installed, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a>.</li>
     </ul>
   </li>
   <li>Select the option for <b>ENTERPRISE LOGIN</b>
