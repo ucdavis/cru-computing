@@ -2,7 +2,7 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-06-24
+date:   2019-08-12
 ---
 
 # New Features and Changes
