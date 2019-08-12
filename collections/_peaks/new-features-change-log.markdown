@@ -6,6 +6,11 @@ date:   2019-06-24
 ---
 
 # New Features and Changes
+## Aug 12, 2019
+* Added a CSV Import for people.
+* A Person Manager may access the People CSV import from the Admin Menu -> CSV Upload People
+* A Departmental Admin may access the People CSV import from the Admin Menu -> CSV Imports or Admin Menu -> Bulk Load People
+
 ## July 29, 2019 -- Later in the day...
 * Added filters to the Equipment list for Protection and Availability Levels.
 
