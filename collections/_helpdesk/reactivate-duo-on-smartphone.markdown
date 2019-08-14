@@ -6,7 +6,7 @@ date:   2019-08-14 12:15:00
 permalink: /documentation/helpdesk/reactivate-duo-on-smartphone
 ---
 
-<p>UC Davis is enforcing a new security measure to protect campus computing accounts, known as Duo MFA (Multi-Factor Authentication).  Essentially, when your campus computing account is protected with Duo, it means that in addition to your UC Davis username and password, you’ll need a third thing which only you can access, when you authenticate using your campus computing account.  We recommend using a smartphone as that third thing as almost all iPhone/Android/Windows Mobile phones will work.</p>
+<p>If you have replaced your smartphone, reset it back to factory configuration, or removed and readded the Duo Mobile app, you will need to reactivate the Duo Mobile app on your smartphone with your Duo account.  To do so, please follow the instructions below.</p>
 <br />
 <p>If you are unable to reactivate the Duo Mobile app on your smartphone for any reason, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
