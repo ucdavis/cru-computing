@@ -2,10 +2,16 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-08-12
+date:   2019-08-14
 ---
 
 # New Features and Changes
+
+## Aug 14, 2019
+* Default the Person's Title from IAM when a new person is added to a team
+* Changed the CSV People import column name Title to OverrideTitle
+* Added a Bigfix Id column to the equipment
+
 ## Aug 12, 2019
 * Added a CSV Import for people.
 * A Person Manager may access the People CSV import from the Admin Menu -> CSV Upload People
