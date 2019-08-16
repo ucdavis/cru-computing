@@ -7,6 +7,9 @@ date:   2019-08-14
 
 # New Features and Changes
 
+## Aug 16, 2019
+* CSV Import changes. Increased number of key value columns, BigfixIf Column, please see import page for details.
+
 ## Aug 14, 2019
 * Default the Person's Title from IAM when a new person is added to a team
 * Changed the CSV People import column name Title to OverrideTitle
