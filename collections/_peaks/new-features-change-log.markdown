@@ -2,10 +2,17 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-08-16
+date:   2019-08-21
 ---
 
 # New Features and Changes
+
+## Aug 17 - 21, 2019
+* CSV Import people can now update existing people in your team.
+* Updated our date picker.
+* Longer team names now display correctly on the choose team page.
+* Added a "Make a Suggestion" link to the help page.
+* Behind the scenes improvements.
 
 ## Aug 16, 2019
 * CSV Import changes. Increased number of key value columns, BigfixIf Column, please see import page for details.
