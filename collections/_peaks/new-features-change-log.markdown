@@ -2,10 +2,31 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-08-21
+date:   2019-09-03
 ---
 
 # New Features and Changes
+
+## Sept 3, 2019
+* We have changed how the "key" part of equipment attributes can be selected. Previously, you could type anything. Now we have a default of attribute keys that are system wide and the ability for the Departmental Admin to add more for your team.
+* CSV imports of equipment can still use any key value, but there will be a warning message if one used isn't in the list.
+* Existing data will not be changed, and if you edit equipment with a key that isn't in the list it will save as long as you don't modify the existing key.
+* If it isn't found, it will be highlighted in red and will be removed when you click Go.
+* The Departmental Admin can access the page to maintain the Team's Equipment Attribute Keys from the Admin menu.
+* Current System wide Equipment Attribute Keys:
+  * External Link	-- URL to more info
+  * Hostname	-- Hostname	
+  * IP Address	-- IP Address	
+  * MAC Address	 -- Media Access Control Address	
+  * Operating System	-- Operating System	
+  * Owner	-- The person responsible for the equipment	
+  * Phone Number	-- Phone Number	
+  * Purchase Date	-- Date was purchased	
+  * Purchase Identifier	-- External Order Identifier	
+  * Service Tag	-- Service Tag
+* CSV Import for keys has had a couple new fields added. KeyNotes, KeyTags, and SerialNotes. Note, the KeyNotes and KeyTags will only be applied for new "Keys" not the Key Serials (Physical Keys).
+* Added "Special" as a choice for the Key Serial status. In combination with notes, this could be used to identify a key serial that is assigned to someone not in IAM. 
+* Also added "Special" as a filter choice for the key's table. It will fall under the inactive filter as well.
 
 ## Aug 17 - 21, 2019
 * CSV Import people can now update existing people in your team.
