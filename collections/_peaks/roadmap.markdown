@@ -2,7 +2,7 @@
 title:  "Road map"
 description: "What is coming next to PEAKS"
 author: "Jason Sylvestre"
-date:   2019-09-03 11:10:00
+date:   2019-09-05 11:10:00
 permalink: /documentation/peaks/roadmap
 ---
 
