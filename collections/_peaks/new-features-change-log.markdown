@@ -2,10 +2,14 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-09-03
+date:   2019-09-05
 ---
 
 # New Features and Changes
+
+## Sept 5, 2019
+* On the equipment details, next to the Bigfix Id, there is now a i icon for more information. This will lookup the Bigfix
+info and display it.
 
 ## Sept 3, 2019
 * We have changed how the "key" part of equipment attributes can be selected. Previously, you could type anything. Now we have a default of attribute keys that are system wide and the ability for the Departmental Admin to add more for your team.
