@@ -14,7 +14,7 @@ permalink: /documentation/peaks/roadmap
   * Reports for People
   * Reports for Workstations (Spaces)
 * Expand the API to make more PEAKS data available
-
+* More Bigfix integrations  
 ## Version 2
 * Have a Team of Teams group that will allow view/report access into the child teams.
 
