@@ -2,10 +2,14 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-09-05
+date:   2019-09-06
 ---
 
 # New Features and Changes
+
+## Sept 6, 2019
+* The Equipment Types dropdown is now sorted alphabetically
+* Added Tablet, Accessory, and Printer as Equipment Type choices
 
 ## Sept 5, 2019
 * On the equipment details, next to the Bigfix Id, there is now a i icon for more information. This will lookup the Bigfix
