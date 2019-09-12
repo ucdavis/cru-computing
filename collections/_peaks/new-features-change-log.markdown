@@ -2,10 +2,15 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-09-06
+date:   2019-09-12
 ---
 
 # New Features and Changes
+
+## Sept 12, 2019
+* UI Enhancements
+* Behind the scenes performace changes
+* Ability to lookup the Bigfix Id by the computer name. If there is no bigfix Id, a Lookup link will appear next to the label. Click on this, enter the computer name and click Search. If it finds it, click on the gold computer name to populate the Bigfix Id.
 
 ## Sept 6, 2019
 * The Equipment Types dropdown is now sorted alphabetically
