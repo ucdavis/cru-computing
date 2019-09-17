@@ -15,8 +15,8 @@ permalink: /documentation/payments/change-log
   * The Invoice and Receipt icons on the buttons have changed to a download.
   * Clicking on this will download instead of trying to show the PDF in a browser window. (A small scrolling window in the browser was displayed).
 * The list of invoices on the dashboard will display up to 1000 invoices. If you encounter performance problems with this page:
-    1) Let us know with a help ticket.
-    2) Try adjusting the filter in the mean time to show less records
+  * Let us know with a help ticket.
+  * Try adjusting the filter in the mean time to show less records
 
 ## Prior to Sept 17, 2019
 * Fixed the issue where sending invoices to multiple customers failed and they had to be individually sent.
