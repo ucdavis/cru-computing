@@ -38,6 +38,9 @@ collections:
   commencement:
     output: true
     permalink: /documentation/:collection/:title
+  payments:
+    output: true
+    permalink: /documentation/:collection/:title
   portfolio:
   team:
   screenshots:
@@ -92,7 +95,14 @@ defaults:
       documentation: "aside"
       layout: "twocol"
       bio: "true"
-
+  - scope:
+      type: "payments"
+    values:
+      categories: "payments"
+      brand: "payments"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
 
 breadcrumbs:
 root:
