@@ -135,6 +135,30 @@
     }
   }
 }
+.payments-total {
+  hr {
+    border:1px solid $payments;
+    margin-bottom:1.6rem;
+  }
+  ol.breadcrumb {
+    > .active {
+      color: transparentize($payments, .23);
+    }
+  }
+  a {
+    color:$payments;
+    &:hover {
+      text-decoration: underline;
+      color:lighten($payments,15);
+    }
+  }
+  button i {
+    color:$payments;
+    &:hover {
+      color:lighten($payments,15);
+    }
+  }
+}
 .policies-total {
   hr {
     border:1px solid $policies;
@@ -288,6 +312,13 @@
   background-color:$purchasing;
   &:hover {
     background-color:transparentize($purchasing, .35);
+  }
+}
+.payments-tag {
+  @include tag;
+  background-color:$payments;
+  &:hover {
+    background-color:transparentize($payments, .35);
   }
 }
 .ace-tag {

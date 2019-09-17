@@ -14,10 +14,9 @@ html {
 
 body {
   background-color:#fff;
-  min-height: 100%;
-  display: grid;
-  padding-top:20px;
-  grid-template-rows: 1fr auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   &.fader {
     @include fader;
   }
@@ -26,9 +25,9 @@ body {
 flex: 1 0 auto;
 }
 footer {
-  grid-row-start: 2;
-  grid-row-end: 3;
-  padding-top:24px !important;
+  margin-top:1.6rem;
+  flex-shrink: 0;
+  margin-bottom:2rem;
   i {
     color: $secondary-font;
   }
