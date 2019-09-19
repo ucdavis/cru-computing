@@ -2,11 +2,15 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within Payments."
 author: "Jason Sylvestre"
-date:   2019-09-17 16:25:17
+date:   2019-09-19
 permalink: /documentation/payments/change-log
 ---
 
 # New Features and Changes
+
+## Sept 10, 2019
+* KFS Description of Funds Distribution and Processing Fee now have the Invoice number added
+* Some behind the scenes enhancements
 
 ## Sept 17, 2019
 * Fixed display of dates. Previously, dates were displayed in UTC. Now dates are displayed in Pacific Time.
