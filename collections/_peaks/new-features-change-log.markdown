@@ -2,10 +2,16 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-09-12
+date:   2019-09-23
 ---
 
 # New Features and Changes
+
+## Sept 13- 23, 2019
+* Added Make and Model columns to the end user's "My Stuff" page for Equipment.
+* More on screen notifications of successful actions and failures. These are temporary and go away after a short time.
+* Added a confirmation dialog for when spaces are disassociated from spaces.
+* Naming of columns is more consistent.
 
 ## Sept 12, 2019
 * UI Enhancements
