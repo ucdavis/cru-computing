@@ -2,11 +2,16 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within Payments."
 author: "Jason Sylvestre"
-date:   2019-09-19
+date:   2019-09-23
 permalink: /documentation/payments/change-log
 ---
 
 # New Features and Changes
+
+## Sept 23, 2019
+* When requesting a refund, a reason must be added.
+* Reason will now display in the history of the invoice.
+* The history of the invoice now show the person who made the action when available.
 
 ## Sept 10, 2019
 * KFS Description of Funds Distribution and Processing Fee now have the Invoice number added
