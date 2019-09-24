@@ -8,6 +8,15 @@ permalink: /documentation/payments/change-log
 
 # New Features and Changes
 
+## Sept 24, 2019
+* Fixed the global team search.
+* The search can use the invoice number or an email for the customer on the invoice
+* Note there are different search boxes:
+
+<a data-toggle="lightbox" href="/media/payments/global-team-search.png">
+![Team Search](https://computing.caes.ucdavis.edu/media/payments/global-team-search.png "Key Serial Sorting")
+</a>
+
 ## Sept 23, 2019
 * When requesting a refund, a reason must be added.
 * Reason will now display in the history of the invoice.
