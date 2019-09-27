@@ -2,12 +2,17 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-09-23
+date:   2019-09-27
 ---
 
 # New Features and Changes
 
-## Sept 13- 23, 2019
+## Sept 24 - 27
+* Added default sorting by name on people, equipment, access, keys, and spaces tables. people's names are now displayed as Last, First.
+* Added filtering (Searching) on bigfix id
+* On the person edit and create pages, the "Can't find who you are looking for?" action now opens up in a new tab.
+
+## Sept 13 - 23, 2019
 * Added Make and Model columns to the end user's "My Stuff" page for Equipment.
 * More on screen notifications of successful actions and failures. These are temporary and go away after a short time.
 * Added a confirmation dialog for when spaces are disassociated from spaces.
