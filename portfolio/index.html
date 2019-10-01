@@ -176,7 +176,7 @@ permalink: /portfolio
 
         let el = document.createElement("button");
         el.setAttribute('type', 'button');
-        el.classList.add('dropdown-item');
+        el.classList.add('dropdown-item', 'active');
         el.innerText = 'All';
         el.onclick = dropdownActiveWrapper(audienceFilter.bind(audienceFilter, Object.keys(searchData)))
 
