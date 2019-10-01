@@ -111,7 +111,7 @@ permalink: /portfolio
             $(`[data-title="${r}"`).show();
         }
     }
-    initSearch('./search.json', [], builder)
+    initSearch('/portfolio/search.json', [], builder)
     .then(({searchData, index}) => {
 
         let addFilter = new (function() {
