@@ -5,11 +5,13 @@ description:  Support articles for the web app People, Equipment, Access, Keys a
 brand: peaks
 permalink: /documentation/peaks
 documentation: aside
+search:
+  - peaks
 ---
 
 {% assign collect = site.peaks %}
 {% for post in site.peaks reversed %}
-<div class="documentation-item">
+<div class="documentation-item" data-title="{{post.title}}">
 <a class="documentation-snippet" class="no-color" href="{{ site.baseurl }}{{ post.url }}">
   <h2>{{post.title}}</h2>
   <p style="margin-top:0px;">{{ post.description }}</p>

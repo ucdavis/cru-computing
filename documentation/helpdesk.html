@@ -5,11 +5,13 @@ description:  Support articles relating to the help desk team
 brand: helpdesk
 permalink: /documentation/helpdesk
 documentation: aside
+search:
+  - helpdesk
 ---
 
 {% assign helpdesk = site.helpdesk %}
 {% for post in site.helpdesk reversed %}
-<div class="documentation-item">
+<div class="documentation-item" data-title="{{post.title}}">
 <a class="documentation-snippet" class="no-color" href="{{ site.baseurl }}{{ post.url }}">
   <h2>{{post.title}}</h2>
   <p style="margin-top:0px;">{{ post.description }}</p>

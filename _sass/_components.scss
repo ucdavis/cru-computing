@@ -90,7 +90,7 @@
 .portfolio-total {
   hr {
     border:1px solid $portfolio;
-    margin-bottom:1.6rem;
+    margin-bottom: $portfolio-hr-mbottom;
   }
   ol.breadcrumb {
     > .active {
@@ -511,4 +511,70 @@ img.img-fluid {
 }
 .flex-straight {
   display: flex;
+}
+
+.table-filter {
+  margin: 1rem 0px;
+  margin-top: -$portfolio-hr-mbottom;
+  .table-filter-item {
+    background-color: #fbfbfb;
+    margin: 0px 2px;
+
+    .darkmode & {
+      background-color: #232629;
+      .dropdown-menu {
+        background-color: $darkmode;
+        border-color: #3b4a4f;
+        .dropdown-item {
+          color: $dm-primary-font;
+        }
+      }
+    }
+
+    .dropdown-toggle {
+      width: 100%;
+      height: 100%;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .fa {
+      &.active {
+        color: blue;
+      }
+    }
+
+    &, &.p-0 .dropdown-toggle {
+      padding: 1rem 1.5rem;
+    }
+    font-family: $sans-bold;
+
+    &:not(.no-hover) {
+      cursor: pointer;
+      &:hover {
+        background-color: lightblue;
+
+        .darkmode & {
+          background-color: #3b4a4f;
+        }
+      }
+    }
+  }
+  #search-bar {
+    background-color: transparent;
+    border: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    font-family: 'proxima-nova-b', 'FontAwesome';
+  }
 }

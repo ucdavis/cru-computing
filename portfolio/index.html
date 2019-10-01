@@ -7,9 +7,32 @@ geotag: id-portfolio
 permalink: /portfolio
 
 ---
+<div class="d-flex table-filter">
+    <div class="d-inline-flex table-filter-item justify-content-center flex-column" style="flex-basis: 20rem">
+        <input id="search-bar" class="form-control" placeholder="&#xF002; Search Portfolio..." type="text"/>
+    </div>
+    <div id="sort-updated" class="d-inline-flex table-filter-item align-items-center">
+        <span class="mx-1">Last Updated</span>
+        <i class="fa fa-arrow-up mx-1" aria-hidden="true"></i>
+        <i class="fa fa-arrow-down mx-1 active" aria-hidden="true"></i>
+    </div>
+    <div class="d-inline-flex table-filter-item justify-content-center flex-column dropdown p-0">
+        <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span>Audience</span>
+        </div>
+        <div class="dropdown-menu"></div>
+    </div>
+    <div class="d-inline-flex table-filter-item justify-content-end no-hover" style="flex-grow: 1">
+        <div style="margin-left: auto">
+            {%- for dev in site.team -%}
+                {%- include team_tooltip.html text=dev.name image=dev.image -%}
+            {%- endfor -%}
+        </div>
+    </div>
+</div>
 {% for portfolio in site.portfolio reversed %}
 
-<div class="portfolio_item">
+<div class="portfolio_item" data-title="{{portfolio.title}}">
   <div class="row justify-content-between">
     <div class="col-12 col-sm-8 col-md-5">
   <div class="flexin portfolio-title">
@@ -55,114 +78,113 @@ permalink: /portfolio
 {% endif %}
 {% endfor %}
 
-
-
 <script>
-  $('.carousel').carousel()
+    window.addEventListener('DOMContentLoaded', () => {
+        $("#sort-updated").click((ev) => {
+            let items = $(".portfolio_item");
+            let tableFilter = $('.table-filter').first();
+            if(items) {
+                items.each((i,el) => {
+                    $(el).remove();
+                    $(el).insertAfter(tableFilter);
+                });
+                $(".fa.fa-arrow-up").first().toggleClass('active');
+                $(".fa.fa-arrow-down").first().toggleClass('active');
+            }
+        });
+    });
 </script>
-<!--
+<script src="/js/searchBackend.js"></script>
 <script>
-    function tabTextResize() {
-        let appDev = $("ul.tabs a[href='#profile']");
-        let webDev = $("ul.tabs a[href='#home']");
-        if($("ul.tabs").width() < 400){
-            appDev.text("Apps");
-            webDev.text("Websites");
-        }
-        else{
-            appDev.text("App Development");
-            webDev.text("Web Development");
+    let builder = function() {
+        this.setRef('title')
+        this.addField('description')
+        this.addField('author')
+        this.addField('title')
+        this.addField('developers')
+    }
+    function showResults(titles) {
+        $("[data-title]").each(function(){
+            $(this).hide();
+        });
+        for(let r of titles) {
+            $(`[data-title="${r}"`).show();
         }
     }
-    $(function() {
-        tabTextResize();
-        $(window).resize(tabTextResize);
-    });
-</script>
-<script src="/js/lunr.js"></script>
-<script>
-    var data = {% include_relative search.json %}
-    var webData = {};
-    var appData = {};
-    Object.keys(data).forEach(value => {
-        if(data[value].category == 'web_proj')
-            webData[value] = data[value];
-        else appData[value] = data[value];
-    });
-    var appIndex = lunr(function () {
-        this.ref('title')
-        this.field('description')
-        this.field('audience')
-        this.field('title')
-        Object.values(appData).forEach(function (doc) {
-            this.add(doc)
-        }, this)
-    })
-    var webIndex = lunr(function() {
-        this.ref('title')
-        this.field('description')
-        this.field('client')
-        this.field('title')
-        Object.values(webData).forEach(function (doc) {
-            this.add(doc)
-        }, this)
-    })
-</script>
-<script src="/js/doT.js"></script>
-<script>
-    {% assign app_proj = site.data.template.app_proj %}
-    {% assign web_proj = site.data.template.web_proj %}
-    var template = "{{app_proj}}";
-    var webTemplate = "{{web_proj}}";
-    var renderFn = doT.template(template);
-    var webFn = doT.template(webTemplate)
-    console.log(renderFn.toString())
-    console.log(webFn.toString())
-    $('#myTabs a').click(function (e) {
-        e.preventDefault()
-        $(this).tab('show')
-    })
-    $('#myTabs a[href="#profile"]').tab('show') // Select tab by name
-    $('#myTabs a[href="#home"]').tab('show') // Select tab by name
-    $("#inpt_search").on('focus', function () {
-        $(this).parent('label').addClass('active');
-    });
+    initSearch('./search.json', [], builder)
+    .then(({searchData, index}) => {
 
-    $("#inpt_search").on('blur', function () {
-        if($(this).val().length == 0)
-            $(this).parent('label').removeClass('active');
+        let addFilter = new (function() {
+            this.dataset = searchData;
+            this.filterSets = [];
+            
+            this.applyFilters = function() {
+                
+                //calculate set intersection between this.dataset and this.filterSets...
+                let result = new Set(Object.keys(this.dataset));
+                for(let filter of this.filterSets) {
+                    let f_set = new Set(filter);
+                    result = new Set([...result].filter(x => f_set.has(x)));
+                }
+                return [...result];
+
+            };
+
+            return () => {
+                this.filterSets.push(Object.keys(this.dataset));
+                let i = this.filterSets.length - 1;
+
+                return (array) => {
+                    this.filterSets[i] = array;
+                    showResults(this.applyFilters());
+                }
+            };
+        })();
+
+        let menu = $(".table-filter .dropdown-menu").first();
+        let categories = [...new Set(Object.values(searchData).map((el) => el.audience).filter((el) => typeof el !== 'undefined'))];
+
+        let audienceFilter = addFilter();
+        let searchFilter = addFilter();
+
+        let audienceCallback = (audience) => {
+            let keys = Object.keys(searchData).filter((key) => searchData[key].audience == audience)
+            audienceFilter(keys);
+        };
+
+        for(let category of categories.sort()) {
+            let el = document.createElement("button");
+            el.setAttribute('type', 'button');
+            el.classList.add('dropdown-item');
+            el.innerText = category;
+            el.onclick = audienceCallback.bind(audienceCallback, category)
+
+            menu.append(el);
+        }
+
+        let el = document.createElement("button");
+        el.setAttribute('type', 'button');
+        el.classList.add('dropdown-item');
+        el.innerText = 'All';
+        el.onclick = audienceFilter.bind(audienceFilter, Object.keys(searchData))
+
+        menu.prepend(el);
+
+        $("#search-bar").on('input', function() {
+            if($(this).val() == "") {
+                searchFilter(Object.keys(searchData));
+            }
+            else {
+                let results = index.search($(this).val(), {
+                    fields: {
+                    title: {boost: 5, expand: true},
+                    description: {boost: 1},
+                    developers: {boost: 3, expand: true}
+                    }
+                });
+                searchFilter(results.map(el => el.ref));
+            }
+        })
     });
-    $("#inpt_search").on('keyup', function(){
-        window.initialApps = window.initialApps || $("#profile").children();
-        window.initialWeb = window.initialWeb || $("#home").children();
-        let query = $(this).val() + "*";
-        let results = webIndex.search(query)
-        let apps = $("#profile");
-        let web = $("#home");
-        if(results.length > 0) {
-            console.log(results);
-            web.empty();
-            results.forEach(value => {
-                let element = document.createElement("template");
-                element.innerHTML = webFn(webData[value.ref]);
-                web.append(element.content.firstChild);
-            });
-        }
-        results = appIndex.search(query);
-        if(results.length > 0) {
-            console.log(results);
-            apps.empty();
-            results.forEach(value => {
-                let element = document.createElement("template");
-                element.innerHTML = renderFn(appData[value.ref]);
-                apps.append(element.content.firstChild);
-            });
-        }
-        if($(this).val().length == 0) {
-            apps.empty();
-            web.empty();
-            apps.append(window.initialApps);
-            web.append(window.initialWeb);
-        }
-    });
-</script> -->
+</script>
+<script defer src="/js/elasticlunr.min.js"></script>
