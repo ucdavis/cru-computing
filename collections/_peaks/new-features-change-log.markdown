@@ -2,10 +2,16 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-09-27
+date:   2019-10-01
 ---
 
 # New Features and Changes
+
+## Oct 1, 2019
+* Added 2 new people categories:
+  * Research
+  * Postdoc
+*  For CSV imports, if you specify a DateIssued before 1970, it will be changed to 1970 01 01 as a minimum date.
 
 ## Sept 24 - 27
 * Added default sorting by name on people, equipment, access, keys, and spaces tables. people's names are now displayed as Last, First.
