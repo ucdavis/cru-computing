@@ -2,11 +2,14 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within Payments."
 author: "Jason Sylvestre"
-date:   2019-09-23
+date:   2019-10-03
 permalink: /documentation/payments/change-log
 ---
 
 # New Features and Changes
+
+## Oct 3, 2019
+* Fixed issue preventing attachments from being added to an invoice.
 
 ## Sept 24, 2019
 * Fixed the global team search.
