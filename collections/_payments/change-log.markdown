@@ -10,6 +10,7 @@ permalink: /documentation/payments/change-log
 
 ## Oct 3, 2019
 * Fixed issue preventing attachments from being added to an invoice.
+* Coupon details now works (From the list of coupons where you create them)
 
 ## Sept 24, 2019
 * Fixed the global team search.
