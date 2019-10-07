@@ -2,11 +2,14 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within Payments."
 author: "Jason Sylvestre"
-date:   2019-10-03
+date:   2019-10-07
 permalink: /documentation/payments/change-log
 ---
 
 # New Features and Changes
+
+## Oct 7, 2019
+* Changed how the download link in emails work. Previously, it would link to a browser page with the pdf in a small window because downloading directly from an email didn't work as expected. Now it will direct them to a download page where they can download the invoice and/or receipt if it has been paid. This looks much like the pay page.
 
 ## Oct 3, 2019
 * Fixed issue preventing attachments from being added to an invoice.
