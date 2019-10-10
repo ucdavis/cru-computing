@@ -2,10 +2,14 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-10-01
+date:   2019-10-10
 ---
 
 # New Features and Changes
+
+## Oct 10, 2019
+* When adding Key Serials, provide error details if there is a problem. (Required field, number already exists, number too long).
+* Behind the scenes improvements.
 
 ## Oct 1, 2019
 * Added 2 new people categories:
@@ -26,7 +30,7 @@ date:   2019-10-01
 
 ## Sept 12, 2019
 * UI Enhancements
-* Behind the scenes performace changes
+* Behind the scenes performance changes
 * Ability to lookup the Bigfix Id by the computer name. If there is no bigfix Id, a Lookup link will appear next to the label. Click on this, enter the computer name and click Search. If it finds it, click on the gold computer name to populate the Bigfix Id.
 
 ## Sept 6, 2019
