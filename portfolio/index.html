@@ -8,21 +8,21 @@ permalink: /portfolio
 
 ---
 <div class="d-flex table-filter">
-    <div class="d-inline-flex table-filter-item justify-content-center flex-column" style="flex-basis: 20rem">
+    <div class="d-inline-flex table-filter-item justify-content-center flex-column" style="min-width: 20rem; flex-grow: 1">
         <input id="search-bar" class="form-control" placeholder="&#xF002; Search Portfolio..." type="text"/>
     </div>
-    <div id="sort-updated" class="d-inline-flex table-filter-item align-items-center">
+    <div id="sort-updated" class="d-md-inline-flex d-none table-filter-item align-items-center">
         <span class="mx-1">Last Updated</span>
         <i class="fa fa-arrow-up mx-1" aria-hidden="true"></i>
         <i class="fa fa-arrow-down mx-1 active" aria-hidden="true"></i>
     </div>
-    <div class="d-inline-flex table-filter-item justify-content-center flex-column dropdown p-0">
+    <div class="d-md-inline-flex d-none table-filter-item justify-content-center flex-column dropdown p-0">
         <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span>Audience</span>
         </div>
         <div class="dropdown-menu"></div>
     </div>
-    <div class="d-inline-flex table-filter-item justify-content-end no-hover" style="flex-grow: 1">
+    <div class="d-md-inline-flex d-none table-filter-item justify-content-end no-hover" style="flex-grow: 1">
         <div style="margin-left: auto">
             {%- for dev in site.team -%}
                 {%- include team_tooltip.html text=dev.name image=dev.image -%}
