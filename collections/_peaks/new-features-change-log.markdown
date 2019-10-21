@@ -2,10 +2,14 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-10-10
+date:   2019-10-17
 ---
 
 # New Features and Changes
+
+# Oct 17, 2019
+* Added the user's email to the report "Items Pending Acceptance".
+* Added export option to that report.
 
 ## Oct 10, 2019
 * When adding Key Serials, provide error details if there is a problem. (Required field, number already exists, number too long).
