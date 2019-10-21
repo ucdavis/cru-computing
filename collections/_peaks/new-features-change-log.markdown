@@ -2,10 +2,13 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-10-17
+date:   2019-10-21
 ---
 
 # New Features and Changes
+
+# Oct 21, 2019
+* Equipment report attributes column is now in the format key=value,key=value,...
 
 # Oct 17, 2019
 * Added the user's email to the report "Items Pending Acceptance".
