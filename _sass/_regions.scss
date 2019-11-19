@@ -177,3 +177,9 @@ a.documentation-snippet {
 .author img.pixel-profile {
 
 }
+.table-filter-item, .sort-updated, #search-bar {
+  font-size:1.6rem;
+}
+.table-filter .table-filter-item .fa.active {
+  color:$portfolio;
+}

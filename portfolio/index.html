@@ -117,9 +117,9 @@ permalink: /portfolio
         let addFilter = new (function() {
             this.dataset = searchData;
             this.filterSets = [];
-            
+
             this.applyFilters = function() {
-                
+
                 //calculate set intersection between this.dataset and this.filterSets...
                 let result = new Set(Object.keys(this.dataset));
                 for(let filter of this.filterSets) {
