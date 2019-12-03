@@ -7,21 +7,20 @@ permalink: /documentation/helpdesk/remote-desktop
 ---
 
 <p><span class="discreet">The College of Agricultural & Environmental Sciences Dean's Office provides access to a Remote Desktop connection for all units, centers, and departments supported by the Computing Resources Unit.  The Remote Desktop service can be accessed from any internet connected computer, including computers at home.</span></p>
-<br />
 <p><span class="discreet">NOTE: For MacOS, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the Mac App Store.</span></p>
 <br />
 <h3>To connect to the Remote Desktop service:</h3>
 <ol style="PADDING-LEFT: 30px">
    <li>From any internet connected computer, visit <a class="external-link" href="http://access.caes.ucdavis.edu" target="_blank">access.caes.ucdavis.edu</a></li>
    <li>Login with your UC Davis email address and password</li>
-   <li>Click on the connection you want to use (example: "CAESDO Remote Desktop"), which will download the connection shortcut to your computer (via a .rdp file)
+   <li>Click on the connection you want to use (example: "CAESDO Remote Desktop"), which will download the connection shortcut to your computer (via a .rdp file)</li>
    <li>Run the downloaded file to start the connection
        <ul>
            <li>NOTE: You may be prompted to enter your credentials again</li>
        </ul>
    </li>
    <li>The Remote Desktop session will open and you will see the desktop settings, files, and programs that are on the Remote Desktop server.</li>
-</ul>
+</ol>
 <br />
 <h3>To end your Remote Desktop session:</h3>
 <p>Click <b>Start</b>, click your name/picture on the left side of the start menu, and click <b>Sign out</b>.</p>
