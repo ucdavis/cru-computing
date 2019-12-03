@@ -26,7 +26,7 @@ permalink: /documentation/helpdesk/remote-desktop
 <h3>To end your Remote Desktop session:</h3>
 <p>Click <b>Start</b>, click your name/picture on the left side of the start menu, and click <b>Sign out</b>.</p>
 <br />
-<h3>Things to know</h3>
+<h3>Things to know:</h3>
 <ul style="PADDING-LEFT: 30px">
     <li>While multiple people can access the Remote Desktop servers simultaneously, your session is only accessible to you and nobody can access it without a password. Furthermore, no one will be able to see the work you are doing remotely.</li>
     <li>The Remote Desktop session will lock after 15 minutes of inactivity and disconnect after 2 hours.  After 24 hours of inactivity, the Remote Desktop session will fully close.</li>
