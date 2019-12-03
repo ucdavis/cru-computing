@@ -21,7 +21,7 @@ permalink: /documentation/helpdesk/remote-desktop
        </ul>
    </li>
    <li>The Remote Desktop session will open and you will see the desktop settings, files, and programs that are on the Remote Desktop server.</li>
-</ol>
+</ul>
 <br />
 <h3>To end your Remote Desktop session:</h3>
 <p>Click <b>Start</b>, click your name/picture on the left side of the start menu, and click <b>Sign out</b>.</p>
