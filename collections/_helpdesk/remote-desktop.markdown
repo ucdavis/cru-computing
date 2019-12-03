@@ -9,7 +9,7 @@ permalink: /documentation/helpdesk/remote-desktop
 <p><span class="discreet">The College of Agricultural & Environmental Sciences Dean's Office provides access to a Remote Desktop connection for all units, centers, and departments supported by the Computing Resources Unit.  The Remote Desktop service can be accessed from any internet connected computer, including computers at home.</span></p>
 <p><span class="discreet">NOTE: For MacOS, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the Mac App Store.</span></p>
 <br />
-<a class=“btn btn-primary btn-helpdesk” href="http://access.caes.ucdavis.edu" target="_blank">Start now!</a>
+<a class="btn btn-primary btn-helpdesk" href="http://access.caes.ucdavis.edu" target="_blank">Start now!</a>
 <h3>To connect to the Remote Desktop service:</h3>
 <ol style="PADDING-LEFT: 30px">
    <li>From any internet connected computer, visit <a class="external-link" href="http://access.caes.ucdavis.edu" target="_blank">access.caes.ucdavis.edu</a></li>
