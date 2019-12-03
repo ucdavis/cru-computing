@@ -1,8 +1,8 @@
 ---
 title:  "Connect from Home using Remote Desktop"
 description: "This guide will explain the step by step process of connecting from home with remote desktop."
-author: "Shuka Smith"
-date:   2015-03-07 16:25:17
+author: "Steven Barkey"
+date:   2019-12-03 10:25:00
 permalink: /documentation/helpdesk/remote-desktop
 ---
 
