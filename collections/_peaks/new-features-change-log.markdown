@@ -2,10 +2,13 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-10-21
+date:   2019-12-03
 ---
 
 # New Features and Changes
+
+# Dec 3, 2019
+* Bunch of little changes and performance enhancements. Most notable change is the Access tab's UI has been changed a little to make it more functional.
 
 # Oct 21, 2019
 * Equipment report attributes column is now in the format key=value,key=value,...
