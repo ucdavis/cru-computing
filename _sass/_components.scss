@@ -376,6 +376,12 @@
       text-decoration: none;
     }
   }
+  &.btn-helpdesk {
+    background-color: $helpdesk;
+    &:hover{
+      background-color: lighten($helpdesk, 8);
+    }
+  }
 }
 .tooltip {
     position: relative;
