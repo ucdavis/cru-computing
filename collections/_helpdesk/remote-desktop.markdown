@@ -10,9 +10,10 @@ permalink: /documentation/helpdesk/remote-desktop
 <p><span class="discreet">NOTE: For MacOS, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the Mac App Store.</span></p>
 <br />
 
-<h3>To connect to the Remote Desktop service: <a class="btn btn-primary btn-helpdesk" href="http://access.caes.ucdavis.edu" target="_blank">Start now!</a></h3>
+<h3>To connect to the Remote Desktop service: </h3>
 <ol style="PADDING-LEFT: 30px">
-   <li>From any internet connected computer, visit <a class="external-link" href="http://access.caes.ucdavis.edu" target="_blank">access.caes.ucdavis.edu</a></li>
+   <li><a class="btn btn-primary btn-helpdesk" href="http://access.caes.ucdavis.edu" target="_blank">
+Go to access.caes.ucdavis.edu</a></li>
    <li>Login with your UC Davis email address and password</li>
    <li>Click on the connection you want to use (example: "CAESDO Remote Desktop"), which will download the connection shortcut to your computer (via a .rdp file)</li>
    <li>Run the downloaded file to start the connection
