@@ -6,32 +6,31 @@ date:   2015-03-07 16:25:17
 permalink: /documentation/helpdesk/remote-desktop
 ---
 
-<p><span class="discreet">NOTE: This guide assumes you have Windows 7 or Windows 10. For MacOS, you can use Remote Desktop Connection Client for Mac. For other clients, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a>.</span></p>
+<p><span class="discreet">The College of Agricultural & Environmental Sciences Dean's Office provides access to a Remote Desktop connection for all units, centers, and departments supported by the Computing Resources Unit.  The Remote Desktop service can be accessed from any internet connected computer, including computers at home.</span></p>
 <br />
-<h3>To connect to the Remote Desktop server:</h3>
-<ul style="PADDING-LEFT: 30px">
-    <li>Windows 10:
-        <ul>
-            <li>On your computer, click <b>Start</b>, point to <b>Windows Accessories</b>, and click <b>Remote Desktop Connection</b>.</li>
-            <li>In the <b>Computer</b> box, type the address of the terminal server: 169.237.124.112 (or ts2.caes.ucdavis.edu).</li>
-            <li>When the <b>Enter your credentials</b> dialog box appears, type your user name (pre-pended with "AD3\"), your password, and then click <b>OK</b>. For example, User name: AD3\username.</li>
-            <li>The Remote Desktop window opens, and you see the desktop settings, files, and programs that are on the terminal server. The terminal server remains locked, and nobody can access it without a password. No one will be able to see the work you are doing remotely.</li>
+<p><span class="discreet">NOTE: For MacOS, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the Mac App Store.</span></p>
+<br />
+<h3>To connect to the Remote Desktop service:</h3>
+<ol style="PADDING-LEFT: 30px">
+   <li>From any internet connected computer, visit <a class="external-link" href="http://access.caes.ucdavis.edu" target="_blank">access.caes.ucdavis.edu</a></li>
+   <li>Login with your UC Davis email address and password</li>
+   <li>Click on the connection you want to use (example: "CAESDO Remote Desktop"), which will download the connection shortcut to your computer (via a .rdp file)
+   <li>Run the downloaded file to start the connection
+       <ul>
+           <li>NOTE: You may be prompted to enter your credentials again</li>
        </ul>
-    </li>
-</ul>
+   </li>
+   <li>The Remote Desktop session will open and you will see the desktop settings, files, and programs that are on the Remote Desktop server.</li>
+</ol>
 <br />
-<ul style="PADDING-LEFT: 30px">
-    <li>Windows 7:
-        <ul>
-            <li>On your computer, click <b>Start</b>, point to <b>All Programs</b>, and then point to <b>Accessories</b>.</li>
-            <li>In the <b>Accessories</b> menu, click <b>Remote Desktop Connection</b>.</li>
-            <li>In the <b>Computer</b> box, type the address of the terminal server: 169.237.124.112 (or ts2.caes.ucdavis.edu).</li>
-            <li>When the <b>Enter your credentials</b> dialog box appears, type your user name (pre-pended with "AD3\"), your password, and then click <b>OK</b>. For example, User name: AD3\username.</li>
-            <li>The Remote Desktop window opens, and you see the desktop settings, files, and programs that are on the terminal server. The terminal server remains locked, and nobody can access it without a password. No one will be able to see the work you are doing remotely.</li>
-       </ul>
-    </li>
-</ul>
-<br />
-
 <h3>To end your Remote Desktop session:</h3>
-<p>Click <b>Start</b>, and then click <b>Log Off</b> at the bottom of the <b>Start menu</b>.</p>
+<p>Click <b>Start</b>, click your name/picture on the left side of the start menu, and click <b>Sign out</b>.</p>
+<br />
+<h3>Things to know</h3>
+<ul style="PADDING-LEFT: 30px">
+    <li>While multiple people can access the Remote Desktop servers simultaneously, your session is only accessible to you and nobody can access it without a password. Furthermore, no one will be able to see the work you are doing remotely.</li>
+    <li>The Remote Desktop session will lock after 15 minutes of inactivity and disconnect after 2 hours.  After 24 hours of inactivity, the Remote Desktop session will fully close.</li>
+    <li>For MacOS, you must first download and install the Microsoft Remote Deskop app from the Mac App Store.</li>
+</ul>
+<br />
+<p><span class="discreet">For non-Windows and MacOS devices, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for assistance with getting connected to the Remote Desktop service.</span></p>
