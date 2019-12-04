@@ -7,13 +7,13 @@ date:   2019-12-03
 
 # New Features and Changes
 
-# Dec 3, 2019
+## Dec 3, 2019
 * Bunch of little changes and performance enhancements. Most notable change is the Access tab's UI has been changed a little to make it more functional.
 
-# Oct 21, 2019
+## Oct 21, 2019
 * Equipment report attributes column is now in the format key=value,key=value,...
 
-# Oct 17, 2019
+## Oct 17, 2019
 * Added the user's email to the report "Items Pending Acceptance".
 * Added export option to that report.
 
