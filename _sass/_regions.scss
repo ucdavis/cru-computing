@@ -41,6 +41,8 @@ img#team-image {
     h1 {
       color:rgba(255,255,255,.95);
       font-family: $sans-bold !important;
+      font-size:3rem;
+      line-height:3.4rem;
     }
     p.lead {
       color:rgba(255,255,255,.95);
@@ -174,4 +176,10 @@ a.documentation-snippet {
 }
 .author img.pixel-profile {
 
+}
+.table-filter-item, .sort-updated, #search-bar {
+  font-size:1.6rem;
+}
+.table-filter .table-filter-item .fa.active {
+  color:$portfolio;
 }

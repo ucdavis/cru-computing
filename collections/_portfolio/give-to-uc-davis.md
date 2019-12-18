@@ -12,5 +12,4 @@ developers:
 image: "give"
 categories:
   - featured
-bgcolor: C88901
 ---
