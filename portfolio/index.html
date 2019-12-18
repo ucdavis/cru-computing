@@ -22,13 +22,6 @@ permalink: /portfolio
         </div>
         <div class="dropdown-menu"></div>
     </div>
-    <div class="d-md-inline-flex d-none table-filter-item justify-content-end no-hover" style="flex-grow: 1">
-        <div style="margin-left: auto">
-            {%- for dev in site.team -%}
-                {%- include team_tooltip.html text=dev.name image=dev.image -%}
-            {%- endfor -%}
-        </div>
-    </div>
 </div>
 {% for portfolio in site.portfolio reversed %}
 
