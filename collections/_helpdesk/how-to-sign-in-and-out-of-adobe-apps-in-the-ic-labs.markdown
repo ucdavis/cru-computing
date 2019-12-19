@@ -8,13 +8,13 @@ date:   2019-12-16 15:05:00
 <br />
 <h3>Sign into an Adobe Creative Cloud application:</h3>
 <ol style="PADDING-LEFT: 30px">
-  <li>Launch the desired Adobe Creative Cloud application</li>
+  <li>Launch any Adobe Creative Cloud application</li>
   <li>Login using the email address and password associated with your Adobe account
     <ul>
       <li>If you do not have a Adobe account, you can create one for free using the link provided in the login window or following the instructions found at <a class="external-link" href="https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html" target="_blank">https://helpx.adobe.com/manage-account/using/create-update-adobe-id.html</a>.</li>
     </ul>
   </li>
-  <li>After logging in, the login window will disappear and you will see the desired Adobe Creative Cloud application</li>
+  <li>After logging in, the login window will disappear and you will see the Adobe Creative Cloud application</li>
   <li>Once you are finished with the Adobe Creative Cloud application, don't forget to Sign Out of your Adobe account.</li>
 </ol>
 <br />
