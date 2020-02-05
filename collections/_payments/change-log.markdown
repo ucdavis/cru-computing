@@ -2,7 +2,7 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within Payments."
 author: "Jason Sylvestre"
-date:   2020-22-05
+date:   2020-02-05
 permalink: /documentation/payments/change-log
 ---
 
