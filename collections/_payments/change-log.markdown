@@ -2,11 +2,17 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within Payments."
 author: "Jason Sylvestre"
-date:   2019-12-03
+date:   2020-22-05
 permalink: /documentation/payments/change-log
 ---
 
 # New Features and Changes
+
+## Feb 5, 2020
+* Coupons that expire now have the expiration date shows on invoices and emails so that it is clear to the payer that there could be a time limit.
+* A coupon that was used, but now expired will show up on the admin invoice page with the discount amount.
+* A coupon that expired before the payer paid will show up as -0.00 so that it is clear that it wasn't used before it expired.
+* Totals will now show correctly for coupons that may or may not have expired.
 
 ## Dec 3, 2019
 * Show the account used on the invoice.
