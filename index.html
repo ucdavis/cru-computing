@@ -122,8 +122,8 @@ home: true
 </div>
 
 <div class="row mb-8">
-  <div class="col-md-4">
-    <div class="card">
+  <div class="col-md-4 card">
+
       <div class="card-content">
         <h3>Help Desk and infrastructure</h3>
         <p>Providing support to over 350 users across the college! and counting!</p>
@@ -133,13 +133,13 @@ home: true
             {% for post in team %}
             {% include team_tooltip.html text=post.name image=post.image %}
             {% endfor %}
-</div>
-      </div>
+          </div>
+
     </div>
 
   </div>
-  <div class="col-md-4">
-    <div class="card">
+  <div class="col-md-4 card">
+
       <div class="card-content">
         <h3>App Development</h3>
         <p>Need to track T.A. hours? How about mapping power plant efficiency based on ARC GIS data? There's an app for that (made by us!)</p>
@@ -149,14 +149,14 @@ home: true
             {% for post in team %}
             {% include team_tooltip.html text=post.name image=post.image %}
             {% endfor %}
-      </div>
+
       </div>
     </div>
 
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4 card">
 
-    <div class="card">
+
       <div class="card-content">
         <h3>Web Development</h3>
         <p>From magnificent 50th anniversary award sites to UC Davis standard informational pages we've got it all!</p>
@@ -167,7 +167,6 @@ home: true
           {% include team_tooltip.html text=post.name image=post.image %}
           {% endfor %}
         </div>
-      </div>
     </div>
   </div>
 </div>
