@@ -286,6 +286,13 @@
     background-color:transparentize($peaks, .15);
   }
 }
+.guidelines-tag {
+  @include tag;
+  background-color:$guidelines;
+  &:hover {
+    background-color:transparentize($guidelines, .15);
+  }
+}
 .commencement-tag {
   @include tag;
   background-color:$commencement;
