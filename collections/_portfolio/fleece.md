@@ -1,6 +1,6 @@
 ---
 title: "Faculty Directory"
-audience: "Campus wide"
+audience: "CAES"
 description: "Faculty List tool for organizing faculty content and syncing with sitefarm"
 current-url: "https://facultydirectory.ucdavis.edu/"
 developers:
