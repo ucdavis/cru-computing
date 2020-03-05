@@ -1,5 +1,5 @@
 ---
-title:  "How to Access Your Office 365 Email Remotely"
+title:  "How to access your Office 365 email remotely"
 description: "This guide will explain the step by step process of accessing your Office 365 email remotely and the best way to do so securely."
 author: "Steven Barkey"
 date:   2020-03-05 12:25:00
