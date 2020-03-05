@@ -1,5 +1,5 @@
 ---
-title:  "Connect from Home using Remote Desktop"
+title:  "How to connect from home using Remote Desktop"
 description: "This guide will explain the step by step process of connecting from home with remote desktop."
 author: "Steven Barkey"
 date:   2019-12-03 10:25:00
