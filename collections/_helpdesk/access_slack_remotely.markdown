@@ -1,5 +1,5 @@
 ---
-title:  "How to Access Slack Remotely"
+title:  "How to access Slack remotely"
 description: "This guide will explain the step by step process of accessing Slack remotely."
 author: "Steven Barkey"
 date:   2020-03-05 11:25:00
