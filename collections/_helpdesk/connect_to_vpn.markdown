@@ -6,10 +6,16 @@ date:   2020-03-05 13:25:00
 permalink: /documentation/helpdesk/connect_to_vpn
 ---
 
-<p><span class="discreet">Some resources are only available under certain circumstances, like working from a computer connected to the campus network or the computer being managed by the Computing Resources Unit.  While these requirements are not as common as they have been in the past, they do still exist.</span></p>
+<p><span class="discreet">Some resources are only available under certain circumstances, like working from a computer connected to the campus network.  While these requirements are not as common as they have been in the past, they do still exist.</span></p>
 <p><span class="discreet">As such, any individual that can login to a computer managed by the Computing Resources Unit and have been issues a Windows or macOS laptop can request access to the CAES VPN service provided by the Computing Resources Unit.  In most cases, this CAES VPN service will allow you to work remotely using your managed laptop as if you were sitting in your office connected to the wired network.</span></p>
+<br />
+With the introduction of many cloud based resources, the only use cases for the CAES VPN are:
+<ol style="PADDING-LEFT: 30px">
+   <li>Accessing software that is only accessible while connected to a campus network</li>
+   <li>Accessing file shared from a Computing Resources Unit managed fileserver</li>
+</ol>
+<br />
 <p><span class="discreet">To request access to the CAES VPN service, <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a>.</span></p>
-
 <br />
 
 <h3>Connecting to the CAES VPN from a Windows Computer: </h3>
