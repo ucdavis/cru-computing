@@ -1,5 +1,5 @@
 ---
-title:  "Hosting and Using a Zoom Audio Meeting"
+title:  "Hosting and using a Zoom audio meeting"
 description: "Use this guide to setup, host, and use an audio-only meeting in Zoom."
 author: "Steven Barkey"
 date:   2019-07-16 09:59:00
