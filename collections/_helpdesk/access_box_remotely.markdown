@@ -1,5 +1,5 @@
 ---
-title:  "Accessing Box Remotely and Securely"
+title:  "How to safely access Box Remotely"
 description: "This guide will explain the step by step process of accessing Box remotely and the best way to do so securely."
 author: "Steven Barkey"
 date:   2020-03-05 10:25:00
