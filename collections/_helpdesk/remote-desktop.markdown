@@ -30,7 +30,7 @@ permalink: /documentation/helpdesk/remote-desktop
 <ul style="PADDING-LEFT: 30px">
     <li>While multiple people can access the Remote Desktop servers simultaneously, your session is only accessible to you and nobody can access it without a password. Furthermore, no one will be able to see the work you are doing remotely.</li>
     <li>The Remote Desktop session will lock after 15 minutes of inactivity and disconnect after 2 hours.  After 24 hours of inactivity, the Remote Desktop session will fully close.</li>
-    <li>Box Drive is not supported on the Remote Desktop Servers.  If you need to access documents in Box, follow the instructions outlined in <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/access_box_remotely" target="_blank">Accessing Box Remotely and Securely</a>.</li>
+    <li>Box Drive is not supported on the Remote Desktop Servers.  If you need to access documents in Box, follow the instructions outlined in <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/access_box_remotely" target="_blank">how to safely access Box remotely</a>.</li>
     <li>For MacOS, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> app from the Mac App Store.</li>
 </ul>
 <br />
