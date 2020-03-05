@@ -7,6 +7,19 @@ permalink: /documentation/helpdesk/remote-desktop
 ---
 
 <p><span class="discreet">The College of Agricultural & Environmental Sciences Dean's Office provides access to a Remote Desktop connection for all units, centers, and departments supported by the Computing Resources Unit.  The Remote Desktop service can be accessed from any internet connected computer, including computers at home.</span></p>
+<br />
+
+With the introduction of many cloud based resources, the only use cases for Remote Desktop are:
+<ol style="PADDING-LEFT: 30px">
+   <li>Accessing software that is only accessible while connected to a campus network</li>
+   <li>Accessing specialized software that is not available on your computer</li>
+   <li>Accessing file shared from a Computing Resources Unit managed fileserver</li>
+</ol>
+<br />
+
+<p><span class="discreet">To request access to the CAES VPN service, <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a>.</span></p>
+<br />
+
 <p><span class="discreet">NOTE: For MacOS, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the Mac App Store.</span></p>
 <br />
 
