@@ -17,9 +17,6 @@ With the introduction of many cloud based resources, the only use cases for Remo
 </ol>
 <br />
 
-<p><span class="discreet">To request access to the CAES VPN service, <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a>.</span></p>
-<br />
-
 <p><span class="discreet">NOTE: For MacOS, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the Mac App Store.</span></p>
 <br />
 
