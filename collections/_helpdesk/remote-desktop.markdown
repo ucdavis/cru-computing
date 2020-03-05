@@ -30,7 +30,8 @@ permalink: /documentation/helpdesk/remote-desktop
 <ul style="PADDING-LEFT: 30px">
     <li>While multiple people can access the Remote Desktop servers simultaneously, your session is only accessible to you and nobody can access it without a password. Furthermore, no one will be able to see the work you are doing remotely.</li>
     <li>The Remote Desktop session will lock after 15 minutes of inactivity and disconnect after 2 hours.  After 24 hours of inactivity, the Remote Desktop session will fully close.</li>
-    <li>For MacOS, you must first download and install the Microsoft Remote Deskop app from the Mac App Store.</li>
+    <li>Box Drive is not supported on the Remote Desktop Servers.  If you need to access documents in Box, please visit https://ucdavis.box.com in one of the installed web browsers.</li>
+    <li>For MacOS, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> app from the Mac App Store.</li>
 </ul>
 <br />
 <p><span class="discreet">For non-Windows and MacOS devices, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for assistance with getting connected to the Remote Desktop service.</span></p>
