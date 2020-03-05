@@ -44,7 +44,7 @@ With the introduction of many cloud based resources, the only use cases for the 
            <li>This icon looks like a small black rectangle with one (1) white line, followed by four (4) gray lines inside of it</li>
        </ul>
    </li>
-   <li>Click the option for <b>Connect CAES VPN</b></li>
+   <li>Click the option for <b>Connect CAES VPN</b>
        <ul>
            <li>Once you are connected, the word "Connected" will be replaced with "Disconnect" under the VPN icon</li>
            <li>If you are prompted for credentials, you will login using your full @ucdavis.edu email address and password</li>
