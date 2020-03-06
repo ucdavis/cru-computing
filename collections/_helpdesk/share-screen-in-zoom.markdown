@@ -11,8 +11,8 @@ date:   2020-03-06 12:59:00
 <ul style="PADDING-LEFT: 30px">
   <li>Connect to the Zoom meeting using your computer
     <ol style="PADDING-LEFT: 20px" type="1">
-      <li>Navigate to <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/join-zoom-meeting" target="_blank">How to join a Zoom meeting</a></li>
-      <li>Navigate to <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/host-zoom-meeting" target="_blank">How to start a new Zoom meeting</a></li>
+      <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/join-zoom-meeting" target="_blank">How to join a Zoom meeting</a></li>
+      <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/host-zoom-meeting" target="_blank">How to start a new Zoom meeting</a></li>
     </ol>
   </li>
   <li>If you are prompted by your browser to open the Zoom app, click <b>OK</b></li>
