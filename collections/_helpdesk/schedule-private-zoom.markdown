@@ -1,5 +1,5 @@
 ---
-title:  "Scheduling a private Zoom meeting"
+title:  "How to schedule a private Zoom meeting"
 description: "Use this guide to schedule a private Zoom meeting that uses a password."
 author: "Steven Barkey"
 date:   2019-07-16 09:59:00
