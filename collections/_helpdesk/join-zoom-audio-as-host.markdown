@@ -1,5 +1,5 @@
 ---
-title:  "Joining a Zoom meeting as the host (audio only) "
+title:  "How to join a Zoom meeting as the host (audio only) "
 description: "Use this guide to setup, host, and use an audio-only meeting in Zoom."
 author: "Steven Barkey"
 date:   2019-07-16 09:59:00
