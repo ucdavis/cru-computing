@@ -15,6 +15,10 @@ date:   2019-07-16 09:59:00
       <li>Additional Countries/Regions: <a class="external-link" href="https://ucdavis.zoom.us/zoomconference" target="_blank">https://ucdavis.zoom.us/zoomconference</a></li>
     </ul>
   </li>
-  <li>Enter the provided <b>Personal Meeting ID</b> followed by <b>#</b></li>
+  <li>Enter the provided <b>Personal Meeting ID</b> followed by <b>#</b>
+    <ul style="PADDING-LEFT: 20px">
+      <li>If you do not know the <b>Personal Meeting ID</b>, you will need to contact the host of the Zoom meeting</li>
+    </ul>
+  </li>
   <li>You do not need to enter a Host Key, just press <b>#</b></li>
 </ol>
