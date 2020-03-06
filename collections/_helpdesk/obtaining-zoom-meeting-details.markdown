@@ -6,7 +6,7 @@ date:   2019-07-16 09:59:00
 ---
 <p>The instructions below will walk you through how to find your Instant Meeting details for hosting a Zoom meeting, but if you encounter any issues, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
-<p>Obtain your Zoom Instant Meeting details:</p>
+<h3>Obtain your Zoom Instant Meeting details:</h3>
 <ol style="PADDING-LEFT: 30px">
   <li>Open a browser and go to <a class="external-link" href="https://ucdavis.zoom.us" target="_blank">https://ucdavis.zoom.us</a></li>
   <li>Select <b>Sign In</b> in the upper-right corner</li>
