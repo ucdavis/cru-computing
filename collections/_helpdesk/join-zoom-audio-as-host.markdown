@@ -6,7 +6,7 @@ date:   2019-07-16 09:59:00
 ---
 <p>The instructions below will walk you through the process of joining a audio-only meeting in Zoom as the host, but if you encounter any issues, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
-<p>Joining a Zoom Audio meeting as the host:</p>
+<h3>Joining a Zoom Audio meeting as the host:</h3>
 <ol style="PADDING-LEFT: 30px">
   <li>Call one of the Zoom International Dial-in Numbers:
     <ul style="PADDING-LEFT: 20px">
