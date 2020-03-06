@@ -38,6 +38,12 @@ date:   2019-07-16 09:59:00
       <li>These instructions will walk you through how to find your Instant Meeting details that you can share with meeting participants that are joing a meeting you are hosting.</li>
     </ul>
   </li>
+  <br />
+  <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/share-screen-in-zoom" target="_blank">How to share your screen during a Zoom meeting</a>
+    <ul style="PADDING-LEFT: 20px">
+      <li>These instructions will walk you through the process of sharing your computer screen during a Zoom meeting.</li>
+    </ul>
+  </li>
 </ol>
 <br />
 
