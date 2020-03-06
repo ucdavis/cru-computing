@@ -1,5 +1,5 @@
 ---
-title:  "How to obtain your Zoom Instant Meeting Details"
+title:  "How to obtain your Zoom Instant Meeting details"
 description: "Use this guide to find key information for hosting a Zoom meeting."
 author: "Steven Barkey"
 date:   2019-07-16 09:59:00
