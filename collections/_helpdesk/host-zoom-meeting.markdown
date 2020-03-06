@@ -1,12 +1,12 @@
 ---
-title:  "How to host a Zoom meeting"
-description: "Use this guide to host a meeting in Zoom."
+title:  "How to start a new Zoom meeting"
+description: "Use this guide to start a new meeting in Zoom."
 author: "Steven Barkey"
 date:   2019-07-16 09:59:00
 ---
-<p>The instructions below will walk you through the process of hosting a Zoom meeting, but if you encounter any issues, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
+<p>The instructions below will walk you through the process of starting a new Zoom meeting, but if you encounter any issues, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
-<h3>Hosting a meeting from your phone:</h3>
+<h3>Starting a new a meeting from your phone:</h3>
 <ol style="PADDING-LEFT: 30px">
   <li>Call one of the Zoom International Dial-in Numbers:
     <ul style="PADDING-LEFT: 20px">
@@ -29,7 +29,7 @@ date:   2019-07-16 09:59:00
 </ol>
 <br />
 
-<h3>Hosting a last minute meeting from your computer:</h3>
+<h3>Starting a new meeting from your computer:</h3>
 <ol style="PADDING-LEFT: 30px">
   <li>Navigate to <a class="external-link" href="https://www.zoom.us" target="_blank">https://www.zoom.us</a></li>
   <li>Hover over <b>HOST A MEETING</b> in the upper-right corner of the website</li>
