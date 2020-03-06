@@ -6,7 +6,7 @@ date:   2019-07-16 09:59:00
 ---
 <p>The instructions below will walk you through the process of joining a meeting in Zoom as a participant, but if you encounter any issues, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
-<p>Joining a Zoom meeting from your phone:</p>
+<h3>Joining a Zoom meeting from your phone:</h3>
 <ol style="PADDING-LEFT: 30px">
   <li>Call one of the Zoom International Dial-in Numbers:
     <ul style="PADDING-LEFT: 20px">
@@ -23,7 +23,7 @@ date:   2019-07-16 09:59:00
   <li>You do not need to enter a Host Key, just press <b>#</b></li>
 </ol>
 <br />
-<p>Joining a Zoom meeting from your computer:</p>
+<h3>Joining a Zoom meeting from your computer:</h3>
 <ul style="PADDING-LEFT: 30px">
   <li>If the host shared the meeting link with you:
     <ol style="PADDING-LEFT: 20px" type="1">
