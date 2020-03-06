@@ -56,6 +56,7 @@ With the introduction of many cloud based resources, the only use cases for the 
 
 <h3>Things to know:</h3>
 <ul style="PADDING-LEFT: 30px">
+    <li>The CAES VPN service can only be used on a computer managed by the Computing Resources Unit.</li>
     <li><b>For Windows computers</b>, in order for the CAES VPN to appear on your machine, you must first login to the computer while connected to the wired network.  If you are unable to connect to the wired network before needing access to the CAES VPN service, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</li>
     <li><b>For macOS computers</b>, the CAES VPN connection must be manually created by the Computing Resources Unit.  To have this done, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a>.</li>
 </ul>
