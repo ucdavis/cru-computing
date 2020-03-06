@@ -1,5 +1,5 @@
 ---
-title:  "Scheduling a public Zoom meeting"
+title:  "How to schedule a public Zoom meeting"
 description: "Use this guide to schedule a public Zoom meeting."
 author: "Steven Barkey"
 date:   2019-07-16 09:59:00
