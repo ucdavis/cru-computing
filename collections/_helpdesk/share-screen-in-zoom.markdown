@@ -26,6 +26,7 @@ date:   2020-03-06 12:59:00
 <h3>Things to know:</h3>
 <ul style="PADDING-LEFT: 30px">
     <li>The screen/app that you are sharing will be outlined with a green border.</li>
+    <li>While sharing, all participants in the meeting that joined via computer will be able to see your screen.</li>
     <li>By default, only one person can share their screen at a time.</li>
 </ul>
 <br />
