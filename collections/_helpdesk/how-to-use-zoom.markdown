@@ -4,7 +4,8 @@ description: "Use this guide to learn how to use the most common features of Zoo
 author: "Steven Barkey"
 date:   2019-07-16 09:59:00
 ---
-<p>This guide references the various documentation resources we have available for how to leverage Zoom and use it's common features.<br />If you encounter any issues, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
+<p>This guide references the various documentation resources we have available for how to leverage Zoom and use it's common features.</p>
+<p>If you encounter any issues, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
 <h3>Use the following links to access the various documentation resources we have available.</h3>
 <ol style="PADDING-LEFT: 30px">
