@@ -40,11 +40,7 @@ date:   2019-07-16 09:59:00
 </ol>
 <br />
 
-
-
-
-
 <h3>Not finding the documentation you are looking for?</h3>
-<ol style="PADDING-LEFT: 30px">
+<ul style="PADDING-LEFT: 30px">
   <li>In addition to the documentation we have above, Zoom has various support documents that can help you achieve what you are trying to do.  To view their documentation, please navigate to <a class="external-link" href="https://support.zoom.us/" target="_blank">https://support.zoom.us/</a></li>
-</ol>
+</ul>
