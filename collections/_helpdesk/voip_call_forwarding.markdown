@@ -24,7 +24,8 @@ permalink: /documentation/helpdesk/voip_call_forwarding
 <br />
 <h3>How to remove call forwarding for your campus VoIP desk phone: </h3>
 <ol style="PADDING-LEFT: 30px">
-   <li>From any internet connected computer, go to <a href="https://scp.ucdavis.edu" target="_blank">scp.ucdavis.edu</a></li>
+   <li>Connect to the <a href="https://computing.caes.ucdavis.edu/documentation/helpdesk/connect_to_vpn" target="_blank">CAES VPN</a> service or the <a href="https://computing.caes.ucdavis.edu/documentation/helpdesk/remote-desktop" target="_blank">Remote Desktop</a> service</li>
+   <li>Navigate to <a href="https://scp.ucdavis.edu" target="_blank">scp.ucdavis.edu</a></li>
    <li>Login with your CAS credentials
        <ul>
            <li>NOTE: While this login page is not the CAS page that we are used to seeing, campus Communication Resources has integrated this website into the same system that CAS is integrated with.  If you have concerns with using your CAS credentials on this page, please contact the Service Desk.</li>
