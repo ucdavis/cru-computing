@@ -21,4 +21,5 @@ permalink: /documentation/helpdesk/access_voicemail_remotely
 <h3>Things to know:</h3>
 <ul style="PADDING-LEFT: 30px">
     <li>Once a voicemail is listened to, it will not be automatically deleted.  To erase the message, you will need to manually delete the message using the <b>delete</b> button.</li>
+    <li>The Self Care Portal (SCP) can only be accessed while connected to a campus network by either being on campus or connecting to the VPN or Remote Desktop.</li>
 </ul>
