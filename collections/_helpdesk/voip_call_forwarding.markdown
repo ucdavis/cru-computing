@@ -8,8 +8,11 @@ permalink: /documentation/helpdesk/voip_call_forwarding
 
 <h3>How to setup call forwarding for your campus VoIP desk phone: </h3>
 <ol style="PADDING-LEFT: 30px">
-   <li>Connect to the <a href="https://computing.caes.ucdavis.edu/documentation/helpdesk/connect_to_vpn" target="_blank">CAES VPN</a> service or the <a href="https://computing.caes.ucdavis.edu/documentation/helpdesk/remote-desktop" target="_blank">Remote Desktop</a> service</li>
-   <li>Navigate to to <a href="https://scp.ucdavis.edu" target="_blank">scp.ucdavis.edu</a></li>
+   <li>Navigate to <a href="https://scp.ucdavis.edu" target="_blank">scp.ucdavis.edu</a>
+       <ul>
+           <li>If you are not connected to a campus network, you must first either connect to the <a href="https://computing.caes.ucdavis.edu/documentation/helpdesk/connect_to_vpn" target="_blank">CAES VPN</a> service or the <a href="https://computing.caes.ucdavis.edu/documentation/helpdesk/remote-desktop" target="_blank">Remote Desktop</a> service.</li>
+       </ul>
+   </li>
    <li>Login with your CAS credentials
        <ul>
            <li>NOTE: While this login page is not the CAS page that we are used to seeing, campus Communication Resources has integrated this website into the same system that CAS is integrated with.  If you have concerns with using your CAS credentials on this page, please contact the Service Desk.</li>
@@ -24,8 +27,11 @@ permalink: /documentation/helpdesk/voip_call_forwarding
 <br />
 <h3>How to remove call forwarding for your campus VoIP desk phone: </h3>
 <ol style="PADDING-LEFT: 30px">
-   <li>Connect to the <a href="https://computing.caes.ucdavis.edu/documentation/helpdesk/connect_to_vpn" target="_blank">CAES VPN</a> service or the <a href="https://computing.caes.ucdavis.edu/documentation/helpdesk/remote-desktop" target="_blank">Remote Desktop</a> service</li>
-   <li>Navigate to <a href="https://scp.ucdavis.edu" target="_blank">scp.ucdavis.edu</a></li>
+   <<li>Navigate to <a href="https://scp.ucdavis.edu" target="_blank">scp.ucdavis.edu</a>
+       <ul>
+           <li>If you are not connected to a campus network, you must first either connect to the <a href="https://computing.caes.ucdavis.edu/documentation/helpdesk/connect_to_vpn" target="_blank">CAES VPN</a> service or the <a href="https://computing.caes.ucdavis.edu/documentation/helpdesk/remote-desktop" target="_blank">Remote Desktop</a> service.</li>
+       </ul>
+   </li>
    <li>Login with your CAS credentials
        <ul>
            <li>NOTE: While this login page is not the CAS page that we are used to seeing, campus Communication Resources has integrated this website into the same system that CAS is integrated with.  If you have concerns with using your CAS credentials on this page, please contact the Service Desk.</li>
@@ -39,6 +45,7 @@ permalink: /documentation/helpdesk/voip_call_forwarding
 <br />
 <h3>Things to know:</h3>
 <ul style="PADDING-LEFT: 30px">
-    <li>Once call forwarding is added, it will not be automatically removed and you will need to manually remove the forwarding once it is no longer necessary.</li>
-    <li>The Self Care Portal (SCP) can only be accessed while connected to a campus network by either being on campus or connecting to the VPN or Remote Desktop.</li>
+   <li>The Self Care Portal (SCP) has no relation to "self care" in the medical or healthcare context.</li>
+   <li>Once call forwarding is added, it will not be automatically removed and you will need to manually remove the forwarding once it is no longer necessary.</li>
+   <li>The Self Care Portal (SCP) can only be accessed while connected to a campus network by either being on campus or connecting to the VPN or Remote Desktop.</li>
 </ul>
