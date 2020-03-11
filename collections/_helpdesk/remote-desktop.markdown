@@ -26,7 +26,7 @@ permalink: /documentation/helpdesk/remote-desktop
 <ol style="PADDING-LEFT: 30px">
    <li>From any internet connected computer, go to <a href="http://access.caes.ucdavis.edu" target="_blank">access.caes.ucdavis.edu</a></li>
    <li>Login with your UC Davis email address and password</li>
-   <li>Click on the connection you want to use (example: "CAESDO Remote Desktop"), which will download the connection shortcut to your computer (via a .rdp file)</li>
+   <li>Click on the resource that you want to connect to (example: "CAESDO Remote Desktop"), which will download the connection shortcut to your computer (via a .rdp file)</li>
    <li>Run the downloaded file to start the connection
        <ul>
            <li>NOTE: You may be prompted to enter your email address and password again</li>
