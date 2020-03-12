@@ -35,7 +35,7 @@ date:   2019-07-16 09:59:00
   <br />
   <li>If the host shared the Meeting ID (number) with you:
     <ol style="PADDING-LEFT: 20px" type="1">
-      <li>Navigate to <a class="external-link" href="https://www.zoom.us" target="_blank">https://www.zoom.us</a></li>
+      <li>Navigate to <a class="external-link" href="https://ucdavis.zoom.us" target="_blank">https://ucdavis.zoom.us</a></li>
       <li>Click <b>JOIN A MEETING</b> in the upper-right corner of the website</li>
       <li>Enter the Meeting ID that was provided to you by the host</li>
       <li>If you are prompted by your browser to open the Zoom app, click <b>OK</b></li>
