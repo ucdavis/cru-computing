@@ -37,7 +37,7 @@ date:   2019-07-16 09:59:00
   <li>If you are prompted by your browser to open the Zoom app, click <b>OK</b></li>
   <li>Once the Zoom app loads, use the <b>Invite Others</b> button to invite the participants to join the meeting
     <ul style="PADDING-LEFT: 20px">
-      <li>You can switch between <b>Contacts</b>, <b>Zoom Rooms</b>, email <b>Email</b> along the top of the <b>Invite Others</b> window</li>
+      <li>You can switch between <b>Contacts</b>, <b>Zoom Rooms</b>, and <b>Email</b> along the top of the <b>Invite Others</b> window</li>
     </ul>
   </li>
   <li>Along the bottom of the meeting window, you can turn on/off <b>your</b> microphone and camera as desired</li>
