@@ -31,7 +31,7 @@ date:   2019-07-16 09:59:00
 
 <h3>Starting a new meeting from your computer:</h3>
 <ol style="PADDING-LEFT: 30px">
-  <li>Navigate to <a class="external-link" href="https://www.zoom.us" target="_blank">https://www.zoom.us</a></li>
+  <li>Navigate to <a class="external-link" href="https://ucdavis.zoom.us" target="_blank">https://ucdavis.zoom.us</a></li>
   <li>Hover over <b>HOST A MEETING</b> in the upper-right corner of the website</li>
   <li>Choose the option to enable video or screen sharing for the meeting</li>
   <li>If you are prompted by your browser to open the Zoom app, click <b>OK</b></li>
