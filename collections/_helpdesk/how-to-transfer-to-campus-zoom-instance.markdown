@@ -37,7 +37,7 @@ date:   2020-03-13 11:11:00
     </ul>
   </li>
   <br />
-  <li><b>Your email address is listed as the owner of a different Zoom instance<b/>
+  <li><b>Your email address is listed as the owner of a different Zoom instance</b>
     <ul style="PADDING-LEFT: 20px">
       <li>If you email address is the listed as the owner of a different Zoom instance, you will first need to transfer ownership of the other Zoom instance to another email address before you can transfer your Zoom account to the campus Zoom instance.
       <br />
