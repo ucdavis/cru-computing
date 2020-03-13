@@ -9,7 +9,7 @@ date:   2019-07-16 09:59:00
 
 <h3>Scheduling a meeting from your computer:</h3>
 <ol style="PADDING-LEFT: 30px">
-  <li>Using a browser, <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/sign_in_to_zoom" target="_blank">sign in to Zoom</a></li>
+  <li>Using a browser, <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/how-to-sign-into-zoom" target="_blank">sign in to Zoom</a></li>
   <li>Select <b>Meetings</b> from the left menu column</li>
   <li>Click the <b>Schedule a Meeting</b> button</li>
   <li>Fill out the the various fields on the Schedule a Meeting page and click <b>Save</b>
