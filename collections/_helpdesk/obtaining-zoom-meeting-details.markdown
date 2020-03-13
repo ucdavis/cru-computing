@@ -8,9 +8,7 @@ date:   2019-07-16 09:59:00
 <br />
 <h3>Obtain your Zoom Instant Meeting details:</h3>
 <ol style="PADDING-LEFT: 30px">
-  <li>Open a browser and go to <a class="external-link" href="https://ucdavis.zoom.us" target="_blank">https://ucdavis.zoom.us</a></li>
-  <li>Select <b>Sign In</b> in the upper-right corner</li>
-  <li>Enter your full @ucdavis.edu email address and password, then click <b>Sign in</b></li>
+  <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/sign_in_to_zoom" target="_blank">Sign in to Zoom</a></li>
   <li>Select <b>Profile</b> from the left menu column</li>
   <li>Click <b>Edit</b> to the right of your <b>Personal Meeting ID</b></li>
   <li>Confirm <b>Use Personal Meeting ID for instant meetings</b> is checked</li>
