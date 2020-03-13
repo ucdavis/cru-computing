@@ -31,12 +31,13 @@ date:   2020-03-13 11:11:00
 <h3>Having trouble transferring to the campus Zoom instance?</h3>
 <p>Certain circumstances will prevent you from transferring to the campus Zoom instance:</p>
 <ol style="PADDING-LEFT: 30px">
-  <li>You are already logged into your Zoom account
+  <li><b>You are already logged into your Zoom account</b>
     <ul style="PADDING-LEFT: 20px">
       <li>If you are currently logged into your Zoom account, which is associated with the other instance, you will first need to log out of your existing Zoom account and log back in to receive the prompt to transfer your account to the campus Zoom instance.</li>
     </ul>
   </li>
-  <li>Your email address is listed as the owner of a different Zoom instance
+  <br />
+  <li><b>Your email address is listed as the owner of a different Zoom instance<b/>
     <ul style="PADDING-LEFT: 20px">
       <li>If you email address is the listed as the owner of a different Zoom instance, you will first need to transfer ownership of the other Zoom instance to another email address before you can transfer your Zoom account to the campus Zoom instance.
       <br />
@@ -44,7 +45,8 @@ date:   2020-03-13 11:11:00
       If the other Zoom instance is affiliated with UC Davis, it is recommended you <a class="external-link" href="http://kb.ucdavis.edu/?id=0637" target="_blank">create a Departmental Computing Account</a> to transfer the other Zoom instance to so that all members of the other Zoom instance can transfer to the campus Zoom instance successfully.</li>
     </ul>
   </li>
-  <li>Your email address was used to purchase an individual Zoom license
+  <br />
+  <li><b>Your email address was used to purchase an individual Zoom license</b>
     <ul style="PADDING-LEFT: 20px">
       <li>If your email address was used to purchase an individual Zoom license, you will first need to either close the existing Zoom account associated with your email address or transfer ownership of the other Zoom instance to another email address before you can transfer your Zoom account to the campus Zoom instance.</li>
     </ul>
