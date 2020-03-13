@@ -23,7 +23,7 @@ date:   2020-03-13 11:11:00
   <li>In the browser window that opens, click <b>I acknowledge and Switch</b></li>
   <li>Your account will now be transferred from the old instance to the campus Zoom instance
     <ul style="PADDING-LEFT: 20px">
-      <li>NOTE: Once your account is transferred your existing browser and Zoom app sessions will be closed and you will need to <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/sign_in_to_zoom" target="_blank">sign in to Zoom</a> again.</li>
+      <li>NOTE: Once your account is transferred your existing browser and Zoom app sessions will be closed and you will need to <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/how-to-sign-into-zoom" target="_blank">sign in to Zoom</a> again.</li>
     </ul>
   </li>
 </ol>
