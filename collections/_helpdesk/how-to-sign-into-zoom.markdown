@@ -24,6 +24,6 @@ date:   2020-03-13 09:59:00
   <li>Open a the Zoom app and click the <b>Sign in with SSO</b> button on the right</li>
   <li>Enter your full @ucdavis.edu email address and click <b>Continue</b></li>
   <li>In the browser window that opens, enter your full @ucdavis.edu email address and password, then click <b>Sign in</b></li>
-    <li>If you are prompted by your browser to open the Zoom app, click <b>OK</b></li>
-  <li>You should be automatically redirected to your Zoom account.</li>
+  <li>If you are prompted by your browser to open the Zoom app, click <b>OK</b></li>
+  <li>Your Zoom app should now give you options to join or start a meeting</li>
 </ol>
