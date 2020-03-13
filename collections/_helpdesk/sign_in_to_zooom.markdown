@@ -2,7 +2,7 @@
 title:  "How to sign into Zoom"
 description: "Use this guide to sign into the campus Zoom instance, the video conferencing solution available on campus."
 author: "Steven Barkey"
-date:   2019-07-16 09:59:00
+date:   2020-03-13 09:59:00
 ---
 <p>The instructions below will walk you through the process of signing into the campus Zoom instance, but if you encounter any issues, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
