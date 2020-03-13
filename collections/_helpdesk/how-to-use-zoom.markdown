@@ -9,6 +9,18 @@ date:   2019-07-16 09:59:00
 <br />
 <h3>Use the following links to access the various documentation resources we have available.</h3>
 <ol style="PADDING-LEFT: 30px">
+  <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/how-to-sign-into-zoom" target="_blank">How to sign into Zoom</a>
+    <ul style="PADDING-LEFT: 20px">
+      <li>These instructions will walk you through the process of signing into the campus Zoom instance, the video conferencing solution available on campus.</li>
+    </ul>
+  </li>
+  <br />
+  <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/how-to-transfer-to-campus-zoom-instance" target="_blank">How to transfer your Zoom account to the campus Zoom instance</a>
+    <ul style="PADDING-LEFT: 20px">
+      <li>These instructions will walk you through the process of transferring your existing Zoom account from another instance, including the free Zoom instance, to the campus Zoom instance.</li>
+    </ul>
+  </li>
+  <br />
   <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/join-zoom-meeting" target="_blank">How to join a Zoom meeting</a>
     <ul style="PADDING-LEFT: 20px">
       <li>These instructions will walk you through the process of joining a meeting in Zoom as a participant.</li>
