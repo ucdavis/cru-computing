@@ -9,7 +9,11 @@ date:   2020-03-13 11:11:00
 
 <h3>How to transfer your Zoom account to the campus Zoom instance:</h3>
 <ol style="PADDING-LEFT: 30px">
-  <li>Open a browser and go to <a class="external-link" href="https://ucdavis.zoom.us" target="_blank">https://ucdavis.zoom.us</a></li>
+  <li>Open a browser and go to <a class="external-link" href="https://ucdavis.zoom.us" target="_blank">https://ucdavis.zoom.us</a>
+    <ul style="PADDING-LEFT: 20px">
+      <li>NOTE: If you are redirected to another Zoom instance when visiting the above address, you wil first need to sign out of your existing Zoom account in the other instance before trying to transfer to the campus Zoom instance.</li>
+    </ul>
+  </li>
   <li>Select <b>Sign In</b> in the upper-right corner</li>
   <li>Enter your full @ucdavis.edu email address and password, then click <b>Sign in</b>
     <ul style="PADDING-LEFT: 20px">
