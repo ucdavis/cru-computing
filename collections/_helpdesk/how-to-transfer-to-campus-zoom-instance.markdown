@@ -55,12 +55,13 @@ date:   2020-03-13 11:11:00
       <li>If your email address was used to purchase an individual Zoom license, you will first need to either close the existing Zoom account associated with your email address or transfer ownership of the other Zoom instance to another email address before you can transfer your Zoom account to the campus Zoom instance.</li>
     </ul>
   </li>
+  <br />
   <li><b>Your account does not an an email address associated with it</b>
     <ul style="PADDING-LEFT: 20px">
       <li>If the account you authenticate with does not have an @ucdavis.edu email address associated with it, you will not be able to transfer anything or sign into Zoom using that account.  Please use a different account when trying to sign in, or transfer an account to, the campus Zoom instance.</li>
     </ul>
   </li>
-  </li>
+  <br />
   <li><b>You are trying to sign in using an OU account</b>
     <ul style="PADDING-LEFT: 20px">
       <li>Because ADFS authentication to the campus Zoom instance requires Duo Multi-Factor Authentication (MFA), and OU accounts are not eligible for Duo MFA, logging into the campus Zoom instance will not work with an OU account.  Please use a different account when trying to sign in, or transfer an account to, the campus Zoom instance.</li>
