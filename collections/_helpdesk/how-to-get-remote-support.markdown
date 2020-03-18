@@ -50,7 +50,7 @@ date:   2020-03-18 12:00:00
     </ul>
   </li>
   <li>If prompted, click <b>Yes</b> on the User Account Control dialog</li>
-  <li>Once your issue is resolved, the Service Desk technicial will end the Remote Support session and you will recieve a dialog indicating that your session has ended.
+  <li>Once your issue is resolved, the Service Desk technician will end the Remote Support session and you will recieve a dialog indicating that your session has ended.
     <ul style="PADDING-LEFT: 20px">
       <li>NOTE: As indicated in the dialog, once the Remote Support session is ended, your computer can no longer be accessed or controlled using the Remote Support Customer Client application.</li>
     </ul>
