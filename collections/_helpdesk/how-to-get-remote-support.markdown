@@ -2,7 +2,7 @@
 title:  "How to receive computer support remotely"
 description: "Use this guide to start a remote support session with the Computing Resources Unit Service Desk using Bomgar/BeyondTrust."
 author: "Steven Barkey"
-date:   2020-03-13 09:59:00
+date:   2020-03-18 12:00:00
 ---
 <p>The instructions below will walk you through the process of starting a remote support session with the Service Desk using Bomgar/BeyondTrust.</p>
 <br />
