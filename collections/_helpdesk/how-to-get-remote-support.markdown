@@ -30,15 +30,21 @@ date:   2020-03-18 12:00:00
   </li>
   <li>Within the Remote Support Customer Client application, click <b>Full Terms & Conditions</b></li>
   <li>Review the Terms & Condition and click <b>Accept</b></li>
-  <li>The Remote Support Customer Client application should now indicate you are chatting with the Service Desk technician.</li>
+  <li>The Remote Support Customer Client application should now indicate you are chatting with the Service Desk technician.
+    <ul style="PADDING-LEFT: 20px">
+      <li>To end a chat-only Remote Support session, close the Remote Support Customer Client application.</li>
+    </ul>
+  </li>
   <li>If prompted, click <b>Allow</b> on the Access Request dialog where the Service Desk technician requests view and contorl of your computer
     <ul style="PADDING-LEFT: 20px">
       <li>NOTE: This allows the Service Desk technician to see your screen and control your mouse and keyboard to assist with resolving your issue.</li>
+      <li>To end a Remote Support session, click the <b>Stop Sharing</b> button in the upper-right corner of the Remote Support Customer Client application.</li>
     </ul>
   </li>
   <li>If prompted, click <b>Allow</b> on the Access Request dialog where the Service Desk technician requests elevation of priviledges
     <ul style="PADDING-LEFT: 20px">
       <li>NOTE: This allows the Service Desk technician enter administrator credentials on your machine to assist with resolving your issue.</li>
+      <li>To end a Remote Support session, click the <b>Stop Sharing</b> button in the upper-right corner of the Remote Support Customer Client application.</li>
     </ul>
   </li>
   <li>If prompted, click <b>Yes</b> on the User Account Control dialog</li>
@@ -48,8 +54,6 @@ date:   2020-03-18 12:00:00
     </ul>
   </li>
 </ol>
-<br />
-<p>To end a Remote Support session manually, click the <b>Stop Sharing</b> button in the upper-right corner of the Remote Support Customer Client application.</p>
 
 <h3>Things to know:</h3>
 <ol style="PADDING-LEFT: 30px">
