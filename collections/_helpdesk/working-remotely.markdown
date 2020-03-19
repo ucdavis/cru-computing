@@ -27,6 +27,15 @@ date:   2020-03-06 10:30:00
   </li>
 </ol>
 
+<h3>Sign documents remotely</h3>
+<ol style="PADDING-LEFT: 30px">
+  <li>Digitally sign documents with DocuSign
+    <ul style="PADDING-LEFT: 20px">
+      <li>To get started with DocuSign, please contact Brian McEligot.</li>
+    </ul>
+  </li>
+</ol>
+
 <h3>Conducting meetings remotely</h3>
 <ol style="PADDING-LEFT: 30px">
   <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/how-to-use-zoom" target="_blank">How to use Zoom</a>
