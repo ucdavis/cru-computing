@@ -7,7 +7,7 @@ permalink: /documentation/helpdesk/connect_to_vpn
 ---
 
 <p><span class="discreet">Some resources are only available under certain circumstances, like working from a computer connected to the campus network.  While these requirements are not as common as they have been in the past, they do still exist.</span></p>
-<p><span class="discreet">As such, any individual that can login to a computer managed by the Computing Resources Unit and have been issues a Windows or macOS laptop can request access to the CAES VPN service provided by the Computing Resources Unit.  In most cases, this CAES VPN service will allow you to work remotely using your managed laptop as if you were sitting in your office connected to the wired network.</span></p>
+<p><span class="discreet">As such, any individual that can login to a computer managed by the Computing Resources Unit and has been issued a Windows or macOS laptop can request access to the CAES VPN service provided by the Computing Resources Unit.  In most cases, this CAES VPN service will allow you to work remotely using your managed laptop as if you were sitting in your office connected to the wired network.</span></p>
 <br />
 With the introduction of many cloud based resources, the only use cases for the CAES VPN are:
 <ol style="PADDING-LEFT: 30px">
