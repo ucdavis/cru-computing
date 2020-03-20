@@ -37,13 +37,13 @@ date:   2020-03-18 12:00:00
       <li>To end a chat-only Remote Support session, close the Remote Support Customer Client application.</li>
     </ul>
   </li>
-  <li>If prompted, click <b>Allow</b> on the Access Request dialog if the Help Desk requests view and contorl of your computer
+  <li>If the Help Desk requests view and contorl of your computer, click <b>Allow</b> on the Access Request dialog
     <ul style="PADDING-LEFT: 20px">
       <li>NOTE: This allows the Help Desk to see your screen and control your mouse and keyboard to assist with resolving your issue.</li>
       <li>To end a Remote Support session, click the <b>Stop Sharing</b> button in the upper-right corner of the Remote Support Customer Client application.</li>
     </ul>
   </li>
-  <li>If prompted, click <b>Allow</b> on the Access Request dialog if the Help Desk requests elevation of privileges
+  <li>If the Help Desk requests elevation of privileges, click <b>Allow</b> on the Access Request dialog
     <ul style="PADDING-LEFT: 20px">
       <li>NOTE: This allows the Help Desk enter administrator credentials on your machine to assist with resolving your issue.</li>
       <li>To end a Remote Support session, click the <b>Stop Sharing</b> button in the upper-right corner of the Remote Support Customer Client application.</li>
