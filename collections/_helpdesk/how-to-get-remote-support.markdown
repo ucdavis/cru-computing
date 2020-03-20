@@ -15,7 +15,7 @@ date:   2020-03-18 12:00:00
   <li>Enter the <b>Session Key</b> provided by the Dean's Office Help Desk into the box provided and click <b>Submit</b></li>
   <li>On the "Would you like to start a support session with..." dialog, click <b>Yes</b>
     <ul style="PADDING-LEFT: 20px">
-      <li>Important: If you are not familiar with the name on the dialog box, <b>DO NOT</b> click Yes, and instead click <b>Cancel</b> and notify the Help Desk immediately.</li>
+      <li>IMPORTANT: If you are not familiar with the name on the dialog box, <b>DO NOT</b> click Yes, and instead click <b>Cancel</b> and notify the Help Desk immediately.</li>
     </ul>
   </li>
   <li>The Remote Support agent should download automatically
