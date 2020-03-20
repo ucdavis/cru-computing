@@ -59,5 +59,5 @@ date:   2020-03-18 12:00:00
 
 <h3>Things to know:</h3>
 <ol style="PADDING-LEFT: 30px">
-  <li>The Dean's Office Help Desk can not access your computer remotely using this tool without your consent.</li>
+  <li>The Dean's Office Help Desk cannot access your computer remotely using this tool without your consent.</li>
 </ol>
