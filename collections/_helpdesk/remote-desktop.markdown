@@ -15,7 +15,7 @@ permalink: /documentation/helpdesk/remote-desktop
 <ol style="PADDING-LEFT: 30px">
    <li>Accessing software that is only accessible while connected to a campus network</li>
    <li>Accessing specialized software that is not available on your computer</li>
-   <li>Accessing file shared from a Computing Resources Unit managed fileserver</li>
+   <li>Accessing files shared from a Computing Resources Unit managed fileserver</li>
 </ol>
 <br />
 
