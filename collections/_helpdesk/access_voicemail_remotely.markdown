@@ -15,7 +15,7 @@ permalink: /documentation/helpdesk/access_voicemail_remotely
    </li>
    <li>Login with your CAS credentials
        <ul>
-           <li>NOTE: While this login page is not the CAS page that we are used to seeing, campus Communication Resources has integrated this website into the same system that CAS is integrated with.  If you have concerns with using your CAS credentials on this page, please contact the Service Desk.</li>
+           <li>NOTE: While this login page is not the CAS page that we are used to seeing, campus Communication Resources has integrated this website into the same system that CAS is integrated with.  If you have concerns with using your CAS credentials on this page, please contact the Help Desk.</li>
        </ul>
    </li>
    <li>To listen to a voicemail, select the message you want to listed to and press the <b>play</b> button.</li>
