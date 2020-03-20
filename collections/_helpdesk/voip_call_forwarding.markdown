@@ -15,7 +15,7 @@ permalink: /documentation/helpdesk/voip_call_forwarding
    </li>
    <li>Login with your CAS credentials
        <ul>
-           <li>NOTE: While this login page is not the CAS page that we are used to seeing, campus Communication Resources has integrated this website into the same system that CAS is integrated with.  If you have concerns with using your CAS credentials on this page, please contact the Service Desk.</li>
+           <li>NOTE: While this login page is not the CAS page that we are used to seeing, campus Communication Resources has integrated this website into the same system that CAS is integrated with.  If you have concerns with using your CAS credentials on this page, please contact the Help Desk.</li>
        </ul>
    </li>
    <li>Click <b>Call Forwarding</b> on the left</li>
@@ -34,7 +34,7 @@ permalink: /documentation/helpdesk/voip_call_forwarding
    </li>
    <li>Login with your CAS credentials
        <ul>
-           <li>NOTE: While this login page is not the CAS page that we are used to seeing, campus Communication Resources has integrated this website into the same system that CAS is integrated with.  If you have concerns with using your CAS credentials on this page, please contact the Service Desk.</li>
+           <li>NOTE: While this login page is not the CAS page that we are used to seeing, campus Communication Resources has integrated this website into the same system that CAS is integrated with.  If you have concerns with using your CAS credentials on this page, please contact the Help Desk.</li>
        </ul>
    </li>
    <li>Click <b>Call Forwarding</b> on the left</li>
