@@ -6,7 +6,7 @@ date:   2020-03-18 12:00:00
 ---
 <p>While some issues can be resolved remotely without having to interact with your computer directly, other issues require access to your computer to resolve.  To assist with this remotely, the CAES Dean's Office Computing Resources Unit leverages a campus instance of BeyondTrust (formerly known as Bomgar) to both view your computer screen and perform administrative tasks on your computer.</p>
 <br />
-<p>The instructions below will walk you through the process of starting a remote support session with the Help Desk using BeyondTrust using a Session Key provided by the Help Desk.</p>
+<p>The instructions below will walk you through the process of starting a remote support session with the Help Desk with BeyondTrust with a Session Key provided by the Help Desk.</p>
 <br />
 
 <h3>How to start a remote support session:</h3>
@@ -45,7 +45,7 @@ date:   2020-03-18 12:00:00
   </li>
   <li>If the Help Desk requests elevation of privileges, click <b>Allow</b> on the Access Request dialog
     <ul style="PADDING-LEFT: 20px">
-      <li>NOTE: This allows the Help Desk enter administrator credentials on your machine to assist with resolving your issue.</li>
+      <li>NOTE: This allows the Help Desk to enter administrator credentials on your machine to assist with resolving your issue.</li>
       <li>To end a Remote Support session, click the <b>Stop Sharing</b> button in the upper-right corner of the Remote Support Customer Client application.</li>
     </ul>
   </li>
