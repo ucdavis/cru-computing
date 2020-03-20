@@ -63,7 +63,7 @@ date:   2020-03-06 10:30:00
 <ol style="PADDING-LEFT: 30px">
   <li><a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/how-to-get-remote-support" target="_blank">How to receive computer support remotely</a>
     <ul style="PADDING-LEFT: 20px">
-      <li>This guide will explain the step by step process of starting a remote support session with the Computing Resources Unit Service Desk using BeyondTrust (formerly known as Bomgar).</li>
+      <li>This guide will explain the step by step process of starting a remote support session with the Computing Resources Unit Help Desk using BeyondTrust (formerly known as Bomgar).</li>
     </ul>
   </li>
 </ol>
