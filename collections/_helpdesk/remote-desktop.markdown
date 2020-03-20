@@ -8,7 +8,7 @@ permalink: /documentation/helpdesk/remote-desktop
 
 <p><span class="discreet">Some resources are only available under certain circumstances, like working from a computer connected to the campus network or software licensing limitations prevents the software from being installed on your local computer. While these requirements are not as common as they have been in the past, they do still exist.</span></p>
 
-<p><span class="discreet">As such, he College of Agricultural & Environmental Sciences Dean's Office provides access to a Remote Desktop connection for all units, centers, and departments supported by the Computing Resources Unit.  The Remote Desktop service can be accessed from any internet connected computer, including computers at home.</span></p>
+<p><span class="discreet">As such, the College of Agricultural & Environmental Sciences Dean's Office provides access to a Remote Desktop connection for all units, centers, and departments supported by the Computing Resources Unit.  The Remote Desktop service can be accessed from any internet connected computer, including computers at home.</span></p>
 <br />
 
 <p><span class="discreet">With the introduction of many cloud based resources, the only use cases for Remote Desktop are:</span></p>
