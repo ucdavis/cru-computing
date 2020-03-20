@@ -20,7 +20,7 @@ With the introduction of many cloud based resources, the only use cases for the 
 
 <h3>Connecting to the CAES VPN from a Windows Computer: </h3>
 <ol style="PADDING-LEFT: 30px">
-   <li>Logged into the computer with your UC Davis Computing Account</li>
+   <li>Log into the computer with your UC Davis Computing Account</li>
    <li>In the lower-right corder (by the clock), click on the network icon
        <ul>
            <li>If you are connected to a wireless network, this icon will be a series of stacked arches and indicate the wireless signal strenth.</li>
@@ -38,7 +38,7 @@ With the introduction of many cloud based resources, the only use cases for the 
 
 <h3>Connecting to the CAES VPN from a macOS Computer: </h3>
 <ol style="PADDING-LEFT: 30px">
-   <li>Logged into the computer</li>
+   <li>Log into the computer</li>
    <li>In the upper-right corder (by the clock), click on the VPN icon
        <ul>
            <li>This icon looks like a small black rectangle with one (1) white line, followed by four (4) gray lines inside of it</li>
@@ -46,7 +46,7 @@ With the introduction of many cloud based resources, the only use cases for the 
    </li>
    <li>Click the option for <b>Connect CAES VPN</b>
        <ul>
-           <li>Once you are connected, the word "Connected" will be replaced with "Disconnect" under the VPN icon</li>
+           <li>Once you are connected, the word "Connect" will be replaced with "Disconnect" under the VPN icon</li>
            <li>If you are prompted for credentials, you will login using your full @ucdavis.edu email address and password</li>
        </ul>
    </li>
