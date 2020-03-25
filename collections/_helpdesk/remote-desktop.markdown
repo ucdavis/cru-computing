@@ -22,7 +22,7 @@ permalink: /documentation/helpdesk/remote-desktop
 <p>For Apple devices, you must first obtain the correct Remote Desktop app for your device:</p>
 <ul style="PADDING-LEFT: 30px">
         <li>For Mac computers, first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the App Store.</li>
-    <li>NOTE: For iPhones, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop app</a> for iOS from the App Store.</li>
+    <li>For iPhones, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop app</a> for iOS from the App Store.</li>
     <li>For iPads, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=ipad" target="_blank">Microsoft Remote Desktop app</a> for iPadOS from the App Store.</li>
 </ol>
 <br />
@@ -49,7 +49,7 @@ permalink: /documentation/helpdesk/remote-desktop
     <li>The Remote Desktop session will lock after 15 minutes of inactivity and disconnect after 2 hours.  After 24 hours of inactivity, the Remote Desktop session will fully close.</li>
     <li>Box Drive is not supported on the Remote Desktop Servers.  If you need to access documents in Box, follow the instructions outlined in <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/access_box_remotely" target="_blank">how to safely access Box remotely</a>.</li>
     <li>For Mac computers, first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the App Store.</li>
-    <li>NOTE: For iPhones, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop app</a> for iOS from the App Store.</li>
+    <li>For iPhones, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop app</a> for iOS from the App Store.</li>
     <li>For iPads, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=ipad" target="_blank">Microsoft Remote Desktop app</a> for iPadOS from the App Store.</li>
 </ul>
 <br />
