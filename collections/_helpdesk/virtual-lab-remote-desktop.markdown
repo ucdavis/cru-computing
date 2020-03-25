@@ -1,12 +1,12 @@
 ---
-title:  "How to connect to the CA&ES Virtual Computer Lab using Remote Desktop"
-description: "This guide will explain the step by step process of connecting to the CA&ES Virtual Computer Lab, used for instruction, with remote desktop."
+title:  "How to connect to the CAES Virtual Computer Lab using Remote Desktop"
+description: "This guide will explain the step by step process of connecting to the CAES Virtual Computer Lab, used for instruction, with remote desktop."
 author: "Steven Barkey"
 date:   2019-03-25 14:20:00
 permalink: /documentation/helpdesk/virtual-lab-remote-desktop
 ---
 
-<p><span class="discreet">Due to the current operational status of the campus, physical access to the CA&ES Computer Labs is prohibited.  As such, the CA&ES Dean's Office Computing Resources Unit has implemented a Virtual Computer Lab to support online teaching for Spring Quarter 2020.</span></p>
+<p><span class="discreet">Due to the current operational status of the campus, physical access to the CAES Computer Labs is prohibited.  As such, the CA&ES Dean's Office Computing Resources Unit has implemented a Virtual Computer Lab to support online teaching for Spring Quarter 2020.</span></p>
 
 <p><span class="discreet">The steps below will walk you through the process of accessing the Virtual Computer Lab using Remote Desktop.  This access is available to all students who are registered for courses in the physical computer labs. </span></p>
 
