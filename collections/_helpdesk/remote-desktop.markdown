@@ -21,9 +21,9 @@ permalink: /documentation/helpdesk/remote-desktop
 
 <p>For Apple devices, you must first obtain the correct Remote Desktop app for your device:</p>
 <ul style="PADDING-LEFT: 30px">
-        <li>For Mac computers, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the Mac App Store.</span></li>
-    <li>NOTE: For iPhones, you must first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop app</a> for iOS from the Mac App Store.</span></li>
-    <li>For iPads, you must first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=ipad" target="_blank">Microsoft Remote Desktop app</a> for iPadOS from the Mac App Store.</span></li>
+        <li>For Mac computers, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the Mac App Store.</li>
+    <li>NOTE: For iPhones, you must first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop app</a> for iOS from the Mac App Store.</li>
+    <li>For iPads, you must first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=ipad" target="_blank">Microsoft Remote Desktop app</a> for iPadOS from the Mac App Store.</li>
 <br />
 
 <h3>To connect to the Remote Desktop service: </h3>
@@ -47,9 +47,9 @@ permalink: /documentation/helpdesk/remote-desktop
     <li>While multiple people can access the Remote Desktop servers simultaneously, your session is only accessible to you and nobody can access it without a password. Furthermore, no one will be able to see the work you are doing remotely.</li>
     <li>The Remote Desktop session will lock after 15 minutes of inactivity and disconnect after 2 hours.  After 24 hours of inactivity, the Remote Desktop session will fully close.</li>
     <li>Box Drive is not supported on the Remote Desktop Servers.  If you need to access documents in Box, follow the instructions outlined in <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/access_box_remotely" target="_blank">how to safely access Box remotely</a>.</li>
-    <li>For Mac computers, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the Mac App Store.</span></li>
-    <li>For iPhones, you must first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop app</a> for iOS from the Mac App Store.</span></li>
-    <li>For iPads, you must first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=ipad" target="_blank">Microsoft Remote Desktop app</a> for iPadOS from the Mac App Store.</span></li>
+    <li>For Mac computers, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the Mac App Store.</li>
+    <li>For iPhones, you must first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop app</a> for iOS from the Mac App Store.</li>
+    <li>For iPads, you must first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=ipad" target="_blank">Microsoft Remote Desktop app</a> for iPadOS from the Mac App Store.</li>
 </ul>
 <br />
 <p><span class="discreet">For non-Windows and MacOS devices, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for assistance with getting connected to the Remote Desktop service.</span></p>
