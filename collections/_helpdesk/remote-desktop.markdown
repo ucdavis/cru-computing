@@ -24,6 +24,7 @@ permalink: /documentation/helpdesk/remote-desktop
         <li>For Mac computers, first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the App Store.</li>
     <li>NOTE: For iPhones, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop app</a> for iOS from the App Store.</li>
     <li>For iPads, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=ipad" target="_blank">Microsoft Remote Desktop app</a> for iPadOS from the App Store.</li>
+</ol>
 <br />
 
 <h3>To connect to the Remote Desktop service: </h3>
