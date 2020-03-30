@@ -17,51 +17,51 @@
   <h3>Popular Articles</h3>
   <li class="helpdesk-dot">
     <a class="no-color" href="/documentation/helpdesk/working-remotely">
-      <b>How to work remotely</b> - 06 Mar 2020
+      <b>How to Work Remotely</b> - 06 Mar 2020
     </a>
   </li>
-  {% assign helpdesk = site.helpdesk %}
-  {% for post in site.helpdesk limit:1 %}
+  {% assign helpdesk = site.helpdesk | reverse %}
+  {% for post in helpdesk limit: 1 %}
   <li class="helpdesk-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
     </a>
   </li>
   {% endfor %}
-  {% assign policies = site.policies %}
-  {% for post in site.policies limit:1 %}
+  {% assign policies = site.policies | reverse %}
+  {% for post in policies limit: 1 %}
   <li class="policies-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
     </a>
   </li>
   {% endfor %}
-  {% assign aceeval = site.ace %}
-  {% for post in site.ace limit:1 %}
+  {% assign aceeval = site.ace | reverse %}
+  {% for post in aceeval limit: 1 %}
   <li class="ace-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
     </a>
   </li>
   {% endfor %}
-  {% assign purchasing = site.purchasing %}
-  {% for post in site.purchasing limit:1 %}
+  {% assign purchasing = site.purchasing | reverse %}
+  {% for post in purchasing limit: 1 %}
   <li class="purchasing-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
     </a>
   </li>
   {% endfor %}
-  {% assign peaks = site.peaks %}
-  {% for post in site.peaks limit:1 %}
+  {% assign peaks = site.peaks | reverse %}
+  {% for post in peaks limit: 1 %}
   <li class="peaks-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
     </a>
   </li>
   {% endfor %}
-  {% assign commencement = site.commencement %}
-  {% for post in site.commencement limit:1 %}
+  {% assign commencement = site.commencement | reverse %}
+  {% for post in commencement limit: 1 %}
   <li class="commencement-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}

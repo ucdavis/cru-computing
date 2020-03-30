@@ -8,18 +8,23 @@ permalink: /documentation/helpdesk/remote-desktop
 
 <p><span class="discreet">Some resources are only available under certain circumstances, like working from a computer connected to the campus network or software licensing limitations prevents the software from being installed on your local computer. While these requirements are not as common as they have been in the past, they do still exist.</span></p>
 
-<p><span class="discreet">As such, he College of Agricultural & Environmental Sciences Dean's Office provides access to a Remote Desktop connection for all units, centers, and departments supported by the Computing Resources Unit.  The Remote Desktop service can be accessed from any internet connected computer, including computers at home.</span></p>
+<p><span class="discreet">As such, the College of Agricultural & Environmental Sciences Dean's Office provides access to a Remote Desktop connection for all units, centers, and departments supported by the Computing Resources Unit.  The Remote Desktop service can be accessed from any internet connected computer, including computers at home.</span></p>
 <br />
 
 <p><span class="discreet">With the introduction of many cloud based resources, the only use cases for Remote Desktop are:</span></p>
 <ol style="PADDING-LEFT: 30px">
    <li>Accessing software that is only accessible while connected to a campus network</li>
    <li>Accessing specialized software that is not available on your computer</li>
-   <li>Accessing file shared from a Computing Resources Unit managed fileserver</li>
+   <li>Accessing files shared from a Computing Resources Unit managed fileserver</li>
 </ol>
 <br />
 
-<p><span class="discreet">NOTE: For MacOS, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the Mac App Store.</span></p>
+<p>For Apple devices, you must first obtain the correct Remote Desktop app for your device:</p>
+<ul style="PADDING-LEFT: 30px">
+        <li>For Mac computers, first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the App Store.</li>
+    <li>For iPhones, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop app</a> for iOS from the App Store.</li>
+    <li>For iPads, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=ipad" target="_blank">Microsoft Remote Desktop app</a> for iPadOS from the App Store.</li>
+</ul>
 <br />
 
 <h3>To connect to the Remote Desktop service: </h3>
@@ -43,7 +48,9 @@ permalink: /documentation/helpdesk/remote-desktop
     <li>While multiple people can access the Remote Desktop servers simultaneously, your session is only accessible to you and nobody can access it without a password. Furthermore, no one will be able to see the work you are doing remotely.</li>
     <li>The Remote Desktop session will lock after 15 minutes of inactivity and disconnect after 2 hours.  After 24 hours of inactivity, the Remote Desktop session will fully close.</li>
     <li>Box Drive is not supported on the Remote Desktop Servers.  If you need to access documents in Box, follow the instructions outlined in <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/access_box_remotely" target="_blank">how to safely access Box remotely</a>.</li>
-    <li>For MacOS, you must first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> app from the Mac App Store.</li>
+    <li>For Mac computers, first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Deskop app</a> from the App Store.</li>
+    <li>For iPhones, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop app</a> for iOS from the App Store.</li>
+    <li>For iPads, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=ipad" target="_blank">Microsoft Remote Desktop app</a> for iPadOS from the App Store.</li>
 </ul>
 <br />
 <p><span class="discreet">For non-Windows and MacOS devices, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for assistance with getting connected to the Remote Desktop service.</span></p>
