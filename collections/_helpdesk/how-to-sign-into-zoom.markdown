@@ -11,7 +11,7 @@ date:   2020-03-13 09:59:00
 <img src="/media/helpdesk/zoomscreenshot.png" alt="zoom screenshot">
 <ol style="PADDING-LEFT: 30px">
   <li>Open a browser and go to <a class="external-link" href="https://ucdavis.zoom.us" target="_blank">https://ucdavis.zoom.us</a></li>
-  <li>Select the <b>Sign In</b> button</li>
+  <li>Click <b>Sign In</b></li>
   <li>Enter your full @ucdavis.edu email address and password, then click <b>Sign in</b>
     <ul style="PADDING-LEFT: 20px">
       <li>NOTE: If you already belong to another Zoom instance, including the consumer Zoom instance, you will be presented with instructions for transfering to the ucdavis.zoom.us instance.  Details on how to transfer your Zoom account to the CA&ES Zoom instance, please see <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/how-to-transfer-to-campus-zoom-instance" target="_blank">How to transfer your Zoom account to the CA&ES Zoom instance</a></li>
