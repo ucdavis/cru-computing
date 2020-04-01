@@ -36,7 +36,7 @@ date:   2019-07-16 09:59:00
   <li>If the host shared the Meeting ID (number) with you:
     <ol style="PADDING-LEFT: 20px" type="1">
       <li>Navigate to <a class="external-link" href="https://ucdavis.zoom.us" target="_blank">https://ucdavis.zoom.us</a></li>
-      <li>Click <b>Join</b></li>
+      <li>Click the <b>Join</b> button</li>
       <li>Enter the Meeting ID that was provided to you by the host and click <b>Join</b></li>
       <li>If you are prompted by your browser to open the Zoom app, click <b>OK</b></li>
       <li>The Zoom meeting should open and you should be able to turn on/off your microphone and camera as desired</li>
