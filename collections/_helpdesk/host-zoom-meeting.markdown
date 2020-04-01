@@ -32,8 +32,8 @@ date:   2019-07-16 09:59:00
 <h3>Starting a new meeting from your computer:</h3>
 <ol style="PADDING-LEFT: 30px">
   <li>Navigate to <a class="external-link" href="https://ucdavis.zoom.us" target="_blank">https://ucdavis.zoom.us</a></li>
-  <li>Hover over <b>HOST A MEETING</b> in the upper-right corner of the website</li>
-  <li>Choose the option to enable video or screen sharing for the meeting</li>
+  <li>Click the <b>Host</b> button</li>
+  <li>If you are not already signed in, <a class="external-link" href="https://computing.caes.ucdavis.edu/documentation/helpdesk/how-to-sign-into-zoom" target="_blank">sign in to Zoom</a></li>
   <li>If you are prompted by your browser to open the Zoom app, click <b>OK</b></li>
   <li>Once the Zoom app loads, use the <b>Invite Others</b> button to invite the participants to join the meeting
     <ul style="PADDING-LEFT: 20px">
