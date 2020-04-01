@@ -20,14 +20,14 @@
       <b>How to Work Remotely</b> - 06 Mar 2020
     </a>
   </li>
-  {% assign helpdesk = site.helpdesk | reverse %}
+  <!-- {% assign helpdesk = site.helpdesk | reverse %}
   {% for post in helpdesk limit: 1 %}
   <li class="helpdesk-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
     </a>
   </li>
-  {% endfor %}
+  {% endfor %} -->
   {% assign policies = site.policies | reverse %}
   {% for post in policies limit: 1 %}
   <li class="policies-dot">
