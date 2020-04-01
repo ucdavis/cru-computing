@@ -14,7 +14,7 @@ date:   2020-03-13 11:11:00
       <li>NOTE: If you are redirected to another Zoom instance when visiting the above address, you wil first need to sign out of your existing Zoom account in the other instance before trying to transfer to the CA&ES Zoom instance.</li>
     </ul>
   </li>
-  <li>Click <b>Sign In</b></li>
+  <li>Click the <b>Sign In</b> button</li>
   <li>Enter your full @ucdavis.edu email address and password, then click <b>Sign in</b>
     <ul style="PADDING-LEFT: 20px">
       <li>NOTE: If you are not part of another Zoom instance, including the consumer Zoom instance, or have already transferred to the CA&ES Zoom instance, you should be automatically redirected to your Zoom account without being prompted to transfer anything.</li>
