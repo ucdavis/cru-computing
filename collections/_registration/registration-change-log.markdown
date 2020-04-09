@@ -1,6 +1,6 @@
 ---
-title:  "New Features and Changes"
-description: "Stay up to date with all the new features and changes within the Registration application."
+title:  "New Features and Changes."
+description: "Stay up to date with all the new features and changes."
 author: "Jason Sylvestre"
 date:   2020-04-09
 ---
