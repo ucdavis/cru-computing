@@ -52,6 +52,10 @@ li.commencement-dot a {
   @include dot-color;
   border-color:$commencement;
 }
+li.registration-dot a {
+  @include dot-color;
+  border-color:$registration;
+}
 li.helpdesk-dot a {
     @include dot-color;
     border-color:$helpdesk;

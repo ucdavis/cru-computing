@@ -41,6 +41,9 @@ collections:
   payments:
     output: true
     permalink: /documentation/:collection/:title
+  registration:
+    output: true
+    permalink: /documentation/:collection/:title
   portfolio:
   team:
   screenshots:
@@ -100,6 +103,14 @@ defaults:
     values:
       categories: "payments"
       brand: "payments"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+  - scope:
+      type: "registration"
+    values:
+      categories: "registration"
+      brand: "registration"
       documentation: "aside"
       layout: "twocol"
       bio: "true"
