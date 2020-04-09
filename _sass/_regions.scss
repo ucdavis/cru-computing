@@ -83,7 +83,7 @@ a.documentation-snippet {
   }
 }
 .card-height-fixed {
-  height:238px;
+  height:216px;
   @include breakpoint(md) {
     height:auto;
   }

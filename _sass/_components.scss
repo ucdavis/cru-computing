@@ -591,3 +591,20 @@ img.img-fluid {
     font-family: 'proxima-nova-b', 'FontAwesome';
   }
 }
+.alert-unitrans {
+  background-color:transparentize($unitrans-red, .9);
+  h2 {
+    color:$unitrans-red;
+      margin-bottom:16px;
+  }
+  box-shadow: $box-shadow;
+  a.alert-button {
+    font-weight: bold;
+    border:2px solid $unitrans-red;
+    border-radius: 14px;
+    padding:6px 16px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
