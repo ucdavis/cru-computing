@@ -11,7 +11,7 @@ search:
 
 {% assign collect = site.registration %}
   {% for post in site.registration reversed %}
-    <div class="documentation-item">
+    <div class="documentation-item" data-title="{{post.title}}">
     <a class="documentation-snippet" class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <h2>{{post.title}}</h2>
       <p style="margin-top:0px;">{{ post.description }}</p>
