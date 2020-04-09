@@ -39,6 +39,30 @@
     margin-bottom:16px;
   }
 }
+.registration-total {
+  hr {
+    border:1px solid $registration;
+    margin-bottom:1.6rem;
+  }
+  ol.breadcrumb {
+    > .active {
+      color: transparentize($registration, .23);
+    }
+  }
+  a {
+    color:$registration;
+    &:hover {
+      text-decoration: underline;
+      color:lighten($registration,15);
+    }
+  }
+  .callout {
+    background-color:transparentize($registration, .92);
+    border-left: 5px solid $registration;
+    padding:20px 20px 10px 20px;
+    margin-bottom:16px;
+  }
+}
 .documentation-total {
   hr {
     border:1px solid $documentation;
@@ -291,6 +315,13 @@
   background-color:$guidelines;
   &:hover {
     background-color:transparentize($guidelines, .15);
+  }
+}
+.registration-tag {
+  @include tag;
+  background-color:$registration;
+  &:hover {
+    background-color:transparentize($registration, .15);
   }
 }
 .commencement-tag {
