@@ -1,5 +1,5 @@
 ---
-title:  "Best Practices."
+title:  "Delete Event."
 description: "I created an event by mistake and need to delete it."
 author: "Jason Sylvestre"
 date:   2020-04-09
