@@ -1,6 +1,6 @@
 ---
 ---
-{% assign posts = site.ace | concat: site.commencement | concat: site.purchasing | concat: site.policies | concat: site.peaks | concat: site.helpdesk %}
+{% assign posts = site.ace | concat: site.commencement | concat: site.registration | concat: site.purchasing | concat: site.policies | concat: site.peaks | concat: site.helpdesk %}
 {
   {%- for post in posts -%}
   "{{post.title}}": {
