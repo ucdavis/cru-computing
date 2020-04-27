@@ -14,15 +14,15 @@ permalink: /documentation/helpdesk/access-food-pro-through-remote-desktop
     <li>For iPhones, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop app</a> for iOS from the App Store.</li>
     <li>For iPads, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=ipad" target="_blank">Microsoft Remote Desktop app</a> for iPadOS from the App Store.</li>
 </ul>
-<br />
 
 <p><span class="discreet">If you are unable to login to the Remote Desktop server that contains The Food Processor software, please email lab-support@caes.ucdavis.edu for assistance.</span></p>
+<br />
 
 <h3>To connect to the Remote Desktop service: </h3>
 <ol style="PADDING-LEFT: 30px">
    <li>From any internet connected computer, go to <a href="http://access.labs.caes.ucdavis.edu" target="_blank">access.labs.caes.ucdavis.edu</a></li>
    <li>Login with your UC Davis email address and password</li>
-   <li>Click on the Nutrition Remote Desktop Connection, which will download the connection shortcut to your computer (via a .rdp file)</li>
+        <li>Click on the <b>Nutrition Remote Desktop Connection</b>, which will download the connection shortcut to your computer (via a .rdp file)</li>
    <li>Run the downloaded file to start the connection
        <ul>
            <li>NOTE: You may be prompted to enter your email address and password again</li>
@@ -43,5 +43,3 @@ permalink: /documentation/helpdesk/access-food-pro-through-remote-desktop
     <li>For iPhones, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop app</a> for iOS from the App Store.</li>
     <li>For iPads, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=ipad" target="_blank">Microsoft Remote Desktop app</a> for iPadOS from the App Store.</li>
 </ul>
-<br />
-<p><span class="discreet">For non-Windows and MacOS devices, please email lab-support@caes.ucdavis.edu for assistance with getting connected to the Virtual Computer Lab.</span></p>
