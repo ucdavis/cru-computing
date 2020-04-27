@@ -28,7 +28,7 @@ permalink: /documentation/helpdesk/access-food-pro-through-remote-desktop
            <li>NOTE: You may be prompted to enter your email address and password again</li>
        </ul>
    </li>
-   <li>The Remote Desktop session will open and you will be able to use the software or remote Windows session.</li>
+   <li>The Remote Desktop session will open and you will be able to use The Food Processor software through the Remote Desktop session.</li>
 </ol>
 <br />
 <h3>To end your Remote Desktop session:</h3>
