@@ -15,7 +15,7 @@ permalink: /documentation/helpdesk/access-food-pro-through-remote-desktop
     <li>For iPads, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=ipad" target="_blank">Microsoft Remote Desktop app</a> for iPadOS from the App Store.</li>
 </ul>
 
-<p><span class="discreet">If you are unable to login to the Remote Desktop server that contains The Food Processor software, please email lab-support@caes.ucdavis.edu for assistance.</span></p>
+<p><span class="discreet">If you are unable to login to the Remote Desktop server that contains The Food Processor software, please email foodprohelp@ucdavis.edu for assistance.</span></p>
 <br />
 
 <h3>To connect to the Remote Desktop service: </h3>
