@@ -20,7 +20,7 @@ permalink: /documentation/helpdesk/access-food-pro-through-remote-desktop
 
 <h3>To connect to the Remote Desktop service: </h3>
 <ol style="PADDING-LEFT: 30px">
-   <li>From any internet connected computer, go to <a href="http://access.labs.caes.ucdavis.edu" target="_blank">access.labs.caes.ucdavis.edu</a></li>
+   <li>From any internet connected computer, go to <a href="https://access.labs.caes.ucdavis.edu" target="_blank">access.labs.caes.ucdavis.edu</a></li>
    <li>Login with your UC Davis email address and password</li>
         <li>Click on the <b>Nutrition Remote Desktop Connection</b>, which will download the connection shortcut to your computer (via a .rdp file)</li>
    <li>Run the downloaded file to start the connection
