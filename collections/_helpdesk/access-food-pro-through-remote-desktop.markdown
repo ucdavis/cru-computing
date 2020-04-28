@@ -6,7 +6,9 @@ date:   2019-04-27 13:30:00
 permalink: /documentation/helpdesk/access-food-pro-through-remote-desktop
 ---
 
-<p><span class="discreet">The steps below will walk you through the process of accessing the Remote Desktop server that contains The Food Processor software.  This access is available to all students who are registered for NUT 112, NUT 116 AL, and FSM 120. </span></p>
+<p><span class="discreet">The steps below will walk you through the process of accessing the Remote Desktop server that contains The Food Processor software.  This access is available to all students who are registered for NUT 112, NUT 116 AL, and FSM 120.</span></p>
+
+<p><span class="discreet">For Windows devices, the Remote Desktop app is already installed on your computer (skip directly to connection instructions below).</span></p>
 
 <p>For Apple devices, you must first obtain the correct Remote Desktop app for your device:</p>
 <ul style="PADDING-LEFT: 30px">
@@ -20,12 +22,12 @@ permalink: /documentation/helpdesk/access-food-pro-through-remote-desktop
 
 <h3>To connect to the Remote Desktop service: </h3>
 <ol style="PADDING-LEFT: 30px">
-   <li>From any internet connected computer, go to <a href="https://access.labs.caes.ucdavis.edu" target="_blank">access.labs.caes.ucdavis.edu</a></li>
-   <li>Login with your UC Davis email address and password</li>
+   <li>From any internet connected computer, use a web browser and go to <a href="https://access.labs.caes.ucdavis.edu" target="_blank">access.labs.caes.ucdavis.edu</a></li>
+   <li>Login with your UC Davis email address and Kerberos passphrase  (be sure to enter your full UC Davis email address for the username, not your Login ID)</li>
         <li>Click on the <b>Nutrition Remote Desktop Connection</b>, which will download the connection shortcut to your computer (via a .rdp file)</li>
    <li>Run the downloaded file to start the connection
        <ul>
-           <li>NOTE: You may be prompted to enter your email address and password again</li>
+           <li>NOTE: You may be prompted to enter your full UC Davis email address and Kerberos passphrase again</li>
        </ul>
    </li>
    <li>The Remote Desktop session will open and you will be able to use The Food Processor software through the Remote Desktop session.</li>
