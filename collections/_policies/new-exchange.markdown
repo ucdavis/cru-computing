@@ -11,4 +11,4 @@ date:   2015-03-07 16:25:17
 	</p>
 </div>
 <p>The UC Davis tenant of Office365 has a per message limit of 150 MB. Messages over that size will be returned undelivered.</p>
-<p><a href="https://ucdavisit.service-now.com/ess/knowledge_detail.do?sysparm_article=KB0000556" target="_self" title="">https://ucdavisit.service-now.com/ess/knowledge_detail.do?sysparm_article=KB0000556</a></p>
+<p><a href="https://ucdavisit.service-now.com/servicehub/?id=ucd_kb_article&sysparm_article=KB0000556" target="_self" title="">https://ucdavisit.service-now.com/servicehub/?id=ucd_kb_article&sysparm_article=KB0000556</a></p>
