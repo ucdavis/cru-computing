@@ -43,7 +43,7 @@ date:   2020-03-13 11:11:00
   <br />
   <li><b>Your email address is listed as the owner of a different Zoom instance</b>
     <ul style="PADDING-LEFT: 20px">
-      <li>If you email address is the listed as the owner of a different Zoom instance, you will first need to transfer ownership of the other Zoom instance to another email address before you can transfer your Zoom account to the CA&ES Zoom instance.
+      <li>If you email address is the listed as the owner of a different Zoom instance, you will first need to transfer ownership of the other Zoom instance to another email address before you can transfer your Zoom account to the CA&ES Zoom instance. (Zoom KB: <a class="external-link" href="https://support.zoom.us/hc/en-us/articles/115005686983" target="_blank">Changing the account owner</a>)
       <br />
       <br />
       If the other Zoom instance is affiliated with UC Davis, it is recommended you <a class="external-link" href="http://kb.ucdavis.edu/?id=0637" target="_blank">create a Departmental Computing Account</a> to transfer the other Zoom instance to so that all members of the other Zoom instance can transfer to the CA&ES Zoom instance successfully.</li>
@@ -52,7 +52,7 @@ date:   2020-03-13 11:11:00
   <br />
   <li><b>Your email address was used to purchase an individual Zoom license</b>
     <ul style="PADDING-LEFT: 20px">
-      <li>If your email address was used to purchase an individual Zoom license, you will first need to either close the existing Zoom account associated with your email address or transfer ownership of the other Zoom instance to another email address before you can transfer your Zoom account to the CA&ES Zoom instance.</li>
+      <li>If your email address was used to purchase an individual Zoom license, you will first need to either close the existing Zoom account associated with your email address or transfer ownership of the other Zoom instance to another email address before you can transfer your Zoom account to the CA&ES Zoom instance. (Zoom KB: <a class="external-link" href="https://support.zoom.us/hc/en-us/articles/115005686983" target="_blank">Changing the account owner</a>)</li>
     </ul>
   </li>
   <br />
