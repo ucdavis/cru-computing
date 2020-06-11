@@ -10,7 +10,7 @@ date:   2020-06-10 14:30:00
 <h3>How to install the Zoom for Outlook Add-in:</h3>
 <ol style="PADDING-LEFT: 30px">
   <li>With Outlook open on your machine, open the Add-in window
-    <ul>
+    <ul style="PADDING-LEFT: 20px">
       <li>Windows: Click <b>File</b> and then select the button for <b>Manage Add-ins</b></li>
       <li>Mac: Click <b>File</b> and then select the button for <b>Get Add-ins</b> along the top</li>
     </ul>
