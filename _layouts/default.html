@@ -30,7 +30,8 @@
       "@type": "Organization",
       "logo": "{{ site.url | append: '/media/thumbnail.jpg' }}",
       "url": "{{ site.url }}",
-      "name": "{{ site.title }}",
+      "@id": "{{ site.url }}",
+      "name": "{{ page.title }}",
       "email": "support@caes.ucdavis.edu",
       "telephone": "+1 (530) 754-7122",
       "address": "Mrak Hall, Davis, CA 95616"
@@ -54,7 +55,13 @@
         "@type": "Person",
         "name": "{{ page.author }}"
       },
-      "datePublished": "{{ page.date }}"
+      "publisher": {
+        "@type": "Organization",
+        "@id": "{{ site.url }}"
+      },
+      "datePublished": "{{ page.date }}",
+      "dateModified": "{{ page.date }}",
+      "mainEntityOfPage": "{{ site.url | append: page.url }}"
     }
   </script>
   {%- endif -%}
