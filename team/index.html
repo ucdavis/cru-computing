@@ -19,14 +19,16 @@ permalink: /team
   {% for post in team %}
 <div class="col-sm-4">
 <div class="card card-height-fixed">
-  <div class="card-content text-center">
-    <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
-    <h2>{{ post.name }}</h2>
-    <p>{{ post.role }}</p>
+  <div class="card-content text-center" vocab="http://schema.org" typeof="Person">
+    <img property="image" class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+    <h2 property="name">{{ post.name }}</h2>
+    <p property="jobTitle">{{ post.role }}</p>
     {% if post.phone %}
-    <p>{{ post.phone }}</p>
+    <p property="telephone">{{ post.phone }}</p>
       {% endif %}
-      <p><a href="mailto:{{ post.email }}">{{ post.email }}</a></p>
+    {% if post.email %}
+      <p><a property="email" href="mailto:{{ post.email }}">{{ post.email }}</a></p>
+    {% endif %}
   </div>
 </div>
 </div>
@@ -49,10 +51,10 @@ permalink: /team
       {% for post in team %}
     <div class="col-sm-4">
     <div class="card card-height-fixed">
-      <div class="card-content text-center">
-        <img class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
-        <h2>{{ post.name }}</h2>
-        <p>Currently at {{ post.role }}</p>
+      <div class="card-content text-center" vocab="http://schema.org" typeof="Person">
+        <img property="image" class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+        <h2 property="name">{{ post.name }}</h2>
+        <p property="jobTitle">Currently at {{ post.role }}</p>
       </div>
     </div>
     </div>

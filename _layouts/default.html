@@ -2,11 +2,11 @@
 <html>
   {% include head.html %}
   <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:url" content="{{ page.url }}" />
+  <meta property="og:url" content="{{ site.url | append: page.url }}" />
   {%- if page.image -%}
-  <meta property="og:image" content="{{ page.image }}" />
+  <meta property="og:image" content="{{ site.url | append: page.image }}" />
   {%- else -%}
-  <meta property="og:image" content="/media/thumbnail.jpg" />
+  <meta property="og:image" content="{{ site.url | append: '/media/thumbnail.jpg' }}" />
   {%- endif -%}
 
   {%- if page.description -%}
@@ -22,6 +22,42 @@
   <meta property="og:type" content="website" />
   {%- endif -%}
   <meta property="og:site_name" content="{{ site.title }}" />
+
+  {%- if page.home -%}
+  <script type="json+ld">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Organization",
+      "logo": "{{ site.url | append: '/media/thumbnail.jpg' }}",
+      "url": "{{ site.url }}",
+      "name": "{{ site.title }}",
+      "email": "support@caes.ucdavis.edu",
+      "telephone": "+1 (530) 754-7122",
+      "address": "Mrak Hall, Davis, CA 95616"
+    }
+  </script>
+  {%- elsif page.collection and page.collection != "team" and page.collection != "portfolio" -%}
+  <script type="json+ld">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Article",
+      "url": "{{ site.url | append: page.url }}",
+      "headline": "{{ page.title }}",
+      "articleSection": "{{ page.collection }}",
+      "abstract": "{{ page.description }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ page.author }}",
+      },
+      "datePublished": "{{ page.date }}",
+      {% if page.image %}
+      "image": "{{ site.url | append: page.image }}",
+      {%- else -%}
+      "image": "{{ site.url | append: '/media/thumbnail.jpg' }}",
+      {% endif %}
+    }
+  </script>
+  {%- endif -%}
 
   <body {% if page.home %} class="landing-bg" {% endif %} >
     <!-- darkmode saved -->
