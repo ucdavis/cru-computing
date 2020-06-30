@@ -3,28 +3,28 @@
   {% include head.html %}
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:url" content="{{ site.url | append: page.url }}" />
-  {%- if page.image -%}
+  {% if page.image %}
   <meta property="og:image" content="{{ site.url | append: page.image }}" />
-  {%- else -%}
+  {% else %}
   <meta property="og:image" content="{{ site.url | append: '/media/thumbnail.jpg' }}" />
   {%- endif -%}
 
-  {%- if page.description -%}
+  {% if page.description %}
   <meta property="og:description" content="{{ page.description }}" />
   {%- endif -%}
 
-  {%- if page.collection and page.collection != "team" and page.collection != "portfolio" -%}
+  {% if page.collection and page.collection != "team" and page.collection != "portfolio" %}
   <meta property="og:type" content="article" />
   <meta property="article:published_time" content="{{ page.date }}"/>
   <meta property="article:author" content="{{ page.author }}"/>
   <meta property="article:section" content="{{ page.collection }}"/>
-  {%- else -%}
+  {% else %}
   <meta property="og:type" content="website" />
   {%- endif -%}
   <meta property="og:site_name" content="{{ site.title }}" />
 
-  {%- if page.home -%}
-  <script type="json+ld">
+  {% if page.home %}
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
       "@type": "Organization",
@@ -36,8 +36,8 @@
       "address": "Mrak Hall, Davis, CA 95616"
     }
   </script>
-  {%- elsif page.collection and page.collection != "team" and page.collection != "portfolio" -%}
-  <script type="json+ld">
+  {% elsif page.collection and page.collection != "team" and page.collection != "portfolio" %}
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
       "@type": "Article",
