@@ -66,6 +66,25 @@
       "mainEntityOfPage": "{{ site.url | append: page.url }}"
     }
   </script>
+  {% else %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "WebPage",
+      "url": "{{ site.url | append: page.url }}",
+      {% if page.image %}
+      "primaryImageOfPage": "{{ site.url | append: page.image }}",
+      {%- else -%}
+      "image": "{{ site.url | append: '/media/thumbnail.jpg' }}",
+      {% endif %}
+      {% if page.date %}
+      "datePublished": "{{ page.date }}",
+      "dateModified": "{{ page.date }}",
+      {% endif %}
+      "headline": "{{ page.title }}",
+      "abstract": "{{ page.description }}"
+    }
+  </script>
   {%- endif -%}
 
   <body {% if page.home %} class="landing-bg" {% endif %} >
