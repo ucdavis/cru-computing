@@ -1,92 +1,93 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:url" content="{{ site.url | append: page.url }}" />
-  {% if page.image %}
-  <meta property="og:image" content="{{ site.url | append: page.image }}" />
-  {% else %}
-  <meta property="og:image" content="{{ site.url | append: '/media/thumbnail.jpg' }}" />
-  {%- endif -%}
+  <head prefix="og: http://ogp.me/ns#">
+    {% include head.html %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:url" content="{{ site.url | append: page.url }}" />
+    {% if page.image %}
+    <meta property="og:image" content="{{ site.url | append: page.image }}" />
+    {% else %}
+    <meta property="og:image" content="{{ site.url | append: '/media/thumbnail.jpg' }}" />
+    {%- endif -%}
 
-  {% if page.description %}
-  <meta property="og:description" content="{{ page.description }}" />
-  {%- endif -%}
+    {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}" />
+    {%- endif -%}
 
-  {% if page.collection and page.collection != "team" and page.collection != "portfolio" %}
-  <meta property="og:type" content="article" />
-  <meta property="article:published_time" content="{{ page.date }}"/>
-  <meta property="article:author" content="{{ page.author }}"/>
-  <meta property="article:section" content="{{ page.collection }}"/>
-  {% else %}
-  <meta property="og:type" content="website" />
-  {%- endif -%}
-  <meta property="og:site_name" content="{{ site.title }}" />
+    {% if page.collection and page.collection != "team" and page.collection != "portfolio" %}
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="{{ page.date }}"/>
+    <meta property="article:author" content="{{ page.author }}"/>
+    <meta property="article:section" content="{{ page.collection }}"/>
+    {% else %}
+    <meta property="og:type" content="website" />
+    {%- endif -%}
+    <meta property="og:site_name" content="{{ site.title }}" />
 
-  {% if page.home %}
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org/",
-      "@type": "Organization",
-      "logo": "{{ site.url | append: '/media/thumbnail.jpg' }}",
-      "url": "{{ site.url }}",
-      "@id": "{{ site.url }}",
-      "name": "{{ page.title }}",
-      "email": "support@caes.ucdavis.edu",
-      "telephone": "+1 (530) 754-7122",
-      "address": "Mrak Hall, Davis, CA 95616"
-    }
-  </script>
-  {% elsif page.collection and page.collection != "team" and page.collection != "portfolio" %}
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org/",
-      "@type": "Article",
-      "url": "{{ site.url | append: page.url }}",
-      {% if page.image %}
-      "image": "{{ site.url | append: page.image }}",
-      {%- else -%}
-      "image": "{{ site.url | append: '/media/thumbnail.jpg' }}",
-      {% endif %}
-      "headline": "{{ page.title }}",
-      "articleSection": "{{ page.collection }}",
-      "abstract": "{{ page.description }}",
-      "author": {
-        "@type": "Person",
-        "name": "{{ page.author }}"
-      },
-      "publisher": {
+    {% if page.home %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
         "@type": "Organization",
-        "@id": "{{ site.url }}",
         "logo": "{{ site.url | append: '/media/thumbnail.jpg' }}",
-        "name": "CAES Computing Resources Unit"
-      },
-      "datePublished": "{{ page.date }}",
-      "dateModified": "{{ page.date }}",
-      "mainEntityOfPage": "{{ site.url | append: page.url }}"
-    }
-  </script>
-  {% else %}
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org/",
-      "@type": "WebPage",
-      "url": "{{ site.url | append: page.url }}",
-      {% if page.image %}
-      "primaryImageOfPage": "{{ site.url | append: page.image }}",
-      {%- else -%}
-      "image": "{{ site.url | append: '/media/thumbnail.jpg' }}",
-      {% endif %}
-      {% if page.date %}
-      "datePublished": "{{ page.date }}",
-      "dateModified": "{{ page.date }}",
-      {% endif %}
-      "headline": "{{ page.title }}",
-      "abstract": "{{ page.description }}"
-    }
-  </script>
-  {%- endif -%}
-
+        "url": "{{ site.url }}",
+        "@id": "{{ site.url }}",
+        "name": "{{ page.title }}",
+        "email": "support@caes.ucdavis.edu",
+        "telephone": "+1 (530) 754-7122",
+        "address": "Mrak Hall, Davis, CA 95616"
+      }
+    </script>
+    {% elsif page.collection and page.collection != "team" and page.collection != "portfolio" %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Article",
+        "url": "{{ site.url | append: page.url }}",
+        {% if page.image %}
+        "image": "{{ site.url | append: page.image }}",
+        {%- else -%}
+        "image": "{{ site.url | append: '/media/thumbnail.jpg' }}",
+        {% endif %}
+        "headline": "{{ page.title }}",
+        "articleSection": "{{ page.collection }}",
+        "abstract": "{{ page.description }}",
+        "author": {
+          "@type": "Person",
+          "name": "{{ page.author }}"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "{{ site.url }}",
+          "logo": "{{ site.url | append: '/media/thumbnail.jpg' }}",
+          "name": "CAES Computing Resources Unit"
+        },
+        "datePublished": "{{ page.date }}",
+        "dateModified": "{{ page.date }}",
+        "mainEntityOfPage": "{{ site.url | append: page.url }}"
+      }
+    </script>
+    {% else %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "WebPage",
+        "url": "{{ site.url | append: page.url }}",
+        {% if page.image %}
+        "primaryImageOfPage": "{{ site.url | append: page.image }}",
+        {%- else -%}
+        "image": "{{ site.url | append: '/media/thumbnail.jpg' }}",
+        {% endif %}
+        {% if page.date %}
+        "datePublished": "{{ page.date }}",
+        "dateModified": "{{ page.date }}",
+        {% endif %}
+        "headline": "{{ page.title }}",
+        "abstract": "{{ page.description }}"
+      }
+    </script>
+    {%- endif -%}
+  </head>
   <body {% if page.home %} class="landing-bg" {% endif %} >
     <!-- darkmode saved -->
     <script>
