@@ -20,4 +20,4 @@ date:   2020-07-15
 
 [Back to Getting Started](/documentation/registration/getting-started)
 
-[Next Topic](/documentation/registration/important-bit)
+[Next Topic](/documentation/registration/important-bits)
