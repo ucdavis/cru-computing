@@ -17,4 +17,6 @@ date:   2020-07-1y
 * We currently don't allow the questions to be reordered, so make sure you know how you want it to look before you begin.
 * You may want to create an event on the test system first to see how everything will look.
 
+[Previous Topic](/documentation/registration/admin-home)
+
 [Back to Getting Started](/documentation/registration/getting-started)
