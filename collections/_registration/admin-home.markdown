@@ -21,3 +21,5 @@ date:   2020-07-15
 [Back to Getting Started](/documentation/registration/getting-started)
 
 [Next Topic](/documentation/registration/important-bits)
+
+<p><a href="/documentation/registration/admin-home" class="registration-tag">Previous Topic</a></p>
