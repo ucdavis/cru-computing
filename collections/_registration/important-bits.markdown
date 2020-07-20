@@ -17,6 +17,4 @@ date:   2020-07-1y
 * We currently don't allow the questions to be reordered, so make sure you know how you want it to look before you begin.
 * You may want to create an event on the test system first to see how everything will look.
 
-[Previous Topic](/documentation/registration/admin-home)
-
-[Back to Getting Started](/documentation/registration/getting-started)
+<p><a href="/documentation/registration/admin-home" class="registration-tag"><- Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a></p>
