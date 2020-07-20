@@ -17,10 +17,6 @@ date:   2020-07-20
 * What's New is a change log located in this FAQ: [Change Log](/documentation/registration/registration-change-log)
 * Admin Help Ticket: This is for admins only. It is not for the general public. You need CAS authentication to submit help ticket. As an admin of events, you are expected to be the primary contact for questions from those registering for events.
 * The More Actions allows a basic lookup for orders placed in your events, it isn't particularly useful. You may also submit help tickets from here and log out of CAS.
-* Todo Remove this line
 
-[Back to Getting Started](/documentation/registration/getting-started)
 
-[Next Topic](/documentation/registration/important-bits)
-
-<p><a href="/documentation/registration/admin-home" class="registration-tag">Previous Topic</a></p>
+<p><a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a> <a href="/documentation/registration/important-bits" class="registration-tag">Next -></a></p>
