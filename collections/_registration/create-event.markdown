@@ -27,6 +27,8 @@ date:   2020-07-22
 * The account number is now always required, even if Credit Cards are not used or if it is free.
 * You can now filter the list of accounts by typing part of it.
 * Note, it isn't a wild card search, you need to type the beginning of the account and/or chart.
+* After the event is created, only the owner of the event (the person who created it) can change the account number.
+* Be very careful about change the account if people have registered for your event.
 
 ## Summary
 * Limited to 750 characters
@@ -70,6 +72,59 @@ date:   2020-07-22
 * This value can be edited later if you need to adjust the amount.
 * When this get below 10 available, the owner of the event should get an email notification.
 * A registration that isn't paid yet still uses these up unless the registration is deactivated (I'll get to that in another video/FAQ).
+
+## Last Day to Register Online
+* If this is left blank, the end user will see a Not Specified message where normally the date would appear.
+* Previously, if this was left blank, it would make it unavailable to the end user. We have fixed this in the latest version.
+* If you enter a date, the end user will not be able to registered after that date, but an admin would have the ability to register for someone.
+* If the date passes, the even will no longer show up on the home screen even if you make it available to the public.
+* If the date has passed, and the end user has a direct link to register to the event or the event details they will be presented with a message indicating that the event can no longer be registered.
+* This can be changed at any time.
+
+## Link
+* You are provided with one clickable link that can be used to direct to another page.
+* Possible uses include a link you your home department, or a link to your department's page that may have more information about the event.
+
+## Optional Donation Link
+* You are not allowed to accept donations directly for your event.
+* If you wish your end users to be able to make a donation, you can provide that information here.
+* Any donation link used should be part of the https://give.ucdavis.edu/ site.
+* If you don't supply any information here, nothing will be displayed to the end user.
+* If you do enter information here, it will be displayed to the end user on the page to register near the bottom.
+* The donation link text is what will be displayed to the end user as a clickable link that does to the donation link.
+
+## Available to Public
+* If checked, and the last day to register has not passed, will allow the general public to register for the event as long as there are "Tickets" left.
+* Tile will show up on the home page is this is checked and the Private Conference is not.
+
+## Private Conference
+* Hides an otherwise active event from the home page but does not otherwise effect availability.
+* You would need to supply your end users with either the details page to register or the actual registration page.
+* Be aware that your event is just assigned a sequential number that is easily guessed. If you want to truly limit who can register you should also set a Restricted Password.
+
+## Notify Editors on purchase
+* Get an email notification every time someone registers for your event.
+
+## Restricted Password
+* If this isn't blank, end users will have to fill out this value when registering for your event. Useful if you want to limit who can register for your event.
+* We would recommend that this be used in conjunction with the Private Conference checkbox.
+* Useful to set some random value here while you are setting up and configuring your event so no one registers by mistake.
+
+## Extended Properties
+* They are determined by the Item Type
+* They are required.
+* Date fields offer a date picker.
+* Contact Information was recently added to all Item Types. This should have contact information for you or your department in case your end users encounter problems. Our help system is for you admins, not the general public. If you are not able to help the end users with their issues, you can submit a help ticket and we will help *you* help your users.
+
+## Upload Picture
+* All events require a picture.
+* Pictures should have an aspect ratio of 16:9 and a preferred size of 1200x675
+* Note, the dimensions of your picture may not effect the *size* of you picture. The maximum size is 4megs.
+* If you upload a large size image, it may display slowly on our application for the end user.
+* The listed tools, although we do not specifically endorse them, have worked well for me personally. They can let you change the size, dimensions, and the aspect ratio of you pictures.
+
+## Tags
+* Currently, tag functionality does not appear to be working and will probably be removed completely in the near future.
 
 
 <p><a href="/documentation/registration/important-bits" class="registration-tag"><- Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a></p>
