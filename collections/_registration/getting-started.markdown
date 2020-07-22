@@ -2,7 +2,7 @@
 title:  "Getting Started."
 description: "Instructions for the new Registration."
 author: "Jason Sylvestre"
-date:   2020-07-15
+date:   2020-07-22
 ---
 
 # Getting Started
