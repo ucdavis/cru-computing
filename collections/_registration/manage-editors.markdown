@@ -1,6 +1,6 @@
 ---
 title:  "Manage Editors."
-description: "Add Editors to you event."
+description: "Add Editors to your event."
 author: "Jason Sylvestre"
 date:   2020-07-23
 ---
