@@ -10,3 +10,4 @@ date:   2020-07-22
 * [The Admin Home page Home](/documentation/registration/admin-home)
 * [Important Bits](/documentation/registration/important-bits)
 * [Create Event](/documentation/registration/create-event)
+* [Add Map](/documentation/registration/add-map)
