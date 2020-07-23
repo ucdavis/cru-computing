@@ -34,9 +34,11 @@ permalink: /documentation/helpdesk/remote-desktop
    <li>Click on the resource that you want to connect to (example: "CAESDO Remote Desktop"), which will download the connection shortcut to your computer (via a .rdp file)</li>
    <li>Run the downloaded file to start the connection
        <ul>
-           <li>NOTE: You may be prompted to enter your email address and password again</li>
+           <li>If you are prompted to trust the publisher for "remote.caes.ucdavis.edu", click Connect</li>
        </ul>
    </li>
+   <li>Login again with your UC Davis email address and password.</li>
+   <li>If prompted, complete the steps to authenticate with Duo.</li>
    <li>The Remote Desktop session will open and you will see the desktop settings, files, and programs that are on the Remote Desktop server.</li>
 </ol>
 <br />
