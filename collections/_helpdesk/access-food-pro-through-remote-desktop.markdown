@@ -27,9 +27,10 @@ permalink: /documentation/helpdesk/access-food-pro-through-remote-desktop
         <li>Click on the <b>Nutrition Remote Desktop Connection</b>, which will download the connection shortcut to your computer (via a .rdp file)</li>
    <li>Run the downloaded file to start the connection
        <ul>
-           <li>NOTE: You may be prompted to enter your full UC Davis email address and Kerberos passphrase again</li>
+           <li>If you are prompted to trust the publisher for "remote.labs.caes.ucdavis.edu", click Connect</li>
        </ul>
    </li>
+   <li>Login again with your UC Davis email address and password.</li>
    <li>The Remote Desktop session will open and you will be able to use The Food Processor software through the Remote Desktop session.</li>
 </ol>
 <br />
