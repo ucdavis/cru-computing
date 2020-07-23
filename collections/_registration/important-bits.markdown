@@ -2,7 +2,7 @@
 title:  "Important Bits."
 description: "A few tips that you need to know."
 author: "Jason Sylvestre"
-date:   2020-07-1y
+date:   2020-07-20
 ---
 
 # Important Bits
