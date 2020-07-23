@@ -19,4 +19,4 @@ date:   2020-07-20
 * The More Actions allows a basic lookup for orders placed in your events, it isn't particularly useful. You may also submit help tickets from here and log out of CAS.
 
 
-<p><a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a> <a href="/documentation/registration/important-bits" class="registration-tag">Next -></a></p>
+<p><a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a> <a href="/documentation/registration/important-bits" class="registration-tag">Next <i class="fas fa-arrow-right"></i></a></p>

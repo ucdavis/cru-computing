@@ -16,4 +16,4 @@ date:   2020-07-23
 * For several reasons, we prefer to keep the list of people who can create and edit events limited. If you need someone added, you would need to submit a help ticket. Because all users can create events and deal with the collection of and movement of money, this should be limited to permenant staff.
 * Only people in CAES and associated with CAES can be added.
 
-<p><a href="/documentation/registration/add-map" class="registration-tag"><- Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a></p>
+<p><a href="/documentation/registration/add-map" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a></p>

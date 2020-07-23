@@ -127,4 +127,4 @@ date:   2020-07-22
 * Currently, tag functionality does not appear to be working and will probably be removed completely in the near future.
 
 
-<p><a href="/documentation/registration/important-bits" class="registration-tag"><- Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a> <a href="/documentation/registration/add-map" class="registration-tag">Next -></a></p>
+<p><a href="/documentation/registration/important-bits" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a> <a href="/documentation/registration/add-map" class="registration-tag">Next <i class="fas fa-arrow-right"></i></a></p>
