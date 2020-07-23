@@ -31,9 +31,10 @@ permalink: /documentation/helpdesk/virtual-lab-remote-desktop
    </li>
    <li>Run the downloaded file to start the connection
        <ul>
-           <li>NOTE: You may be prompted to enter your email address and password again</li>
+           <li>If you are prompted to trust the publisher for "remote.labs.caes.ucdavis.edu", click Connect</li>
        </ul>
    </li>
+   <li>Login again with your UC Davis email address and password.</li>
    <li>The Remote Desktop session will open and you will be able to use the software or remote Windows session.</li>
 </ol>
 <br />
