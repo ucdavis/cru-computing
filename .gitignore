@@ -11,3 +11,4 @@ Gemfile.lock
 /.vs/VSWorkspaceState.json
 /.vs/cru-computing/v16/.suo
 /.vs/ProjectSettings.json
+/.vs/cru-computing/config/applicationhost.config

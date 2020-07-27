@@ -1,6 +1,6 @@
 ---
 title:  "Setup Instructions"
-description: "Instructional Videos for setting up events in the Registration application."
+description: "Instructional videos for setting up events in the registration application."
 author: "Jason Sylvestre"
 date:   2020-04-09
 ---
