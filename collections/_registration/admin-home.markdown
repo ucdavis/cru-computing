@@ -1,6 +1,6 @@
 ---
 title:  "Admin Home."
-description: "The Admin home page."
+description: "The admin home page."
 author: "Jason Sylvestre"
 date:   2020-07-20
 ---

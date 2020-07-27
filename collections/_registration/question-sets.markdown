@@ -1,6 +1,6 @@
 ---
 title:  "Question Sets."
-description: "Add Questions to Your Event."
+description: "Add questions to your event."
 author: "Jason Sylvestre"
 date:   2020-07-27
 ---

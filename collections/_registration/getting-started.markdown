@@ -1,6 +1,6 @@
 ---
 title:  "Getting Started."
-description: "Instructions for the new Registration."
+description: "Instructions for the new registration."
 author: "Jason Sylvestre"
 date:   2020-07-23
 ---
