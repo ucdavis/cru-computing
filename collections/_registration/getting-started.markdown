@@ -16,3 +16,4 @@ date:   2020-07-23
 ## Editing
 * [Add Editors](/documentation/registration/manage-editors)
 * [Question Sets](/documentation/registration/question-sets)
+* [Adding Questions](/documentation/registration/questions)
