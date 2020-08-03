@@ -38,4 +38,4 @@ date:   2020-07-31
 * Phone Number checks that the information is in a phone number format. These can be kind of tricky depending what kind of number is entered. Our recommendation would be to avoid this validator where possible.
 * Zip Code just does a basic format validation. If your end user it outside the US, this may cause problems.
 
-<p><a href="/documentation/registration/question-sets" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a></p>
+<p><a href="/documentation/registration/question-sets" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a>  <a href="/documentation/registration/confirmation-template" class="registration-tag">Next <i class="fas fa-arrow-right"></i></a></p>
