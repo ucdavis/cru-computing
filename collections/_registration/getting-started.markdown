@@ -18,3 +18,4 @@ date:   2020-07-23
 * [Question Sets](/documentation/registration/question-sets)
 * [Adding Questions](/documentation/registration/questions)
 * [Confirmation Template](/documentation/registration/confirmation-template)
+* [Coupons](/documentation/registration/coupons)

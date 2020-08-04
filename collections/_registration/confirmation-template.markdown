@@ -23,4 +23,4 @@ date:   2020-08-03
 * You must save any changes to make for them to be used.
 
 
-<p><a href="/documentation/registration/questions" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a></p>
+<p><a href="/documentation/registration/questions" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a>  <a href="/documentation/registration/coupons" class="registration-tag">Next <i class="fas fa-arrow-right"></i></a></p>
