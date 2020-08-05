@@ -38,7 +38,7 @@ permalink: /documentation/helpdesk/remote-desktop
        </ul>
    </li>
    <li>Login again with your UC Davis email address and password.</li>
-   <li>If prompted, complete the steps to authenticate with Duo.</li>
+   <li>Complete the steps to authenticate with Duo.</li>
    <li>The Remote Desktop session will open and you will see the desktop settings, files, and programs that are on the Remote Desktop server.</li>
 </ol>
 <br />
