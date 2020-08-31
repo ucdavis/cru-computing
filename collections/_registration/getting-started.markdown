@@ -19,3 +19,10 @@ date:   2020-07-23
 * [Adding Questions](/documentation/registration/questions)
 * [Confirmation Template](/documentation/registration/confirmation-template)
 * [Coupons](/documentation/registration/coupons)
+
+## Details
+* Transactions
+* Checks
+* Reports
+* Refunds
+* Notifications
