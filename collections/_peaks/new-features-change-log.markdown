@@ -2,10 +2,20 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2019-12-03
+date:   2020-08-03
 ---
 
 # New Features and Changes
+
+## Aug 31, 2020
+* Many changes over the last couple months, some of which are:
+  * Change the UI a little for the asset pages
+  * Added a couple reports 
+  * Added a new team permission for assigning docusign documents to users
+  * We are still in the final testing process for docusign, so it isn't widely available yet. But it will be soon.
+  * Opened up our API and documented it with swagger. To use this, you would need to generate and/or use an API code
+  * Ability to run select Group report across multiple teams. Not if you need this configured, you need at least 1 departmental admin per team to approve it with a help ticket.
+
 
 ## Dec 3, 2019
 * Bunch of little changes and performance enhancements. Most notable change is the Access tab's UI has been changed a little to make it more functional.
