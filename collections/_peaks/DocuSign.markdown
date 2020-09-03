@@ -52,13 +52,14 @@ First, please keep in mind that if you assign documents to be signed on the test
 
 ## Status
 * There are several statuses. The import ones would be Completed, Declined, and Voided. Completed is the one that indicates the document has been signed.
-* 
-
-
-
-
-
+* Status get updated in PEAKS when DocuSign call back into PEAKS.
 
 ## Reports
+* There is currently only 1 report for Documents. It lists all the people who have documents that are not completed.
+* For more details on what documents are not signed, you would need to click on the details link to ope up the person's detail page.
 
 ## Help page
+* The help page will list anyone in your team with the Documents Master role for people in your team to contact directly about an documents they have been sent to sign.
+
+## My Stuff
+* Lists the person's documents. From there they can view them which will open up the DocuSign website.
