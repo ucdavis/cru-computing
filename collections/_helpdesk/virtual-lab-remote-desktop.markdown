@@ -10,7 +10,7 @@ permalink: /documentation/helpdesk/virtual-lab-remote-desktop
 
 <p><span class="discreet">The steps below will walk you through the process of connecting to the Virtual Computer Lab using a web browser.  This access is available to all students who are registered for a course that has a lab reservation.</span></p>
 
-<p><span class="discreet">NOTE: If you are unable to login to the Virtual Computer Lab but are registered for a course that has a lab reservation, please email lab-support@caes.ucdavis.edu for assistance.</span></p>
+<p><span class="discreet"><b>NOTE:</b> If you are unable to login to the Virtual Computer Lab but are registered for a course that has a lab reservation, please email lab-support@caes.ucdavis.edu for assistance.</span></p>
 <br />
 <h3>To connect to the CAES Virtual Computer Lab: </h3>
 <ol style="PADDING-LEFT: 30px">
@@ -20,7 +20,7 @@ permalink: /documentation/helpdesk/virtual-lab-remote-desktop
    <li>On the "Enter your credentials" dialog, enter your UC Davis email address and password</li>
    <li>The Remote Desktop session will open and you will be able to use the remote Windows session.
        <ul>
-           <li>NOTE: During login, there may be a brief delay where only a black screen is visible.  Your session will load momentairly.</li>
+           <li><b>NOTE</b>: During login, there may be a brief delay where only a black screen is visible.  Your session will load momentairly.</li>
        </ul>
    </li>
 </ol>
@@ -36,8 +36,7 @@ permalink: /documentation/helpdesk/virtual-lab-remote-desktop
         <ul>
             <li>For Windows computers: <a class="external-link" href="https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10" target="_blank">https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10</a></li>
             <li>For Mac computers: <a class="external-link" href="https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos" target="_blank">https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos</a></li>
-            <li>For iPhones: <a class="external-link" href="https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios" target="_blank">https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios</a></li>
-            <li>For iPads: <a class="external-link" href="https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios" target="_blank">https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios</a></li>
+            <li>For iPhones/iPads: <a class="external-link" href="https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios" target="_blank">https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios</a></li>
             <li>For Andoid devices: <a class="external-link" href="https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-android" target="_blank">https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-android</a></li>
         </ul>
     </li>
