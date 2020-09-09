@@ -41,5 +41,3 @@ permalink: /documentation/helpdesk/virtual-lab-remote-desktop
         </ul>
     </li>
 </ul>
-<br />
-<p><span class="discreet">For non-Windows and MacOS devices, please email lab-support@caes.ucdavis.edu for assistance with getting connected to the Virtual Computer Lab.</span></p>
