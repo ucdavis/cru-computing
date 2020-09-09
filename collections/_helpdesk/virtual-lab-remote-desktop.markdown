@@ -11,14 +11,14 @@ permalink: /documentation/helpdesk/virtual-lab-remote-desktop
 <p><span class="discreet">The steps below will walk you through the process of connecting to the Virtual Computer Lab using a web browser.  This access is available to all students who are registered for a course that has a lab reservation.</span></p>
 
 <p><span class="discreet">NOTE: If you are unable to login to the Virtual Computer Lab but are registered for a course that has a lab reservation, please email lab-support@caes.ucdavis.edu for assistance.</span></p>
-
+<br />
 <h3>To connect to the CAES Virtual Computer Lab: </h3>
 <ol style="PADDING-LEFT: 30px">
    <li>From any internet connected computer, visit the <a href="https://rdweb.wvd.microsoft.com/arm/webclient/index.html" target="_blank">Remote Desktop Web Client</a> website</li>
    <li>Login with your UC Davis email address and password</li>
    <li>Click on the icon for <b>Virtual Lab</b> and click <b>Allow</b> on the "Allow local resources" dialog</li>
    <li>On the "Enter your credentials" dialog, enter your UC Davis email address and password</li>
-   <li>The Remote Desktop session will open and you will be able to use the software or remote Windows session.
+   <li>The Remote Desktop session will open and you will be able to use the remote Windows session.
        <ul>
            <li>NOTE: During login, there may be a brief delay where only a black screen is visible.  Your session will load momentairly.</li>
        </ul>
@@ -32,12 +32,13 @@ permalink: /documentation/helpdesk/virtual-lab-remote-desktop
 <ul style="PADDING-LEFT: 30px">
     <li>While multiple people can access the Remote Desktop servers simultaneously, your session is only accessible to you and nobody can access it without a password. Furthermore, no one will be able to see the work you are doing remotely.</li>
     <li>The Remote Desktop session will disconnect after 60 minutes of inactivity and logoff after 60 minutes of being disconnected.</li>
-    <li>The CAES Dean's Office Computing Resources Unit only supports access to the CAES Virtual Computer Lab using the web browser steps above.  However, if you do not want to use the web browser method outlined above to access the Virtual Computer Lab, you must use the Microsoft Remote Desktop app listed below for your device:
+    <li>The CAES Dean's Office Computing Resources Unit only supports access to the CAES Virtual Computer Lab using the web browser steps above.  If you do not want to use the supported web browser method to access the Virtual Computer Lab, you can follow the instructions listed below for your device.
         <ul>
-            <li>For Windows computers, first download and install the <a class="external-link" href="https://www.microsoft.com/en-us/p/microsoft-remote-desktop/9wzdncrfj3ps" target="_blank">Microsoft Remote Desktop</a> app from the App Store.</li>
-            <li>For Mac computers, first download and install the <a class="external-link" href="https://apps.apple.com/us/app/microsoft-remote-desktop-10/id1295203466" target="_blank">Microsoft Remote Desktop</a> app from the App Store.</li>
-            <li>For iPhones, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=iphone" target="_blank">Microsoft Remote Desktop</a> app for iOS from the App Store.</li>
-            <li>For iPads, first download and install the <a class="external-link" href="https://apps.apple.com/app/microsoft-remote-desktop/id714464092#?platform=ipad" target="_blank">Microsoft Remote Desktop</a> app for iPadOS from the App Store.</li>
+            <li>For Windows computers: <a class="external-link" href="https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10" target="_blank">https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10</a></li>
+            <li>For Mac computers: <a class="external-link" href="https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos" target="_blank">https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos</a></li>
+            <li>For iPhones: <a class="external-link" href="https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios" target="_blank">https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios</a></li>
+            <li>For iPads: <a class="external-link" href="https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios" target="_blank">https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-ios</a></li>
+            <li>For Andoid devices: <a class="external-link" href="https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-android" target="_blank">https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-android</a></li>
         </ul>
     </li>
 </ul>
