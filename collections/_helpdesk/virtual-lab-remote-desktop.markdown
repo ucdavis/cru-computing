@@ -30,8 +30,8 @@ permalink: /documentation/helpdesk/virtual-lab-remote-desktop
 <br />
 <h3>Things to know:</h3>
 <ul style="PADDING-LEFT: 30px">
-    <li>While multiple people can access the Remote Desktop servers simultaneously, your session is only accessible to you and nobody can access it without a password. Furthermore, no one will be able to see the work you are doing remotely.</li>
-    <li>The Remote Desktop session will disconnect after 60 minutes of inactivity and logoff after 60 minutes of being disconnected.</li>
+    <li>While multiple people can access the Virtual Computer Lab simultaneously, your session is only accessible to you and nobody can access it without your passphrase. Furthermore, no one will be able to see the work you are doing remotely.</li>
+    <li>Sessions will disconnect after 60 minutes of inactivity and logoff after 60 minutes of being disconnected.</li>
     <li>The CAES Dean's Office Computing Resources Unit only supports access to the CAES Virtual Computer Lab using the web browser steps above.  If you do not want to use the supported web browser method to access the Virtual Computer Lab, you can follow the instructions listed below for your device.
         <ul>
             <li>For Windows computers: <a class="external-link" href="https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10" target="_blank">https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10</a></li>
