@@ -21,7 +21,7 @@ date:   2020-09-22
 * [Coupons](/documentation/registration/coupons)
 
 ## Details
-* Transactions
+* [Transactions](/documentation/registration/details-transactions)
 * Checks -- To-do 
 * Reports -- To-do 
 * Refunds -- To-do 
