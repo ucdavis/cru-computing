@@ -39,4 +39,4 @@ date:   2020-08-04
 
 
 
-<p><a href="/documentation/registration/confirmation-template" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a></p>
+<p><a href="/documentation/registration/confirmation-template" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a> <a href="/documentation/registration/details-transactions" class="registration-tag">Next <i class="fas fa-arrow-right"></i></a></p>

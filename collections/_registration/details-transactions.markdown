@@ -2,12 +2,12 @@
 title:  "Details - Transactions."
 description: "Actions you can take on the Details Transactions page."
 author: "Jason Sylvestre"
-date:   2020-08-07
+date:   2020-09-22
 ---
 
 # Transactions
 
-## TODO Video
+## Video not available yet.
 
 * The Transactions tab shows you all the successful registrations for your event.
 * There are indications of the quantity of the registration, the total amount, if payment by credit card was selected, if it has been fully paid, and if it is currently active.
@@ -29,6 +29,5 @@ date:   2020-08-07
 * You can't deactivate a registration if it is paid.
 * Activate just uses the amount sold.
 
-#TODO Update nave link below
 
-<p><a href="/documentation/registration/coupons" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a>  <a href="/documentation/registration/TODO" class="registration-tag">Next <i class="fas fa-arrow-right"></i></a></p>
+<p><a href="/documentation/registration/coupons" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a>  </p>
