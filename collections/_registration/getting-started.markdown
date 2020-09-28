@@ -22,7 +22,7 @@ date:   2020-09-22
 
 ## Details
 * [Transactions](/documentation/registration/details-transactions)
-* Checks -- To-do 
-* Reports -- To-do 
+* [Checks](/documentation/registration/details-checks)
+* [Reports](/documentation/registration/details-reports)
 * Refunds -- To-do 
 * Notifications -- To-do 
