@@ -2,7 +2,7 @@
 title:  "Getting Started."
 description: "Instructions for the new registration."
 author: "Jason Sylvestre"
-date:   2020-09-22
+date:   2020-09-28
 ---
 
 # Getting Started
@@ -24,5 +24,5 @@ date:   2020-09-22
 * [Transactions](/documentation/registration/details-transactions)
 * [Checks](/documentation/registration/details-checks)
 * [Reports](/documentation/registration/details-reports)
-* Refunds -- To-do 
-* Notifications -- To-do 
+* [Refunds](/documentation/registration/details-refunds)
+* [Notifications](/documentation/registration/details-notifications)

@@ -33,4 +33,4 @@ date:   2020-09-28
 * Property level questions are related to a single registration.
 
 
-<p><a href="/documentation/registration/details-checks" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a> <a href="/documentation/registration/details-checks" class="registration-tag">Next <i class="fas fa-arrow-right"></i></a></p>
+<p><a href="/documentation/registration/details-checks" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a> <a href="/documentation/registration/details-refunds" class="registration-tag">Next <i class="fas fa-arrow-right"></i></a></p>
