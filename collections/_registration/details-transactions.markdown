@@ -30,4 +30,4 @@ date:   2020-09-22
 * Activate just uses the amount sold.
 
 
-<p><a href="/documentation/registration/coupons" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a>  </p>
+<p><a href="/documentation/registration/coupons" class="registration-tag"><i class="fas fa-arrow-left"></i> Previous</a> <a href="/documentation/registration/getting-started" class="registration-tag">Main Artice</a> <a href="/documentation/registration/details-checks" class="registration-tag">Next <i class="fas fa-arrow-right"></i></a></p>
