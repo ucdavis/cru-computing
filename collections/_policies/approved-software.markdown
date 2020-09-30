@@ -51,12 +51,14 @@ date:   2020-09-30 11:30
 	<li>FileZilla Client</li>
 	<li>Fonts (UC Davis Fonts Pack)</li>
 	<li>GIMP</li>
-	<li>GitHub</li>
+	<li>Git</li>
+	<li>GitHub Desktop</li>
 	<li>Google Chrome</li>
 	<li>Google Earth</li>
 	<li>InkScape</li>
 	<li>Java SE</li>
 	<li>Jamf</li>
+	<li>Kaltura Capture</li>
 	<li>Mendeley Desktop</li>
 	<li>Microsoft Defender</li>
 	<li>Microsoft Word</li>
@@ -85,4 +87,3 @@ date:   2020-09-30 11:30
 	<li>Zotero Standalone</li>
 	<li>Zoom</li>
 </ul>
-<br>
