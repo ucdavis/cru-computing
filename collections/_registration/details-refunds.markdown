@@ -12,7 +12,8 @@ date:   2020-09-28
 * Refunds for credit card transactions can only be done for the credit card within a few months of the transaction. If it is outside of the allowed date range, the accounting people will let you know and follow up with you.
 * You need the refunder role and need to be an editor for the event to do refunds. Most everyone should have the refunder role. You can submit a help ticket to inquire further if needed.
 * Refunds for checks must be done by your department. No refund notification will be generated.
-* Refunds for credit cards will generate an email notification to our accounting department, who will process the refund within 7-10 days. Once the refund has been processed, our accounting department will notify you that it has been done. If you don’t hear back within 10 days, please submit a help ticket.
+* Refunds for credit cards will generate an email notification to our accounting department, who will process the refund within 7-10 days. Once the refund has been processed, our accounting department will notify you that it has been done. If you don't hear back within 10 days, please submit a help ticket.
+
 
 ## Requesting a refund
 
