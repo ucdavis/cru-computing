@@ -1,6 +1,6 @@
 ---
 title:  "How to sign into ArcGIS Pro"
-description: "Use this guide to sign into the ArcGIS Pro application on a workstaiton."
+description: "Use this guide to sign into the ArcGIS Pro application on a workstation."
 author: "Steven Barkey"
 date:   2019-02-13 10:56:00
 ---
