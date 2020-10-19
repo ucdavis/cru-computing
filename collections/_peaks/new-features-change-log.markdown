@@ -2,10 +2,14 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2020-08-03
+date:   2020-10-19
 ---
 
 # New Features and Changes
+
+## Oct 19, 2020
+* A bunch of behind the scenes changes.
+* Added a People Report
 
 ## Aug 31, 2020
 * Many changes over the last couple months, some of which are:
