@@ -16,7 +16,7 @@ permalink: /documentation/peaks/roadmap
 * Expand the API to make more PEAKS data available
 * More Bigfix integrations  
 ## Version 2
-* Have a Team of Teams group that will allow view/report access into the child teams.
+* Have a Team of Teams group that will allow view/report access into the child teams. -- Done, if you need access submit a help ticket.
 
 ## Future/Backlog
 * TBD
