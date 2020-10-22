@@ -1,6 +1,6 @@
 ---
-title:  "How to access the Aggie Desktop Self-Service Application (SSA)"
-description: "Use this guide to access the Aggie Desktop Self-Service Application (SSA)."
+title:  "How to use the Aggie Desktop Self-Service Application (SSA)"
+description: "Use this guide to install applications using the Aggie Desktop Self-Service Application (SSA) service."
 author: "Steven Barkey"
 date:   2019-02-13 10:56:00
 ---
