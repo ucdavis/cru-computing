@@ -54,4 +54,4 @@ date:   20202-10-22 10:30:00
     </ul>
   </li>
 </ul>
-<p style="PADDING-LEFT: 30px">Additional avaialble applications can be found at <a class="external-link" href="https://kb.ucdavis.edu/?id=6153" target="_blank">https://kb.ucdavis.edu/?id=6153</a>.</p>
+<p style="PADDING-LEFT: 30px">Additional available applications can be found at <a class="external-link" href="https://kb.ucdavis.edu/?id=6153" target="_blank">https://kb.ucdavis.edu/?id=6153</a>.</p>
