@@ -36,3 +36,22 @@ date:   20202-10-22 10:30:00
 <ul style="PADDING-LEFT: 30px">
   <li>Please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for assistance with uninstalling applications.</li>
 </ul>
+<br />
+<h3>What applications are available throug Aggie Desktop SSA?</h3>
+<ul style="PADDING-LEFT: 30px">
+  <li>Windows:
+    <ul style="PADDING-LEFT: 60px">
+      <li>Zoom Desktop Client</li>
+      <li>Box Drive</li>
+      <li>Google Chrome</li>
+    </ul>
+  </li>
+  <li>Mac:
+    <ul style="PADDING-LEFT: 60px">
+      <li>Zoom Desktop Client</li>
+      <li>Box Drive</li>
+      <li>Google Chrome</li>
+    </ul>
+  </li>
+  <li>Additional avaialble applications can be found at <a class="external-link" href="https://kb.ucdavis.edu/?id=6153" target="_blank">https://kb.ucdavis.edu/?id=6153</a></li>
+</ul>
