@@ -9,7 +9,7 @@ date:   20202-10-22 10:30:00
 <br />
 <p>The instructions below will walk you through the process, but if you encounter any issues, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
-<p>Install an application through Aggie Desktop SSA:</p>
+<p>How to install an application through Aggie Desktop SSA:</p>
 <ol style="PADDING-LEFT: 30px">
   <li>Open the Self-Service Application (SSA) using the UC Davis "C-Horse" icon (<img src="/media/helpdesk/c-horse.png" alt="UC Davis C-Horse">).
     <ul style="PADDING-LEFT: 20px">
