@@ -53,5 +53,6 @@ date:   20202-10-22 10:30:00
       <li>Google Chrome</li>
     </ul>
   </li>
-  <li>Additional avaialble applications can be found at <a class="external-link" href="https://kb.ucdavis.edu/?id=6153" target="_blank">https://kb.ucdavis.edu/?id=6153</a></li>
 </ul>
+<br />
+Additional avaialble applications can be found at <a class="external-link" href="https://kb.ucdavis.edu/?id=6153" target="_blank">https://kb.ucdavis.edu/?id=6153</a>.
