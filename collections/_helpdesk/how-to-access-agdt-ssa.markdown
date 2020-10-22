@@ -11,7 +11,7 @@ date:   2019-02-13 10:56:00
 <br />
 <p>Install an application through Aggie Desktop SSA:</p>
 <ol style="PADDING-LEFT: 30px">
-  <li>Open the Self-Service Application (SSA) using the UC Davis "C-Horse" icon. <img src="/media/helpdesk/c-horse.png" alt="UC Davis C-Horse">
+  <li>Open the Self-Service Application (SSA) using the UC Davis "C-Horse" icon (<img src="/media/helpdesk/c-horse.png" alt="UC Davis C-Horse">).
     <ul style="PADDING-LEFT: 20px">
       <li>Windows: The icon will be located in the System Tray by the clock, usually in the lower right corner.</li>
       <li>Mac: The icon will be located in the Menu Bar at the top of the screen.</li>
@@ -19,14 +19,14 @@ date:   2019-02-13 10:56:00
   </li>
   <li>Select the application you would like to install.
     <ul style="PADDING-LEFT: 20px">
-      <li>Note: Only applications that are not already installed will be listed.</li>
+      <li>Only applications that are not already installed on the computer will be listed.</li>
     </ul>
   </li>
   <li>Review the applications description and any pre-requisites, warnings, or notes.</li>
   <li>Click the <b>Get</b> button.
     <ul style="PADDING-LEFT: 20px">
-      <li>NOTE: The status and a progress bar of the download and installation will be displayed above the <b>Get</b> button.</li>
-      <li>NOTE: The application installation can take a short time to complete.</li>
+      <li>The status and a progress bar of the download and installation will be displayed above the <b>Get</b> button.</li>
+      <li>The application installation can take a short time to complete.</li>
     </ul>
   </li>
   <li>The installation of the software is complete when the button turns green and shows <b>Completed</b>.</li>
