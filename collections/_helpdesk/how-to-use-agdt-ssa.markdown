@@ -9,7 +9,7 @@ date:   20202-10-22 10:30:00
 <br />
 <p>The instructions below will walk you through the process, but if you encounter any issues, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
-<p>How to install an application through Aggie Desktop SSA:</p>
+<h3>How to install an application through Aggie Desktop SSA:</h3>
 <ol style="PADDING-LEFT: 30px">
   <li>Open the Self-Service Application (SSA) using the UC Davis "C-Horse" icon (<img src="/media/helpdesk/c-horse.png" alt="UC Davis C-Horse">).
     <ul style="PADDING-LEFT: 20px">
@@ -32,7 +32,7 @@ date:   20202-10-22 10:30:00
   <li>The installation of the software is complete when the button turns green and shows <b>Completed</b>.</li>
 </ol>
 <br />
-<p>To uninstall an application that was installed through Aggie Desktop SSA:</p>
+<h3>To uninstall an application that was installed through Aggie Desktop SSA:</h3>
 <ul style="PADDING-LEFT: 30px">
   <li>Please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for assistance with uninstalling applications.</li>
 </ul>
