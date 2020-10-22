@@ -40,14 +40,14 @@ date:   20202-10-22 10:30:00
 <h3>What applications are available throug Aggie Desktop SSA?</h3>
 <ul style="PADDING-LEFT: 30px">
   <li>Windows:
-    <ul style="PADDING-LEFT: 60px">
+    <ul style="PADDING-LEFT: 45px">
       <li>Zoom Desktop Client</li>
       <li>Box Drive</li>
       <li>Google Chrome</li>
     </ul>
   </li>
   <li>Mac:
-    <ul style="PADDING-LEFT: 60px">
+    <ul style="PADDING-LEFT: 45px">
       <li>Zoom Desktop Client</li>
       <li>Box Drive</li>
       <li>Google Chrome</li>
