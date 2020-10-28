@@ -2,7 +2,7 @@
 title:  "Details - Checks."
 description: "Checks, you can use them, but why?"
 author: "Jason Sylvestre"
-date:   2020-09-28
+date:   2020-10-28
 ---
 
 # Checks
