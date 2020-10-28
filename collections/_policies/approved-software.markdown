@@ -2,7 +2,7 @@
 title:  "Approved Software List"
 description: "A list of applications that have been approved for use on Dean's Office computers. Installation of other software is at the discretion of the Director of Information Technology for the purpose of maintaining system stability, security, and legal compliance."
 author: "Steven Barkey"
-date:   2020-09-30 11:30
+date:   2020-10-28 11:30
 ---
 <ul>
 	<li>1Password4Teams</li>
