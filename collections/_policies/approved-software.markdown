@@ -71,9 +71,9 @@ date:   2020-09-30 11:30
 	<li>Microsoft LAPS</li>
 	<li>Microsoft OneNote</li>
 	<li>Microsoft Project</li>
-	<li>Microsoft Skype for Business</li>
+	<li>Microsoft Skype for Business <b>(Microsoft ending support in July, 2021)</b></li>
 	<li>Microsoft Publisher</li>
-	<li>Microsoft Skype</li>
+	<li>Microsoft Skype <b>(Microsoft ending support in July, 2021)</b></li>
 	<li>Microsoft Visual Studio</li>
 	<li>Microsoft Visual Studio Code</li>
 	<li>Notepad++</li>
