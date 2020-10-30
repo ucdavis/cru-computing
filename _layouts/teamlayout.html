@@ -3,24 +3,22 @@ layout: default
 ---
 
 <div class="container {{page.brand}}-total">
-{% include nav-breadcrumbs.html %}
-    <div class="row justify-content-between">
-      <div class="col-sm-6">
-        <p class="tag-display {{ page.category }}">{{ page.display-tag }}</p>
-        {% if page.geotag %}
-        <img src="/media/{{ page.geotag }}.svg" alt="{{ page.brand }} icon">
-        {% endif %}
-        <h1>{{ page.title }}</h1>
-        <p class="lead">{{ page.description }}</p>
-  </div>
-  <div class="col-sm-6">
-    <div class="text-center">
-      <img class="img-fluid" src="/media/team/team.png" alt="">
+  {% include nav-breadcrumbs.html %}
+  <div class="row justify-content-between">
+    <div class="col-sm-6">
+      <p class="tag-display {{ page.category }}">{{ page.display-tag }}</p>
+      {% if page.geotag %}
+      <img src="/media/{{ page.geotag }}.svg" alt="{{ page.brand }} icon" />
+      {% endif %}
+      <h1>{{ page.title }}</h1>
+      <p class="lead">{{ page.description }}</p>
+    </div>
+    <div class="col-sm-6">
+      <div class="text-center">
+        <img class="img-fluid" src="/media/team/team_covid.png" alt="" />
+      </div>
     </div>
   </div>
-    </div>
 
-{{ content }}
-
-
+  {{ content }}
 </div>
