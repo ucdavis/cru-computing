@@ -2,12 +2,15 @@
 title:  "DocuSign Documents"
 description: "Send and track Docusign Documents."
 author: "Jason Sylvestre"
-date:   2020-09-02
+date:   2020-11-16
 ---
 
 # DocuSign:
 
 First, please keep in mind that if you assign documents to be signed on the test site, they will actually send emails to that person.
+
+Nov 16. -- This will be changing shortly to accommodate multiple UC Davis accounts in Docusign.
+Some of these instructions will change but the basics will remain. Please stay tuned.
 
 ## Roles
 * A new role was added "Document Master"
