@@ -16,8 +16,8 @@ First, please keep in mind that if you assign documents to be signed on the test
 * To notify us, please use the "Create Help Ticket" from the help menu from within PEAKS.
 * The image below shows how to add the service account. You need to be an admin.
 
-<a data-toggle="lightbox" href="/media/peaks/PeaksDocusignAdmin.png">
-![Docusign](https://computing.caes.ucdavis.edu/media/peaks/PeaksDocusignAdmin.png "Docusign")
+<a data-toggle="lightbox" href="/media/peaks/peaks-docusign-admin.png">
+![Docusign](https://computing.caes.ucdavis.edu/media/peaks/peaks-docusign-admin.png "Docusign")
 </a>
 
 * To make it easier to share templates with our service account, you should also create a group and add our service account to that calling the group PEAKS so it is easy to find in docusign.
