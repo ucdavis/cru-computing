@@ -2,15 +2,26 @@
 title:  "DocuSign Documents"
 description: "Send and track Docusign Documents."
 author: "Jason Sylvestre"
-date:   2020-11-16
+date:   2020-11-17
 ---
+
+# This document is currently being updated and has partial and old info.
 
 # DocuSign:
 
 First, please keep in mind that if you assign documents to be signed on the test site, they will actually send emails to that person.
 
-Nov 16. -- This will be changing shortly to accommodate multiple UC Davis accounts in Docusign.
-Some of these instructions will change but the basics will remain. Please stay tuned.
+## Adding your account to PEAKS
+* You need to invite the PEAKS service account to your docusign account as just a regular “UC Davis Bulk Sender” role profile. This is done by clicking Add User in the admin portal and putting in caes-peaks-docusign@ou.ad3.ucdavis.edu . Then you need to notify us of this so we can click accept on our end.
+* To notify us, please use the "Create Help Ticket" from the help menu from within PEAKS.
+* The image below shows how to add the service account. You need to be an admin.
+
+<a data-toggle="lightbox" href="/media/peaks/PeaksDocusignAdmin.png">
+![Docusign](https://computing.caes.ucdavis.edu/media/peaks/PeaksDocusignAdmin.png "Docusign")
+</a>
+
+* To make it easier to share templates with our service account, you should also create a group and add our service account to that calling the group PEAKS so it is easy to find in docusign.
+* If you don't create a PEAKS group in docusign, templates will have to be shared with caes-peaks-docusign@ou.ad3.ucdavis.edu directly.
 
 ## Roles
 * A new role was added "Document Master"
