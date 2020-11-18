@@ -35,7 +35,7 @@ First, please keep in mind that if you assign documents to be signed on the test
 
 ### The important bits:
 * Do not fill in name or email, and do not add any more recipients.
-* Role field must be signer
+* Role field must be signer .
 * Click next to place the signature.
 * You can also add date signed and the name.
 * You can add as many "Initial" fields as needed. 
