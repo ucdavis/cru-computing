@@ -2,10 +2,8 @@
 title:  "DocuSign Documents"
 description: "Send and track Docusign Documents."
 author: "Jason Sylvestre"
-date:   2020-11-17
+date:   2020-11-18
 ---
-
-## This document is currently being updated and has partial and old info.
 
 # DocuSign:
 
@@ -29,17 +27,11 @@ First, please keep in mind that if you assign documents to be signed on the test
 * This role also has access to the Documents Report
 
 ## Adding a document to your Team
-* Before documents can be assigned to users for them to sign, they first have to be added to your team.
-* Only Departmental Admins have access to add documents to your team.
-* Removing documents from your team does not effect documents that have already been assigned to people in your team.
-* To add a document to your team, navigate from the Admin menu to "Team DocuSign Settings"
-* Click "+ Create New"
-* From here, if you click "Show Instructions", it will display what you need to do in DocuSign to make your templates available to your team. There is also a short video below that shows what you need to do.
-* Once you have the template id, copy-paste that into the TemplateId field. Make sure you give it a meaningful name so the person assigning it knows which one to choose.
+* Before documents can be assigned to users for them to sign, they first have to have the template shared with our service account.
 
 ## Create and Share Docusign Template
 
-<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1770401/sp/177040100/embedIframeJs/uiconf_id/29032722/partner_id/1770401?iframeembed=true&playerId=kaltura_player&entry_id=0_cn70libg&flashvars[mediaProtocol]=rtmp&amp;flashvars[streamerType]=rtmp&amp;flashvars[streamerUrl]=rtmp://www.kaltura.com:1935&amp;flashvars[rtmpFlavors]=1&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=0_cwzq0jzf" width="580" height="360" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1770401/sp/177040100/embedIframeJs/uiconf_id/29032722/partner_id/1770401?iframeembed=true&playerId=kaltura_player&entry_id=1_uudw1sab&flashvars[mediaProtocol]=rtmp&amp;flashvars[streamerType]=rtmp&amp;flashvars[streamerUrl]=rtmp://www.kaltura.com:1935&amp;flashvars[rtmpFlavors]=1&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_5oqksl5i" width="580" height="360" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
 
 ### The important bits:
 * Do not fill in name or email, and do not add any more recipients.
@@ -51,7 +43,7 @@ First, please keep in mind that if you assign documents to be signed on the test
 
 ## Assigning documents to be signed
 * Admin must have either Departmental Admin or Document Master to assign documents to people to sign.
-* The document(s) must have already been setup for your team by the Departmental Admin.
+* The document template(s) must have already been shared with our service account.
 * Documents can currently only be assigned to a person one at a time.
 * Go to the asset page, find the person you want to sign a document.
 * Click Details, and scroll down until you see the Documents area.
