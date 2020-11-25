@@ -38,4 +38,4 @@ date:   20202-10-22 10:30:00
 </ul>
 <br />
 <h3>What applications are available throug Aggie Desktop SSA?</h3>
-<p style="PADDING-LEFT: 30px">For a complete list of applications available through the Aggie Desktop SSA, please visit <a class="external-link" href="https://kb.ucdavis.edu/?id=6153" target="_blank">https://kb.ucdavis.edu/?id=6153</a>.</p>
+<p style="PADDING-LEFT: 30px">For a complete list of applications available through the Aggie Desktop SSA service, please visit <a class="external-link" href="https://kb.ucdavis.edu/?id=6153" target="_blank">https://kb.ucdavis.edu/?id=6153</a>.</p>
