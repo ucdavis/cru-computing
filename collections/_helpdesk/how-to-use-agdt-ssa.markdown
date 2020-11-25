@@ -38,20 +38,4 @@ date:   20202-10-22 10:30:00
 </ul>
 <br />
 <h3>What applications are available throug Aggie Desktop SSA?</h3>
-<ul style="PADDING-LEFT: 30px">
-  <li>Windows:
-    <ul style="PADDING-LEFT: 45px">
-      <li>Zoom Desktop Client</li>
-      <li>Box Drive</li>
-      <li>Google Chrome</li>
-    </ul>
-  </li>
-  <li>Mac:
-    <ul style="PADDING-LEFT: 45px">
-      <li>Zoom Desktop Client</li>
-      <li>Box Drive</li>
-      <li>Google Chrome</li>
-    </ul>
-  </li>
-</ul>
-<p style="PADDING-LEFT: 30px">Additional available applications can be found at <a class="external-link" href="https://kb.ucdavis.edu/?id=6153" target="_blank">https://kb.ucdavis.edu/?id=6153</a>.</p>
+<p style="PADDING-LEFT: 30px">For a complete list of applications available through the Aggie Desktop SSA, please visit <a class="external-link" href="https://kb.ucdavis.edu/?id=6153" target="_blank">https://kb.ucdavis.edu/?id=6153</a>.</p>
