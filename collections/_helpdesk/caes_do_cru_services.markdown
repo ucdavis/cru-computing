@@ -1,5 +1,5 @@
 ---
-title:  "What permissions or services are available to units supported by Computing Resources Unit (CRU)"
+title:  "What permissions and services are available to units supported by Computing Resources Unit (CRU)"
 description: "The following guide will outline the various permissions and services CRU provides to supported units."
 author: "Steven Barkey"
 date:   2020-11-25 10:00:00
