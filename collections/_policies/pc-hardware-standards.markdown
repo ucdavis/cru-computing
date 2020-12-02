@@ -26,18 +26,20 @@ date:   2015-10-07 16:25:17
 <p><a target="_blank" href="/media/policies/Latitude 5410 Notebook Quote.pdf">PDF Quote</a></p>
 <br />
 <h3>Standard Monitor</h3>
-<p><b>Dell U2417H</b></p>
+<p><b>Dell P2419HC</b></p>
 <ul>
 	<li><b>Screen Size:</b> 24-inch</li>
+	<li><b>Video Inputs:</b> USB-C, DisplayPort, HDMI</li>
 </ul>
-<p><a target="_blank" href="/media/policies/Dell-U2417H-Spec-Sheet.pdf">PDF Factsheet</a></p>
-<p><a target="_blank" href="/media/policies/24-inch UltraSharp U2417H.pdf">PDF Quote</a></p>
+<p><a target="_blank" href="https://www.dell.com/en-us/work/shop/dell-24-usb-c-monitor-p2419hc/apd/210-aqco/monitors-monitor-accessories#techspecs_section">Tech Specs</a></p>
+<p><a target="_blank" href="/media/policies/Dell P2419HC Monitor Quote.pdf">PDF Quote</a></p>
 <br />
 <h3>Standard Dock</h3>
-<p><b>Dell D6000</b></p>
+<p><b>Dell WD19</b></p>
 <ul>
 	<li><b>Connection Type:</b> USB-C</li>
-	<li><b>External Monitor Support:</b> Up to 3</li>
+	<li><b>Power Delivery:</b> Up to 90 Watts</li>
+	<li><b>External Monitor Support:</b> Up to 2</li>
 </ul>
-<p><a target="_blank" href="/media/policies/Dell D6000 Spec Sheet.pdf">PDF Factsheet</a></p>
-<p><a target="_blank" href="/media/policies/Dell Universal Dock D6000.pdf">PDF Quote</a></p>
+<p><a target="_blank" href="/media/policies/Dell WD19 Dock Factsheet.pdf">PDF Factsheet</a></p>
+<p><a target="_blank" href="/media/policies/Dell WD19 Dock Quote.pdf">PDF Quote</a></p>
