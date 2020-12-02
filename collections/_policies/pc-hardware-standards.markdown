@@ -2,7 +2,7 @@
 title:  "PC Hardware Standards"
 description: "CA&ES CRU Hardware Standards for PC Desktops and Laptops"
 author: "Shuka Smith"
-date:   2015-10-07 16:25:17
+date:   2020-12-02 13:15:00
 ---
 <h3>PC Laptop</h3>
 <p><b>Dell Latitude 5410</b></p>
