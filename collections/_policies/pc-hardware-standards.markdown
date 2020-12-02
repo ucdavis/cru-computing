@@ -13,7 +13,7 @@ date:   2020-12-02 13:15:00
 	<li><b>Screen Size:</b> 14-inch</li>
 </ul>
 <p><a target="_blank" href="https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-14-5410-laptop#features_section">Product Details</a></p>
-<p><a target="_blank" href="/media/policies/Latitude 5410 Notebook Quote.pdf">PDF Quote</a></p>
+<p><a target="_blank" href="/media/policies/Dell Latitude 5410 Notebook Quote.pdf">PDF Quote</a></p>
 <br />
 <p><b>Dell Latitude 7410 Ultrabook (Performance)</b></p>
 <ul>
@@ -23,7 +23,7 @@ date:   2020-12-02 13:15:00
 	<li><b>Screen Size:</b> 14-inch</li>
 </ul>
 <p><a target="_blank" href="https://www.dell.com/en-us/work/shop/laptops/14-7400/spd/latitude-14-7400-laptop#features_section">Product Details</a></p>
-<p><a target="_blank" href="/media/policies/Latitude 7410 Ultrabook Quote.pdf">PDF Quote</a></p>
+<p><a target="_blank" href="/media/policies/Dell Latitude 7410 Ultrabook Quote.pdf">PDF Quote</a></p>
 <br />
 <h3>External Monitor</h3>
 <p><b>Dell P2419HC</b></p>
