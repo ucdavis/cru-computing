@@ -12,7 +12,7 @@ date:   2015-10-07 16:25:17
 	<li><b>Storage:</b> 512GB SSD</li>
 	<li><b>Screen Size:</b> 14-inch</li>
 </ul>
-<p><a target="_blank" href="/media/policies/Latitude 7410 Ultrabook Factsheet.pdf">PDF Factsheet</a></p>
+<p><a target="_blank" href="https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-14-5410-laptop#features_section">Product Details</a></p>
 <p><a target="_blank" href="/media/policies/Latitude 7410 Ultrabook Quote.pdf">PDF Quote</a></p>
 <br />
 <p><b>Dell Latitude 5410</b></p>
@@ -22,7 +22,7 @@ date:   2015-10-07 16:25:17
 	<li><b>Storage:</b> 512GB SSD</li>
 	<li><b>Screen Size:</b> 14-inch</li>
 </ul>
-<p><a target="_blank" href="/media/policies/Latitude 5410 Notebook Factsheet.pdf">PDF Factsheet</a></p>
+<p><a target="_blank" href="https://www.dell.com/en-us/work/shop/laptops/14-7400/spd/latitude-14-7400-laptop#features_section">Product Details</a></p>
 <p><a target="_blank" href="/media/policies/Latitude 5410 Notebook Quote.pdf">PDF Quote</a></p>
 <br />
 <h3>Standard Monitor</h3>
