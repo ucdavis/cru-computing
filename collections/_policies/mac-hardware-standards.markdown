@@ -1,7 +1,7 @@
 ---
 title:  "Mac Hardware Standards"
 description: "CA&ES CRU Hardware Standards for Mac Laptops"
-author: "Shuka Smith"
+author: "Steven Barkey"
 date:   2020-11-02 12:00:00
 
 ---

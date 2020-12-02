@@ -2,7 +2,7 @@
 layout: twocol
 title:  "Minimum Hardware Requirements"
 description: "All new computers supported by the CA&ES Dean’s Office Computer Resources Unit must either meet or exceed the following specifications:"
-author: "Shuka Smith"
+author: "Steven Barkey"
 date:   2020-12-01 14:25:00
 ---
 <ul class="no-bullet">
