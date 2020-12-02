@@ -11,6 +11,7 @@ date:   2020-12-02 13:15:00
 	<li><b>Memory:</b> 16GB</li>
 	<li><b>Storage:</b> 512GB SSD</li>
 	<li><b>Screen Size:</b> 14-inch</li>
+	<li><b>Warranty:</b> 4-years</li>
 </ul>
 <p><a target="_blank" href="https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-14-5410-laptop#features_section">Product Details</a></p>
 <p><a target="_blank" href="/media/policies/Dell Latitude 5410 Quote.pdf">PDF Quote</a></p>
@@ -21,6 +22,7 @@ date:   2020-12-02 13:15:00
 	<li><b>Memory:</b> 16GB</li>
 	<li><b>Storage:</b> 512GB SSD</li>
 	<li><b>Screen Size:</b> 14-inch</li>
+	<li><b>Warranty:</b> 4-years</li>
 </ul>
 <p><a target="_blank" href="https://www.dell.com/en-us/work/shop/laptops/14-7400/spd/latitude-14-7400-laptop#features_section">Product Details</a></p>
 <p><a target="_blank" href="/media/policies/Dell Latitude 7410 Ultrabook Quote.pdf">PDF Quote</a></p>
@@ -29,6 +31,7 @@ date:   2020-12-02 13:15:00
 <p><b>Dell P2419HC</b></p>
 <ul>
 	<li><b>Screen Size:</b> 24-inch</li>
+	<li><b>Warranty:</b> 4-years</li>
 </ul>
 <p><a target="_blank" href="https://www.dell.com/en-us/work/shop/dell-24-usb-c-monitor-p2419hc/apd/210-aqco/monitors-monitor-accessories#techspecs_section">Tech Specs</a></p>
 <p><a target="_blank" href="/media/policies/Dell P2419HC Monitor Quote.pdf">PDF Quote</a></p>
@@ -39,6 +42,7 @@ date:   2020-12-02 13:15:00
 	<li><b>Connection Type:</b> USB-C</li>
 	<li><b>Power Delivery:</b> Up to 90 Watts</li>
 	<li><b>External Monitor Support:</b> Up to 2</li>
+	<li><b>Warranty:</b> 4-years</li>
 </ul>
 <p><a target="_blank" href="/media/policies/Dell WD19 Dock Factsheet.pdf">PDF Factsheet</a></p>
 <p><a target="_blank" href="/media/policies/Dell WD19 Dock Quote.pdf">PDF Quote</a></p>

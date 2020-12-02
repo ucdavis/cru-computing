@@ -12,6 +12,7 @@ date:   2020-11-02 12:00:00
 	<li><b>Memory:</b> 16GB</li>
 	<li><b>Storage:</b> 512GB SSD</li>
 	<li><b>Screen Size:</b> 16-inch</li>
+	<li><b>Warranty:</b> 4-years</li>
 </ul>
 <p><a target="_blank" href="https://www.apple.com/macbook-pro-16/">Product Details</a></p>
 <p><a target="_blank" href="/media/policies/16-inch MacBook Pro Factsheet.pdf">PDF Factsheet</a></p>
