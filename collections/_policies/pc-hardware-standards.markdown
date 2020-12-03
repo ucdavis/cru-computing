@@ -5,7 +5,8 @@ author: "Steven Barkey"
 date:   2020-12-02 13:15:00
 ---
 <h3>PC Laptop</h3>
-<p><b>Dell Latitude 5410 (Standard)</b> (<a target="_blank" href="/media/policies/Dell Latitude 5410 Quote.pdf">PDF Quote</a> | <a target="_blank" href="https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-14-5410-laptop#features_section">Product Details</a>)</p>
+<p><b>Dell Latitude 5410 (Standard)</b></p>
+<p><a target="_blank" href="/media/policies/Dell Latitude 5410 Quote.pdf">PDF Quote</a> | <a target="_blank" href="https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-14-5410-laptop#features_section">Product Details</a></p>
 <ul>
 	<li><b>Processor:</b> Intel Core i5-10210U</li>
 	<li><b>Memory:</b> 16GB</li>
