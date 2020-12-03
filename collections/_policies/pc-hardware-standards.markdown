@@ -14,6 +14,7 @@ date:   2020-12-02 13:15:00
 	<li><b>Screen Size:</b> 14-inch</li>
 	<li><b>Warranty:</b> 4-years</li>
 </ul>
+<br />
 <p><b>Dell Latitude 7410 Ultrabook (Performance)</b><br />
 <a target="_blank" href="/media/policies/Dell Latitude 7410 Ultrabook Quote.pdf">PDF Quote</a> | <a target="_blank" href="https://www.dell.com/en-us/work/shop/laptops/14-7400/spd/latitude-14-7400-laptop#features_section">Product Details</a></p>
 <ul>
@@ -24,6 +25,7 @@ date:   2020-12-02 13:15:00
 	<li><b>Warranty:</b> 4-years</li>
 </ul>
 <br />
+<br />
 <h3>External Monitor</h3>
 <p><b>Dell P2419HC</b><br />
 <a target="_blank" href="/media/policies/Dell P2419HC Monitor Quote.pdf">PDF Quote</a> | <a target="_blank" href="https://www.dell.com/en-us/work/shop/dell-24-usb-c-monitor-p2419hc/apd/210-aqco/monitors-monitor-accessories#techspecs_section">Tech Specs</a></p>
@@ -31,6 +33,7 @@ date:   2020-12-02 13:15:00
 	<li><b>Screen Size:</b> 24-inch</li>
 	<li><b>Warranty:</b> 4-years</li>
 </ul>
+<br />
 <br />
 <h3>Docking Station</h3>
 <p><b>Dell WD19</b><br />
