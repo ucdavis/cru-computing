@@ -10,35 +10,31 @@ permalink: /documentation/helpdesk/how_to_request_hardware_software
 <br />
 <h3>Hardware</h3>
 <p><span class="discreet">The CAES Computing Resources Unit (CRU) supports both Windows and macOS laptops for use within the suppoted departments, as well as various peripherals to provide an effective computing experience.</span></p>
-<br />
-<p>The following related articles outline the minimum hardware requirements and the standard hardware options:</p>
-<ul style="PADDING-LEFT: 30px">
-   <li><a href="https://computing.caes.ucdavis.edu/documentation/policies/minimum-hardware-requirements" target="_blank">Minimum Hardware Requirements</a></li>
-   <li><a href="https://computing.caes.ucdavis.edu/documentation/policies/pc-hardware-standards" target="_blank">Standard Windows Hardware</a></li>
-   <li><a href="https://computing.caes.ucdavis.edu/documentation/policies/mac-hardware-standards" target="_blank">Standard macOS Hardware</a></li>
 </ul>
+<br />
 <p>How to request the purchase of hardware:</p>
 <ol style="PADDING-LEFT: 30px">
-   <li>Review the related articles above and select a piece of hardware that you would like to purchase</li>
-   <li>If necessary, determins what departmental fund will be paying for the hardware</li>
-   <li>Navigate to <a class="_blank" href="https://caeshelp.ucdavis.edu" target="_blank">CAES Help</a> and submit a request for the desired hardware</li>
+    <li>Review the related articles below and select a piece of hardware that you would like to purchase
+        <ul style="PADDING-LEFT: 20px">
+            <li><a href="https://computing.caes.ucdavis.edu/documentation/policies/pc-hardware-standards" target="_blank">Standard Windows Hardware</a></li>
+            <li><a href="https://computing.caes.ucdavis.edu/documentation/policies/mac-hardware-standards" target="_blank">Standard macOS Hardware</a></li>
+        </ul>
+    </li>
+    <li>If necessary, determine what departmental fund will be used to pay for the hardware</li>
+    <li>Submit your request via <a class="_blank" href="https://caeshelp.ucdavis.edu" target="_blank">CAES Help</a> for the desired hardware</li>
 </ol>
 <br />
-<p>Please note, although you may have existing hardware (eg. Docks, Monitors, etc.), not all existing hardware will be compatible with the new hardware being ordered and may need to be replaced at the same time.  Upon submitting your order, CRU may inquire about your other existing hardware to determine if it is compatible with the new hardware being ordered.</p>
+<p>Please note, although you may have existing hardware (eg. Docks, Monitors, etc.), not all existing hardware will be compatible with the new hardware being ordered and may need to be replaced at the same time.  Upon submitting your order, CRU may inquire about your other existing hardware to determine if it is compatible with the new hardware being ordered.  All hardware must meet the <a href="https://computing.caes.ucdavis.edu/documentation/policies/minimum-hardware-requirements" target="_blank">minimum hardware requirements</a> as identified by CRU.</p>
 <br />
 <br />
 <h3>Software</h3>
 <p><span class="discreet">The CAES Computing Resources Unit (CRU) supports various pieces of Windows and macOS software for use within the suppoted departments.</span></p>
 <br />
-<p>The following related article outlines the list of pre-approved software that can be requested:</p>
-<ul style="PADDING-LEFT: 30px">
-   <li><a href="https://computing.caes.ucdavis.edu/documentation/policies/approved-software" target="_blank">Approved Software List</a></li>
-</ul>
 <p>How to request software:</p>
 <ol style="PADDING-LEFT: 30px">
-   <li>Review the related article above and select a piece of software that you would like to have installed</li>
-   <li>If necessary, determins what departmental fund will be paying for the software (if licensing is required)</li>
-   <li>Navigate to <a class="_blank" href="https://caeshelp.ucdavis.edu" target="_blank">CAES Help</a> and submit a request for the desired software</li>
+    <li>Review the <a href="https://computing.caes.ucdavis.edu/documentation/policies/approved-software" target="_blank">Approved Software List</a> and select a piece of software that you would like to have installed</li>
+    <li>If necessary, determine what departmental fund will be used to pay for the software (if licensing is required)</li>
+    <li>Submit your request via <a class="_blank" href="https://caeshelp.ucdavis.edu" target="_blank">CAES Help</a> for the desired software</li>
 </ol>
 <br />
 <p>Please note, due to the implementation of IS-3, many software applications must go through the Vendor Risk Assesment (VRA) process, which requires the Information Security Office to review the software and it's vendor (eg. Adobe, Microsoft, etc.) before the software can be used on University owned machines.  While many of the software applications on the <a href="https://computing.caes.ucdavis.edu/documentation/policies/approved-software" target="_blank">Approved Software List</a> have already gone through the VRA process, if a VRA is required, it may result in delays between the time you request the software and when it can be installed.</p>
