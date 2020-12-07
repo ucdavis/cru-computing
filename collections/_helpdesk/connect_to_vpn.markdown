@@ -13,6 +13,7 @@ With the introduction of many cloud based resources, the only use cases for the 
 <ol style="PADDING-LEFT: 30px">
    <li>Accessing software that is only accessible while connected to a campus network</li>
    <li>Accessing files shared from a Computing Resources Unit managed fileserver</li>
+   <li>Accessing campus resources from a location where local access to the resource is blocked (eg. access from another country)</li>
 </ol>
 <br />
 <p><span class="discreet">To request access to the CAES VPN service, <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a>.</span></p>
