@@ -7,7 +7,7 @@ date:   2020-12-07 08:00:00
 ---
 <h3>macOS Laptops</h3>
 <p><b>Apple MacBook Pro - 16-inch (Standard)</b><br />
-<a target="_blank" href="/media/policies/Quote - Apple MacBook Pro 16-inch.pdf">PDF Quote</a> | <a target="_blank" href="https://www.apple.com/macbook-pro-16/">Product Details</a> | <a target="_blank" href="/media/policies/Factsheet - 16-inch MacBook Pro.pdf">PDF Factsheet</a></p>
+<a target="_blank" href="/media/policies/Quote - Apple MacBook Pro 16-inch.pdf">PDF Quote</a>* | <a target="_blank" href="https://www.apple.com/macbook-pro-16/">Product Details</a> | <a target="_blank" href="/media/policies/Factsheet - 16-inch MacBook Pro.pdf">PDF Factsheet</a></p>
 <ul>
 	<li><b>Processor:</b> 2.6GHz 6‑core Intel Core i7</li>
 	<li><b>Memory:</b> 16GB</li>
@@ -17,7 +17,7 @@ date:   2020-12-07 08:00:00
 </ul>
 <br />
 <p><b>Apple MacBook Pro - 13-inch (Smaller)</b><br />
-<a target="_blank" href="/media/policies/Quote - Apple MacBook Pro 13-inch.pdf">PDF Quote</a> | <a target="_blank" href="https://www.apple.com/macbook-pro-16/">Product Details</a> | <a target="_blank" href="/media/policies/Factsheet - 16-inch MacBook Pro.pdf">PDF Factsheet</a></p>
+<a target="_blank" href="/media/policies/Quote - Apple MacBook Pro 13-inch.pdf">PDF Quote</a>* | <a target="_blank" href="https://www.apple.com/macbook-pro-16/">Product Details</a> | <a target="_blank" href="/media/policies/Factsheet - 16-inch MacBook Pro.pdf">PDF Factsheet</a></p>
 <ul>
 	<li><b>Processor:</b> 2.0GHz 4‑core Intel Core i5</li>
 	<li><b>Memory:</b> 16GB</li>
@@ -29,7 +29,7 @@ date:   2020-12-07 08:00:00
 <br />
 <h3>External Monitor</h3>
 <p><b>Dell P2419HC</b><br />
-<a target="_blank" href="/media/policies/Quote - Dell P2419HC Monitor.pdf">PDF Quote</a> | <a target="_blank" href="https://www.dell.com/en-us/work/shop/dell-24-usb-c-monitor-p2419hc/apd/210-aqco/monitors-monitor-accessories#techspecs_section">Tech Specs</a></p>
+<a target="_blank" href="/media/policies/Quote - Dell P2419HC Monitor.pdf">PDF Quote</a>* | <a target="_blank" href="https://www.dell.com/en-us/work/shop/dell-24-usb-c-monitor-p2419hc/apd/210-aqco/monitors-monitor-accessories#techspecs_section">Tech Specs</a></p>
 <ul>
 	<li><b>Screen Size:</b> 24-inch</li>
 	<li><b>Warranty:</b> 4-years</li>
@@ -44,3 +44,6 @@ date:   2020-12-07 08:00:00
 	<li><b>Power Delivery:</b> Up to 85 Watts</li>
 	<li><b>External Monitor Support:</b> Up to 2</li>
 </ul>
+<br/>
+<br/>
+<p>* Quotes listed on this page will not be updated unless new hardware is released that replaces the currently listed models.  Quote is provided to indicate technical configuration only and may not reflect current pricing.  A new quote, with current pricing, will be provided at the time of purchase request.</p>
