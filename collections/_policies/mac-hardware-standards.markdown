@@ -17,7 +17,7 @@ date:   2020-12-07 08:00:00
 </ul>
 <br />
 <p><b>Apple MacBook Pro - 13-inch (Smaller)</b><br />
-<a target="_blank" href="/media/policies/Quote - Apple MacBook Pro 13-inch.pdf">PDF Quote</a>* | <a target="_blank" href="https://www.apple.com/macbook-pro-16/">Product Details</a> | <a target="_blank" href="/media/policies/Factsheet - 16-inch MacBook Pro.pdf">PDF Factsheet</a></p>
+<a target="_blank" href="/media/policies/Quote - Apple MacBook Pro 13-inch.pdf">PDF Quote</a>* | <a target="_blank" href="https://www.apple.com/macbook-pro-13/">Product Details</a> | <a target="_blank" href="/media/policies/Factsheet - 13-inch MacBook Pro.pdf">PDF Factsheet</a></p>
 <ul>
 	<li><b>Processor:</b> 2.0GHz 4‑core Intel Core i5</li>
 	<li><b>Memory:</b> 16GB</li>
