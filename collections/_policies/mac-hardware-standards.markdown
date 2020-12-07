@@ -6,7 +6,7 @@ date:   2020-12-07 08:00:00
 
 ---
 <h3>macOS Laptops</h3>
-<p><b>Apple MacBook Pro - 16-inch</b><br />
+<p><b>Apple MacBook Pro - 16-inch (Standard)</b><br />
 <a target="_blank" href="/media/policies/Quote - Apple MacBook Pro 16-inch.pdf">PDF Quote</a> | <a target="_blank" href="https://www.apple.com/macbook-pro-16/">Product Details</a> | <a target="_blank" href="/media/policies/Factsheet - 16-inch MacBook Pro.pdf">PDF Factsheet</a></p>
 <ul>
 	<li><b>Processor:</b> 2.6GHz 6‑core Intel Core i7</li>
@@ -16,7 +16,7 @@ date:   2020-12-07 08:00:00
 	<li><b>Warranty:</b> 4-years</li>
 </ul>
 <br />
-<p><b>Apple MacBook Pro - 13-inch</b><br />
+<p><b>Apple MacBook Pro - 13-inch (Smaller)</b><br />
 <a target="_blank" href="/media/policies/Quote - Apple MacBook Pro 13-inch.pdf">PDF Quote</a> | <a target="_blank" href="https://www.apple.com/macbook-pro-16/">Product Details</a> | <a target="_blank" href="/media/policies/Factsheet - 16-inch MacBook Pro.pdf">PDF Factsheet</a></p>
 <ul>
 	<li><b>Processor:</b> 2.0GHz 4‑core Intel Core i5</li>
