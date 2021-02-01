@@ -25,6 +25,17 @@ date:   2020-09-22
 * If this was done with our new provider (CyberSource), Cleared indicates if we have moved the funds into your account. This can take a few days after the credit card payment was done.
 * We do not tell you why a credit card attempt fails (because it can lead to abuse), but it is usually because of an address verification failure occurs. You may submit a help ticket to us to find out more but we will only help you directly, not the end user.
 
+## Credit Card Status COdes:
+* Old Touchnet Codes:
+  * S = Success
+  * C = Canceled
+  * E = Error
+* CyberSource Codes:
+  * A = Accept - Success
+  * D = DECLINE - Was declined, usually because of an address verification issue
+  * E = ERROR - Some other error, we would have to investigate
+  * C = CANCEL - User canceled the payment once it went to the CyberSource portal
+
 ## Deactivate/Activate
 
 * Deactivate frees up this registration from the amount sold 
