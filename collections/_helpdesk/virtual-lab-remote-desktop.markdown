@@ -1,9 +1,10 @@
 ---
-title:  "How to connect to the CAES Virtual Computer Lab"
+title: "How to connect to the CAES Virtual Computer Lab"
 description: "This guide will explain the step by step process of connecting to the CAES Virtual Computer Lab using a web browser."
 author: "Steven Barkey"
-date:   2019-09-09 15:05:00
+date: 2019-09-09 15:05:00
 permalink: /documentation/helpdesk/virtual-lab-remote-desktop
+redirect_to: https://kb.ucdavis.edu/?id=6888
 ---
 
 <p><span class="discreet">Due to the current Operational Status of the campus, physical access to the CAES Computer Labs is prohibited.  As such, the CAES Dean's Office Computing Resources Unit has implemented a Virtual Computer Lab to support online teaching.</span></p>

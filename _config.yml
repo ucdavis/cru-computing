@@ -18,6 +18,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-autoprefixer
+  - jekyll-redirect-from
 
 collections:
   ace:
@@ -117,5 +118,5 @@ defaults:
 
 breadcrumbs:
 root:
-  hide: false  # show breadcrumbs on root/home page
+  hide: false # show breadcrumbs on root/home page
   image: false # Show image or title text
