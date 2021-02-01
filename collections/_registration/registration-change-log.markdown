@@ -2,10 +2,14 @@
 title:  "New Features and Changes."
 description: "Stay up to date with all the new features and changes."
 author: "Jason Sylvestre"
-date:   2020-04-09
+date:   2021-02-01
 ---
 
 # New Features and Changes
+
+## Feb 2021
+* Numerous changes related to changing our Credit Card processor from Touchnet to CyberSource.
+* Updated Admin pages UI to match rest of site.
 
 ## March 10, 2020
 * Fix the display of the Item Name and Summary.
