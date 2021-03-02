@@ -2,10 +2,15 @@
 title:  "New Features and Changes."
 description: "Stay up to date with all the new features and changes."
 author: "Jason Sylvestre"
-date:   2021-02-01
+date:   2021-03-02
 ---
 
 # New Features and Changes
+
+## March 2, 2021
+* Ability to hide old/inactive accounts when you create an event.
+* Provide a warning when an event is edited if the account is no longer valid, expired, or has been deactivated.
+* Provide a warning when an event is edited if an account isn't an event account. 
 
 ## Feb 2021
 * Numerous changes related to changing our Credit Card processor from Touchnet to CyberSource.
