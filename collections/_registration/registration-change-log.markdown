@@ -2,10 +2,16 @@
 title:  "New Features and Changes."
 description: "Stay up to date with all the new features and changes."
 author: "Jason Sylvestre"
-date:   2021-03-02
+date:   2021-03-10
 ---
 
 # New Features and Changes
+
+## March 10, 2021
+* Added ability of user to add their own accounts. Instructions are on the create and edit event pages.
+* Note! If you pick an account from the dropdown list of accounts, it will ignore any User Added Accounts.
+* If the User Added Account is successfully added it will appear as the choice in the drop down list.
+* If you copy the event, that account will continue to be used, but if you create a new account from scratch, you will have to add it again unless an admin makes it available for everyone.
 
 ## March 2, 2021
 * Ability to hide old/inactive accounts when you create an event.
