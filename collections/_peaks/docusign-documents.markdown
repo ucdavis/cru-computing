@@ -2,7 +2,7 @@
 title:  "DocuSign Documents"
 description: "Send and track Docusign Documents."
 author: "Jason Sylvestre"
-date:   2020-11-18
+date:   2021-03-22
 ---
 
 # DocuSign:
@@ -69,3 +69,10 @@ First, please keep in mind that if you assign documents to be signed on the test
 
 ## My Stuff
 * Lists the person's documents. From there they can view them which will open up the DocuSign website.
+
+## What to do if the user didn't get their email
+* Have them check their junk mail and all that stuff.
+* Confirm the email for the person is what PEAKS is using.
+* Have them wait a week. Notifications will be sent out again after 1 week.
+* Have them log into docusign directly with their email and it should be there.
+* You can alway recreate the document, but the unsigned one will stay on the system, eventually it will show as declined or voided if they take no action on it.
