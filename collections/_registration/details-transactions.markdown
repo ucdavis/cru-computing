@@ -2,7 +2,7 @@
 title:  "Details - Transactions."
 description: "Actions you can take on the Details Transactions page."
 author: "Jason Sylvestre"
-date:   2020-09-22
+date:   2021-03-22
 ---
 
 # Transactions
@@ -24,6 +24,8 @@ date:   2020-09-22
 * It will indicate if the payment attempt was done on the old system or the new one (Is CyberSource).
 * If this was done with our new provider (CyberSource), Cleared indicates if we have moved the funds into your account. This can take a few days after the credit card payment was done.
 * We do not tell you why a credit card attempt fails (because it can lead to abuse), but it is usually because of an address verification failure occurs. You may submit a help ticket to us to find out more but we will only help you directly, not the end user.
+* You can tell your customers this when you get a decline:
+  * These types of error messages most often indicate a mismatch between the information entered in the payment portal and the information on file with the credit card bank.  Please double check that the information you are entering in the portal exactly matches the information on your credit card statement from the bank and that you have filled out every field in the portal
 
 ## Credit Card Status Codes:
 * Old Touchnet Codes:
