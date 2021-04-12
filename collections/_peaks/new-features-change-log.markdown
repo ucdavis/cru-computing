@@ -2,10 +2,14 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2020-10-19
+date:   2021-04-12
 ---
 
 # New Features and Changes
+
+## April 12, 2021
+* Numerous small and behind the scenes changes and enhancements.
+* Added a new equipment API endpoint to allow searching by attribute value
 
 ## Oct 19, 2020
 * A bunch of behind the scenes changes.
