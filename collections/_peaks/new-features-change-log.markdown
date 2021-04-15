@@ -2,10 +2,13 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2021-04-12
+date:   2021-04-15
 ---
 
 # New Features and Changes
+
+## April 15, 2021
+* When a person is added to a team through the UI, the supervisor will be defaulted if the supervisor is in the team.
 
 ## April 12, 2021
 * Numerous small and behind the scenes changes and enhancements.
