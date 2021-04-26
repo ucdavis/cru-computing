@@ -2,10 +2,13 @@
 title:  "New Features and Changes."
 description: "Stay up to date with all the new features and changes."
 author: "Jason Sylvestre"
-date:   2021-03-10
+date:   2021-04-26
 ---
 
 # New Features and Changes
+
+## April 26, 2021
+* Updated internal packages. No visible UI changes.
 
 ## March 10, 2021
 * Added ability of user to add their own accounts. Instructions are on the create and edit event pages.
