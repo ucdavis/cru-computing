@@ -2,11 +2,15 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within Payments."
 author: "Jason Sylvestre"
-date:   2021-04-12
+date:   2021-06-17
 permalink: /documentation/payments/change-log
 ---
 
 # New Features and Changes
+
+## June 17, 2021
+* Fixed an issue where a line item longer than 100 characters prevented an invoice from being saved with just a generic message.
+* Increased max length to 500 characters, and you can no longer enter more that that maximum.
 
 ## April 12, 2021
 * Some behind the scenes enhancements to emailing and logging.
