@@ -10,7 +10,7 @@ permalink: /documentation/payments/change-log
 
 ## June 17, 2021
 * Fixed an issue where a line item longer than 100 characters prevented an invoice from being saved with just a generic message.
-* Increased max length to 500 characters, and you can no longer enter more that that maximum.
+* Increased max length to 500 characters, and you can no longer enter more than that maximum.
 
 ## April 12, 2021
 * Some behind the scenes enhancements to emailing and logging.
