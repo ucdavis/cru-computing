@@ -4,6 +4,7 @@ description: "This guide will explain the step by step process of connecting to 
 author: "Steven Barkey"
 date:   2019-04-27 13:30:00
 permalink: /documentation/helpdesk/access-food-pro-through-remote-desktop
+redirect_to: https://kb.ucdavis.edu/?id=6888
 ---
 
 <p><span class="discreet">The steps below will walk you through the process of accessing the Remote Desktop server that contains The Food Processor software.  This access is available to all students who are registered for NUT 112, NUT 116 AL, and FSM 120.</span></p>
