@@ -2,10 +2,14 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2021-04-15
+date:   2021-08-11
 ---
 
 # New Features and Changes
+
+## Aug 11, 2021
+* If you have access to the Person Details page, there are now links from the history to the item that was assigned or revoked for equipment, access, and keys.
+* It is a faint ... to the right of the item in the history list.
 
 ## April 15, 2021
 * When a person is added to a team through the UI, the supervisor will be defaulted if the supervisor is in the team.
