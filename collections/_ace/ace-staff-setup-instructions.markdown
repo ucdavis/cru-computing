@@ -7,7 +7,8 @@ date:   2017-04-06
 
 ### New Features
 
-- [Ace New Features January 2014](/documentation/ace/ace-new-features-june-2014)
+- [Ace New Features January 2014](/documentation/ace/ace-new-features-jan-2014)
+- [Ace New Features June 2014](/documentation/ace/ace-new-features-june-2014)
 - [Ace New Features January 2015](/documentation/ace/ace-new-features-jan-2015)
 
 ### Ace Setup sections
