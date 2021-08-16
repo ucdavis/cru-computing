@@ -7,10 +7,17 @@ date:   2019-05-21
 
 ## API Instructions:
 
+API Documentation my be found here:
+https://peaks.ucdavis.edu/swagger/index.html
+
+
 * You need to have access to the departments API key, a Departmental Admin can provide this information. It is located in the Team Admin Settings and can be updated from there as well.
 * Data returned is per team in PEAKS
 * The examples below use a key that is no longer active.
 * The page that lists the API key has the URL you would use. Select Team -> Administer Team -> API Code
+
+
+## The information below is Deprecated.
 
 ## People Feed:
 peaks.ucdavis.edu/{team-slug}/Feed/TeamFeed/{api-code}
