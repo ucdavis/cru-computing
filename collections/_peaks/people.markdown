@@ -26,6 +26,7 @@ date:   2019-01-23 11:00:17
 * You can add new assets directly to the person from here
 * You can edit or delete people from this page as well.
 * If you need to find what other teams a person might belong to (maybe they are being dismissed), you can use the Look Teams. This will bring you to a new page listing the teams the person belongs to and the Admin(s) for those teams.
+* If you need to change the supervisor, clear out the existing supervisor and start typing to search for the new supervisor.
 * The history at the bottom shows recent actions, but not all of them.
 
 ## Searching
