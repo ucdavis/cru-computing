@@ -9,11 +9,11 @@
 html {
   position: relative;
   height: inherit;
-    height:100%;
+  height: 100%;
 }
 
 body {
-  background-color:#fff;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -22,43 +22,43 @@ body {
   }
 }
 .page-wrap {
-flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 footer {
-  margin-top:1.6rem;
+  margin-top: 1.6rem;
   flex-shrink: 0;
-  margin-bottom:2rem;
+  margin-bottom: 2rem;
   i {
     color: $secondary-font;
   }
 }
 .content-wrap {
-  margin-top:2.6rem;
+  margin-top: 2.6rem;
 }
 .landing-bg {
   background: url("/media/geo.svg");
   background-repeat: no-repeat;
   background-position: top right;
-  background-size:40%;
+  background-size: 40%;
   @include breakpoint(xl) {
     background-size: 35%;
   }
   @include breakpoint(lg) {
-    background-size:40%;
+    background-size: 40%;
   }
   @include breakpoint(md) {
-    background-size:25%;
+    background-size: 25%;
   }
 }
 header {
-  margin-top:16px;
-  margin-bottom:48px;
+  margin-top: 16px;
+  margin-bottom: 48px;
   @include breakpoint(md) {
-    margin-bottom:16px;
+    margin-bottom: 16px;
   }
 }
 .brand {
-  display:flex;
+  display: flex;
   align-items: center;
   min-height: 72px;
   // @include breakpoint(md) {
@@ -69,14 +69,13 @@ header {
   }
   img {
     max-width: 100%;
-    height:auto;
+    height: auto;
   }
   a {
     margin-right: 12px;
-    flex-basis: 72px;
-    color:$secondary-font;
+    color: $primary-font;
     &:hover {
-      color:$primary-font;
+      color: $primary-color;
       text-decoration: none;
     }
   }
@@ -84,17 +83,17 @@ header {
 .container {
   padding: 0;
   width: 80%;
-  max-width:1440px;
-  @include breakpoint (sm) {
+  max-width: 1440px;
+  @include breakpoint(sm) {
     width: 95%;
-    max-width:1440px;
+    max-width: 1440px;
   }
-  @include breakpoint (md) {
+  @include breakpoint(md) {
     width: 90%;
-    max-width:1440px;
+    max-width: 1440px;
   }
   @include breakpoint(lg) {
     width: 85%;
-    max-width:1440px;
+    max-width: 1440px;
   }
 }

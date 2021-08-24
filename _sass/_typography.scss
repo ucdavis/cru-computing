@@ -1,99 +1,98 @@
 // baseline typography
 html {
-    font-size: 10px;
-    -webkit-font-smoothing: antialiased;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
-    line-height: 1.5;
-    @include breakpoint(sm) {
-      font-size:8px;
-    }
+  font-size: 10px;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  line-height: 1.5;
+  @include breakpoint(sm) {
+    font-size: 8px;
+  }
 }
 body {
-    font-family: $sans-reg;
+  font-family: $sans-reg;
 }
 a {
+  text-decoration: none;
+  &:hover {
     text-decoration: none;
+  }
+  &.no-color {
+    color: $primary-font !important;
+  }
+  &.no-underline {
+    text-decoration: none !important;
     &:hover {
-      text-decoration: none;
-    }
-    &.no-color {
-      color:$primary-font !important;
-    }
-    &.no-underline {
       text-decoration: none !important;
-      &:hover {
-        text-decoration: none !important;
-      }
     }
+  }
 }
-
+p {
+  &.lede {
+    font-size: 1.8rem;
+  }
+}
 ul,
 ol {
-    li {
-        font-size: 1.6rem;
-        line-height: 1.8;
-        letter-spacing: .025rem;
-        font-family: $sans-reg;
-        color: $primary-font;
-        a {
-
-        }
-    }
-    &.no-bullet li {
-        list-style-type: none;
-    }
-    &.no-padding {
-      padding-left:0px;
-      margin-left:0px;
-    }
-
+  li {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    letter-spacing: 0.025rem;
+    font-family: $sans-reg;
+    color: $primary-font;
+  }
+  &.no-bullet li {
+    list-style-type: none;
+  }
+  &.no-padding {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
 }
 li.commencement-dot a {
   @include dot-color;
-  border-color:$commencement;
+  border-color: $commencement;
 }
 li.registration-dot a {
   @include dot-color;
-  border-color:$registration;
+  border-color: $registration;
 }
 li.helpdesk-dot a {
-    @include dot-color;
-    border-color:$helpdesk;
-
+  @include dot-color;
+  border-color: $helpdesk;
 }
 li.policies-dot a {
-    @include dot-color;
-    border-color:$policies;
+  @include dot-color;
+  border-color: $policies;
 }
 li.ace-dot a {
-    @include dot-color;
-    border-color:$ace;
+  @include dot-color;
+  border-color: $ace;
 }
 li.purchasing-dot a {
-    @include dot-color;
-    border-color:$purchasing;
+  @include dot-color;
+  border-color: $purchasing;
 }
 li.peaks-dot a {
-    @include dot-color;
-    border-color:$peaks;
+  @include dot-color;
+  border-color: $peaks;
 }
 p {
-    line-height: 1.625;
-    letter-spacing: .025rem;
-    font-size: 1.6rem;
-    font-family: $sans-reg;
-    color: $primary-font;
-    &.lead {
-        margin-top:10px;
-        font-size:1.8rem;
-        color:$secondary-font;
-        font-weight:300;
-        line-height:3.0rem;
-    }
-    &.discreet {
-      color:$tertiary-font;
-      font-size:1.4rem;
-    }
+  line-height: 1.625;
+  letter-spacing: 0.025rem;
+  font-size: 1.6rem;
+  font-family: $sans-reg;
+  color: $primary-font;
+  &.lead {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    color: $secondary-font;
+    font-weight: 300;
+    line-height: 3rem;
+  }
+  &.discreet {
+    color: $tertiary-font;
+    font-size: 1.4rem;
+  }
 }
 
 h1,
@@ -102,21 +101,21 @@ h3,
 h4,
 h5,
 h6 {
-    color: $primary-font;
-    font-family: $sans-bold;
-    line-height: 1.5;
-    font-weight: 400;
+  color: $primary-font;
+  font-family: $sans-bold;
+  line-height: 1.5;
+  font-weight: 400;
 }
 h1,
 .h1 {
-    font-size: 3.2rem;
+  font-size: 3.2rem;
 }
 
 h2,
 .h2 {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 
 h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
