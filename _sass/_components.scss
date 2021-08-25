@@ -3,465 +3,464 @@
   box-shadow: $box-shadow;
   border-radius: 4px;
   overflow: hidden;
-  margin-bottom:16px;
-  border:none;
+  margin-bottom: 16px;
+  border: none;
 }
 .card-content {
-  padding:$card-padding;
-  padding-bottom:2.6rem;
-  padding-top:2.6rem;
-  height:100%;
+  padding: $card-padding;
+  padding-bottom: 2.6rem;
+  padding-top: 2.6rem;
+  height: 100%;
   p:first-of-type {
-    flex-grow:1;
+    flex-grow: 1;
   }
 }
 .services-total {
   hr {
-    border:1px solid $services;
-    margin-bottom:1.6rem;
+    border: 1px solid $services;
+    margin-bottom: 1.6rem;
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($services, .23);
+      color: transparentize($services, 0.23);
     }
   }
   a {
-    color:$services;
+    color: $services;
     &:hover {
       text-decoration: underline;
-      color:lighten($services,15);
+      color: lighten($services, 15);
     }
   }
   .callout {
-    background-color:transparentize($services, .92);
+    background-color: transparentize($services, 0.92);
     border-left: 5px solid $services;
-    padding:20px 20px 10px 20px;
-    margin-bottom:16px;
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 16px;
   }
 }
 .registration-total {
   hr {
-    border:1px solid $registration;
-    margin-bottom:1.6rem;
+    border: 1px solid $registration;
+    margin-bottom: 1.6rem;
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($registration, .23);
+      color: transparentize($registration, 0.23);
     }
   }
   a {
-    color:$registration;
+    color: $registration;
     &:hover {
       text-decoration: underline;
-      color:lighten($registration,15);
+      color: lighten($registration, 15);
     }
   }
   .callout {
-    background-color:transparentize($registration, .92);
+    background-color: transparentize($registration, 0.92);
     border-left: 5px solid $registration;
-    padding:20px 20px 10px 20px;
-    margin-bottom:16px;
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 16px;
   }
 }
 .documentation-total {
   hr {
-    border:1px solid $documentation;
-    margin-bottom:1.6rem;
+    border: 1px solid $documentation;
+    margin-bottom: 1.6rem;
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($documentation, .23);
+      color: transparentize($documentation, 0.23);
     }
   }
   a {
-    color:$documentation;
+    color: $documentation;
     &:hover {
       text-decoration: underline;
-      color:lighten($documentation,15);
+      color: lighten($documentation, 15);
     }
   }
   button i {
-    color:$documentation;
+    color: $documentation;
     &:hover {
-      color:lighten($documentation,15);
+      color: lighten($documentation, 15);
     }
   }
 }
 .team-total {
   hr {
-    border:1px solid $team;
-    margin-bottom:1.6rem;
+    border: 1px solid $team;
+    margin-bottom: 1.6rem;
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($team, .23);
+      color: transparentize($team, 0.23);
     }
   }
   a {
-    color:$team;
+    color: $team;
     &:hover {
       text-decoration: underline;
-      color:lighten($team,15);
+      color: lighten($team, 15);
     }
   }
   button i {
-    color:$team;
+    color: $team;
     &:hover {
-      color:lighten($team,15);
+      color: lighten($team, 15);
     }
   }
 }
 .portfolio-total {
   hr {
-    border:1px solid $portfolio;
+    border: 1px solid $portfolio;
     margin-bottom: $portfolio-hr-mbottom;
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($portfolio, .23);
+      color: transparentize($portfolio, 0.23);
     }
   }
   a {
-    color:$portfolio;
+    color: $portfolio;
     &:hover {
       text-decoration: underline;
-      color:lighten($portfolio,15);
+      color: lighten($portfolio, 15);
     }
   }
   button i {
-    color:$portfolio;
+    color: $portfolio;
     &:hover {
-      color:lighten($portfolio,15);
+      color: lighten($portfolio, 15);
     }
   }
 }
 .peaks-total {
   hr {
-    border:1px solid $peaks;
-    margin-bottom:1.6rem;
+    border: 1px solid $peaks;
+    margin-bottom: 1.6rem;
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($peaks, .23);
+      color: transparentize($peaks, 0.23);
     }
   }
   a {
-    color:$peaks;
+    color: $peaks;
     &:hover {
       text-decoration: underline;
-      color:lighten($peaks,15);
+      color: lighten($peaks, 15);
     }
   }
   button i {
-    color:$peaks;
+    color: $peaks;
     &:hover {
-      color:lighten($peaks,15);
+      color: lighten($peaks, 15);
     }
   }
 }
 .payments-total {
   hr {
-    border:1px solid $payments;
-    margin-bottom:1.6rem;
+    border: 1px solid $payments;
+    margin-bottom: 1.6rem;
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($payments, .23);
+      color: transparentize($payments, 0.23);
     }
   }
   a {
-    color:$payments;
+    color: $payments;
     &:hover {
       text-decoration: underline;
-      color:lighten($payments,15);
+      color: lighten($payments, 15);
     }
   }
   button i {
-    color:$payments;
+    color: $payments;
     &:hover {
-      color:lighten($payments,15);
+      color: lighten($payments, 15);
     }
   }
 }
 .policies-total {
   hr {
-    border:1px solid $policies;
-    margin-bottom:1.6rem;
+    border: 1px solid $policies;
+    margin-bottom: 1.6rem;
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($policies, .23);
+      color: transparentize($policies, 0.23);
     }
   }
   a {
-    color:$policies;
+    color: $policies;
     &:hover {
       text-decoration: underline;
-      color:lighten($policies,15);
+      color: lighten($policies, 15);
     }
   }
   button i {
-    color:$policies;
+    color: $policies;
     &:hover {
-      color:lighten($policies,15);
+      color: lighten($policies, 15);
     }
   }
 }
 .helpdesk-total {
   hr {
-    border:1px solid $helpdesk;
-    margin-bottom:1.6rem;
+    border: 1px solid $helpdesk;
+    margin-bottom: 1.6rem;
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($helpdesk, .23);
+      color: transparentize($helpdesk, 0.23);
     }
   }
   a {
-    color:$helpdesk;
+    color: $helpdesk;
     &:hover {
       text-decoration: underline;
-      color:lighten($helpdesk,15);
+      color: lighten($helpdesk, 15);
     }
   }
   button i {
-    color:$helpdesk;
+    color: $helpdesk;
     &:hover {
-      color:lighten($helpdesk,15);
+      color: lighten($helpdesk, 15);
     }
   }
 }
 .ace-total {
   hr {
-    border:1px solid $ace;
-    margin-bottom:1.6rem;
+    border: 1px solid $ace;
+    margin-bottom: 1.6rem;
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($ace, .23);
+      color: transparentize($ace, 0.23);
     }
   }
   a {
-    color:$ace;
+    color: $ace;
     &:hover {
       text-decoration: underline;
-      color:lighten($ace,15);
+      color: lighten($ace, 15);
     }
   }
   button i {
-    color:$ace;
+    color: $ace;
     &:hover {
-      color:lighten($ace,15);
+      color: lighten($ace, 15);
     }
   }
 }
 .purchasing-total {
   hr {
-    border:1px solid $purchasing;
-    margin-bottom:1.6rem;
+    border: 1px solid $purchasing;
+    margin-bottom: 1.6rem;
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($purchasing, .23);
+      color: transparentize($purchasing, 0.23);
     }
   }
   a {
-    color:$purchasing;
+    color: $purchasing;
     &:hover {
       text-decoration: underline;
-      color:lighten($purchasing,15);
+      color: lighten($purchasing, 15);
     }
   }
   button i {
-    color:$purchasing;
+    color: $purchasing;
     &:hover {
-      color:lighten($purchasing,15);
+      color: lighten($purchasing, 15);
     }
   }
 }
 .commencement-total {
   hr {
-    border:1px solid $commencement;
-    margin-bottom:1.6rem;
+    border: 1px solid $commencement;
+    margin-bottom: 1.6rem;
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($commencement, .23);
+      color: transparentize($commencement, 0.23);
     }
   }
   a {
-    color:$commencement;
+    color: $commencement;
     &:hover {
       text-decoration: underline;
-      color:lighten($commencement,15);
+      color: lighten($commencement, 15);
     }
   }
   button i {
-    color:$commencement;
+    color: $commencement;
     &:hover {
-      color:lighten($commencement,15);
+      color: lighten($commencement, 15);
     }
   }
 }
 .peaks-tag {
   @include tag;
-  background-color:$peaks;
+  background-color: $peaks;
   &:hover {
-    background-color:transparentize($peaks, .15);
+    background-color: transparentize($peaks, 0.15);
   }
 }
 .guidelines-tag {
   @include tag;
-  background-color:$guidelines;
+  background-color: $guidelines;
   &:hover {
-    background-color:transparentize($guidelines, .15);
+    background-color: transparentize($guidelines, 0.15);
   }
 }
 .registration-tag {
   @include tag;
-  background-color:$registration;
+  background-color: $registration;
   &:hover {
-    background-color:transparentize($registration, .15);
+    background-color: transparentize($registration, 0.15);
   }
 }
 .commencement-tag {
   @include tag;
-  background-color:$commencement;
+  background-color: $commencement;
   &:hover {
-    background-color:transparentize($commencement, .15);
+    background-color: transparentize($commencement, 0.15);
   }
 }
 .policies-tag {
   @include tag;
-  background-color:$policies;
+  background-color: $policies;
   &:hover {
-    background-color:transparentize($policies, .35);
+    background-color: transparentize($policies, 0.35);
   }
 }
 .helpdesk-tag {
   @include tag;
-  background-color:$helpdesk;
+  background-color: $helpdesk;
   &:hover {
-    background-color:transparentize($helpdesk, .35);
+    background-color: transparentize($helpdesk, 0.35);
   }
 }
 .purchasing-tag {
   @include tag;
-  background-color:$purchasing;
+  background-color: $purchasing;
   &:hover {
-    background-color:transparentize($purchasing, .35);
+    background-color: transparentize($purchasing, 0.35);
   }
 }
 .payments-tag {
   @include tag;
-  background-color:$payments;
+  background-color: $payments;
   &:hover {
-    background-color:transparentize($payments, .35);
+    background-color: transparentize($payments, 0.35);
   }
 }
 .ace-tag {
   @include tag;
-  background-color:$ace;
+  background-color: $ace;
   &:hover {
-    background-color:transparentize($ace, .35);
+    background-color: transparentize($ace, 0.35);
   }
 }
 .alert-red {
-  background-color:transparentize($unitrans-red,0.35);
+  background-color: transparentize($unitrans-red, 0.35);
   &:hover {
-    background-color:transparentize($unitrans-red,0.15);
-}
+    background-color: transparentize($unitrans-red, 0.15);
+  }
 }
 .alert-yellow {
-  background-color: transparentize($golden-lupine,0.35);
+  background-color: transparentize($golden-lupine, 0.35);
   &:hover {
-    background-color:transparentize($golden-lupine,.15);
-}
+    background-color: transparentize($golden-lupine, 0.15);
+  }
 }
 .alert-green {
-  background-color: transparentize($sunny-grass,0.35);
+  background-color: transparentize($sunny-grass, 0.35);
   &:hover {
-    background-color:transparentize($sunny-grass,.15);
-}
+    background-color: transparentize($sunny-grass, 0.15);
+  }
 }
 .alert-blue {
-  background-color: transparentize($sky-blue,0.35);
+  background-color: transparentize($sky-blue, 0.35);
   &:hover {
-    background-color:transparentize($sky-blue,.15);
-}
+    background-color: transparentize($sky-blue, 0.15);
+  }
 }
 .btn {
   &.btn-primary {
     @include main-btn;
-
   }
   &.btn-success {
     @include main-btn;
-    background-color:$sunny-grass !important;
+    background-color: $sunny-grass !important;
   }
   &.btn-services {
     @include main-btn;
-    background-color:$services !important;
+    background-color: $services !important;
   }
   &.btn-link {
     color: $primary-color;
     font-size: 1.6rem;
     font-family: $sans-bold;
-    border:none;
+    border: none;
     cursor: pointer;
     &:hover {
-      color: lighten($primary-color,5);
+      color: lighten($primary-color, 5);
       text-decoration: none;
     }
   }
   &.btn-helpdesk {
     background-color: $helpdesk;
-    &:hover{
+    &:hover {
       background-color: lighten($helpdesk, 8);
     }
   }
 }
 .tooltip {
-    position: relative;
-    display: inline-block;
-    .tooltip-inner {
-        font-size: 16px;
-        background-color: $primary-color;
-    }
-    .arrow::before{
-      border-top-color: $primary-color;
-    }
+  position: relative;
+  display: inline-block;
+  .tooltip-inner {
+    font-size: 16px;
+    background-color: $primary-color;
+  }
+  .arrow::before {
+    border-top-color: $primary-color;
+  }
 }
 form {
-    .main {
-        background-color: $bg-color;
-        padding: 2%;
-        padding-left: 4%
-    }
-    input.search_input {
-        background-image:url(/media/search_form.svg);
-        background-repeat:no-repeat;
-        background-size: 20px 20px;
-        width:240px;
-        font-size:1.6rem;
-        color:$primary-font;
-        background-color:#fff;
-        border-radius:2px;
-        border:1px solid $borders;
-        height:40px;
-        padding-left:35px;
-        background-position:10px center;
-    }
+  .main {
+    background-color: $bg-color;
+    padding: 2%;
+    padding-left: 4%;
+  }
+  input.search_input {
+    background-image: url(/media/search_form.svg);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    width: 240px;
+    font-size: 1.6rem;
+    color: $primary-font;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid $borders;
+    height: 40px;
+    padding-left: 35px;
+    background-position: 10px center;
+  }
 }
 
 label {
-    display: block;
-    font-family: $sans-reg;
-    font-weight: 600;
-    font-size: 1.2rem;
-    color: $secondary-font;
-    text-transform: uppercase;
-    margin-bottom: 5px;
+  display: block;
+  font-family: $sans-reg;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: $secondary-font;
+  text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 ol.breadcrumb {
@@ -469,7 +468,7 @@ ol.breadcrumb {
   list-style: none;
   border: 0;
   padding-left: 0;
-  background-color: rgba(255,255,255,.0005);
+  background-color: rgba(255, 255, 255, 0.0005);
   margin-bottom: 0;
   margin-top: 16px;
 
@@ -496,58 +495,58 @@ ol.breadcrumb {
     color: $secondary-font;
   }
 
-  > li+li:before {
+  > li + li:before {
     color: $tertiary-font;
     content: "/";
   }
 }
 .profile-wrap img:nth-child(1) {
-  margin-left:0px !important;
+  margin-left: 0px !important;
 }
 .pixel-profile {
-  border:2px solid #fff;
-  box-shadow:$box-shadow;
-  border-radius:50%;
-  margin-left:-10px;
+  border: 2px solid #fff;
+  box-shadow: $box-shadow;
+  border-radius: 50%;
+  margin-left: -10px;
 }
 
 .pixel-profile::nth-child(1) {
-  margin-left:0px !important;
+  margin-left: 0px !important;
 }
 .mb-10 {
-  margin-bottom:10rem !important;
+  margin-bottom: 10rem !important;
 }
 .mb-8 {
-  margin-bottom:8rem !important;
+  margin-bottom: 8rem !important;
 }
 .mb-6 {
-  margin-bottom:6rem !important;
+  margin-bottom: 6rem !important;
 }
 img.img-fluid {
-  width:100%;
+  width: 100%;
 }
 .flex-direction-column {
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 .no-btn {
-  background-color: rgba(255,255,255,.00005);
-  border:none;
+  background-color: rgba(255, 255, 255, 0.00005);
+  border: none;
   &:focus {
     outline: none;
   }
 }
 .portfolio-slideshow {
-  color:$portfolio;
+  color: $portfolio;
 }
 .flexin {
   display: flex;
   align-items: center;
 }
 .flex-between {
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  align-items:baseline;
+  align-items: baseline;
 }
 .flex-standard {
   display: flex;
@@ -596,7 +595,8 @@ img.img-fluid {
       }
     }
 
-    &, &.p-0 .dropdown-toggle {
+    &,
+    &.p-0 .dropdown-toggle {
       padding: 1rem 1.5rem;
     }
     font-family: $sans-bold;
@@ -619,23 +619,59 @@ img.img-fluid {
     height: 100%;
     border-radius: 0;
     box-shadow: none;
-    font-family: 'proxima-nova-b', 'FontAwesome';
+    font-family: "proxima-nova-b", "FontAwesome";
   }
 }
 .alert-unitrans {
-  background-color:transparentize($unitrans-red, .9);
+  background-color: transparentize($unitrans-red, 0.9);
   h2 {
-    color:$unitrans-red;
-      margin-bottom:16px;
+    color: $unitrans-red;
+    margin-bottom: 16px;
   }
   box-shadow: $box-shadow;
   a.alert-button {
     font-weight: bold;
-    border:2px solid $unitrans-red;
+    border: 2px solid $unitrans-red;
     border-radius: 14px;
-    padding:6px 16px;
+    padding: 6px 16px;
     &:hover {
       text-decoration: none;
     }
+  }
+}
+@keyframes ekg {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    stroke-dashoffset: 2000;
+  }
+  99% {
+    opacity: 0;
+    stroke-dashoffset: 3000;
+  }
+  100% {
+    stroke-dashoffset: 1000;
+  }
+}
+
+// ekg
+.ekg-animation svg {
+  transition: all 0.5s ease-in-out;
+  .ekg {
+    transform: translateX(-50%) translateY(-10%);
+    fill: none;
+    stroke: #2088e9;
+    stroke-width: 4;
+    stroke-linecap: round;
+    // stroke-linejoin: miter;
+    opacity: 0;
+    stroke-dashoffset: 1000;
+    stroke-dasharray: 1000;
+    animation: ekg 2s linear reverse;
+    animation-iteration-count: 3;
   }
 }
