@@ -1,6 +1,6 @@
 ---
 title:  "Application Retired"
-description: "WHat is the new commencement site?"
+description: "What is the new commencement site?"
 author: "Jason Sylvestre"
 date:   2021-08-26
 ---
