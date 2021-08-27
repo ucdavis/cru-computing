@@ -672,6 +672,6 @@ img.img-fluid {
     stroke-dashoffset: 1000;
     stroke-dasharray: 1000;
     animation: ekg 2s linear reverse;
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
   }
 }
