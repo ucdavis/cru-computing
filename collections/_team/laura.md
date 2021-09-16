@@ -1,6 +1,6 @@
 ---
 name: Laura Holstege
-role: paiting watercolor art
+role: painting watercolor art
 image: /media/team/laura_pic
 categories:
   - alumni
