@@ -3,60 +3,80 @@ layout: teamlayout
 title: Team
 breadcrumb: <li><a href="/team">Team</a></li>
 description: Two Client Supporters under the sky, <br>
-              Two System Administrators in their cubicles of stone, <br>
-              Six website developers doomed to code, <br>
-              One Director to rule them all, One Director to find them, <br>
-              One Director to bring them all and in the basement bind them <br>
-              In the Land of Mrak where the Agriculture shines.
+  Two System Administrators in their cubicles of stone, <br>
+  Five website developers doomed to code, <br>
+  One Director to rule them all, One Director to find them, <br>
+  One Director to bring them all and in the basement bind them <br>
+  In the Land of Mrak where the Agriculture shines.
 brand: team
 geotag: id-team
 permalink: /team
-
 ---
 
 <div class="row team-wrapper">
-  {% assign team = site.team | where: "categories","current"  %}
-  {% for post in team %}
-<div class="col-sm-4">
-<div class="card card-height-fixed">
-  <div class="card-content text-center" vocab="http://schema.org" typeof="Person">
-    <img property="image" class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
-    <h2 property="name">{{ post.name }}</h2>
-    <p property="jobTitle">{{ post.role }}</p>
-    {% if post.phone %}
-    <p property="telephone">{{ post.phone }}</p>
-      {% endif %}
-    {% if post.email %}
-      <p property="email"><a href="mailto:{{ post.email }}">{{ post.email }}</a></p>
-    {% endif %}
-  </div>
-</div>
-</div>
-{% endfor %}
-</div>
-
-  <div class="row justify-content-around align-items-center" style="margin-top:10rem;">
-    <div class="col-sm-4 text-right">
-      <h1>Alumni</h1>
-    </div>
-    <div class="col-sm-4">
-      <div class="text-left">
-        <img class="img-fluid" src="/media/team/alumni.png" alt="">
-      </div>
-    </div>
-  </div>
-  <div class="row team-wrapper">
-
-      {% assign team = site.team | where: "categories","alumni"  %}
-      {% for post in team %}
-    <div class="col-sm-4">
+  {% assign team = site.team | where: "categories","current" %} {% for post in
+  team %}
+  <div class="col-sm-4">
     <div class="card card-height-fixed">
-      <div class="card-content text-center" vocab="http://schema.org" typeof="Person">
-        <img property="image" class="pixel-profile" src="{{ post.image }}.png" alt="{{ post.name }}-icon" />
+      <div
+        class="card-content text-center"
+        vocab="http://schema.org"
+        typeof="Person"
+      >
+        <img
+          property="image"
+          class="pixel-profile"
+          src="{{ post.image }}.png"
+          alt="{{ post.name }}-icon"
+        />
         <h2 property="name">{{ post.name }}</h2>
-        <p property="jobTitle">Currently at {{ post.role }}</p>
+        <p property="jobTitle">{{ post.role }}</p>
+        {% if post.phone %}
+        <p property="telephone">{{ post.phone }}</p>
+        {% endif %} {% if post.email %}
+        <p property="email">
+          <a href="mailto:{{ post.email }}">{{ post.email }}</a>
+        </p>
+        {% endif %}
       </div>
     </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div
+  class="row justify-content-around align-items-center"
+  style="margin-top: 10rem"
+>
+  <div class="col-sm-4 text-right">
+    <h1>Alumni</h1>
+  </div>
+  <div class="col-sm-4">
+    <div class="text-left">
+      <img class="img-fluid" src="/media/team/alumni.png" alt="" />
     </div>
-    {% endfor %}
+  </div>
+</div>
+<div class="row team-wrapper">
+  {% assign team = site.team | where: "categories","alumni" %} {% for post in
+  team %}
+  <div class="col-sm-4">
+    <div class="card card-height-fixed">
+      <div
+        class="card-content text-center"
+        vocab="http://schema.org"
+        typeof="Person"
+      >
+        <img
+          property="image"
+          class="pixel-profile"
+          src="{{ post.image }}.png"
+          alt="{{ post.name }}-icon"
+        />
+        <h2 property="name">{{ post.name }}</h2>
+        <p property="jobTitle">Currently: {{ post.role }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
 </div>

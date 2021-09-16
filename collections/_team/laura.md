@@ -1,9 +1,7 @@
 ---
 name: Laura Holstege
-email: laholstege@ucdavis.edu
-role: Applications Developer
+role: paiting watercolor art
 image: /media/team/laura_pic
 categories:
-  - webdev
-  - current
+  - alumni
 ---
