@@ -1,7 +1,7 @@
 ---
 title: "WHO"
 audience: "Campus wide"
-description: "WhoIs search with Lucene.NET against example people DB"
+description: "Who searches the campus IAM source for staff, faculty, and students"
 current-url: "https://who.ucdavis.edu/"
 developers:
     - Scott Kirkland
