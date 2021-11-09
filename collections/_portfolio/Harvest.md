@@ -7,7 +7,7 @@ developers:
   - Jason Sylvestre
   - Spruce Weber-Milne
   - Cal Doval
-image: "Harvest"
+image: "harvest"
 current-url: "https://harvest.caes.ucdavis.edu/"
 bgcolor: 266041
 date: 2021-11-07
