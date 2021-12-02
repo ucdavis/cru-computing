@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="607px" height="730px" viewBox="0 0 607 730" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>geo</title>
+    <g id="geoshapes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="geo" transform="translate(0.001705, 0.041617)">
+            <g id="primary" transform="translate(0.000000, 17.924622)">
+                <polygon id="primarythree" fill="#FFCD00" transform="translate(343.219295, 214.502761) rotate(-180.000000) translate(-343.219295, -214.502761) " points="250.219295 237.971761 313.419429 237.849691 436.219295 225.971761 324.853295 191.033761"></polygon>
+                <polygon id="primarythree" fill="#FFCD00" transform="translate(289.910484, 130.033761) rotate(-180.000000) translate(-289.910484, -130.033761) " points="165.601674 203.033761 414.219295 181.276803 329.601674 57.0337613"></polygon>
+                <polygon id="primarythree" fill="#FFCD00" transform="translate(319.246422, 29.022602) rotate(-180.000000) translate(-319.246422, -29.022602) " points="404.003559 58.0114424 410.187844 50.6480605 228.305 0.0337612526 240.116219 58.0114424"></polygon>
+                <polygon id="primarytwo" fill="#CDA606" transform="translate(336.388432, 129.555734) rotate(-180.000000) translate(-336.388432, -129.555734) " points="250.390873 151.40157 422.385991 56.1741421 262.093266 202.937326"></polygon>
+                <polygon id="primarytwo" fill="#CDA606" transform="translate(135.607736, 39.423253) rotate(-180.000000) translate(-135.607736, -39.423253) " points="234.662558 78.8127441 105.531385 0 36.5529136 78.8465054"></polygon>
+                <polyline id="primaryone" fill="#DAAA00" transform="translate(343.219295, 154.712261) rotate(-180.000000) translate(-343.219295, -154.712261) " points="436.219295 106.390761 250.219295 118.390761 264.115295 203.033761 436.219295 106.390761"></polyline>
+                <polygon id="primaryone" fill="#DAAA00" transform="translate(287.302792, 39.415597) rotate(-180.000000) translate(-287.302792, -39.415597) " points="409.003773 0.0337612527 165.601811 21.2779324 340.116298 78.7974331"></polygon>
+                <g id="primaryfloat" transform="translate(44.423920, 119.745287) rotate(1.000000) translate(-44.423920, -119.745287) translate(0.568398, 86.794127)">
+                    <polygon id="primarythree" fill="#FFCD00" points="87.7110448 -1.13686838e-13 87.7110448 65.90232 40.0597015 -1.13686838e-13"></polygon>
+                    <polyline id="primarytwo" fill="#DAAA00" points="40.1608358 -1.13686838e-13 -1.42108547e-14 30.3171 67.0750448 37.22268 40.1608358 -1.13686838e-13"></polyline>
+                </g>
+            </g>
+            <polygon id="Fill-4" fill="#0FAEBF" transform="translate(563.216304, 221.264227) rotate(6.000000) translate(-563.216304, -221.264227) " points="575.99832 324.808899 594.732287 207.500931 585.295884 117.719555 531.70032 155.844899"></polygon>
+            <polyline id="Fill-5" fill="#097480" transform="translate(503.324653, 234.137036) rotate(6.000000) translate(-503.324653, -234.137036) " points="432.324653 216.619036 574.324653 318.619036 530.026653 149.655036 432.324653 216.619036"></polyline>
+            <polygon id="Fill-15" fill="#038694" transform="translate(581.951156, 312.262007) rotate(6.000000) translate(-581.951156, -312.262007) " points="594.498717 297.258294 566.589094 327.26572 597.313218 324.036484"></polygon>
+            <polygon id="Fill-17" fill="#097480" transform="translate(585.570737, 265.552009) rotate(6.000000) translate(-585.570737, -265.552009) " points="599.650028 299.749443 589.556489 203.715831 571.491447 327.388187"></polygon>
+            <polygon id="Fill-27" fill="#00A0B1" transform="translate(557.892758, 105.628354) rotate(6.000000) translate(-557.892758, -105.628354) " points="594.036064 84.9619417 518.042641 56.6017363 543.758398 154.654972 597.742876 120.229901"></polygon>
+            <polygon id="Fill-28" fill="#097480" transform="translate(560.095489, 73.904463) rotate(6.000000) translate(-560.095489, -73.904463) " points="598.806464 98.7408202 593.585652 49.0681063 521.384514 56.6754331"></polygon>
+            <polygon id="Fill-29" fill="#038694" transform="translate(561.678604, 35.549081) rotate(6.000000) translate(-561.678604, -35.549081) " points="593.97156 14.4673624 525.402416 56.6307989 597.954793 52.3652933"></polygon>
+            <polygon id="Fill-100" fill="#00A0B1" transform="translate(458.415248, 72.378600) rotate(6.000000) translate(-458.415248, -72.378600) " points="392.5265 24.5838079 422.289995 122.850595 524.303995 58.6935949 520.986995 46.0385949 417.998393 21.9066041"></polygon>
+            <polygon id="Fill-102" fill="#0FAEBF" transform="translate(508.363354, 29.945422) rotate(6.000000) translate(-508.363354, -29.945422) " points="422.461473 26.9210068 525.696091 51.0271403 594.265235 8.86370377"></polygon>
+            <polyline id="Fill-104" fill="#038694" transform="translate(474.461820, 169.152054) rotate(6.000000) translate(-474.461820, -169.152054) " points="438.95932 213.246054 536.66132 146.282054 412.26232 125.058054 438.95932 213.246054"></polyline>
+            <polygon id="Fill-105" fill="#0FAEBF" transform="translate(481.975610, 97.663110) rotate(6.000000) translate(-481.975610, -97.663110) " points="422.017647 133.249495 544.17511 146.675835 518.586213 48.6503844 419.77611 125.451835"></polygon>
+            <g id="secondary" transform="translate(224.205526, 208.811906)">
+                <polygon id="secondarythree" fill="#2088E9" transform="translate(81.696769, 56.165977) rotate(-180.000000) translate(-81.696769, -56.165977) " points="137.379769 100.185477 110.958069 12.1464772 26.0137694 65.2474772"></polygon>
+                <polygon id="secondarythree" fill="#2088E9" transform="translate(268.737350, 62.721947) rotate(-180.000000) translate(-268.737350, -62.721947) " points="242.172758 116.146477 340.792769 17.2490773 196.68193 9.29741711"></polygon>
+                <polygon id="secondarythree" fill="#2088E9" transform="translate(274.437789, 254.838419) rotate(-180.000000) translate(-274.437789, -254.838419) " points="266.437789 206.53036 177.082808 270.304972 177.082808 282.462322 371.792769 303.146477 306.420028 225.815371"></polygon>
+                <polygon id="secondarytwo" fill="#1567B3" transform="translate(253.432141, 22.727715) rotate(-180.000000) translate(-253.432141, -22.727715) " points="247.305643 0.268547483 295.307357 45.1868824 211.556925 36.1542286"></polygon>
+                <polygon id="secondarytwo" fill="#1567B3" transform="translate(180.262496, 243.589348) rotate(-180.000000) translate(-180.262496, -243.589348) " points="177.732223 196.032219 74.0427694 268.947219 286.482223 291.146477"></polygon>
+                <polygon id="secondaryone" fill="#12508A" transform="translate(196.614120, 58.073239) rotate(-180.000000) translate(-196.614120, -58.073239) " points="52.4354696 1.12185189e-11 334.380172 8.05432129 340.792769 15.961 182.522298 116.146477"></polygon>
+                <polygon id="secondarytwo" fill="#1567B3" transform="translate(124.558700, 148.108848) rotate(-180.000000) translate(-124.558700, -148.108848) " points="52.4354696 188.02288 169.339217 102.776328 175.07463 100.185477 196.68193 196.032219"></polygon>
+                <polygon id="secondarythree" fill="#2088E9" transform="translate(135.362350, 157.670647) rotate(-180.000000) translate(-135.362350, -157.670647) " points="74.0427694 207.146477 196.68193 119.309075 191.3506 118.406945 93.1931906 108.194817"></polygon>
+                <polygon id="secondarytwo" fill="#1567B3" transform="translate(274.661231, 157.667008) rotate(-180.000000) translate(-274.661231, -157.667008) " points="177.529693 198.568167 177.529693 174.53492 371.792769 108.194817 352.640532 207.139199"></polygon>
+                <polygon id="secondaryone" fill="#12508A" transform="translate(274.656585, 172.090538) rotate(-180.000000) translate(-274.656585, -172.090538) " points="177.5204 116.146477 177.5204 228.0346 371.792769 137.040474"></polygon>
+                <polygon id="secondaryonefloat" fill="#12508A" transform="translate(77.988984, 293.989591) rotate(22.000000) translate(-77.988984, -293.989591) " points="50.4656683 310.958239 97.0705383 301.397307 105.5123 277.020942"></polygon>
+                <polygon id="secondarythreefloat" fill="#2088E9" points="5.77838135 222.335782 0 252.432095 23.8511353 255.221158"></polygon>
+            </g>
+            <g id="redout" transform="translate(397.743851, 626.237705) rotate(-151.000000) translate(-397.743851, -626.237705) translate(387.743851, 609.737705)" fill="#BA0C2F">
+                <polygon id="Fill-80" points="1.77838135 -4.93745756e-12 0.119824808 26.0141676 19.8511353 32.885376"></polygon>
+            </g>
+            <g id="tealouttwo" transform="translate(158.998295, 296.958383)" fill="#00A8BE">
+                <polygon id="Fill-81" points="11.2531156 0 0 41 41 23.9261126"></polygon>
+            </g>
+            <g id="tealoutone" transform="translate(171.024255, 214.473107)" fill="#00789B">
+                <polyline id="Fill-83" transform="translate(23.245000, 21.821500) rotate(142.000000) translate(-23.245000, -21.821500) " points="39.326 9 5 34.643 41.49 27.084 39.326 9"></polyline>
+            </g>
+            <polygon id="Fill-100" fill="#BA0C2F" transform="translate(555.306411, 492.673372) rotate(6.000000) translate(-555.306411, -492.673372) " points="508.915774 516.940463 590.74828 440.590247 601.696595 544.756498"></polygon>
+            <polygon id="Fill-100" fill="#CB3F5B" transform="translate(452.697401, 543.291915) rotate(6.000000) translate(-452.697401, -543.291915) " points="402.304644 504.536642 503.090158 506.464841 454.79713 582.047188"></polygon>
+            <polygon id="Fill-100" fill="#920824" transform="translate(510.167486, 550.319326) rotate(6.000000) translate(-510.167486, -550.319326) " points="454.341401 588.128055 565.99357 560.660238 557.152298 541.355377 502.67042 512.510597"></polygon>
+            <polygon id="Fill-100-Copy" fill="#920824" transform="translate(584.675253, 504.523186) rotate(6.000000) translate(-584.675253, -504.523186) " points="568.893064 537.915019 600.457442 546.355722 591.663889 462.69065"></polygon>
+            <polygon id="Fill-100" fill="#C92042" transform="translate(550.185931, 545.410815) rotate(6.000000) translate(-550.185931, -545.410815) " points="518.706544 574.154855 503.402725 516.666775 595.994585 542.974593 596.969137 552.246829"></polygon>
+            <polygon id="Fill-100" fill="#920824" transform="translate(552.653639, 599.920816) rotate(6.000000) translate(-552.653639, -599.920816) " points="513.985446 649.658265 592.261046 562.091671 591.009433 550.183367 513.046232 574.837326"></polygon>
+            <polygon id="Fill-100" fill="#CB3F5B" transform="translate(479.228931, 619.731575) rotate(6.000000) translate(-479.228931, -619.731575) " points="447.3059 654.232767 446.945433 585.230383 511.51243 642.091818"></polygon>
+            <polygon id="Fill-100" fill="#BA0C2F" points="508.998295 644.958383 595.998295 566.439005 595.998295 628.998972"></polygon>
+            <polygon id="Fill-100" fill="#BA0C2F" points="450.710453 582.070322 515.998295 570.958383 509.014042 645.395029"></polygon>
+            <polygon id="Fill-100" fill="#920824" points="595.998295 729.110834 595.998295 626.29487 508.985234 644.901498"></polygon>
+            <polygon id="Fill-100" fill="#BA0C2F" transform="translate(458.903122, 486.269318) rotate(6.000000) translate(-458.903122, -486.269318) " points="408.714868 505.308785 454.013592 465.713748 509.091376 506.824888"></polygon>
+        </g>
+    </g>
+</svg>

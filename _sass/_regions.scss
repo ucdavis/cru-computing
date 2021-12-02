@@ -50,6 +50,11 @@ img#team-image {
 }
 .floatinggeos {
   position: absolute;
+  top: 0;
+  right: 0;
+  #primarythree {
+    fill: #000;
+  }
 }
 .documentation-item {
   margin-top: 8px;
