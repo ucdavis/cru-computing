@@ -1,83 +1,96 @@
 // fonts
 @font-face {
-    font-family: 'proxima-nova-r';
-    src: url('/media/fonts/proximanova-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "proxima-nova-r";
+  src: url("/media/fonts/proximanova-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-    font-family: 'proxima-nova-i';
-    src: url('/media/fonts/proximanova-regularit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "proxima-nova-i";
+  src: url("/media/fonts/proximanova-regularit-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-    font-family: 'proxima-nova-b';
-    src: url('/media/fonts/proximanova-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "proxima-nova-b";
+  src: url("/media/fonts/proximanova-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-$sans-italic:   "proxima-nova-i",sans-serif;
-$sans-bold:     "proxima-nova-b",sans-serif;
-$sans-reg:      "proxima-nova-r",sans-serif;
+$sans-italic: "proxima-nova-i", sans-serif;
+$sans-bold: "proxima-nova-b", sans-serif;
+$sans-reg: "proxima-nova-r", sans-serif;
 
-$primary-color:     #1D3B5C;
-$secondary-color:   #004987;
-$tertiary-color:    #F4BD00;
+$primary-color: #1d3b5c;
+$secondary-color: #004987;
+$tertiary-color: #f4bd00;
 
-$a-link:            transparentize($primary-color, .2);
+$a-link: transparentize($primary-color, 0.2);
 
-$primary-font: rgba(31,31,31,.99); //
-$secondary-font: rgba(31,31,31,.80); //
-$tertiary-font: rgba(31,31,31,.40); //
+$primary-font: rgba(31, 31, 31, 0.99); //
+$secondary-font: rgba(31, 31, 31, 0.8); //
+$tertiary-font: rgba(31, 31, 31, 0.4); //
 
-$dm-primary-font: rgba(245,245,245,.99); //
-$dm-secondary-font: rgba(245,245,245,.80); //
-$dm-tertiary-font: rgba(245,245,245,.40); //
+$dm-primary-font: rgba(245, 245, 245, 0.99); //
+$dm-secondary-font: rgba(245, 245, 245, 0.8); //
+$dm-tertiary-font: rgba(245, 245, 245, 0.4); //
 
-$box-shadow: 0 0 0 1px rgba(49,49,93,.03), 0 2px 5px 0 rgba(49,49,93,.1), 0 1px 2px 0 rgba(0,0,0,.08);
+$box-shadow: 0 0 0 1px rgba(49, 49, 93, 0.03), 0 2px 5px 0 rgba(49, 49, 93, 0.1),
+  0 1px 2px 0 rgba(0, 0, 0, 0.08);
 
-$bg-color: #F8F9FB; // background
-$borders: #E8E9ED; // border color
-$darkmode: #1F2225;
-$darkmode-alt: #484C51;
+$bg-color: #f8f9fb; // background
+$borders: #e8e9ed; // border color
+$darkmode: #1f2225;
+$darkmode-alt: #484c51;
 
-$services: #2088E9;
-$team: #DDB307;
-$portfolio: #0FAEBF;
-$documentation: #BA0C2F;
+$recpool: #6fcfeb;
+$tahoe: #00b2e3;
+$gunrock: #0047ba;
+$bodega: #003a5d;
+
+$rain: #03f9e6;
+$arboretum: #00c4b3;
+$putahcreek: #008eaa;
+$delta: #00524c;
+
+$farmersmarket: #aada91;
+$sage: #6cca98;
+$quad: #3dae2b;
+$redwood: #266041;
+
+$goldenstate: #ffff3b;
+$sunflower: #ffdc00;
+$poppy: #f18a00;
+$california: #8a532f;
+
+$rose: #ff8189;
+$strawberry: #f93549;
+$doubledecker: #c10230;
+$merlot: #79242f;
+
+$thiebauldicing: #f095cd;
+$redbud: #c6007e;
+$pinot: #76236c;
+$cabernet: #481268;
+
+$services: #2088e9;
+$team: #ddb307;
+$portfolio: #0faebf;
+$documentation: #ba0c2f;
 $guidelines: $primary-color;
-$registration: #00573f;
 
-$unitrans-red: #ba0c2f;
-$western-redbud: #c6007e;
-$california-poppy: #ed8800;
-$golden-lupine: #ffcd00;
-$sunny-grass: #78be20;
-$sky-blue: #00b5e2;
-$recpool-blue: #008eaa;
-$wine-grape: #642667;
-// Supplemental neutral color palette for UC Davis
-$mu-brick: #c26e60;
-$harthall-stucco: #e6a65d;
-$sage-green: #9caf88;
-$evergreen: #00573f;
-$wintersky-gray: #5b7f95;
-$cenwalk-gray: #b1b3b3;
-$cork-oak: #aca39a;
-$shingle-brown: #4f2c1d;
-
-$peaks:  $wine-grape;
-$helpdesk: $unitrans-red;
-$ace:  $sunny-grass;
-$purchasing: $sky-blue;
-$policies: $california-poppy;
-$commencement: $western-redbud;
-$payments: $golden-lupine;
+$registration: $redwood;
+$peaks: $pinot;
+$helpdesk: $doubledecker;
+$ace: $quad;
+$purchasing: $tahoe;
+$policies: $poppy;
+$commencement: $cabernet;
+$payments: $sunflower;
 
 // Layouts
 
@@ -86,46 +99,46 @@ $card-thick-padding: 3rem;
 $portfolio-hr-mbottom: 1.6rem;
 
 @mixin breakpoint($point) {
-    @if $point==sm {
-        @media (max-width: 576px) {
-            @content ;
-        }
+  @if $point==sm {
+    @media (max-width: 576px) {
+      @content;
     }
-    @if $point==xsm {
-        @media (max-width: 575px) {
-            @content ;
-        }
+  }
+  @if $point==xsm {
+    @media (max-width: 575px) {
+      @content;
     }
-    @if $point==md {
-        @media (max-width: 768px) {
-            @content ;
-        }
+  }
+  @if $point==md {
+    @media (max-width: 768px) {
+      @content;
     }
-    @if $point==lg {
-        @media (max-width: 992px) {
-            @content ;
-        }
+  }
+  @if $point==lg {
+    @media (max-width: 992px) {
+      @content;
     }
-    @if $point==xl {
-        @media (max-width: 1200px) {
-            @content ;
-        }
+  }
+  @if $point==xl {
+    @media (max-width: 1200px) {
+      @content;
     }
+  }
 }
 
 @mixin fader {
-  -o-transition:.25s;
-  -ms-transition:.25s;
-  -moz-transition:.25s;
-  -webkit-transition:.25s;
+  -o-transition: 0.25s;
+  -ms-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -webkit-transition: 0.25s;
   /* ...and now for the proper property */
-  transition:.25s;
+  transition: 0.25s;
 }
 @mixin main-btn {
   white-space: nowrap;
   display: inline-block;
-  padding:10px 20px;
-  box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset, 0 1px 3px rgba(0,0,0,.08);
+  padding: 10px 20px;
+  box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset, 0 1px 3px rgba(0, 0, 0, 0.08);
   background: $primary-color;
   border-radius: 2px;
   font-size: 1.6rem;
@@ -142,7 +155,8 @@ $portfolio-hr-mbottom: 1.6rem;
   &:hover {
     color: #fff !important;
     transform: translateY(-1px);
-    box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset, 0 3px 6px rgba(0,0,0,.08);
+    box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.15) inset,
+      0 3px 6px rgba(0, 0, 0, 0.08);
     background-color: lighten($primary-color, 5);
     text-decoration: none;
   }
@@ -169,12 +183,12 @@ $portfolio-hr-mbottom: 1.6rem;
   }
 }
 @mixin tag {
-  display:inline-block;
+  display: inline-block;
   font-family: $sans-bold;
-  font-size:1.4rem;
-  color:#fff !important;
+  font-size: 1.4rem;
+  color: #fff !important;
   border-radius: 4px;
-  padding:6px 12px;
+  padding: 6px 12px;
   text-transform: capitalize;
   &:hover {
     text-decoration: none !important;
@@ -185,17 +199,16 @@ $portfolio-hr-mbottom: 1.6rem;
   // font-weight: bold;
   // display: inline-block;
   // width: 1em;
-  padding-left:5px;
-  border-left:4px solid $primary-color;
+  padding-left: 5px;
+  border-left: 4px solid $primary-color;
 }
-.rotate{
-
-    transition: all .5s linear;
+.rotate {
+  transition: all 0.5s linear;
 }
 
-.rotate.down{
-    -ms-transform: rotate(110deg);
-    -moz-transform: rotate(110deg);
-    -webkit-transform: rotate(110deg);
-    transform: rotate(110deg);
+.rotate.down {
+  -ms-transform: rotate(110deg);
+  -moz-transform: rotate(110deg);
+  -webkit-transform: rotate(110deg);
+  transform: rotate(110deg);
 }
