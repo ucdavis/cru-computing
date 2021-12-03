@@ -4,44 +4,68 @@
   position: absolute;
   top: -2%;
   right: -2%;
+  @include breakpoint(xl) {
+    width: 35%;
+  }
+  @include breakpoint(lg) {
+    width: 40%;
+  }
+  @include breakpoint(md) {
+    width: 25%;
+  }
   // #primaryfloat {
   //   animation: spin 2s linear infinite;
   // }
 }
+$primarygeo: $gunrock;
+$secondarygeo: $poppy;
+$tertiarygeo: $quad;
+$quarternarygeo: $sunflower;
 
-// #primaryone {
-//   fill:$primaryone;
-// }
-// #primarytwo {
-//   fill:$primarytwo;
-// }
-// #primarythree {
-//   fill: $primarythree;
-// }
-// #secondaryone {
-//   fill:$secondaryone;
-// }
-// #secondarytwo {
-//   fill:$secondarytwo;
-// }
-// #secondarythree {
-//   fill:$secondarythree;
-// }
-// #tertiaryone {
-//   fill:$tertiaryone;
-// }
-// #tertiarytwo {
-//   fill:$tertiarytwo;
-// }
-// #tertiarythree{
-//   fill:$tertiarythree;
-// }
-// #quarternaryone {
-//   fill:$quarternaryone;
-// }
-// #quarternarytwo {
-//   fill:$quarternarytwo;
-// }
-// #quarternarythree {
-//   fill:$quarternarythree;
-// }
+#primaryone,
+#primaryfloatone {
+  fill: $primarygeo;
+}
+#primarytwo {
+  fill: darken($primarygeo, 5%);
+}
+#primarythree,
+#primaryfloattwo {
+  fill: darken($primarygeo, 10%);
+}
+
+#secondaryone,
+#secondaryfloatone {
+  fill: $secondarygeo;
+}
+#secondarytwo {
+  fill: darken($secondarygeo, 5%);
+}
+#secondarythree,
+#secondaryfloattwo {
+  fill: darken($secondarygeo, 10%);
+}
+
+#tertiaryone,
+#tertiaryfloatone {
+  fill: $tertiarygeo;
+}
+#tertiarytwo {
+  fill: darken($tertiarygeo, 5%);
+}
+#tertiarythree,
+#tertiaryfloattwo {
+  fill: darken($tertiarygeo, 10%);
+}
+
+#quarternaryone,
+#quarternaryfloatone {
+  fill: $quarternarygeo;
+}
+#quarternarytwo {
+  fill: darken($quarternarygeo, 5%);
+}
+#quarternarythree,
+#quarternaryfloattwo {
+  fill: darken($quarternarygeo, 10%);
+}

@@ -2,12 +2,12 @@ nav {
   ul.nav {
     li.nav-item {
       a.nav-link {
-        color:$primary-font;
+        color: $primary-font;
         font-family: $sans-bold;
-        font-size:2rem;
-        border-bottom:4px solid rgba(255, 255, 255, 0);
+        font-size: 2rem;
+        border-bottom: 4px solid rgba(255, 255, 255, 0);
         &:hover {
-          background-color:$bg-color;
+          background-color: $bg-color;
         }
       }
     }
@@ -15,7 +15,7 @@ nav {
   ul.upnav {
     justify-content: flex-end;
     @include breakpoint(md) {
-      margin-top:32px;
+      margin-top: 32px;
       justify-content: start;
     }
   }
@@ -33,72 +33,70 @@ nav {
   border-bottom: 4px solid $portfolio !important;
 }
 .services-active {
-   &.active {
-    border-bottom:4px solid $services !important;
+  &.active {
+    border-bottom: 4px solid $services !important;
   }
 }
 .documentation-active {
-   &.active {
-    border-bottom:4px solid $documentation !important;
+  &.active {
+    border-bottom: 4px solid $documentation !important;
   }
 }
 .team-active {
-   &.active {
-    border-bottom:4px solid $team !important;
+  &.active {
+    border-bottom: 4px solid $team !important;
   }
 }
 .portfolio-active {
-   &.active {
-    border-bottom:4px solid $portfolio !important;
+  &.active {
+    border-bottom: 4px solid $portfolio !important;
   }
 }
 nav.homepage-nav {
-  margin-left:-1rem;
-  margin-top:8%;
+  margin-left: -1rem;
+  margin-top: 8%;
   ul.nav {
     li.nav-item {
-      margin-right:3rem;
+      margin-right: 3rem;
       @include breakpoint(lg) {
-        margin-right:2rem;
+        margin-right: 2rem;
       }
       @include breakpoint(md) {
-        margin-right:1.6rem;
+        margin-right: 1.6rem;
       }
       @include breakpoint(sm) {
-        margin-right:0px;
+        margin-right: 0px;
       }
-      img {
-        padding-left:1rem;
-        max-width:100%;
-        height:auto;
+      svg {
+        margin-left: 1rem;
       }
       a.nav-link {
-        color:$primary-font;
+        color: $primary-font;
         font-family: $sans-bold;
-        font-size:2.8rem;
-        padding-top:0px;
-        padding-bottom:0px;
-        margin-top:-5px;
+        font-size: 2.8rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: -5px;
         @include breakpoint(lg) {
-          font-size:2rem;
+          font-size: 2rem;
         }
         &:hover {
-          background-color:#fff;
-          border-bottom:4px solid $primary-font;
+          background-color: #fff;
+          border-bottom: 4px solid $primary-font;
         }
       }
       @include fader;
       &:nth-child(1) a:hover {
-        border-bottom-color:$team;
+        border-bottom-color: $team;
       }
       &:nth-child(2) a:hover {
-        border-bottom-color:$portfolio;
+        border-bottom-color: $portfolio;
       }
       &:nth-child(3) a:hover {
-        border-bottom-color:$services;
+        border-bottom-color: $services;
       }
       &:nth-child(4) a:hover {
-        border-bottom-color:$documentation;
+        border-bottom-color: $documentation;
       }
     }
   }
