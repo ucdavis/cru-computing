@@ -77,10 +77,15 @@ $redbud: #c6007e;
 $pinot: #76236c;
 $cabernet: #481268;
 
-$services: #2088e9;
-$team: #ddb307;
-$portfolio: #0faebf;
-$documentation: #ba0c2f;
+$primarygeo: $sunflower;
+$secondarygeo: $gunrock;
+$tertiarygeo: $quad;
+$quarternarygeo: $doubledecker;
+
+$team: $primarygeo;
+$portfolio: $tertiarygeo;
+$services: $secondarygeo;
+$documentation: $quarternarygeo;
 $guidelines: $primary-color;
 
 $registration: $redwood;
