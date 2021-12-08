@@ -367,27 +367,27 @@
   }
 }
 .alert-red {
-  background-color: transparentize($unitrans-red, 0.35);
+  background-color: transparentize($doubledecker, 0.35);
   &:hover {
-    background-color: transparentize($unitrans-red, 0.15);
+    background-color: transparentize($doubledecker, 0.15);
   }
 }
 .alert-yellow {
-  background-color: transparentize($golden-lupine, 0.35);
+  background-color: transparentize($sunflower, 0.35);
   &:hover {
-    background-color: transparentize($golden-lupine, 0.15);
+    background-color: transparentize($sunflower, 0.15);
   }
 }
 .alert-green {
-  background-color: transparentize($sunny-grass, 0.35);
+  background-color: transparentize($quad, 0.35);
   &:hover {
-    background-color: transparentize($sunny-grass, 0.15);
+    background-color: transparentize($quad, 0.15);
   }
 }
 .alert-blue {
-  background-color: transparentize($sky-blue, 0.35);
+  background-color: transparentize($tahoe, 0.35);
   &:hover {
-    background-color: transparentize($sky-blue, 0.15);
+    background-color: transparentize($tahoe, 0.15);
   }
 }
 .btn {
@@ -396,7 +396,7 @@
   }
   &.btn-success {
     @include main-btn;
-    background-color: $sunny-grass !important;
+    background-color: $quad !important;
   }
   &.btn-services {
     @include main-btn;
@@ -623,15 +623,15 @@ img.img-fluid {
   }
 }
 .alert-unitrans {
-  background-color: transparentize($unitrans-red, 0.9);
+  background-color: transparentize($doubledecker, 0.9);
   h2 {
-    color: $unitrans-red;
+    color: $doubledecker;
     margin-bottom: 16px;
   }
   box-shadow: $box-shadow;
   a.alert-button {
     font-weight: bold;
-    border: 2px solid $unitrans-red;
+    border: 2px solid $doubledecker;
     border-radius: 14px;
     padding: 6px 16px;
     &:hover {
@@ -673,5 +673,14 @@ img.img-fluid {
     stroke-dasharray: 1000;
     animation: ekg 2s linear reverse;
     animation-iteration-count: infinite;
+  }
+}
+
+@keyframes spin {
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }

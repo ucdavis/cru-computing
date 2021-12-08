@@ -35,21 +35,21 @@ footer {
 .content-wrap {
   margin-top: 2.6rem;
 }
-.landing-bg {
-  background: url("/media/geo.svg");
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 40%;
-  @include breakpoint(xl) {
-    background-size: 35%;
-  }
-  @include breakpoint(lg) {
-    background-size: 40%;
-  }
-  @include breakpoint(md) {
-    background-size: 25%;
-  }
-}
+// .landing-bg {
+//   background: url("/media/geo.svg");
+//   background-repeat: no-repeat;
+//   background-position: top right;
+//   background-size: 40%;
+//   @include breakpoint(xl) {
+//     background-size: 35%;
+//   }
+//   @include breakpoint(lg) {
+//     background-size: 40%;
+//   }
+//   @include breakpoint(md) {
+//     background-size: 25%;
+//   }
+// }
 header {
   margin-top: 16px;
   margin-bottom: 48px;

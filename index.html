@@ -3,6 +3,7 @@ layout: default
 title: CAES Computing Resources Unit
 home: true
 ---
+{% include geoshapes.html %}
 <header class="container">
   <div class="row justify-content-between">
     <div class="col">
@@ -19,26 +20,26 @@ home: true
   </div>
 </header>
 
-{% include geoshapes.html %}
+
 
 <div class="container">
 
 <nav class="homepage-nav">
   <ul class="nav" id="nav_upperlevel">
     <li class="nav-item">
-      <img src="/media/id-team.svg" alt="">
+      {% include id-team.html %}
       <a class="nav-link" href="/team">Team</a>
     </li>
     <li class="nav-item">
-      <img src="/media/id-portfolio.svg" alt="">
+      {% include id-portfolio.html %}
       <a class="nav-link" href="/portfolio">Portfolio</a>
     </li>
     <li class="nav-item">
-      <img src="/media/id-services.svg" alt="">
+      {% include id-services.html %}
       <a class="nav-link" href="/services">Services</a>
     </li>
     <li class="nav-item">
-      <img src="/media/id-documentation.svg" alt="">
+      {% include id-documentation.html %}
       <a class="nav-link" href="/documentation">Documentation</a>
     </li>
   </ul>
