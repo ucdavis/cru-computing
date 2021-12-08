@@ -3,7 +3,7 @@
 .floatinggeos {
   position: absolute;
   top: -2%;
-  right: -12px;
+  right: -24px;
   @include breakpoint(xl) {
     width: 35%;
   }
@@ -164,6 +164,41 @@
   }
 }
 
+@keyframes shake-lr {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  10% {
+    -webkit-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+  80% {
+    -webkit-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+  90% {
+    -webkit-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
 #primaryfloatone {
   animation: slide-rotate-hor-top 4s linear infinite;
 }
@@ -175,7 +210,10 @@
   animation: vibrate-1 2s linear infinite;
 }
 #tertiaryfloatone {
-  animation: wobble-hor-bottom 4s linear infinite;
+  animation: wobble-hor-bottom 2s linear infinite;
+}
+#tertiaryfloattwo {
+  animation: shake-lr 8s linear infinite;
 }
 
 #primaryone,
