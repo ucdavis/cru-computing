@@ -7,9 +7,7 @@ layout: default
   <div class="row justify-content-between">
     <div class="col-sm-6">
       <p class="tag-display {{ page.category }}">{{ page.display-tag }}</p>
-      {% if page.geotag %}
-      <img src="/media/{{ page.geotag }}.svg" alt="{{ page.brand }} icon" />
-      {% endif %}
+      {% if page.idteam %} {%include id-team.html %} {% endif %}
       <h1>{{ page.title }}</h1>
       <p class="lead">{{ page.description }}</p>
     </div>

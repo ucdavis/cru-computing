@@ -1,195 +1,234 @@
 ---
 layout: fullcol
 title: Portfolio
-description:  From small centers and departments to large campus wide applications, we work with a wide range of clients. Check out the list below for a comprehensive view of our work.
+description: From small centers and departments to large campus wide applications, we work with a wide range of clients. Check out the list below for a comprehensive view of our work.
 brand: portfolio
-geotag: id-portfolio
+idportfolio: true
 permalink: /portfolio
-
 ---
+
 <div class="d-flex table-filter">
-    <div class="d-inline-flex table-filter-item justify-content-center flex-column" style="min-width: 20rem; flex-grow: 1">
-        <input id="search-bar" class="form-control" placeholder="&#xF002; Search Portfolio..." type="text"/>
+  <div
+    class="d-inline-flex table-filter-item justify-content-center flex-column"
+    style="min-width: 20rem; flex-grow: 1"
+  >
+    <input
+      id="search-bar"
+      class="form-control"
+      placeholder="&#xF002; Search Portfolio..."
+      type="text"
+    />
+  </div>
+  <div
+    id="sort-updated"
+    class="d-md-inline-flex d-none table-filter-item align-items-center"
+  >
+    <span class="mx-1">Last Updated</span>
+    <i class="fa fa-arrow-up mx-1" aria-hidden="true"></i>
+    <i class="fa fa-arrow-down mx-1 active" aria-hidden="true"></i>
+  </div>
+  <div
+    class="
+      d-md-inline-flex d-none
+      table-filter-item
+      justify-content-center
+      flex-column
+      dropdown
+      p-0
+    "
+  >
+    <div
+      class="dropdown-toggle"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      <span>Audience</span>
     </div>
-    <div id="sort-updated" class="d-md-inline-flex d-none table-filter-item align-items-center">
-        <span class="mx-1">Last Updated</span>
-        <i class="fa fa-arrow-up mx-1" aria-hidden="true"></i>
-        <i class="fa fa-arrow-down mx-1 active" aria-hidden="true"></i>
-    </div>
-    <div class="d-md-inline-flex d-none table-filter-item justify-content-center flex-column dropdown p-0">
-        <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span>Audience</span>
-        </div>
-        <div class="dropdown-menu"></div>
-    </div>
+    <div class="dropdown-menu"></div>
+  </div>
 </div>
 {% for portfolio in site.portfolio reversed %}
 
 <div class="portfolio_item" data-title="{{portfolio.title}}">
   <div class="row justify-content-between">
     <div class="col-12 col-sm-8 col-md-5">
-  <div class="flexin portfolio-title">
-        <h1>
-            {{ portfolio.title }}
-            </h1>
-          <div class="portfolio-controls">
-            {% if portfolio.current-url %}
+      <div class="flexin portfolio-title">
+        <h1>{{ portfolio.title }}</h1>
+        <div class="portfolio-controls">
+          {% if portfolio.current-url %}
 
-            <a class="no-underline" href="{{ portfolio.current-url }}">
-              <i class="fas fa-external-link-square-alt"></i>
-            </a>
+          <a class="no-underline" href="{{ portfolio.current-url }}">
+            <i class="fas fa-external-link-square-alt"></i>
+          </a>
 
-            {% endif %}
-            {% if portfolio.slideshow %}
-            <a class="no-underline" href="#{{ portfolio.image }}" data-toggle="modal">
-              <i class="fas fa-images"></i>
-            </a>
-            {% endif %}
-          </div>
-      </div>
-
-          <p class="lead">{{ portfolio.date | date: "%B %Y"  }} • {{ portfolio.audience }}</p>
-          <p>{{ portfolio.description }}</p>
-          {% if portfolio.developers %}
-      <div class="profile-wrap">
-        {% for developer in portfolio.developers %}
-            {% assign dev = site.team | where: "name", developer | first %}
-            {% include team_tooltip.html text=dev.name image=dev.image %}
-        {% endfor %}
-      </div>
-
-
+          {% endif %} {% if portfolio.slideshow %}
+          <a
+            class="no-underline"
+            href="#{{ portfolio.image }}"
+            data-toggle="modal"
+          >
+            <i class="fas fa-images"></i>
+          </a>
           {% endif %}
+        </div>
+      </div>
+
+      <p class="lead">
+        {{ portfolio.date | date: "%B %Y" }} • {{ portfolio.audience }}
+      </p>
+      <p>{{ portfolio.description }}</p>
+      {% if portfolio.developers %}
+      <div class="profile-wrap">
+        {% for developer in portfolio.developers %} {% assign dev = site.team |
+        where: "name", developer | first %} {% include team_tooltip.html
+        text=dev.name image=dev.image %} {% endfor %}
+      </div>
+
+      {% endif %}
     </div>
     <div class="col-md-5 text-right">
-      <img class="img-fluid" src="/media/portfolio/{{ portfolio.image }}.png" alt="">
+      <img
+        class="img-fluid"
+        src="/media/portfolio/{{ portfolio.image }}.png"
+        alt=""
+      />
     </div>
   </div>
 </div>
-{% if portfolio.slideshow %}
-{% include modal-slide.html %}
-{% endif %}
-{% endfor %}
+{% if portfolio.slideshow %} {% include modal-slide.html %} {% endif %} {%
+endfor %}
 
 <script>
-    window.addEventListener('DOMContentLoaded', () => {
-        $("#sort-updated").click((ev) => {
-            let items = $(".portfolio_item");
-            let tableFilter = $('.table-filter').first();
-            if(items) {
-                items.each((i,el) => {
-                    $(el).remove();
-                    $(el).insertAfter(tableFilter);
-                });
-                $(".fa.fa-arrow-up").first().toggleClass('active');
-                $(".fa.fa-arrow-down").first().toggleClass('active');
-            }
+  window.addEventListener("DOMContentLoaded", () => {
+    $("#sort-updated").click((ev) => {
+      let items = $(".portfolio_item");
+      let tableFilter = $(".table-filter").first();
+      if (items) {
+        items.each((i, el) => {
+          $(el).remove();
+          $(el).insertAfter(tableFilter);
         });
+        $(".fa.fa-arrow-up").first().toggleClass("active");
+        $(".fa.fa-arrow-down").first().toggleClass("active");
+      }
     });
+  });
 </script>
 <script src="/js/searchBackend.js"></script>
 <script>
-    let builder = function() {
-        this.setRef('title')
-        this.addField('description')
-        this.addField('author')
-        this.addField('title')
-        this.addField('developers')
+  let builder = function () {
+    this.setRef("title");
+    this.addField("description");
+    this.addField("author");
+    this.addField("title");
+    this.addField("developers");
+  };
+  function showResults(titles) {
+    $("[data-title]").each(function () {
+      $(this).hide();
+    });
+    for (let r of titles) {
+      $(`[data-title="${r}"`).show();
     }
-    function showResults(titles) {
-        $("[data-title]").each(function(){
-            $(this).hide();
-        });
-        for(let r of titles) {
-            $(`[data-title="${r}"`).show();
-        }
-    }
-    initSearch('/portfolio/search.json', [], builder)
-    .then(({searchData, index}) => {
+  }
+  initSearch("/portfolio/search.json", [], builder).then(
+    ({ searchData, index }) => {
+      let addFilter = new (function () {
+        this.dataset = searchData;
+        this.filterSets = [];
 
-        let addFilter = new (function() {
-            this.dataset = searchData;
-            this.filterSets = [];
-
-            this.applyFilters = function() {
-
-                //calculate set intersection between this.dataset and this.filterSets...
-                let result = new Set(Object.keys(this.dataset));
-                for(let filter of this.filterSets) {
-                    let f_set = new Set(filter);
-                    result = new Set([...result].filter(x => f_set.has(x)));
-                }
-                return [...result];
-
-            };
-
-            return () => {
-                this.filterSets.push(Object.keys(this.dataset));
-                let i = this.filterSets.length - 1;
-
-                return (array) => {
-                    this.filterSets[i] = array;
-                    showResults(this.applyFilters());
-                }
-            };
-        })();
-
-        let menu = $(".table-filter .dropdown-menu").first();
-        let categories = [...new Set(Object.values(searchData).map((el) => el.audience).filter((el) => typeof el !== 'undefined'))];
-
-        let audienceFilter = addFilter();
-        let searchFilter = addFilter();
-
-        function clearDropdown() {
-            $(".table-filter .dropdown-item").each((_, e) => e.classList.remove("active"))
-        }
-
-        function dropdownActiveWrapper(cb) {
-            return function(e) {
-                clearDropdown()
-                e.target.classList.add('active')
-                cb()
-            }
-        }
-
-        let audienceCallback = (audience) => {
-            let keys = Object.keys(searchData).filter((key) => searchData[key].audience == audience)
-            audienceFilter(keys);
+        this.applyFilters = function () {
+          //calculate set intersection between this.dataset and this.filterSets...
+          let result = new Set(Object.keys(this.dataset));
+          for (let filter of this.filterSets) {
+            let f_set = new Set(filter);
+            result = new Set([...result].filter((x) => f_set.has(x)));
+          }
+          return [...result];
         };
 
-        for(let category of categories.sort()) {
-            let el = document.createElement("button");
-            el.setAttribute('type', 'button');
-            el.classList.add('dropdown-item');
-            el.innerText = category;
-            el.onclick = dropdownActiveWrapper(audienceCallback.bind(audienceCallback, category))
+        return () => {
+          this.filterSets.push(Object.keys(this.dataset));
+          let i = this.filterSets.length - 1;
 
-            menu.append(el);
-        }
+          return (array) => {
+            this.filterSets[i] = array;
+            showResults(this.applyFilters());
+          };
+        };
+      })();
 
+      let menu = $(".table-filter .dropdown-menu").first();
+      let categories = [
+        ...new Set(
+          Object.values(searchData)
+            .map((el) => el.audience)
+            .filter((el) => typeof el !== "undefined")
+        ),
+      ];
+
+      let audienceFilter = addFilter();
+      let searchFilter = addFilter();
+
+      function clearDropdown() {
+        $(".table-filter .dropdown-item").each((_, e) =>
+          e.classList.remove("active")
+        );
+      }
+
+      function dropdownActiveWrapper(cb) {
+        return function (e) {
+          clearDropdown();
+          e.target.classList.add("active");
+          cb();
+        };
+      }
+
+      let audienceCallback = (audience) => {
+        let keys = Object.keys(searchData).filter(
+          (key) => searchData[key].audience == audience
+        );
+        audienceFilter(keys);
+      };
+
+      for (let category of categories.sort()) {
         let el = document.createElement("button");
-        el.setAttribute('type', 'button');
-        el.classList.add('dropdown-item', 'active');
-        el.innerText = 'All';
-        el.onclick = dropdownActiveWrapper(audienceFilter.bind(audienceFilter, Object.keys(searchData)))
+        el.setAttribute("type", "button");
+        el.classList.add("dropdown-item");
+        el.innerText = category;
+        el.onclick = dropdownActiveWrapper(
+          audienceCallback.bind(audienceCallback, category)
+        );
 
-        menu.prepend(el);
+        menu.append(el);
+      }
 
-        $("#search-bar").on('input', function() {
-            if($(this).val() == "") {
-                searchFilter(Object.keys(searchData));
-            }
-            else {
-                let results = index.search($(this).val(), {
-                    fields: {
-                    title: {boost: 5, expand: true},
-                    description: {boost: 1},
-                    developers: {boost: 3, expand: true}
-                    }
-                });
-                searchFilter(results.map(el => el.ref));
-            }
-        })
-    });
+      let el = document.createElement("button");
+      el.setAttribute("type", "button");
+      el.classList.add("dropdown-item", "active");
+      el.innerText = "All";
+      el.onclick = dropdownActiveWrapper(
+        audienceFilter.bind(audienceFilter, Object.keys(searchData))
+      );
+
+      menu.prepend(el);
+
+      $("#search-bar").on("input", function () {
+        if ($(this).val() == "") {
+          searchFilter(Object.keys(searchData));
+        } else {
+          let results = index.search($(this).val(), {
+            fields: {
+              title: { boost: 5, expand: true },
+              description: { boost: 1 },
+              developers: { boost: 3, expand: true },
+            },
+          });
+          searchFilter(results.map((el) => el.ref));
+        }
+      });
+    }
+  );
 </script>
 <script defer src="/js/elasticlunr.min.js"></script>

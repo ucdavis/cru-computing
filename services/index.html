@@ -1,68 +1,95 @@
 ---
 layout: twocol
 title: Services
-description:  The goal of the Computing Resources Unit is to provide the best possible customer service, application development, and technology infrastructure to support the business needs of the Dean’s Office and the College of Agricultural & Environmental Sciences and its departments.
+description: The goal of the Computing Resources Unit is to provide the best possible customer service, application development, and technology infrastructure to support the business needs of the Dean’s Office and the College of Agricultural & Environmental Sciences and its departments.
 brand: services
-geotag: id-services
+idservices: true
 permalink: /services/index
 services: aside
-
 ---
 
-      <p>
-          We achieve this by working in collaboration with our customers, the campus technical community, and service providers as partners or leaders towards the common goal of user-friendly, reliable, secure, and efficient computing for the students, staff, and faculty of the University of California and its stakeholders.
-      </p>
+<p>
+  We achieve this by working in collaboration with our customers, the campus
+  technical community, and service providers as partners or leaders towards the
+  common goal of user-friendly, reliable, secure, and efficient computing for
+  the students, staff, and faculty of the University of California and its
+  stakeholders.
+</p>
 
-      <div class="card">
-        <div class="card-content">
-          <h3>Help Desk/Infrastructure</h3>
-          <p>The Help Desk and Infrastructure group provides computer support to the Dean’s Office, Centers and Institutes, numbering over 300 workstations, 150 laptops, and 100 mobile devices. In addition to client computer support, the group maintains the infrastructure for the various services offered: email/calendaring, printing, websites, business applications, databases, etc., as well as providing computer security consulting and remediation for the college under the Cyber-Safety Program.</p>
-          <div class="profile-wrap">
-            {% assign team = site.team | where: "categories","helpdesk"  %}
-            {% for post in team %}
-            {% include team_tooltip.html text=post.name image=post.image %}
-            {% endfor %}
-          </div>
-
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-content">
-      <h3>Business Application Development</h3>
-      <p>The Application Development group writes systems to automate critical business functions. The group retains close ties with application users, so many of the systems evolve continually to address new needs or to meet changes (such as updates in DaFIS accounting databases). The Application group authored and maintains business applications such as Faculty Recruitments, Pre-Purchasing, Student Information Management System, and internal time reporting systems, to name a few.</p>
-        <h3>Team</h3>
-        <ul>
-          {% for post in site.categories.appdev limit:3 %}
-          <li><a target="_blank" href="{{post.current-url}}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
-  <div class="profile-wrap">
-    {% assign team = site.team | where: "categories","webdev"  %}
-    {% for post in team %}
-    {% include team_tooltip.html text=post.name image=post.image %}
-    {% endfor %}
-  </div>
-
-      </div>
+<div class="card">
+  <div class="card-content">
+    <h3>Help Desk/Infrastructure</h3>
+    <p>
+      The Help Desk and Infrastructure group provides computer support to the
+      Dean’s Office, Centers and Institutes, numbering over 300 workstations,
+      150 laptops, and 100 mobile devices. In addition to client computer
+      support, the group maintains the infrastructure for the various services
+      offered: email/calendaring, printing, websites, business applications,
+      databases, etc., as well as providing computer security consulting and
+      remediation for the college under the Cyber-Safety Program.
+    </p>
+    <div class="profile-wrap">
+      {% assign team = site.team | where: "categories","helpdesk" %} {% for post
+      in team %} {% include team_tooltip.html text=post.name image=post.image %}
+      {% endfor %}
     </div>
-    <div class="card">
-      <div class="card-content">
-      <h3>Web Design and Development</h3>
-      <p>The web development group has nearly 40 websites in active use and/or development. These can be divided into the following types: Center sites, program and group sites, research focused sites, institute sites, and conference/event sites. Sites include the college homepage, Agricultural Sustainability Institute, Afghan Agricultural Project, Foods for Health Initiative, as examples.</p>
-      <p>If you are interested in working with us please fill out an <a href="/media/files/caes_cru_webproject.docx">application</a> and send it to <a href="mailto:cydoval@ucdavis.edu">cydoval@ucdavis.edu</a></p>
-      <h3>
-          Team
-      </h3>
-      <ul>
-        {% for post in site.categories.webdev limit:3 %}
-        <li><a target="_blank" href="{{post.current-url}}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-      <div class="profile-wrap">
-        {% assign team = site.team | where: "categories","design"  %}
-        {% for post in team %}
-        {% include team_tooltip.html text=post.name image=post.image %}
-        {% endfor %}
+  </div>
 </div>
+<div class="card">
+  <div class="card-content">
+    <h3>Business Application Development</h3>
+    <p>
+      The Application Development group writes systems to automate critical
+      business functions. The group retains close ties with application users,
+      so many of the systems evolve continually to address new needs or to meet
+      changes (such as updates in DaFIS accounting databases). The Application
+      group authored and maintains business applications such as Faculty
+      Recruitments, Pre-Purchasing, Student Information Management System, and
+      internal time reporting systems, to name a few.
+    </p>
+    <h3>Team</h3>
+    <ul>
+      {% for post in site.categories.appdev limit:3 %}
+      <li>
+        <a target="_blank" href="{{post.current-url}}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="profile-wrap">
+      {% assign team = site.team | where: "categories","webdev" %} {% for post
+      in team %} {% include team_tooltip.html text=post.name image=post.image %}
+      {% endfor %}
     </div>
   </div>
+</div>
+<div class="card">
+  <div class="card-content">
+    <h3>Web Design and Development</h3>
+    <p>
+      The web development group has nearly 40 websites in active use and/or
+      development. These can be divided into the following types: Center sites,
+      program and group sites, research focused sites, institute sites, and
+      conference/event sites. Sites include the college homepage, Agricultural
+      Sustainability Institute, Afghan Agricultural Project, Foods for Health
+      Initiative, as examples.
+    </p>
+    <p>
+      If you are interested in working with us please fill out an
+      <a href="/media/files/caes_cru_webproject.docx">application</a> and send
+      it to <a href="mailto:cydoval@ucdavis.edu">cydoval@ucdavis.edu</a>
+    </p>
+    <h3>Team</h3>
+    <ul>
+      {% for post in site.categories.webdev limit:3 %}
+      <li>
+        <a target="_blank" href="{{post.current-url}}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="profile-wrap">
+      {% assign team = site.team | where: "categories","design" %} {% for post
+      in team %} {% include team_tooltip.html text=post.name image=post.image %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
