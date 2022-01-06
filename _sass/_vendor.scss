@@ -453,7 +453,43 @@
   animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
   stroke-linecap: round;
 }
+.plant-grow {
+  stroke-dasharray: 150, 200;
+  stroke-dashoffset: -10;
+  -webkit-animation: dash 1.5s ease-in-out infinite,
+    color 6s ease-in-out infinite;
+  animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  animation-direction: reverse;
+  stroke-linecap: round;
+}
 
+.mainleaf-grow {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: grow 5s infinite forwards;
+}
+.sideleaf-grow {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: growtwo 5s infinite forwards;
+}
+
+@keyframes grow {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes growtwo {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  10% {
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
 @-webkit-keyframes rotate {
   100% {
     -webkit-transform: rotate(360deg);
@@ -483,16 +519,13 @@
 }
 @keyframes dash {
   0% {
-    stroke-dasharray: 1, 200;
-    stroke-dashoffset: 0;
+    stroke-dasharray: 4, 200;
   }
   50% {
     stroke-dasharray: 89, 200;
-    stroke-dashoffset: -35;
   }
   100% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -124;
+    stroke-dasharray: 4, 200;
   }
 }
 @-webkit-keyframes color {
