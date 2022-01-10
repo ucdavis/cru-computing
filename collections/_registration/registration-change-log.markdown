@@ -2,10 +2,20 @@
 title:  "New Features and Changes."
 description: "Stay up to date with all the new features and changes."
 author: "Jason Sylvestre"
-date:   2021-04-26
+date:   2022-01-10
 ---
 
 # New Features and Changes
+
+## Jan 10, 2022
+* An registration confirmation email will be sent to the user upon successful registration for the event so they have a way to get back to the payment portal if they have problems. This should reduce the number of extra registration attempts when there are payment issues.
+
+Example:
+
+<a data-toggle="lightbox" href="/media/registration/reg-email-example.png">
+![Email Example](https://computing.caes.ucdavis.edu/media/registration/reg-email-example.png "Email Example")
+</a>
+
 
 ## April 26, 2021
 * Updated internal packages. No visible UI changes.
