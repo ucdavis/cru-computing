@@ -2,11 +2,14 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within Payments."
 author: "Jason Sylvestre"
-date:   2021-06-17
+date:   2022-02-11
 permalink: /documentation/payments/change-log
 ---
 
 # New Features and Changes
+
+## Feb 11, 2022
+* Fixed Aging Report to use the due date if available, and if not the created date as resending an invoice caused the values to shift around in the report.
 
 ## June 17, 2021
 * Fixed an issue where a line item longer than 100 characters prevented an invoice from being saved with just a generic message.
