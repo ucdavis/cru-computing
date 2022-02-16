@@ -84,16 +84,16 @@ header {
   padding: 0;
   width: 80%;
   max-width: 1440px;
-  @include breakpoint(sm) {
-    width: 95%;
+  @include breakpoint(lg) {
+    width: 85%;
     max-width: 1440px;
   }
   @include breakpoint(md) {
     width: 90%;
     max-width: 1440px;
   }
-  @include breakpoint(lg) {
-    width: 85%;
+  @include breakpoint(sm) {
+    width: 95%;
     max-width: 1440px;
   }
 }
