@@ -12,3 +12,7 @@ Gemfile.lock
 /.vs/cru-computing/v16/.suo
 /.vs/ProjectSettings.json
 /.vs/cru-computing/config/applicationhost.config
+.DS_Store
+collections/.DS_Store
+.DS_Store
+media/.DS_Store
