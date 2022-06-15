@@ -2,10 +2,13 @@
 title:  "New Features and Changes"
 description: "Stay up to date with all the new features and changes within PEAKS."
 author: "Jason Sylvestre"
-date:   2021-08-11
+date:   2022-06-15
 ---
 
 # New Features and Changes
+
+## June 15, 2022
+* A new report was added to show spaces that have been deactivated that have assets assigned. If this report shows anything, the assets should be disassociated or otherwise removed from the space and reassigned if necessary. The report is called: InActive Spaces With Assets 
 
 ## Aug 11, 2021
 * If you have access to the Person Details page, there are now links from the history to the item that was assigned or revoked for equipment, access, and keys.
