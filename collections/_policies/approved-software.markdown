@@ -50,7 +50,6 @@ date: 2020-10-28 11:30
 	<li>FileMaker Pro</li>
 	<li>FileZilla Client</li>
 	<li>Fonts (UC Davis Fonts Pack)</li>
-	<li>GIMP</li>
 	<li>Git</li>
 	<li>GitHub Desktop</li>
 	<li>Google Chrome</li>
