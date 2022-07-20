@@ -1,17 +1,32 @@
 <ul class="no-bullet mb-5">
   <h3>Create new ticket</h3>
-  <p>Can't find the solution to your question?<br>Click <a href="https://caeshelp.ucdavis.edu/"><b>here</b></a> to create a new ticket and we'll get back to you as soon as possible.</p>
+  <p>
+    Can't find the solution to your question?<br />Click
+    <a href="https://caeshelp.ucdavis.edu/"><b>here</b></a> to create a new
+    ticket and we'll get back to you as soon as possible.
+  </p>
 </ul>
 <ul class="category-list no-bullet mb-5">
   <h3>Categories</h3>
   <li><a class="helpdesk-tag" href="/documentation/helpdesk">Help Desk</a></li>
   <li><a class="policies-tag" href="/documentation/policies">Policies</a></li>
-    <li><a class="payments-tag" href="/documentation/payments">Payments</a></li>
+  <li><a class="payments-tag" href="/documentation/payments">Payments</a></li>
   <li><a class="ace-tag" href="/documentation/ace">ACE</a></li>
-  <li><a class="purchasing-tag" href="/documentation/purchasing">Purchasing</a></li>
+  <li>
+    <a class="purchasing-tag" href="/documentation/purchasing">Purchasing</a>
+  </li>
   <li><a class="peaks-tag" href="/documentation/peaks">PEAKS</a></li>
-  <li><a class="commencement-tag" href="/documentation/commencement">Commencement</a></li>
-  <li><a class="registration-tag" href="/documentation/registration">Registration</a></li>
+  <li>
+    <a class="commencement-tag" href="/documentation/commencement"
+      >Commencement</a
+    >
+  </li>
+  <li><a class="harvest-tag" href="/documentation/harvest">Harvest</a></li>
+  <li>
+    <a class="registration-tag" href="/documentation/registration"
+      >Registration</a
+    >
+  </li>
 </ul>
 <ul class="no-bullet">
   <h3>Recent Articles</h3>
@@ -28,48 +43,43 @@
     </a>
   </li>
   {% endfor %} -->
-  {% assign policies = site.policies | reverse %}
-  {% for post in policies limit: 1 %}
+  {% assign policies = site.policies | reverse %} {% for post in policies limit:
+  1 %}
   <li class="policies-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
     </a>
   </li>
-  {% endfor %}
-  {% assign aceeval = site.ace | reverse %}
-  {% for post in aceeval limit: 1 %}
+  {% endfor %} {% assign aceeval = site.ace | reverse %} {% for post in aceeval
+  limit: 1 %}
   <li class="ace-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
     </a>
   </li>
-  {% endfor %}
-  {% assign purchasing = site.purchasing | reverse %}
-  {% for post in purchasing limit: 1 %}
+  {% endfor %} {% assign purchasing = site.purchasing | reverse %} {% for post
+  in purchasing limit: 1 %}
   <li class="purchasing-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
     </a>
   </li>
-  {% endfor %}
-  {% assign peaks = site.peaks | reverse %}
-  {% for post in peaks limit: 1 %}
+  {% endfor %} {% assign peaks = site.peaks | reverse %} {% for post in peaks
+  limit: 1 %}
   <li class="peaks-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
     </a>
   </li>
-  {% endfor %}
-  {% assign commencement = site.commencement | reverse %}
-  {% for post in commencement limit: 1 %}
+  {% endfor %} {% assign commencement = site.commencement | reverse %} {% for
+  post in commencement limit: 1 %}
   <li class="commencement-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}
     </a>
   </li>
-  {% endfor %}
-  {% assign registration = site.registration | reverse %}
-  {% for post in registration limit: 1 %}
+  {% endfor %} {% assign registration = site.registration | reverse %} {% for
+  post in registration limit: 1 %}
   <li class="registration-dot">
     <a class="no-color" href="{{ site.baseurl }}{{ post.url }}">
       <b>{{post.title}}</b> - {{post.date | date_to_string}}

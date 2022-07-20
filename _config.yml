@@ -45,6 +45,9 @@ collections:
   registration:
     output: true
     permalink: /documentation/:collection/:title
+  harvest:
+    output: true
+    permalink: /documentation/:collection/:title
   portfolio:
   team:
   screenshots:
