@@ -63,6 +63,30 @@
     margin-bottom: 16px;
   }
 }
+.harvest-total {
+  hr {
+    border: 1px solid $harvest;
+    margin-bottom: 1.6rem;
+  }
+  ol.breadcrumb {
+    > .active {
+      color: transparentize($harvest, 0.23);
+    }
+  }
+  a {
+    color: $harvest;
+    &:hover {
+      text-decoration: underline;
+      color: lighten($harvest, 15);
+    }
+  }
+  .callout {
+    background-color: transparentize($harvest, 0.92);
+    border-left: 5px solid $harvest;
+    padding: 20px 20px 10px 20px;
+    margin-bottom: 16px;
+  }
+}
 .documentation-total {
   hr {
     border: 1px solid $documentation;
@@ -322,6 +346,13 @@
   background-color: $registration;
   &:hover {
     background-color: transparentize($registration, 0.15);
+  }
+}
+.harvest-tag {
+  @include tag;
+  background-color: $harvest;
+  &:hover {
+    background-color: transparentize($harvest, 0.15);
   }
 }
 .commencement-tag {
