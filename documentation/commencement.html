@@ -1,21 +1,26 @@
 ---
 layout: twocol
 title: Commencement
-description:  Support articles for admins of commencement
+description: Support articles for admins of commencement
 brand: commencement
 permalink: /documentation/commencement
 documentation: aside
+published: false
 search:
   - commencement
 ---
 
-{% assign collect = site.commencement %}
-{% for post in site.commencement reversed %}
+{% assign collect = site.commencement %} {% for post in site.commencement
+reversed %}
 <div class="documentation-item" data-title="{{post.title}}">
-  <a class="documentation-snippet" class="no-color" href="{{ site.baseurl }}{{ post.url }}">
-  <h2>{{post.title}}</h2>
-  <p style="margin-top:0px;">{{ post.description }}</p>
-</a>
+  <a
+    class="documentation-snippet"
+    class="no-color"
+    href="{{ site.baseurl }}{{ post.url }}"
+  >
+    <h2>{{post.title}}</h2>
+    <p style="margin-top: 0px">{{ post.description }}</p>
+  </a>
 </div>
 
 {% endfor %}

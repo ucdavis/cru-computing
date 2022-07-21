@@ -118,6 +118,14 @@ defaults:
       documentation: "aside"
       layout: "twocol"
       bio: "true"
+  - scope:
+      type: "harvest"
+    values:
+      categories: "harvest"
+      brand: "harvest"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
 
 breadcrumbs:
 root:
