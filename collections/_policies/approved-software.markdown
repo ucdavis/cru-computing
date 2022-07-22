@@ -40,6 +40,7 @@ date: 2020-10-28 11:30
 	<li>Box Tools</li>
 	<li>Box for Office</li>
 	<li>Camtasia Studio</li>
+	<li>CleanMyMac X</li>
 	<li>Cisco Jabber</li>
 	<li>CrashPlan</li>
 	<li>Dell Command Update</li>
