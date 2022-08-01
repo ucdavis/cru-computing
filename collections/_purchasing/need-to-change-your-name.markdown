@@ -14,4 +14,4 @@ Need to enter the *witness* protection program?
 We can change it for you, it is a manual process, so just submit a help ticket from within Prepurchasing with your new or correct name and we will update it for you.
 
 You can also create a help ticket from here:
-[PrePurchasing Help Ticket](https://secure.caes.ucdavis.edu/help/Ticket/Submit?appName=opp?appName=opp)
+[PrePurchasing Help Ticket](https://caeshelp.ucdavis.edu/?appname=OPP)
