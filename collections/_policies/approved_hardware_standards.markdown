@@ -1,5 +1,5 @@
 ---
-title:  "Hardware Windows Hardware"
+title:  "Approved Hardware Standards"
 description: "CA&ES CRU minimum hardware requirements and standard hardware models for laptops (Windows and macOS), monitors, printers, and docks."
 author: "Steven Barkey"
 date:   2022-08-05 08:00:00
