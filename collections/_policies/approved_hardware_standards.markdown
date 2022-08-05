@@ -5,7 +5,8 @@ author: "Steven Barkey"
 date:   2022-08-05 08:00:00
 ---
 <p>Requests for any new hardware that is not listed under the <a href="#standard-hardware-models">Standard Hardware Models</a> or does not meet or exceed the <a href="#minimum-hardware-requirements">Minimum Hardware Requirements</a> must be approved through the <a href="https://kb.ucdavis.edu/?id=7295" target="_new">CAES Dean's Office Exception Request</a> process.</p>
-
+<br />
+<br />
 <h2>Minimum Hardware Requirements</h2>
 <h3>Computers</h3>
 <p>All new computers supported by the CA&ES Dean’s Office Computer Resources Unit must either meet or exceed these specifications</p>
@@ -19,6 +20,7 @@ date:   2022-08-05 08:00:00
     <li><b>Security:</b> Trusted Platform Module 2.0</li>
     <li><b>Warranty:</b> 4 Year Warranty</li>
   </ul>
+  <br />
   <h4>macOS Laptop Models</h4>
   <ul>
   	<li><b>Operating System:</b> macOS 12</li>
@@ -29,12 +31,14 @@ date:   2022-08-05 08:00:00
     <li><b>Warranty:</b> 4 Year Warranty</li>
   </ul>
 </ul>
+<br />
 <h3>Monitors</h3>
 <p>All new monitors supported by the CA&ES Dean’s Office Computer Resources Unit must either meet or exceed these specifications</p>
 <ul>
 	<li><b>Screen Size:</b> 24-inch</li>
 	<li><b>Warranty:</b> 4-years</li>
 </ul>
+<br />
 <h3>Docks</h3>
 <p>All new docks supported by the CA&ES Dean’s Office Computer Resources Unit must either meet or exceed these specifications</p>
 <ul>
