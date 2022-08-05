@@ -10,7 +10,7 @@ date:   2022-08-05 08:00:00
 <h2>Minimum Hardware Requirements</h2>
 <h3>Computers</h3>
 <p>All new computers supported by the CA&ES Dean’s Office Computer Resources Unit must either meet or exceed these specifications</p>
-<ul class="no-bullet">
+<ul>
   <h4>Windows Laptop Models</h4>
   <ul>
   	<li><b>Operating System:</b> Microsoft Windows 10 Enterprise Edition (64-bit)</li>
@@ -48,10 +48,17 @@ date:   2022-08-05 08:00:00
 	<li><b>Warranty:</b> 4-years</li>
 </ul>
 <br />
+<h3>Printers</h3>
+<p>All new printers supported by the CA&ES Dean’s Office Computer Resources Unit must either meet or exceed these specifications</p>
+<ul>
+	<li><b>Connection Type:</b> Network</li>
+	<li><b>Warranty:</b> 4-years</li>
+</ul>
+<br />
 <br />
 <h2>Standard Hardware Models</h2>
 <h3>Computers</h3>
-<ul class="no-bullet">
+<ul>
   <h4>Windows Laptop Models</h4>
   <ul>
     <li><b>Standard:</b> Dell Latitude 5430</li>
@@ -70,20 +77,39 @@ date:   2022-08-05 08:00:00
   <ul>
     <li>1x Dell U2422HE and 1x Dell U2422H</li>
   </ul>
+  <br />
   <h4>macOS Computers</h4>
   <ul>
     <li>2x Dell U2422H</li>
   </ul>
 </ul>
 <br />
-<h3>Docking Station</h3>
-<ul class="no-bullet">
+<h3>Docks</h3>
+<ul>
   <h4>Windows Computers</h4>
   <ul>
     <li>None - The U2422HE has an integrated Dock</li>
   </ul>
+  <br />
   <h4>macOS Computers</h4>
   <ul>
     <li>Belkin Thunderbolt 3 Dock Pro</li>
+  </ul>
+</ul>
+<br />
+<h3>Printers</h3>
+<ul>
+  <h4>Color</h4>
+  <ul>
+    <li>HP Color LaserJet Enterprise MFP M480f</li>
+    <li>Xerox WorkCentre 6515/dn</li>
+    <li>Xerox C310/DNI</li>
+</li>
+  </ul>
+  <br />
+  <h4>Black and White</h4>
+  <ul>
+    <li>Xerox B230</li>
+    <li>HP LaserJet Pro M404dn</li>
   </ul>
 </ul>
