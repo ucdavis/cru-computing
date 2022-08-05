@@ -11,7 +11,7 @@ date:   2022-08-05 08:00:00
 <p>All new computers supported by the CA&ES Dean’s Office Computer Resources Unit must either meet or exceed these specifications</p>
 <ul class="no-bullet">
   <h4>Windows Laptop Models</h4>
-  <ul class="no-bullet">
+  <ul>
   	<li><b>Operating System:</b> Microsoft Windows 10 Enterprise Edition (64-bit)</li>
   	<li><b>Processor:</b> Intel Core i5</li>
     <li><b>Memory:</b> 16GB</li>
@@ -20,7 +20,7 @@ date:   2022-08-05 08:00:00
     <li><b>Warranty:</b> 4 Year Warranty</li>
   </ul>
   <h4>macOS Laptop Models</h4>
-  <ul class="no-bullet">
+  <ul>
   	<li><b>Operating System:</b> macOS 12</li>
   	<li><b>Processor:</b> Apple Silicon</li>
     <li><b>Memory:</b> 16GB</li>
@@ -31,7 +31,7 @@ date:   2022-08-05 08:00:00
 </ul>
 <h3>Monitors</h3>
 <p>All new monitors supported by the CA&ES Dean’s Office Computer Resources Unit must either meet or exceed these specifications</p>
-<ul class="no-bullet">
+<ul>
 	<li><b>Screen Size:</b> 24-inch</li>
 	<li><b>Warranty:</b> 4-years</li>
 </ul>
@@ -49,12 +49,12 @@ date:   2022-08-05 08:00:00
 <h3>Computers</h3>
 <ul class="no-bullet">
   <h4>Windows Laptop Models</h4>
-  <ul class="no-bullet">
+  <ul>
     <li><b>Standard:</b> Dell Latitude 5430</li>
     <li><b>Performance:</b> Dell Latitude 7430</li>
   </ul>
   <h4>macOS Laptop Models</h4>
-  <ul class="no-bullet">
+  <ul>
     <li><b>Standard:</b> Apple MacBook Air</li>
     <li><b>Performance:</b> Apple MacBook Pro</li>
   </ul>
@@ -63,11 +63,11 @@ date:   2022-08-05 08:00:00
 <h3>Monitors</h3>
 <ul class="no-bullet">
   <h4>Windows Computers</h4>
-  <ul class="no-bullet">
+  <ul>
     <li>1x Dell U2422HE and 1x Dell U2422H</li>
   </ul>
   <h4>macOS Computers</h4>
-  <ul class="no-bullet">
+  <ul>
     <li>2x Dell U2422H</li>
   </ul>
 </ul>
@@ -75,11 +75,11 @@ date:   2022-08-05 08:00:00
 <h3>Docking Station</h3>
 <ul class="no-bullet">
   <h4>Windows Computers</h4>
-  <ul class="no-bullet">
+  <ul>
     <li>None - The U2422HE has an integrated Dock</li>
   </ul>
   <h4>macOS Computers</h4>
-  <ul class="no-bullet">
+  <ul>
     <li>Belkin Thunderbolt 3 Dock Pro</li>
   </ul>
 </ul>
