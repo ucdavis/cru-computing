@@ -64,6 +64,7 @@ date:   2022-08-05 08:00:00
     <li><b>Standard:</b> Dell Latitude 5430</li>
     <li><b>Performance:</b> Dell Latitude 7430</li>
   </ul>
+  <br />
   <h4>macOS Laptop Models</h4>
   <ul>
     <li><b>Standard:</b> Apple MacBook Air</li>
@@ -72,7 +73,7 @@ date:   2022-08-05 08:00:00
 </ul>
 <br />
 <h3>Monitors</h3>
-<ul class="no-bullet">
+<ul>
   <h4>Windows Computers</h4>
   <ul>
     <li>1x Dell U2422HE and 1x Dell U2422H</li>
@@ -104,7 +105,6 @@ date:   2022-08-05 08:00:00
     <li>HP Color LaserJet Enterprise MFP M480f</li>
     <li>Xerox WorkCentre 6515/dn</li>
     <li>Xerox C310/DNI</li>
-</li>
   </ul>
   <br />
   <h4>Black and White</h4>
