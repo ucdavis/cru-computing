@@ -100,16 +100,17 @@ date:   2022-08-05 08:00:00
 <br />
 <h3>Printers</h3>
 <ul>
-  <h4>Color</h4>
+  <h4>Multi-Function</h4>
   <ul>
-    <li>HP Color LaserJet Enterprise MFP M480f</li>
-    <li>Xerox WorkCentre 6515/dn</li>
-    <li>Xerox C310/DNI</li>
+    <li>Color: HP Color LaserJet Enterprise MFP M480f</li>
+    <li>Color: Xerox WorkCentre 6515/dn</li>
+    <li>Color: Xerox C235/DNI</li>
   </ul>
   <br />
-  <h4>Black and White</h4>
+  <h4>Print Only</h4>
   <ul>
-    <li>Xerox B230</li>
-    <li>HP LaserJet Pro M404dn</li>
+    <li>Color: Xerox C310/DNI</li>
+    <li>B/W: Xerox B230/DNI</li>
+    <li>B/W: HP LaserJet Pro M404dn</li>
   </ul>
 </ul>
