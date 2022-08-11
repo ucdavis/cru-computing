@@ -1,9 +1,10 @@
 ---
-title:  "Reactivate Duo on a smartphone"
+title: "Reactivate Duo on a smartphone"
 description: "Use this guide to reactivate the Duo MFA (Multi-Factor Authentication) app on a previously activated smartphone."
 author: "Steven Barkey"
-date:   2019-08-14 12:15:00
+date: 2019-08-14 12:15:00
 permalink: /documentation/helpdesk/reactivate-duo-on-smartphone
+redirect_to: https://kb.ucdavis.edu/?id=3190
 ---
 
 <p>If you have replaced your smartphone, reset it back to factory configuration, or removed and readded the Duo Mobile app, you will need to reactivate the Duo Mobile app on your smartphone with your Duo account.  To do so, please follow the instructions below.</p>

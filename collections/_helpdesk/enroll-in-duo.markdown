@@ -1,8 +1,9 @@
 ---
-title:  "Enroll in Duo MFA"
+title: "Enroll in Duo MFA"
 description: "Use this guide to self-enroll in the Duo MFA (Multi-Factor Authentication) service used on campus."
 author: "Steven Barkey"
-date:   2019-01-24 13:25:17
+date: 2019-01-24 13:25:17
+redirect_to: https://kb.ucdavis.edu/?id=2934
 ---
 
 <p>UC Davis is enforcing a new security measure to protect campus computing accounts, known as Duo MFA (Multi-Factor Authentication).  Essentially, when your campus computing account is protected with Duo, it means that in addition to your UC Davis username and password, you’ll need a third thing which only you can access, when you authenticate using your campus computing account.</p>
