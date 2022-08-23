@@ -11,7 +11,7 @@ Need to enter the *witness* protection program?
 ----------
 
 Please first try updating from the campus systems by using this link (Profile in PrePurchasing menu):
-https://prepurchasing.ucdavis.edu/User/Profile
+[PrePurchasing User Profile](https://prepurchasing.ucdavis.edu/User/Profile)
 
 Click the button. If it doesn't update correctly, follow the instructions below.
 
