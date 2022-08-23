@@ -16,3 +16,7 @@ Gemfile.lock
 collections/.DS_Store
 .DS_Store
 media/.DS_Store
+
+/.vs/cru-computing/v17/.suo
+
+/.vs/cru-computing/FileContentIndex/*
