@@ -56,7 +56,6 @@ date: 2020-10-28 11:30
 	<li>Google Chrome</li>
 	<li>Google Earth</li>
 	<li>InkScape</li>
-	<li>Java SE</li>
 	<li>Jamf</li>
 	<li>Kaltura Capture</li>
 	<li>Mendeley Desktop</li>
