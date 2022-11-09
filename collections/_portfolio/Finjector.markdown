@@ -1,5 +1,5 @@
 ---
-title: "Financial Common chart of accounts Injector"
+title: "Chart of Accounts picker"
 audience: "CAES"
 description: "Small web application to help users find their new Common chart of accounts."
 developers:
