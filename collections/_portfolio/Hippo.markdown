@@ -7,7 +7,7 @@ developers:
   - Scott Kirkland
   - Jason Sylvestre
   - Spruce Milne-Webb
-image: "Hippo"
+image: "hippo"
 bgcolor: 4A156A
 date: 2022-08-23
 ---
