@@ -7,18 +7,18 @@
     {% if page.image %}
     <meta property="og:image" content="{{ site.url | append: page.image }}" />
     {% else %}
-    <meta property="og:image" content="{{ site.url | append: '/media/thumbnail.jpg' }}" />
-    {%- endif -%}
-
-    {% if page.description %}
+    <meta
+      property="og:image"
+      content="{{ site.url | append: '/media/thumbnail.jpg' }}"
+    />
+    {%- endif -%} {% if page.description %}
     <meta property="og:description" content="{{ page.description }}" />
-    {%- endif -%}
-
-    {% if page.collection and page.collection != "team" and page.collection != "portfolio" %}
+    {%- endif -%} {% if page.collection and page.collection != "team" and
+    page.collection != "portfolio" %}
     <meta property="og:type" content="article" />
-    <meta property="article:published_time" content="{{ page.date }}"/>
-    <meta property="article:author" content="{{ page.author }}"/>
-    <meta property="article:section" content="{{ page.collection }}"/>
+    <meta property="article:published_time" content="{{ page.date }}" />
+    <meta property="article:author" content="{{ page.author }}" />
+    <meta property="article:section" content="{{ page.collection }}" />
     {% else %}
     <meta property="og:type" content="website" />
     {%- endif -%}
@@ -38,7 +38,8 @@
         "address": "Mrak Hall, Davis, CA 95616"
       }
     </script>
-    {% elsif page.collection and page.collection != "team" and page.collection != "portfolio" %}
+    {% elsif page.collection and page.collection != "team" and page.collection
+    != "portfolio" %}
     <script type="application/ld+json">
       {
         "@context": "https://schema.org/",
@@ -88,106 +89,112 @@
     </script>
     {%- endif -%}
   </head>
-  <body {% if page.home %} class="landing-bg" {% endif %} >
+  <!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-P7TG6TXWK0"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-P7TG6TXWK0");
+  </script>
+  <body {% if page.home %} class="landing-bg" {% endif %}>
     <!-- darkmode saved -->
     <script>
-        function getCookie(cname) {
+      function getCookie(cname) {
         var name = cname + "=";
         var decodedCookie = decodeURIComponent(document.cookie);
-        var ca = decodedCookie.split(';');
-        for(var i = 0; i <ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) == ' ') {
+        var ca = decodedCookie.split(";");
+        for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == " ") {
             c = c.substring(1);
-            }
-            if (c.indexOf(name) == 0) {
+          }
+          if (c.indexOf(name) == 0) {
             return c.substring(name.length, c.length);
-            }
+          }
         }
         return "";
-        }
+      }
 
-        if (getCookie('darkmode') === '1') {
-            var body = document.getElementsByTagName('body')[0];
-            body.className += ' darkmode';
-        }
+      if (getCookie("darkmode") === "1") {
+        var body = document.getElementsByTagName("body")[0];
+        body.className += " darkmode";
+      }
     </script>
     <div class="page-wrap">
-    {% if page.home == nil %}
-    {% include header.html url=page.url %}
-    {% endif %}
-
-      {{ content }}
+      {% if page.home == nil %} {% include header.html url=page.url %} {% endif
+      %} {{ content }}
     </div>
-
-
 
     {% include footer.html %}
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="/js/cssbrowserselector.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-  <script src="/js/cssbrowserselector.js"></script>
-  <script
-  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
-  <!-- rotate dark mode -->
-  <script>
-  $(".rotate").click(function(){
-    $(this).toggleClass("down");
-  });
-  </script>
-
-  <!-- dark mode toggle -->
-  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-  <script>
-      $("#dm-toggle").click(function() {
-          $("body").toggleClass("darkmode");
-          $("body").addClass('fader');
-          var isDarkMode = Cookies.get('darkmode');
-          if (isDarkMode === '1') {
-              Cookies.set('darkmode', '0', { expires: 1 });
-          } else {
-              Cookies.set('darkmode', '1', { expires: 1 });
-          }
+    <!-- rotate dark mode -->
+    <script>
+      $(".rotate").click(function () {
+        $(this).toggleClass("down");
       });
-  </script>
-  <!-- <script src="/js/classie.js"></script> -->
+    </script>
 
-  <!-- tooltip -->
-  <script>
+    <!-- dark mode toggle -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script>
+      $("#dm-toggle").click(function () {
+        $("body").toggleClass("darkmode");
+        $("body").addClass("fader");
+        var isDarkMode = Cookies.get("darkmode");
+        if (isDarkMode === "1") {
+          Cookies.set("darkmode", "0", { expires: 1 });
+        } else {
+          Cookies.set("darkmode", "1", { expires: 1 });
+        }
+      });
+    </script>
+    <!-- <script src="/js/classie.js"></script> -->
+
+    <!-- tooltip -->
+    <script>
       $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-      })
-  </script>
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
 
-  <!-- breadcrumb -->
-  <script>
-     $(".breadcrumb li").last().addClass('active');
-  </script>
+    <!-- breadcrumb -->
+    <script>
+      $(".breadcrumb li").last().addClass("active");
+    </script>
 
-  <!-- Google Analytics -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-652647-14', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-  <!-- Lightbox -->
+    <!-- Lightbox -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-  <script>
-  $(document).on("click", '[data-toggle="lightbox"]', function(event) {
-  event.preventDefault();
-  $(this).ekkoLightbox();
-});
-  </script>
-</body>
+    <script>
+      $(document).on("click", '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+    </script>
+  </body>
 </html>
