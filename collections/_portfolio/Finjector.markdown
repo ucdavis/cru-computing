@@ -7,6 +7,7 @@ developers:
   - Scott Kirkland
   - Jason Sylvestre
 image: "finjector"
+current-url: "https://finjector.ucdavis.edu/"
 bgcolor: 204060
 date: 2022-11-08
 ---
