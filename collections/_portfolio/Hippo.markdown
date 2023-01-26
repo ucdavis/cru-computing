@@ -1,5 +1,6 @@
 ---
 title: "HiPPO"
+status: "active"
 audience: "CAES"
 description: "Web application to manage access to the high performance computing clusters."
 developers:

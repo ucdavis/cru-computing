@@ -57,20 +57,43 @@ home: true
       Latest Projects
     </h2>
     {% assign sorted = site.portfolio | sort: 'date' | reverse %}
-    {% for post in sorted limit: 2 %}
-    <a href="{{ post.current-url }}" target="_blank">
-    <div class="card mb-5 featured-item">
-      <div class="row" style="background-color:#{{ post.bgcolor }}">
+    {% for post in sorted limit: 4 %}
+    <div class="featured-proj" style="border-color:#{{ post.bgcolor }}">
+    <p class="featured-proj-title">{{ post.title }}</p>
+    <div class="flexin">
+      <p class="featured-proj-date">
+      {{ post.date | date: "%B %Y"  }}
+    </p>
+    <p class="featured-proj-url"><a target="_blank" href="{{ post.current-url }}">{{ post.current-url }}</a></p>
+    </div>
+    {% if post.github %}
+    <p><a href="{{ post.github }}">{{ post.github }}</a></p>
+    {% endif %}
+    {% if post.developers %}
+      <div class="profile-wrap">
+        {% for developer in post.developers %} {% assign dev = site.team |
+        where: "name", developer | first %} {% include team_tooltip.html
+        text=dev.name image=dev.image %} {% endfor %}
+      </div>
+
+      {% endif %}
+    </div>
+    
+    
+
+    <!-- <a href="{{ post.current-url }}" target="_blank">
+    <div class="featured-proj">
+      <div class="row" style="border-color:#{{ post.bgcolor }}">
         <div class="col-sm-6" style="padding-right:0px">
           <img class="img-fluid" src="/media/portfolio/{{ post.image }}.png" alt="project_thumbnail">
         </div>
         <div class="col-sm-6 align-self-center" style="padding-left:0px">
-          <h1>{{ post.title }}</h1>
+          <h1></h1>
           <p class="lead">{{ post.date | date: "%B %Y"  }} • {{ post.audience }}</p>
         </div>
       </div>
     </div>
-    </a>
+    </a> -->
     {% endfor %}
 
   </div>

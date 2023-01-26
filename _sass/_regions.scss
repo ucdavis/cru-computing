@@ -36,19 +36,20 @@ img#team-image {
   }
 }
 
-.featured-item {
-  text-align: center;
-  h1 {
-    color: rgba(255, 255, 255, 0.95);
-    font-family: $sans-bold !important;
-    font-size: 3rem;
-    line-height: 3.4rem;
+.featured-proj {
+  border-left: 3px solid $borders;
+  .featured-proj-title {
+    font-size: 2.2rem;
+    font-family: $sans-bold;
   }
-  p.lead {
-    color: rgba(255, 255, 255, 0.95);
+  .featured-proj-date {
+    font-size: 1.8rem;
+    color: $tertiary-font;
+  }
+  .featured-proj-url {
+    font-size: 1.8rem;
   }
 }
-
 .documentation-item {
   margin-top: 8px;
   margin-bottom: 24px;

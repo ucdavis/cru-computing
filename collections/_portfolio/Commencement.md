@@ -1,8 +1,8 @@
 ---
 title: "Commencement"
+status: "retired"
 audience: "Campus wide"
 description: "Campus commencement registration system that tracks and distributes tickets to students."
-current-url:
 audience: "Students and Staff"
 developers:
   - Scott Kirkland

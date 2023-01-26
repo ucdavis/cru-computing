@@ -28,14 +28,7 @@ permalink: /portfolio
     <i class="fa fa-arrow-down mx-1 active" aria-hidden="true"></i>
   </div>
   <div
-    class="
-      d-md-inline-flex d-none
-      table-filter-item
-      justify-content-center
-      flex-column
-      dropdown
-      p-0
-    "
+    class="d-md-inline-flex d-none table-filter-item justify-content-center flex-column dropdown p-0"
   >
     <div
       class="dropdown-toggle"
@@ -53,29 +46,22 @@ permalink: /portfolio
 <div class="portfolio_item" data-title="{{portfolio.title}}">
   <div class="row justify-content-between">
     <div class="col-12 col-sm-8 col-md-5">
-      <div class="flexin portfolio-title">
-        <h1>{{ portfolio.title }}</h1>
-        <div class="portfolio-controls">
-          {% if portfolio.current-url %}
-
-          <a class="no-underline" href="{{ portfolio.current-url }}">
-            <i class="fas fa-external-link-square-alt"></i>
-          </a>
-
-          {% endif %} {% if portfolio.slideshow %}
-          <a
-            class="no-underline"
-            href="#{{ portfolio.image }}"
-            data-toggle="modal"
-          >
-            <i class="fas fa-images"></i>
-          </a>
+      <div class="portfolio-title flexin">
+        <div>
+          {% if portfolio.status %}
+          <p class="port-status{{ portfolio.status}}">{{ portfolio.status }}</p>
           {% endif %}
+          <h1>{{ portfolio.title }}</h1>
         </div>
       </div>
 
       <p class="lead">
-        {{ portfolio.date | date: "%B %Y" }} • {{ portfolio.audience }}
+        {{ portfolio.date | date: "%B %Y" }} • {{ portfolio.audience }}{% if
+        portfolio.current-url %} •
+        <a class="no-underline" href="{{ portfolio.current-url }}">
+          view site</a
+        >
+        {% endif %}
       </p>
       <p>{{ portfolio.description }}</p>
       {% if portfolio.developers %}

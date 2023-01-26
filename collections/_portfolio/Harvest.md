@@ -1,5 +1,6 @@
 ---
 title: "Harvest"
+status: "active"
 description: "Field management system for tracking agricultural experiments throughout their lifecycles -- including quote approval workflows, expense reporting, and automated billing."
 audience: "CAES"
 developers:

@@ -1,5 +1,6 @@
 ---
 title: "Plant Transformation Facility"
+status: "active"
 audience: "CAES"
 description: "Plant Transformation Facility: Online ordering system for the Plant Transformation Facility. Features online ordering from clients, inventory management, and online billing integration."
 current-url: "https://ptf.ucdavis.edu"
@@ -9,5 +10,4 @@ developers:
   - Ken Taylor
   - Cal Doval
 image: "ptf"
-
 ---
