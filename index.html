@@ -63,20 +63,35 @@ home: true
     <div class="flexin">
       <p class="featured-proj-date">
       {{ post.date | date: "%B %Y"  }}
+
     </p>
-    <p class="featured-proj-url"><a target="_blank" href="{{ post.current-url }}">{{ post.current-url }}</a></p>
     </div>
-    {% if post.github %}
-    <p><a href="{{ post.github }}">{{ post.github }}</a></p>
-    {% endif %}
-    {% if post.developers %}
+    <p>
+      {{ post.description }}
+    </p>
+    <div class="flexin">
+      {% if post.developers %}
       <div class="profile-wrap">
         {% for developer in post.developers %} {% assign dev = site.team |
         where: "name", developer | first %} {% include team_tooltip.html
         text=dev.name image=dev.image %} {% endfor %}
       </div>
-
       {% endif %}
+   
+    <a style="margin-right:12px; margin-left:12px;"target="_blank" href="{{ post.github }}"
+        ><i class="fab fa-github fa-2x"></i
+      ></a>
+  
+ 
+       {% if post.current-url %}
+       <a target="_blank" href="{{ post.current-url }}"
+        ><i class="fas fa-external-link-square-alt fa-2x"></i></a>
+      
+      
+    {% endif %}
+    </div>
+    
+
     </div>
     
     

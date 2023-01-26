@@ -37,9 +37,12 @@ img#team-image {
 }
 
 .featured-proj {
-  border-left: 3px solid $borders;
+  border-left: 5px solid $borders;
+  margin: 4% 0;
+  padding-left: 3%;
   .featured-proj-title {
     font-size: 2.2rem;
+    margin-bottom: 0;
     font-family: $sans-bold;
   }
   .featured-proj-date {
@@ -48,6 +51,18 @@ img#team-image {
   }
   .featured-proj-url {
     font-size: 1.8rem;
+  }
+  .pixel-profile {
+    width: 40px;
+    height: 40px;
+  }
+  i {
+    color: $tertiary-font;
+    width: 16px;
+    transition: all 0.25s ease-out;
+    &:hover {
+      color: $primary-font;
+    }
   }
 }
 .documentation-item {

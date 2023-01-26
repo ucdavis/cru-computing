@@ -10,6 +10,7 @@ developers:
   - Cal Doval
 image: "harvest"
 current-url: "https://harvest.caes.ucdavis.edu/"
+github: "https://github.com/ucdavis/Harvest"
 bgcolor: 266041
 date: 2021-11-07
 ---
