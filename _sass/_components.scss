@@ -502,16 +502,11 @@ ol.breadcrumb {
   background-color: rgba(255, 255, 255, 0.0005);
   margin-bottom: 0;
   margin-top: 16px;
-
   li {
     font-size: 1.4rem;
   }
-
   a {
     color: $tertiary-font;
-    // &:hover {
-    //     color: darken($primary-color, 20%);
-    // }
   }
 
   > li {
@@ -524,6 +519,9 @@ ol.breadcrumb {
 
   > .active a {
     color: $secondary-font;
+  }
+  > .active {
+    font-family: $sans-bold;
   }
 
   > li + li:before {
@@ -591,9 +589,10 @@ img.img-fluid {
   margin: 1rem 0px;
   margin-top: -$portfolio-hr-mbottom;
   .table-filter-item {
-    background-color: #fbfbfb;
+    background-color: #fff;
     margin: 0px 2px;
-
+    border: 1px solid $borders;
+    margin-top: 1%;
     .darkmode & {
       background-color: #232629;
       .dropdown-menu {
@@ -622,7 +621,7 @@ img.img-fluid {
 
     .fa {
       &.active {
-        color: blue;
+        color: $portfolio;
       }
     }
 
@@ -635,7 +634,7 @@ img.img-fluid {
     &:not(.no-hover) {
       cursor: pointer;
       &:hover {
-        background-color: lightblue;
+        background-color: transparentize($portfolio, 0.8);
 
         .darkmode & {
           background-color: #3b4a4f;
