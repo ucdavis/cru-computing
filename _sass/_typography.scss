@@ -25,10 +25,39 @@ a {
       text-decoration: none !important;
     }
   }
+  .homepage-hotbuttons & {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 p {
   &.lede {
     font-size: 1.8rem;
+  }
+  &.port-statusretired {
+    font-size: 1.2rem;
+    font-family: $sans-bold;
+    display: inline-block;
+    text-transform: uppercase;
+    color: $tertiary-font;
+    background-color: #fbfbfb;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    border: 1px solid $borders;
+    border-radius: 2px;
+  }
+  &.port-statusactive {
+    font-size: 1.2rem;
+    font-family: $sans-bold;
+    display: inline-block;
+    text-transform: uppercase;
+    color: $portfolio;
+    background-color: transparentize($portfolio, 0.9);
+    margin-bottom: 0;
+    padding: 4px 12px;
+    border: 1px solid $portfolio;
+    border-radius: 2px;
   }
 }
 ul,

@@ -1,5 +1,6 @@
 ---
-title:  "Gift Tracking"
+title: "Gift Tracking"
+status: "active"
 audience: "Campus wide"
 description: "Process and track campus donations in a centralized system, including complex payment processing, document management, and workflow history."
 current-url: "https://gifts.ucdavis.edu/"

@@ -1,35 +1,48 @@
 <!-- le Meta -->
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="image_src" href="/media/thumbnail.jpg" />
-<link rel="shortcut icon" href="/media/favicon.ico">
+<link rel="shortcut icon" href="/media/favicon.ico" />
 
 <style>
   body {
     min-height: 100%;
-
   }
 </style>
 
 <title>{{ site.title }} - {{ page.title }}</title>
-<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
+<meta
+  name="description"
+  content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
+/>
 
 <!-- le Apple -->
-<link rel="apple-touch-icon" href="/media/thumbnail.jpg">
-<link rel="apple-touch-icon" sizes="76x76" href="/media/76-icon.jpg">
-<link rel="apple-touch-icon" sizes="120x120" href="/media/120-icon.jpg">
-<link rel="apple-touch-icon" sizes="152x152" href="/media/156-icon.jpg">
+<link rel="apple-touch-icon" href="/media/thumbnail.jpg" />
+<link rel="apple-touch-icon" sizes="76x76" href="/media/76-icon.jpg" />
+<link rel="apple-touch-icon" sizes="120x120" href="/media/120-icon.jpg" />
+<link rel="apple-touch-icon" sizes="152x152" href="/media/156-icon.jpg" />
 
 <!-- le CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous"
+/>
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
+  integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y"
+  crossorigin="anonymous"
+/>
 <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
-
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+<link
+  rel="canonical"
+  href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+/>
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
+href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
 <!-- documentation url copy -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
