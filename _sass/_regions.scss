@@ -35,7 +35,14 @@ img#team-image {
     }
   }
 }
-
+.portfolio-modal {
+  top: 5% !important;
+  .modal-dialog {
+    width: 75% !important;
+    padding-top: 256px;
+    max-width: 1000px !important;
+  }
+}
 .featured-proj {
   border-left: 5px solid $borders;
   margin: 4% 0;
