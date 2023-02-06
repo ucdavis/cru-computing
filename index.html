@@ -84,10 +84,28 @@ home: true
   
  
        {% if post.current-url %}
-       <a target="_blank" href="{{ post.current-url }}"
+       <a target="_blank" style="margin-right:12px;" href="{{ post.current-url }}"
         ><i class="fas fa-external-link-square-alt fa-2x"></i></a>
       
       
+      
+    {% endif %}
+    {% if post.image %}
+          <!-- Button trigger modal -->
+<a style="cursor:pointer" data-toggle="modal" data-target="#{{ post.image }}">
+  <i class="fas fa-camera fa-2x"></i>
+</a>
+
+<!-- Modal -->
+<div class="modal portfolio-modal fade" id="{{ post.image }}" tabindex="-1" aria-labelledby="{{ post.image }}" aria-hidden="true">
+  <div class="modal-dialog">
+    <img
+        class="img-fluid"
+        src="/media/portfolio/{{ post.image }}.png"
+        alt="{{ post.image }} screenshot"
+      />
+  </div>
+</div>
     {% endif %}
     </div>
     
@@ -251,28 +269,4 @@ home: true
         </div>
       </div>
       </div>
-      <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
