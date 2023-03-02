@@ -22,6 +22,7 @@ date: 2020-10-28 11:30
 	<li>Adobe Creative Cloud Photoshop</li>
 	<li>Adobe Creative Cloud Premier Pro</li>
 	<li>Adobe Creative Cloud Shockwave Player</li>
+	<li>Amazon Kindle</li>
 	<li>Apple Safari</li>
 	<li>Apple Mail</li>
 	<li>Apple iCloud</li>
