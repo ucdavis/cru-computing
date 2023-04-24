@@ -23,7 +23,7 @@ date:   2022-08-05 08:00:00
   <br />
   <h4>macOS Laptop Models</h4>
   <ul>
-  	<li><b>Operating System:</b> macOS 12</li>
+  	<li><b>Operating System:</b> macOS 13</li>
   	<li><b>Processor:</b> Apple Silicon</li>
     <li><b>Memory:</b> 16GB</li>
     <li><b>Hard Drive:</b> 512GB SSD</li>
