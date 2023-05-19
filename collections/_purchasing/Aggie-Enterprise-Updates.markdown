@@ -2,7 +2,7 @@
 title:  "Aggie Enterprise Updates"
 description: "Updates needed to support the coming Aggie Enterprise changes in 2023"
 author: "Jason Sylvestre"
-date:   2022-08-23
+date:   2023-05-19
 ---
 
 ## Updates and Enhancements
@@ -22,4 +22,10 @@ date:   2022-08-23
 * Support creating requisitions in the Aggie Enterprise in a similar way we do with KFS 
 * Support new Chart of Accounts
 * Update fields needed for the AE requisitions (These should be similar to the ones we use for KFS like Unit of Measurement) 
+
+## Planned Changes 2023-05-19
+* We expect that orders needed to be completed in KFS must be done before November 22, 2023. Otherwise they will need to be completed in Aggie Enterprise when it goes live January 1st 2024.
+* Currently we are expecting external accounts to be completed by workgroup account managers. If it is an external account it will be noticeable.
+* Sync accounts in the workgroup will no longer do anything and will eventually be removed.
+* Delivery location information and vendor information will be pulled from Aggie Enterprise, but we will do our best to do this automatically until the departmental admins can update their workgroups.
 
