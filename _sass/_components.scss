@@ -118,11 +118,11 @@
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($team, 0.23);
+      color: #daaa00;
     }
   }
   a {
-    color: $team;
+    color: #daaa00;
     &:hover {
       text-decoration: underline;
       color: lighten($team, 15);

@@ -2,7 +2,7 @@
 layout: teamlayout
 title: Team
 breadcrumb: <li><a href="/team">Team</a></li>
-description: Two Client Supporters under the sky, <br>
+description: Three Client Supporters under the sky, <br>
   Three System Administrators in their cubicles of stone, <br>
   Five website developers doomed to code, <br>
   One Director to rule them all, One Director to find them, <br>
@@ -30,6 +30,9 @@ permalink: /team
           alt="{{ post.name }}-icon"
         />
         <h2 property="name">{{ post.name }}</h2>
+        {% if post.pronouns %}
+        <p property="jobTitle">{{ post.pronouns }}</p>
+        {% endif %}
         <p property="jobTitle">{{ post.role }}</p>
         {% if post.phone %}
         <p property="telephone">{{ post.phone }}</p>

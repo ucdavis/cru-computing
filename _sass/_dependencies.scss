@@ -82,7 +82,7 @@ $secondarygeo: $sunflower;
 $tertiarygeo: $quad;
 $quarternarygeo: $doubledecker;
 
-$team: $secondarygeo;
+$team: darken($secondarygeo, 0.75);
 $portfolio: $tertiarygeo;
 $services: $primarygeo;
 $documentation: $quarternarygeo;
