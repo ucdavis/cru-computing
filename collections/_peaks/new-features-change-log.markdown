@@ -7,6 +7,9 @@ date:   2022-06-15
 
 # New Features and Changes
 
+## Sept 25, 2023
+* Added process to update lived names nightly from IAM. This includes pronouns. The person name in the team will be updated to the lived name if the underling name in the PEAKS user table is different from IAM. Only IAM users with changed info within the last 2 days will be updated after the initial load.
+
 ## June 15, 2022
 * A new report was added to show spaces that have been deactivated that have assets assigned. If this report shows anything, the assets should be disassociated or otherwise removed from the space and reassigned if necessary. The report is called: InActive Spaces With Assets 
 
