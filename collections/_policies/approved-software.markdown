@@ -8,20 +8,8 @@ date: 2020-10-28 11:30
 <ul>
 	<li>1Password4Teams</li>
 	<li>7-Zip</li>
-	<li>Adobe Creative Cloud Acrobat</li>
-	<li>Adobe Creative Cloud After Effects</li>
-	<li>Adobe Creative Cloud Audition</li>
-	<li>Adobe Creative Cloud Bridge</li>
-	<li>Adobe Creative Cloud Contribute</li>
-	<li>Adobe Creative Cloud Dreamweaver</li>
-	<li>Adobe Creative Cloud Encore</li>
-	<li>Adobe Creative Cloud Fireworks</li>
-	<li>Adobe Creative Cloud Flash</li>
-	<li>Adobe Creative Cloud Illustrator</li>
-	<li>Adobe Creative Cloud InDesign</li>
-	<li>Adobe Creative Cloud Photoshop</li>
-	<li>Adobe Creative Cloud Premier Pro</li>
-	<li>Adobe Creative Cloud Shockwave Player</li>
+	<li>Adobe Acrobat</li>
+	<li>Adobe Creative Cloud Enterprise (All Apps)</li>
 	<li>Amazon Kindle</li>
 	<li>Apple Safari</li>
 	<li>Apple Mail</li>
@@ -61,15 +49,10 @@ date: 2020-10-28 11:30
 	<li>Kaltura Capture</li>
 	<li>Mendeley Desktop</li>
 	<li>Microsoft Defender</li>
-	<li>Microsoft Word</li>
-	<li>Microsoft Excel</li>
-	<li>Microsoft Outlook</li>
-	<li>Microsoft PowerPoint</li>
-	<li>Microsoft OneDrive</li>
+	<li>Microsoft Office</li>
 	<li>Microsoft LifeCam</li>
 	<li>Microsoft Visio</li>
 	<li>Microsoft LAPS</li>
-	<li>Microsoft OneNote</li>
 	<li>Microsoft Project</li>
 	<li>Microsoft Publisher</li>
 	<li>Microsoft Visual Studio</li>
