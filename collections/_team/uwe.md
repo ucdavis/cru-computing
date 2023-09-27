@@ -1,6 +1,6 @@
 ---
 name: Uwe Rossbach
-role: UC Davis Vet Med
+role: Retired
 image: /media/team/uwe_pic
 categories:
   - alumni
