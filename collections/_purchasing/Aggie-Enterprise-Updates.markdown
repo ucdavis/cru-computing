@@ -5,7 +5,7 @@ author: "Jason Sylvestre"
 date:   2023-10-02
 ---
 
-## PrePurchasing FAQs about changes for Aggie Enterprise
+## PrePurchasing FAQs about changes for Aggie Enterprise 
 
 ### What is Aggie Enterprise?
 Aggie Enterprise is the new financial system that will replace KFS. It will be used for all financial transactions including purchasing, accounting, and reporting.
