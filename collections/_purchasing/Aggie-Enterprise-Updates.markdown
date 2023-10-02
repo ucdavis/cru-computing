@@ -5,48 +5,53 @@ author: "Jason Sylvestre"
 date:   2023-10-02
 ---
 
-## FAQs about changes for Aggie Enterprise
+## PrePurchasing FAQs about changes for Aggie Enterprise
 
 ### What is Aggie Enterprise?
-Aggie Enterprise is the new financial system that will replace KFS. It will be used for purchasing, accounting, and reporting.
+Aggie Enterprise is the new financial system that will replace KFS. It will be used for all financial transactions including purchasing, accounting, and reporting.
 
-### When is the last date an order can be completed in KFS from PrePurchasing?
+### When is the last date a purchase can be completed in KFS from PrePurchasing?
 November 22, 2023
 
-### When will orders be able to be completed in Aggie Enterprise from PrePurchasing?
-January 1, 2024 (Unless something bad happens :( )
+### When is the first date a purchase can be completed in Aggie Enterprise from PrePurchasing?
+January 3, 2024 
 
-### What will happen to the Orgs in PrePurchasing?
-They will be frozen in place and continue to be used. Orgs determine much of the permissions and order identifiers and can't be replaced with Aggie Enterprises departments.
-If needed, we may be able to add new orgs, but this functionality is not currently planned and would have to be manually completed.
+### What if a purchase is needed between November 22, 2023 and January 3, 2024?
+Use a P-card or Travel and Entertainment card when allowable.  Check with your department and the card program with questions or exceptions.
+Use the Cutover Emergency PO Request process.
+
+
+### What will happen to the Org Codes in PrePurchasing?
+They will be frozen in place and continue to be used. Org Codes determine much of the permissions and order identifiers and can't be replaced with Aggie Enterprises departments.
+If needed, submit a help ticket through the PrePurchasing help menu, and state which Org Code will be the parent, and suggest a 4 character Org Code and name. You will need to be a departmental admin for the parent Org Code.
 
 ### Will accounts continue to be synced?
-No, accounts will no longer be synced. KFS accounts will need to be replaced with Aggie Enterprise Chart of Accounts (COAs).
+No, KFS accounts will no longer be synced. KFS accounts will need to be replaced with Aggie Enterprise Chart of Accounts (COAs) in either the GL or PPM format.
 
 ### How do I know what COAs to use?
-Your departmental admins should change the existing KFS accounts to the new COAs. There will be tools available to help with this process, but they will still need to supply some information.
+Your workgroup’s admins should change the existing KFS accounts to the new COAs. There will be tools available to help with this process, but they will still need to supply some information.
 The COAs will need descriptions in the workgroups. These can have the old KFS account in them if that will help your users.
 
 ### As a requester, can I pick my own COA to use if there isn't one in my workgroup?
-Yes, you can use our built in COA picker which will call our finjector app in a popup. This lets you build a GL or PPM string for use in PrePurchasing. These can be saved in the finjector app for later use.
+Yes, you can use the built in COA picker button which will call the finjector app in a popup window. This lets you build a GL or PPM string for use in PrePurchasing. These can be saved in the finjector app for later use.
 
-### Will external COAs route to an account manager outside of the workgroup?
-No, this functionality from KFS will not be available in Aggie Enterprise. The account manager will need to be in the workgroup.
+### Will external COAs (picking a COA outside the workgroup) route to an account manager outside of the workgroup?
+No, this functionality from KFS will not be available in Aggie Enterprise. The PrePurchasing request will route to the account manager role associated with the workgroup.
 
 ### I heard that the ship to address has changed, what do I need to do?
-Ideally, you can enter a new ship to address if it is going to a campus location. There is a new search functionality that will format that information in a way usable by Aggie Enterprise.
-If an invalid shipping address is user, or it can't be auto converted when sent to Aggie Enterprise, a blank shipping address will be used in Aggie Enterprise.
+You can enter a new ship-to address if the order is going to a campus location. There is new search functionality that will format that information in a way that will be usable by Aggie Enterprise.
+If an invalid shipping address is used, or it can't be auto-converted when sent to Aggie Enterprise, a blank shipping address will be used and the Purchaser can perform the search or fill in a one-time or off-campus address in Aggie Enterprise.
 
 ### Are KFS vendors changing?
-Yes! These will need to be updated to use the Aggie Enterprise versions when the order is sent to Aggie Enterprise by the purchaser. If this can't be auto converted, the purchaser will get an error message and need to add the correct vendor to the order.
+Yes! These will need to be updated to use the Aggie Enterprise vendor numbers when the order is sent to Aggie Enterprise by the purchaser. If this can't be auto converted, the purchaser will get an error message and need to add the correct vendor to the order.
 The departmental admins can and should go into their workgroups to update and/or delete vendors that were created for KFS orders.
 
 ### When can I start making these Aggie Enterprise changes?
-We are planning to make these changes available shortly after the November 22, 2023 deadline for completing orders in KFS.
+We are planning to make these changes available as soon as the final data is available in Aggie Enterprise, which will likely be sometime in December 2023. 
 
 
 ### Are there any other changes we should be aware of?
-Auto Approvals for accounts will no longer be available to the 2 or 3 people that used this functionality.
+Auto Approvals for KFS accounts will no longer be available for the very small number of workgroups that used this functionality.
 
 ## Updates and Enhancements
 * 2022-08-23 Major behind the scenes change to update the code to the latest versions
