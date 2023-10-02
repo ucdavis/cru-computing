@@ -29,7 +29,7 @@ If needed, submit a help ticket through the PrePurchasing help menu, and state w
 No, KFS accounts will no longer be synced. KFS accounts will need to be replaced with Aggie Enterprise Chart of Accounts (COAs) in either the GL or PPM format.
 
 ### How do I know what COAs to use?
-Your workgroup’s admins should change the existing KFS accounts to the new COAs. There will be tools available to help with this process, but they will still need to supply some information.
+Your workgroup's admins should change the existing KFS accounts to the new COAs. There will be tools available to help with this process, but they will still need to supply some information.
 The COAs will need descriptions in the workgroups. These can have the old KFS account in them if that will help your users.
 
 ### As a requester, can I pick my own COA to use if there isn't one in my workgroup?
