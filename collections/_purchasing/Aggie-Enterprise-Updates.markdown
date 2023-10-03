@@ -2,7 +2,7 @@
 title:  "Aggie Enterprise Updates"
 description: "Updates needed to support the coming Aggie Enterprise changes in 2023"
 author: "Jason Sylvestre"
-date:   2023-10-02
+date:   2023-10-03
 ---
 
 ## PrePurchasing FAQs about changes for Aggie Enterprise 
@@ -31,6 +31,11 @@ No, KFS accounts will no longer be synced. KFS accounts will need to be replaced
 ### How do I know what COAs to use?
 Your workgroup's admins should change the existing KFS accounts to the new COAs. There will be tools available to help with this process, but they will still need to supply some information.
 The COAs will need descriptions in the workgroups. These can have the old KFS account in them if that will help your users.
+
+### Quick video of how Admin can change KFS to COA
+
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/1770401/sp/177040100/embedIframeJs/uiconf_id/29032722/partner_id/1770401?iframeembed=true&playerId=kaltura_player&entry_id=1_luv7yig9&flashvars[localizationCode]=en&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_dnyfqma8" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="PrePurchasing Convert KFA account to Aggie Enterprise COA"></iframe>
+
 
 ### As a requester, can I pick my own COA to use if there isn't one in my workgroup?
 Yes, you can use the built in COA picker button which will call the finjector app in a popup window. This lets you build a GL or PPM string for use in PrePurchasing. These can be saved in the finjector app for later use.
