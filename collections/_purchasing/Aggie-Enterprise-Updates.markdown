@@ -50,6 +50,11 @@ If an invalid shipping address is used, or it can't be auto-converted when sent 
 ### Are KFS vendors changing?
 Yes! These will need to be updated to use the Aggie Enterprise vendor numbers when the order is sent to Aggie Enterprise by the purchaser. If this can't be auto converted, the purchaser will get an error message and need to add the correct vendor to the order.
 The departmental admins can and should go into their workgroups to update and/or delete vendors that were created for KFS orders.
+When picking a vendor (or supplier as they are called in Aggie Enterprise), there is now some extra information in addition to the address. The supplier site code, will have DF to mean Default. And PUR/PAY to indicate if it is for purchases or payments. only PUR ones should be used to complete orders in Aggie Enterprise from PrePurchasing.
+
+<a data-toggle="lightbox" href="/media/screenshots/opp-ae-suppliers.png">
+![AE Suppliers](https://computing.caes.ucdavis.edu/media/screenshots/opp-ae-suppliers.png "AE Suppliers")
+</a>
 
 ### When can I start making these Aggie Enterprise changes?
 We are planning to make these changes available as soon as the final data is available in Aggie Enterprise, which will likely be sometime in December 2023. 
