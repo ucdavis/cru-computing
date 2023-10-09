@@ -2,7 +2,7 @@
 title:  "Aggie Enterprise Updates"
 description: "Updates needed to support the coming Aggie Enterprise changes in 2023"
 author: "Jason Sylvestre"
-date:   2023-10-03
+date:   2023-10-09
 ---
 
 ## PrePurchasing FAQs about changes for Aggie Enterprise 
