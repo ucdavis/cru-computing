@@ -55,6 +55,7 @@ date: 2020-10-28 11:30
 	<li>Microsoft LAPS</li>
 	<li>Microsoft Project</li>
 	<li>Microsoft Publisher</li>
+	<li>Microsoft Teams</li>
 	<li>Microsoft Visual Studio</li>
 	<li>Microsoft Visual Studio Code</li>
 	<li>Notepad++</li>
