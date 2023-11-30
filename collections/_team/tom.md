@@ -1,6 +1,6 @@
 ---
 name: Tom Pomroy
-role: UC Davis IET
+role: Phoenix Cluster
 image: /media/team/tom_pic
 categories:
   - alumni
