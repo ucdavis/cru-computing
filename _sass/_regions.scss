@@ -107,7 +107,7 @@ a.documentation-snippet {
   }
 }
 .card-height-fixed {
-  height: 216px;
+  height: 240px;
   @include breakpoint(md) {
     height: auto;
   }
