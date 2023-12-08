@@ -33,8 +33,8 @@ No, KFS accounts will no longer be synced. KFS accounts will need to be replaced
 Your workgroup's admins should change the existing KFS accounts to the new COAs. There will be tools available to help with this process, but they will still need to supply some information.
 The COAs will need descriptions in the workgroups. These can have the old KFS account in them if that will help your users.
 
-### What if I don’t know which Natural Account or Expenditure Type to use in the CoA Picker?
-Natural Account (GL) and Expenditure Type (PPM) are required fields in the Chart of Accounts.  In order to validate a CoA with AggieEnterprise, PrePurchasing and the CoA Picker tool must have a value populated in this segment.  If you are not sure which value to use, we recommend selecting something general like 522201 – General Office Supplies.  The AggieEnterprise system and/or your purchaser will overwrite this in the official financial system transaction with the correct value for the type of transaction being made.
+### What if I don't know which Natural Account or Expenditure Type to use in the CoA Picker?
+Natural Account (GL) and Expenditure Type (PPM) are required fields in the Chart of Accounts.  In order to validate a CoA with AggieEnterprise, PrePurchasing and the CoA Picker tool must have a value populated in this segment.  If you are not sure which value to use, we recommend selecting something general like **522201 - General Office Supplies**.  The AggieEnterprise system and/or your purchaser will overwrite this in the official financial system transaction with the correct value for the type of transaction being made.
 
 
 ### Quick video of how Admin can change KFS to COA
