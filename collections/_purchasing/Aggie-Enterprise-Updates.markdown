@@ -2,7 +2,7 @@
 title:  "Aggie Enterprise Updates"
 description: "Updates needed to support the coming Aggie Enterprise changes in 2023"
 author: "Jason Sylvestre"
-date:   2023-10-09
+date:   2023-12-08
 ---
 
 ## PrePurchasing FAQs about changes for Aggie Enterprise 
@@ -12,6 +12,7 @@ Aggie Enterprise is the new financial system that will replace KFS. It will be u
 
 ### When is the last date a purchase can be completed in KFS from PrePurchasing?
 November 22, 2023
+And this has passed so you can no longer complete orders in KFS from PrePurchasing.
 
 ### When is the first date a purchase can be completed in Aggie Enterprise from PrePurchasing?
 January 3, 2024 
@@ -31,6 +32,10 @@ No, KFS accounts will no longer be synced. KFS accounts will need to be replaced
 ### How do I know what COAs to use?
 Your workgroup's admins should change the existing KFS accounts to the new COAs. There will be tools available to help with this process, but they will still need to supply some information.
 The COAs will need descriptions in the workgroups. These can have the old KFS account in them if that will help your users.
+
+### What if I don't know which Natural Account or Expenditure Type to use in the CoA Picker?
+Natural Account (GL) and Expenditure Type (PPM) are required fields in the Chart of Accounts.  In order to validate a CoA with AggieEnterprise, PrePurchasing and the CoA Picker tool must have a value populated in this segment.  If you are not sure which value to use, we recommend selecting something general like **522201 - General Office Supplies**.  The AggieEnterprise system and/or your purchaser will overwrite this in the official financial system transaction with the correct value for the type of transaction being made.
+
 
 ### Quick video of how Admin can change KFS to COA
 
