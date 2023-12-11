@@ -39,6 +39,9 @@ collections:
   commencement:
     output: true
     permalink: /documentation/:collection/:title
+  finjector:
+    output: true
+    permalink: /documentation/:collection/:title
   payments:
     output: true
     permalink: /documentation/:collection/:title
@@ -123,6 +126,14 @@ defaults:
     values:
       categories: "harvest"
       brand: "harvest"
+      documentation: "aside"
+      layout: "twocol"
+      bio: "true"
+  - scope:
+      type: "finjector"
+    values:
+      categories: "finjector"
+      brand: "finjector"
       documentation: "aside"
       layout: "twocol"
       bio: "true"

@@ -39,26 +39,26 @@
     margin-bottom: 16px;
   }
 }
-.registration-total {
+.finjector-total {
   hr {
-    border: 1px solid $registration;
+    border: 1px solid $finjector;
     margin-bottom: 1.6rem;
   }
   ol.breadcrumb {
     > .active {
-      color: transparentize($registration, 0.23);
+      color: transparentize($finjector, 0.23);
     }
   }
   a {
-    color: $registration;
+    color: $finjector;
     &:hover {
       text-decoration: underline;
-      color: lighten($registration, 15);
+      color: lighten($finjector, 15);
     }
   }
   .callout {
-    background-color: transparentize($registration, 0.92);
-    border-left: 5px solid $registration;
+    background-color: transparentize($finjector, 0.92);
+    border-left: 5px solid $finjector;
     padding: 20px 20px 10px 20px;
     margin-bottom: 16px;
   }
@@ -346,6 +346,13 @@
   background-color: $registration;
   &:hover {
     background-color: transparentize($registration, 0.15);
+  }
+}
+.finjector-tag {
+  @include tag;
+  background-color: $finjector;
+  &:hover {
+    background-color: transparentize($finjector, 0.15);
   }
 }
 .harvest-tag {
