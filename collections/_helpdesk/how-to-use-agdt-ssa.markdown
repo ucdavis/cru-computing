@@ -1,8 +1,8 @@
 ---
-title:  "How to use the Aggie Desktop Self-Service Application (SSA)"
+title: "How to use the Aggie Desktop Self-Service Application (SSA)"
 description: "Use this guide to install applications using the Aggie Desktop Self-Service Application (SSA) service."
 author: "Steven Barkey"
-date:   20202-10-22 10:30:00
+date: 2020-10-22 09:59:00
 ---
 
 <p>The CAES Dean's Office Computing Resources Unit (CRU) leverages the Aggie Desktop Self-Service Application (SSA) service to allow individuals without admininstrative rights on their computers the ability to install commonly used applications without needing to contact the helpdesk.  The Aggie Desktop SSA service includes commonly available applictions like Zoom, Box Drive, Google Chrome, Mozilla Firefox, etc.</p>
