@@ -22,7 +22,7 @@ We're talking about listing financial approvers and providing full validation in
 [Check out an example details page here](https://finjector.ucdavis.edu/details/K30APSD227-TASK01-APLS002-770000)
 
 #### 2. **Copy Copy: The Quick-Grab Feature**
-We know you love to move fast! That's why we've introduced **Copy Copy**. Now, when you hover over any element, you can copy it faster than you can say "Show me the money!" Grab the whole chart string or just pieces of it for some on-the-go fun. 🏃💨✂️
+We know you love to move fast! That's why we've introduced **Copy Copy**. Now, when you hover over many elements, you can copy it faster than you can say "Show me the money!" Grab the whole chart string or just pieces of it for some on-the-go fun. 🏃💨✂️
 
 #### 3. **Teams: Collaborate and Conquer**
 Teamwork makes the dream work, especially in finance! Our new **Teams** feature is a game-changer. Create a team, invite collaborators, and organize chart strings in neatly packed folders. 
