@@ -1,6 +1,6 @@
 ---
 title: "Using Finjector Plugin"
-description: "How to use the finjector plugin acorss our apps"
+description: "How to use the finjector plugin across our apps"
 author: "Jason Sylvestre"
 date: 2024-01-03
 ---
