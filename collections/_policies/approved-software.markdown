@@ -5,67 +5,533 @@ author: "Steven Barkey"
 date: 2020-10-28 11:30
 ---
 
-<ul>
-	<li>1Password4Teams</li>
-	<li>7-Zip</li>
-	<li>Adobe Acrobat</li>
-	<li>Adobe Creative Cloud Enterprise (All Apps)</li>
-	<li>Amazon Kindle</li>
-	<li>Apple Safari</li>
-	<li>Apple Mail</li>
-	<li>Apple iCloud</li>
-	<li>ArcGIS Desktop</li>
-	<li>ArcGIS Pro</li>
-	<li>Audacity</li>
-	<li>Autodesk AutoCAD</li>
-	<li>Autodesk Design Review</li>
-	<li>Autodesk DWG TrueView</li>
-	<li>Beyond Compare</li>
-	<li>BeyondTrust / Bomgar</li>
-	<li>BigFix Client</li>
-	<li>BigFix Self-Service Application</li>
-	<li>BitDefender</li>
-	<li>Box Drive</li>
-	<li>Box Tools</li>
-	<li>Box for Office</li>
-	<li>Camtasia Studio</li>
-	<li>CleanMyMac X</li>
-	<li>Cisco Jabber</li>
-	<li>CrashPlan</li>
-	<li>Dell Command Update</li>
-	<li>Dropbox Client</li>
-	<li>DYMO LabelWriter</li>
-	<li>EndNote</li>
-	<li>Evernote</li>
-	<li>FileMaker Pro</li>
-	<li>FileZilla Client</li>
-	<li>Fonts (UC Davis Fonts Pack)</li>
-	<li>Git</li>
-	<li>GitHub Desktop</li>
-	<li>Google Chrome</li>
-	<li>Google Earth</li>
-	<li>InkScape</li>
-	<li>Jamf</li>
-	<li>Kaltura Capture</li>
-	<li>Mendeley Desktop</li>
-	<li>Microsoft Defender</li>
-	<li>Microsoft Office</li>
-	<li>Microsoft LifeCam</li>
-	<li>Microsoft Visio</li>
-	<li>Microsoft LAPS</li>
-	<li>Microsoft Project</li>
-	<li>Microsoft Publisher</li>
-	<li>Microsoft Teams</li>
-	<li>Microsoft Visual Studio</li>
-	<li>Microsoft Visual Studio Code</li>
-	<li>Notepad++</li>
-	<li>Pulse Secure</li>
-	<li>PuTTy</li>
-	<li>QSR NVivo</li>
-	<li>RStudio Desktop</li>
-	<li>Slack</li>
-	<li>Trello</li>
-	<li>VLC Media Player</li>
-	<li>Zotero Standalone</li>
-	<li>Zoom</li>
-</ul>
+<table class="software-status-table">
+	<tr>
+		<th>Approved</th>
+		<th>Supported</th>
+		<th>Standard</th>
+		<th>Exception</th>
+		<th>Blocked</th>
+	</tr>
+	<tr>
+		<td>Available by Request, No Exception Necessary, Best Effort Support</td>
+		<td>Available by Request, No Exception Necessary, Full Support</td>
+		<td>Available by Default, No Exception Necessary, Full Support</td>
+		<td>Avaialble by Exception Request, Exception Request Necessary, Best Effort Support</td>
+		<td>NOT permitted for use (unless approved through ExReq), Uninstalled if discovered (unless approved through ExReq), No Support</td>
+	</tr>
+</table>
+
+<table class="approved-software-table">
+    <tr>
+        <th>Software Title</th>
+        <th>Approved</th>
+        <th>Supported</th>
+        <th>Standard</th>
+        <th>Exception</th>
+        <th>Blocked</th>
+    </tr>
+    <tr>
+        <td>1Password</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>7-Zip</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Adobe Acrobat</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Adobe Creative Cloud Enterprise (All Apps)</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Amazon Kindle</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Apple iCloud</td>
+        <td>•</td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Apple Mail</td>
+        <td>•</td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Apple Safari</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ArcGIS Pro</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Audacity</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Autodesk AutoCAD</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Autodesk Design Review</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Autodesk DWG TrueView</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Beyond Compare</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>BeyondTrust / Bomgar</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>BigFix Client</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>BigFix Self-Service Application</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>BlueBeam</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Box Drive</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Box for Office</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Box Tools</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Camtasia Studio</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Cisco Jabber</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CleanMyMac X</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CrashPlan</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Dell Command Update</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Dropbox Client</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DYMO LabelWriter</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>EndNote</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Evernote</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>FileMaker Pro</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>FileZilla Client</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Fonts (UC Davis Fonts Pack)</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Git</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>GitHub Desktop</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Google Chrome</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Google Earth</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>InkScape</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Ivanti Secure Access</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Jamf for macOS</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Kaltura Capture</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Labworks</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Mendeley Desktop</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Microsoft Defender</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Microsoft LAPS</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Microsoft Office</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Microsoft Project</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Microsoft Publisher</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Microsoft Teams</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Microsoft Visio</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Microsoft Visual Studio</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Microsoft Visual Studio Code</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Notepad++</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>PuTTy</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>QSR NVivo</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>RStudio Desktop</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Slack</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Trello</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>VLC Media Player</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>WeChat</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+    </tr>
+    <tr>
+        <td>WinRAR</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+    </tr>
+    <tr>
+        <td>Zoom</td>
+        <td>•</td>
+        <td>•</td>
+        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Zotero Standalone</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
+    </tr>
+</table>

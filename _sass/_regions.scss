@@ -223,3 +223,26 @@ a.documentation-snippet {
     }
   }
 }
+.approved-software-table {
+  th,
+  td {
+    font-size: 1.6rem;
+    padding: 8px 16px;
+  }
+  tr {
+    th {
+      font-weight: bold;
+    }
+
+    td {
+      border-top: 1px solid transparentize(#f18a00, 0.7);
+      font-size: 3rem;
+      text-align: center;
+    }
+    td:first-child {
+      font-weight: bold;
+      font-size: 1.6rem;
+      text-align: left;
+    }
+  }
+}
