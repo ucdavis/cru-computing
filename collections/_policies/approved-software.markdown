@@ -7,7 +7,6 @@ date: 2020-10-28 11:30
 
 <table class="software-status-table">
 	<tr>
-		<th></th>
 		<th>Approved</th>
 		<th>Supported</th>
 		<th>Standard</th>
@@ -15,28 +14,11 @@ date: 2020-10-28 11:30
 		<th>Blocked</th>
 	</tr>
 	<tr>
-		<td><b>Availability</b></td>
-		<td>By request</td>
-		<td>By request</td>
-		<td>By default</td>
-		<td>By <a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception Request</a></td>
-		<td><b>NOT</b> permitted for use and uninstalled if discovered.</td>
-	</tr>
-	<tr>
-		<td><b>Exception Request</b></td>
-		<td>N/A</td>
-		<td>N/A</td>
-		<td>N/A</td>
-		<td><a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception Request</a> <b>required</b></td>
-		<td><a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception Request</a> <b>required</b></td>
-	</tr>
-	<tr>
-		<td><b>Available Support</b></td>
-		<td>Best Effort</td>
-		<td>Full</td>
-		<td>Full</td>
-		<td>Best Effort</td>
-		<td>None</td>
+		<td>Available by request, without an <a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception</a>.  Best Effort support available.</td>
+		<td>Available by request, without an <a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception</a>.  Full support available.</td>
+		<td>Available by default, without an <a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception</a>.  Full support available.</td>
+		<td>Available by <a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception Request</a> <b>ONLY</b>.  Best Effort support available.</td>
+		<td><b>NOT</b> permitted for use, and uninstalled if discovered, unless approved through an <a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception Request</a>.  No support available.</td>
 	</tr>
 </table>
 
