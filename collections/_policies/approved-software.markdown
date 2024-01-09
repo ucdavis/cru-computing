@@ -1,6 +1,6 @@
 ---
-title: "Approved Software List"
-description: "A list of applications that have been approved for use on Dean's Office devices. Installation of other software is at the discretion of the Director of Information Technology for the purpose of maintaining system stability, security, and legal compliance."
+title: "Dean's Office Software List"
+description: "A list of applications, and their status, for Dean's Office users and devices. Installation of other software is at the discretion of the Director of Information Technology for the purpose of maintaining system stability, security, and legal compliance."
 author: "Steven Barkey"
 date: 2020-10-28 11:30
 ---
