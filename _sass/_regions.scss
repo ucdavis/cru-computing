@@ -223,3 +223,64 @@ a.documentation-snippet {
     }
   }
 }
+.approved-software-table {
+  th,
+  td {
+    font-size: 1.6rem;
+    padding: 8px 16px;
+  }
+  tr {
+    th {
+      font-weight: bold;
+    }
+    td {
+      border-top: 1px solid transparentize(#f18a00, 0.7);
+      font-size: 3rem;
+      text-align: center;
+    }
+    td:first-child {
+      font-weight: bold;
+      font-size: 1.6rem;
+      text-align: left;
+    }
+    td:nth-child(2) {
+      color: $gunrock;
+    }
+    td:nth-child(3) {
+      color: $quad;
+    }
+    td:nth-child(4) {
+      color: $sunflower;
+    }
+    td:nth-child(5) {
+      color: $poppy;
+    }
+    td:nth-child(6) {
+      color: $doubledecker;
+    }
+  }
+}
+.software-status-table {
+  border: 1px solid $borders;
+  margin-bottom: 8px;
+  th,
+  td {
+    font-size: 1.4rem;
+    padding: 4px 8px;
+  }
+  th:nth-child(1) {
+    color: $gunrock;
+  }
+  th:nth-child(2) {
+    color: $quad;
+  }
+  th:nth-child(3) {
+    color: $sunflower;
+  }
+  th:nth-child(4) {
+    color: $poppy;
+  }
+  th:nth-child(5) {
+    color: $doubledecker;
+  }
+}
