@@ -24,7 +24,7 @@ date: 2020-10-28 11:30
 		<td>Available by request. No Exception Request necessary. Best-effort support.</td>
 		<td>Available by request. No Exception Request necessary. Full support.</td>
 		<td>Available by default. No Exception Request necessary. Full support.</td>
-		<td>Avaialble by Exception Request, Exception Request Necessary, Best-effort support.</td>
+		<td>Available by Exception Request, Exception Request Necessary, Best-effort support.</td>
 		<td><b>NOT</b> permitted for use, unless approved through Exception Request. Uninstalled if discovered, unless approved through Exception Request. No support.</td>
 	</tr>
 </table>
