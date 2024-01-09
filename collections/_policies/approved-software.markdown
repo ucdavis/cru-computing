@@ -14,18 +14,25 @@ date: 2020-10-28 11:30
 		<th>Blocked</th>
 	</tr>
 	<tr>
-		<td>Available by request, without Exception Request. Best-effort support.</td>
-		<td>Available by request, without Exception Request. Full support.</td>
-		<td>Available by default, without Exception Request. Full support.</td>
-		<td>Avaialble by <a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception Request</a>. Best-effort support.</td>
-		<td><b>NOT</b> permitted for use, unless approved through Exception Request. Uninstalled if discovered, unless approved through Exception Request. No support.</td>
+		<td>Available by request</td>
+		<td>Available by request</td>
+		<td>Available by default</td>
+		<td>Available by <a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception Request</a></td>
+		<td><b>NOT</b> permitted for use and uninstalled if discovered, unless approved through <a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception Request</a></td>
 	</tr>
 	<tr>
-		<td>Available by request. No Exception Request necessary. Best-effort support.</td>
-		<td>Available by request. No Exception Request necessary. Full support.</td>
-		<td>Available by default. No Exception Request necessary. Full support.</td>
-		<td>Available by Exception Request, Exception Request Necessary, Best-effort support.</td>
-		<td><b>NOT</b> permitted for use, unless approved through Exception Request. Uninstalled if discovered, unless approved through Exception Request. No support.</td>
+		<td>No Exception Request necessary</td>
+		<td>No Exception Request necessary</td>
+		<td>No Exception Request necessary</td>
+		<td><a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception Request</a> <b>required</b></td>
+		<td><a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception Request</a> <b>required</b></td>
+	</tr>
+	<tr>
+		<td>Best Effort support</td>
+		<td>Full support</td>
+		<td>Full support</td>
+		<td>Best Effort support</td>
+		<td>No support</td>
 	</tr>
 </table>
 
