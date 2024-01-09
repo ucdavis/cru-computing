@@ -7,6 +7,7 @@ date: 2020-10-28 11:30
 
 <table class="software-status-table">
 	<tr>
+		<th></th>
 		<th>Approved</th>
 		<th>Supported</th>
 		<th>Standard</th>
@@ -14,6 +15,7 @@ date: 2020-10-28 11:30
 		<th>Blocked</th>
 	</tr>
 	<tr>
+		<td>Availability</td>
 		<td>Available by request</td>
 		<td>Available by request</td>
 		<td>Available by default</td>
@@ -21,6 +23,7 @@ date: 2020-10-28 11:30
 		<td><b>NOT</b> permitted for use and uninstalled if discovered, unless approved through <a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception Request</a></td>
 	</tr>
 	<tr>
+		<td>Exception Request</td>
 		<td>No Exception Request necessary</td>
 		<td>No Exception Request necessary</td>
 		<td>No Exception Request necessary</td>
@@ -28,6 +31,7 @@ date: 2020-10-28 11:30
 		<td><a href="https://kb.ucdavis.edu/?id=07295" target="_blank">Exception Request</a> <b>required</b></td>
 	</tr>
 	<tr>
+		<td>Available Support</td>
 		<td>Best Effort support</td>
 		<td>Full support</td>
 		<td>Full support</td>
