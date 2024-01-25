@@ -2,12 +2,16 @@
 title: "What's new."
 description: "New features and changes to the Finjector Application."
 author: "Jason Sylvestre"
-date: 2024-01-24
+date: 2024-01-25
 ---
 
 # Changes
 
   - This is not a complete list of changes, just some of the more significant ones.
+
+## 2024-01-25
+
+  - The search bar now can filter by chart type. (PPM or GL)
 
 ## 2024-01-24
 
