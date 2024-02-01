@@ -55,6 +55,15 @@ date:   2022-08-05 08:00:00
 	<li><b>Warranty:</b> 4-years</li>
 </ul>
 <br />
+<h3>Conference Rooms</h3>
+<ul>
+    <li>Screens: 2x 55"/75" Touchscreen</li>
+    <li>Microphone: Yes</li>
+    <li>Speakers: Yes</li>
+    <li>Room Controller: Optional</li>
+    <li>Room Scheduler: Optional</li>
+</ul>
+<br />
 <br />
 <h2>Standard Hardware Models</h2>
 <h3>Computers</h3>
@@ -112,5 +121,18 @@ date:   2022-08-05 08:00:00
     <li>Color: Xerox C310/DNI</li>
     <li>B/W: Xerox B230/DNI</li>
     <li>B/W: HP LaserJet Pro M404dn</li>
+  </ul>
+</ul>
+<br />
+<h3>Conference Rooms</h3>
+<ul>
+  <h4>Medium to Large Conference Rooms</h4>
+  <ul>
+    <li>75" Dual Screen DTEN D7X with Windows</li>
+  </ul>
+  <br />
+  <h4>Small Conference Rooms</h4>
+  <ul>
+    <li>55" Dual Screen DTEN D7X with Windows</li>
   </ul>
 </ul>
