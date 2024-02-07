@@ -2,7 +2,7 @@
 title: "Dean's Office Software List"
 description: "A list of applications, and their respective status, for Dean's Office users and devices. Installation of other software is at the discretion of the Director of Information Technology for the purpose of maintaining system stability, security, and legal compliance."
 author: "Steven Barkey"
-date: 2020-10-28 11:30
+date: 2024-02-07 11:30
 ---
 
 <table class="software-status-table">
@@ -337,11 +337,11 @@ date: 2020-10-28 11:30
     </tr>
     <tr>
         <td>Ivanti Secure Access</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
         <td>•</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>Jamf for macOS</td>
@@ -454,6 +454,14 @@ date: 2020-10-28 11:30
         <td></td>
         <td></td>
         <td></td>
+    </tr>
+    <tr>
+        <td>Pulse Secure</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>•</td>
     </tr>
     <tr>
         <td>PuTTy</td>
