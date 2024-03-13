@@ -13,5 +13,5 @@ image: "finjector"
 current-url: "https://finjector.ucdavis.edu/"
 github: "https://github.com/ucdavis/finjector"
 bgcolor: 204060
-date: 2022-11-08
+date: 2023-05-08
 ---
