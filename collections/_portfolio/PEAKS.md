@@ -7,7 +7,7 @@ current-url: "https://getpeaks.ucdavis.edu"
 developers:
   - Scott Kirkland
   - Jason Sylvestre
-  - Laura Holstege
+  - River Holstege
   - Cal Doval
 image: "peaks"
 date: 2019-02-21

@@ -8,6 +8,7 @@ developers:
   - Jason Sylvestre
   - Spruce Weber-Milne
   - Cal Doval
+  - River Holstege
 image: "finjector"
 current-url: "https://finjector.ucdavis.edu/"
 github: "https://github.com/ucdavis/finjector"
