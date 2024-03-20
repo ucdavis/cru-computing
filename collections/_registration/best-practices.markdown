@@ -2,7 +2,7 @@
 title:  "Best Practices."
 description: "A growing list of recommendations and best practices."
 author: "Jason Sylvestre"
-date:   2020-04-09
+date:   2023-03-20
 ---
 
 # Best Practices
@@ -13,4 +13,4 @@ date:   2020-04-09
 * Only use the built in formatting tools provided with the editor.
 * The maximum picture size is 4 meg. It must have an aspect ratio of 16:9 (1200x675 preferred).  A free on-line resize tool can be found at: http://www.picresize.com/ This one is a little better for cropping if you need to change the aspect ratio: http://resizeimage.net/
 * If you have the same basic event time after time, use the copy feature to avoid having to recreate everything each time.
-* If you need to practice, or create test events, please use the test environment: https://registration-test.caes.ucdavis.edu/
+* If you need to practice, or create test events, please use the test environment: [https://registration-test.azurewebsites.net](https://registration-test.azurewebsites.net)
