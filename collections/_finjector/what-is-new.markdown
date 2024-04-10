@@ -2,12 +2,16 @@
 title: "What's new."
 description: "New features and changes to the Finjector Application."
 author: "Jason Sylvestre"
-date: 2024-01-25
+date: 2024-04-10
 ---
 
 # Changes
 
   - This is not a complete list of changes, just some of the more significant ones.
+
+## 2024-04-10
+  - If you are viewing your personal team, we hide the search bar as this is a special type of team.
+  - Fixed up team edit permissions so they can create folders in the team. If they create a folder, they will have admin permissions to that folder.
 
 ## 2024-01-25
 
