@@ -23,7 +23,7 @@ date:   2022-08-05 08:00:00
   <br />
   <h4>macOS Laptop Models</h4>
   <ul>
-  	<li><b>Operating System:</b> macOS 13</li>
+  	<li><b>Operating System:</b> macOS 14</li>
   	<li><b>Processor:</b> Apple Silicon</li>
     <li><b>Memory:</b> 16GB</li>
     <li><b>Hard Drive:</b> 512GB SSD</li>
@@ -70,8 +70,8 @@ date:   2022-08-05 08:00:00
 <ul>
   <h4>Windows Laptop Models</h4>
   <ul>
-    <li><b>Standard:</b> Dell Latitude 5430</li>
-    <li><b>Performance:</b> Dell Latitude 7430</li>
+    <li><b>Standard:</b> Dell Latitude 5440</li>
+    <li><b>Performance:</b> Dell Latitude 7440</li>
   </ul>
   <br />
   <h4>macOS Laptop Models</h4>
