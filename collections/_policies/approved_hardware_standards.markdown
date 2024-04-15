@@ -85,12 +85,12 @@ date:   2022-08-05 08:00:00
 <ul>
   <h4>Windows Computers</h4>
   <ul>
-    <li>1x Dell U2422HE and 1x Dell U2422H</li>
+    <li>2x Dell U2424H</li>
   </ul>
   <br />
   <h4>macOS Computers</h4>
   <ul>
-    <li>2x Dell U2422H</li>
+    <li>2x Dell U2424H</li>
   </ul>
 </ul>
 <br />
@@ -98,7 +98,7 @@ date:   2022-08-05 08:00:00
 <ul>
   <h4>Windows Computers</h4>
   <ul>
-    <li>None - The U2422HE has an integrated Dock</li>
+    <li>Dell WD22TB4 Thunderbolt Dock</li>
   </ul>
   <br />
   <h4>macOS Computers</h4>
