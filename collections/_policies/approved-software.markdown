@@ -498,7 +498,7 @@ date: 2024-02-07 11:30
     <tr>
         <td>Trello</td>
         <td>•</td>
-        <td>•</td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
