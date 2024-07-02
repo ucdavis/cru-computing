@@ -7,7 +7,7 @@ date: 2024-02-07 11:30
 
 <table class="software-status-table">
 	<tr>
-		<th>Approved</th>
+		<th>Available</th>
 		<th>Supported</th>
 		<th>Standard</th>
 		<th>Exception</th>
@@ -25,7 +25,7 @@ date: 2024-02-07 11:30
 <table class="approved-software-table">
     <tr>
         <th>Software Title</th>
-        <th>Approved</th>
+        <th>Available</th>
         <th>Supported</th>
         <th>Standard</th>
         <th>Exception</th>
