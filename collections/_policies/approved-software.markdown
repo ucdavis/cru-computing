@@ -33,7 +33,7 @@ date: 2024-02-07 11:30
     </tr>
     <tr>
         <td>1Password</td>
-        <td>•</td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
@@ -41,7 +41,7 @@ date: 2024-02-07 11:30
     </tr>
     <tr>
         <td>7-Zip</td>
-        <td>•</td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
@@ -49,8 +49,8 @@ date: 2024-02-07 11:30
     </tr>
     <tr>
         <td>Adobe Acrobat</td>
-        <td>•</td>
-        <td>•</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
@@ -72,25 +72,25 @@ date: 2024-02-07 11:30
         <td></td>
     </tr>
     <tr>
-        <td>Apple iCloud</td>
-        <td>•</td>
+        <td>Apple iCloud (macOS Devices)</td>
         <td></td>
-        <td>•</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Apple Mail</td>
-        <td>•</td>
         <td></td>
         <td>•</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>Apple Safari</td>
+        <td>Apple Mail (macOS Devices)</td>
+        <td></td>
+        <td></td>
         <td>•</td>
-        <td>•</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Apple Safari (macOS Devices)</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
@@ -145,7 +145,7 @@ date: 2024-02-07 11:30
     </tr>
     <tr>
         <td>BeyondTrust / Bomgar</td>
-        <td>•</td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
@@ -153,16 +153,16 @@ date: 2024-02-07 11:30
     </tr>
     <tr>
         <td>BigFix Client</td>
-        <td>•</td>
-        <td>•</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td>BigFix Self-Service Application</td>
-        <td>•</td>
-        <td>•</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
@@ -177,24 +177,24 @@ date: 2024-02-07 11:30
     </tr>
     <tr>
         <td>Box Drive</td>
-        <td>•</td>
-        <td>•</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td>Box for Office</td>
-        <td>•</td>
-        <td>•</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td>Box Tools</td>
-        <td>•</td>
-        <td>•</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
@@ -225,8 +225,8 @@ date: 2024-02-07 11:30
     </tr>
     <tr>
         <td>CrashPlan</td>
-        <td>•</td>
-        <td>•</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
@@ -313,8 +313,8 @@ date: 2024-02-07 11:30
     </tr>
     <tr>
         <td>Google Chrome</td>
-        <td>•</td>
-        <td>•</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
@@ -344,9 +344,9 @@ date: 2024-02-07 11:30
         <td>•</td>
     </tr>
     <tr>
-        <td>Jamf for macOS</td>
-        <td>•</td>
-        <td>•</td>
+        <td>Jamf (macOS Devices>)</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
@@ -377,24 +377,24 @@ date: 2024-02-07 11:30
     </tr>
     <tr>
         <td>Microsoft Defender</td>
-        <td>•</td>
-        <td>•</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td>Microsoft LAPS</td>
-        <td>•</td>
-        <td>•</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
         <td>Microsoft Office</td>
-        <td>•</td>
-        <td>•</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
@@ -402,7 +402,7 @@ date: 2024-02-07 11:30
     <tr>
         <td>Microsoft Project</td>
         <td>•</td>
-        <td>•</td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -410,7 +410,7 @@ date: 2024-02-07 11:30
     <tr>
         <td>Microsoft Publisher</td>
         <td>•</td>
-        <td>•</td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -426,7 +426,7 @@ date: 2024-02-07 11:30
     <tr>
         <td>Microsoft Visio</td>
         <td>•</td>
-        <td>•</td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -489,7 +489,7 @@ date: 2024-02-07 11:30
     </tr>
     <tr>
         <td>Slack</td>
-        <td>•</td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
@@ -529,8 +529,8 @@ date: 2024-02-07 11:30
     </tr>
     <tr>
         <td>Zoom</td>
-        <td>•</td>
-        <td>•</td>
+        <td></td>
+        <td></td>
         <td>•</td>
         <td></td>
         <td></td>
