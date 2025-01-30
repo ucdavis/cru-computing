@@ -18,7 +18,7 @@ date:   2022-08-05 08:00:00
     <li><b>Memory:</b> 16GB</li>
     <li><b>Hard Drive:</b> 512GB SSD</li>
     <li><b>Security:</b> Trusted Platform Module 2.0</li>
-    <li><b>Warranty:</b> 4 Year Warranty</li>
+    <li><b>Warranty:</b> 5 Year Warranty</li>
   </ul>
   <br />
   <h4>macOS Laptop Models</h4>
@@ -36,7 +36,7 @@ date:   2022-08-05 08:00:00
 <p>All new monitors supported by the CA&ES Dean’s Office Computer Resources Unit must either meet or exceed these specifications</p>
 <ul>
 	<li><b>Screen Size:</b> 24-inch</li>
-	<li><b>Warranty:</b> 4-years</li>
+	<li><b>Warranty:</b> 3-years</li>
 </ul>
 <br />
 <h3>Docks</h3>
@@ -45,7 +45,7 @@ date:   2022-08-05 08:00:00
 	<li><b>Connection Type:</b> Thunderbolt or USB-C</li>
 	<li><b>Power Delivery:</b> 90 Watts</li>
 	<li><b>External Monitor Support:</b> 2</li>
-	<li><b>Warranty:</b> 4-years</li>
+	<li><b>Warranty:</b> 3-years</li>
 </ul>
 <br />
 <h3>Printers</h3>
@@ -70,8 +70,8 @@ date:   2022-08-05 08:00:00
 <ul>
   <h4>Windows Laptop Models</h4>
   <ul>
-    <li><b>Standard:</b> Dell Latitude 5440</li>
-    <li><b>Performance:</b> Dell Latitude 7440</li>
+    <li><b>Standard:</b> Dell Latitude 5450</li>
+    <li><b>Performance:</b> Dell Latitude 5450 with upgrades</li>
   </ul>
   <br />
   <h4>macOS Laptop Models</h4>
@@ -103,7 +103,7 @@ date:   2022-08-05 08:00:00
   <br />
   <h4>macOS Computers</h4>
   <ul>
-    <li>Belkin Thunderbolt 3 Dock Pro</li>
+    <li>Dell WD22TB4 Thunderbolt Dock</li>
   </ul>
 </ul>
 <br />
@@ -128,11 +128,11 @@ date:   2022-08-05 08:00:00
 <ul>
   <h4>Medium to Large Conference Rooms</h4>
   <ul>
-    <li>75" Dual Screen DTEN D7X with Windows</li>
+    <li>75" Dual Screen DTEN D7/D7X with Windows</li>
   </ul>
   <br />
   <h4>Small Conference Rooms</h4>
   <ul>
-    <li>55" Dual Screen DTEN D7X with Windows</li>
+    <li>55" Dual Screen DTEN D7/D7X with Windows</li>
   </ul>
 </ul>
