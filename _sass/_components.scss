@@ -659,16 +659,16 @@ img.img-fluid {
     font-family: "proxima-nova-b", "FontAwesome";
   }
 }
-.alert-unitrans {
-  background-color: transparentize($doubledecker, 0.9);
+.alert-documentation {
+  background-color: transparentize($secondarygeo, 0.9);
   h2 {
-    color: $doubledecker;
+    color: $secondarygeo;
     margin-bottom: 16px;
   }
   box-shadow: $box-shadow;
   a.alert-button {
     font-weight: bold;
-    border: 2px solid $doubledecker;
+    border: 2px solid $secondarygeo;
     border-radius: 14px;
     padding: 6px 16px;
     &:hover {
