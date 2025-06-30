@@ -1,11 +1,11 @@
 ---
-title:  "Readd your email to iPhone/iPad after enabling Duo"
-description: "Use this guide to readd your Office 365 Mailbox to your iPhone or iPad after enabling Duo MFA."
+title:  "Re-add your email to iPhone/iPad after enabling Duo"
+description: "Use this guide to re-add your Office 365 Mailbox to your iPhone or iPad after enabling Duo MFA."
 author: "Steven Barkey"
 date:   2019-01-25 08:01:17
 ---
 
-<p>If you access your Office 365 Mailbox using an iPhone or iPad and you enable Duo on your UC Davis computing account, you will need to remove and readd the mailbox to your device after Duo is enabled on the mailbox, which generally takes about 15-60 minutes to process.</p>
+<p>If you access your Office 365 Mailbox using an iPhone or iPad and you enable Duo on your UC Davis computing account, you will need to remove and re-add the mailbox to your device after Duo is enabled on the mailbox, which generally takes about 15-60 minutes to process.</p>
 <br />
 <p>The instructions below will walk you through the process, but if you encounter any issues, please <a class="external-link" href="https://caeshelp.ucdavis.edu" target="_blank">create a Helpdesk ticket</a> for further assistance.</p>
 <br />
@@ -34,7 +34,7 @@ date:   2019-01-25 08:01:17
   <li>Restart the device</li>
 </ol>
 <br />
-<p>Readd your mailbox to your iPhone or iPad device:</p>
+<p>Re-add your mailbox to your iPhone or iPad device:</p>
 <ol style="PADDING-LEFT: 30px">
   <li>One your device, go to <b>Settings</b></li>
   <li>Select <b>Passwords & Accounts</b></li>
