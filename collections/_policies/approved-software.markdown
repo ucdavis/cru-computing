@@ -2,7 +2,7 @@
 title: "Dean's Office Software List"
 description: "A list of applications, and their respective status, for Dean's Office users and devices. Installation of other software is at the discretion of the Director of Information Technology for the purpose of maintaining system stability, security, and legal compliance."
 author: "Steven Barkey"
-date: 2024-02-07 11:30
+date: 2025-07-02 14:55
 ---
 
 <table class="software-status-table">
@@ -216,10 +216,10 @@ date: 2024-02-07 11:30
         <td></td>
     </tr>
     <tr>
-        <td>CleanMyMac X</td>
+        <td>CleanMyMac Business</td>
+        <td></td>
+        <td></td>
         <td>•</td>
-        <td></td>
-        <td></td>
         <td></td>
         <td></td>
     </tr>
