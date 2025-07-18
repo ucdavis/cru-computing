@@ -3,8 +3,8 @@ layout: teamlayout
 title: Team
 breadcrumb: <li><a href="/team">Team</a></li>
 description: One Lab Supporter in the Laboratory, <br>
-  Three Client Supporters under the sky, <br>
-  Three System Administrators in their cubicles of stone, <br>
+  Two Client Supporters under the sky, <br>
+  Two System Administrators in their cubicles of stone, <br>
   Five website developers doomed to code, <br>
   One Director to rule them all, One Director to find them, <br>
   One Director to bring them all and in the basement bind them <br>
@@ -64,8 +64,8 @@ permalink: /team
 <div class="row team-wrapper">
   {% assign team = site.team | where: "categories","alumni" %} {% for post in
   team %}
-  <div class="col-sm-4">
-    <div class="card card-height-fixed">
+  <div class="col-sm-3">
+    <div class="card">
       <div
         class="card-content text-center"
         vocab="http://schema.org"
@@ -78,7 +78,7 @@ permalink: /team
           alt="{{ post.name }}-icon"
         />
         <h2 property="name">{{ post.name }}</h2>
-        <p property="jobTitle">Currently: {{ post.role }}</p>
+        <!-- <p property="jobTitle">Currently: {{ post.role }}</p> -->
       </div>
     </div>
   </div>
